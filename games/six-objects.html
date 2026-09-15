@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Six Objects, Life Skills Arcade</title>
+<meta name="description" content="The tray from day 1: six objects, six units. Tap the unit each one stands for, then sort the things you do this year into the same six bins.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- Six Objects. Reviews Lesson 0.1, the year map: the tray of six objects and the six unit names. Built 2026-09-15 from plan/u0.json.
+     Everything on this page is static: no sound, no storage, no network. -->
+<div class="game" id="sixObjects">
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>This game reviews <a href="../lesson-00-01.html">Lesson 0.1, What Is FACS and Who Is in This Room</a>. Round 1 is the tray of six objects from day 1, each matched to the unit it stands for. Round 2 sorts the things students do in each unit (the six activities from Step 1 and the home skills from the do now) into the same six bins. Use it as the do now on day 2 or day 3 of the year, and again on the first day of any new unit to reset the map. A miss shows the plain unit name with its NYS module name in parentheses, the same pairing as Handout 00.01. Nothing is saved when the page closes.</p>
+</div>
+
+<div class="game-head"><img class="title-art" src="art/six-objects-title.webp" alt=""><h1 class="game-title">Six <span class="alt2">Objects</span></h1></div>
+<p class="game-lede">Six objects, six units. Tap the unit each one stands for. Then a fast round: which unit does each thing you do belong to?</p>
+
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" id="soRound">1 of 2</span></div>
+  <div class="stat timer" id="soTimerBox"><span class="lab">Seconds</span><span class="val" id="soTimer">8</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" id="soStreak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="soScore">0</span></div>
+</div>
+<div class="sr-live" aria-live="polite" id="soLive"></div>
+
+<div class="panel" id="soStart">
+  <h2>How to play</h2>
+  <p>Round 1: six objects, 8 seconds each. Round 2: twelve things you do, 6 seconds each. Every right tap is 10 points, and three in a row adds 5. A miss shows the right unit. Seconds left on a completed round bank as points.</p>
+  <p><button class="gbtn go" id="soGo" type="button">Start</button></p>
+</div>
+
+<div class="sr-play" id="soPlay" hidden>
+  <div class="sr-task"><span class="sr-tasklab" id="soLab">Round 1: the tray</span><span class="sr-tasktext so-prompt" id="soText"></span></div>
+  <div class="feedback" id="soFeed"></div>
+  <div class="so-bins" id="soBins"></div>
+</div>
+
+<div class="art-bank" id="soArt" hidden>
+<span data-key="wooden spoon"><img class="piece" src="art/six-objects-wooden-spoon.webp" alt="" loading="lazy"></span>
+<span data-key="coin"><img class="piece" src="art/six-objects-coin.webp" alt="" loading="lazy"></span>
+<span data-key="baby sock"><img class="piece" src="art/six-objects-baby-sock.webp" alt="" loading="lazy"></span>
+<span data-key="paint chip"><img class="piece" src="art/six-objects-paint-chip.webp" alt="" loading="lazy"></span>
+<span data-key="needle and thread"></span>
+<span data-key="can of beans"></span>
+</div>
+
+<div class="panel end" id="soEnd" hidden>
+  <h2>The year map</h2>
+  <p class="big" id="soFinal"></p>
+  <p id="soSummary"></p>
+  <div id="soMissWrap"><p><b>The ones to study:</b></p><ul class="miss-list" id="soMissed"></ul></div>
+  <div class="so-study"><p><b>Worth knowing by heart:</b></p><ul>
+    <li>The six units in order: Kitchen Skills and Smart Eating; Me, My Goals, My Money; Growing Up, Getting Along; Spaces We Live In; Make It, Mend It, Wear It; From Farm to Table.</li>
+    <li>The first cooking lab is on day 16 of the year.</li>
+    <li>The three things you can count on: I will tell you the day before if anything hot or sharp is coming; the board tells you what to do before you sit, every day; when the lights blink and I count down, hands go empty and eyes come here.</li>
+  </ul></div>
+  <p><button class="gbtn go" id="soAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;box-shadow:5px 5px 0 var(--outline)}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.so-prompt .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.so-bins{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+@media (min-width:700px){.so-bins{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.so-bins .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal}
+.so-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.so-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<script>
+(function () {
+  "use strict";
+  // The six units and their NYS module names, from Lesson 0.1 and Handout 00.01.
+  var BINS = [
+    {name: "Kitchen Skills and Smart Eating", nys: "Nutrition and Wellness"},
+    {name: "Me, My Goals, My Money", nys: "Individual Growth and Life Readiness"},
+    {name: "Growing Up, Getting Along", nys: "Human Development and Relationships"},
+    {name: "Spaces We Live In", nys: "Environmental Design and Management"},
+    {name: "Make It, Mend It, Wear It", nys: "Apparel and Textile Production and Design"},
+    {name: "From Farm to Table", nys: "Food Systems and Production"}
+  ];
+  // Round 1: the tray. Round 2: things you do, from Lesson 0.1 Step 1, the do now, and the check for understanding.
+  var ROUND1 = [
+    {key: "wooden spoon", text: "A wooden spoon", answer: 0},
+    {key: "coin", text: "A coin", answer: 1},
+    {key: "baby sock", text: "A baby sock", answer: 2},
+    {key: "paint chip", text: "A paint chip or tape measure", answer: 3},
+    {key: "needle and thread", text: "A needle and thread", answer: 4},
+    {key: "can of beans", text: "A can of beans", answer: 5}
+  ];
+  var ROUND2 = [
+    {text: "cook a real lab", answer: 0}, {text: "run a stock market simulation", answer: 1},
+    {text: "plan a babysitting kit", answer: 2}, {text: "design a room", answer: 3},
+    {text: "sew something they keep", answer: 4}, {text: "trace a food from the farm to the plate", answer: 5},
+    {text: "cook one thing", answer: 0}, {text: "watch a little kid", answer: 2},
+    {text: "find a deal", answer: 1}, {text: "sew a button", answer: 4},
+    {text: "hang shelves", answer: 3}, {text: "watch my cousin", answer: 2}
+  ];
+  var R1_SECS = 8, R2_SECS = 6;
+
+  // card pictures: a hidden bank in the page holds one image per object that has art (build_site.py fills it in, D52)
+  function art(key) { var im = document.querySelector('#soArt [data-key="' + key + '"] img'); return im ? im.cloneNode(true) : null; }
+
+  var startP = document.getElementById("soStart"), playP = document.getElementById("soPlay"), endP = document.getElementById("soEnd");
+  var elRound = document.getElementById("soRound"), elT = document.getElementById("soTimer"), elTB = document.getElementById("soTimerBox");
+  var elS = document.getElementById("soStreak"), elSc = document.getElementById("soScore"), live = document.getElementById("soLive");
+  var feed = document.getElementById("soFeed"), bins = document.getElementById("soBins"), txt = document.getElementById("soText"), lab = document.getElementById("soLab");
+
+  var score, streak, secs, tick, round, deck, qi, right1, right2, missed, locked, feedTimer, banked;
+
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function hud() {
+    elRound.textContent = round + " of 2"; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
+    elTB.className = "stat timer" + (secs <= 2 && tick ? " low" : "");
+  }
+  function say(text, cls) {
+    feed.textContent = text; feed.className = "feedback" + (cls ? " " + cls : "");
+    clearTimeout(feedTimer);
+    feedTimer = setTimeout(function () { feed.textContent = ""; feed.className = "feedback"; }, 2600);
+  }
+  function stopClock() { clearInterval(tick); tick = null; }
+  function startClock(n, onOut) {
+    stopClock(); secs = n; hud();
+    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
+  }
+  function scoreHit() { score += 10; streak += 1; if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; } return ""; }
+
+  function buildBins() {
+    bins.innerHTML = "";
+    BINS.forEach(function (b, i) {
+      var el = document.createElement("button"); el.type = "button"; el.className = "gbtn"; el.textContent = b.name; el.setAttribute("data-i", i);
+      el.addEventListener("click", function () { answer(i, el); });
+      bins.appendChild(el);
+    });
+  }
+  function startRound(r) {
+    round = r; qi = 0; locked = false;
+    deck = shuffle((r === 1 ? ROUND1 : ROUND2).slice());
+    lab.textContent = r === 1 ? "Round 1: the tray" : "Round 2: things you do";
+    playP.hidden = false; buildBins();
+    show();
+    playP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function show() {
+    var q = deck[qi];
+    lab.textContent = (round === 1 ? "Round 1: the tray, " : "Round 2: things you do, ") + (qi + 1) + " of " + deck.length;
+    txt.textContent = "";
+    var a = q.key ? art(q.key) : null; if (a) { txt.appendChild(a); }
+    txt.appendChild(document.createTextNode(round === 1 ? q.text + ". Which unit?" : "You " + q.text + ". Which unit?"));
+    live.textContent = (round === 1 ? q.text : "You " + q.text) + ". Which unit?";
+    locked = false;
+    startClock(round === 1 ? R1_SECS : R2_SECS, function () { answer(-1, null); });
+  }
+  function answer(i, btn) {
+    if (locked) { return; }
+    locked = true; stopClock();
+    var q = deck[qi], b = BINS[q.answer], ok = i === q.answer;
+    var bs = bins.querySelectorAll(".gbtn"); bs[q.answer].classList.add("right");
+    if (ok) {
+      if (round === 1) { right1 += 1; } else { right2 += 1; }
+      say("Yes. " + b.name + " (" + b.nys + ")." + scoreHit(), "good");
+    } else {
+      streak = 0; if (btn) { btn.classList.add("wrong"); }
+      say((i < 0 ? "Time. " : "No. ") + (round === 1 ? q.text : "You " + q.text) + " is " + b.name + " (" + b.nys + ").", "bad");
+      missed.push((round === 1 ? q.text : "You " + q.text) + ": " + b.name + " (" + b.nys + ")");
+    }
+    hud();
+    setTimeout(function () {
+      for (var k = 0; k < bs.length; k++) { bs[k].classList.remove("right", "wrong"); }
+      qi += 1;
+      if (qi < deck.length) { show(); return; }
+      // a completed round banks the seconds left on its last question
+      if (ok) { score += secs; banked += secs; }
+      if (round === 1) { startRound(2); } else { finish(); }
+    }, 1100);
+  }
+  function finish() {
+    stopClock();
+    playP.hidden = true; endP.hidden = false;
+    document.getElementById("soFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "six-objects", lesson: "0.1", score: score, max: 0, rounds: 2}); }
+    document.getElementById("soSummary").textContent = "The tray: " + right1 + " of 6. Things you do: " + right2 + " of 12." +
+      (missed.length ? "" : " Every object and every job in its unit. You know the map.");
+    var ul = document.getElementById("soMissed"); ul.innerHTML = "";
+    document.getElementById("soMissWrap").hidden = !missed.length;
+    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
+    endP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function begin() {
+    score = 0; streak = 0; missed = []; right1 = 0; right2 = 0; banked = 0;
+    startP.hidden = true; endP.hidden = true;
+    startRound(1);
+  }
+  document.getElementById("soGo").addEventListener("click", begin);
+  document.getElementById("soAgain").addEventListener("click", begin);
+  secs = R1_SECS; score = 0; streak = 0; round = 1; hud();
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-15. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>
