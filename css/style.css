@@ -4,7 +4,9 @@
    To change the per unit hues, edit ACCENT_HUES in _tools/build_site.py. */
 
 :root{
-  color-scheme:light dark;
+  /* The brand commits to its light arcade look (D20); the site renders the
+     same in every OS theme, and print has its own palette. */
+  color-scheme:light;
   --accent:hsl(212 62% 36%);
   --accent-soft:hsl(212 62% 95%);
   --accent-line:hsl(212 45% 78%);
@@ -45,26 +47,7 @@
   --shadow:0 1px 2px rgba(20,18,14,.05),0 6px 18px rgba(20,18,14,.05);
 }
 
-@media (prefers-color-scheme: dark){
-  :root{
-    --accent:hsl(212 70% 68%);
-    --accent-soft:hsl(212 40% 17%);
-    --accent-line:hsl(212 35% 32%);
-    --accent-ink:hsl(212 70% 78%);
-    --bg:#15161a;
-    --surface:#1c1e23;
-    --surface-2:#23262c;
-    --ink:#eceae6;
-    --ink-2:#c3c0ba;
-    --ink-3:#9a968e;
-    --line:#33363d;
-    --line-2:#2a2d33;
-    --note-bg:hsl(38 30% 17%);
-    --note-line:hsl(38 65% 52%);
-    --note-ink:hsl(40 60% 80%);
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
-  }
-}
+/* Dark-mode token overrides removed 2026-09-14: the brand is single-look. */
 
 [data-unit="00"]{--accent:hsl(212 62% 36%);--accent-soft:hsl(212 62% 95%);--accent-line:hsl(212 45% 78%);--accent-ink:hsl(212 60% 26%);}
 [data-unit="01"]{--accent:hsl(14 62% 36%);--accent-soft:hsl(14 62% 95%);--accent-line:hsl(14 45% 78%);--accent-ink:hsl(14 60% 26%);}
@@ -74,16 +57,6 @@
 [data-unit="05"]{--accent:hsl(332 62% 36%);--accent-soft:hsl(332 62% 95%);--accent-line:hsl(332 45% 78%);--accent-ink:hsl(332 60% 26%);}
 [data-unit="06"]{--accent:hsl(36 62% 36%);--accent-soft:hsl(36 62% 95%);--accent-line:hsl(36 45% 78%);--accent-ink:hsl(36 60% 26%);}
 [data-unit="07"]{--accent:hsl(244 62% 36%);--accent-soft:hsl(244 62% 95%);--accent-line:hsl(244 45% 78%);--accent-ink:hsl(244 60% 26%);}
-@media (prefers-color-scheme: dark){
-[data-unit="00"]{--accent:hsl(212 70% 68%);--accent-soft:hsl(212 40% 17%);--accent-line:hsl(212 35% 32%);--accent-ink:hsl(212 70% 78%);}
-[data-unit="01"]{--accent:hsl(14 70% 68%);--accent-soft:hsl(14 40% 17%);--accent-line:hsl(14 35% 32%);--accent-ink:hsl(14 70% 78%);}
-[data-unit="02"]{--accent:hsl(152 70% 68%);--accent-soft:hsl(152 40% 17%);--accent-line:hsl(152 35% 32%);--accent-ink:hsl(152 70% 78%);}
-[data-unit="03"]{--accent:hsl(282 70% 68%);--accent-soft:hsl(282 40% 17%);--accent-line:hsl(282 35% 32%);--accent-ink:hsl(282 70% 78%);}
-[data-unit="04"]{--accent:hsl(190 70% 68%);--accent-soft:hsl(190 40% 17%);--accent-line:hsl(190 35% 32%);--accent-ink:hsl(190 70% 78%);}
-[data-unit="05"]{--accent:hsl(332 70% 68%);--accent-soft:hsl(332 40% 17%);--accent-line:hsl(332 35% 32%);--accent-ink:hsl(332 70% 78%);}
-[data-unit="06"]{--accent:hsl(36 70% 68%);--accent-soft:hsl(36 40% 17%);--accent-line:hsl(36 35% 32%);--accent-ink:hsl(36 70% 78%);}
-[data-unit="07"]{--accent:hsl(244 70% 68%);--accent-soft:hsl(244 40% 17%);--accent-line:hsl(244 35% 32%);--accent-ink:hsl(244 70% 78%);}
-}
 
 *{box-sizing:border-box}
 [hidden]{display:none !important}
