@@ -263,7 +263,11 @@ blockquote{margin:1rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--
 
 /* Long fill-in blanks (______) and long file names in code never wrap on their
    own, and on a phone one of them widens the whole page. Let them break. */
-.doc p,.doc li,.doc td,.doc th,.doc dd,.lesson-sec p,.lesson-sec li,.lesson-sec td{overflow-wrap:anywhere}
+.doc p,.doc li,.doc dd,.doc h1,.doc h2,.doc h3,.doc h4,.lesson-sec p,.lesson-sec li{overflow-wrap:anywhere}
+/* Table cells never break a word letter by letter; a table that is too wide for a
+   phone scrolls sideways inside .table-wrap instead. */
+.doc td,.doc th,.lesson-sec td,.lesson-sec th,.table-wrap td,.table-wrap th{overflow-wrap:normal}
+@media (max-width:700px){.table-wrap td,.table-wrap th{min-width:6.5rem}}
 code{overflow-wrap:anywhere}
 
 /* ---------- tables ---------- */
