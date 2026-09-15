@@ -1,0 +1,136 @@
+# Lesson 1.3: Fire, Burns, Cuts, and What To Do
+
+**Unit:** Unit 1, Kitchen Skills and Smart Eating (Nutrition and Wellness)
+**Topic:** 1.1 Safe and Clean: Kitchen Safety and Sanitation
+**Grade:** 6 to 8 (written at grade 7; see Differentiation for the grade 6 support and grade 8 stretch)
+**Days:** 1 class period of 40 minutes
+**Room:** FACS lab with kitchen stations (a no-kitchen version is below)
+
+## Standards
+
+- NYS module line: NYS N&W 1. Culinary Management b) Demonstrate safety and sanitation procedures when handling food and equipment
+- CTE theme line: CTE HSW 4. Classroom and Workplace Safety c) Apply safety practices when using tools, machines, and equipment
+- CTE theme line: CTE HSW 4. Classroom and Workplace Safety d) Wear appropriate protective clothing and gear when using tools, machines, and equipment
+- CTE theme line: CTE HSW 4. Classroom and Workplace Safety f) Explain the purpose of Safety Data Sheets (SDS) for poisonous, toxic, or hazardous substances and know where to find them in the classroom or workplace
+- CTE theme line: CTE HSW 4. Classroom and Workplace Safety g) Understand and follow preplanned procedures in the case of accident or emergency
+- CTE theme line: CTE HSW 4. Classroom and Workplace Safety h) List the components of an accident report and explain the importance of preparing a thorough report should an accident occur in the classroom or workplace
+- NYS FACS Learning Standard 1 (Intermediate), Key Idea: Students will use an understanding of the elements of good nutrition to plan appropriate diets for themselves and others. They will know and use the appropriate tools and technologies for safe and healthy food preparation.; Performance Indicator: Students apply principles of food safety and sanitation.
+- CDOS Standard 3a Universal Foundation Skills: Personal Qualities
+- National FCS 3.0: 14.4.1 Examine the conditions and habits that keep food safe to eat.
+- National FCS 3.0: 1.2.7 Examine what keeps school, work, and community settings safe and healthy.
+
+(This lesson cites five HSW 4 lines because it is the one day of the year that covers protective gear, SDS, emergency procedures, and accident reports together. Later lessons cite one or two.)
+
+## Enduring understanding and essential question
+
+**Big idea:** In an emergency, the person who already knows what to do is the calm one. The plan has to be in your head before anything goes wrong.
+**Essential question:** When something goes wrong in a kitchen, what is the first thing you do, and why is it almost never the thing your instinct says?
+
+## Objectives
+
+By the end of this lesson, students will be able to:
+1. (Low) Without notes, state the correct first response to a grease fire, a burn, and a cut, and point to where the first aid kit, fire extinguisher, and Safety Data Sheets are kept in this room.
+2. (Mid) Given a "what would you do" scenario, apply the correct response in order (stop the danger, help the person, tell the teacher) and explain why the common wrong move (water on grease, ice on a burn) makes it worse.
+3. (High) Evaluate a team's response to a scenario against the class checklist and write the four parts of a short accident report for it.
+
+## Vocabulary
+
+Tier 2 (general academic): respond, procedure, evaluate, report
+Tier 3 (FACS): grease fire, oven mitt, PASS (pull, aim, squeeze, sweep), first aid, Safety Data Sheet (SDS), accident report, kitchen shears. See the unit vocabulary list (`Vocabulary 01.md`) for Turkish, Portuguese, and Spanish.
+
+## Materials and setup
+
+- A skillet with a lid that fits, a box of baking soda, and a dry oven mitt and a wet oven mitt (for the demo of why a wet mitt burns)
+- The room's fire extinguisher, or a photo of it on the slide if it cannot be taken off the wall; a training extinguisher if the school has one [Sal: ask the custodian; some buildings keep one for staff training]
+- The first aid kit, opened, and the Safety Data Sheet binder or folder (the unlabeled spray bottle from the Hazard Hunt goes next to it)
+- A blank accident report form from the school, or the four-line version on the slide [Sal: use your school's real form once you have it]
+- Butter knives and kitchen shears, one of each, to show what "the only cutting tools in this course" means
+- What Would You Do scenario cards, one set per team, cut apart: `Handout 01.03 - What Would You Do Scenarios.md` (8 scenarios)
+- One relay answer sheet per team (the second page of the handout)
+- Slides: `Slides 01.03 - Fire, Burns, Cuts, and What To Do.md`
+- Timer visible to the class
+- Setup notes: no burner is lit today. The skillet and lid are for the motion, not for fire. If the nurse or custodian is visiting, they come in at Step 2 for five minutes; confirm the day before. Walk the exit route yourself before class so you can say it in ten seconds. Allergy check: no food is handled today.
+
+## Pre-assessment
+
+The do now is the pre-assessment. Most students say "water" for a grease fire and "ice" or "butter" for a burn. Count the hands. The number who say water is how many people this lesson keeps out of the emergency room.
+
+## Do now and hook (Time: 5 min)
+
+On the board: "Oil in a pan catches fire on the stove. Write the first thing you would do. Be honest."
+
+Debrief: hand vote for water, blanket or towel, lid, run, or something else. Do not correct yet. Then the hook: show the slide that describes what happens when a cup of water hits a grease fire (a fireball to the ceiling, because water sinks under the oil, turns to steam instantly, and throws burning oil everywhere). [Sal: a 20-second fire department demo video works better than the description if the school allows video; the description on the slide is the no-video version.] Say: "Everyone who voted water just made a small fire into a big one. Today you learn what to do instead."
+
+## Procedure
+
+| Step | Teacher will | Students will | Time |
+|---|---|---|---|
+| 1. Direct instruction with props: what to do | Teach in this order, one slide each, with the prop in hand. (a) Stove and oven: pot handles turned in, dry mitts only (pass the wet mitt around; steam goes through a wet mitt in a second), nothing on the stove that is not a pot, in this course I open the oven door and I drain the pasta. (b) Grease fire: turn off the burner, slide the lid on from the side, leave it there, or dump baking soda on a small one. Never water, never flour, never carry the pan. The extinguisher is for adults: PASS is pull the pin, aim at the base, squeeze, sweep. Students get out and tell the teacher. (c) Burns: cool running water for at least 10 minutes, no ice, no butter, no toothpaste; cover loosely; tell the teacher; the nurse decides what happens next. (d) Cuts: press with a clean paper towel, raise the hand above the heart, tell the teacher; blood on food means the food goes in the trash. (e) The zero-knife policy: butter knives and kitchen shears only, and shears go point down in the bin. Explain why: the course does not need sharp knives to cook everything on the menu, and a cut takes a station out for the day. | Take notes on the four-box outline (Fire, Burn, Cut, Tools). Practice the lid motion on the skillet when it comes to their station. Say PASS back with the hand motion. | 10 min |
+| 2. Room tour: where things are and what happens after | Walk the room with the class following. Point: the first aid kit and what is in it; the extinguisher and the sign above it; the Safety Data Sheets and what they are (the sheet that says what is in a cleaner, what it does to you, and what to do if it gets in your eyes; every cleaner in the room has one; the unlabeled bottle from the hunt is the reason we label); the exit and where the class lines up; the gas shutoff, if the room has one, which is teacher only. Then the four parts of the accident report: (1) what happened, when, and where; (2) who was involved and who saw it; (3) what was done (first aid, nurse); (4) what we change so it does not happen again. Say why it matters: the nurse and the parents need the facts, and the report is how the room gets safer. If the nurse or custodian is visiting, they take three of these minutes. | Follow, look, and fill in the room map on the handout's first page with the four locations (kit, extinguisher, SDS, exit). Two students say back the four parts of an accident report. | 6 min |
+| 3. Learning activity: What Would You Do relay | Teams at home base. Rules: the runner takes one scenario card from the front table, brings it back, the team reads it aloud, writes the response on the answer sheet in three lines (stop the danger, help the person, tell the teacher), and the runner brings it up for a check. A correct card earns a point; a wrong card goes back with one hint. Runner rotates every card. Start the timer. Check answers against the key fast; the point of the relay is speed with the right order. | Run, read, decide, write, run. Every team member is the runner at least once. | 11 min |
+| 4. Debrief | Take the two scenarios teams got wrong most (usually the burn with ice and the "small" fire someone tries to carry to the sink). Ask a team to read its answer; ask the room to check it against the three-line checklist. Give the score and the reminder: in a real emergency you tell me first, before you do anything clever. | Read an answer aloud. Evaluate a classmate's response against the checklist with a thumb and one reason. | 4 min |
+
+## Questions to ask
+
+Monitor understanding:
+- What is the first thing that happens when water hits burning oil? So what do we use instead?
+- Why no ice on a burn? What is the number of minutes for cool water?
+- Where is the SDS binder, and what would you look up in it?
+
+Deepen learning:
+- Why do you think I would rather drain the pasta myself than let a team of seven do it?
+- If a student cuts a finger and hides it because they do not want to lose lab points, who else gets hurt by that choice?
+- The accident report asks "what do we change." Why is that the most important line on the form?
+
+## Check for understanding
+
+Clipboard checklist during Step 3: for each team, a yes or no on "response in the right order (danger, person, teacher)," "no forbidden move (water, ice, butter, carrying the pan)," and "names the right location or item when the card asks for one." Three yeses on two cards in a row means the team is ready for the exam scenarios. A team that writes "tell the teacher" as the only line gets the card back with the question "and before I get there?"
+
+## Closure (Time: 4 min)
+
+3-2-1 exit card: 3 things you never put on a grease fire or a burn, 2 places in this room you could walk to with your eyes closed (name the item at each), 1 part of an accident report. Three students read one line aloud. Sort into "got it" and "needs more." Any card that still says water or ice goes in a pile you re-teach in the Lesson 1.4 review game.
+
+## Differentiation and supports
+
+- ELL: each response is a three-picture strip on the slide (a lid on a pan, a hand under a faucet, a hand pressed with a towel) with the verb under each picture; the scenario cards use short sentences and the same six verbs (turn off, cover, cool, press, raise, tell); the word bank includes fire, burn, cut, stop, and help in Turkish, Portuguese, and Spanish (see `Vocabulary 01.md`). The relay is spoken and moved, so a student who reads slowly still competes.
+- IEP and 504 (general): a student who cannot run is the team's permanent recorder or judge; printed response strips (danger, person, teacher) sit on every team table; the room tour has the four locations on a printed map so nobody has to hold the tour in memory; extended time on the exit card.
+- Grade 6 support: the relay uses six cards (drop scenarios 7 and 8, which need the accident report and the SDS); the answer sheet has the three lines pre-labeled.
+- Grade 8 stretch: after the relay, each team writes a full four-part accident report for one scenario it answered, and one team reads theirs aloud in the debrief; teams also write one line on what the room would change after that accident.
+- UDL checkpoint used: multiple means of representation (props in hand plus pictures plus a walk of the real room) and multiple means of engagement (the relay is a timed team game with a score).
+- No-kitchen alternative: the skillet, lid, mitts, and baking soda travel to any classroom in a bin. The room tour becomes a tour of that classroom's kit, extinguisher, and exit, and the FACS room's SDS location is shown on a photo slide. Everything else is the same.
+
+## Assessment
+
+| Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
+|---|---|---|---|
+| 1. State the first response to fire, burn, and cut; locate the kit, extinguisher, and SDS | N&W 1. b); HSW 4. c), d), f); Std 1 PI B | Step 1 notes; Step 2 room map | Formative; room map checked for four locations, exit card; summative on Kitchen Safety Exam items 10 and 11 |
+| 2. Apply the right response in order and explain the wrong move | N&W 1. b); HSW 4. g); National FCS 14.4.1 and 1.2.7 | Relay, Step 3 | Formative; clipboard checklist and team relay score; summative on Kitchen Safety Exam items 12 to 14 |
+| 3. Evaluate a response and write the four parts of an accident report | HSW 4. h); CDOS 3a Personal Qualities | Debrief, Step 4; grade 8 stretch report | Formative; accident report scored complete, partial, or missing for daily work |
+
+The whole topic is assessed summatively on the Kitchen Safety Exam at the end of Lesson 1.4.
+
+## Homework
+
+None. Optional: find out whether your home has a fire extinguisher and where it is. If it does not, tell an adult that the kitchen is the place for one. Be ready to say what you found.
+
+## Connections
+
+Inside the building: the school nurse or custodian visits for five minutes during Step 2 to show the kit, the extinguisher, and how an accident gets reported. FACS gives the nurse a class that knows where the kit is; the nurse gives FACS a second adult voice on safety. Community: the local fire department's public education officer, if available, can run the grease fire portion with a real demo in the parking lot; FACS gives them 90 students in one day, and the students get to see the fireball once so they never forget it.
+
+## Sources
+
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c), d), f), g), and h). Same folder.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.4.1 and 1.2.7.
+- Burn first aid (cool running water, no ice) and grease fire response (lid, no water) follow public guidance from the American Red Cross and the U.S. Fire Administration. PASS is the standard extinguisher sequence taught by the National Fire Protection Association. [Sal: confirm the current pages before the site goes public.]
+- Sal's own materials: the zero-knife policy, no frying, pre-cooked meat only, teacher drains pasta and handles the oven door, from the King Kullen menu documents and Brentwood lab constraints (Education/TeachingWork/LessonPlans).
+
+## Teacher notes
+
+- If time runs short, cut the relay to five cards and take one scenario in the debrief. Never cut the room tour; students need to have walked to the kit and the extinguisher once with their feet.
+- Common mistake: students think the extinguisher is a game. Say plainly: it is for adults, it makes a mess, and if you ever have to use one, you have already done the right thing by getting out and calling for me.
+- Common mistake: "cover the pan" turns into "throw a towel on it" in student answers. A towel catches fire. A lid does not. Say lid every time.
+- The wet mitt demo is worth the 30 seconds. Wet it in front of them and ask what happens when steam comes through cloth.
+- [Sal: your school's fire drill route and accident report form replace the generic ones here. Fill in the room map on the handout with real locations the first week you have the room.]
+- Keep the relay answer sheets. The scenarios teams miss become exam review in Lesson 1.4.
