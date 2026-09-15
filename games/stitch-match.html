@@ -205,7 +205,7 @@
       secs -= 1; hud();
       if (secs <= 0) { clearInterval(tick); finish(); }
     }, 1000);
-    document.getElementById("smPlay").scrollIntoView({behavior: "smooth", block: "start"});
+    document.querySelector("#stitchMatch .hud").scrollIntoView({behavior: "smooth", block: "start"});
   }
   function finish() {
     running = false; locked = true;

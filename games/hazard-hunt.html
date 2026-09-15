@@ -197,8 +197,10 @@
   <!-- floor: wet towel and backpack (hazards), trash can (safe) -->
   <g id="hz-wet">
     <ellipse cx="200" cy="432" rx="70" ry="16" fill="#8FD6F0" stroke="#111" stroke-width="2"/>
-    <path d="M150 420 l22 -10 l24 8 l28 -10 l22 12 l-6 20 l-30 6 l-30 -6 l-32 2 z" fill="#FF5A4D" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M166 426 l60 -4" stroke="#111" stroke-width="2"/>
+    <path d="M148 418 l26 -12 l70 6 l14 20 l-24 12 l-72 -4 z" fill="#FFF6DC" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M160 426 l66 4M158 436 l70 4" stroke="#FF5A4D" stroke-width="4"/>
+    <path d="M174 406 l70 6" stroke="#111" stroke-width="2"/>
+    <path d="M136 452 q6 -6 12 0M244 452 q6 -6 12 0M190 456 q6 -6 12 0" fill="none" stroke="#111" stroke-width="2"/>
   </g>
   <g id="hz-bag">
     <path d="M560 470 q-10 -70 40 -70 q50 0 40 70 z" fill="#7FD44C" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
@@ -393,7 +395,7 @@
       if (secs <= 0) { secs = 0; hud(); endHunt(false); return; }
       hud();
     }, 1000);
-    document.getElementById("hhScene").scrollIntoView({behavior: "smooth", block: "start"});
+    document.querySelector("#hazardHunt .hud").scrollIntoView({behavior: "smooth", block: "start"});
   }
   // Round 2
   function startRound2() {

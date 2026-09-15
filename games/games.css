@@ -3,6 +3,7 @@
    header, footer, and type. No sound, no storage, no network. */
 
 .game{max-width:900px;margin:0 auto}
+.hud,.panel,.ld-play,.sm-play,.scene{scroll-margin-top:7.5rem}
 .teacher-note{
   background:#fff;border:2.5px solid var(--outline);border-radius:12px;
   padding:.85rem 1rem;margin:0 0 1.4rem;font-size:.92rem;line-height:1.5;

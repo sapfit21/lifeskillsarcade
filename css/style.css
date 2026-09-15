@@ -525,4 +525,10 @@ table.lessons tbody td:first-child{padding-left:.55rem}
   .site-foot p{border-top:.5pt solid #999;padding:.4rem 0 0;font-size:8pt}
   .slide{border:.5pt solid #999;border-left-width:2pt;box-shadow:none;margin-bottom:.4rem}
   .slide-head,.slide-notes-box{background:#f6f6f6}
+  /* The LSA badge in the top right corner of every printed page set (D31).
+     Outline only, black on white, so a copier keeps it crisp. */
+  main{position:relative}
+  main::before{content:"LSA";position:absolute;top:0;right:0;font:900 8pt/1 "Arial Black",Arial,sans-serif;
+    color:#000;border:1.5pt solid #000;border-radius:4pt;padding:4pt 3pt 3pt;letter-spacing:.02em}
+  .page-head{padding-right:3.2rem}
 }

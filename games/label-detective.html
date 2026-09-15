@@ -298,7 +298,7 @@
     idx += 1;
     if (idx >= pool.length) { finish(); return; }
     show();
-    document.getElementById("ldPlay").scrollIntoView({behavior: "smooth", block: "start"});
+    document.querySelector("#labelDetective .hud").scrollIntoView({behavior: "smooth", block: "start"});
   }
   function start() {
     pool = [];
@@ -310,7 +310,7 @@
     document.getElementById("ldEnd").hidden = true;
     document.getElementById("ldPlay").hidden = false;
     show();
-    document.getElementById("ldPlay").scrollIntoView({behavior: "smooth", block: "start"});
+    document.querySelector("#labelDetective .hud").scrollIntoView({behavior: "smooth", block: "start"});
   }
   function finish() {
     document.getElementById("ldPlay").hidden = true;
