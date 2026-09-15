@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farm to Fork, Life Skills Arcade</title>
+<meta name="description" content="A food shows up with its ten steps shuffled and two cards that do not belong. Order the chain against the clock, then call it: in season in New York this month, or not?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15">
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- Farm to Fork. Reviews Lesson 6.1 (the food supply chain) and Lesson 6.2 (local, seasonal, global). Built 2026-09-15.
+     Everything on this page is static: no sound, no storage, no network. -->
+<div class="game" id="farmToFork">
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>This game reviews <a href="../lesson-06-01.html">Lesson 6.1, Trace a Food From Farm to Plate</a> and <a href="../lesson-06-02.html">Lesson 6.2, Local, Seasonal, and Global</a>. Round 1 uses the lesson's ten steps in the lesson's words (grow or raise, harvest, process, package, transport, store, sell, cook, eat, leftovers and waste) for one of the four traced foods (milk, bread, banana, chicken nugget), shuffled with the two decoy cards from Handout 6.1; every placed card names the job at that step. Round 2 draws a month and eight foods from the New York seasonal chart in Handout 6.2: is it from New York that month or not? Fresh (F) and stored (S) both count as New York grown, the way the handout keys them [Sal: the chart carries your own check note; the game reads whatever the chart says]. Use it as the do now before Lesson 6.3 or as review before the Food Systems Quiz. Nothing is saved when the page closes.</p>
+</div>
+
+<h1 class="game-title">Farm to <span class="alt2">Fork</span></h1>
+<p class="game-lede">A food shows up with its steps shuffled. Tap the ten steps in order before the clock runs out, and spot the two cards that do not belong. Then: in season here, or not?</p>
+
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" id="ffRound">1 of 2</span></div>
+  <div class="stat timer" id="ffTimerBox"><span class="lab">Seconds</span><span class="val" id="ffTimer">60</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" id="ffStreak">0</span></div>
+  <div class="stat"><span class="lab">Score</span><span class="val" id="ffScore">0</span></div>
+</div>
+<div class="sr-live" aria-live="polite" id="ffLive"></div>
+
+<div class="panel" id="ffStart">
+  <h2>How to play</h2>
+  <p>Round 1: 60 seconds. Tap the ten steps in order, 10 points each; a wrong tap costs 3 seconds, and the two decoy cards are wrong taps with a reason. Finish and the seconds left are added. Round 2: a month and eight foods, 6 seconds each. From New York that month, or not? 10 points each. Three in a row adds 5.</p>
+  <p><button class="gbtn go" id="ffGo" type="button">Start</button></p>
+</div>
+
+<div class="ff-play" id="ffPlay" hidden>
+  <div class="gr-situation"><span class="sr-tasklab" id="ffLab">Round 1: the chain</span><span class="gr-text" id="ffText"></span></div>
+  <div class="feedback" id="ffFeed"></div>
+  <ol class="sr-slots ff-slots" id="ffSlots"></ol>
+  <div class="sr-cards ff-cards" id="ffCards"></div>
+</div>
+
+<div class="ff-play" id="ffSeason" hidden>
+  <div class="gr-situation"><span class="sr-tasklab" id="ffSLab">Round 2: in season?</span><span class="gr-text" id="ffSText"></span></div>
+  <div class="feedback" id="ffSFeed"></div>
+  <div class="choice-row">
+    <button class="gbtn go" type="button" id="ffYes">From New York this month</button>
+    <button class="gbtn red" type="button" id="ffNo">Not this month</button>
+  </div>
+</div>
+
+<div class="panel" id="ffEnd" hidden>
+  <h2>Plate cleared</h2>
+  <p class="big" id="ffFinal"></p>
+  <p id="ffSummary"></p>
+  <div id="ffMissWrap"><p><b>Look at these again:</b></p><ul class="miss-list" id="ffMissed"></ul></div>
+  <p><button class="gbtn go" id="ffAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.gr-situation{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;box-shadow:5px 5px 0 var(--outline)}
+.gr-text{display:block;font-size:1.25rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.35rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(5,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:2.6rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.4rem .5rem .4rem 2.1rem;
+  position:relative;background:var(--surface-2);font-size:.9rem;line-height:1.25;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.5rem;top:.35rem;font-family:var(--display);font-size:1.15rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.45rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 .95rem/1.3 var(--sans);text-align:left;padding:.65rem .75rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card.decoy{background:#C7D3DA;text-decoration:line-through}
+.sr-card[hidden]{display:none}
+#ffSeason .choice-row .gbtn{flex:1 1 45%}
+</style>
+
+<script>
+(function () {
+  "use strict";
+  var STEPS = ["Grow or raise", "Harvest", "Process", "Package", "Transport", "Store", "Sell", "Cook", "Eat", "Leftovers and waste"];
+  // Jobs and decoys from Handout 6.1, one set per traced food.
+  var FOODS = [
+    {name: "a half gallon of milk", jobs: ["dairy farmer, herd manager", "milking technician", "plant operator, quality lab technician", "filler line operator", "truck driver, loader", "warehouse picker, refrigeration mechanic", "delivery driver, stock clerk, cashier", "you (most milk is poured, not cooked)", "you and whoever you live with", "you (about 1 glass in 5 is never drunk)"],
+     decoys: [["The farmer sets the price consumers pay at the store.", "The farmer's share is about 30 cents; the store sets the price."], ["Milk is frozen for shipping and thawed at the store.", "Milk is kept cold, 36 to 38 degrees, the whole way. Never frozen."]],
+     total: "About 6 to 12 days from cow to glass. About 19 people paid along the way."},
+    {name: "a loaf of sandwich bread", jobs: ["grain farmer", "combine operator, elevator worker", "miller, baker, mixer operator", "packaging line worker", "route driver", "stock clerk (bread is not refrigerated)", "stock clerk, cashier", "you (toast or a sandwich)", "you and whoever you live with", "you (the heels are the most thrown-out part)"],
+     decoys: [["Bread has to be refrigerated the whole way from the bakery to keep it fresh.", "Bread is never refrigerated. It goes stale in days at room temperature."], ["Wheat is ground into flour at the store's own bakery.", "A mill grinds the wheat. The bakery mixes and bakes."]],
+     total: "About 9 to 10 months from field to sandwich, of which 3 days is the part after the farm. About 15 people paid."},
+    {name: "a banana", jobs: ["farm worker, field supervisor", "harvest crew (cut green, by hand)", "packing shed worker, quality inspector", "box packer", "dock worker, ship crew, truck driver, customs broker", "ripening room technician", "produce clerk, cashier", "you (most bananas are not cooked)", "you", "you (the peel is about 35 percent of the weight)"],
+     decoys: [["Bananas are picked ripe and shipped fast so they arrive yellow.", "Bananas are cut green and hard. A ripe banana cannot travel."], ["Most bananas eaten in New York are grown in Florida.", "They grow on large farms in Central and South America, 2,000 miles or more away."]],
+     total: "The whole trick of the banana is that it is picked green and ripened here on a schedule."},
+    {name: "a bag of chicken nuggets", jobs: ["poultry grower, feed supplier, veterinarian", "catch crew, plant worker, USDA inspector", "formulation technician, line operator, food scientist", "packaging operator, quality technician", "refrigerated truck driver", "warehouse worker, refrigeration mechanic", "frozen foods clerk, cashier", "you (they are already fully cooked; this step is reheating)", "you and whoever you live with", "you (two hours out and they are not safe to keep)"],
+     decoys: [["Chicken nuggets are raw when you buy them and cooking them at home is what makes them safe.", "They are fully cooked at the plant. Cooking at home is reheating."], ["Nuggets are made from one whole piece of breast meat per nugget.", "Trim and breast meat are ground, mixed, and formed into the shape."]],
+     total: "Cold the whole way, and colder than milk: 0 degrees on the truck."}
+  ];
+  // The New York seasonal chart from Handout 6.2. Each string is Jan to Dec: F fresh, S stored, . not available.
+  var CHART = [
+    ["Apples", "SSSS...FFFFS"], ["Asparagus", "....FF......"], ["Beets", "SS...FFFFFFS"], ["Blueberries", ".....FFF...."],
+    ["Broccoli", ".....FFFFF.."], ["Cabbage", "SSS..FFFFFFS"], ["Carrots", "SSS..FFFFFFS"], ["Sweet corn", "......FFF..."],
+    ["Cucumbers", ".....FFFF..."], ["Eggs from New York farms", "FFFFFFFFFFFF"], ["Greenhouse greens", "FFFFFFFFFFFF"], ["Field lettuce", "....FFFFFF.."],
+    ["Milk and dairy", "FFFFFFFFFFFF"], ["Mushrooms", "FFFFFFFFFFFF"], ["Onions", "SSS...FFFFFS"], ["Peaches", "......FFF..."],
+    ["Potatoes", "SSSS..FFFFFS"], ["Pumpkins and squash", "SS.....FFFFS"], ["Strawberries", ".....FF....."], ["Field tomatoes", "......FFFF.."],
+    ["Greenhouse tomatoes", "FFFFFFFFFFFF"]
+  ];
+  var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var R1_SECS = 60, R2_SECS = 6, R2_N = 8;
+
+  var startP = document.getElementById("ffStart"), playP = document.getElementById("ffPlay"), seasonP = document.getElementById("ffSeason"), endP = document.getElementById("ffEnd");
+  var elR = document.getElementById("ffRound"), elT = document.getElementById("ffTimer"), elTB = document.getElementById("ffTimerBox");
+  var elS = document.getElementById("ffStreak"), elSc = document.getElementById("ffScore"), live = document.getElementById("ffLive");
+  var feed = document.getElementById("ffFeed"), sfeed = document.getElementById("ffSFeed"), feedTimer;
+  var food, next, score, streak, secs, tick, locked, missed, month, deck, di, sright, r1done;
+
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function hud() { elR.textContent = (seasonP.hidden ? "1" : "2") + " of 2"; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score; elTB.className = "stat timer" + (secs <= 5 && tick ? " low" : ""); }
+  function say(el, text, cls) { el.textContent = text; el.className = "feedback" + (cls ? " " + cls : ""); clearTimeout(feedTimer); feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 3000); }
+  function stopClock() { clearInterval(tick); tick = null; }
+  function startClock(n, onOut) { stopClock(); secs = n; hud(); tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000); }
+  function bonus() { score += 10; streak += 1; if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; } return ""; }
+
+  // ---- round 1 ----
+  function startRound1() {
+    food = FOODS[Math.floor(Math.random() * FOODS.length)]; next = 0; locked = false; r1done = 0;
+    document.getElementById("ffLab").textContent = "Round 1: the chain";
+    document.getElementById("ffText").textContent = "The food is " + food.name + ". Tap the ten steps in order. Two of these cards do not belong.";
+    var slots = document.getElementById("ffSlots"), cards = document.getElementById("ffCards");
+    slots.innerHTML = ""; cards.innerHTML = "";
+    STEPS.forEach(function () { var li = document.createElement("li"); li.textContent = " "; slots.appendChild(li); });
+    var items = STEPS.map(function (s, i) { return {i: i, t: s}; }).concat(food.decoys.map(function (d) { return {i: -1, t: d[0], why: d[1]}; }));
+    shuffle(items).forEach(function (it) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "sr-card"; b.textContent = it.t;
+      b.addEventListener("click", function () { tapStep(it, b); });
+      cards.appendChild(b);
+    });
+    playP.hidden = false; seasonP.hidden = true;
+    live.textContent = "The food is " + food.name + ". Tap the ten steps in order.";
+    startClock(R1_SECS, function () { endRound1(false); });
+    playP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function fill(i, cls) { var li = document.getElementById("ffSlots").children[i]; li.textContent = STEPS[i]; li.className = cls; }
+  function tapStep(it, b) {
+    if (locked || !tick) { return; }
+    if (it.i === next) {
+      b.hidden = true; fill(it.i, "filled"); next += 1; r1done += 1;
+      say(feed, "Step " + next + ", " + STEPS[it.i] + ". Job: " + food.jobs[it.i] + "." + bonus(), "good");
+      live.textContent = "Step " + next + ": " + STEPS[it.i];
+      hud();
+      if (next === STEPS.length) { endRound1(true); }
+    } else if (it.i === -1) {
+      streak = 0; secs = Math.max(0, secs - 3); b.classList.add("decoy");
+      say(feed, "That card does not belong. " + it.why + " Minus 3 seconds.", "bad"); hud();
+      if (secs === 0) { stopClock(); endRound1(false); }
+    } else {
+      streak = 0; secs = Math.max(0, secs - 3);
+      b.classList.add("wrong"); setTimeout(function () { b.classList.remove("wrong"); }, 500);
+      say(feed, "Not yet. That is not step " + (next + 1) + ". Minus 3 seconds.", "bad"); hud();
+      if (secs === 0) { stopClock(); endRound1(false); }
+    }
+  }
+  function endRound1(done) {
+    stopClock(); locked = true;
+    if (done) { score += secs; say(feed, "All ten. " + food.total + " " + secs + " seconds left, added to your score.", "good"); }
+    else {
+      say(feed, "Time. Here is the order. " + food.total, "");
+      for (var i = next; i < STEPS.length; i++) { fill(i, "shown"); }
+      missed.push("The ten steps for " + food.name + ": " + STEPS.join(", ") + ".");
+      var bs = document.querySelectorAll("#ffCards .sr-card"); for (var k = 0; k < bs.length; k++) { bs[k].hidden = true; }
+    }
+    hud();
+    setTimeout(startRound2, done ? 1800 : 3600);
+  }
+
+  // ---- round 2 ----
+  function startRound2() {
+    playP.hidden = true; seasonP.hidden = false;
+    month = Math.floor(Math.random() * 12);
+    var yes = shuffle(CHART.filter(function (c) { return c[1].charAt(month) !== "."; })).slice(0, 4);
+    var no = shuffle(CHART.filter(function (c) { return c[1].charAt(month) === "."; })).slice(0, 4);
+    deck = shuffle(yes.concat(no)); di = 0; sright = 0;
+    if (deck.length < R2_N) { deck = shuffle(CHART.slice()).slice(0, R2_N); }
+    hud(); askSeason();
+    seasonP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function askSeason() {
+    locked = false;
+    var c = deck[di];
+    document.getElementById("ffSLab").textContent = "Round 2: it is " + MONTHS[month] + ". " + (di + 1) + " of " + deck.length;
+    document.getElementById("ffSText").textContent = c[0];
+    live.textContent = MONTHS[month] + ". " + c[0] + ". From New York this month?";
+    startClock(R2_SECS, function () { answerSeason(null); });
+  }
+  function answerSeason(yes) {
+    if (locked) { return; } locked = true; stopClock();
+    var c = deck[di], code = c[1].charAt(month), avail = code !== "."; var ok = yes === avail;
+    var meaning = code === "F" ? "fresh from a New York field or greenhouse" : code === "S" ? "stored from an earlier harvest and still New York grown" : "not available from New York that month; it has to travel";
+    if (ok) { sright += 1; say(sfeed, "Yes. " + c[0] + " in " + MONTHS[month] + ": " + meaning + "." + bonus(), "good"); }
+    else { streak = 0; say(sfeed, (yes === null ? "Time. " : "No. ") + c[0] + " in " + MONTHS[month] + ": " + meaning + ".", "bad"); missed.push(c[0] + " in " + MONTHS[month] + ": " + meaning + "."); }
+    hud();
+    setTimeout(function () { di += 1; if (di >= deck.length) { finish(); } else { askSeason(); } }, 1900);
+  }
+  function finish() {
+    seasonP.hidden = true; endP.hidden = false;
+    document.getElementById("ffFinal").textContent = score + " points";
+    document.getElementById("ffSummary").textContent = "Chain: " + r1done + " of 10 steps placed for " + food.name + ". Season: " + sright + " of " + deck.length + " right for " + MONTHS[month] + ".";
+    var ul = document.getElementById("ffMissed"); ul.innerHTML = "";
+    document.getElementById("ffMissWrap").hidden = !missed.length;
+    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
+    endP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function begin() {
+    score = 0; streak = 0; missed = [];
+    startP.hidden = true; endP.hidden = true;
+    startRound1();
+  }
+  document.getElementById("ffYes").addEventListener("click", function () { answerSeason(true); });
+  document.getElementById("ffNo").addEventListener("click", function () { answerSeason(false); });
+  document.getElementById("ffGo").addEventListener("click", begin);
+  document.getElementById("ffAgain").addEventListener("click", begin);
+  score = 0; streak = 0; secs = R1_SECS; hud();
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-15. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>
