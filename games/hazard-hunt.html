@@ -272,7 +272,7 @@
   <h2>Round 2: name the family</h2>
   <p>You have 30 seconds. For each hazard you found, tap its family. 5 points each.</p>
   <p class="big" id="hhR2Item"></p>
-  <div class="choice-row" id="hhFamilies"></div>
+  <div class="choice-row hh-fam" id="hhFamilies"></div>
 </div>
 
 <div class="panel" id="hhEnd" hidden>
@@ -283,6 +283,15 @@
   <p><button class="gbtn go" id="hhAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
+
+<style>
+/* Round 2: six family buttons in a 3 by 2 grid, all the same size, whatever the label length. */
+.hh-fam{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:1fr;gap:.5rem}
+.hh-fam .gbtn{flex:none;width:100%;min-height:3.6rem;padding:.55rem .3rem;font-size:.95rem;line-height:1.15;text-align:center;
+  display:flex;align-items:center;justify-content:center}
+@media (max-width:480px){.hh-fam .gbtn{font-size:.84rem}}
+@media (max-width:340px){.hh-fam .gbtn{font-size:.76rem}}
+</style>
 
 <script>
 (function () {
