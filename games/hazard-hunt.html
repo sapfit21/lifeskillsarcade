@@ -219,6 +219,8 @@
        piece sized to its hit region below. Hidden until the files exist. -->
   <g id="hhArt" style="display:none">
     <image id="hhArtScene" data-href="art/hazard-hunt-scene.webp" x="0" y="0" width="880" height="520" preserveAspectRatio="none"/>
+    <image id="hhArtFull" data-href="art/hazard-hunt-full.webp" x="0" y="0" width="880" height="520" preserveAspectRatio="none" style="display:none"/>
+    <image id="hhArtEight" data-has="1" data-href="art/hazard-hunt-eight.webp" x="0" y="0" width="880" height="520" preserveAspectRatio="none" style="display:none"/>
     <image data-art="pot" data-href="art/hazard-hunt-pot.webp" x="345" y="182" width="80" height="68"/>
     <image data-art="mitt" data-href="art/hazard-hunt-mitt.webp" x="238" y="158" width="50" height="66"/>
     <image data-art="knife" data-href="art/hazard-hunt-knife.webp" x="70" y="195" width="84" height="60"/>
@@ -340,6 +342,13 @@
   }
   function setScene(count) {
     active = Object.keys(HAZARDS).filter(function (k) { return count === 12 || HAZARDS[k].core; });
+    if (ART_MODE === 2) {
+      var eight = document.getElementById("hhArtEight"), full = document.getElementById("hhArtFull");
+      var hasEight = eight.getAttribute("href") && eight.getAttribute("data-has") === "1";
+      if (count === 8 && !hasEight) { active = Object.keys(HAZARDS); count = 12; document.getElementById("hhCount").value = "12"; }
+      full.style.display = count === 12 ? "" : "none";
+      eight.style.display = count === 8 ? "" : "none";
+    }
     Object.keys(HAZARDS).forEach(function (k) {
       var g = document.getElementById("hz-" + k);
       var hit = hits.querySelector('[data-hz="' + k + '"]');
@@ -499,10 +508,33 @@
   }
   // Art swap. build_site.py sets HAS_ART to 1 when _tools/games/art holds the
   // scene, so a page without art never asks the server for image files.
-  var HAS_ART = 1;
-  if (HAS_ART === 1) {
+  // ART_MODE 0: the drawing. 1: the generated empty scene with twelve separate pieces.
+  // 2: one generated picture with the twelve hazards drawn into it (hazard-hunt-full.webp,
+  // plus hazard-hunt-eight.webp for the eight hazard setting), with its own hit boxes below.
+  var ART_MODE = 2;
+  var BAKED = {"mixer": [30, 130, 140, 95], "knife": [240, 165, 60, 60], "spray": [300, 135, 50, 85], "mitt": [255, 50, 70, 100],
+ "cabinet": [545, 5, 145, 115], "pot": [355, 165, 90, 80], "cord": [465, 145, 145, 70], "towel": [425, 250, 85, 100],
+ "chicken": [610, 160, 155, 65], "milk": [755, 135, 60, 80], "wet": [70, 400, 220, 80], "bag": [640, 320, 140, 145]};
+  if (ART_MODE === 1 || ART_MODE === 2) {
     var arts = document.querySelectorAll("#hhArt image");
-    for (var ai = 0; ai < arts.length; ai++) { arts[ai].setAttribute("href", arts[ai].getAttribute("data-href")); }
+    for (var ai = 0; ai < arts.length; ai++) {
+      var isBaked = arts[ai].id === "hhArtFull" || arts[ai].id === "hhArtEight";
+      if ((ART_MODE === 2) === isBaked) { arts[ai].setAttribute("href", arts[ai].getAttribute("data-href")); }
+      else { arts[ai].style.display = "none"; }
+    }
+    if (ART_MODE === 2) {
+      // The picture is 3:2, so the frame grows to 880 by 587 and nothing is squashed.
+      // The hit boxes are measured on an 880 by 520 rendering, so they scale up with it.
+      var H = 587, ky = H / 520;
+      svg.setAttribute("viewBox", "0 0 880 " + H);
+      document.getElementById("hhArtFull").setAttribute("height", H);
+      document.getElementById("hhArtEight").setAttribute("height", H);
+      document.getElementById("hhArtFull").style.display = "";
+      Object.keys(BAKED).forEach(function (k) {
+        var r = hits.querySelector('[data-hz="' + k + '"]'), b = BAKED[k];
+        if (r) { r.setAttribute("x", b[0]); r.setAttribute("y", Math.round(b[1] * ky)); r.setAttribute("width", b[2]); r.setAttribute("height", Math.round(b[3] * ky)); }
+      });
+    }
     document.getElementById("hhDrawn").style.display = "none";
     document.getElementById("hhArt").style.display = "";
     svg.setAttribute("aria-label", "An illustrated kitchen with planted hazards (generated art)");
