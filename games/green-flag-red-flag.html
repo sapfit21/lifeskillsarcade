@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Green Flag, Red Flag, Life Skills Arcade</title>
+<meta name="description" content="A friend, a teammate, a cousin, a person in a group chat. Green flag or red flag? You have 3 seconds. Then tap the four refusal steps into order.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15">
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- Green Flag, Red Flag. Reviews Lesson 3.12 (the eleven signs) and Lesson 3.6 (the four refusal steps). Built 2026-09-15.
+     Everything on this page is static: no sound, no storage, no network. No card is about a real person. -->
+<div class="game" id="greenRed">
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>This game reviews <a href="../lesson-03-12.html">Lesson 3.12, Healthy vs Unhealthy Relationships: the Signs</a> and <a href="../lesson-03-06.html">Lesson 3.6, Peer Influence, Pressure, and Refusal Skills</a>. Round 1 uses the lesson's own card sort (Handout 3.12): a situation appears, and the player has 3 seconds to tap green flag (a sign of a relationship that is good for you) or red flag (a sign of one that is not). Every red flag names its sign: control, put-downs, isolation, pressure, or fear. The two "depends" cards from the handout are left out on purpose. Round 2 is the four refusal steps from Lesson 3.6, scrambled, tapped into order. Use it as the do now before Lesson 3.13 or as review before the Unit 3 test. Every card is a role, never a person in the room. Nothing is saved when the page closes.</p>
+</div>
+
+<h1 class="game-title">Green Flag, <span class="alt2">Red Flag</span></h1>
+<p class="game-lede">A friend, a teammate, a cousin, a person in a group chat. Is what they do a green flag or a red flag? You have 3 seconds. Then, the four steps for saying no.</p>
+
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Card</span><span class="val" id="grCard">0 of 12</span></div>
+  <div class="stat timer" id="grTimerBox"><span class="lab">Seconds</span><span class="val" id="grTimer">3</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" id="grStreak">0</span></div>
+  <div class="stat"><span class="lab">Score</span><span class="val" id="grScore">0</span></div>
+</div>
+<div class="sr-live" aria-live="polite" id="grLive"></div>
+
+<div class="panel" id="grStart">
+  <h2>How to play</h2>
+  <p>Round 1: twelve cards, 3 seconds each. Green flag or red flag? 10 points a right call, and every three in a row adds 5. A red flag you miss shows you the sign. Round 2: the four refusal steps, scrambled. Tap them into order, 10 points each, and the seconds you have left are added to your score.</p>
+  <p>Remember the rule from the lesson: one bad day is not a sign; a pattern is. Fear is a tell-an-adult sign the first time, on its own.</p>
+  <p><button class="gbtn go" id="grGo" type="button">Start</button></p>
+</div>
+
+<div class="gr-play" id="grPlay" hidden>
+  <div class="gr-situation" id="grSit"><span class="sr-tasklab">They...</span><span class="gr-text" id="grText"></span></div>
+  <div class="feedback" id="grFeed"></div>
+  <div class="gr-flags">
+    <button class="gr-flag green" type="button" id="grGreen">
+      <svg viewBox="0 0 60 60" aria-hidden="true"><path d="M14 54V8" stroke="#111" stroke-width="4" stroke-linecap="round"/><path d="M16 10 h32 l-8 10 8 10 h-32 z" fill="#7FD44C" stroke="#111" stroke-width="3" stroke-linejoin="round"/></svg>
+      <span>Green flag</span>
+    </button>
+    <button class="gr-flag red" type="button" id="grRed">
+      <svg viewBox="0 0 60 60" aria-hidden="true"><path d="M14 54V8" stroke="#111" stroke-width="4" stroke-linecap="round"/><path d="M16 10 h32 l-8 10 8 10 h-32 z" fill="#FF5A4D" stroke="#111" stroke-width="3" stroke-linejoin="round"/></svg>
+      <span>Red flag</span>
+    </button>
+  </div>
+</div>
+
+<div class="gr-play" id="grSteps" hidden>
+  <div class="gr-situation"><span class="sr-tasklab">Round 2: the four refusal steps</span><span class="gr-text">Someone keeps pushing. Tap the four steps in the order the lesson teaches them.</span></div>
+  <div class="feedback" id="grFeed2"></div>
+  <ol class="sr-slots gr-slots" id="grSlots"></ol>
+  <div class="sr-cards gr-cards" id="grCards"></div>
+</div>
+
+<div class="panel" id="grEnd" hidden>
+  <h2>Done</h2>
+  <p class="big" id="grFinal"></p>
+  <p id="grSummary"></p>
+  <div id="grMissWrap"><p><b>Look at these again:</b></p><ul class="miss-list" id="grMissed"></ul></div>
+  <p class="gr-adult"><b>If a card felt close to home:</b> tell a trusted adult in your building. The counselor is one. It is not trouble.</p>
+  <p><button class="gbtn go" id="grAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.gr-situation{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:6.5rem}
+.gr-text{display:block;font-size:1.3rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.gr-flags{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;margin:.6rem 0}
+.gr-flag{display:flex;flex-direction:column;align-items:center;gap:.2rem;background:#fff;border:2.5px solid var(--outline);border-radius:14px;
+  padding:.7rem .5rem .8rem;cursor:pointer;font:700 1.1rem/1.2 var(--sans);color:var(--ink);box-shadow:4px 4px 0 var(--outline);min-height:44px}
+.gr-flag svg{width:64px;height:64px}
+.gr-flag:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.gr-flag.hit{background:var(--brand-green)}
+.gr-flag.miss{background:#FFD9D6}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.gr-adult{background:var(--brand-yellow);border:2px solid var(--outline);border-radius:10px;padding:.6rem .8rem;font-size:.95rem}
+</style>
+
+<script>
+(function () {
+  "use strict";
+  // The cards from Handout 3.12, minus the two "depends" cards. sign is the lesson's word for a red flag.
+  var CARDS = [
+    {t: "Listen when you say no and do not push again.", g: true, sign: "respect"},
+    {t: "Tell you what to wear so you \"look right.\"", g: false, sign: "control"},
+    {t: "Have other friends and are fine that you do too.", g: true, sign: "separate identities"},
+    {t: "Make jokes about you in front of others, and the jokes only go one way.", g: false, sign: "put-downs"},
+    {t: "Show up when things are hard, not only when it is fun.", g: true, sign: "support"},
+    {t: "Get upset when you spend time with your family or your other friends.", g: false, sign: "isolation"},
+    {t: "Ask for your phone password \"so we can trust each other.\"", g: false, sign: "control"},
+    {t: "Tell you the truth even when it is awkward.", g: true, sign: "honesty"},
+    {t: "Make you careful about what you say around them because of how they react.", g: false, sign: "fear"},
+    {t: "Apologize and make it right when they mess up.", g: true, sign: "fairness and honesty"},
+    {t: "Keep asking after you said no, and say \"you would if you were a real friend.\"", g: false, sign: "pressure"},
+    {t: "Leave it always your turn to pay, apologize, or give in.", g: false, sign: "fairness missing"},
+    {t: "Disagree with you sometimes and say so without insulting you.", g: true, sign: "respect and honesty"},
+    {t: "Check your phone \"as a joke\" when you are not looking.", g: false, sign: "control"},
+    {t: "Cheer for you when you win, even when they lost.", g: true, sign: "support"},
+    {t: "Screenshot what you wrote in the group chat and send it to someone outside the chat.", g: false, sign: "put-downs and trust broken"},
+    {t: "Make you afraid of what will happen if you tell them something they will not like.", g: false, sign: "fear"},
+    {t: "Borrow your things and always bring them back.", g: true, sign: "trust"},
+    {t: "Say \"nobody else likes you, you only have me.\"", g: false, sign: "isolation"},
+    {t: "Forgot your birthday once, felt bad, and made it up to you.", g: true, sign: "honesty and fairness"},
+    {t: "Want to know where you are and who you are with, every hour, and get angry if you do not answer.", g: false, sign: "control"},
+    {t: "Tell you when they think you are making a mistake, then support you either way.", g: true, sign: "honesty and support"}
+  ];
+  var STEPS = ["Say no clearly", "Give a reason", "Offer an alternative", "Walk away"];
+  var N = 12, FLAG_SECS = 3, STEP_SECS = 30;
+
+  var startP = document.getElementById("grStart"), playP = document.getElementById("grPlay"), stepsP = document.getElementById("grSteps"), endP = document.getElementById("grEnd");
+  var elCard = document.getElementById("grCard"), elT = document.getElementById("grTimer"), elTB = document.getElementById("grTimerBox");
+  var elS = document.getElementById("grStreak"), elSc = document.getElementById("grScore"), live = document.getElementById("grLive");
+  var feed = document.getElementById("grFeed"), feed2 = document.getElementById("grFeed2"), feedTimer;
+  var gBtn = document.getElementById("grGreen"), rBtn = document.getElementById("grRed");
+  var deck, di, score, streak, right, secs, tick, locked, missed, next, tenths;
+
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function hud() {
+    elCard.textContent = Math.min(di + 1, N) + " of " + N; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
+    elTB.className = "stat timer" + (secs <= 1 ? " low" : "");
+  }
+  function say(el, text, cls) {
+    el.textContent = text; el.className = "feedback" + (cls ? " " + cls : "");
+    clearTimeout(feedTimer);
+    feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 2400);
+  }
+  function stopClock() { clearInterval(tick); tick = null; }
+  function startClock(n, onOut) {
+    stopClock(); secs = n; hud();
+    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
+  }
+  function bonus() { score += 10; streak += 1; if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; } return ""; }
+
+  function showCard() {
+    var c = deck[di]; locked = false;
+    document.getElementById("grText").textContent = c.t;
+    gBtn.className = "gr-flag green"; rBtn.className = "gr-flag red";
+    live.textContent = "Card " + (di + 1) + ": they " + c.t;
+    startClock(FLAG_SECS, function () { flag(null); });
+  }
+  function flag(green) {
+    if (locked) { return; }
+    locked = true; stopClock();
+    var c = deck[di], ok = green === c.g;
+    if (ok) {
+      right += 1; (c.g ? gBtn : rBtn).classList.add("hit");
+      say(feed, (c.g ? "Green flag: " : "Red flag: ") + c.sign + "." + bonus(), "good");
+    } else {
+      streak = 0;
+      if (green !== null) { (green ? gBtn : rBtn).classList.add("miss"); }
+      (c.g ? gBtn : rBtn).classList.add("hit");
+      say(feed, (green === null ? "Time. " : "No. ") + (c.g ? "That is a green flag: " : "That is a red flag: ") + c.sign + ".", "bad");
+      missed.push((c.g ? "Green flag (" : "Red flag (") + c.sign + "): they " + c.t.charAt(0).toLowerCase() + c.t.slice(1));
+    }
+    hud();
+    setTimeout(function () { di += 1; if (di >= N) { startSteps(); } else { showCard(); } }, 1300);
+  }
+
+  function startSteps() {
+    playP.hidden = true; stepsP.hidden = false; next = 0; locked = false;
+    var slots = document.getElementById("grSlots"), cards = document.getElementById("grCards");
+    slots.innerHTML = ""; cards.innerHTML = "";
+    STEPS.forEach(function () { var li = document.createElement("li"); li.textContent = " "; slots.appendChild(li); });
+    shuffle(STEPS.map(function (_, i) { return i; })).forEach(function (i) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "sr-card"; b.textContent = STEPS[i];
+      b.addEventListener("click", function () { tapStep(i, b); });
+      cards.appendChild(b);
+    });
+    elCard.textContent = "Steps";
+    live.textContent = "Round 2: tap the four refusal steps in order.";
+    startClock(STEP_SECS, function () { endSteps(false); });
+    stepsP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function fill(i, cls) { var li = document.getElementById("grSlots").children[i]; li.textContent = STEPS[i]; li.className = cls; }
+  function tapStep(i, b) {
+    if (locked || !tick) { return; }
+    if (i === next) {
+      b.hidden = true; fill(i, "filled"); next += 1;
+      say(feed2, "Yes. Step " + next + ": " + STEPS[i] + "." + bonus(), "good");
+      hud();
+      if (next === STEPS.length) { endSteps(true); }
+    } else {
+      streak = 0; secs = Math.max(0, secs - 2);
+      b.classList.add("wrong"); setTimeout(function () { b.classList.remove("wrong"); }, 500);
+      say(feed2, "Not that one yet. Minus 2 seconds.", "bad"); hud();
+      if (secs === 0) { stopClock(); endSteps(false); }
+    }
+  }
+  function endSteps(done) {
+    stopClock(); locked = true;
+    if (done) { score += secs; say(feed2, "All four. " + secs + " seconds left, added to your score.", "good"); }
+    else {
+      say(feed2, "Time. Here is the order.", "");
+      for (var i = next; i < STEPS.length; i++) { fill(i, "shown"); }
+      missed.push("The four refusal steps, in order: " + STEPS.join(", ") + ". You do not need all four; two is often enough.");
+      var bs = document.querySelectorAll("#grCards .sr-card"); for (var k = 0; k < bs.length; k++) { bs[k].hidden = true; }
+    }
+    hud();
+    setTimeout(finish, done ? 1400 : 3000);
+  }
+  function finish() {
+    stepsP.hidden = true; endP.hidden = false;
+    document.getElementById("grFinal").textContent = score + " points";
+    document.getElementById("grSummary").textContent = right + " of " + N + " flags right." + (right === N ? " Every sign, every time." : "");
+    var ul = document.getElementById("grMissed"); ul.innerHTML = "";
+    document.getElementById("grMissWrap").hidden = !missed.length;
+    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
+    endP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function begin() {
+    deck = shuffle(CARDS.slice()).slice(0, N); di = 0; score = 0; streak = 0; right = 0; missed = [];
+    startP.hidden = true; endP.hidden = true; stepsP.hidden = true; playP.hidden = false;
+    hud(); showCard();
+    playP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  gBtn.addEventListener("click", function () { flag(true); });
+  rBtn.addEventListener("click", function () { flag(false); });
+  document.getElementById("grGo").addEventListener("click", begin);
+  document.getElementById("grAgain").addEventListener("click", begin);
+  di = 0; score = 0; streak = 0; secs = FLAG_SECS; hud();
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-15. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

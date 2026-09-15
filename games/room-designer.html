@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Room Designer, Life Skills Arcade</title>
+<meta name="description" content="A bedroom from above, one square to a foot. Place the furniture, keep the door clear and a 3-foot path open, then name the principle behind each placement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15">
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- Room Designer. Reviews Lesson 4.10 (the floor plan, the scale, traffic flow), 4.6 (elements), and 4.7 (principles). Built 2026-09-15.
+     Everything on this page is static: no sound, no storage, no network. The room is the described bedroom from Handout 4.10. -->
+<div class="game" id="roomDesigner">
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>This game reviews <a href="../lesson-04-10.html">Lesson 4.10, Reading and Drawing a Floor Plan to Scale</a>, with the principles from <a href="../lesson-04-07.html">Lesson 4.7</a> and the elements from <a href="../lesson-04-06.html">Lesson 4.6</a>. The room is the described bedroom from Handout 4.10: 11 by 12 feet, a 3-foot door on a short wall with its swing, a 4-foot window centered on the far long wall, a 2 by 5 closet. One square is one foot, the same scale as the cut-out sheet. The game checks three rules from the lessons: nothing sits in the door swing, a path at least 3 feet (36 inches) wide runs from the door to the window, and the bed is not under the window (the rearrange sketch from Lesson 4.6). Then four quick questions: which principle does each described placement use? Use it the day before the bedroom plan in 4.10 Day 2 or as a warm-up for Project 04. Nothing is saved when the page closes.</p>
+</div>
+
+<h1 class="game-title">Room <span class="alt2">Designer</span></h1>
+<p class="game-lede">A bedroom, drawn from above, one square to a foot. Tap a piece, then tap where it goes. Keep the door clear, leave a path 3 feet wide from the door to the window, and keep the bed off the window wall.</p>
+
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Placed</span><span class="val" id="rdPlaced">0 of 8</span></div>
+  <div class="stat"><span class="lab">Rules</span><span class="val" id="rdRules">0 of 3</span></div>
+  <div class="stat"><span class="lab">Score</span><span class="val" id="rdScore">0</span></div>
+</div>
+<div class="sr-live" aria-live="polite" id="rdLive"></div>
+
+<div class="panel" id="rdStart">
+  <h2>How to play</h2>
+  <p>Four pieces must go in: the bed, the desk, the desk chair, and the dresser. Four more are your choice. Every piece placed is 5 points. Then tap Check my room: 10 points for each rule the room passes. Fix what fails and check again; only your best check counts. Then four principle questions at 10 points each.</p>
+  <p><button class="gbtn go" id="rdGo" type="button">Start</button></p>
+</div>
+
+<div class="rd-play" id="rdPlay" hidden>
+  <div class="rd-room-wrap">
+    <div class="rd-room" id="rdRoom" aria-label="The room plan">
+      <div class="rd-grid" id="rdGrid"></div>
+      <div class="rd-window" title="Window, 4 feet"></div>
+      <div class="rd-closet"><span>closet</span></div>
+      <div class="rd-door" title="Door, 3 feet"></div>
+      <div class="rd-swing" id="rdSwing"></div>
+      <div id="rdPieces"></div>
+    </div>
+  </div>
+  <p class="rd-key">Scale: one square is one foot. The dashed quarter circle is the door swing. The double line at the top is the window. Tap a placed piece to pick it up again.</p>
+  <div class="feedback" id="rdFeed"></div>
+  <div class="rd-tray" id="rdTray"></div>
+  <div class="choice-row">
+    <button class="gbtn" id="rdRotate" type="button">Rotate the piece</button>
+    <button class="gbtn go" id="rdCheck" type="button">Check my room</button>
+  </div>
+  <ul class="miss-list" id="rdReport" hidden></ul>
+  <p><button class="gbtn alt" id="rdNext" type="button" hidden>On to the principles</button></p>
+</div>
+
+<div class="rd-play" id="rdQuiz" hidden>
+  <div class="gr-situation"><span class="sr-tasklab" id="rdQLab">Which principle?</span><span class="gr-text" id="rdQText"></span></div>
+  <div class="feedback" id="rdQFeed"></div>
+  <div class="choice-row" id="rdQChoices"></div>
+</div>
+
+<div class="panel" id="rdEnd" hidden>
+  <h2>Room done</h2>
+  <p class="big" id="rdFinal"></p>
+  <p id="rdSummary"></p>
+  <div id="rdMissWrap"><p><b>Look at these again:</b></p><ul class="miss-list" id="rdMissed"></ul></div>
+  <p><button class="gbtn go" id="rdAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.gr-situation{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;box-shadow:5px 5px 0 var(--outline)}
+.gr-text{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.rd-room-wrap{background:#fff;border:2.5px solid var(--outline);border-radius:12px;padding:1.1rem 1rem .9rem 1rem;box-shadow:4px 4px 0 var(--outline)}
+.rd-room{position:relative;width:100%;aspect-ratio:12/11;border:5px solid var(--outline);background:#FFF6DC;box-sizing:border-box}
+.rd-grid{position:absolute;inset:0;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(11,1fr)}
+.rd-grid div{border:1px solid rgba(17,17,17,.14);cursor:pointer}
+.rd-grid div.path{background:rgba(127,212,76,.35)}
+.rd-window{position:absolute;left:33.333%;width:33.333%;top:-5px;height:5px;background:#fff;border-top:2px solid var(--outline);border-bottom:2px solid var(--outline);box-sizing:border-box}
+.rd-window::after{content:"";position:absolute;left:0;right:0;top:1px;border-top:1px solid var(--outline)}
+.rd-closet{position:absolute;left:83.333%;width:16.667%;top:0;height:45.454%;background:repeating-linear-gradient(135deg,#C7D3DA 0 6px,#fff 6px 12px);border:2px solid var(--outline);border-top:0;border-right:0;box-sizing:border-box;
+  display:flex;align-items:center;justify-content:center;font:700 .65rem/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--ink)}
+.rd-door{position:absolute;left:-5px;width:5px;top:72.727%;height:27.273%;background:#FFF6DC}
+.rd-swing{position:absolute;left:0;top:72.727%;width:25%;height:27.273%;border:2.5px dashed var(--brand-red);border-left:0;border-bottom:0;border-top-right-radius:100%;box-sizing:border-box;pointer-events:none}
+.rd-piece{position:absolute;box-sizing:border-box;border:2.5px solid var(--outline);border-radius:4px;background:var(--brand-yellow);
+  display:flex;align-items:center;justify-content:center;font:700 .62rem/1.1 var(--sans);text-align:center;color:var(--ink);cursor:pointer;overflow:hidden;padding:2px}
+.rd-piece.rug{background:rgba(143,214,240,.45);border-style:dashed;pointer-events:auto}
+.rd-piece.bad{background:var(--brand-red);color:#fff}
+.rd-key{font-size:.85rem;color:var(--ink-2);margin:.5rem 0}
+.rd-tray{display:flex;flex-wrap:wrap;gap:.45rem;margin:.6rem 0}
+.rd-tray button{font:600 .9rem/1.2 var(--sans);padding:.55rem .7rem;border-radius:10px;border:2.5px solid var(--outline);background:#fff;color:var(--ink);
+  cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.rd-tray button.sel{background:var(--brand-green)}
+.rd-tray button.placed{opacity:.45;text-decoration:line-through}
+.rd-tray button small{display:block;font-weight:400;font-size:.75rem;color:var(--ink-2)}
+</style>
+
+<script>
+(function () {
+  "use strict";
+  var W = 12, H = 11;
+  // From the cut-out sheet in Handout 4.10 (squares to cut, wide by long).
+  var PIECES = [
+    {id: "bed", name: "Bed, twin", w: 3, h: 6, must: true},
+    {id: "desk", name: "Desk, student", w: 4, h: 2, must: true},
+    {id: "chair", name: "Desk chair", w: 2, h: 2, must: true},
+    {id: "dresser", name: "Dresser, 3 drawer", w: 3, h: 2, must: true},
+    {id: "shelf", name: "Bookcase, 3 shelf", w: 3, h: 1, must: false},
+    {id: "lamp", name: "Floor lamp", w: 1, h: 1, must: false},
+    {id: "arm", name: "Armchair", w: 3, h: 3, must: false},
+    {id: "rug", name: "Area rug, 5 by 7", w: 5, h: 7, must: false, rug: true}
+  ];
+  var DOOR = {x0: 0, y0: 8, x1: 2, y1: 10};      // the door swing, 3 by 3 squares in the corner
+  var WIN = {x0: 4, x1: 7};                        // window on the top wall, columns 4 to 7
+  var CLOSET = {x0: 10, y0: 0, x1: 11, y1: 4};     // the 2 by 5 closet
+  var QUIZ = [
+    {q: "Two matching chairs facing a fireplace.", a: "Balance", why: "Matching pairs: symmetrical balance."},
+    {q: "A tall plant on the left and a tall bookshelf on the right.", a: "Balance", why: "Different things with equal visual weight: asymmetrical balance."},
+    {q: "Three same-size frames evenly spaced over a couch.", a: "Rhythm", why: "Repeating something so the eye moves: rhythm."},
+    {q: "A king bed in a room barely bigger than the bed.", a: "Proportion", why: "The size of things compared to the room: proportion and scale."},
+    {q: "A heavy dark dresser on one side, two light chairs on the other.", a: "Balance", why: "Dark and big weigh more than light and small. Two light chairs can balance one dark dresser: asymmetrical balance."},
+    {q: "One big painting on the blank wall, and the couch faces it.", a: "Focal point", why: "The one thing your eye lands on first: the focal point."},
+    {q: "The same blue shows up in the rug, a pillow, and a lamp, and your eye moves from one to the next.", a: "Rhythm", why: "A color that shows up three times is rhythm."},
+    {q: "A tiny lamp beside a huge couch.", a: "Proportion", why: "The size of things compared to each other: proportion and scale. This one is off."},
+    {q: "A TV wall and a fireplace wall fighting for your eye. Which principle is missing?", a: "Focal point", why: "A room with two stars has none. The focal point is missing."},
+    {q: "Every piece of furniture pushed against one wall, the other side empty. Which principle is missing?", a: "Balance", why: "One side is heavier than the other. Balance is missing."},
+    {q: "Identical tables on both sides of a hallway entrance.", a: "Balance", why: "Matching pairs: symmetrical balance."},
+    {q: "A huge sectional in a tiny room.", a: "Proportion", why: "Too big for the room: proportion and scale."}
+  ];
+  var PRINCIPLES = ["Balance", "Focal point", "Rhythm", "Proportion"];
+
+  var startP = document.getElementById("rdStart"), playP = document.getElementById("rdPlay"), quizP = document.getElementById("rdQuiz"), endP = document.getElementById("rdEnd");
+  var grid = document.getElementById("rdGrid"), piecesEl = document.getElementById("rdPieces"), tray = document.getElementById("rdTray");
+  var feed = document.getElementById("rdFeed"), qfeed = document.getElementById("rdQFeed"), live = document.getElementById("rdLive"), feedTimer;
+  var placed, sel, rot, score, bestRules, quiz, qi, qright, missed, locked;
+
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function say(el, text, cls) {
+    el.textContent = text; el.className = "feedback" + (cls ? " " + cls : "");
+    clearTimeout(feedTimer);
+    feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 3600);
+  }
+  function hud() {
+    document.getElementById("rdPlaced").textContent = Object.keys(placed).length + " of " + PIECES.length;
+    document.getElementById("rdRules").textContent = bestRules + " of 3";
+    document.getElementById("rdScore").textContent = score;
+  }
+  function piece(id) { for (var i = 0; i < PIECES.length; i++) { if (PIECES[i].id === id) { return PIECES[i]; } } return null; }
+  function dims(p, r) { return r ? {w: p.h, h: p.w} : {w: p.w, h: p.h}; }
+  function overlaps(a, b) { return !(a.x + a.w <= b.x || b.x + b.w <= a.x || a.y + a.h <= b.y || b.y + b.h <= a.y); }
+  function solidAt(x, y, skipId) {
+    if (x < 0 || y < 0 || x >= W || y >= H) { return true; }
+    if (x >= CLOSET.x0 && x <= CLOSET.x1 && y >= CLOSET.y0 && y <= CLOSET.y1) { return true; }
+    for (var id in placed) {
+      if (id === skipId || piece(id).rug) { continue; }
+      var q = placed[id];
+      if (x >= q.x && x < q.x + q.w && y >= q.y && y < q.y + q.h) { return true; }
+    }
+    return false;
+  }
+
+  // ---- building ----
+  function buildGrid() {
+    grid.innerHTML = "";
+    for (var y = 0; y < H; y++) {
+      for (var x = 0; x < W; x++) {
+        var c = document.createElement("div"); c.setAttribute("data-x", x); c.setAttribute("data-y", y);
+        c.addEventListener("click", (function (cx, cy) { return function () { place(cx, cy); }; }(x, y)));
+        grid.appendChild(c);
+      }
+    }
+  }
+  function buildTray() {
+    tray.innerHTML = "";
+    PIECES.forEach(function (p) {
+      var b = document.createElement("button"); b.type = "button"; b.setAttribute("data-id", p.id);
+      b.innerHTML = "<span></span><small></small>";
+      b.firstChild.textContent = p.name; b.lastChild.textContent = p.w + " by " + p.h + " ft" + (p.must ? ", required" : "");
+      b.addEventListener("click", function () { select(p.id); });
+      tray.appendChild(b);
+    });
+  }
+  function select(id) {
+    if (placed[id]) { pickUp(id); return; }
+    sel = id; rot = false;
+    var bs = tray.querySelectorAll("button");
+    for (var i = 0; i < bs.length; i++) { bs[i].classList.toggle("sel", bs[i].getAttribute("data-id") === id); }
+    var p = piece(id);
+    say(feed, p.name + " selected, " + p.w + " by " + p.h + " feet. Tap the square where its top left corner goes.", "");
+    live.textContent = p.name + " selected.";
+  }
+  function pickUp(id) {
+    delete placed[id];
+    render(); select(id);
+    var b = tray.querySelector('[data-id="' + id + '"]'); if (b) { b.classList.remove("placed"); }
+    hud();
+  }
+  function place(x, y) {
+    if (!sel) { say(feed, "Tap a piece in the tray first.", ""); return; }
+    var p = piece(sel), d = dims(p, rot);
+    if (x + d.w > W) { x = W - d.w; }
+    if (y + d.h > H) { y = H - d.h; }
+    var box = {x: x, y: y, w: d.w, h: d.h};
+    if (!p.rug) {
+      for (var yy = y; yy < y + d.h; yy++) { for (var xx = x; xx < x + d.w; xx++) { if (solidAt(xx, yy, sel)) { say(feed, "That spot is taken. Try another square.", "bad"); return; } } }
+    } else {
+      if (overlaps(box, {x: CLOSET.x0, y: CLOSET.y0, w: 2, h: 5})) { say(feed, "The rug cannot go into the closet.", "bad"); return; }
+    }
+    placed[sel] = box;
+    if (!p.rug) { for (var id in placed) { if (piece(id).rug && overlaps(placed[id], box)) { /* rugs go under furniture; fine */ } } }
+    var b = tray.querySelector('[data-id="' + sel + '"]'); b.classList.add("placed"); b.classList.remove("sel");
+    say(feed, p.name + " placed. " + (Object.keys(placed).length < PIECES.length ? "Pick the next piece, or check the room." : "Everything is in. Check the room."), "good");
+    live.textContent = p.name + " placed at column " + (x + 1) + ", row " + (y + 1) + ".";
+    sel = null; render(); hud();
+  }
+  function render() {
+    piecesEl.innerHTML = "";
+    var order = Object.keys(placed).sort(function (a) { return piece(a).rug ? -1 : 1; });
+    order.forEach(function (id) {
+      var q = placed[id], p = piece(id), e = document.createElement("div");
+      e.className = "rd-piece" + (p.rug ? " rug" : "");
+      e.style.left = (q.x / W * 100) + "%"; e.style.top = (q.y / H * 100) + "%";
+      e.style.width = (q.w / W * 100) + "%"; e.style.height = (q.h / H * 100) + "%";
+      e.textContent = p.name.split(",")[0];
+      e.setAttribute("data-id", id);
+      e.addEventListener("click", function (ev) { ev.stopPropagation(); pickUp(id); });
+      piecesEl.appendChild(e);
+    });
+    var cells = grid.children; for (var i = 0; i < cells.length; i++) { cells[i].className = ""; }
+  }
+
+  // ---- the check ----
+  function pathCells() {
+    // a 3-wide path: a cell is "wide open" when the 3 by 3 block with that cell at its top left is free.
+    var open = {}, y, x, ok, dy, dx;
+    for (y = 0; y <= H - 3; y++) { for (x = 0; x <= W - 3; x++) {
+      ok = true;
+      for (dy = 0; dy < 3 && ok; dy++) { for (dx = 0; dx < 3; dx++) { if (solidAt(x + dx, y + dy)) { ok = false; break; } } }
+      if (ok) { open[x + "," + y] = true; }
+    } }
+    // start: a block touching the door wall inside rows 8 to 10 (x = 0, y = 8). goal: a block touching the window wall under columns 4 to 7.
+    var start = "0,8";
+    if (!open[start]) { return null; }
+    var seen = {}; seen[start] = true; var queue = [start], reached = null, cur, parts, nb, k;
+    while (queue.length) {
+      cur = queue.shift(); parts = cur.split(","); x = +parts[0]; y = +parts[1];
+      if (y === 0 && x + 2 >= WIN.x0 && x <= WIN.x1) { reached = cur; break; }
+      nb = [[x + 1, y], [x - 1, y], [x, y + 1], [x, y - 1]];
+      for (k = 0; k < 4; k++) { var key = nb[k][0] + "," + nb[k][1]; if (open[key] && !seen[key]) { seen[key] = true; queue.push(key); } }
+    }
+    if (!reached) { return null; }
+    return seen;
+  }
+  function check() {
+    var must = PIECES.filter(function (p) { return p.must && !placed[p.id]; });
+    if (must.length) { say(feed, "Place these first: " + must.map(function (p) { return p.name; }).join(", ") + ".", "bad"); return; }
+    var report = document.getElementById("rdReport"); report.innerHTML = ""; report.hidden = false;
+    var pass = 0, lines = [], id, q;
+    // rule 1: nothing in the door swing
+    var inDoor = false;
+    for (id in placed) { if (piece(id).rug) { continue; } q = placed[id]; if (overlaps(q, {x: DOOR.x0, y: DOOR.y0, w: 3, h: 3})) { inDoor = true; } }
+    if (!inDoor) { pass += 1; lines.push(["Door: clear. The door opens all the way.", true]); }
+    else { lines.push(["Door: blocked. Something sits inside the swing (the dashed quarter circle). A door has to open before anything else works.", false]); }
+    // rule 2: 3 foot path door to window
+    var cells = grid.children; for (var i = 0; i < cells.length; i++) { cells[i].classList.remove("path"); }
+    var seen = pathCells();
+    if (seen) {
+      pass += 1; lines.push(["Path: a path 3 feet wide runs from the door to the window. That is the 36 inches the lesson asks for.", true]);
+      for (var key in seen) { var pr = key.split(","); for (var dy = 0; dy < 3; dy++) { for (var dx = 0; dx < 3; dx++) { var c = grid.children[(+pr[1] + dy) * W + (+pr[0] + dx)]; if (c) { c.classList.add("path"); } } } }
+    } else { lines.push(["Path: no path 3 feet wide from the door to the window. Count the squares at the narrowest point; you need 3. Move the piece that pinches it.", false]); }
+    // rule 3: bed not under the window
+    var bed = placed.bed, under = bed.y === 0 && bed.x <= WIN.x1 && bed.x + bed.w - 1 >= WIN.x0;
+    if (!under) { pass += 1; lines.push(["Bed: off the window wall. The light and the draft go somewhere useful, like the desk.", true]); }
+    else { lines.push(["Bed: under the window. Move it to a wall without the window, the way the rearrange sketch in Lesson 4.6 did.", false]); }
+    lines.forEach(function (l) { var li = document.createElement("li"); li.textContent = (l[1] ? "Pass. " : "Fix. ") + l[0]; li.style.background = l[1] ? "var(--brand-green)" : "#FFD9D6"; report.appendChild(li); });
+    if (pass > bestRules) { score += (pass - bestRules) * 10; bestRules = pass; }
+    hud();
+    say(feed, pass === 3 ? "Three of three. The room works." : pass + " of 3 rules pass. Fix what failed and check again.", pass === 3 ? "good" : "");
+    document.getElementById("rdNext").hidden = false;
+    live.textContent = pass + " of 3 rules pass.";
+  }
+
+  // ---- principles ----
+  function startQuiz() {
+    playP.hidden = true; quizP.hidden = false;
+    quiz = shuffle(QUIZ.slice()).slice(0, 4); qi = 0; qright = 0;
+    var row = document.getElementById("rdQChoices"); row.innerHTML = "";
+    PRINCIPLES.forEach(function (p) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.textContent = p;
+      b.addEventListener("click", function () { answer(p, b); });
+      row.appendChild(b);
+    });
+    showQ();
+    quizP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function showQ() {
+    locked = false;
+    document.getElementById("rdQLab").textContent = "Which principle? " + (qi + 1) + " of 4";
+    document.getElementById("rdQText").textContent = quiz[qi].q;
+    live.textContent = quiz[qi].q;
+  }
+  function answer(p, b) {
+    if (locked) { return; } locked = true;
+    var q = quiz[qi], right = p === q.a;
+    var bs = document.querySelectorAll("#rdQChoices .gbtn");
+    for (var i = 0; i < bs.length; i++) { if (bs[i].textContent === q.a) { bs[i].classList.add("right"); } }
+    if (right) { score += 10; qright += 1; say(qfeed, "Yes. " + q.why, "good"); }
+    else { b.classList.add("wrong"); say(qfeed, "No. " + q.why, "bad"); missed.push(q.q + " " + q.why); }
+    hud();
+    setTimeout(function () {
+      for (var k = 0; k < bs.length; k++) { bs[k].classList.remove("right", "wrong"); }
+      qi += 1; if (qi >= 4) { finish(); } else { showQ(); }
+    }, 1800);
+  }
+  function finish() {
+    quizP.hidden = true; endP.hidden = false;
+    document.getElementById("rdFinal").textContent = score + " points";
+    document.getElementById("rdSummary").textContent = Object.keys(placed).length + " pieces placed, " + bestRules + " of 3 rules passed, " + qright + " of 4 principles right.";
+    var ul = document.getElementById("rdMissed"); ul.innerHTML = "";
+    document.getElementById("rdMissWrap").hidden = !missed.length;
+    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
+    endP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function begin() {
+    placed = {}; sel = null; rot = false; score = 0; bestRules = 0; missed = [];
+    buildGrid(); buildTray(); render();
+    document.getElementById("rdReport").hidden = true; document.getElementById("rdNext").hidden = true;
+    startP.hidden = true; endP.hidden = true; quizP.hidden = true; playP.hidden = false;
+    hud();
+    say(feed, "Start with the bed. Tap it in the tray, then tap a square.", "");
+    playP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  document.getElementById("rdRotate").addEventListener("click", function () {
+    if (!sel) { say(feed, "Pick a piece first, then rotate it.", ""); return; }
+    rot = !rot; var d = dims(piece(sel), rot); say(feed, piece(sel).name + " turned: now " + d.w + " wide by " + d.h + " long.", "");
+  });
+  document.getElementById("rdCheck").addEventListener("click", check);
+  document.getElementById("rdNext").addEventListener("click", startQuiz);
+  document.getElementById("rdGo").addEventListener("click", begin);
+  document.getElementById("rdAgain").addEventListener("click", begin);
+  placed = {}; score = 0; bestRules = 0; hud();
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-15. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>
