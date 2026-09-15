@@ -8,8 +8,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ## Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | button | düğme | botão | botón |
@@ -142,7 +140,7 @@ _______________________________________________________________________
 | Pants | $24.95 |
 | Coat | $59.95 |
 
-Room total: the class count times $17.95. For 21 students that is $376.95. For 28 it is $502.60. [Sal: your prices.]
+Room total: the class count times $17.95. For 21 students that is $376.95. For 28 it is $502.60.
 
 The last sentence has many right answers and the honest ones are the best: because nobody in the house knows how, because there is no needle and thread in the house, because a new shirt is cheap and time is short, or because nobody ever taught them that it takes four minutes.
 

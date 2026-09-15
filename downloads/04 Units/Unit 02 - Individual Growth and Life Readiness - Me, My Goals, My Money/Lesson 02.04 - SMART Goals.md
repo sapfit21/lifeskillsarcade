@@ -40,7 +40,7 @@ Tier 3 (FACS): SMART goal, stretch goal, vague goal, time-bound, standard (from 
 - Slides: `Slides 02.04 - SMART Goals`
 - Six sample goal cards on slide 5 for the whole-class sort (SMART, stretch, or vague)
 - Timer visible to the class
-- Setup notes: hand back the 3-2-1 cards as students enter. No other setup. [Sal: put one of your own SMART goals and one of your own stretch goals on slide 4. Students take the difference seriously when the teacher has both.]
+- Setup notes: hand back the 3-2-1 cards as students enter. No other setup.
 
 ## Pre-assessment
 
@@ -111,7 +111,7 @@ Inside the building: the school counselor's grade 8 planning conference uses the
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, line 4. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Thinking Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 2.1.1.
 - SMART (specific, measurable, achievable, relevant, time-bound) is a public, widely used goal frame; no single source is quoted. "Stretch goal" is the state's own term in IGLR 2. b).
@@ -123,5 +123,4 @@ Inside the building: the school counselor's grade 8 planning conference uses the
 - Common mistake: students write "achievable" goals that are already done ("pass FACS") because they hear "achievable" as "easy." Say: achievable means possible with effort, and if it takes no effort it is not a goal.
 - Common mistake: the outside-school goal is a stretch goal every time ("get a puppy," "go to Disney"). That is fine; it is the "stretch in disguise" question. Have them write the SMART goal under it ("save $15 a week toward the ticket for 10 weeks").
 - The R (relevant) is where Lesson 2.1 pays off. A goal that connects to no value is a goal somebody else gave the student. Say that out loud; some of them will realize their school goal is their parents' goal, which is a real conversation.
-- [Sal: your own SMART and stretch pair on slide 4. Students take the distinction seriously when the teacher shows a stretch goal that is not finished yet.]
 - Keep the handouts. The school goal or the outside-school goal (student's choice) becomes the Goal Plan in Lesson 2.5, which is the Topic 2.2 formal check.

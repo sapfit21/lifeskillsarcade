@@ -33,8 +33,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | value (what matters to you) | değer | valor | valor |

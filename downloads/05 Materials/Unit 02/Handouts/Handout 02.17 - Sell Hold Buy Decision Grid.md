@@ -8,7 +8,7 @@ Name: ______________________ Date: __________ Merchant number: ______
 
 Stress signs I notice right now (circle any): fast heartbeat / tight stomach / want to act right now / cannot think about anything else / hands shaky / none
 
-Feeling word (English, Turkish, Portuguese, or Spanish): scared, worried, calm, angry, excited / korkmuş, endişeli, sakin, kızgın, heyecanlı / assustado, preocupado, calmo, irritado, animado / asustado, preocupado, tranquilo, enojado, emocionado [check with a native speaker]
+Feeling word (English, Turkish, Portuguese, or Spanish): scared, worried, calm, angry, excited / korkmuş, endişeli, sakin, kızgın, heyecanlı / assustado, preocupado, calmo, irritado, animado / asustado, preocupado, tranquilo, enojado, emocionado
 
 My feeling: __________
 
@@ -101,6 +101,6 @@ There is no right answer for Step 4. Score the grid on whether the reasoning is 
 - The trades table matches Step 4, or the change is explained.
 - Step 5 names a ledger number and labels the decision honestly.
 
-**Two real crashes, sample answers** (rounded; [Sal: verify against a current source before presenting]):
+**Two real crashes, sample answers** (rounded):
 - 2008: caused by home loans that could not be paid back and the banks that had made them failing; the S&P 500 index fell about 57 percent from October 2007 to March 2009; it took about four years (to 2013) to get back to its old high; government bonds and savings accounts held; people who sold at the bottom and never came back locked in the loss and missed the recovery.
 - 2020: caused by a virus that closed most of the world in a month; the index fell about 34 percent in about five weeks (February 19 to March 23, 2020); it got back in about five months (August 2020); government bonds and savings accounts held; same lesson about selling at the bottom.

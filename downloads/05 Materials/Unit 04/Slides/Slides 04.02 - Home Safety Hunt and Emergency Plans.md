@@ -1,6 +1,6 @@
 # Slides 4.2: Home Safety Hunt and Emergency Plans
 
-Slide outline for Lesson 4.2. Fourteen slides, one day. The six room slides are the review slides before the Home Safety and Conservation Quiz. [Sal: photos of real rooms with the hazards circled work better than drawings; stage them at home or use the FACS room.]
+Slide outline for Lesson 4.2. Fourteen slides, one day. The six room slides are the review slides before the Home Safety and Conservation Quiz.
 
 ## Slide 1: Home Safety Hunt
 
@@ -15,7 +15,7 @@ Image: a two-story house at dusk with one window lit.
 - "I do not know" counts as an answer
 - When was it last tested?
 - Two minutes
-Notes: Hand vote on both. The "I do not know" count is your pre-assessment. Then the fact: about three in five home fire deaths are in homes with no working smoke alarm. [Sal: confirm the current NFPA number.]
+Notes: Hand vote on both. The "I do not know" count is your pre-assessment. Then the fact: about three in five home fire deaths are in homes with no working smoke alarm.
 
 ## Slide 3: Kitchen
 

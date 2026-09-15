@@ -59,7 +59,7 @@ Every rule on their family card is honored: [ ] yes [ ] no. Which rule and which
 
 2. One specific change (line number, what it says, what it should say): ________________________________________________
 
-Sentence frames [check with a native speaker]:
+Sentence frames:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

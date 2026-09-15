@@ -40,7 +40,7 @@ Tier 3 (FACS): unit price, shelf tag, store brand (private label), name brand, b
 
 - Handout, one per student: `Handout 01.16 - Unit Price Practice.md`
 - The circulars from Lesson 1.15, one per pair
-- Real packages or photos of three item pairs for the demo: a 16 oz store-brand pasta box and a 12 oz name-brand box; a 24 oz jar of sauce and a 45 oz jar; an 8 oz bag of shredded cheese and a 2 lb bag [Sal: use whatever is in the FACS pantry; the prices on the handout are marked to be updated from this week's circular]
+- Real packages or photos of three item pairs for the demo: a 16 oz store-brand pasta box and a 12 oz name-brand box; a 24 oz jar of sauce and a 45 oz jar; an 8 oz bag of shredded cheese and a 2 lb bag
 - Calculators, one per pair (phones are fine if the room allows)
 - Slides: `Slides 01.16 - Unit Price and Comparison Shopping` (outline in 05 Materials; the site renders it as a deck) (includes a photo of a real shelf tag with the unit price called out)
 - Setup notes: Do the demo math yourself first so the numbers on the slides match the packages in your hand. Allergy check: sealed packages only; nothing is opened.
@@ -60,7 +60,7 @@ Debrief: most students will pick the $1.29 box because the number is smaller. As
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
 | 1. Direct instruction: unit price and the shelf tag | Write the rule: unit price = price divided by quantity. Do the two sauce jars on the board: $2.29 divided by 24 = $0.095 per oz; $3.79 divided by 45 = $0.084 per oz. Show a real shelf tag photo and point to the small unit price the store already prints. Rule two: the unit has to match (oz to oz, lb to lb) before you compare. Show 1 lb = 16 oz. | Copy the rule and the two sauce answers on the handout. Answer: "Which jar wins per ounce?" | 7 min |
-| 2. Direct instruction: brand, bulk, and tax | Three quick comparisons with real packages: store brand vs name brand (usually same factory, different label, 20 to 40 percent less); small vs bulk (bulk usually wins per ounce, but only if you can use it and store it); a food item vs a non-food item at the register (in New York most grocery food is not taxed; paper plates, foil, cups, soap, and candy or soda are taxed, about 8.625 percent in Suffolk and Nassau [Sal: confirm the local rate]). | Predict the winner before each reveal with a thumb up for store brand or bulk. Write the tax rule in the box on the handout. | 6 min |
+| 2. Direct instruction: brand, bulk, and tax | Three quick comparisons with real packages: store brand vs name brand (usually same factory, different label, 20 to 40 percent less); small vs bulk (bulk usually wins per ounce, but only if you can use it and store it); a food item vs a non-food item at the register (in New York most grocery food is not taxed; paper plates, foil, cups, soap, and candy or soda are taxed, about 8.625 percent in Suffolk and Nassau). | Predict the winner before each reveal with a thumb up for store brand or bulk. Write the tax rule in the box on the handout. | 6 min |
 | 3. Practice: Unit Price Practice sheet | Pairs work through the handout: six unit price calculations from circular items, three "which is the better buy" pairs, and one bulk trap (a 10 lb bag of potatoes for a family that eats potatoes once a month). Circulate; check the unit conversions first. Peer checkers from the do now help pairs that are stuck. | Calculate, compare, circle the better buy, and write the bulk trap answer. | 12 min |
 | 4. Debrief: when cheaper is not better | Take answers to the bulk trap. Build the list on the board: cheaper per unit is the wrong buy when it will spoil first, when there is no room to store it, when the family will not eat that much, when a food rule or allergy rules it out, or when you cannot afford the bigger total today even though it is cheaper per ounce. That last one is the hardest and the most real. | Copy the list. Add one of their own from home. | 6 min |
 
@@ -118,7 +118,7 @@ Math: this is ratio and unit rate, which is in the grade 6 and 7 math standards;
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 2.5.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- New York State sales tax treatment of food: most food for home use is exempt; prepared food, candy, soda, and non-food items are taxable. [Sal: cite the NYS Department of Taxation and Finance bulletin on food and beverages sold by food stores when this goes on the site; confirm the Suffolk County combined rate.]
+- New York State sales tax treatment of food: most food for home use is exempt; prepared food, candy, soda, and non-food items are taxable.
 - Sal's own materials: the King Kullen shopping list with store-brand swaps (`Education/TeachingWork/LessonPlans/education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf`), the "NYS sales tax note" in his three cooking lesson packages, and the unit price day in his FNES 563 draft unit calendar.
 
 ## Teacher notes
@@ -127,4 +127,3 @@ Math: this is ratio and unit rate, which is in the grade 6 and 7 math standards;
 - Common mistake: dividing quantity by price instead of price by quantity. The answer comes out as "ounces per dollar," which is a real number and looks fine. Have students write the dollar sign on every unit price answer; if there is no dollar sign, they divided the wrong way.
 - Second common mistake: comparing a per-pound price to a per-ounce price. The conversion box on the handout is there for this.
 - The bulk trap is the point of the lesson for the $40 project. A team that buys the 5 lb bag of rice "because it is cheapest" has just spent a fifth of the budget on rice.
-- [Sal: your King Kullen swap sheet saved $14.40 on cookies alone by going store brand. Show the before and after totals on the screen; students believe a real receipt more than a slide.]

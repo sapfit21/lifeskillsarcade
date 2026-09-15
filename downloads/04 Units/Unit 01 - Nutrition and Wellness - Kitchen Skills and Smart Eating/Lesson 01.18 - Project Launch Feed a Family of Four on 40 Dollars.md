@@ -60,7 +60,7 @@ The exit cards from Lessons 1.14 to 1.17 and the clipboard checks tell you which
 
 On the board: "Two families each made dinner for four last night. One spent $12. One spent $38. Which family ate better? Write one sentence and one reason."
 
-Debrief: hands for $12, hands for $38. Then the hook: show the two dinners. Dinner A, $38.47: a name-brand frozen lasagna, a bagged salad kit, a bakery garlic bread, a two-liter soda, and a name-brand ice cream [update from this week's circular]. Dinner B, $12.16: store-brand pasta, a jar of sauce, frozen mixed vegetables, store-brand shredded parmesan, and a loaf of Italian bread [update from this week's circular]. Ask the class to check both against MyPlate. Dinner B has grain, vegetable, dairy, and could add a protein for $2. Dinner A has more money in it and no fruit. The point: the price and the plate are two different questions. "Your team gets $40. Your job is to win both questions."
+Debrief: hands for $12, hands for $38. Then the hook: show the two dinners. Dinner A, $38.47: a name-brand frozen lasagna, a bagged salad kit, a bakery garlic bread, a two-liter soda, and a name-brand ice cream. Dinner B, $12.16: store-brand pasta, a jar of sauce, frozen mixed vegetables, store-brand shredded parmesan, and a loaf of Italian bread. Ask the class to check both against MyPlate. Dinner B has grain, vegetable, dairy, and could add a protein for $2. Dinner A has more money in it and no fruit. The point: the price and the plate are two different questions. "Your team gets $40. Your job is to win both questions."
 
 ## Procedure
 
@@ -140,5 +140,3 @@ Math: the running total and the unit column are the same skills the math teacher
 - Common mistake: teams price the amount the recipe needs instead of the package they have to buy. Say the rule early: you pay for the jar, not the spoonful.
 - Second common mistake: the station dish does not fit the constraints (a stir fry that needs knives, a raw chicken dish). Check the circled dish on Day 1 before anyone prices it. The three fallback dishes in Lesson 1.20 are there for a team whose dish cannot work.
 - Water is a free drink and a real one. A team that "saves" $3 by not buying soda has made a nutrition decision and a budget decision at once. Say so.
-- [Sal: your original ran the whole thing in two periods. This version spreads it across four lessons and a lab because the room has 40-minute periods and you wanted the checkpoints. If a class is strong, Days 1 and 2 can compress into one and the extra day goes to the lab.]
-- [Sal: in your version the hook dinners were photos. If you still have those photos, use them; if not, the slide outline describes two new ones.]

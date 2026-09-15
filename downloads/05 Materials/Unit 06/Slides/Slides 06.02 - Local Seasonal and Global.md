@@ -1,6 +1,6 @@
 # Slides 6.2: Local, Seasonal, and Global
 
-Slide outline for Lesson 6.2. Thirteen slides, one day. The month-by-month slides are the ones to keep for review. [Sal: if you can get a photo of a real Long Island farm stand in August and the same stand in February, use those two on slides 3 and 4.]
+Slide outline for Lesson 6.2. Thirteen slides, one day. The month-by-month slides are the ones to keep for review.
 
 ## Slide 1: Local, Seasonal, and Global
 

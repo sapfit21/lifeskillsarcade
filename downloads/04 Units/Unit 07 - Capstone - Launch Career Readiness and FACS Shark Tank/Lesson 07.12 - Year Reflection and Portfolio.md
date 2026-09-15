@@ -40,11 +40,11 @@ Tier 3 (FACS): portfolio, resume, STAR, prototype, network, follow up, professio
 ## Materials and setup
 
 - `Handout 07.12 - Portfolio Checklist and Year Reflection.md`, one per student
-- One two-pocket folder or a large envelope per student, labeled with their name. [Sal: about 25 cents each, or the school's own folders. This is the one thing from the whole year that leaves the building in a student's hand, so buy the ones that survive a backpack.]
+- One two-pocket folder or a large envelope per student, labeled with their name.
 - Every student's FACS folder from the room crate, plus the whole year's paper: lab rubrics, project rubrics, the room plan from Unit 4, the kit card from Unit 3, the investor report from Unit 2, the costed meal from Units 1 and 6, the careers self-checks, the safety exam
 - The Topic 7.1 stapled sets returned: the resume, the three-part answer, the STAR planner, the interview feedback sheet
 - `Rubric 07 - Career Readiness and Shark Tank.md`, fully scored, returned at the door with all six criteria and the total
-- The sewn item from Unit 5, or a photograph of it if it went home. [Sal: take the photographs during Unit 5, not now. A student whose item went home in April has nothing to put in the folder in June unless there is a picture.]
+- The sewn item from Unit 5, or a photograph of it if it went home.
 - The posters from yesterday, still up, so the room looks like the year on the last day
 - A single chair circle or a standing horseshoe for the closing round
 - Slides: `Slides 07.12 - Year Reflection and Portfolio`
@@ -105,10 +105,10 @@ The closing round is the closure and it is the end of the course. One sentence e
 
 "Everything in that folder you did. Not me. I set the room up and I set the clock and I asked the questions. You cooked, you sewed, you measured, you costed it, you stood up in front of four adults and said a price out loud. Take the folder home. When somebody asks you what you can do, do not tell them. Open it."
 
-## What Sal should do with the portfolios
+## What to do with the portfolios
 
 - **The folder goes home with the student.** Not into a file cabinet. This is the one thing from the year that has a use outside the building and it has no use in a cabinet.
-- **Photocopy or photograph three pages per student before it leaves:** the resume, the year reflection, and the portfolio checklist with the twelve proof lines. Those three pages are the program's evidence, they take about four minutes a class to photograph with a phone against a wall, and they are what you show a principal, a department review, or an accreditation visit. [Sal: name where these live. A folder per year on your own drive, not the school's, so you keep it when you move.]
+- **Photocopy or photograph three pages per student before it leaves:** the resume, the year reflection, and the portfolio checklist with the twelve proof lines. Those three pages are the program's evidence, they take about four minutes a class to photograph with a phone against a wall, and they are what you show a principal, a department review, or an accreditation visit.
 - **Keep nothing with a student's name on it on the website, ever.** The site shows the templates, the rubric, and the checklist. It does not show student work, student names, or student photographs. If you want to show a resume on the site, show the fictional worked example from `Handout 07.02`.
 - **Type the fifth-prompt sentences over the summer, with permission and no names, and post them in September.** A sixth grader reading twenty anonymous sentences from last year's class on the first day is worth more than any syllabus.
 - **Pull five reflections at random and read them in August before you plan next year.** Reflection answer 2, the hardest thing, is the best free curriculum feedback you will ever get, and it will tell you which lesson to rebuild.
@@ -145,7 +145,7 @@ Inside the building: the school counselor, who should get a copy of the portfoli
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 1. c), 2. d), 3. d), and 5. a).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 4. b) and 4. d); Theme Module 05, Problem Solving and Innovation, line 2. a) i.
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 1. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 1. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 3.1.5 and 1.1.6.
 - Sal's own materials: the Career Readiness portfolio is the summative assessment named in his own FNES 538 interview lesson, where the revised "tell me about yourself" answer "becomes part of the unit-end Career Readiness portfolio, which is the unit's summative assessment." This lesson builds the folder that lesson promised.
 - The course's own grading plan (`03 Course Design/03 Grading Plan.md`): "There is no separate final exam; the capstone project and the year reflection serve as the final."
@@ -159,5 +159,3 @@ Inside the building: the school counselor, who should get a copy of the portfoli
 - Take the photographs of the sewn items during Unit 5. Every year, a third of the class will have taken the item home and have nothing physical for the Unit 5 slot. A photograph taped to an index card is fine, but only if it exists.
 - A student who was absent for most of the year will have a thin folder and will feel it on the last day. Have three things ready for them from the counter piles and say one sentence privately: "This is what you have. It is real, and it counts." Do not make it a lesson about attendance on the last day.
 - The folder goes home. Say it four times during the period. Students assume everything gets collected, and the fact that this one does not is the point of it.
-- [Sal: the three-page photocopy (resume, reflection, checklist) is the evidence you will want when a principal asks what the capstone produced. It takes four minutes per class with a phone. Do it on day 180 while students are writing the reflection, not later, because later does not happen in June.]
-- [Sal: you said this unit is the one that shows a school what is different about you. The artifact that makes that argument is not the pitch day, it is this folder. If you can hand a principal one student's portfolio checklist with twelve proof lines on it, the conversation about what you teach is over in thirty seconds.]

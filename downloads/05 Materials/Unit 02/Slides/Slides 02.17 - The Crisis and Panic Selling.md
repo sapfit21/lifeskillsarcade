@@ -78,15 +78,11 @@ Notes: 6 minutes. Write the counts and a few numbers on the board. Do not declar
 - The big stock index fell about half over a year and a half.
 - It took about four years to get back to where it was.
 Image: a simple line graph falling from late 2007 to early 2009 and climbing back by 2013, no numbers on the axis except the years.
-Notes: [Sal: check the figures against a current source before presenting. Rounded from widely reported S&P 500 values: about 57 percent down from October 2007 to March 2009, back to the old high in 2013.]
-
 ## Slide 13: A real crash, 2020
 - A virus closed most of the world in about a month.
 - The same index fell about a third in about five weeks.
 - It got back to where it was in about five months.
 Image: a line graph with a sharp V in early 2020.
-Notes: [Sal: verify. Rounded: about 34 percent down from February 19 to March 23, 2020; recovered by August 2020.]
-
 ## Slide 14: What held, both times
 - Government bonds. Savings accounts.
 - That is Crown Seal Notes and the Honeypot with the names changed.

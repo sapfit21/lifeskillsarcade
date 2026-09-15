@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______   Team:
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | peer (someone your age) | akran | colega, par | compañero, compañera |

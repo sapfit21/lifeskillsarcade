@@ -33,7 +33,7 @@ Write N for need or W for want. If you write G for gray zone, you must give a re
 
 | Earnings | Hours | Rate | This period |
 |---|---|---|---|
-| Regular pay | 20.00 | $17.50 [update] | $350.00 |
+| Regular pay | 20.00 | $17.50 | $350.00 |
 | **Gross pay** | | | **$350.00** |
 
 | Deductions | This period |
@@ -59,7 +59,7 @@ $__________ minus $__________ = $__________
 
 ## Part 3: Budget math (4 points)
 
-7. Rosa's net income for a month is about $580. Her savings goal is $600 in six months. Her fixed expenses are a phone plan ($35 [update]) and a bus pass ($60 [update]). Fill in the budget. Show your math. (2 points)
+7. Rosa's net income for a month is about $580. Her savings goal is $600 in six months. Her fixed expenses are a phone plan ($35) and a bus pass ($60). Fill in the budget. Show your math. (2 points)
 
 Savings, first: $600 divided by 6 = $__________ a month
 
@@ -93,7 +93,7 @@ ______ Phone plan ______ Pizza with friends ______ Streaming subscription ______
 
 ## Part 5: Interest math (3 points)
 
-11. Ines borrows $400 on a store card at 15 percent [update] and pays nothing for two years. Use I = P x r x t. How much interest does she owe? What is the total she owes? Show your math. (3 points)
+11. Ines borrows $400 on a store card at 15 percent and pays nothing for two years. Use I = P x r x t. How much interest does she owe? What is the total she owes? Show your math. (3 points)
 
 $______ x ______ x ______ = $__________ interest
 
@@ -103,7 +103,7 @@ Total owed: $______ + $______ = $__________
 
 12. Ahmed is 16. He wants a $300 game console. He has a part-time job that pays about $290 net every two weeks and a savings account.
 
-Option 1: put the console on a store credit card at 24 percent [update] and pay $25 a month.
+Option 1: put the console on a store credit card at 24 percent and pay $25 a month.
 Option 2: save $50 a month in the savings account and pay for it in six months.
 
 Write four to five sentences.
@@ -159,5 +159,5 @@ Total: 25 points. Standard lines checked are listed per item. All NYS module lin
 - Grade 8 stretch: add one item: "Rosa's Social Security line should be 6.2 percent of gross. Check it." (350 x 0.062 = 21.70; it matches.) Bonus 2 points.
 
 **Sources**
-- The pay stub, the people, and the deli are fictional; the rate is a plausible 2026 Long Island starting wage above minimum, marked [update]. Social Security and Medicare are the federal employee rates (6.2 and 1.45 percent).
+- The pay stub, the people, and the deli are fictional; the rate is a plausible 2026 Long Island starting wage above minimum, to be refreshed before teaching. Social Security and Medicare are the federal employee rates (6.2 and 1.45 percent).
 - Standards: NYS IGLR module lines 4. a) through 4. f); CTE FCL 1. c), d), e); 2. a); 4. b), c), d), f); 5. a), b), c); CDOS 3a Basic Skills; NYS FACS Standard 3 PI C; National FCS 3.0 competencies 2.1.2, 2.4.3, 2.6.1, 2.6.2, 3.3.3. All quoted in the Lesson 2.7 to 2.13 files.

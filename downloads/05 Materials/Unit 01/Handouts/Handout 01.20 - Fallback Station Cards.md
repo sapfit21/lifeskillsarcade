@@ -2,7 +2,7 @@
 
 Three dishes that meet every rule of the room (no knives, pre-cooked meat only, stovetop and oven, teacher drains and handles the oven, 20 minutes of cooking) and come in under the $20 station budget. A team whose own station dish cannot work takes the card closest to its plan. Each card is also the filled example for the Team Station Card Template.
 
-Prices are realistic Long Island supermarket prices for September 2026. Every price is marked [update from this week's circular]. Store brand wherever one exists.
+Prices are realistic Long Island supermarket prices for September 2026. Every price is to be refreshed from the current circular before teaching. Store brand wherever one exists.
 
 Each card makes 7 tasting portions for a station of about seven students.
 
@@ -18,12 +18,12 @@ Makes: 7 tasting portions. Allergens: dairy (the cheese and sour cream can be le
 
 | Item | Size | Price | Unit | How many | Cost |
 |---|---|---|---|---|---|
-| Store-brand instant white rice [update from this week's circular] | 14 oz box | $2.49 | per box | 1 | $2.49 |
-| Store-brand black beans [update from this week's circular] | 15.5 oz can | $1.19 | per can | 2 | $2.38 |
-| Store-brand salsa [update from this week's circular] | 16 oz jar | $2.49 | per jar | 1 | $2.49 |
-| Store-brand shredded Mexican cheese [update from this week's circular] | 8 oz bag | $2.49 | per bag | 1 | $2.49 |
-| Frozen corn [update from this week's circular] | 12 oz bag | $1.79 | per bag | 1 | $1.79 |
-| Sour cream [update from this week's circular] | 8 oz tub | $1.69 | per tub | 1 | $1.69 |
+| Store-brand instant white rice | 14 oz box | $2.49 | per box | 1 | $2.49 |
+| Store-brand black beans | 15.5 oz can | $1.19 | per can | 2 | $2.38 |
+| Store-brand salsa | 16 oz jar | $2.49 | per jar | 1 | $2.49 |
+| Store-brand shredded Mexican cheese | 8 oz bag | $2.49 | per bag | 1 | $2.49 |
+| Frozen corn | 12 oz bag | $1.79 | per bag | 1 | $1.79 |
+| Sour cream | 8 oz tub | $1.69 | per tub | 1 | $1.69 |
 | Salt, garlic powder, cooking spray, bowls, spoons | | $0 | room | | $0 |
 
 **Total: $13.33** Under $20 by $6.67. Cost per tasting portion: $1.90.
@@ -71,11 +71,11 @@ Makes: 7 tasting portions. Allergens: wheat (pasta and bread), dairy (parmesan a
 
 | Item | Size | Price | Unit | How many | Cost |
 |---|---|---|---|---|---|
-| Store-brand penne pasta [update from this week's circular] | 1 lb box | $1.29 | per box | 1 | $1.29 |
-| Store-brand marinara sauce [update from this week's circular] | 24 oz jar | $2.29 | per jar | 1 | $2.29 |
-| Frozen broccoli florets [update from this week's circular] | 12 oz bag | $1.99 | per bag | 1 | $1.99 |
-| Store-brand shredded parmesan [update from this week's circular] | 6 oz bag | $2.49 | per bag | 1 | $2.49 |
-| Italian bread [update from this week's circular] | 14 oz loaf | $2.99 | per loaf | 1 | $2.99 |
+| Store-brand penne pasta | 1 lb box | $1.29 | per box | 1 | $1.29 |
+| Store-brand marinara sauce | 24 oz jar | $2.29 | per jar | 1 | $2.29 |
+| Frozen broccoli florets | 12 oz bag | $1.99 | per bag | 1 | $1.99 |
+| Store-brand shredded parmesan | 6 oz bag | $2.49 | per bag | 1 | $2.49 |
+| Italian bread | 14 oz loaf | $2.99 | per loaf | 1 | $2.99 |
 | Butter, garlic powder, salt, foil, plates, forks | | $0 | room | | $0 |
 
 **Total: $11.05** Under $20 by $8.95. Cost per tasting portion: $1.58.
@@ -123,11 +123,11 @@ Makes: 7 tasting portions (one half quesadilla each). Allergens: wheat (tortilla
 
 | Item | Size | Price | Unit | How many | Cost |
 |---|---|---|---|---|---|
-| Fajita-size flour tortillas [update from this week's circular] | 20 count | $3.49 | per pack | 1 | $3.49 |
-| Deli half rotisserie chicken [update from this week's circular] | about 1 lb 4 oz | $4.99 | each | 1 | $4.99 |
-| Store-brand shredded Mexican cheese [update from this week's circular] | 8 oz bag | $2.49 | per bag | 2 | $4.98 |
-| Store-brand salsa [update from this week's circular] | 16 oz jar | $2.49 | per jar | 1 | $2.49 |
-| Sour cream [update from this week's circular] | 8 oz tub | $1.69 | per tub | 1 | $1.69 |
+| Fajita-size flour tortillas | 20 count | $3.49 | per pack | 1 | $3.49 |
+| Deli half rotisserie chicken | about 1 lb 4 oz | $4.99 | each | 1 | $4.99 |
+| Store-brand shredded Mexican cheese | 8 oz bag | $2.49 | per bag | 2 | $4.98 |
+| Store-brand salsa | 16 oz jar | $2.49 | per jar | 1 | $2.49 |
+| Sour cream | 8 oz tub | $1.69 | per tub | 1 | $1.69 |
 | Foil, cooking spray, plates, forks, thermometer | | $0 | room | | $0 |
 
 **Total: $17.64** Under $20 by $2.36. Cost per tasting portion: $2.52.
@@ -173,6 +173,6 @@ The dish is done when the cheese is melted and stretches when the quesadilla is 
 | 2. Pasta with Vegetables and Jarred Sauce | $11.05 | $8.95 | $1.58 | wheat, dairy (optional) |
 | 3. Chicken Quesadillas | $17.64 | $2.36 | $2.52 | wheat, dairy |
 
-One period with one station on each fallback: $42.02. Three stations on the quesadillas: $52.92. Cap per period: $60. Multiply by the number of periods taught. [Sal: every price above is marked to be updated from this week's circular; the store-brand swap idea and price level are from your King Kullen shopping list, March 2026.]
+One period with one station on each fallback: $42.02. Three stations on the quesadillas: $52.92. Cap per period: $60. Multiply by the number of periods taught.
 
-No-kitchen version (Lesson 1.20 alternative), one station: bagged salad greens (12 oz, $2.99), canned black beans (15.5 oz, $1.19), shredded cheese (8 oz, $2.49), bottled dressing (16 oz, $2.29), fajita tortillas (20 count, $3.49) for a cold wrap: about $12.45 per station [update from this week's circular].
+No-kitchen version (Lesson 1.20 alternative), one station: bagged salad greens (12 oz, $2.99), canned black beans (15.5 oz, $1.19), shredded cheese (8 oz, $2.49), bottled dressing (16 oz, $2.29), fajita tortillas (20 count, $3.49) for a cold wrap: about $12.45 per station.

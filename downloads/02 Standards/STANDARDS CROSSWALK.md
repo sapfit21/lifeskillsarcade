@@ -20,8 +20,6 @@ The day counts total 180 and match `03 Course Design/01 Scope and Sequence.md`, 
 
 Module short codes: content modules IGLR, HDR, ATPD, EDM, N&W, FSP; theme modules CCO (Career and Community Opportunities), CIR (Communication and Interpersonal Relationships), FCL (Financial and Consumer Literacy), HSW (Health, Safety, and Wellness), PSI (Problem Solving and Innovation), SUS (Sustainability).
 
-
-
 ## PART A. How to cite
 
 Use these five formats on every lesson, project, and rubric. Copy the line text exactly as printed in the state document, including the state's own typos (see Part D and Part E).
@@ -101,8 +99,6 @@ Standard 3b (Career Majors) exists only at Commencement. A grade 6 to 8 course c
 - **NYS FACS standard:** chosen only from the standards the module's own Standards Addressed block lists (IGLR: 2, 3; HDR: 2; ATPD: 2; EDM: 2, 3; N&W: 1, 2, 3; FSP: 1, 2, 3). Where a better fit exists outside the block, Part E.3 says so.
 - **CDOS:** 1, 2, or 3a with sub skill. Every module cites all three.
 - **National FCS 3.0:** only numbers that (a) appear in the module's own Standards Addressed block or (b) are confirmed verbatim in external_standards.md. Text is paraphrased from the 3.0 compilation (see A.5) as given in external_standards.md. "(block)" means the number is printed in that module's block; "(ext)" means it is confirmed in external_standards.md but not printed in the module block. Where the module block prints older wording, the note says "block wording differs."
-
-
 
 ## PART B. Content module tables
 
@@ -276,8 +272,6 @@ Note on FSP 1. Basic Culinary Skills: lines b) to e) repeat N&W 1. a) to d) almo
 
 Row count check: IGLR 20 + HDR 28 + ATPD 19 + EDM 14 + N&W 18 + FSP 25 = 124 rows.
 
-
-
 ## PART C. Theme module summaries
 
 Each theme lists its topic areas with lettered line counts (from the state text), the units that carry it, and the theme's own FACS illustrative activity (the state's example, one line).
@@ -317,8 +311,6 @@ FACS illustrative activity (state text): Reworking Spaces, students identify sch
 Topic areas: 1. Resources (7); 2. Environmental Management (12); 3. Energy Conservation (8); 4. Careers Related to Sustainability (3).
 Units carrying it: U4 (primary: 1c, 2a, 2f, 3a to 3e, 3h), U6 (primary: 1a, 1e, 2h, 2j, 2k, 2l), U5 (primary: 1e, 1g, 2e, 3c upcycling and care), U1 (2h food waste, composting), U2 (1f), U7 (1b), U3 (1b if the delayed gratification activity is used).
 FACS illustrative activity (state text): Product Lifecycles, students trace a household item's lifecycle and "apply this learning to a recycle/upcycle/repurposing project, such as recycling t-shirts into reusable shopping bags."
-
-
 
 ## PART D. Coverage check
 
@@ -369,8 +361,6 @@ Quote these exactly as printed when citing; add "[sic]" on teacher-facing pages 
 - Theme CIR ITEEA line H says "transfered"; Theme SUS ITEEA line G says "influence by"; PSI NBEA Computation list has two items labeled "V." (none of these are FACS lines; listed for completeness).
 - Theme 01 NBEA URL is malformed; Theme 04, 05, 06 print "Common Core Technical Core Standards" in the note line. Not FACS lines.
 - IGLR CDOS header omits the word "Studies."
-
-
 
 ## PART E. Verification notes
 
@@ -425,7 +415,7 @@ All 124 content lines and all theme lines in this crosswalk come from the June 2
 **Two real differences:**
 
 1. **HDR is renumbered.** The 2023 copy fixes the 2018 numbering gap: topics now run 1 to 7 with no gap, so Parenting is printed 6 (2018: 7) and Career Pathways is printed 7 (2018: 8). Every "HDR 6." and "HDR 7." citation in this build matches the 2018 release and does not match the state's current PDF. DECIDED and DONE 2026-09-14: the build cites the 2023 numbering everywhere; the version note lives in the HDR section of Part B and in E.4.
-2. **The 2023 ATPD copy appears defective.** Its topic "4. CONSUMER RESOURCES AND FINANCE" carries only the two Career Pathways lines ("Identify career paths in the textiles and apparel field"; "Investigate a career in clothing or textiles..."), and there is no topic 5. The four 2018 consumer lines, including ATPD 4. a) (constructing versus purchasing) and 4. b) (comparing cost across vendors), which Unit 5's consumer topic teaches, appear nowhere in the 2023 PDF; three separate automated reads confirmed, including a phrase search. This looks like content lost in the reformat, not a curriculum decision: the guiding framework at nyctecenter still carries the lines. Until NYSED clarifies, this build keeps citing the 2018 ATPD lines with a version note. [Sal: this is worth one email to NYSED CTE asking whether the 2023 ATPD PDF dropped Consumer Resources and Finance on purpose. Attach both PDFs.]
+2. **The 2023 ATPD copy appears defective.** Its topic "4. CONSUMER RESOURCES AND FINANCE" carries only the two Career Pathways lines ("Identify career paths in the textiles and apparel field"; "Investigate a career in clothing or textiles.."), and there is no topic 5. The four 2018 consumer lines, including ATPD 4. a) (constructing versus purchasing) and 4. b) (comparing cost across vendors), which Unit 5's consumer topic teaches, appear nowhere in the 2023 PDF; three separate automated reads confirmed, including a phrase search. This looks like content lost in the reformat, not a curriculum decision: the guiding framework at nyctecenter still carries the lines. Until NYSED clarifies, this build keeps citing the 2018 ATPD lines with a version note.
 
 The 2018-release URLs, for the two modules still unchecked by automated fetch (download by hand and compare against the 2018 text):
 - https://www.nysed.gov/sites/default/files/programs/career-technical-education/04-environmental-design-and-management.pdf
@@ -440,7 +430,6 @@ Things to check in those two: the EDM 1. b) typo, and CIR's seven-topic structur
 With these two, all twelve modules are verified against the NYSED 2023 copies. Summary: ten match in structure; HDR is renumbered (re-cited to 2023); ATPD 2023 is missing its four consumer lines (2018 lines kept, NYSED asked); CIR 2023 duplicates one line (2018 lettering kept, NYSED asked); EDM 1. b) re-cited to the clean 2023 wording.
 
 Separately, the NYS FACS Learning Standards (Intermediate) key ideas and performance indicators were verified 2026-09-14 directly against the NYSED PDF (learning-standards-for-health-physical-education-and-family-and-consumer-sciences-at-three-levels.pdf): Standards 1, 2, and 3 key ideas and PIs match this crosswalk's Part A.6 as cited. The NYLearns caveat is closed.
-
 
 ### E.6 Other items for the teacher to check by hand
 

@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | time | zaman | tempo | tiempo |
@@ -139,4 +137,3 @@ This sheet gets stapled to your Goal Plan. Both come back out in four weeks for 
 
 **Scoring for daily work.** Complete: total 24, real numbers next to guesses, the four boxes done, a sleep window that meets the range, a week plan with a day and hour and a named cut. Partial: total 24 and a plan but no cut or no sleep window. Missing: no total or no plan. Staple to the Goal Plan and keep in the FACS folder.
 
-[Sal: the sleep ranges are the AASM consensus numbers as the CDC publishes them. Confirm the current CDC page before the first time you teach this, and agree on the numbers with the health teacher.]

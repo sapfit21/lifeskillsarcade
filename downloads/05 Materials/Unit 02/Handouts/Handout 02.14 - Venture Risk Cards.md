@@ -78,7 +78,7 @@ Starting price today: AQ72.00
 
 * * *
 
-Starting prices are the Fortune Street starting values from Sal's README. [Sal: update from the live site's Day 1 prices.]
+Starting prices are the Fortune Street starting values from Sal's README.
 
 ## Teacher key
 

@@ -1,6 +1,6 @@
 # Slides 6.4: Food Scarcity and Food Deserts
 
-Slide outline for Lesson 6.4. Twelve slides, one day. Slide 2 is read out loud word for word and is not skipped. The last slide carries the counselor's name and room. [Sal: no photos of real neighborhoods, and no photos that could be read as a picture of somebody's family. Diagrams and the map only.]
+Slide outline for Lesson 6.4. Twelve slides, one day. Slide 2 is read out loud word for word and is not skipped. The last slide carries the counselor's name and room.
 
 ## Slide 1: Food Scarcity and Food Deserts
 
@@ -91,4 +91,4 @@ Notes: One minute each, factual. What each one is, who runs it, what it does and
 - A food desert is ___
 - The thing that would help most is ___ because ___
 - If anything today is about your house, my door and the counselor's door are both open, and you do not have to explain
-Notes: [Sal: put the counselor's name and room number on this slide.] Read the last line out loud. Read the exit cards before you hand anything back.
+Notes: Read the last line out loud. Read the exit cards before you hand anything back.

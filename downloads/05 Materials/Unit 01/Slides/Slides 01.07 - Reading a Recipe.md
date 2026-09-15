@@ -86,8 +86,6 @@ Notes: Hold up the three at the front. Ask what a 90-second microwave does to ea
 - Scrambled Egg Tacos: two burners, everyone at the station has passed the safety exam.
 - Vote, or your teacher decides by grade.
 - Write the recipe at the top of your handout.
-Notes: [Sal: grade 6 gets the Mug Cake. Decide the rest before class or let them vote.]
-
 ## Slide 12: Closure
 
 - Exit card: 3 parts of a recipe, 2 abbreviations and what they mean, 1 thing that could go wrong in Lab 1 that you will watch for.

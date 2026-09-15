@@ -54,8 +54,6 @@ Notes: 11 minutes. The two that move most are the caterer and the baker. Let the
 - **Food Protection Manager** is the one many restaurants require of a supervisor.
 - **High school CTE programs can offer it.** You can walk out of high school with it.
 - It is the difference between an application that gets a call and one that does not.
-Notes: [Sal: confirm which level your school or the local BOCES can offer and proctor, what the exam costs, and the county health department's current food handler requirement.]
-
 ## Slide 9: Would I like this?
 - Pick two cards: one you would consider, one you would not.
 - The part of the day I would like. The part I would not.
@@ -71,7 +69,7 @@ Notes: [Sal: confirm which level your school or the local BOCES can offer and pr
 - Restaurants, delis, bakeries, and heavy seasonal catering on the East End
 - Hospitals, nursing homes, and school districts, each with a food service operation and usually a dietitian
 - The Suffolk and Nassau county health departments. Cornell Cooperative Extension of Suffolk County
-Notes: Circle every job on the cards that exists within about 25 miles. [Sal: localize this for your school's actual neighborhood before you teach it.]
+Notes: Circle every job on the cards that exists within about 25 miles.
 
 ## Slide 11: The closing question
 - Which link in the chain has the **most** jobs?

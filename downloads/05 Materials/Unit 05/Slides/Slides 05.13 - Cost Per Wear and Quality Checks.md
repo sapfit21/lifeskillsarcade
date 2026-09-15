@@ -1,12 +1,12 @@
 # Slides 05.13: Cost Per Wear and Quality Checks
 
-Lesson 5.13, one day (day 133). Thirteen slides. All prices marked [update].
+Lesson 5.13, one day (day 133). Thirteen slides. All prices to be refreshed before teaching.
 
 * * *
 
 ## Slide 1: Do now
 
-- A pair of jeans costs $60 [update].
+- A pair of jeans costs $60.
 - You wear them 200 times before they wear out.
 - How much did each wearing cost you?
 - Show the division.
@@ -22,20 +22,20 @@ Notes: two minutes. Take the answer and the division out loud. $60 ÷ 200 = $0.3
 
 ## Slide 3: Worked problem (a), the jeans
 
-- Price: $60 [update]
+- Price: $60
 - Wears: 200
 - $60 ÷ 200 = **$0.30 per wear**
 
 ## Slide 4: Worked problem (b), the shirt
 
-- Price: $15 [update]
+- Price: $15
 - Wears: 5
 - $15 ÷ 5 = **$3.00 per wear**
 - Cheapest price on the slide. Most expensive to own.
 
 ## Slide 5: Worked problem (c), the coat
 
-- Price: $90 [update]
+- Price: $90
 - Worn 3 winters. How many wears is that?
 - How many times do you wear a winter coat in one winter? ______
 - 3 × ______ = ______ wears
@@ -110,8 +110,8 @@ Notes: three minutes per station, one bell, three rotations. Refuse to say wheth
 
 ## Slide 12: The trade-off
 
-- Garment 2, the thin t-shirt: $8 [update]
-- Garment 1, the heavy sweatshirt: $44 [update]
+- Garment 2, the thin t-shirt: $8
+- Garment 1, the heavy sweatshirt: $44
 - **Person 1:** walks to school, wears it four days a week for two winters.
 - **Person 2:** needs a shirt for one concert.
 - Compute cost per wear for both garments, for both people.

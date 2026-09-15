@@ -2,9 +2,9 @@
 
 ## Pages 1 and 2: Item cards (teacher cuts one set per pair)
 
-Cut on the lines. One set is 30 cards. Cards marked with a star (*) are the ten to remove for the grade 6 set of 20. Each card has the item, a picture cue in words, and a price so the sort and the $100 task use the same numbers. Prices are Long Island prices for 2026 and are marked [update].
+Cut on the lines. One set is 30 cards. Cards marked with a star (*) are the ten to remove for the grade 6 set of 20. Each card has the item, a picture cue in words, and a price so the sort and the $100 task use the same numbers. Prices are Long Island prices for 2026 and are to be refreshed before teaching.
 
-| Card | Item | Picture cue | Price [update] |
+| Card | Item | Picture cue | Price |
 |---|---|---|---|
 | 1 | Winter coat | a puffy coat on a hook | $60 |
 | 2 | Second winter coat in a different color * | two coats on hooks | $60 |
@@ -59,7 +59,7 @@ Write the card and what would move it to NEED or to WANT.
 
 Rules: cover at least one need before any want. Do not go over $100. Anything you do not spend goes to savings. Prices are for one month where the card says "a month."
 
-| Item | Price [update] | Buy, skip, or save? | N, W, or G? | Running total |
+| Item | Price | Buy, skip, or save? | N, W, or G? | Running total |
 |---|---|---|---|---|
 | Monthly bus pass to school | $60 | | | |
 | Notebook and pens | $8 | | | |

@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | goal | hedef | meta | meta |
@@ -109,7 +107,7 @@ Score yourself first in the "Me" column. I score in the "Teacher" column after c
 | Ladder | Fewer than three rungs, or rungs are results, not actions | Three or more rungs but out of order, or the first rung is not dated within a week, or no obstacle | Three to five rungs in order, each an action, the first rung dated within a week, one obstacle with a plan, one helper with a way to reach them | Meets, and the obstacle plan names a specific backup (a second ride, a second time), or a second ladder is built for the other goal | | |
 | Decision grid | Fewer than three options, or the rows are not the student's values or goal, or no decision | Three options and rows from the student's own sheets, but cells are blank or all plus, or the defense does not name a value or goal | A real or card choice, three options, two or three rows from the student's own values or goal, a plus or minus with a word in every cell, a decision defended in two sentences that name what decided it, a look-back date | Meets, and the grid has at least one honest minus for the chosen option, and the look-back names a date and a number | | |
 
-Total: ______ / 12. Meets on all three is 9. [Sal: 9 and up is the "met the check" line.]
+Total: ______ / 12. Meets on all three is 9.
 
 Staple pages 1 to 3 and turn in.
 
@@ -147,4 +145,4 @@ Decision: Option C. Defense: "I decided to save $15 and spend $10 because gettin
 
 **The six cards** all work with two or three rows from a student's values and a goal. Card 3 (the test) and Card 5 (the sibling) are the ones that produce the most honest minuses. Card 6 previews the budget in Topic 2.3.
 
-**Scoring.** 12 points, "Quizzes and topic checks." Meets on all three (9) is the line. Read the student's self-score; a self-score two or more points above yours is a conference, not a mark-down. Keep the Goal Plans in the FACS folder; the first rung is scheduled in Lesson 2.6, and the look-back happens four weeks after Day 2 [Sal: pick the day in Topic 2.4].
+**Scoring.** 12 points, "Quizzes and topic checks." Meets on all three (9) is the line. Read the student's self-score; a self-score two or more points above yours is a conference, not a mark-down. Keep the Goal Plans in the FACS folder; the first rung is scheduled in Lesson 2.6, and the look-back happens four weeks after Day 2.

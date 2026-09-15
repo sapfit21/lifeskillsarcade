@@ -56,7 +56,7 @@ Teacher signature: ______________________ Time: ______
 
 ### Salsa bar (separate counter; stays cold until the pans go in)
 
-Salsa (2 tablespoons is a serving, 220 mg sodium). Sour cream (2 tablespoons is a serving, 15 mg sodium). [Sal: optional, no knives: sliced black olives from a can, pre-shredded lettuce.] One station at the bar at a time. The Runner serves. Plates come to the bar; the bar does not come to the plates.
+Salsa (2 tablespoons is a serving, 220 mg sodium). Sour cream (2 tablespoons is a serving, 15 mg sodium). One station at the bar at a time. The Runner serves. Plates come to the bar; the bar does not come to the plates.
 
 Traffic pattern (Runners draw it on Day 1):
 
@@ -71,7 +71,5 @@ Traffic pattern (Runners draw it on Day 1):
 Salsa and sour cream live in the refrigerator until minute 16. The Runner brings them out when the pans go in and puts them back at minute 36. Nothing dairy sits on a counter for more than 20 minutes today.
 
 ### Back of the card: the steps in Turkish, Portuguese, and Spanish
-
-[Sal: paste the eight-step list from `Vocabulary 01.md` here: wash hands, line the pan, layer the chips, drain and rinse beans, drain corn, spread and top with cheese, teacher bakes, plate and eat, clean.]
 
 Store and circular used for pricing: ______________________ Dates: ______________ Cost per station: $______

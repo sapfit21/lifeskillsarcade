@@ -157,11 +157,11 @@ Points per item are in the table. Standard lines are cited in the crosswalk form
 **Total: 44 points.**
 
 Scoring notes:
-- Item 16 is the only math item. A calculator is allowed on it. The numbers use the ClassroomStreet currency (AQ) and a venture name from the simulation; if the class ran a different version, change the name, not the numbers. [Sal: confirm the currency label matches what your students saw on screen this year.]
+- Item 16 is the only math item. A calculator is allowed on it. The numbers use the ClassroomStreet currency (AQ) and a venture name from the simulation; if the class ran a different version, change the name, not the numbers.
 - Item 6 is the decision model check. The five-step wording is the same in every unit (name the choice, list options, weigh each against what matters, decide, look back).
 - Item 20 is the scenario and the short written response.
 - Items 2 and 18 accept any true answer; grade the proof, not the choice.
 - One retake after a review, best score counts, per the grading plan.
 - Grade 6 version: omit items 16 and 20 and score out of 38, or keep all twenty and allow the extra time. Grade 8 stretch: item 20 asks for two examples with numbers (for example, a pay range and years of school for the career Nadia should research).
 - ELL: a word bank for items 11, 13, and 19 is built into the items; a bilingual dictionary is allowed; items may be read aloud.
-- Growth measure: compare items 6, 13, and 17 to the students' Lesson 2.1 do now (values), the Topic 2.4 pre-simulation vocabulary check, and the Lesson 2.20 do now. [Sal: if the Unit 2 writers put a unit pre-assessment in Lesson 2.1, use those item numbers instead.]
+- Growth measure: compare items 6, 13, and 17 to the students' Lesson 2.1 do now (values), the Topic 2.4 pre-simulation vocabulary check, and the Lesson 2.20 do now.

@@ -85,7 +85,7 @@ Each team reads one norm aloud. Write the eight or so norms on chart paper and l
 
 ## Differentiation and supports
 
-- ELL: the challenge is silent by design, so language is not the barrier; the two techniques are on a picture slide; the team card has pictures of the four targets next to the words; the norm examples are in Turkish, Portuguese, and Spanish on the handout (see `Vocabulary 00.md`, [check with a native speaker]); the norm sentence starter is "We ___ before we ___."
+- ELL: the challenge is silent by design, so language is not the barrier; the two techniques are on a picture slide; the team card has pictures of the four targets next to the words; the norm examples are in Turkish, Portuguese, and Spanish on the handout (see `Vocabulary 00.md`); the norm sentence starter is "We ___ before we ___."
 - IEP and 504 (general): a student who cannot measure holds the Prep Cook role (fills, wipes, carries the tray) and signs the norms; a student who finds silence stressful may be the Station Manager, who points and does not measure; the norms may be dictated to the recorder; extra time by writing norm four as tomorrow's do now.
 - Grade 6 support: three targets instead of four (drop the 2 tablespoons); three norms.
 - Grade 8 stretch: a fifth target, 1 teaspoon rice, with the spoon leveled; the team writes a fifth norm that says what the team does when someone breaks a norm; the student writes two sentences comparing this team to the survival team yesterday.
@@ -125,4 +125,3 @@ Inside the building: the PE teacher, who writes team rules with every class in S
 - Common mistake two: the norms are feelings. Every team writes "respect" first. The test question ("what would I see?") fixes it. Ask it at every table.
 - The check station is not a grade. Say that before the timer starts, or the challenge turns into a test and the quiet students freeze.
 - The rice goes back in the bag and comes out again on day 13 for Lesson 1.6. Label the bag.
-- [Sal: the Silent Measurement Challenge at Brentwood was your ELL-friendly design on purpose. Say that to the class after the debrief if it fits: "I built this one so that language could not be the thing that made a team lose."]

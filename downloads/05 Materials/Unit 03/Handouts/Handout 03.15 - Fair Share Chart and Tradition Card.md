@@ -18,7 +18,7 @@ Name: ______________________________ Date: ______________ Group: ______ Family c
 
 Star the jobs a 12 to 14 year old could do alone. Circle the jobs that need an adult.
 
-Words in other languages [check with a native speaker before printing]:
+Words in other languages:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

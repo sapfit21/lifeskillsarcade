@@ -44,7 +44,7 @@ Tier 3 (FACS): strength, interest, aptitude, interest type (realistic, investiga
 - Twelve trait, strength, interest sort statements on slide 4 (Day 1) for the whole-class sort
 - Students' Lesson 2.1 sort sheets, from the FACS folder (Day 2, for the last step)
 - Timer visible to the class
-- Setup notes: seat in the same fours as Lesson 2.1 so the notice cards go to people who have seen the student work for at least two days. Day 2 needs no setup beyond the quiz. If the room has devices, the quiz can be a form, but paper is fine and faster. [Sal: if your students have used the O*NET Interest Profiler in a counseling class, say so on Day 2; the six types are the same and the quiz here is a paper version, not a replacement.]
+- Setup notes: seat in the same fours as Lesson 2.1 so the notice cards go to people who have seen the student work for at least two days. Day 2 needs no setup beyond the quiz. If the room has devices, the quiz can be a form, but paper is fine and faster.
 
 ## Pre-assessment
 
@@ -122,7 +122,7 @@ Inside the building: the school counselor, who may run the O*NET Interest Profil
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, lines 2. d) and 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 1, Intermediate. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 13.2.1.
 - The six interest types (realistic, investigative, artistic, social, enterprising, conventional) are John Holland's RIASEC categories, public descriptors used by the U.S. Department of Labor's O*NET Interest Profiler (onetonline.org). The 30 quiz items in `Handout 02.02 - Interest Quiz.md` were written new for this course and are not taken from any published instrument.
@@ -136,5 +136,4 @@ Inside the building: the school counselor, who may run the O*NET Interest Profil
 - Common mistake on the quiz: students answer for who they want to be, or for who their friend is. The rule on slide 3 ("the you of today") helps; so does seating them so they cannot see a friend's page.
 - Notice cards can hurt if a student gets three thin ones. Watch the quiet student at each table. If you see a table struggling, drop a card of your own into that student's pile; you have seen them work for 37 days.
 - Ties in the top two letters are common. The do now question breaks the tie; if that does not settle it, both letters stay and the student reads three descriptions.
-- [Sal: your Holland Code Decoder packet used a three-letter code. Two letters is enough at this age and keeps the career lists short. If you prefer three, the scoring grid works the same way; add a line.]
 - The class tally by letter is worth keeping. Compare it with the career cluster choices in Lesson 2.21; the classes that are heavy in S and A usually pick the same three clusters, and that is a conversation about what the town needs.

@@ -72,4 +72,4 @@ Clean (35 to 40)
 - [ ] Microwave wiped, mugs washed and dry, tools back per the map, counters wiped, floor swept, trash out.
 - [ ] Teacher signed the station.
 
-Words for the station: "behind you" ________ "hot" ________ "done" ________ "help" ________ [Sal: Turkish, Portuguese, Spanish from `Vocabulary 01.md`]
+Words for the station: "behind you" ________ "hot" ________ "done" ________ "help" ________

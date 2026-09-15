@@ -150,7 +150,7 @@ ________________________________________________________________
 
 # Teacher key
 
-Points per item are in the table. Standard lines are cited in the crosswalk format. Partial credit is noted where it applies. Items 1 to 8 check Topics 3.1 and 3.2; the exact terms should match what Lessons 3.1 to 3.9 used. [Sal: read those lessons' vocabulary lists against this key before you give the test and adjust any wording that differs.]
+Points per item are in the table. Standard lines are cited in the crosswalk format. Partial credit is noted where it applies. Items 1 to 8 check Topics 3.1 and 3.2; the exact terms should match what Lessons 3.1 to 3.9 used.
 
 | Item | Answer | Points | Standard lines checked |
 |---|---|---|---|
@@ -180,6 +180,6 @@ Points per item are in the table. Standard lines are cited in the crosswalk form
 Scoring notes:
 - Item 19 is the safety scenario. A student who writes "shake" anywhere in c) as something to do earns 0 on c) and gets a conversation, not just a mark.
 - Item 20 is Sal's High tiered objective for Types of Families ("defend the idea that no one family structure is better than another using examples") as a test item.
-- Items 1 to 8 assume the terms in Lessons 3.1 to 3.9 (stages, four aspects, object permanence, heredity and environment, self-concept, peer pressure, stress causes and the toolkit, refusal lines). [Sal: if those lessons used different labels for the stages or the aspects, change the key, not the students' answers.]
+- Items 1 to 8 assume the terms in Lessons 3.1 to 3.9 (stages, four aspects, object permanence, heredity and environment, self-concept, peer pressure, stress causes and the toolkit, refusal lines).
 - A retake is one retake after a review, best score counts, per the grading plan. The retake uses the same items with items 14, 18, and 19 reordered.
 - Extended time: the test continues at the start of Lesson 4.1 or in a resource period. The test may be read aloud, and item 20 may be answered orally and scribed.

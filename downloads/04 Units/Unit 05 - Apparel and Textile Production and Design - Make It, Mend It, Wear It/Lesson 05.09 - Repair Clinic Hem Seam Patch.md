@@ -65,7 +65,7 @@ Three stations of about seven students. Each station is one repair, and students
 - Handout, one per student: `Handout 05.09 - Repair Clinic Station Cards.md`, which holds the three station cards, the diagnosis chart, and the repair-or-replace decision sheet
 - Slides: `Slides 05.09 - Repair Clinic Hem Seam Patch` (outline in 05 Materials; the site renders it as a deck)
 - The five-step decision model poster from Unit 0: name the choice, list options, weigh each against what matters, decide, look back
-- The permission note for items from home, sent after Lesson 5.8: one paragraph saying a student may bring one item, that it will be repaired by the student and not by me, that a hand repair is visible and permanent, and that nothing valuable, borrowed, or irreplaceable should come in. No signature, no item. [Sal: draft this in your own words and run it past the office once. One paragraph, on school letterhead, is enough.]
+- The permission note for items from home, sent after Lesson 5.8: one paragraph saying a student may bring one item, that it will be repaired by the student and not by me, that a hand repair is visible and permanent, and that nothing valuable, borrowed, or irreplaceable should come in. No signature, no item.
 - Timer visible to the class
 - Setup notes: prepare the practice garments the day before, including opening the seams with the seam ripper, so the damage is real and consistent. Sort items brought from home at the door: anything valuable, borrowed, or leather goes back in the bag with a quiet "not this one, and here is why." Set the iron at the front with me as the only operator.
 
@@ -136,7 +136,7 @@ None. Optional: ask whoever handles clothes at your house what gets thrown out m
 
 ## Connections
 
-Mathematics: the repair-or-replace sheet is unit cost and a break-even comparison, and it is the same arithmetic as Lesson 5.13's cost per wear; hand the math teacher the four cases. Sustainability and science: textile waste is a real number and Lesson 5.14 carries it, but the science teacher may have the landfill data already. Community service: a clothing pantry, a shelter, or a thrift shop's reject bin turns this period into a service project with real garments and real recipients; the ATPD module's own Career and Community Connections activity asks for exactly that. [Sal: this is the best community partner opportunity in the unit. Call before this lesson, not after.] Community expertise: a tailor or a costumer as a guest is at their most useful today, because a professional hem is a thing worth watching once.
+Mathematics: the repair-or-replace sheet is unit cost and a break-even comparison, and it is the same arithmetic as Lesson 5.13's cost per wear; hand the math teacher the four cases. Sustainability and science: textile waste is a real number and Lesson 5.14 carries it, but the science teacher may have the landfill data already. Community service: a clothing pantry, a shelter, or a thrift shop's reject bin turns this period into a service project with real garments and real recipients; the ATPD module's own Career and Community Connections activity asks for exactly that. Community expertise: a tailor or a costumer as a guest is at their most useful today, because a professional hem is a thing worth watching once.
 
 ## Sources
 
@@ -157,4 +157,3 @@ Mathematics: the repair-or-replace sheet is unit cost and a break-even compariso
 - Common mistake: students want to fix the leggings in case (d). Let them argue it, then land it: worn-thin fabric has no repair, and knowing that is also a skill.
 - The visible mend is the option students choose once they see one. Have one made ahead in a bright color, on a pair of jeans, to hold up.
 - Keep every finished repair, or a photograph of it, for the sampler evidence in Lesson 5.11. A repair that goes home on a student's own garment gets photographed at the station with the garment only, no student in the frame.
-- [Sal: your prices in Step 4 and your local tailor's actual hemming price. Call one and ask; it takes two minutes and the real number makes the whole step land.]

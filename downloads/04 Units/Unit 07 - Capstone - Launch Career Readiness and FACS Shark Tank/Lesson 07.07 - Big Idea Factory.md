@@ -121,7 +121,7 @@ Inside the building: the art teacher, for the CMO role, and the technology or en
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 5. b) and 3. b).
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, lines 2. a) a., 2. a) d., and 1. d).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Thinking Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Thinking Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 3.1.2 and 1.2.4.
 - Sal's own materials: his Brentwood business packet "The Big Idea Factory," which supplies the problem-spotting chart (problem, who else has it, my simple solution) and the target market and niche framing; "Competition Check," which supplies the grade 8 fourth filter question; and his team formation and role decision sheets with the C-suite roles CEO, CFO, and CMO. The packets are rewritten here with the teacher side they lacked, with the six FACS areas as the scan structure, and with the five-day buildability constraint, which is the filter question that makes the project finishable.
 - The Problem Solving and Innovation illustrative activity in the state's Individual Growth and Life Readiness module has small groups "develop entrepreneurship plans and make prototype food, textile, or human services products" and pitch "to a panel representing potential investors," with classmates and investors voting. That is the state's own description of this topic, and Lessons 7.7 through 7.11 are built on it.
@@ -134,5 +134,4 @@ Inside the building: the art teacher, for the CMO role, and the technology or en
 - Watch the module connection rule. It is the thing that makes this a FACS capstone and not a generic business unit. If every team picks a snack business, push two of them toward clothing repair, room organization, or childcare, and name the unit skill they already have.
 - Role assignment: do not let the loudest student always be CEO. The role decision lines on the card exist for this. The best CEO is often the student who kept the team on time during the Unit 6 cook day, and you have the records to know who that was.
 - Teams of three, not four. Four means one student watches.
-- [Sal: your own role sheets used CEO, CFO, and CMO and students took them seriously because the titles are real. Keep the titles. Add the line about no role being the boss of the other two; that is the fight you will otherwise referee on Lesson 7.10.]
 - Collect the signed filter sheets at the door. They are the gate, and they are the first page of the business brief that gets scored on criterion 3.

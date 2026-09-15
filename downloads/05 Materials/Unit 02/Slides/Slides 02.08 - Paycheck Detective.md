@@ -1,6 +1,6 @@
 # Slides 02.08: Paycheck Detective
 
-Lesson 2.8, one day, 13 slides. Wage and prices marked [update].
+Lesson 2.8, one day, 13 slides. Wage and prices to be refreshed before teaching.
 
 ## Slide 1: Do now
 - Every way a person your age can get money.
@@ -17,7 +17,7 @@ Notes: Sort the answers on the board into EARNED and NOT EARNED as students call
 Image: a teenager walking two dogs on a sidewalk.
 
 ## Slide 3: Where money comes from later
-- Wages: paid by the hour. $17.00 an hour on Long Island in 2026 [update].
+- Wages: paid by the hour. $17.00 an hour on Long Island in 2026.
 - Salary: a set amount for the year, split into paychecks.
 - Tips. Commission. Overtime. A second job. A business you own.
 - Later: interest and dividends from money you saved and invested (Topic 2.4).

@@ -102,9 +102,9 @@ Now write one sentence: which of those three repairs would you NOT try on a garm
 
 **11.** (3 points, show your work) Cost per wear.
 
-a) A $72 winter coat [update] worn 180 times. Cost per wear = $______
+a) A $72 winter coat worn 180 times. Cost per wear = $______
 
-b) A $20 shirt [update] worn 4 times. Cost per wear = $______
+b) A $20 shirt worn 4 times. Cost per wear = $______
 
 c) Which one was the more expensive item to own, and how do you know? ________________________________________________
 
@@ -124,7 +124,7 @@ Check 1: ______________________  Check 2: ______________________
 
 A good result on check ____ looks like: ________________________________
 
-**15.** (2 points) A student needs one sweatshirt to last two winters and has $50 [update]. Between a $13 thin fleece with single-needle seams and 8 stitches per inch, and a $38 heavy cotton blend with double-needle seams and 11 stitches per inch, which do you recommend and why? One sentence.
+**15.** (2 points) A student needs one sweatshirt to last two winters and has $50. Between a $13 thin fleece with single-needle seams and 8 stitches per inch, and a $38 heavy cotton blend with double-needle seams and 11 stitches per inch, which do you recommend and why? One sentence.
 
 ________________________________________________________________
 
@@ -158,7 +158,7 @@ Now name one career from this unit that a person usually enters by training on t
 
 ## Part 6: Scenario and written response
 
-**19.** (4 points) A scenario. Mia has a jean jacket she wears almost every day. Right now: one cuff button is missing, the inside side seam has opened for three inches, there is a small hole worn through near the pocket corner, and the jacket has been washed hot and tumble dried on high since she got it. She is about to throw it out and buy a new one for $54 [update].
+**19.** (4 points) A scenario. Mia has a jean jacket she wears almost every day. Right now: one cuff button is missing, the inside side seam has opened for three inches, there is a small hole worn through near the pocket corner, and the jacket has been washed hot and tumble dried on high since she got it. She is about to throw it out and buy a new one for $54.
 
 a) Name the repair for each of the three problems (one word each): ________________ , ________________ , ________________
 
@@ -188,7 +188,7 @@ Exit line (on the back, not scored): The item I was surest about was number ___.
 
 Points per item are printed in the item. Accept any answer that is correct and specific even if it is not the one listed. A calculator is allowed on items 11 and 19b only.
 
-**Before you print this test:** items 2, 3, 4, 5, 6, 7, 9, and 10 check Topics 5.1 and 5.2, which are taught in Lessons 5.1 to 5.11 by the other half of this unit. Read those lessons and the Fibers and Care Quiz before printing, and adjust the wording of any item whose vocabulary differs (especially the four care symbols in item 3 and the tool list in item 5). Nothing in the key is wrong, but the words should match what the class heard. [Sal: check item 3 against the care symbol chart you actually hand out.]
+**Before you print this test:** items 2, 3, 4, 5, 6, 7, 9, and 10 check Topics 5.1 and 5.2, which are taught in Lessons 5.1 to 5.11 by the other half of this unit. Read those lessons and the Fibers and Care Quiz before printing, and adjust the wording of any item whose vocabulary differs (especially the four care symbols in item 3 and the tool list in item 5). Nothing in the key is wrong, but the words should match what the class heard.
 
 | Item | Answer | Points | Standard line checked |
 |---|---|---|---|
@@ -222,7 +222,7 @@ Points per item are printed in the item. Accept any answer that is correct and s
 - Item 15 is deliberately written so a defended minority answer earns full credit. The standard being checked is applying a decision-making model, not picking the teacher's answer.
 - **Grade 6 version:** item 2 drops spandex and uses three fibers; item 5 drops the needle threader and the measuring tape and gives four tools; item 11 prints the division already set up ("72 ÷ 180 = ____"); item 19b gives the first figure ($0.18) so the student computes only the second; item 20 asks for three to four sentences and requires only two of the three words. Same key, same points, noted on the paper.
 - **Grade 8 stretch:** the bonus on item 20 is required for stretch students and offered to everyone.
-- **ELL:** `Vocabulary 05.md` with the Turkish, Portuguese, and Spanish translations is allowed as a word bank. Item 19's scenario is read aloud once to the whole class. The written response on item 20 may be written in the home language and scored on content; arrange the translation with the ELL teacher. [Sal: check the school's testing accommodation rule.]
+- **ELL:** `Vocabulary 05.md` with the Turkish, Portuguese, and Spanish translations is allowed as a word bank. Item 19's scenario is read aloud once to the whole class. The written response on item 20 may be written in the home language and scored on content; arrange the translation with the ELL teacher.
 - **IEP and 504:** items read aloud; reduced-choice versions of the matching items (four options instead of six on item 5, three instead of four on items 1, 2, and 7); calculator on any item; extended time into the first ten minutes of Unit 6 Lesson 6.1 or a study hall; separate setting where the plan says so.
-- **Retake:** one retake after a review, best score counts, per the grading plan. Use the same key with new numbers on the math items [Sal: swap $72 and 180 wears for $64 and 160; swap $20 and 4 wears for $24 and 6; swap Mia's $54 and 300 wears for $48 and 240 with 160 more wears].
+- **Retake:** one retake after a review, best score counts, per the grading plan. Use the same key with new numbers on the math items: $72 and 180 wears become $64 and 160; $20 and 4 wears become $24 and 6; Mia's $54 and 300 wears become $48 and 240 with 160 more wears.
 - Return the Upcycle Challenge items and `Rubric 05` as students leave on day 143.

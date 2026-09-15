@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Partner: ______________________
 
-The rate on this sheet is 5 percent a year so the math is clean. Real savings accounts in 2026 pay from under 1 percent at big banks to about 4 percent at online banks [update].
+The rate on this sheet is 5 percent a year so the math is clean. Real savings accounts in 2026 pay from under 1 percent at big banks to about 4 percent at online banks.
 
 **My guess:** $20 a week for 30 years at 5 percent = $__________
 
@@ -93,11 +93,11 @@ _____________________________________________________________________________
 
 ## Grade 8 stretch
 
-1. Redo the five-year table at 3 percent [update] on the back. End of year 5: $______. How much does the rate matter over five years? $______ less.
+1. Redo the five-year table at 3 percent on the back. End of year 5: $______. How much does the rate matter over five years? $______ less.
 
 2. Check Nia's number with the shortcut: $1,000 x 1.05 to the 50th power. (Use the calculator's power key.) $______
 
-3. Three places for the money [update]: a big bank savings account at 0.5 percent, an online bank at 4 percent, a credit union at 3 percent. Which pays the most? ______ Name two things besides the rate that should decide where the money goes: ______________________, ______________________
+3. Three places for the money: a big bank savings account at 0.5 percent, an online bank at 4 percent, a credit union at 3 percent. Which pays the most? ______ Name two things besides the rate that should decide where the money goes: ______________________, ______________________
 
 ## Exit card (3-2-1)
 

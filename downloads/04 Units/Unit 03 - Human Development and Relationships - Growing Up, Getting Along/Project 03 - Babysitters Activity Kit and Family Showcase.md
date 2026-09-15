@@ -101,7 +101,7 @@ The Family Showcase is the Day 3 demo round. Kits sit on the counter under age s
 
 ## Supports
 
-- **Sentence starters** for the parent card and the demo (the Turkish, Portuguese, and Spanish lines are marked [check with a native speaker]):
+- **Sentence starters** for the parent card and the demo (the Turkish, Portuguese, and Spanish lines are to be verified by a native speaker):
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -131,7 +131,7 @@ The project counts in the labs and projects category (40 percent of the marking 
 
 - This project is the state module's own two illustrative activities ("Activities for Afterschool Program" and "Prototype Toys") sized to a 40-minute schedule and a middle school room with no children in it. The test is a partner playing the age; no real child is observed or used.
 - The Family Showcase is the Day 3 demo round, not a separate event. The tradition cards from Lesson 3.15 give the wall behind the kits a second layer (HDR 5. d)) at no extra time.
-- Budget for the unit plan: the build bin runs about $25 to $35 per class set new (quart and gallon zip-top bags, hair gel or clear dish soap, food coloring, large pom-poms and buttons, paper plates, paper cups, construction paper, yarn, painter's tape, packing tape, glue sticks, large craft sticks, index cards). Most of it lasts across periods and years. [Sal: put this on the Unit 3 budget line, and leave balloons out of the bin because of latex.]
+- Budget for the unit plan: the build bin runs about $25 to $35 per class set new (quart and gallon zip-top bags, hair gel or clear dish soap, food coloring, large pom-poms and buttons, paper plates, paper cups, construction paper, yarn, painter's tape, packing tape, glue sticks, large craft sticks, index cards). Most of it lasts across periods and years.
 - The $5 limit is priced from the posted bin price list, not from a store, so the arithmetic is the same for every student and the limit is about choosing, not shopping.
 - The tube rule is the safety line that matters most. Say it on all three days. A kit for a 2 or 3 year old with a loose small piece is not done.
 - Donating the kits: a pre-K or an elementary after-school program in the district, a library children's room, or a family shelter's play area, with permission and a second safety look by that adult. Only kits that passed every checklist line, and never with a student's last name on the card.

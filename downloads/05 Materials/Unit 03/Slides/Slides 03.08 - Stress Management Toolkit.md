@@ -37,7 +37,7 @@ Notes: Say "gentle" before the first round; students hold too hard. Count the fi
 
 ## Slide 5: Tool 2: Two-minute walk (footprints)
 
-- The loop [Sal: the taped loop in the room, or the agreed hallway loop]
+- The loop
 - No phone
 - No talking
 - Notice your feet. 2 minutes
@@ -55,7 +55,7 @@ Notes: The list does not fix anything on it. Ask afterward why the number might 
 
 ## Slide 7: Tool 4: Music or movement break (a note)
 
-- The track plays [Sal: your instrumental pick, about 90 seconds, no lyrics]
+- The track plays
 - Stand and stretch, move, or sit and listen
 - 90 seconds
 Image: a music note and a figure stretching.

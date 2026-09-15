@@ -54,7 +54,7 @@ Tier 3 (FACS): mise en place, hold time, portion, plate up, danger zone, station
 - Slides: `Slides 06.16 - Cook Day` (outline in 05 Materials; the site renders it as a deck; the running clock stays on screen both days)
 - Setup notes, and these are not optional: portion each station's bin the morning of. Fill the pots with hot tap water, cover them, and put them on the burners before the bell. Turn the burners on and preheat the oven at the reset cue of the previous period. Put the running clock on the screen at 0. Post the allergy list. Set 30 plates on the serving table yourself on Day 1; the service station does it on Day 2.
 
-**Cost:** the food cost for both days is the approved consolidated list, about $80 for a class of 28 ($20 per station), from Lesson 6.15. Paper goods about $8 if the room does not already have them. Both figures are Long Island supermarket prices from Sal's verified King Kullen lists, marked [update from this week's circular].
+**Cost:** the food cost for both days is the approved consolidated list, about $80 for a class of 28 ($20 per station), from Lesson 6.15. Paper goods about $8 if the room does not already have them. Both figures are Long Island supermarket prices from Sal's verified King Kullen lists, to be refreshed from the current circular before teaching.
 
 ## Pre-assessment
 
@@ -187,7 +187,7 @@ Every student says one number and one word before they leave: the minute their s
 
 ## Allergy line
 
-The allergy list is posted at four places and read aloud at every station in the first four minutes. Every station card carries an allergen box, and the Station Manager reads it to the whole class before the first plate leaves the serving table; if it was not read, the teacher stops the service. Any student with an allergen in the day's dishes is identified at pre-flight item 9 and is given the alternate portion set aside from another station's dish or the packaged alternate kept in the desk. No sharing of plates or utensils between stations during service. Serving spoons stay in their own dish. Anything reheated that contains pre-cooked meat is thermometered to 165 F out loud. [Sal: keep two shelf-stable alternates in the desk for this unit, a nut-free and dairy-free snack, so nobody sits with an empty plate.]
+The allergy list is posted at four places and read aloud at every station in the first four minutes. Every station card carries an allergen box, and the Station Manager reads it to the whole class before the first plate leaves the serving table; if it was not read, the teacher stops the service. Any student with an allergen in the day's dishes is identified at pre-flight item 9 and is given the alternate portion set aside from another station's dish or the packaged alternate kept in the desk. No sharing of plates or utensils between stations during service. Serving spoons stay in their own dish. Anything reheated that contains pre-cooked meat is thermometered to 165 F out loud.
 
 ## Assessment
 
@@ -205,16 +205,16 @@ None. Optional, one sentence, due at the start of Lesson 6.17: "The minute our p
 
 ## Connections
 
-Inside the building: the custodian and the building engineer. FACS gives them advance notice of a four-burner, full-oven day and a room that gets cleaned to a signed checklist; they give FACS a working exhaust fan, an extra bus tub, and a heads-up if the water is running cold. That is a two-minute conversation the week before and it prevents the worst version of cook day. Community: a chef, caterer, or restaurant line cook for a ten-minute visit at the serving table on Day 2. FACS gives them a class that ran four stations off a written plan; they give FACS one story about a night the line went down and what the kitchen did. [Sal: your Fire Island hotel food and beverage work is that story. Tell it at the table on Day 2, not before.]
+Inside the building: the custodian and the building engineer. FACS gives them advance notice of a four-burner, full-oven day and a room that gets cleaned to a signed checklist; they give FACS a working exhaust fan, an extra bus tub, and a heads-up if the water is running cold. That is a two-minute conversation the week before and it prevents the worst version of cook day. Community: a chef, caterer, or restaurant line cook for a ten-minute visit at the serving table on Day 2. FACS gives them a class that ran four stations off a written plan; they give FACS one story about a night the line went down and what the kitchen did.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 2. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standards 2 and 3a, Personal Qualities, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.2.7, 14.3.3, 14.4.1, and 14.4.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- The 165 F reheating temperature for previously cooked foods and the two-hour rule for leftovers are the USDA Food Safety and Inspection Service figures used all year in this course (Unit 1 Lessons 1.2 and 1.17). [Sal: confirm against fsis.usda.gov before the site goes public.]
+- The 165 F reheating temperature for previously cooked foods and the two-hour rule for leftovers are the USDA Food Safety and Inspection Service figures used all year in this course (Unit 1 Lessons 1.2 and 1.17).
 - Sal's own materials: `education_teaching_facs_kingkullen_masterflowchart_2026_03.pdf` (four kitchens in five-minute blocks with a support duty column and the teacher notes on always supervising the draining of pasta because of the steam, checking the oven bread yourself, and letting no student touch knives or oven doors) is the source of the teacher duty list and the two required teacher points. `education_teaching_facs_kingkullen_stationcards_2026_03.pdf` supplies the station card format and the safety reminder wording.
 
 ## Teacher notes
@@ -226,5 +226,3 @@ Inside the building: the custodian and the building engineer. FACS gives them ad
 - If a station's dish fails outright, serve what the other stations made and score that station on the flowchart and the clean check, not on the food. Then have them write what went wrong; that is a real Rubric 01 Objective 3 answer and it can still earn a Meets.
 - Do not debrief on cook day. Students are eating, the room is warm, and the good reflection comes the next day in Lesson 6.17. Two table questions and a one-word exit are enough.
 - Leftovers: the two-hour rule. Anything that has been out since minute 24 goes in the refrigerator before you leave the room or goes in the trash. Label and date what you keep for Lesson 6.17.
-- [Sal: your room, your burners. If your stove takes eleven minutes to boil a full pot, the flowchart blocks in this lesson need to shift and the students should be told the real number in Lesson 6.14, not discover it today. Time one pot the week before and write the number on the master grid.]
-- [Sal: decide whether the second section of the day cooks the same menu or a different one. Same menu means one shopping list and one setup; different menus means two of everything. Sal's own system ran the same menu across six periods on one $200 order, which is the version that scales.]

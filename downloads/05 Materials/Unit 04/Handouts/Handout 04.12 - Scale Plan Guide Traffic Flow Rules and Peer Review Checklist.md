@@ -31,9 +31,7 @@ Four pages: (1) the plan guide, (2) the furniture cut-out sheet, (3) the traffic
 
 ### Blank grid (if graph paper runs out)
 
-[Sal: print a quarter-inch grid here from any free grid generator, 32 squares by 44 squares fills a letter sheet at 1/2 inch = 1 foot for a room up to 16 by 22 feet.]
-
-Word bank: scale (ölçek / escala / escala), path (yol / caminho / camino), clear (açık / livre / libre), swing (kapı açılışı / abertura da porta / apertura de la puerta), turn (dönüş / giro / giro). [check with a native speaker]
+Word bank: scale (ölçek / escala / escala), path (yol / caminho / camino), clear (açık / livre / libre), swing (kapı açılışı / abertura da porta / apertura de la puerta), turn (dönüş / giro / giro).
 
 * * *
 
@@ -96,7 +94,7 @@ A path is as wide as its narrowest point. Measure the pinch, not the entrance.
 | A crib | at least 36 inches from a window, cord, heater, or shelf that could fall | 6 squares | Safe sleep (Lesson 3.17) and Lesson 4.2 |
 | A desk for a wheelchair user | 27 inches clear under it, 30 inches wide | open underneath on the plan | The chair rolls under |
 
-Sources: 36-inch clear width and 60-inch turning space are from the 2010 ADA Standards for Accessible Design (sections 403.5.1 and 304.3). The 30-inch general path is a common residential planning guideline. [Sal: the room is not a public building, so the ADA does not require these at home; we use the numbers because they work.]
+Sources: 36-inch clear width and 60-inch turning space are from the 2010 ADA Standards for Accessible Design (sections 403.5.1 and 304.3). The 30-inch general path is a common residential planning guideline.
 
 * * *
 

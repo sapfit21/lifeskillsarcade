@@ -110,13 +110,13 @@ None. Optional: watch an adult at home cook one thing and write down which metho
 
 ## Connections
 
-Science: browning and evaporation are chemistry and physics, and the science teacher can take the same demonstration further with temperature readings. Lesson 6.7 turns this lesson's observation skill into a controlled experiment, which is the science teacher's own language. Health: cooking method changes fat and vitamin content, which is a five-minute overlap with the health teacher's nutrition unit. [Sal: if the science teacher has an infrared thermometer, borrowing it for this demonstration makes the dry-versus-moist point visible in numbers.]
+Science: browning and evaporation are chemistry and physics, and the science teacher can take the same demonstration further with temperature readings. Lesson 6.7 turns this lesson's observation skill into a controlled experiment, which is the science teacher's own language. Health: cooking method changes fat and vitamin content, which is a five-minute overlap with the health teacher's nutrition unit.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. b), and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module 05, Problem Solving and Innovation, line 1. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Technology. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.2 and 8.5.14.
 - Unit 1, Lesson 1.5, for the tool names used in Step 1.
@@ -129,4 +129,3 @@ Science: browning and evaporation are chemistry and physics, and the science tea
 - Common mistake: students call sauté a moist method because the pan has butter or oil in it. Fat is not water, and fat gets hotter than water can, which is exactly why things brown in it. That is the thirty-second answer.
 - The pot of boiling water is the only real hazard. Nobody carries it, nobody drains it. The teacher does both, and says so while doing it, which is a preview of Lesson 6.8.
 - Save the two plated potatoes for the review before the Cooking Methods Check if they survive the period, or take a photo. The photo is a better quiz review than any slide.
-- [Sal: your students have been asking to use the stove since Unit 1. Naming which methods they will personally run in Lessons 6.8 and 6.9 at the end of this lesson buys you a quiet Step 4.]

@@ -244,6 +244,3 @@ Does this station look the way it looked before the bell? Circle: **YES / NOT YE
 - If a station's dish fails outright, serve what the other stations made and score that station on the flowchart and the clean check, not on the food. Have them write what went wrong; that is a real Rubric 01 Objective 3 answer and it can still earn a Meets.
 - Do not debrief on cook day. Two table questions and a one-word exit. The real reflection is Lesson 6.17 and it is better after a night.
 - Write the three objectives from Lesson 6.16 into the left column of `Rubric 01 - Lab Rubric.md` before the period. Do not write a new lab rubric.
-- **[Sal: time one full pot on your own stove the week before. If it takes eleven minutes to boil, the flowchart blocks shift and the students should be told the real number in Lesson 6.14, not discover it on cook day. Write your number here: ______ minutes.]**
-- **[Sal: keep two shelf-stable alternates in the desk for this unit, one nut-free and one dairy-free, so nobody sits with an empty plate.]**
-- **[Sal: your own master flowchart is for a 50-minute period and gave Kitchen 4 support duty after its bread went in the oven. This version is 40 minutes, which means the cook window is minutes 10 to 28 and the eat window is 29 to 34. Confirm those numbers against your room before Lesson 6.14.]**

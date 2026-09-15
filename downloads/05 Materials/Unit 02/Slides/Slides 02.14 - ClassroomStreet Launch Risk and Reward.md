@@ -1,6 +1,6 @@
 # Slides 02.14: ClassroomStreet Launch: Risk and Reward
 
-Lesson 2.14, two days. Day 1: slides 1 to 10. Day 2: slides 11 to 20. Currency and starting purse marked [Sal: confirm] where the live site may differ.
+Lesson 2.14, two days. Day 1: slides 1 to 10. Day 2: slides 11 to 20. Check the currency and the starting purse against the live site before class.
 
 ## Slide 1: Do now (Day 1)
 - You have $100 you will not need for a whole year.
@@ -17,7 +17,7 @@ Image: three drawings side by side: a glass jar with bills, a bank building, a s
 
 ## Slide 3: Saving
 - Saving: money set aside where it is safe and you can get it back.
-- A savings account pays a small amount every year (about 4 percent right now at a good bank) [Sal: update the rate].
+- A savings account pays a small amount every year (about 4 percent right now at a good bank).
 - It never drops. It never gets exciting.
 Image: a piggy bank with a small coin dropping in.
 
@@ -47,7 +47,7 @@ Notes: Thumbs, then cold call.
 - Your job with your partner: read the seven cards, line them up safest to riskiest, write your risk guess on the journal cover.
 - Nobody learns what they really are until Day 9.
 Image: the seven picture cues from the cards in a row: lightning over a mine, a balloon, an iron door, a sealed scroll, a young tree, a honey jar, a farmhouse.
-Notes: 8 minutes. Circulate. Debrief with the class order on the board. [Sal: confirm the current asset list; if the live site has ten ventures, add three cards and three cues.]
+Notes: 8 minutes. Circulate. Debrief with the class order on the board.
 
 ## Slide 8: How to log in
 - Go to ClassroomStreet.com.
@@ -59,9 +59,9 @@ Image: a drawn login screen with three boxes labeled Period, Merchant Number, PI
 
 ## Slide 9: The trading floor
 - The ticker: seven ventures and today's prices.
-- Buy (the site says Acquire). Sell (the site says Divest). [Sal: confirm the button names.]
-- Your cash. Your total fortune. Your starting purse: AQ25,000. [Sal: confirm the purse and the currency symbol.]
-- Rank titles: Grand Merchant, Master Trader, Silver Purse, Rising Star, Keen Merchant, Journeyman, Apprentice. [Sal: confirm the live site still uses them.]
+- Buy (the site says Acquire). Sell (the site says Divest).
+- Your cash. Your total fortune. Your starting purse: AQ25,000.
+- Rank titles: Grand Merchant, Master Trader, Silver Purse, Rising Star, Keen Merchant, Journeyman, Apprentice.
 Image: a drawn dashboard: a ticker strip across the top, a list of seven ventures with prices, two buttons, a cash line, a total fortune line.
 Notes: Model one buy on the projector: 50 units of SEAL. Show the cash go down and the value appear.
 
@@ -134,7 +134,6 @@ Notes: Model it live on the projector, then 10 minutes for Entry 2. Students fin
 - Today I bought ___ because ___. / Bugün ___ aldım çünkü ___. / Hoje comprei ___ porque ___. / Hoy compré ___ porque ___.
 - I did not trade today because ___. / Bugün alım satım yapmadım çünkü ___. / Hoje não negociei porque ___. / Hoy no hice ninguna operación porque ___.
 - My total fortune is ___. / Toplam servetim ___. / Minha fortuna total é ___. / Mi fortuna total es ___.
-- [check with a native speaker]
 
 ## Slide 20: Closure (Day 2)
 - Two merchants read Entry 2 aloud.

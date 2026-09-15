@@ -12,7 +12,7 @@ Notes: Show of hands after: who wrote a quantity? Who wrote the sauce next to th
 - Some of it is half price this week.
 - Some of it is not.
 - The store is counting on you not to know which is which.
-Image: a photo of this week's circular front page [update from this week's circular].
+Image: a photo of this week's circular front page.
 
 ## Slide 3: The five parts of a sale listing
 - The price
@@ -40,7 +40,7 @@ Image: a timer graphic set to 6:00.
 - Here is one item from the circular.
 - On your whiteboard: the unit and the limit.
 - Hold it up.
-Image: one circular listing with a unit and a limit [update from this week's circular].
+Image: one circular listing with a unit and a limit.
 
 ## Slide 7: From a recipe to a list
 - Read every ingredient.

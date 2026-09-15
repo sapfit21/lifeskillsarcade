@@ -2,13 +2,13 @@
 
 Unit 3, Human Development and Relationships. The unit's 47 Tier 3 words across the four topics, with a one-line definition written for a grade 6 to 7 reader and columns for Turkish, Portuguese, and Spanish.
 
-**Translation status: [check with a native speaker].** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Family and feelings words are the ones most likely to differ by country and by home (a "guardian," a "blended family," and "peer pressure" have different everyday names in Turkey, Brazil, Portugal, and the Spanish-speaking countries), so the English term stays on every card, because students will see the English word on the babysitter's checklist, the parent card, and the Red Cross flyer.
+**Translation status.** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Family and feelings words are the ones most likely to differ by country and by home (a "guardian," a "blended family," and "peer pressure" have different everyday names in Turkey, Brazil, Portugal, and the Spanish-speaking countries), so the English term stays on every card, because students will see the English word on the babysitter's checklist, the parent card, and the Red Cross flyer.
 
 Two pairs matter. "Self-concept" is what you believe about yourself; "self-image" is the picture you carry of yourself and show others. "Healthy relationship" and "unhealthy relationship" are taught as a pair in Lesson 3.12 and the translations keep the same base word so the pair stays visible.
 
 How lessons use this file: each lesson names its own Tier 3 words; the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints this table as picture-ready cards.
 
-## The table [check with a native speaker]
+## The table
 
 | # | Topic | English term | Student definition | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|---|---|
@@ -62,7 +62,7 @@ How lessons use this file: each lesson names its own Tier 3 words; the handout f
 
 ## Sentence starters
 
-Print these on the back of the I-message builder (3.10), the skit and role play feedback slips (3.6, 3.11), and the showcase feedback slips and the parent card template (3.18). [Sal: if the ENL teacher has a house version of the I-message in Turkish or Portuguese, use that one; students may already know it.] [check with a native speaker]
+Print these on the back of the I-message builder (3.10), the skit and role play feedback slips (3.6, 3.11), and the showcase feedback slips and the parent card template (3.18).
 
 ### For an I-message
 

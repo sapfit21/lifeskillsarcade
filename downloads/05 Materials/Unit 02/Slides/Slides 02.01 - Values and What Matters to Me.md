@@ -24,7 +24,7 @@ Notes: Cold call four students for the first blank only. Write the answers in a 
 - A goal: make the team
 - A value: health, family, being honest
 - The test: if it changes how you spend money, time, or attention, it is a value
-Notes: Give two of your own values, one sentence each. [Sal: your two.] Students copy the definition and the test into Part 1 of the sort sheet.
+Notes: Give two of your own values, one sentence each. Students copy the definition and the test into Part 1 of the sort sheet.
 
 ## Slide 4: The three-pile sort
 

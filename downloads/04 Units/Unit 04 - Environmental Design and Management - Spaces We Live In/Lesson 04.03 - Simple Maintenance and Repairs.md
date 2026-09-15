@@ -48,7 +48,7 @@ Tier 3 (FACS): circuit breaker, tripped, flapper (toilet), plunger, Phillips and
 - Handouts, one per student: `Handout 04.03 - Repair Station Cards and Maintenance Calendar.md` (the seven jobs, tool ID, five station cards, the calendar)
 - Slides: `Slides 04.03 - Simple Maintenance and Repairs` (Day 1 and Day 2 labeled)
 - Timer visible to the class
-- Setup notes: pre-drill the pilot holes so no student is pushing a screw into hard wood; set the stations after the previous period leaves and photograph them for reset. Nothing electrical is live at any station: the breaker is a photo and the lamp is unplugged. Allergy check: none needed. [Sal: the custodian may have every one of these tools; ask before buying. Budget if buying: about $60 for the set, once.]
+- Setup notes: pre-drill the pilot holes so no student is pushing a screw into hard wood; set the stations after the previous period leaves and photograph them for reset. Nothing electrical is live at any station: the breaker is a photo and the lamp is unplugged. Allergy check: none needed. The tool set is about $60 if bought new, once; the custodian may have every one of these tools, so ask before buying.
 
 ## Pre-assessment
 
@@ -111,7 +111,7 @@ Day 1: the tool tray pass. As the tray moves, ask one student per table to name 
 - Grade 6 support: Station 3 measures to the nearest half inch; the calendar uses eight tasks instead of fifteen; the troubleshooting example is given filled in and students only order the steps.
 - Grade 8 stretch: at Station 5 students also explain why a breaker trips (too much current for the wire) and what a GFCI does; the calendar adds a cost column using the price list on the handout and totals the year (this previews EDM 3. a)).
 - UDL checkpoint used: multiple means of action and expression (every job is demonstrated, drawn on a card, and performed) and multiple means of engagement (stations are timed with a team check, not a worksheet).
-- No-kitchen or no-machine alternative (no-tools version): if tools cannot come into the room, run Day 2 as five demonstration stations on the slides with a video clip or a sequence of photos for each, and students order the steps on cards and say the test. The screw and level stations can still run with a screwdriver, a level, and a scrap board from the custodian, which are safe in any room. [Sal: the custodian is your partner here.]
+- No-kitchen or no-machine alternative (no-tools version): if tools cannot come into the room, run Day 2 as five demonstration stations on the slides with a video clip or a sequence of photos for each, and students order the steps on cards and say the test. The screw and level stations can still run with a screwdriver, a level, and a scrap board from the custodian, which are safe in any room.
 
 ## Assessment
 
@@ -129,7 +129,7 @@ None. Optional: with an adult, find the breaker panel in your home and read one 
 
 ## Connections
 
-Inside the building: the custodian is the expert. A five-minute visit on Day 1 to show the building's breaker panel door (not inside it) and the furnace filter gives students a real professional and gives the custodian a class that stops leaving faucets running. Math: the calendar's cost column (grade 8 stretch) is a budgeting exercise the math teacher can extend. Community: a hardware store's "how to" clinic, if one exists locally, for Lesson 4.16 careers. [Sal: name the store.]
+Inside the building: the custodian is the expert. A five-minute visit on Day 1 to show the building's breaker panel door (not inside it) and the furnace filter gives students a real professional and gives the custodian a class that stops leaving faucets running. Math: the calendar's cost column (grade 8 stretch) is a budgeting exercise the math teacher can extend. Community: a hardware store's "how to" clinic, if one exists locally, for Lesson 4.16 careers.
 
 ## Sources
 
@@ -137,7 +137,7 @@ Inside the building: the custodian is the expert. A five-minute visit on Day 1 t
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 4. c) and 4. d); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines a. to f. Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 11.3.5 and content standard 5.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Repair steps are standard homeowner guidance (U.S. Consumer Product Safety Commission and manufacturer instructions for breakers and detectors). [Sal: check the breaker reset steps against your building's panel type; some panels reset differently.]
+- Repair steps are standard homeowner guidance (U.S. Consumer Product Safety Commission and manufacturer instructions for breakers and detectors).
 
 ## Teacher notes
 
@@ -145,5 +145,5 @@ Inside the building: the custodian is the expert. A five-minute visit on Day 1 t
 - Common mistake at Station 1: pushing a Phillips driver into a flathead screw and stripping it. Put one flathead screw in the box on purpose so every team hits the choice.
 - Common mistake at Station 5: saying "flip it back on" without "off first." A tripped breaker sits in the middle and will not reset from the middle. Make them say both words.
 - Station 2 is the one students laugh at. It is also the one they will actually do at home. Keep it.
-- The invoice on the hook slide is made up. Say so if asked. The point is the ratio, not the number. [Sal: if you have a real repair bill from your own home with the address blacked out, it lands harder.]
+- The invoice on the hook slide is made up. Say so if asked. The point is the ratio, not the number.
 - The maintenance calendar comes back in Lesson 4.11 when the client brief asks what the family's home needs this year.

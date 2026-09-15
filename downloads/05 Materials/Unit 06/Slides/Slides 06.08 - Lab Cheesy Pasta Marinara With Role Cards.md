@@ -1,6 +1,6 @@
 # Slides 6.8: Lab, Cheesy Pasta Marinara With Role Cards
 
-Slide outline for Lesson 6.8. Twelve slides, one day. Slide 4 is the flowchart and it stays projected or drawn on the board the whole period. [Sal: this is Lab 3. Students know the phases and the roles; do not reteach them. Keep the deck short and keep the clock big.]
+Slide outline for Lesson 6.8. Twelve slides, one day. Slide 4 is the flowchart and it stays projected or drawn on the board the whole period.
 
 ## Slide 1: Lab 3, Cheesy Pasta Marinara
 
@@ -99,4 +99,4 @@ Notes: Call "clean" at 35. Sign only when every line on the check is true.
 - Did we keep the flowchart?
 - Where did we lose or gain time?
 - What is the one change for the next lab? Name a role and a minute
-Notes: The Station Manager answers out loud when you sign. The Lab Reflection is finished in the first five minutes of Lesson 6.9 or goes home. Cost per station: about $9.76 [update from this week's circular].
+Notes: The Station Manager answers out loud when you sign. The Lab Reflection is finished in the first five minutes of Lesson 6.9 or goes home. Cost per station: about $9.76.

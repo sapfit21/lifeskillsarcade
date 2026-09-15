@@ -42,7 +42,7 @@ Tier 3 (FACS): checking account, debit card, credit card, prepaid card, check re
 - Calculators, one per pair
 - A real (voided) check or a large printed one for the demo, a debit card and a credit card (yours, or printed images), a prepaid gift card, a phone showing a payment app screen (screenshot on the slide is enough)
 - Slides: `Slides 02.10 - Ways to Pay`
-- Setup notes: the register uses the net pay from Lesson 2.8 as the deposit so the numbers connect. Fees are Long Island typical for 2026 and marked [update]. No food handled today. Do not show any real account number; the demo check must be voided and blacked out.
+- Setup notes: the register uses the net pay from Lesson 2.8 as the deposit so the numbers connect. Fees are Long Island typical for 2026 and to be refreshed before teaching. No food handled today. Do not show any real account number; the demo check must be voided and blacked out.
 
 ## Pre-assessment
 
@@ -58,10 +58,10 @@ Debrief: tally the ways on the board. Hook: hold up the voided check. "Nobody yo
 
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
-| 1. Direct instruction: the seven ways to pay | Slides 2 to 9, one per way. For each: what it is, where the money comes from, the record it leaves, one risk, one fee to watch for. Cash: your pocket; no record; lost is gone; no fee. Check: your checking account; the check and the register are the record; can bounce (overdraft fee, about $35 [update]); slow. Debit: your checking account, right now; the bank statement is the record; a stolen card drains the account; out-of-network ATM fees ($3 plus the other bank's fee [update]). Credit: the bank's money, borrowed; a bill comes; interest if not paid in full (Lesson 2.11); best fraud protection. Prepaid: money loaded in advance; no bank needed; fees to load and to check the balance; lost is gone. Phone or app payment: linked to a card or a bank; instant; sending to the wrong person is usually final; scam risk. Bank transfer (direct deposit, wire, app-to-bank): moves money between accounts; direct deposit is how most paychecks arrive (Dana's stub); wires cost $15 to $30 [update] and cannot be reversed. | Fill in the seven-row table in Part A of the handout as each slide goes by: where the money comes from, the record, one risk, one fee. | 10 min |
+| 1. Direct instruction: the seven ways to pay | Slides 2 to 9, one per way. For each: what it is, where the money comes from, the record it leaves, one risk, one fee to watch for. Cash: your pocket; no record; lost is gone; no fee. Check: your checking account; the check and the register are the record; can bounce (overdraft fee, about $35); slow. Debit: your checking account, right now; the bank statement is the record; a stolen card drains the account; out-of-network ATM fees ($3 plus the other bank's fee). Credit: the bank's money, borrowed; a bill comes; interest if not paid in full (Lesson 2.11); best fraud protection. Prepaid: money loaded in advance; no bank needed; fees to load and to check the balance; lost is gone. Phone or app payment: linked to a card or a bank; instant; sending to the wrong person is usually final; scam risk. Bank transfer (direct deposit, wire, app-to-bank): moves money between accounts; direct deposit is how most paychecks arrive (Dana's stub); wires cost $15 to $30 and cannot be reversed. | Fill in the seven-row table in Part A of the handout as each slide goes by: where the money comes from, the record, one risk, one fee. | 10 min |
 | 2. Demo: writing a check and the register | Slides 10 and 11. Write one check on the big printed check, saying each part: date, payee, amount in numbers, amount in words with the cents as a fraction, memo, signature. Then show the register: date, number or type, description, payment, deposit, balance. Do the first two lines of the register on the board. Say the rule: "Every dollar that moves gets a line, the day it moves. The balance is what you have, not what the app says, because the app has not seen the check yet." | Watch. Copy the six parts of a check into the margin of Part B. | 5 min |
 | 3. Practice: write the check, keep the register | Pairs, one handout each. Students write check number 101 to the soccer league for $85.00, then post all ten transactions in the register and carry the balance. Circulate with the clipboard checklist. The ATM line has a fee; the app transfer has none; the point of the fee lines is that students see the money leave twice. | Write the check. Post ten lines. Carry the balance to the cent. Compare final balances with the partner and find the error if they differ. | 14 min |
-| 4. Debrief: when each is safest | Slide 12: four situations. Pay a friend back $12.50. Pay rent, $2,200 [update], to a landlord. Buy a $40 item online from a site you have never heard of. Carry money on a school trip to the city. For each, pairs hold up the number of the safest way and one student defends it. Land the answers: app or cash; check or bank transfer (a record); credit (fraud protection, and you can dispute it); prepaid or a small amount of cash (if it is lost, the loss is capped). | Vote with fingers. Defend one. Write the four answers in Part C. | 3 min |
+| 4. Debrief: when each is safest | Slide 12: four situations. Pay a friend back $12.50. Pay rent, $2,200, to a landlord. Buy a $40 item online from a site you have never heard of. Carry money on a school trip to the city. For each, pairs hold up the number of the safest way and one student defends it. Land the answers: app or cash; check or bank transfer (a record); credit (fraud protection, and you can dispute it); prepaid or a small amount of cash (if it is lost, the loss is capped). | Vote with fingers. Defend one. Write the four answers in Part C. | 3 min |
 
 ## Questions to ask
 
@@ -86,9 +86,9 @@ Clipboard checklist during Step 3: for each pair, yes or no on "check has all si
 ## Differentiation and supports
 
 - ELL: the seven ways are on slides with a picture of each; the check on the handout has each part numbered with a plain-words label ("who gets it," "how much, in numbers," "how much, in words"); the number words one through ninety and "and 00/100" are printed on the handout; sentence starter for Part C: "The safest way is ___ because it avoids ___."
-- IEP and 504 (general): pairs; calculators; the register has the first two lines completed as a model and the running balance boxes pre-drawn; a student may complete six of the ten lines; extended time; a student who cannot write small may complete the check on the enlarged version [Sal: print page 1 at 150 percent for that student].
+- IEP and 504 (general): pairs; calculators; the register has the first two lines completed as a model and the running balance boxes pre-drawn; a student may complete six of the ten lines; extended time; a student who cannot write small may complete the check on the enlarged version.
 - Grade 6 support: post lines 1 to 6 of the register only; Part C uses two situations (pay a friend, buy online).
-- Grade 8 stretch: reconcile the register against the "bank statement" on the back of the handout, which is missing check 101 because it has not cleared, and explain the difference in one sentence; then compute what an overdraft fee of $35 [update] would do if line 9 came before the deposit on line 7.
+- Grade 8 stretch: reconcile the register against the "bank statement" on the back of the handout, which is missing check 101 because it has not cleared, and explain the difference in one sentence; then compute what an overdraft fee of $35 would do if line 9 came before the deposit on line 7.
 - UDL checkpoint used: multiple means of representation (physical cards and a check to hold, pictures on slides, a labeled check on paper) and multiple means of action and expression (voting with fingers, writing the check, oral defense in Step 4).
 - No-kitchen or no-machine alternative: not a lab; none needed. If the room has no way to show a phone screen, the app payment slide has the screen drawn in words.
 
@@ -106,7 +106,7 @@ None. Optional: ask an adult at home which way they pay for three things (rent o
 
 ## Connections
 
-Math: subtraction with decimals across ten steps; the register is a good "find the error" task for the math teacher. Technology or library: the librarian or tech teacher can take the scam side of app payments (a fake payment request text) in a ten-minute visit. Community: [Sal: a local bank or credit union branch manager can bring a stack of blank starter checks and a register; most branches have a youth account program and will come for free.]
+Math: subtraction with decimals across ten steps; the register is a good "find the error" task for the math teacher. Technology or library: the librarian or tech teacher can take the scam side of app payments (a fake payment request text) in a ten-minute visit. Community: none this lesson.
 
 ## Sources
 
@@ -114,8 +114,8 @@ Math: subtraction with decimals across ten steps; the register is a good "find t
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 5. a) and 4. d). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 2.4.3.
-- Fee figures (overdraft about $35, out-of-network ATM about $3 plus the other bank's fee, wire $15 to $30) are typical published fees at large banks in 2026; marked [update].
-- Sal's own materials: Sal taught check writing and mailing a letter at Brentwood South; this lesson keeps the check and adds the register and the seven-way comparison. [Sal: if your check-writing handout from Brentwood is in your files, the blank check on Handout 02.10 can be swapped for it.]
+- Fee figures (overdraft about $35, out-of-network ATM about $3 plus the other bank's fee, wire $15 to $30) are typical published fees at large banks in 2026; to be refreshed before teaching.
+- Sal's own materials: Sal taught check writing and mailing a letter at Brentwood South; this lesson keeps the check and adds the register and the seven-way comparison.
 
 ## Teacher notes
 
@@ -123,4 +123,3 @@ Math: subtraction with decimals across ten steps; the register is a good "find t
 - Common mistake: the amount in words. "Eighty-five dollars and 00/100" is the form; students write "85 dollars" or leave off the cents fraction. The number words are printed on the handout for this reason.
 - Second common mistake: the ATM fee. Students post the $40 and skip the $3. When the partners' balances differ by $3, they have found it themselves.
 - The register balance and the app balance are different on purpose: check 101 has not cleared. Grade 8 students reconcile it; everyone else just needs to hear the sentence "the app does not know about the check yet."
-- [Sal: you told Brentwood students about mailing a letter with a check inside. Keep that story here; it explains the memo line and why the payee line matters.]

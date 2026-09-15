@@ -63,8 +63,6 @@ Notes: Page 3 of the handout has this table. Students read it while you score Ro
 - Slide: one slide, five boxes, big font, no animations, your name in the file name
 - Choose now and write it on page 1
 - No cart today? Everyone does a poster
-Notes: [Sal: say here whether the cart is available.]
-
 ## Slide 9: The draft, page 1
 
 - Copy from your three sheets into the five boxes
@@ -135,7 +133,7 @@ Notes: Three minutes. Then collect.
 - Poster with page 3 attached, or slide shared with page 3 handed in
 - I score the same three criteria. Your partner's score is feedback, not the grade
 - Page 1 stays in your FACS folder
-Notes: Say where posters go: home, or the wall. [Sal: ask before you tape any of them up.]
+Notes: Say where posters go: home, or the wall.
 
 ## Slide 18: 3-2-1 and tomorrow
 

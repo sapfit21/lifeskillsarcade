@@ -40,7 +40,7 @@ Tier 3 (FACS): menu card, cost per person, nutrition claim, pitch, gallery walk,
 - Handout, one per team: `Handout 01.21 - Menu Card Template and Pitch Planner.md`
 - Card stock or half sheets for the menu cards, markers, one set per team
 - Each team's revised plan and station card from Lessons 1.19 and 1.20
-- Tasting: Lesson 1.20 leftovers, only if refrigerated within two hours and reheated to 165 F [Sal: in most schedules this will not be possible, so plan for the fresh option]; or a fresh no-cook tasting item per team assembled in the first five minutes (the salad or cold wrap from the no-kitchen alternative in Lesson 1.20, or a fruit cup) [update from this week's circular; about $8 per team]
+- Tasting: Lesson 1.20 leftovers, only if refrigerated within two hours and reheated to 165 F (in most schedules this will not be possible, so plan for the fresh option); or a fresh no-cook tasting item per team assembled in the first five minutes (the salad or cold wrap from the no-kitchen alternative in Lesson 1.20, or a fruit cup), about $8 per team
 - Small cups or plates and spoons for tasting portions, napkins, hand sanitizer at every station
 - Vote slips, one per student, and a box
 - A timer the class can see, set to 60 seconds
@@ -88,7 +88,7 @@ Exit reflection (individual, on the back of the vote slip): 3 numbers from your 
 
 ## Differentiation and supports
 
-- ELL: the menu card template has a box per required part with an example filled in; the pitch planner gives each speaker one sentence frame ("Our family is ___," "Our dinner costs ___ for four, which is ___ per person," "It has ___ groups: ___," "This family would like it because ___," "Choose our dinner because ___") in English, Turkish, Portuguese, and Spanish, marked [check with a native speaker]; a student may say their line in their home language and a teammate repeats it in English; the vote slip has a sentence frame.
+- ELL: the menu card template has a box per required part with an example filled in; the pitch planner gives each speaker one sentence frame ("Our family is ___," "Our dinner costs ___ for four, which is ___ per person," "It has ___ groups: ___," "This family would like it because ___," "Choose our dinner because ___") in English, Turkish, Portuguese, and Spanish, to be verified by a native speaker; a student may say their line in their home language and a teammate repeats it in English; the vote slip has a sentence frame.
 - IEP and 504 (general): product choice for the pitch (spoken, a recorded 60-second video played on the screen, a read-aloud from a script, or a drawn menu poster explained by a teammate); the speaking order is set in advance so no one is surprised; a student who cannot speak to the class can be the one who holds the card and points; extended time by writing the menu card during Lesson 1.20 Day 2 plating.
 - Grade 6 support: the menu card asks for the dish names, the cost per person, and one claim; the pitch is three lines; the vote is a raised hand with one reason said aloud.
 - Grade 8 stretch: the nutrition claim must cite a number from a Nutrition Facts label or the MyPlate serving guidance (this pulls Topic 1.3 forward); the pitch names one swap the team made and how much it saved; the reflection compares the team's cost per person to the $38 dinner from the Lesson 1.18 hook.
@@ -127,4 +127,3 @@ Music: Sal's SEYS 536 version had a music teacher coaching the jingle; if your s
 - The claim check is where teams try to get away with "healthy." Send them back to the plan: which group, which item, which number.
 - The tasting will almost never come from Day 2 leftovers on a real school schedule. Budget the fresh item. A fruit cup (a can of fruit in juice, drained, in small cups) is the cheapest safe option and adds the fruit group most plans are short on.
 - The vote can sting. Say before it opens that every team already earned its rubric score; the vote is one class's opinion about fit, and the reason on the slip matters more than the tally.
-- [Sal: keep the jingle optional and keep telling the story of the team that wrote one. It is the best advertisement for the project.]

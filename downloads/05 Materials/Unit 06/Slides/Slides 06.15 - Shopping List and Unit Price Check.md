@@ -80,8 +80,6 @@ Notes: Say it plainly: coming in $39 under budget is a professional result, not 
 10. **Every item on all four station cards appears on this list.** Read the cards, do not remember them
 11. Nothing we already own (foil, spray, salt, garlic powder, spoons)
 12. Signature and date
-Notes: [Sal: add line 13 for your school's purchasing rule: purchase order, reimbursement, p-card, or your own money and a receipt. Say out loud which one.]
-
 ## Slide 12: What happens next
 - I shop from this exact list.
 - I bring the receipt.

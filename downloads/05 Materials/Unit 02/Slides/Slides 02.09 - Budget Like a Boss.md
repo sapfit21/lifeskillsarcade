@@ -1,6 +1,6 @@
 # Slides 02.09: Budget Like a Boss
 
-Lesson 2.9, two days, 21 slides (slides 1 to 11 on Day 1, 12 to 21 on Day 2). All prices marked [update].
+Lesson 2.9, two days, 21 slides (slides 1 to 11 on Day 1, 12 to 21 on Day 2). All prices to be refreshed before teaching.
 
 ## Slide 1: Do now (Day 1)
 - Guess: how much money passed through your hands in the last seven days?
@@ -83,13 +83,13 @@ Image: four index cards fanned out, each with a first name and an age.
 - Nobody takes taxes out of an allowance. Net equals gross here.
 
 ## Slide 15: Model: Mateo, savings first
-- Goal: concert ticket, $120 [update], in four months.
+- Goal: concert ticket, $120, in four months.
 - $120 divided by 4 = $30 a month.
 - $100 minus $30 = $70 left for everything else.
 - The savings line is written before any expense.
 
 ## Slide 16: Model: Mateo, fixed
-- Streaming share $5 [update]. Lunch account $35 [update].
+- Streaming share $5. Lunch account $35.
 - Total fixed: $40.
 - $70 minus $40 = $30 left for wants.
 - Now his usual wants cost $75. Something has to go. That part is yours.

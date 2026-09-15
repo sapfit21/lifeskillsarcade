@@ -107,7 +107,7 @@ Day 2: the station check is the closure. When I sign a station, the Station Mana
 
 - ELL: the treatment table is a picture table (four bowls, four labels, the leavening drawn as a spoon); the fizz test needs no English to read; the conclusion has a four-part frame printed on the sheet ("The data showed ___. My hypothesis was ___. My evidence is ___. One thing that could have gone wrong is ___."); leavening, rise, gas, acid, and crumb are on the vocabulary card in Turkish, Portuguese, and Spanish (see `Vocabulary 06.md`).
 - IEP and 504 (general): the data table is fill-in numbers, not prose; the ruler measurement can be reported as taller or shorter than the batch beside it for a student who cannot read a ruler to the eighth of an inch; role cards are checklists; a student who should avoid heat takes Prep Cook, Toppings Chief, or Plate Builder and never handles the tin; extended time by writing the conclusion at the start of Lesson 6.8.
-- Allergy substitutions: wheat, one labeled batch made with a gluten free flour blend and run as a fifth batch or as that station's Batch A; dairy, plant milk one for one; egg, 3 Tbsp of applesauce or 1 Tbsp ground flax in 3 Tbsp water per batch, with the note on the sheet that this changes the texture and is itself a variable. [Sal: confirm every substitution against the nurse's allergy list, not the student's word.]
+- Allergy substitutions: wheat, one labeled batch made with a gluten free flour blend and run as a fifth batch or as that station's Batch A; dairy, plant milk one for one; egg, 3 Tbsp of applesauce or 1 Tbsp ground flax in 3 Tbsp water per batch, with the note on the sheet that this changes the texture and is itself a variable.
 - Grade 6 support: three batches instead of four (A control, B none, C double) and the prediction is a ranking only, with no taste sentence. The crumb count is "few holes or many holes," not a number.
 - Grade 8 stretch: add a fifth batch, baking soda plus 1 tsp of vinegar, and answer whether it rises more like Batch A or Batch D and what that proves. Stretch students also identify one confounding variable in the class's own test and say how they would control it next time.
 - UDL checkpoint used: multiple means of representation (a live fizz test, the printed treatment table, and the food itself as the data) and multiple means of action and expression (the conclusion can be written in the frame, drawn as four labeled muffins with heights, or recorded out loud to the teacher at the station check).
@@ -127,13 +127,13 @@ None. The conclusion is finished in class or in the first five minutes of Lesson
 
 ## Connections
 
-Science: this is the science teacher's lesson with food in it. Send them the lab sheet; if they have already taught variables and controls, say their words out loud here instead of new ones, and if they have not, this is their preview. Math: the height measurements are fractions of an inch and a ranking, and the before-and-after difference is subtraction with units. [Sal: ask the science teacher which words they use for independent and dependent variable. Using their exact wording is free and it makes both classes stronger.]
+Science: this is the science teacher's lesson with food in it. Send them the lab sheet; if they have already taught variables and controls, say their words out loud here instead of new ones, and if they have not, this is their preview. Math: the height measurements are fractions of an inch and a ranking, and the before-and-after difference is subtraction with units.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 1. e), and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, lines 1. a) and 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Thinking Skills. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.10 and 9.5.6.
 - Unit 1, Lesson 1.8, for the science connection on baking powder that Sal's own mug cake recipe sheet already carried, and `Rubric 01 - Lab Rubric.md` for scoring.
@@ -147,7 +147,7 @@ Science: this is the science teacher's lesson with food in it. Send them the lab
 - Batch D will taste metallic or soapy to most students. Warn them before they taste so nobody thinks something is wrong with them, and tell them that is exactly the evidence.
 - Common mistake: overmixing. Say "fifteen strokes and stop, lumps are fine" out loud and once at each station. Overmixed batter is tough and it confounds the test.
 - Keep one muffin from each batch under plastic wrap for the review before the Cooking Methods Check. Four muffins in a row are a better review slide than a slide.
-- Per-station cost estimate (store brand, Long Island supermarket, and every price marked [update from this week's circular]):
+- Per-station cost estimate (store brand, Long Island supermarket, and every price to be refreshed from the current circular before teaching):
 
 | Item | What one station of seven uses | Estimated cost per station | Notes |
 |---|---|---|---|
@@ -160,4 +160,3 @@ Science: this is the science teacher's lesson with food in it. Send them the lab
 | **Total per station** | | **about $2.50 to $3.50** | Well under the $20 per station cap |
 | Class of four stations | | about $10 to $14 plus pantry draw | Add white vinegar, about $1.79, for the Day 1 fizz test |
 
-- [Sal: this is the cheapest lab in the unit and the one that gets the most out of a period. If the budget is tight the week you plan Unit 6, run this one and the pasta lab and make the quesadilla lab the optional third.]

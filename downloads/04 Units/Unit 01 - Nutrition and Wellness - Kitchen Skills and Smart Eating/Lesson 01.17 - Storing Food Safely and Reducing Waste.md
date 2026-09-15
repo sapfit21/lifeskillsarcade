@@ -42,7 +42,7 @@ Tier 3 (FACS): FIFO (first in, first out), best by, use by, sell by, the two-hou
 - Food cards for the sort, one set per team of four: twelve cards with a food name and a picture (raw ground beef, eggs, bananas, bread, canned beans, milk, frozen peas, cooked rice leftovers, potatoes, an open jar of salsa, a bag of flour, a rotisserie chicken bought today)
 - Four zone signs per team (Refrigerator, Freezer, Pantry, Counter) or four zones drawn on the handout
 - A refrigerator thermometer and a freezer thermometer, if the room has them, so students can read the real numbers
-- Three real packages with different date wording (best by, use by, sell by) [Sal: pull from the FACS pantry]
+- Three real packages with different date wording (best by, use by, sell by)
 - Slides: `Slides 01.17 - Storing Food Safely and Reducing Waste` (outline in 05 Materials; the site renders it as a deck)
 - Setup notes: Put the thermometers in the room fridge and freezer the day before so they read true by class time. Allergy check: sealed packages only.
 
@@ -54,7 +54,7 @@ Lesson 1.2 taught the danger zone (40 F to 140 F). The do now asks students to u
 
 On the board: "You bring groceries home. You put the milk away and leave the rotisserie chicken on the counter because you are eating it in three hours. Is that OK? Use the words danger zone in your answer."
 
-Debrief: hands for yes and no. The answer is no; three hours in the danger zone is past the two-hour rule. Then the hook, on the screen: "The average family in this country throws away about a quarter of the food it buys [Sal: cite the USDA figure you trust; it has been reported as 30 to 40 percent of the food supply]. On a $40 dinner budget, that is about $10 in the trash every week. Today is about keeping that $10."
+Debrief: hands for yes and no. The answer is no; three hours in the danger zone is past the two-hour rule. Then the hook, on the screen: "The average family in this country throws away about a quarter of the food it buys. On a $40 dinner budget, that is about $10 in the trash every week. Today is about keeping that $10."
 
 ## Procedure
 
@@ -110,7 +110,7 @@ None. Optional: open your refrigerator at home and find one thing on the wrong s
 
 ## Connections
 
-Science: food spoilage is bacteria growing in the danger zone; the science teacher's microbe unit and this lesson share a thermometer. Sustainability: this lesson is the seed of the Unit 6 food waste audit; the yearly waste number comes back there with real cafeteria data. Community: a local food bank's rules for donated food (dates, temperatures) are the same rules taught here. [Sal: Island Harvest or Long Island Cares would be the local ask.]
+Science: food spoilage is bacteria growing in the danger zone; the science teacher's microbe unit and this lesson share a thermometer. Sustainability: this lesson is the seed of the Unit 6 food waste audit; the yearly waste number comes back there with real cafeteria data. Community: a local food bank's rules for donated food (dates, temperatures) are the same rules taught here.
 
 ## Sources
 
@@ -119,7 +119,7 @@ Science: food spoilage is bacteria growing in the danger zone; the science teach
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.2.6, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Refrigerator and freezer temperatures, the two-hour rule, and leftover timing follow the USDA Food Safety and Inspection Service consumer guidance (FoodSafety.gov, "Cold Food Storage Chart" and "Leftovers and Food Safety"). [Sal: add the exact page links on the site.]
+- Refrigerator and freezer temperatures, the two-hour rule, and leftover timing follow the USDA Food Safety and Inspection Service consumer guidance (FoodSafety.gov, "Cold Food Storage Chart" and "Leftovers and Food Safety").
 - Sal's own materials: the leftovers plan and "already in your classroom" pantry check in his King Kullen menu options (`Education/TeachingWork/LessonPlans/education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf`).
 
 ## Teacher notes
@@ -128,4 +128,3 @@ Science: food spoilage is bacteria growing in the danger zone; the science teach
 - Common mistake: students treat "best by" as "throw away by." Say it three times: best by is about taste, not safety. Then say the exception: for raw meat, poultry, fish, and dairy, do not push past the date.
 - The card most teams get wrong is potatoes (pantry or counter, not the fridge) and the open salsa (fridge once opened, pantry when sealed). Use those two in the debrief.
 - The waste number lands harder when it is in dinners: $520 a year is thirteen $40 dinners.
-- [Sal: the FACS room fridge is the best teaching tool in the lesson. If it reads over 40 F, that is the lesson.]

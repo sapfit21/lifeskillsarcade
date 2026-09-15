@@ -42,7 +42,7 @@ Tier 3 (FACS): kilowatt-hour (kWh), watt, phantom load (standby power), LED, inc
 - Handout, one per student: `Handout 04.04 - Home Energy Audit Checklist and Sample Bill.md` (the math page, the audit checklist for the classroom and the described home, the ten-fixes table, the sample bill)
 - Calculators, one per pair
 - One incandescent bulb (60 W) and one LED bulb (9 W, "60 W equivalent") to pass around; read the wattage on each
-- A plug-in electricity meter (about $20) [Sal: optional; if you have one, plug the classroom's phone charger or a laptop charger into it during Day 1 Step 1 and read the standby watts; students believe a number they watched]
+- A plug-in electricity meter (about $20), optional
 - A clipboard per team for Day 2
 - Slides: `Slides 04.04 - Conserving Energy and Water the Home Energy Audit` (Day 1 and Day 2 labeled)
 - Timer visible to the class
@@ -125,7 +125,7 @@ None. Optional: count the phantom loads in one room at home and unplug the ones 
 
 ## Connections
 
-Math: unit conversions (Wh to kWh), percent (the thermostat setback), and payback (cost divided by savings) are the math teacher's ratio and percent unit; FACS gives real bills, math gives the fluency. Science: the science teacher can take the "what is a watt" question; FACS keeps the money. Community: the local utility often runs a free home energy audit program and a school outreach kit with meters and LED bulbs. [Sal: name the utility and ask for the kit; PSEG Long Island and National Grid both have school programs on Long Island.] [Sal: your zero-energy home project from Penn State belongs on Day 1 between Step 1 and Step 2. Two minutes: what a zero-energy home is, what it cost, what surprised you. Students remember a story better than a pie chart.]
+Math: unit conversions (Wh to kWh), percent (the thermostat setback), and payback (cost divided by savings) are the math teacher's ratio and percent unit; FACS gives real bills, math gives the fluency. Science: the science teacher can take the "what is a watt" question; FACS keeps the money. Community: the local utility often runs a free home energy audit program and a school outreach kit with meters and LED bulbs.
 
 ## Sources
 
@@ -133,7 +133,7 @@ Math: unit conversions (Wh to kWh), percent (the thermostat setback), and paybac
 - NYS Middle Level CTE Theme Module, Sustainability, lines 1. e), 3. d), and 3. e). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 3.4.3 and 2.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Energy and water shares are rounded from U.S. Energy Information Administration residential energy consumption data and the U.S. EPA WaterSense residential water use breakdown; the drip figure is rounded from the USGS drip calculator; the thermostat setback rule of thumb is from the U.S. Department of Energy. All are rounded for grade 7 math and marked "about." [Sal: check the price per kWh against a current local bill; $0.25 is a Long Island working figure and changes.]
+- Energy and water shares are rounded from U.S. Energy Information Administration residential energy consumption data and the U.S. EPA WaterSense residential water use breakdown; the drip figure is rounded from the USGS drip calculator; the thermostat setback rule of thumb is from the U.S. Department of Energy. All are rounded for grade 7 math and marked "about."
 - Sal's own materials: the "Sustainable Style" Brentwood packet supplied the "free fix first" idea; the ClassroomStreet utility expense line is where students see the bill again in Unit 2.
 
 ## Teacher notes
@@ -143,4 +143,3 @@ Math: unit conversions (Wh to kWh), percent (the thermostat setback), and paybac
 - Common mistake: ranking by cost instead of by savings. The instruction says cheapest first, then rank by savings. Read it twice.
 - The plug-in meter is the best $20 you will spend in this unit. A charger with nothing on it reads about 0.1 to 0.5 W, which is almost nothing; a cable box or a game console reads 10 to 20 W in standby, which is the story. Test a few before class and pick the one with the biggest number.
 - The Marchetti-Oyelaran apartment on the handout is a rental on purpose. It sets up the "who pays and who chooses" question that comes back in the Design a Room budget.
-- [Sal: your zero-energy home project. Tell it. Two minutes, Day 1.]

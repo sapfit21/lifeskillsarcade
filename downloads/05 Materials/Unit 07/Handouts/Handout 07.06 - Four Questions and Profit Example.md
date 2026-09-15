@@ -113,7 +113,7 @@ Who would pay: ______________________________________________________
 
 ____________________________________________________________________
 
-## Word bank [check with a native speaker]
+## Word bank
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

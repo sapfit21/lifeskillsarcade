@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Partner: ______________________
 
-Rates on this sheet are typical for 2026 and marked [update]. The people are made up.
+Rates on this sheet are typical for 2026 and to be refreshed before teaching. The people are made up.
 
 **My do now guess:** a $500 phone at $25 a month on a store card will cost $__________ in total.
 
@@ -32,7 +32,7 @@ Rates as decimals: 5 percent = 0.05. 15 percent = 0.15. 24 percent = 0.24.
 
 Worked example: $500 at 5 percent for 1 year. $500 x 0.05 x 1 = $25. Total owed: $500 + $25 = $525.
 
-| Rate [update] | What it is like | One year: interest | One year: total owed | Three years: interest | Three years: total owed |
+| Rate | What it is like | One year: interest | One year: total owed | Three years: interest | Three years: total owed |
 |---|---|---|---|---|---|
 | 5 percent | a good car loan | $500 x 0.05 x 1 = $______ | $______ | $500 x 0.05 x 3 = $______ | $______ |
 | 15 percent | a credit union card | $500 x 0.15 x 1 = $______ | $______ | $500 x 0.15 x 3 = $______ | $______ |
@@ -44,9 +44,9 @@ At which rate does three years of interest cost more than half the phone? ______
 
 ## Part C: Two more loans
 
-1. Ines borrows $1,200 on a store card at 15 percent [update] and pays nothing for two years. Interest: $______ x ______ x ______ = $______. Total owed: $______.
+1. Ines borrows $1,200 on a store card at 15 percent and pays nothing for two years. Interest: $______ x ______ x ______ = $______. Total owed: $______.
 
-2. A used car loan: $8,000 at 5 percent [update] for four years. Interest: $______ x ______ x ______ = $______. Total paid: $______.
+2. A used car loan: $8,000 at 5 percent for four years. Interest: $______ x ______ x ______ = $______. Total paid: $______.
 
 3. Which loan cost more in dollars? ______ Which cost more as a percent of what was borrowed? ______ How can both be true?
 
@@ -54,7 +54,7 @@ _____________________________________________________________________________
 
 ## Part D: The minimum payment trap
 
-Leo puts a $500 phone on a credit card at 24 percent APR [update]. That is 2 percent a month. Each month the card adds 2 percent of the balance, then his payment comes off.
+Leo puts a $500 phone on a credit card at 24 percent APR. That is 2 percent a month. Each month the card adds 2 percent of the balance, then his payment comes off.
 
 The first three months at $25 a month (follow along on the board):
 
@@ -96,7 +96,7 @@ It matters because ______________________________, _____________________________
 
 2. What monthly payment would clear the $500 in ten months? (Try $55, then $56.) About how much interest is that?
 
-3. Three cards: a bank card at 24 percent, a store card at 29 percent, a credit union card at 15 percent [update]. A person with a good score should pick ______________ because ______________________________.
+3. Three cards: a bank card at 24 percent, a store card at 29 percent, a credit union card at 15 percent. A person with a good score should pick ______________ because ______________________________.
 
 ## Exit card (3-2-1)
 

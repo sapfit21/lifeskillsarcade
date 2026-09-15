@@ -44,7 +44,7 @@ Tier 3 (FACS): food waste, food loss, compost, edible, trimmings, spoilage, best
 - The two days of collected data (see Setup notes), written on chart paper before class
 - Calculators, one per pair
 - Slides: `Slides 06.03 - Food Waste Audit in Our Room`
-- Setup notes: the audit has to be set up two class days ahead. I tell students the day before: "Starting tomorrow, for two days, every scrap from this room goes in the bin on the counter, not in the trash. I will tell you why on Thursday." Option A, the kitchen audit: after each lab or food lesson, the Station Manager weighs the station's scraps and writes the number on the chart. Option B, the lunch audit: with the cafeteria's permission, a team of four students tallies discarded items at one lunch table or one tray-return line for two days, counting whole items only (unopened milk, untouched apple, half a sandwich). Option C, the no-collection version: use the class's own honest recall on day one plus the sample data printed on the handout. Allergy check: nobody touches food with bare hands, the bins stay closed between classes, gloves for the two sorters, and the bins go out at the end of the period. Nothing is tasted. [Sal: get the cafeteria manager's okay a week ahead if you run the lunch version. Ask for a tray-return spot, not the kitchen.]
+- Setup notes: the audit has to be set up two class days ahead. I tell students the day before: "Starting tomorrow, for two days, every scrap from this room goes in the bin on the counter, not in the trash. I will tell you why on Thursday." Option A, the kitchen audit: after each lab or food lesson, the Station Manager weighs the station's scraps and writes the number on the chart. Option B, the lunch audit: with the cafeteria's permission, a team of four students tallies discarded items at one lunch table or one tray-return line for two days, counting whole items only (unopened milk, untouched apple, half a sandwich). Option C, the no-collection version: use the class's own honest recall on day one plus the sample data printed on the handout. Allergy check: nobody touches food with bare hands, the bins stay closed between classes, gloves for the two sorters, and the bins go out at the end of the period. Nothing is tasted.
 
 ## Pre-assessment
 
@@ -109,16 +109,16 @@ None. Optional: look in one refrigerator at home and find one thing that is goin
 
 ## Connections
 
-Math: this is a real measurement, averaging, and scaling problem with the class's own data, and it is worth telling the math teacher the numbers so both classes use the same set. Science: decomposition and composting connect to the life science unit, and Lesson 6.5 starts the compost sort. Cafeteria: the cafeteria manager is the partner who makes the lunch version possible, and what they get back is a student report they can use. [Sal: the three changes are worth typing up and handing to the cafeteria manager and the principal with the class's number on top. That is a five-minute document that makes the class look serious.]
+Math: this is a real measurement, averaging, and scaling problem with the class's own data, and it is worth telling the math teacher the numbers so both classes use the same set. Science: decomposition and composting connect to the life science unit, and Lesson 6.5 starts the compost sort. Cafeteria: the cafeteria manager is the partner who makes the lunch version possible, and what they get back is a student report they can use.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 3. a) and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 06, Sustainability, lines 1. e) and 2. c). Same folder. The Sustainability module's own Agricultural Education illustrative activity is a cafeteria food waste audit, which is where this lesson's shape comes from.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Basic Skills: "Students listen to and read the ideas of others and analyze what they hear and read; acquire and use information from a variety of sources; and apply a combination of mathematical operations to solve problems in oral or written form." Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.13 and 3.4.3.
-- National waste share figures on the slide are from the USDA and EPA public estimates, rounded. [Sal: pull the current figure the week you teach it; the number moves and students will look it up on their phones.]
+- National waste share figures on the slide are from the USDA and EPA public estimates, rounded.
 
 ## Teacher notes
 
@@ -127,4 +127,3 @@ Math: this is a real measurement, averaging, and scaling problem with the class'
 - Common mistake: students count the not-edible pile as the shameful pile. It is not. Peels and cores were never going to be eaten. Keep the two bins separate so the argument stays honest.
 - The bins go out at the end of the period, every time. Do not leave food in the room overnight. That is a Unit 1 safety rule and it still applies.
 - Handle this without blame. The class number is a class number, not a list of who wasted what. If one lab's scraps are much larger, say so as a design problem: "that recipe makes more trim than the other one," not "that station was wasteful."
-- [Sal: your $40 family project already had students pricing food. Pull one price from that project into the grade 8 stretch so the dollar figure uses their own number.]

@@ -12,7 +12,7 @@ Notes: Cold call three students, write their foods in a column on the board. Do 
 
 ## Slide 2: You already know some of this
 
-- On the pre-assessment, [Sal: number] of [Sal: number] of you named at least five nutrients.
+- On the pre-assessment, of of you named at least five nutrients.
 - So today we skip what you know.
 - We get to what your body DOES with each one.
 - And why your little cousin and your grandmother do not eat like you.
@@ -103,7 +103,7 @@ Notes: After five minutes, show the answer on the next slide only after two team
 - Teen athlete: carbohydrates (energy), water (sweat), protein (muscle during a growth spurt), calcium and iron.
 - Grandparent: protein (keeps muscle), calcium and vitamin D (slows bone loss), water (thirst signal weakens), fiber. Fewer calories, not fewer nutrients.
 - Same six nutrients. Different amounts. That is the whole lesson.
-Notes: Push back once: "The grandparent still needs protein. Why?" Source: Dietary Guidelines for Americans, life stage chapters. [Sal: check the edition.]
+Notes: Push back once: "The grandparent still needs protein. Why?" Source: Dietary Guidelines for Americans, life stage chapters.
 
 ## Slide 13: Exit card
 

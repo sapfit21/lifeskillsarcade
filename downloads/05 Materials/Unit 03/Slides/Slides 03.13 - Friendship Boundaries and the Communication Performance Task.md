@@ -29,8 +29,8 @@ Notes: On the handout Part 1, students write one way to make a friend, one way t
 
 - Any relationship at this age, a friend, a teammate, a person you like, is healthy for the same reasons and unhealthy for the same reasons
 - This class: what a good relationship looks like, how to draw a line, how to say no and be heard
-- Questions about the body go to health class with [Sal: health teacher's name]
-- Anything that worries you goes to the counselor [Sal: name, room ___]
+- Questions about the body go to health class with the health teacher
+- Anything that worries you goes to the counselor
 Notes: Say this plainly and do not paraphrase it away. Students and parents both need to hear it. If a student pushes the conversation to the body, the answer is "that is a health class question, and [health teacher's name] is the person to ask."
 
 ## Slide 5: A boundary, in three parts
@@ -161,7 +161,7 @@ Notes: Timer on the slide. Circulate and answer questions about the scenario onl
 - The next pair stands while the timer resets
 - No comments between pairs. We talk at the end
 - 20 minutes. Every pair performs
-Notes: Score live, four criteria, numbers only, no comments on the clipboard. [Sal: with more than 22 students, run a second corner with a student timekeeper, or run the last three pairs at the start of Lesson 3.14 before the do now, and say so now.] A student who cannot perform in front of the class performs for me at the table.
+Notes: Score live, four criteria, numbers only, no comments on the clipboard. A student who cannot perform in front of the class performs for me at the table.
 
 ## Slide 20: While you watch
 

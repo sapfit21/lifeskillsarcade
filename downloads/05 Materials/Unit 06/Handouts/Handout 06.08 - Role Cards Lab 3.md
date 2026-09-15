@@ -8,8 +8,6 @@ The four phases, every lab, every year: **PREP 0 to 10 | COOK 10 to 28 | PLATE A
 
 Every role, every phase: the six-step routine (hair back, sleeves up, wash hands, sanitize surfaces, clean as you go, station check before dismissal), handles in, say "behind you" and "hot" out loud, and the burner is off before the pan leaves the stove. **The teacher drains every pot and opens every oven door. Butter knives and kitchen shears are the only things that cut in this room.**
 
-[Sal: add "behind you," "hot," "boiling," "done," and "help" in Turkish, Portuguese, and Spanish from `Vocabulary 06.md` on the back of every card.]
-
 * * *
 
 ## Role Card 1: Station Manager (CORE, always on)

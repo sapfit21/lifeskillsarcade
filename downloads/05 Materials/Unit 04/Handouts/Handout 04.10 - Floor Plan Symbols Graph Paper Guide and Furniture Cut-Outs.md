@@ -6,7 +6,7 @@ Name: ______________________________ Date: ______________ Team: ______
 
 ## Word bank in other languages
 
-**[Check with a native speaker before printing.]** From the unit vocabulary list.
+ From the unit vocabulary list.
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -90,7 +90,7 @@ A 10-foot wall is __________ squares, which is __________ inches on the paper.
 
 **Rounding.** Measure to the nearest half foot, then draw to the nearest whole square. Rounding to the nearest square is close enough at this scale and it keeps you on the grid lines. In Lesson 4.12 the scale doubles to 1/2 inch = 1 foot, two squares per foot, and there a half foot is one whole square, so you can be exact.
 
-**If graph paper runs out.** [Sal: print a quarter-inch grid here, 34 squares wide by 44 squares tall, which fills a letter sheet and holds a room up to 34 by 44 feet at 1/4 inch = 1 foot. Any free grid generator does it.]
+**If graph paper runs out.**
 
 * * *
 

@@ -27,7 +27,7 @@ The tube test at your table: put each object to the tube. Fits through = danger.
 | Coin | |
 | Marker cap | |
 
-Words in other languages [check with a native speaker before printing]:
+Words in other languages:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

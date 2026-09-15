@@ -34,7 +34,7 @@ Tier 3 (FACS): sanitation, cross contamination, danger zone (introduced only; ta
 
 ## Materials and setup
 
-- Six kitchen stations staged with one or two "planted" hazards each before class (examples: a pot handle turned out over the edge of the stove, a wet towel on the floor, a knife in the sink under suds, a cord draped across a burner, raw chicken (a rubber prop or a labeled package) touching a cutting board next to bread, a cabinet door left open at head height, an unlabeled spray bottle, an oven mitt with a hole). Nothing hot, nothing sharp, nothing real that can hurt anyone. [Sal: your room, your hazards. Use the ones your students actually cause.]
+- Six kitchen stations staged with one or two "planted" hazards each before class (examples: a pot handle turned out over the edge of the stove, a wet towel on the floor, a knife in the sink under suds, a cord draped across a burner, raw chicken (a rubber prop or a labeled package) touching a cutting board next to bread, a cabinet door left open at head height, an unlabeled spray bottle, an oven mitt with a hole). Nothing hot, nothing sharp, nothing real that can hurt anyone.
 - Hazard Hunt handout, one per student: `Handout 01.01 - Hazard Hunt.md`
 - Clipboards or hard surfaces, one per team
 - Slides: `Slides 01.01 - Hunt the Hazard` (outline in 05 Materials; the site renders it as a deck) (six hazard photos for the no-kitchen version and the debrief)
@@ -87,7 +87,7 @@ Clipboard checklist during Step 2: for each team, a yes or no on "names the haza
 - Grade 6 support: the hunt uses eight planted hazards, not twelve, and the ranking task asks for the top three.
 - Grade 8 stretch: teams also write which safety rule from the Room and Lab Agreement each hazard breaks, and one team member drafts a one-line accident report for the number 1 hazard (this previews CTE HSW 4. h)).
 - UDL checkpoint used: multiple means of representation (a staged physical station plus a photo of the same station on the slide) and multiple means of engagement (the hunt is a timed team game with a class score).
-- No-kitchen alternative: the six hazard photos on the slides become the stations. Teams rotate between six posted photos on the walls, or work at tables with printed photos. Everything else is the same. [Sal: photos of your own room work better than stock photos; take them the day you stage the hazards.]
+- No-kitchen alternative: the six hazard photos on the slides become the stations. Teams rotate between six posted photos on the walls, or work at tables with printed photos. Everything else is the same.
 
 ## Assessment
 
@@ -111,7 +111,7 @@ Inside the building: the school nurse or the custodian visits for five minutes d
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. a) and 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.4.1.
 - Sal's own materials: the zero-knife policy and station constraints from his King Kullen menu documents (Education/TeachingWork/LessonPlans) shape the planted hazards.
 
@@ -120,5 +120,4 @@ Inside the building: the school nurse or the custodian visits for five minutes d
 - If time runs short, cut Step 3 to a top three and take only three teams in Step 4. Never cut the reveal of unfound hazards; that is the point.
 - Common mistake: students "fix" a planted hazard during the hunt (move the pot handle). Say the rule twice before the timer starts: look, write, leave it.
 - The hazard nobody finds is usually the unlabeled spray bottle. Use that in Lesson 1.3 when you show where the Safety Data Sheets are (CTE HSW 4. f)).
-- [Sal: your Brentwood observation notes said the room had oil left out, grease on the stove, and washers used for jerseys. Those are real hazards students will recognize. Decide how much of that story to tell; it makes the point that safety is about everyone who uses the room.]
 - Keep the station photos. They become the review slides before the Kitchen Safety Exam.

@@ -1,6 +1,6 @@
 # Slides 5.2: What Clothing Communicates
 
-Slide outline for Lesson 5.2, one day, thirteen slides. The plain shirt on a hanger carries slides 5 to 7; the chart paper carries slides 10 to 12. [Sal: your own shirt, and your own 80s Day story at slide 10, in about 45 seconds.]
+Slide outline for Lesson 5.2, one day, thirteen slides. The plain shirt on a hanger carries slides 5 to 7; the chart paper carries slides 10 to 12.
 
 ## Slide 1: What clothing says before you do
 
@@ -27,7 +27,7 @@ Image: two plain figures side by side, one in a suit, one in a delivery uniform 
 4. Appearance: clothing, grooming, what you carry
 - Clothing lives in channel 4, and people read it first
 Image: four labeled boxes in a row with an eye icon over box 4.
-Notes: People form an impression almost instantly, before you speak. [Sal: either cite a specific study on this slide or leave the number off. Do not put an unsourced number on the site.]
+Notes: People form an impression almost instantly, before you speak.
 
 ## Slide 4: Nonverbal means without words
 
@@ -87,7 +87,7 @@ Notes: Accuracy matters here. Name each item correctly. If a student in the room
 - Every generation got criticized by the one before it
 - Every single one of them thought the criticism was unfair
 Image: three pairs of jeans in three silhouettes, wide, baggy, and current, labeled by decade.
-Notes: This is where the 80s Day story goes. [Sal: forty-five seconds, first person, no names. You and a colleague stopped the planned lesson because the hallway comments got mean. Students believe a story about a teacher changing his plan.]
+Notes: This is where the 80s Day story goes.
 
 ## Slide 11: The sticky notes
 

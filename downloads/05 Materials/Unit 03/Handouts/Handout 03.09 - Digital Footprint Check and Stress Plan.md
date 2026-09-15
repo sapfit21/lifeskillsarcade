@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | footprint | ayak izi | pegada | huella |
@@ -135,6 +133,6 @@ Total: ______ / 12. Topic assessments category. One retake after a conversation;
 
 **Part 2:** 1 healthy (a joke landed wrong and someone stepped in; the chat moved on). 2 log off and tell (secrecy from parents plus a request to meet; tell a parent or the counselor today). 3 healthy (honest, respectful, ends well). 4 log off (past the sleep window, three messages with no one calmer, body signals going off); tell is optional unless it continues. 5 unhealthy pattern to notice (comparing worth to likes), not a tell; a self-talk swap fits. 6 log off and tell (a screenshot of someone going around; tell a teacher, the counselor, or the technology coordinator; do not forward it).
 
-**Part 3, board lists:** log off when the chat is making your body signals go off, it is after your sleep window, an argument has gone three messages with no one calmer, or someone is being hurt. Tell an adult when anyone asks to meet or for photos, a screenshot of someone is going around, anyone talks about hurting themselves or others, or you are scared. Who: the counselor, the technology coordinator, any teacher, the office, an adult at home. [Sal: names and rooms.]
+**Part 3, board lists:** log off when the chat is making your body signals go off, it is after your sleep window, an argument has gone three messages with no one calmer, or someone is being hurt. Tell an adult when anyone asks to meet or for photos, a screenshot of someone is going around, anyone talks about hurting themselves or others, or you are scared. Who: the counselor, the technology coordinator, any teacher, the office, an adult at home.
 
 **Stress Plan:** scored on the mini rubric, 12 points. Keep the Lesson 3.8 test sheets at hand to check that the two tools were actually tested. The stressor does not have to be the starred one from the map; any category or general description counts.

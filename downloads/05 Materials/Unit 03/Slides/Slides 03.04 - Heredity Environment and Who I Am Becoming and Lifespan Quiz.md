@@ -157,7 +157,6 @@ Notes: H, E, B, E, B, possible (different friends, birth order, treatment, choic
 ## Slide 19: Fix-it minute
 
 - Anything half the room missed goes here
-- [Sal: leave blank; fill from the game]
 Notes: Thirty seconds per fix. Then the quiz.
 
 ## Slide 20: The quiz

@@ -60,7 +60,7 @@ Notes: The pathway line has to match the card's "needs" line, not a guess. Twelv
 - Two students: why yours, and which unit skill it uses
 - The pathway line for the top two, out loud
 - The babysitting course from yesterday is the first real step into three of these eight
-Notes: Two minutes, no more. [Sal: the counselor, the nurse, and the social worker are three of the eight; ask whether any of them will stand at their own card for two minutes.]
+Notes: Two minutes, no more.
 
 ## Slide 8: Questions
 

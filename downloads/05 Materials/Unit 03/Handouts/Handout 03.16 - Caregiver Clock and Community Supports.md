@@ -21,7 +21,7 @@ My do now guess: a two year old needs an adult paying attention ______ hours a d
 
 Parenting is unpaid work, and it is the biggest job most adults ever do.
 
-Words in other languages [check with a native speaker before printing]:
+Words in other languages:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -97,7 +97,7 @@ Which of the four does the clock show most clearly? ______________________
 | The family liaison at school | Knows every local resource; helps with forms | |
 | The after-hours nurse line | A nurse on the phone at 2 a.m. | |
 
-Local numbers from the slide [Sal: fill these in]:
+Local numbers from the slide:
 
 211: ______________________ One other: ______________________
 
@@ -115,6 +115,6 @@ Local numbers from the slide [Sal: fill these in]:
 
 - Part 1, "a babysitter does this": S yes, F yes (snacks and a meal the parent left), H no (a babysitter does not make health decisions; they call the parent), L yes, T sometimes, M yes (the bedtime the parent set), $ no, C yes (for a few hours).
 - Part 2, a "got it" clock: every hour has a letter; midnight to 6 a.m. is shaded with L or S ("listening," "checking"); the surprise (a fever at 2 a.m., a spilled cup at dinner, a scraped knee at the park) is handled with H, F, or S, not skipped; the count is 18 to 24. A common clock: 6:30 wake L/S, 7 breakfast F, 8 to 12 play and errands T/S, 12 lunch F, 1 to 2:30 nap (shaded, caregiver does dishes and listens), 3 to 5 park or play S/T, 5:30 dinner F, 6:30 bath S, 7:30 bed L/M, 8 p.m. to midnight listening.
-- Stretch costs, placeholders to confirm locally: diapers about $70 a month; toddler food about $150 to $250 a month; child care from $800 to over $2,000 a month depending on the county. [Sal: pull two local numbers and mark the month.]
+- Stretch costs, placeholders to confirm locally: diapers about $70 a month; toddler food about $150 to $250 a month; child care from $800 to over $2,000 a month depending on the county.
 - Part 3, strong reasons: age (the clock has no gaps; a person still in school could not fill it); money (child care alone can cost more than rent); support (the 2 a.m. fever after a full day; somebody has to cover the next morning); patience (the surprise card is every day).
 - Part 4 matches: pediatrician to the 2 a.m. fever or a checkup hour; the school to a daytime teaching hour; the library to a morning or afternoon play hour; WIC to a meal hour; 211 to any hour a family needs help finding something; the nurse line to 2 a.m.

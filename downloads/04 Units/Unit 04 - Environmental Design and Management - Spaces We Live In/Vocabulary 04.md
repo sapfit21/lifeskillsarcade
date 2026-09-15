@@ -2,13 +2,13 @@
 
 Unit 4, Environmental Design and Management. The unit's 61 Tier 3 words across the four topics, with a one-line definition written for a grade 6 to 7 reader and columns for Turkish, Portuguese, and Spanish.
 
-**Translation status: [check with a native speaker].** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Twenty-two of the entries (eleven Portuguese, eleven Turkish, all in Topic 4.2) come from my own Color in the Home vocabulary cards from Queens College, where they were printed in capitals with the diacritics stripped so the word search would work (PRIMARIA, SECUNDARIA, TERCIARIA, MATIZ, SOMBRA, QUENTE, FRIA, PALETA, ESQUEMA and their Turkish partners RENK, CARK, ANA, ARA, UCUNCUL, ACIK, KOYU, SICAK, SOGUK, PALET, SEMA). The diacritics are restored here (primária, çark, üçüncül, açık, sıcak, soğuk, şema). Some of the single-word Turkish choices on those cards were shorthand (ANA for primary color, ARA for secondary, AÇIK and KOYU for tint and shade), so this table adds the noun (ana renk, ara renk, açık ton, koyu ton) and keeps the card word first so a student who learned the card still recognizes it. Home repair and housing words are the ones most likely to differ by country (a breaker, an outlet, a plunger, and a condo have different everyday names in Turkey, Brazil, Portugal, and the Spanish-speaking countries), so the English term stays on every card, because students will see the English word on a real breaker panel, a real lease, and a real listing.
+**Translation status.** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Twenty-two of the entries (eleven Portuguese, eleven Turkish, all in Topic 4.2) come from my own Color in the Home vocabulary cards from Queens College, where they were printed in capitals with the diacritics stripped so the word search would work (PRIMARIA, SECUNDARIA, TERCIARIA, MATIZ, SOMBRA, QUENTE, FRIA, PALETA, ESQUEMA and their Turkish partners RENK, CARK, ANA, ARA, UCUNCUL, ACIK, KOYU, SICAK, SOGUK, PALET, SEMA). The diacritics are restored here (primária, çark, üçüncül, açık, sıcak, soğuk, şema). Some of the single-word Turkish choices on those cards were shorthand (ANA for primary color, ARA for secondary, AÇIK and KOYU for tint and shade), so this table adds the noun (ana renk, ara renk, açık ton, koyu ton) and keeps the card word first so a student who learned the card still recognizes it. Home repair and housing words are the ones most likely to differ by country (a breaker, an outlet, a plunger, and a condo have different everyday names in Turkey, Brazil, Portugal, and the Spanish-speaking countries), so the English term stays on every card, because students will see the English word on a real breaker panel, a real lease, and a real listing.
 
 Two words carry a design meaning that is different from their everyday meaning. "Scale" here means the ratio on a floor plan (a quarter inch is one foot) and the size of a thing next to other things, not a kitchen scale. "Shade" here is a color mixed with black, not shade from the sun. "Level" is the tool.
 
 How lessons use this file: each lesson names its own Tier 3 words; the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints this table as picture-ready cards.
 
-## The table [check with a native speaker]
+## The table
 
 | # | Topic | English term | Student definition | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|---|---|
@@ -76,7 +76,7 @@ How lessons use this file: each lesson names its own Tier 3 words; the handout f
 
 ## Sentence starters
 
-Print these on the back of the project sheet, the peer review sheet, and the repair station cards. [Sal: if the Turkish and Portuguese pitch starters from your Color in the Home run read better than these, swap them in.] [check with a native speaker]
+Print these on the back of the project sheet, the peer review sheet, and the repair station cards.
 
 ### For the pitch (Lesson 4.8, 30 seconds; Lesson 4.15, 60 seconds)
 

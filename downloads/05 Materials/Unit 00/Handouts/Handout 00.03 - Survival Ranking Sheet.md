@@ -127,6 +127,6 @@ The two that move most: the tarp (A) moves up to 1 or 2 for shade, and the map (
 
 Rank six items: B, E, A, C, H, J. Expert order for the six: B, E, A, C, H, J (1 to 6). The team agrees on the top three only.
 
-### Word bank [check with a native speaker]
+### Word bank
 
 rank (sıralamak / classificar / clasificar); item (eşya / item / objeto); shelter (barınak / abrigo / refugio); warm (sıcak / quente / caliente); signal (işaret / sinal / señal); searchers (arama ekibi / equipe de busca / equipo de búsqueda); expert (uzman / especialista / experto).

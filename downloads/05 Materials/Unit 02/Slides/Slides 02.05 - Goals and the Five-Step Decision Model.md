@@ -133,8 +133,6 @@ Notes: The most common fix you will make while circulating.
 - On what date will you check?
 - How will you know? A number helps: "on June 1, do I have $120?"
 - I will hand this back in four weeks and you will write one line on the cover
-Notes: [Sal: put the four-week date in your own calendar now.]
-
 ## Slide 17: The Goal Plan
 
 - Page 1: your SMART goal and ladder

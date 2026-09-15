@@ -38,13 +38,13 @@ Tier 3 (FACS): floor plan, traffic flow (traffic path), zone, clearance, turning
 ## Materials and setup
 
 - `Handout 04.12 - Scale Plan Guide Traffic Flow Rules and Peer Review Checklist.md`, one per student: page 1 the plan guide and furniture sizes, page 2 the furniture cut-out sheet at 1/2 inch = 1 foot, page 3 the traffic flow rules, page 4 the peer review checklist
-- Quarter-inch graph paper, two sheets per student (Day 1) plus one spare; 11 by 17 graph paper for tiny house teams if available [Sal: if you have only letter size, tiny house teams draw at 1/4 inch = 1 foot]
+- Quarter-inch graph paper, two sheets per student (Day 1) plus one spare; 11 by 17 graph paper for tiny house teams if available
 - Rulers marked in quarter inches, one per student; pencils with erasers; scissors, one per pair; glue sticks or removable tape
 - A 36-inch and a 30-inch strip of masking tape on the floor near the door, labeled, for students to walk through
 - A tape measure for the demo
 - The client cards from Lesson 4.11 (each student keeps theirs in the project folder)
 - Slides: `Slides 04.12 - Plan Scale Drawing and Traffic Flow` (Day 1 and Day 2 marked)
-- Setup notes: photocopy the cut-out sheet on card stock if you can; it survives moving around. Put the two tape strips on the floor before class. [Sal: a real walker or a borrowed wheelchair from the nurse's office, rolled through the 30-inch strip, makes the rule real in ten seconds.]
+- Setup notes: photocopy the cut-out sheet on card stock if you can; it survives moving around. Put the two tape strips on the floor before class.
 
 ## Pre-assessment
 
@@ -105,7 +105,7 @@ Written above under each day.
 - ELL: the plan guide has a picture beside each rule (a walker with a 36-inch arrow, a bed with one side shaded open); the peer review checklist is yes or no boxes with a two-word label each, so a student can review without writing sentences; the words scale, path, clear, swing, and turn in Turkish, Portuguese, and Spanish on the handout margin (see `Vocabulary 04.md`); pair reviewers so at least one can read the checklist aloud.
 - IEP and 504 (general): the room outline can be pre-drawn by the teacher for a student who needs it, with the student adding doors, windows, and furniture; pre-cut furniture pieces for a student who cannot use scissors; a larger scale (1 inch = 1 foot on 11 by 17) for a student with fine-motor or vision needs; extended time, the revision can finish in the first five minutes of Lesson 4.13.
 - Grade 6 support: use the printed furniture cut-outs only (no drawing furniture by hand), measure three paths instead of every path, and skip the proportion line on the checklist.
-- Grade 8 stretch: calculate the room's floor area in square feet and the floor area covered by furniture, then state the percentage open (a good bedroom is roughly 50 to 60 percent open floor [Sal: this is a rule of thumb, not a code line; say so]); tiny house teams draw the loft as a second small plan at the same scale.
+- Grade 8 stretch: calculate the room's floor area in square feet and the floor area covered by furniture, then state the percentage open (a good bedroom is roughly 50 to 60 percent open floor); tiny house teams draw the loft as a second small plan at the same scale.
 - UDL checkpoint used: multiple means of action and expression (cut-outs moved by hand before anything is drawn; a student may also photograph the arrangement instead of tracing) and multiple means of representation (the tape strips on the floor, the borrowed walker, and the shaded path on paper all show the same rule).
 - No-kitchen or no-machine alternative: not a lab; no alternative needed. If graph paper runs out, the plan guide's page 1 has a printable grid.
 
@@ -123,13 +123,13 @@ None. Optional: at home, measure the narrowest path in your own bedroom (the gap
 
 ## Connections
 
-Math: scale factors, unit conversion (feet to inches to squares), area in square feet, percent of area (grade 8 stretch). This is the same scale math the math teacher does with maps and similar figures; share the handout so the math teacher can use a floor plan as a problem. Technology or art: if the school has a free floor-plan web app, the Day 2 plan can be redrawn digitally as an extension [Sal: name the app the school allows].
+Math: scale factors, unit conversion (feet to inches to squares), area in square feet, percent of area (grade 8 stretch). This is the same scale math the math teacher does with maps and similar figures; share the handout so the math teacher can use a floor plan as a problem. Technology or art: if the school has a free floor-plan web app, the Day 2 plan can be redrawn digitally as an extension.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) sub-lines d., e., h. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.3 and 11.4.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - Clearances: 2010 ADA Standards for Accessible Design (ada.gov), section 403.5.1 (36-inch clear width) and 304.3 (60-inch turning space). The 30-inch general path and the furniture dimensions on the cut-out sheet are common residential planning figures, rounded to the nearest half foot for cutting.
 - Sal's own materials: `Lesson Dups/Unit_1_Interior_Design/education_teachingwork_floor_plan_frenzy_2026_04.docx` (the floor plan idea used in Lesson 4.10; this lesson continues it at the project scale).
@@ -141,4 +141,3 @@ Math: scale factors, unit conversion (feet to inches to squares), area in square
 - Common mistake: a path that is 36 inches at the door and 24 inches at the foot of the bed. The path is as wide as its narrowest point. Have students measure the pinch, not the entrance.
 - Common mistake: measuring in squares and forgetting to convert. Six squares at project scale is 3 feet is 36 inches. Put the conversion line on the board and leave it there both days.
 - The peer review is the same "mark, do not fix" routine from Lesson 1.19. Students know it; hold them to it.
-- [Sal: keep a few finished plans from each class, with permission and no names, for next year's Day 1 demo.]

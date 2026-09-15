@@ -44,12 +44,12 @@ Tier 3 (FACS): station card, flowchart, tasting portion, mise en place (everythi
 - Handout, three copies for the teacher and one per team that needs one: `Handout 01.20 - Fallback Station Cards.md` (three costed dishes that meet every constraint)
 - Each team's revised and signed Project Plan Sheet from Lesson 1.19
 - Lab role cards, one set of seven per station: Station Manager, Prep Lead, Cook Lead, Plate Captain, Clean Crew (two), Safety and Sanitation Checker
-- Groceries for each team's approved dish, bought after Day 1 [Sal: budget $20 per station, three stations per period; see the per-station costs in the fallback cards; multiply by the number of periods you teach]
+- Groceries for each team's approved dish, bought after Day 1, budgeted at $20 per station and three stations per period
 - Station equipment: one pot, one large skillet or sheet pan, colander (teacher use), mixing bowl, two forks for shredding, measuring cups and spoons, wooden spoon, spatula, oven mitts, cutting board (for assembly only, no knives), sanitizer spray and paper towels, dish soap, food thermometer, foil, paper plates or reusable plates, forks, spoons, napkins, cups
 - Timer visible at each station
 - Lab rubric on the slide and one printed copy per team for the self-assessment
 - Slides: `Slides 01.20 - Budget Meal Lab` (outline in 05 Materials; the site renders it as a deck)
-- Setup notes: Day 1 needs no food. After Day 1, shop from the approved station cards or the fallback cards. On Day 2, preheat the oven before the first period and stage each station's groceries in a labeled bin with the station card on top. Allergy check: on Day 1, read every approved card against the class allergy list [Sal: from the nurse]; any team whose dish touches a listed allergen takes a fallback card or swaps the ingredient. The chicken quesadilla fallback contains dairy and wheat; the pasta fallback contains wheat and dairy; the rice and bean bowl contains dairy (the cheese and sour cream can be left off one portion).
+- Setup notes: Day 1 needs no food. After Day 1, shop from the approved station cards or the fallback cards. On Day 2, preheat the oven before the first period and stage each station's groceries in a labeled bin with the station card on top. Allergy check: on Day 1, read every approved card against the class allergy list; any team whose dish touches a listed allergen takes a fallback card or swaps the ingredient. The chicken quesadilla fallback contains dairy and wheat; the pasta fallback contains wheat and dairy; the rice and bean bowl contains dairy (the cheese and sour cream can be left off one portion).
 
 ## Pre-assessment
 
@@ -105,7 +105,7 @@ Day 2: the self-assessment on the back of the station card (three objectives, 1 
 - Grade 6 support: the team takes a fallback card and edits it (changes two ingredients or two steps to match its plan) instead of writing a card from blank; the flowchart is filled in as a class.
 - Grade 8 stretch: the card includes a cost per tasting portion and a cost per full serving, a sales tax line for the non-food items, and a critical path (the one chain of steps that cannot slip without the dish being late), which is the Gantt idea from Sal's lesson packages.
 - UDL checkpoint used: multiple means of action and expression (seven roles, each a different way to do the lab well) and multiple means of representation (the card as text, as a flowchart, and as a filled example).
-- No-kitchen or no-machine alternative: the team builds its plated dinner from the food cards (the Unit 1 food card set, one card per ingredient with a picture and a price) on a paper plate template, arranged by MyPlate section, with the costed plan beside it. Then the team assembles a no-cook component for real: a salad (bagged greens, canned beans, shredded cheese, bottled dressing, no knives) or a cold wrap (tortilla, pre-cooked deli chicken or beans, cheese, salsa) using the same roles, the same flowchart, the same place setting, and the same clean and station check. Cost per station for the no-cook version is about $12 [update from this week's circular]. Rubric 01 criterion 3 is scored on the no-cook assembly.
+- No-kitchen or no-machine alternative: the team builds its plated dinner from the food cards (the Unit 1 food card set, one card per ingredient with a picture and a price) on a paper plate template, arranged by MyPlate section, with the costed plan beside it. Then the team assembles a no-cook component for real: a salad (bagged greens, canned beans, shredded cheese, bottled dressing, no knives) or a cold wrap (tortilla, pre-cooked deli chicken or beans, cheese, salsa) using the same roles, the same flowchart, the same place setting, and the same clean and station check. Cost per station for the no-cook version is about $12. Rubric 01 criterion 3 is scored on the no-cook assembly.
 
 ## Assessment
 
@@ -121,7 +121,7 @@ None. Optional: cook the team's dish at home for your family and report the real
 
 ## Connections
 
-Math: cost per portion and scaling are ratio work. Science: heat, boiling, and the 165 F rule are the science teacher's thermal energy and microbe lessons in one pot. Community: a local restaurant cook or the school cafeteria manager watching the cook phase and giving one piece of feedback per station is a fifteen-minute visit that students remember. [Sal: the cafeteria manager is in the building already.]
+Math: cost per portion and scaling are ratio work. Science: heat, boiling, and the 165 F rule are the science teacher's thermal energy and microbe lessons in one pot. Community: a local restaurant cook or the school cafeteria manager watching the cook phase and giving one piece of feedback per station is a fifteen-minute visit that students remember.
 
 ## Sources
 
@@ -130,7 +130,7 @@ Math: cost per portion and scaling are ratio work. Science: heat, boiling, and t
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- USDA safe minimum internal temperature for reheated leftovers and poultry (165 F), FoodSafety.gov. [Sal: add the link on the site.]
+- USDA safe minimum internal temperature for reheated leftovers and poultry (165 F), FoodSafety.gov.
 - Sal's own materials: the King Kullen station cards, master flowchart, and menu options (`Education/TeachingWork/LessonPlans/education_teaching_facs_kingkullen_*_2026_03.pdf`): the seven-student station, the constraints line, the "what does done look like" checklist, the teacher-drains-pasta rule, and the rotisserie chicken shredded with two forks. The role card structure (core roles plus expansion roles) and the PREP, COOK, PLATE and EAT, CLEAN timeline from his three FACS Cooking Lesson Packages. The Budget Meal Lab idea from his FNES 563 draft unit calendar.
 
 ## Teacher notes
@@ -140,6 +140,4 @@ Math: cost per portion and scaling are ratio work. Science: heat, boiling, and t
 - Common mistake: teams write "cook the chicken" on the card. The chicken is pre-cooked. The step is "heat the chicken until the thermometer reads 165 F." Fix it at approval.
 - Second common mistake: the Cook Lead does everything and five people watch. The flowchart with a name in every block is the fix, and the lab rubric's teamwork line scores it.
 - Leftovers: the Safety Checker decides by the rules from Lesson 1.17. Anything held above 40 F for over two hours by the end of the day is trash, not tomorrow's tasting gallery. If the school day makes same-day refrigeration impossible, plan a fresh no-cook item for Lesson 1.21 instead (see that lesson).
-- Cost estimate per station for the three fallback dishes (prices for a Long Island supermarket, September 2026, every one marked [update from this week's circular] on the cards): rice and bean bowl about $13.33; pasta with vegetables and jarred sauce about $11.05; pre-cooked chicken quesadillas about $17.64. All three under the $20 cap. One period with one of each is about $42.02; per-period cost with three teams on their own dishes will vary but is capped at $60.
-- [Sal: your master flowchart said "ONE PERIOD (50 min)" but every recipe sheet said 40. This lab is written for 40. If your school has 50-minute periods, the cook phase gets the extra ten.]
-- [Sal: decide whether the teams' own shopping lists go to you or to the school's purchasing process. The card is written so it can be the purchase order.]
+- Cost estimate per station for the three fallback dishes (prices for a Long Island supermarket, September 2026, every one on the cards, to be refreshed from the current circular): rice and bean bowl about $13.33; pasta with vegetables and jarred sauce about $11.05; pre-cooked chicken quesadillas about $17.64. All three under the $20 cap. One period with one of each is about $42.02; per-period cost with three teams on their own dishes will vary but is capped at $60.

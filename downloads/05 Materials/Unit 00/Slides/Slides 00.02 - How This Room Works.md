@@ -4,7 +4,7 @@ Lesson 0.2, Unit 0. One period. Twelve slides. Slides 3 to 5 are the no-room pho
 
 ## Slide 1: Do now
 
-- Yesterday's count: [Sal: the six hope card numbers]
+- Yesterday's count: the six hope card numbers
 - On your map handout, before we walk: draw an X where you think the fire extinguisher is.
 - Do not get up.
 
@@ -28,13 +28,13 @@ Notes: "Whatever is in your hands goes down, even a whisk."
 - 3 First aid kit: tell an adult first.
 - 4 Fire extinguisher: I use it. You leave.
 
-Image: four photos of the room's stops, numbered. [Sal: take them the first week.]
+Image: four photos of the room's stops, numbered.
 
 Notes: One minute per stop. Students write the number, the name, and one rule word on the map. Show a role card at stop 2 for one minute: "The card is the boss, not a person."
 
 ## Slide 4: The tour, stops 5 to 7
 
-- 5 Exits: two ways out. We meet at [Sal: your meeting spot].
+- 5 Exits: two ways out. We meet at the spot we walk to today.
 - 6 Supply closet: ask before you open.
 - 7 Sewing stations: needles are counted out and counted back in.
 

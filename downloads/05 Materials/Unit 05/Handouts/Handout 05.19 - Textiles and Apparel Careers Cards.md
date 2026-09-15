@@ -4,7 +4,7 @@ Name: ______________________ Date: __________ Station: ______
 
 Lesson 5.19, two days. Pages 1 and 2 are the thirteen career cards, cut apart, one set per station. Page 3 is the self-check sheet, one per student. Page 4 is the portfolio page. Page 5 is the Unit 5 review game question bank for Day 2.
 
-Wage and job-outlook numbers are deliberately not on these cards, because they go out of date fast. [Sal: if you want them, pull them from the US Bureau of Labor Statistics Occupational Outlook Handbook the week you teach it, and write the year on the card.]
+Wage and job-outlook numbers are deliberately not on these cards, because they go out of date fast.
 
 Word bank: job, training, degree, business, repair
 Turkish: iş, eğitim, diploma, işletme, tamir
@@ -217,7 +217,7 @@ This is the concrete first step. Five photographed repairs or made items, each w
 
 1. Practice at home. Hem something, patch something, replace a button. Photograph each one.
 2. A summer or after-school job at a dry cleaner, a fabric store, a resale shop, or a costume shop.
-3. A high school CTE program in apparel, fashion, or design. [Sal: put the real program name and what it takes to get in on slide 12.]
+3. A high school CTE program in apparel, fashion, or design.
 4. Then one of three: an apprenticeship, a certificate, or a degree, depending on which job on the cards you want.
 
 ## Exit card (Day 1)

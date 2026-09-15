@@ -42,7 +42,7 @@ Tier 3 (FACS): recycle, compost, upcycle, secondhand, natural materials, indoor 
 - Calculators, one per student, for the quiz
 - Slides: `Slides 04.05 - Green Choices Waste Reuse Materials and Safety and Conservation Quiz`
 - Timer visible to the class
-- Setup notes: the quiz starts at minute 23 no matter what; set the timer. Print the quiz single-sided. Allergy check: the banana peel and coffee grounds are props; no one handles food. [Sal: a real compost caddy with a lid, if the school has one, makes the "rot" bin real.]
+- Setup notes: the quiz starts at minute 23 no matter what; set the timer. Print the quiz single-sided. Allergy check: the banana peel and coffee grounds are props; no one handles food.
 
 ## Pre-assessment
 
@@ -106,7 +106,7 @@ None. The quiz is done. Optional: find one thing at home headed for the trash an
 
 ## Connections
 
-Science: the science teacher's unit on ecosystems or the carbon cycle is where "rot" gets its explanation; FACS gives the bin at home. Community: the town's sanitation or recycling office has the local rules on one page and often a speaker; the state's own EDM module suggests a carbon footprint activity, which the science teacher may already run. [Sal: pull the town's recycling rules page and put the real rules on slide 4; every town differs.]
+Science: the science teacher's unit on ecosystems or the carbon cycle is where "rot" gets its explanation; FACS gives the bin at home. Community: the town's sanitation or recycling office has the local rules on one page and often a speaker; the state's own EDM module suggests a carbon footprint activity, which the science teacher may already run.
 
 ## Sources
 
@@ -122,4 +122,3 @@ Science: the science teacher's unit on ecosystems or the carbon cycle is where "
 - Common mistake: "recycle everything." Reduce and reuse come first because recycling still costs energy and half of what goes in the bin does not get recycled. The greasy pizza box is the item that makes the point.
 - Common mistake on the swap: buying a new "green" thing for every row. The free column exists so students see that most of the room is fixed by moving, fixing, or stopping something.
 - Grade the quiz before Lesson 4.6. The results sort into "got it" and "needs more," and the "needs more" students get the retake review during Lesson 4.7 Day 1's sort activity, when the class is working in teams.
-- [Sal: your town's recycling rules on slide 4. Students argue about plastic numbers; let the real rules settle it.]

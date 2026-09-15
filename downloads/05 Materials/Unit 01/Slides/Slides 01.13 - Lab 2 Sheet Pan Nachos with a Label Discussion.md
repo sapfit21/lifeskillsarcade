@@ -113,7 +113,7 @@ Notes: Sort by role. Any role with two or more blank first steps gets a reminder
 - Head Chef: check the counter against the list. Report "station ready."
 - The oven is at 400. It is mine.
 - Clock starts when every station reports.
-Notes: This slide is up as they walk in. [Sal: add any role reminder from the Day 1 exit lines here.]
+Notes: This slide is up as they walk in.
 
 ## Slide 13: Minutes 5 to 10: line and layer
 

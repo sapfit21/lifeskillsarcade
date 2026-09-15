@@ -12,8 +12,6 @@ Before the tour: draw an X where you think the fire extinguisher is. Do not get 
 
 Directions during the tour: at each numbered stop, write the number and the name where it belongs on the map, and one word for the rule that goes with it.
 
-[Sal: draw the outline of your room here before printing: the door(s), the windows, the kitchen stations as rectangles, the sewing area, the teacher desk. Leave everything unlabeled. The map is blank on purpose so it matches your school's room.]
-
 ```
 +==========================================================+
 |                                                          |
@@ -50,7 +48,7 @@ The reset cue, three words: ______________, ______________, ______________
 
 Time it took the class today: ______ seconds. Goal by Friday: 3 seconds.
 
-Word bank [check with a native speaker]: hand sink (el lavabosu / pia para as mãos / lavamanos); first aid kit (ilk yardım çantası / kit de primeiros socorros / botiquín); fire extinguisher (yangın söndürücü / extintor / extintor); exit (çıkış / saída / salida); supply closet (malzeme dolabı / armário de suprimentos / armario de suministros); station (istasyon / estação / estación).
+Word bank: hand sink (el lavabosu / pia para as mãos / lavamanos); first aid kit (ilk yardım çantası / kit de primeiros socorros / botiquín); fire extinguisher (yangın söndürücü / extintor / extintor); exit (çıkış / saída / salida); supply closet (malzeme dolabı / armário de suprimentos / armario de suministros); station (istasyon / estação / estación).
 
 * * *
 
@@ -125,7 +123,7 @@ Which lab role needs the most precise words, and why? __________________________
 
 ## Teacher key
 
-Part A: the rules that count at each stop (accept any close wording): 1 hand sink, hands only (never food or dishes); 2 station, one team, one card each; 3 first aid kit, tell an adult first; 4 extinguisher, I use it, you leave; 5 exits, two ways out, meet at [Sal: your meeting spot]; 6 supply closet, ask before you open; 7 sewing stations, needles counted out and in (previews Unit 5); 8 SDS binder, what is in every bottle and what to do if it spills; 9 trash and recycling, sorted, and the bin is not a basketball hoop; 10 turn-in tray, everything goes here, not on the desk. Reset cue: lights, countdown, hands empty. A "got it" map has eight labels in the right places.
+Part A: the rules that count at each stop (accept any close wording): 1 hand sink, hands only (never food or dishes); 2 station, one team, one card each; 3 first aid kit, tell an adult first; 4 extinguisher, I use it, you leave; 5 exits, two ways out, meet at; 6 supply closet, ask before you open; 7 sewing stations, needles counted out and in (previews Unit 5); 8 SDS binder, what is in every bottle and what to do if it spills; 9 trash and recycling, sorted, and the bin is not a basketball hoop; 10 turn-in tray, everything goes here, not on the desk. Reset cue: lights, countdown, hands empty. A "got it" map has eight labels in the right places.
 
 Part B: the words that usually go missing, by card: card 1, which corner the window is in and which side the flowers are on; card 2, the order of the three objects and which side the cat is on; card 3, which side of the mast the sail is on; card 4, the ear on one side only and the number of hairs; card 5, the order on the counter and the time on the clock; card 6, "inside" versus "outside" and where the small square sits.
 

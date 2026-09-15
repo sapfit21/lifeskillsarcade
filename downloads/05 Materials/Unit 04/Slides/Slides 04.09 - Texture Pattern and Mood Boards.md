@@ -1,6 +1,6 @@
 # Slides 4.9: Texture, Pattern, and Mood Boards
 
-Slide outline for Lesson 4.9. Twelve slides, one day. Slide 2 changes every year: it is the two-minute reteach of whichever principle the most students missed on the Lesson 4.7 exit cards. [Sal: photograph the finished boards, no names, before they go in the folders. They are the texture and pattern review slides for the vocabulary check tomorrow.]
+Slide outline for Lesson 4.9. Twelve slides, one day. Slide 2 changes every year: it is the two-minute reteach of whichever principle the most students missed on the Lesson 4.7 exit cards.
 
 ## Slide 1: Do now
 
@@ -12,10 +12,8 @@ Notes: Take four answers and write the feel words on the board in a column: roug
 
 ## Slide 2: Yesterday, one more time
 
-- [Sal: the principle the most students missed on the Lesson 4.7 exit cards goes here, with one room photo.]
 - Two minutes
 - Then: the color wheel questions from yesterday's 3-2-1 cards, one minute
-Image: [Sal: one room photo that shows the missed principle clearly.]
 Notes: Sort the 4.7 "needs more" pile and the 4.8 3-2-1 cards before class so this slide is ready. Answer the leftover color questions here and nowhere else; today has its own work.
 
 ## Slide 3: Same color, different answer

@@ -81,7 +81,7 @@ You are the Coach. Hold this. Watch Person 1 and Person 2. You may say "pause" o
 
 Stretch line: [ ] They found the shared want (the thing underneath) or [ ] they settled for a truce (each gave something up but nothing changed underneath)
 
-Sentence starters for Person 1 and Person 2 [check with a native speaker before printing]:
+Sentence starters for Person 1 and Person 2:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -118,7 +118,7 @@ Scenario 7 (the slammed door): write the three repair steps the student could ta
 
 Rung 5 is anything physical, a threat, a weapon, or anything that scares you. It is also any conflict that keeps coming back no matter what you do. Those are not yours to handle alone.
 
-Adults who can help: a parent or guardian, the teacher, the counselor ([Sal: name], room ______), the dean, any teacher.
+Adults who can help: a parent or guardian, the teacher, the counselor (, room ______), the dean, any teacher.
 
 Telling is not tattling. Tattling is trying to get someone in trouble. Telling is trying to get someone safe.
 

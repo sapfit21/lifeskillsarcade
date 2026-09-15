@@ -38,7 +38,7 @@ Tier 3 (FACS): circular (flyer), sale price, unit, loyalty price, pantry check, 
 
 ## Materials and setup
 
-- This week's circular from a local supermarket, one per pair, paper or printed from the store website [Sal: King Kullen, Stop and Shop, or whichever store your students' families use; a mix is better]
+- This week's circular from a local supermarket, one per pair, paper or printed from the store website
 - Handout, one per student: `Handout 01.15 - Circular Scavenger Hunt and Shopping List Template.md`
 - One recipe card per team (use the Sheet Pan Nachos recipe from Lesson 1.13, which every student has already cooked, or the pasta and vegetables fallback from Lesson 1.20)
 - A "what is in the pantry" list on the board (see Setup notes)
@@ -87,7 +87,7 @@ Thumbs at the end of Step 1 on "I can find the five parts." Then a whiteboard ch
 
 ## Differentiation and supports
 
-- ELL: the five parts of a sale listing are on a slide with arrows; the store sections on the template have a picture each; sentence starter for the wait decision: "We should wait on ___ because the sale ___"; the words sale, limit, unit, section, and circular are on the unit vocabulary card in Turkish, Portuguese, and Spanish. A circular in the family's language is a good option if the store prints one [Sal: some Long Island stores print Spanish circulars; check].
+- ELL: the five parts of a sale listing are on a slide with arrows; the store sections on the template have a picture each; sentence starter for the wait decision: "We should wait on ___ because the sale ___"; the words sale, limit, unit, section, and circular are on the unit vocabulary card in Turkish, Portuguese, and Spanish. A circular in the family's language is a good option if the store prints one.
 - IEP and 504 (general): the scavenger hunt asks for six items instead of ten; the recipe used is one the student already cooked, so nothing on it is new; the list template has the sections printed so nothing has to be drawn; extended time on the wait decision.
 - Grade 6 support: the pantry check is done as a class, and the list has only two sections filled by the team (dry goods and dairy) with the rest filled together.
 - Grade 8 stretch: teams compare the same three items across two different store circulars and write which store wins and by how much (this previews CTE FCL 4. g) and Sal's lunch-menu comparison idea in Unit 6).
@@ -110,7 +110,7 @@ None. Optional: bring in a circular from a store your family uses. Extra circula
 
 ## Connections
 
-Math: the buy-one-get-one and per-pound math is ratio work; the math teacher can use the same circular the same week. Community: the store's weekly ad is free and public; a store manager may donate a stack of circulars if asked. [Sal: your King Kullen relationship from the Brentwood labs is the obvious ask.]
+Math: the buy-one-get-one and per-pound math is ratio work; the math teacher can use the same circular the same week. Community: the store's weekly ad is free and public; a store manager may donate a stack of circulars if asked.
 
 ## Sources
 
@@ -127,4 +127,3 @@ Math: the buy-one-get-one and per-pound math is ratio work; the math teacher can
 - Common mistake: students write the sale price without the unit, then get the total wrong in Lesson 1.18. Say "price and unit" together every time, like first and last name.
 - The "limit" concept confuses grade 6. The plain version: the store lets you have two at the low price; the third one costs the regular price.
 - Some students' families shop at bodegas, wholesale clubs, or ethnic markets without circulars. Say that out loud; the list and the pantry check still work everywhere, and the price question is answered by the shelf tag, which is Lesson 1.16.
-- [Sal: your Brentwood shopping list doc used Food Club store-brand swaps to bring a $170 list under $150. Tell that story here in one minute; it is the wait-or-swap decision at classroom scale.]

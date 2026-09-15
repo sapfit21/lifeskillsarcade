@@ -52,7 +52,7 @@ Tier 3 (FACS): place setting, cover, host, food cost, per serving, station check
 - Slides: `Slides 06.17 - Serve, Eat, Clean, and Reflect` (outline in 05 Materials; the site renders it as a deck)
 - Setup notes: put the refrigerated items out with the labels facing up so students see the date. Project the receipt. Set nothing on the tables; the place setting is the students' first job. Post the allergy list a fourth time. Reheat anything held to 165 F yourself before the bell and write the temperature on the board.
 
-**Cost:** no new food purchase. The final course is already paid for on the approved consolidated list from Lesson 6.15. Add about $4 for paper goods if the room is short, marked [update from this week's circular].
+**Cost:** no new food purchase. The final course is already paid for on the approved consolidated list from Lesson 6.15. Add about $4 for paper goods if the room is short, to be refreshed from the current circular before teaching.
 
 ## Pre-assessment
 
@@ -129,17 +129,17 @@ None. The project is done. Optional, one line: tell somebody at home what this m
 
 ## Connections
 
-Inside the building: the cafeteria manager again, and this time with a number. FACS gives them the waste count from zone 4 next to the Lesson 6.3 audit number and the class's cost per person; the cafeteria manager gives FACS the real per-meal figure the school works with and, if they will, one sentence on why theirs is different. Community: a food pantry or a soup kitchen. FACS gives them any unopened, in-date shelf-stable leftovers and a class that has counted its own waste; they give FACS one visit or one email answering what they wish more people understood about feeding a group. [Sal: name the pantry near your school and check their donation rules before you promise anything. Many will not take open packages or anything cooked in a school kitchen.]
+Inside the building: the cafeteria manager again, and this time with a number. FACS gives them the waste count from zone 4 next to the Lesson 6.3 audit number and the class's cost per person; the cafeteria manager gives FACS the real per-meal figure the school works with and, if they will, one sentence on why theirs is different. Community: a food pantry or a soup kitchen. FACS gives them any unopened, in-date shelf-stable leftovers and a class that has counted its own waste; they give FACS one visit or one email answering what they wish more people understood about feeding a group.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a) and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness, lines 1. g) and 1. i). Same folder.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, line 6. f); Theme Module 04, Health, Safety, and Wellness, line 4. e); Theme Module 06, Sustainability, line 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standard 3a, Interpersonal Skills, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.12, 8.5.13, and 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- The 165 F reheating temperature and the two-hour rule are the USDA Food Safety and Inspection Service figures used all year. [Sal: confirm against fsis.usda.gov.]
+- The 165 F reheating temperature and the two-hour rule are the USDA Food Safety and Inspection Service figures used all year.
 - Sal's own materials: the place setting and food sharing content comes from Lesson 6.11 in this unit; the four-zone clean up and the station check are from `education_teaching_facs_kingkullen_masterflowchart_2026_03.pdf` (the 45 to 50 minute CLEAN UP row: "Wash pot + utensils, Wipe stove + counter, Sweep floor, Empty trash, Return supplies") and the "what does done look like" checklists in `education_teaching_facs_kingkullen_stationcards_2026_03.pdf`.
 
 ## Teacher notes
@@ -150,5 +150,3 @@ Inside the building: the cafeteria manager again, and this time with a number. F
 - Common weak answer on question 4: "we would work faster." Push once: "Which block? Which minute? Who?" The rubric's Meets level requires a named block, line, or step, and students who get pushed once in this period write better answers on the test.
 - The waste count next to the Lesson 6.3 audit number closes the unit's sustainability loop in one number. Keep both numbers on the wall through Lesson 6.18 and point at them during the review game.
 - Score Rubric 06 that night if you can. Returning it at the start of Lesson 6.18, before the review game, means the test comes after students have seen where they actually stood.
-- [Sal: if your school lets you invite a guest, this is the period. A principal, the counselor, the cafeteria manager, or a parent sits at a set table and gets served by students who planned, priced, and cooked the meal. It is the best ten minutes of your year to have a witness in the room.]
-- [Sal: your Fire Island hotel work is where you learned what a food cost is. Say the actual number you had to hit there when a student asks why the variance matters. One sentence from a real job beats the slide.]

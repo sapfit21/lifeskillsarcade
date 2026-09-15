@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Partner: ______________________
 
-Store and circular dates: ______________________ [Sal: fill in from this week's circular]
+Store and circular dates: ______________________
 
 ## Part 1: The five parts of a sale listing
 

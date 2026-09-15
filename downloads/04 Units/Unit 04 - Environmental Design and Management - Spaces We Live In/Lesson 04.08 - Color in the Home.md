@@ -61,7 +61,7 @@ For the whole class:
 - The rubric below, printed on a clipboard with the group scoring grid from `Rubric 01 - Lab Rubric.md`
 - Timer visible to the class
 
-Setup notes: the allergy check is done at the end of Lesson 4.7 (slide 20) and again against the roster before you buy frosting. The rule is "design, not food": nobody eats, nobody licks a spoon, and any student who cannot touch frosting for any reason uses the tempera version at the same station with no comment. Cover every table with parchment before the Day 2 bell. Put the materials cart in the center of the room so every station can reach it without crossing the room. [Sal: your prices. At 2026 supermarket prices, one station runs about $9 to $11: frosting about $2.50, the gel set about $5, plates about $0.90, spoons about $0.35, parchment about $0.30, wipes about $0.35. Three stations plus the demo tub is about $32 to $36 for the class. A set of tempera paint in red, yellow, blue, white, and brown is about $12 and lasts the year.]
+Setup notes: the allergy check is done at the end of Lesson 4.7 (slide 20) and again against the roster before you buy frosting. The rule is "design, not food": nobody eats, nobody licks a spoon, and any student who cannot touch frosting for any reason uses the tempera version at the same station with no comment. Cover every table with parchment before the Day 2 bell. Put the materials cart in the center of the room so every station can reach it without crossing the room. Budget: at 2026 supermarket prices, one station runs about $9 to $11 (frosting about $2.50, the gel set about $5, plates about $0.90, spoons about $0.35, parchment about $0.30, wipes about $0.35); three stations plus the demo tub is about $32 to $36 for the class. A set of tempera paint in red, yellow, blue, white, and brown is about $12 and lasts the year.
 
 ## Pre-assessment
 
@@ -128,7 +128,7 @@ Day 1: walk the room during Step 1 and check every student's labeled wheel befor
 - Grade 6 support: the card asks for one secondary and one tint (no shade required); the pitch is 20 seconds with the frame read off the sheet.
 - Grade 8 stretch: the two Challenge Cards go to grade 8 sub-teams where possible; they must defend a less obvious choice (a calm room that still has high contrast at the edges for low vision) and mix at least one tertiary by mixing two primaries in unequal amounts, as in my original lesson's advanced objective.
 - UDL checkpoint used: multiple means of representation (the same content arrives by slide, by demo, and by touch), and multiple means of action and expression (the justification is written or spoken; the panel is painted with frosting or tempera).
-- No-kitchen or no-food alternative: tempera paint in red, yellow, blue, white, and brown on the same paper plates with the same spoons or with brushes. Everything else is identical: the wheel, the demo (done with tempera), the cards, the panel, the pitch, the vote. Clean-up moves from the trash bag to the sink. [Sal: if the whole class does tempera, cut the safety row of the rubric to "clean-up" only and skip the hand-washing line.]
+- No-kitchen or no-food alternative: tempera paint in red, yellow, blue, white, and brown on the same paper plates with the same spoons or with brushes. Everything else is identical: the wheel, the demo (done with tempera), the cards, the panel, the pitch, the vote. Clean-up moves from the trash bag to the sink.
 
 ## Assessment
 
@@ -159,7 +159,7 @@ None. Optional: pick a room at home and write which side of the wheel it is on a
 
 ## Connections
 
-Art: the art teacher's color wheel is the same wheel; a ten-minute swap where FACS borrows the art room's paint tests and art borrows the "which room" question keeps the two from teaching it twice. Culinary: the frosting is not a joke; pastry chefs use the same gels and the same wheel, and this is the link to Unit 6's decorating lab. Community: a paint store's free color chips are the swatches for Lesson 4.9's mood boards; ask the store for the discontinued chip decks. [Sal: name the store.] Health: the mood and environment idea (HSW 5. a)) is a two-minute overlap with the health teacher's stress unit; tell the health teacher which week this runs.
+Art: the art teacher's color wheel is the same wheel; a ten-minute swap where FACS borrows the art room's paint tests and art borrows the "which room" question keeps the two from teaching it twice. Culinary: the frosting is not a joke; pastry chefs use the same gels and the same wheel, and this is the link to Unit 6's decorating lab. Community: a paint store's free color chips are the swatches for Lesson 4.9's mood boards; ask the store for the discontinued chip decks. Health: the mood and environment idea (HSW 5. a)) is a two-minute overlap with the health teacher's stress unit; tell the health teacher which week this runs.
 
 ## Sources
 
@@ -177,4 +177,3 @@ Art: the art teacher's color wheel is the same wheel; a ten-minute swap where FA
 - Brown gel is the better shading color for warm rooms (kitchen, game room); blue is better for cool rooms (bathroom, office). If the set has only three colors, blue shades everything and that is fine.
 - The low-vision Challenge Card is the one that produces the best pitch every time: the team has to argue against "calm equals pale" and put a dark shade at the door frame and the bed edge. Give it to the team that argues the most.
 - Photograph the six panels before they go in the trash. They are the review slides for the Design Vocabulary Check and the color examples for the Design a Room project.
-- [Sal: the version of this lesson you handed in for FNES 538 stays there. This version is the classroom one. Do not submit it for the course.]

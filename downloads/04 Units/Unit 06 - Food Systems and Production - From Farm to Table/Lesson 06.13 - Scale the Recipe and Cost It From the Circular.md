@@ -40,7 +40,7 @@ Tier 3 (FACS): yield, portion, per serving, unit price, food cost, store brand, 
 ## Materials and setup
 
 - Handout, one per student: `Handout 06.13 - Scaling Worksheet and Costing Sheet.md` (the base recipe for each of the five options, the scaling table, the unit conversion strip, the yield check, the costing sheet with a running total, and the swap log)
-- One real supermarket circular per student, this week's, same store for the whole class. [Sal: get a stack from the store's front door or print the digital circular. Same store for everybody, or the peer check in Step 4 does not work.]
+- One real supermarket circular per student, this week's, same store for the whole class.
 - A calculator per student. Everyone gets one; this is not a mental math lesson.
 - One dry measuring cup set, one liquid measuring cup, and one real package of each of these on the front table for the conversion demo: a 1 lb box of pasta, a 24 oz jar of sauce, an 8 oz bag of shredded cheese, a 32 oz box of broth or stock
 - A kitchen scale if the room has one, for the ounces-by-weight versus fluid-ounces demo
@@ -141,16 +141,16 @@ None required. Optional, one line: find one item in your kitchen at home, write 
 
 ## Connections
 
-Math: this is ratio, unit rate, and unit conversion doing real work. The scale factor is a ratio, the price per ounce is a unit rate, and the cups to fluid ounces to ounces problem is the conversion the math class teaches abstractly. Give the math teacher the four costing sheets; they are a ready-made unit rate problem set with an answer that matters. FACS gives math a real data set and a reason; math gives FACS the words and the method students already know, and, if the teacher is willing, ten minutes to check the four running totals on Day 2. [Sal: ask the math teacher in September which grade does unit rate and when, so Unit 6 lands after it.]
+Math: this is ratio, unit rate, and unit conversion doing real work. The scale factor is a ratio, the price per ounce is a unit rate, and the cups to fluid ounces to ounces problem is the conversion the math class teaches abstractly. Give the math teacher the four costing sheets; they are a ready-made unit rate problem set with an answer that matters. FACS gives math a real data set and a reason; math gives FACS the words and the method students already know, and, if the teacher is willing, ten minutes to check the four running totals on Day 2.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 5. a), and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. f) and 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standards 2 and 3a, Basic Skills, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3, 8.4.7, and 8.5.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: `education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf` (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list and the savings per swap) is the model for the swap log. `education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf` supplies the base prices. All prices marked [update from this week's circular].
+- Sal's own materials: `education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf` (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list and the savings per swap) is the model for the swap log. `education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf` supplies the base prices. All prices to be refreshed from the current circular before teaching.
 
 ## Teacher notes
 
@@ -159,5 +159,4 @@ Math: this is ratio, unit rate, and unit conversion doing real work. The scale f
 - The second most common error is rounding down to save money. The answer is the yield check: a plan that feeds 26 is not a cheaper plan, it is a failed plan.
 - Do not solve the over-budget station's problem for them. Ask one question: "Which line is the biggest number on your sheet?" That is almost always where the swap is.
 - Taping the four running totals up where everybody can see them does two things: it makes the class total real, and it makes a station that is way off notice before you tell them.
-- [Sal: your King Kullen swaps saved $14.40 on cookies, $6.00 on whipped topping, $5.99 on butter, and $3.99 on cups, which is $30.38 on a $150 order. Put those four real swaps on the Day 2 slide. It is the most convincing thing in the lesson because you actually did it.]
 - Keep every signed costing sheet. Lesson 6.15 consolidates all four into one shopping list, and Lesson 6.17's reflection compares the planned cost to what the register actually said.

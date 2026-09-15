@@ -8,8 +8,6 @@
 
 Hands: wash 20 seconds with soap. Zone: bacteria grow between 40 F and 140 F; two hours in the zone and the food is thrown out. Cross: germs move from raw food to ready-to-eat food on hands, boards, tools, towels, and sponges.
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | raw | çiğ | cru | crudo |

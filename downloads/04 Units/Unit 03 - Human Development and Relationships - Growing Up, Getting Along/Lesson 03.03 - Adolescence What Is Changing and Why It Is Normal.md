@@ -6,7 +6,7 @@
 **Days:** 1 class period of 40 minutes (day 68 of the year)
 **Room:** Classroom or FACS lab
 
-**Coordination line:** Puberty, reproductive health, and anything about bodies changing in those ways stay in health class. This lesson covers growth spurts and sleep, the brain still building, emotions that swing, and wanting independence, all at a general level. If a student asks a puberty question, the answer is "that is a great question for health, and here is how you ask it," not an answer in this room. [Sal: tell the health teacher the day this lesson runs so a question that lands there gets a warm reception.]
+**Coordination line:** Puberty, reproductive health, and anything about bodies changing in those ways stay in health class. This lesson covers growth spurts and sleep, the brain still building, emotions that swing, and wanting independence, all at a general level. If a student asks a puberty question, the answer is "that is a great question for health, and here is how you ask it," not an answer in this room.
 
 ## Standards
 
@@ -108,7 +108,7 @@ None. Optional: notice one time this week when a feeling arrived fast and left f
 
 ## Connections
 
-Inside the building: the health teacher gets the exit card questions (no names) and a copy of the four-part chart so the two courses use the same words; health owns puberty and reproductive health. The school counselor is named on slide 9 as one of the "tell an adult" people. [Sal: confirm the counselor's name and where the office is before you teach this.]
+Inside the building: the health teacher gets the exit card questions (no names) and a copy of the four-part chart so the two courses use the same words; health owns puberty and reproductive health. The school counselor is named on slide 9 as one of the "tell an adult" people.
 
 ## Sources
 
@@ -116,7 +116,7 @@ Inside the building: the health teacher gets the exit card questions (no names) 
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. c). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 12.1.1 and 12.1.3.
-- The brain content (prefrontal cortex maturing into the mid 20s, reward sensitivity higher in adolescence, later sleep timing) is the general account given in the National Institute of Mental Health's "The Teen Brain: 7 Things to Know" fact sheet (nimh.nih.gov) and the American Academy of Sleep Medicine sleep ranges as published by the CDC. [Sal: confirm both pages before teaching; the sleep numbers are the same ones you used in Lesson 2.6.]
+- The brain content (prefrontal cortex maturing into the mid 20s, reward sensitivity higher in adolescence, later sleep timing) is the general account given in the National Institute of Mental Health's "The Teen Brain: 7 Things to Know" fact sheet (nimh.nih.gov) and the American Academy of Sleep Medicine sleep ranges as published by the CDC.
 - Sal's own materials: the infant brain development concept map (FNES 782) supplies the "connections get built, used ones stay, and the wrapping that speeds signals finishes last, in the front" framing, rewritten at grade 7.
 
 ## Teacher notes
@@ -125,4 +125,3 @@ Inside the building: the health teacher gets the exit card questions (no names) 
 - If the period runs short, cut Step 4 to a whole-class answer with no writing. Never cut the "what is not normal and needs an adult" list in Step 3.
 - Common mistake: a student hears "brain not finished" as "I cannot be blamed." Answer it in the room: the brakes are still being installed, which is why you practice using them now, not why you skip them.
 - Keep the myth strips. Two of them appear on the quiz.
-- [Sal: if a student discloses something in the exit card's "1" line that needs follow-up, the school's reporting process applies; know it before you teach this lesson.]

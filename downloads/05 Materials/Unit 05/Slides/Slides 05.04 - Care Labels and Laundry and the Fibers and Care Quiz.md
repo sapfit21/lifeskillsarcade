@@ -1,6 +1,6 @@
 # Slides 5.4: Care Labels and Laundry, and the Fibers and Care Quiz
 
-Slide outline for Lesson 5.4. Day 1 has twelve slides; Day 2 has eleven. The ruined wool sweater is the prop that opens Day 1 and it is worth two dollars at a thrift store. [Sal: your prices on the cost slides.]
+Slide outline for Lesson 5.4. Day 1 has twelve slides; Day 2 has eleven. The ruined wool sweater is the prop that opens Day 1 and it is worth two dollars at a thrift store.
 
 # Day 1
 
@@ -72,8 +72,6 @@ Image: three iron variations and three circle variations.
 - The manufacturer has to tell you how to clean what they sold you
 - That is a consumer protection, not a suggestion
 Image: a care label sewn into a side seam, with a small government-seal icon beside it.
-Notes: [Sal: confirm the current FTC page before the site goes public.]
-
 ## Slide 9: Sort the basket
 
 - Three signs at your station: hot or warm wash, cold wash, hand wash or professional care

@@ -38,9 +38,9 @@ Tier 3 (FACS): hazard, sanitize, allergy, role, clean up, pre-assessment. See th
 - The chart paper of team norms from Lesson 0.4, on the wall
 - The pre-assessment, one per student: `Assessment 00.1 - Unit 1 Pre-Assessment.md`
 - Slides: `Slides 00.05 - The Room and Lab Agreement and Pre-Assessment`
-- The class allergy list from the nurse [Sal: get it before today; the allergy line of the agreement is read against the real list]
+- The class allergy list from the nurse
 - Chart paper and a marker for the class rewrite
-- Setup notes: print the agreement with your school's phone policy filled in [Sal: the phone section has a bracket for it]. Print the pre-assessment separately and keep it face down until Step 4. Write the do now on the board. The five-step poster and the reset cue time from day 2 are on the wall.
+- Setup notes: print the agreement with your school's phone policy filled in. Print the pre-assessment separately and keep it face down until Step 4. Write the do now on the board. The five-step poster and the reset cue time from day 2 are on the wall.
 
 ## Pre-assessment
 
@@ -83,7 +83,7 @@ Collect the pre-assessments and the signed class copies. Exit card, two lines: o
 
 ## Differentiation and supports
 
-- ELL: the agreement's student language is at grade 6 and every section has an icon; the note line at the bottom in Turkish, Portuguese, and Spanish explains what the paper is and what the signature means [check with a native speaker]; a student may read their table's section with a partner in their home language first; the pre-assessment allows a bilingual dictionary and can be read aloud in a small group; sentence starter for the rewrite: "Change '___' to '___' because ___."
+- ELL: the agreement's student language is at grade 6 and every section has an icon; the note line at the bottom in Turkish, Portuguese, and Spanish explains what the paper is and what the signature means; a student may read their table's section with a partner in their home language first; the pre-assessment allows a bilingual dictionary and can be read aloud in a small group; sentence starter for the rewrite: "Change '___' to '___' because ___."
 - IEP and 504 (general): the agreement is read aloud by the class, so no student reads alone; the rewrite can be spoken to the table recorder; the pre-assessment is untimed for a student with extended time (finish during the do now Monday) and can be given orally; a student who does not want to sign in front of others signs at the desk.
 - Grade 6 support: the table's section is read by two students per line; the comparison asks for one covered norm only; the pre-assessment omits items 13 and 15.
 - Grade 8 stretch: the table writes the consequence line for its own rewrite ("if this is broken, then ___"); the student writes two sentences on which section a restaurant kitchen would have that this agreement does not.
@@ -106,7 +106,7 @@ Take the second signed copy home. Optional: the family line. Bring it back by da
 
 ## Connections
 
-Inside the building: the nurse (the allergy list and a two-minute visit to say where the nurse's office is); FACS gives the nurse a class that knows the allergy rule before any food is served, and gets the list and a second adult voice. The office [Sal: whoever holds your school's phone policy], so the phone section matches the building. Community: families, through the take-home copy; FACS gives them a one-page picture of how the room runs, and gets a signature that makes the phone and food rules easier to hold all year.
+Inside the building: the nurse (the allergy list and a two-minute visit to say where the nurse's office is); FACS gives the nurse a class that knows the allergy rule before any food is served, and gets the list and a second adult voice. The office, so the phone section matches the building. Community: families, through the take-home copy; FACS gives them a one-page picture of how the room runs, and gets a signature that makes the phone and food rules easier to hold all year.
 
 ## Sources
 
@@ -122,5 +122,4 @@ Inside the building: the nurse (the allergy list and a two-minute visit to say w
 - Common mistake: a table proposes a rewrite that loosens a safety line (for example "phones allowed during labs to take pictures"). Let it go to the vote; then, if it passes, say plainly which lines are not up for a vote (safety and allergies) and why. The agreement handout marks those two sections. Students accept a fixed rule when they see which ones are open.
 - Common mistake two: students rush the pre-assessment because it is not graded. Say "a blank tells me nothing" and "write what you think" twice. The tally only works if they try.
 - The family line is optional on purpose. A student whose family cannot or will not sign loses nothing.
-- [Sal: your Brentwood room had Halal students and a nut-free rule. Read the allergy line against the real nurse's list and name the foods; a general line ("we respect allergies") does nothing on lab day.]
 - Tally the pre-assessment by item tonight. Lesson 1.1 reads items 1, 2, and 11 tomorrow morning.

@@ -36,9 +36,9 @@ You are not designing your dream room. You are designing theirs.
 
 Pick one.
 
-**Path A: Design Your Own Bedroom, for a client.** One room in a home. The walls, the floor, the door, and the window are already there. Your client needs the room to work for them. Budget: $400 for furniture, storage, light, paint, and finish [update]. Five of the six client cards are Path A.
+**Path A: Design Your Own Bedroom, for a client.** One room in a home. The walls, the floor, the door, and the window are already there. Your client needs the room to work for them. Budget: $400 for furniture, storage, light, paint, and finish. Five of the six client cards are Path A.
 
-**Path B: Tiny House.** A whole home in 8 feet by 24 feet plus a sleeping loft. A kitchen, a bathroom, a place to work and eat, a place to sit, storage, and the loft bed. Your clients need all of it to fit and to be reachable through a three-foot door. Budget: $1,500 for the interior [update]. This is the harder path. One client card is Path B.
+**Path B: Tiny House.** A whole home in 8 feet by 24 feet plus a sleeping loft. A kitchen, a bathroom, a place to work and eat, a place to sit, storage, and the loft bed. Your clients need all of it to fit and to be reachable through a three-foot door. Budget: $1,500 for the interior. This is the harder path. One client card is Path B.
 
 ## The six clients
 
@@ -59,7 +59,7 @@ You get one. Read all six before you choose. The full cards, with the room dimen
 |---|---|---|---|
 | 1. The Needs and Wants List and the problem sentence | Every line on the client card sorted into need or want, two hidden needs the card did not say, and one sentence: "___ needs a room that ___ within ___." | Lesson 4.11 | 1. Meets the client's needs |
 | 2. The scale plan | The room on graph paper at 1/2 inch = 1 foot (or 1/4 inch = 1 foot for a tiny house on letter paper), scale written, client named, door swing, windows, closet, every piece of furniture to scale, zones labeled, every path shaded and measured in inches, the turning circle if the client uses a wheelchair, and on the back: two changes made after peer review and one suggestion rejected, each with a reason | Lesson 4.12 Day 2 | 2. The scale plan and traffic flow |
-| 3. The Budget Sheet | Every piece on the plan priced from the catalog with its item number and column (new, secondhand, DIY), a running subtotal, sales tax at 8.625 percent [update], a total at or under the budget, and three justifications: one new, one secondhand, one DIY or free | Lesson 4.13 | 3. The budget and consumer choices |
+| 3. The Budget Sheet | Every piece on the plan priced from the catalog with its item number and column (new, secondhand, DIY), a running subtotal, sales tax at 8.625 percent, a total at or under the budget, and three justifications: one new, one secondhand, one DIY or free | Lesson 4.13 | 3. The budget and consumer choices |
 | 4. The model | A shoebox or foam board model (or the isometric drawing alternative) at a scale written on it, walls and floor, door and windows where the plan has them, every piece of furniture from the plan to scale, the color scheme from Lesson 4.8 applied and named, a GREEN label and a SAFE label each with a one-sentence reason for this client, the client card mounted, and a two-sentence justification card | Lesson 4.14 Day 3 | 4. The model and design principles |
 | 5. The pitch | Sixty seconds to your client: the client and the need, the plan and the path, the budget total and the hardest trade-off, the color scheme and the mood, the green and safe features. Every teammate speaks. Then one question from the client, answered in one sentence. | Lesson 4.15 | 5. The pitch |
 | 6. The do-now stack | Every floor plan do now from Lesson 4.10 through Lesson 4.14 Day 3 (eleven sketches), in order, stapled, name on the first sheet | Lesson 4.15 | Daily work, not on the rubric; a missing stack is noted on the rubric's notes line |
@@ -89,7 +89,7 @@ Also in the folder, not scored on the rubric: the four feedback slips you wrote 
 
 ## Supports
 
-- **Sentence starters.** The Turkish, Portuguese, and Spanish lines are marked [check with a native speaker].
+- **Sentence starters.** The Turkish, Portuguese, and Spanish lines are to be verified by a native speaker.
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -120,9 +120,9 @@ The project counts in the labs and projects category (40 percent of the marking 
 # Teacher notes on the project
 
 - This is the synthesis project from Sal's Brentwood Dream Home Challenge packet, rebuilt with a client, a budget, a model, and a pitch, and spread across a 40-minute daily schedule with a checkpoint every day. The Brentwood packet asked students to design a room of their own; this version asks them to design for someone else, which is the difference between EDM 2. a) (shared space, privacy needs, group needs) and a decoration exercise. The state's own sample learning experiences for FACS include "Design Your Own Bedroom" (6 days) and "Tiny Houses" (9 days); both are offered as paths here in 8 days.
-- The six client cards deliberately include a walker user, a wheelchair user, and a new baby, because the state's Health, Safety, and Wellness illustrative activity for this module asks for exactly that: a floor plan revised for a family member who needs special consideration. The numbers on the cards (36-inch path, 60-inch turning circle, bed at chair height, rod at 48 inches) come from the 2010 ADA Standards and common universal design guidance. [Sal: if a student in the class uses a wheelchair or a walker, read the cards before class and decide how to introduce them. They are meant to be real and respectful.]
+- The six client cards deliberately include a walker user, a wheelchair user, and a new baby, because the state's Health, Safety, and Wellness illustrative activity for this module asks for exactly that: a floor plan revised for a family member who needs special consideration. The numbers on the cards (36-inch path, 60-inch turning circle, bed at chair height, rod at 48 inches) come from the 2010 ADA Standards and common universal design guidance.
 - Scale: Lesson 4.10 taught 1/4 inch = 1 foot. The project plan uses 1/2 inch = 1 foot so a bedroom fills a sheet of quarter-inch graph paper (two squares per foot). The Unit 4 Test asks both conversions. The model uses the plan's scale or 1 inch = 1 foot, written on the model.
-- Budget for the unit plan, per model: shoebox free (collected from students, families, and a shoe store from Lesson 4.6 onward); foam board about $3 to $4 per 20 by 30 sheet, two or three bases per sheet if boxes run short; card stock about $0.30; glue sticks about $0.25; scrap fabric and paint chips free from a fabric store's remnant bin and a paint department; masking tape and markers from room stock. Target under $4 per model, realistically $2 to $3.50 [update with your store's prices]. For 25 models, about $60 to $90 if every student needs a foam base, about $20 if the boxes come in.
-- The catalog prices in `Handout 04.13` are realistic 2026 figures for Long Island, every one marked [update]. The tax math works at any rate; only the teacher key's answers move. [Sal: update the rate to your school's county.]
+- Budget for the unit plan, per model: shoebox free (collected from students, families, and a shoe store from Lesson 4.6 onward); foam board about $3 to $4 per 20 by 30 sheet, two or three bases per sheet if boxes run short; card stock about $0.30; glue sticks about $0.25; scrap fabric and paint chips free from a fabric store's remnant bin and a paint department; masking tape and markers from room stock. Target under $4 per model, realistically $2 to $3.50. For 25 models, about $60 to $90 if every student needs a foam base, about $20 if the boxes come in.
+- The catalog prices in `Handout 04.13` are realistic 2026 figures for Long Island, every one to be refreshed before teaching. The tax math works at any rate; only the teacher key's answers move.
 - A team of two is a choice, not a default. In a class that cannot choose well, assign partners by client card and say so on day 1.
 - Photograph every model, no names, no faces. They are the website's Unit 4 page and the principal's shelf.

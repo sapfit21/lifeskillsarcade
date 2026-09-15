@@ -35,7 +35,7 @@ Notes: "That is a decision. You have a model for decisions: name the choice, lis
 ## Slide 4: The research card
 
 - Pick one career from one of your top three clusters. Write the cluster number.
-- Open the career resource: [Sal: name it]
+- Open the career resource
 - Fill every field: three tasks, the path, pay range with the year of the source, a day in the life, the source, the verdict.
 - No year on the pay range, no points.
 
@@ -63,7 +63,6 @@ Notes: Say nothing else about standings today. Close devices; clear desks for th
 
 ## Slide 7: Before the test, one review
 
-- [Sal: three lines on the class's weakest topic from the four checks; for most classes it is return math]
 - Return in AQ = what you got back minus what you paid.
 - Return as a percent = return divided by what you paid, times 100.
 - 30 seconds, then the test.

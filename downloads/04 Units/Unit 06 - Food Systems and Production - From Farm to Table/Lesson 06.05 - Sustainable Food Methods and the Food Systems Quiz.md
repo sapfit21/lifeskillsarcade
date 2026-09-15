@@ -123,13 +123,13 @@ None. The watering schedule is a duty, not homework, and it is on the chart with
 
 ## Connections
 
-Science: seed germination, decomposition, and the water cycle all sit in this lesson, and the plants can live in the science room if that room has better light. Technology or engineering, if the school has it: the packaging redesign is a prototype in the same design process, so both teachers can use the same eight words. Community: a garden center or a local farm can donate seeds or a flat of starts for the cost of asking. [Sal: a school garden is a real option but it needs a summer plan before it needs a plot. Ask the building about who waters in July before you promise students a garden.]
+Science: seed germination, decomposition, and the water cycle all sit in this lesson, and the plants can live in the science room if that room has better light. Technology or engineering, if the school has it: the packaging redesign is a prototype in the same design process, so both teachers can use the same eight words. Community: a garden center or a local farm can donate seeds or a flat of starts for the cost of asking.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. a), 4. c), and 4. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 06, Sustainability, line 1. a); Theme Module 05, Problem Solving and Innovation, line 2. a) f. Same folder. The Sustainability module's FACS illustrative activity on product lifecycles and the FSP module's Classroom Herb Garden activity are both behind this lesson's shape.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Systems. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.13, 2.2.3, and 14.5.1.
 - Unit 4, Lessons 4.11 to 4.15, for the design process language used on Day 2. The eight words are the state's own from PSI 2. a).
@@ -142,4 +142,3 @@ Science: seed germination, decomposition, and the water cycle all sit in this le
 - Collect the packaging for a week before you need it. Ask the class to bring in the worst package they find; they compete to win that, which costs nothing.
 - Label the plants with names and dates in permanent marker. Unlabeled cups on a windowsill become a mystery in three days.
 - A dead plant is a teaching moment, not a failure. Ask what it needed that it did not get, and put the answer on the wall next to the care plan.
-- [Sal: your Skittles trading game taught trade-offs with candy. The packaging trade-off is the same move with trash, and students who liked that game will argue about this one.]

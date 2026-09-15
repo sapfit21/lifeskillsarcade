@@ -135,7 +135,7 @@ ______ times 600 students = about ______ pounds for the whole school
 
 # Page 5: Grade 8 stretch, put a dollar on it
 
-Use an average food price per pound from this week's store circular. [Update from this week's circular.]
+Use an average food price per pound from this week's store circular.
 
 Average price per pound I am using: $__________ (what food? ______________)
 
@@ -160,7 +160,7 @@ Average price per pound I am using: $__________ (what food? ______________)
 | At home | Food bought and forgotten, leftovers not eaten, portions too large. This is the single biggest piece in the United States | roughly 40 to 50 percent |
 | In cafeterias and restaurants | Whole unopened items discarded, plate waste, over-prepared batches | roughly 20 to 25 percent |
 
-Overall: about a third of the food produced in this country is never eaten, and the per-person figure most commonly cited is roughly 200 to 300 pounds a year of food thrown away. [Sal: pull the current USDA or EPA figure the week you teach it. Students will look it up on their phones, and it is better if your number matches theirs.]
+Overall: about a third of the food produced in this country is never eaten, and the per-person figure most commonly cited is roughly 200 to 300 pounds a year of food thrown away.
 
 **Part 3, sample data answers:** 60 grams per person for 2 days; 30 grams per person per day; 5,400 grams per person per school year; about 12 pounds per person per school year; about 7,200 pounds, or about 3.6 tons, for a 600 student school.
 

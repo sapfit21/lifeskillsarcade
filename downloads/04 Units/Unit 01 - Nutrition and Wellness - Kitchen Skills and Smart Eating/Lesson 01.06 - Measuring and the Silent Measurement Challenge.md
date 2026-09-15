@@ -35,7 +35,7 @@ Tier 3 (FACS): dry measuring cup, liquid measuring cup, measuring spoon, level o
 ## Materials and setup
 
 - Day 1, five practice stations, each with the same kit: a nested set of dry measuring cups, a glass liquid measuring cup, a set of measuring spoons, a straight edge (the back of a butter knife), a small bowl, a tray or sheet pan to catch spills. Station ingredients: A flour (a 2 lb bag in a wide container with a scoop), B sugar (same setup), C water (a pitcher), D vegetable oil (a small bottle, a funnel for pouring back), E salt (a wide-mouth container).
-- Day 1, one gram scale per station if the room has them; if not, one scale at the teacher desk for spot checks. [Sal: a five-pack of kitchen scales runs about $60 and pays for itself in this lesson alone; add to the unit budget if the room has fewer than three.]
+- Day 1, one gram scale per station if the room has them; if not, one scale at the teacher desk for spot checks. A five-pack of kitchen scales runs about $60.
 - Day 1, Measuring Practice handout, one per student: `Handout 01.06 - Measuring Practice and Equivalents.md`
 - Day 2, the Silent Measurement Challenge kit per team (four teams of five to seven): the same tools as Day 1, containers of flour, sugar, water, oil, and salt, six paper cups or small bowls labeled 1 to 6, a team card. Cards: `Handout 01.06 - Silent Measurement Challenge Cards.md` (four different team cards, A to D, and the teacher scoring sheet).
 - Day 2, one gram scale at the teacher weigh-in table; the scoring sheet on a clipboard; a visible scoreboard on the board.
@@ -95,7 +95,7 @@ Day 2: one sentence on the exit card: "Next time I measure ___ I will ___ becaus
 - Grade 6 support: team cards use only cups and whole spoons (no 1/8 tsp, no 2/3 c); the conversion set stops at doubling.
 - Grade 8 stretch: team cards include a mixed item (1 1/2 Tbsp oil, which is 4 1/2 tsp) and a "make 3/4 c with only a 1/4 c and a 1/2 c" item; the stretch conversion set includes halving 1 1/2 tsp and scaling a recipe from 4 servings to 6. After the Challenge, the stretch team computes the percent error for each item.
 - UDL checkpoint used: multiple means of engagement (a team game with a scoreboard and a scale as the judge) and multiple means of action and expression (gestures replace speech; recording by grams, by points, or by a marked diagram).
-- No-kitchen alternative: this lesson needs only a table, water in a pitcher, dry goods in containers, and a tray to catch spills. Run it in any classroom. If there is no scale, the teacher checks each cup by pouring it into a calibrated cup and eyeballing the line, and the scoring bands become "on the line," "close," and "off." [Sal: even one $12 scale changes this lesson; carry it in.]
+- No-kitchen alternative: this lesson needs only a table, water in a pitcher, dry goods in containers, and a tray to catch spills. Run it in any classroom. If there is no scale, the teacher checks each cup by pouring it into a calibrated cup and eyeballing the line, and the scoring bands become "on the line," "close," and "off."
 
 ## Assessment
 
@@ -119,16 +119,15 @@ Math: fractions on the number line, adding fractions with unlike denominators (3
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, line 1. e); Theme Module 02, Communication and Interpersonal Relationships, line 1. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a, Basic Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 8.5.3.
 - Sal's own materials: the Silent Measurement Challenge, as described in his FACS Games write up and Queens College portfolio (see `01 Source Analysis/Brentwood Work and Simulations.md`). No original file exists; this lesson writes it out for the first time.
-- Gram targets: water 1 c = 237 g; flour, spooned and leveled, about 120 to 125 g per cup; granulated sugar 200 g per cup; table salt about 6 g per tsp; vegetable oil about 14 g per Tbsp. [Sal: replace with your own weigh-in the day before; the scoring sheet has a column for it.]
+- Gram targets: water 1 c = 237 g; flour, spooned and leveled, about 120 to 125 g per cup; granulated sugar 200 g per cup; table salt about 6 g per tsp; vegetable oil about 14 g per Tbsp.
 
 ## Teacher notes
 
 - If Day 1 runs short, cut the practice stations to four (drop oil; the Challenge cards still include it, which is fine, the technique is the same as water). Never cut the packed vs spooned flour demo; that is the hook for the whole lesson.
 - Common mistake: reading the liquid cup from above. Put a strip of tape at counter height on the wall by each sink that says "eyes here."
 - The Challenge gets loud in the last two minutes when a team disagrees in silence. That is the point. Let it happen, then talk about it.
-- [Sal: your note says the Challenge is ELL friendly by design. Say that out loud to the class after the debrief; students who are quiet in English are often the best at this game, and they should hear why.]
 - Save the scoring sheets. The team totals become the seed for the station assignments in Lab 1: spread the strongest measurers across the three kitchens.

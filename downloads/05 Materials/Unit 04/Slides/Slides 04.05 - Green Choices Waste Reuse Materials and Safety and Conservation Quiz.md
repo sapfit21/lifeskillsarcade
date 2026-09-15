@@ -1,6 +1,6 @@
 # Slides 4.5: Green Choices: Waste, Reuse, Materials, and the Safety and Conservation Quiz
 
-Slide outline for Lesson 4.5. Nine slides, one day; the quiz takes the last fifteen minutes and needs no slides after slide 8. [Sal: slide 4 needs your town's real recycling rules.]
+Slide outline for Lesson 4.5. Nine slides, one day; the quiz takes the last fifteen minutes and needs no slides after slide 8.
 
 ## Slide 1: Green Choices
 
@@ -27,7 +27,6 @@ Image: four bins in a row with an arrow getting smaller from left to right.
 
 ## Slide 4: The local rules
 
-- [Sal: your town's recycling rules, one slide: what goes in, what does not, which plastics]
 - Greasy pizza box: not recycling
 - Plastic bags: not the curbside bin (store drop-off)
 Notes: Students argue about plastic numbers. Let the town's page settle it.

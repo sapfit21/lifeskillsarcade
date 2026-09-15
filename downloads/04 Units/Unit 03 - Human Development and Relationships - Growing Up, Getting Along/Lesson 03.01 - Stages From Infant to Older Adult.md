@@ -108,7 +108,7 @@ None. Optional: ask one adult at home which stage they think they are in and wha
 
 ## Connections
 
-Inside the building: the health teacher gets a copy of the seven-stage board list so both classes use the same stage names and ranges. Health covers puberty and reproductive health; this lesson does not. Community: a senior center or an early childhood center could each send a one-paragraph "what our people need most" for the board list in a later year. [Sal: name the nearest one if you want that.]
+Inside the building: the health teacher gets a copy of the seven-stage board list so both classes use the same stage names and ranges. Health covers puberty and reproductive health; this lesson does not. Community: a senior center or an early childhood center could each send a one-paragraph "what our people need most" for the board list in a later year.
 
 ## Sources
 
@@ -116,7 +116,7 @@ Inside the building: the health teacher gets a copy of the seven-stage board lis
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. a); Theme Module, Career and Community Opportunities, line 5. a). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 12.1.1.
-- The stage names and age ranges are the ones used in most middle school FACS texts (infancy, early childhood, middle childhood, adolescence, young, middle, and older adulthood). [Sal: if your school's health course uses different cutoffs, match theirs.]
+- The stage names and age ranges are the ones used in most middle school FACS texts (infancy, early childhood, middle childhood, adolescence, young, middle, and older adulthood).
 - Sal's own materials: Unit 2 Calendar 02, day 66 note on the Round 2 close and the Entry 10 read-aloud.
 
 ## Teacher notes
@@ -125,4 +125,3 @@ Inside the building: the health teacher gets a copy of the seven-stage board lis
 - If the period runs short, cut Step 3 to a whole-class list with no written comparison and assign Part 3 as the do now for Lesson 3.2.
 - Common mistake: students place the "first job" card in adolescence and the "learns to read" card in early childhood. Both are close calls on purpose. Use them in the debrief; the point is that the ranges are ranges.
 - Keep the card sets. They run the review game in Lesson 3.4 and one card is the picture item on the quiz.
-- [Sal: your students know people in every stage. If a student volunteers a grandparent story, let it run for one minute; that is the CCO 5. a) line teaching itself. Nobody is required to share.]

@@ -11,7 +11,7 @@ Name: ______________________________ Date: ______________ Period: ______ Station
 
 **Directions:** Use the four packages on your counter (chip bag, cheese bag, bean can, corn can). Find the serving size and the sodium per serving on each Nutrition Facts label. Then multiply by the number of servings OUR STATION puts in the pan (that number is already in the table; it is not the same as servings per container). Add. Divide by 7. Add the salsa bar. Compare to a whole day.
 
-The numbers printed below are typical store brand numbers. **Use the numbers on the real packages if they are different, and cross these out.** [Sal: replace with the numbers from the packages you buy.]
+The numbers printed below are typical store brand numbers. **Use the numbers on the real packages if they are different, and cross these out.**
 
 ## Part 1: Four labels, four lines
 
@@ -30,7 +30,7 @@ The full labels, in case a package is missing:
 
 **Black beans, 15.5 oz can.** Serving size 1/2 cup (130 g). Servings per container about 3.5. Calories 110. Total fat 0.5 g (1%). Sodium 400 mg (17%). Total carbohydrate 20 g (7%). Dietary fiber 7 g (25%). Total sugars 1 g. Added sugars 0 g. Protein 7 g. Calcium 40 mg (4%). Iron 2 mg (10%). Potassium 350 mg (8%). Ingredients: prepared black beans, water, salt, calcium chloride.
 
-**Corn, whole kernel, 15.25 oz can.** Serving size 1/2 cup (125 g). Servings per container about 3.5. Calories 60. Total fat 1 g (1%). Sodium 200 mg (9%). Total carbohydrate 13 g (5%). Dietary fiber 2 g (7%). Total sugars 5 g. Added sugars 0 g. Protein 2 g. Ingredients: corn, water, salt. [Sal: many canned corns list sugar; check the can and change the added sugars line if yours does.]
+**Corn, whole kernel, 15.25 oz can.** Serving size 1/2 cup (125 g). Servings per container about 3.5. Calories 60. Total fat 1 g (1%). Sodium 200 mg (9%). Total carbohydrate 13 g (5%). Dietary fiber 2 g (7%). Total sugars 5 g. Added sugars 0 g. Protein 2 g. Ingredients: corn, water, salt.
 
 ## Part 2: The pan and the plate
 

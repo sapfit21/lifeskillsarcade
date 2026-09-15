@@ -29,8 +29,6 @@ Equivalents (say them twice, then write them)
 - 2 c = 1 ______ (pint)
 - 16 oz = 1 ______ (by weight)
 
-[Sal: Turkish, Portuguese, and Spanish for cup, spoon, level, and measure from `Vocabulary 01.md` go here on the ELL copy.]
-
 ## Part 2: Practice stations (Day 1)
 
 At each station, measure the two amounts on the card. Write the tool and the technique. If there is a scale, weigh the first amount and write the grams.
@@ -86,7 +84,7 @@ The one moment we wished we could talk: ______________________________________
 
 **Part 1.** Dry: dry measuring cups; do not pack; level with a straight edge. Liquid: liquid measuring cup; eye level. Small amounts: measuring spoons; over a bowl. Abbreviations: tsp teaspoon, Tbsp tablespoon, c cup, oz ounce, lb pound; Tbsp is bigger. Equivalents: 3 tsp = 1 Tbsp; 16 Tbsp = 1 c; 8 fl oz = 1 c; 4 Tbsp = 1/4 c; 2 c = 1 pint; 16 oz = 1 lb.
 
-**Part 2.** Tools: A and B dry measuring cups and measuring spoons; C and D liquid measuring cup and measuring spoons; E measuring spoons. Typical grams for Amount 1: A 1/2 c flour about 60 to 62 g; B 1/4 c sugar 50 g; C 1 c water 237 g; D 2 Tbsp oil about 27 g; E 1 tsp salt about 6 g. [Sal: your cups and your flour; write your numbers here.]
+**Part 2.** Tools: A and B dry measuring cups and measuring spoons; C and D liquid measuring cup and measuring spoons; E measuring spoons. Typical grams for Amount 1: A 1/2 c flour about 60 to 62 g; B 1/4 c sugar 50 g; C 1 c water 237 g; D 2 Tbsp oil about 27 g; E 1 tsp salt about 6 g.
 
 **Part 3.** 1. 6 tsp. 2. 8 Tbsp. 3. 1 c. 4. 1/2 tsp. 5. 1 1/2 Tbsp (one tablespoon plus one and a half teaspoons, or a tablespoon and a half-tablespoon if the set has one). 6. 3 c. Stretch: 7. 3/4 tsp. 8. 1 c (2/3 times 1.5 = 1).
 

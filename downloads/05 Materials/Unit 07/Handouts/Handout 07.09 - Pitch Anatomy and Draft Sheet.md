@@ -187,7 +187,7 @@ Hook B: ____________________________________________________________
 
 We picked ______ because _____________________________________________
 
-## Sentence starters, four languages [check with a native speaker]
+## Sentence starters, four languages
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

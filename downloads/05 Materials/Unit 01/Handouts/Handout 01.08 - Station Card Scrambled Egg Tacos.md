@@ -68,6 +68,6 @@ Clean (35 to 40)
 - [ ] Both burners off, skillets washed and dry, stovetop wiped, tools back per the map, counters wiped, floor swept, trash out.
 - [ ] Teacher signed the station.
 
-Allergy swaps: egg allergy, that teammate works the vegetable skillet and plating and eats a cheese and vegetable taco; dairy, skip the cheese and use an oil spray in the skillets for that portion; wheat, corn tortillas. [Sal: confirm with the nurse's list.]
+Allergy swaps: egg allergy, that teammate works the vegetable skillet and plating and eats a cheese and vegetable taco; dairy, skip the cheese and use an oil spray in the skillets for that portion; wheat, corn tortillas.
 
-Words for the station: "behind you" ________ "hot" ________ "done" ________ "help" ________ [Sal: Turkish, Portuguese, Spanish from `Vocabulary 01.md`]
+Words for the station: "behind you" ________ "hot" ________ "done" ________ "help" ________

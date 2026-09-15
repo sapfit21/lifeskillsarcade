@@ -36,7 +36,7 @@ Tier 3 (FACS): upcycle, recycle, repurpose, textile scrap, running stitch, backs
 
 ## Materials and setup
 
-- The room scrap bin, pulled to the front and open, with at least twenty usable pieces: cut-up t-shirts, jeans legs, towel pieces, pillowcases, sweater sleeves, felt scraps, fabric remnants, old tote bags. [Sal: start the bin on day 116, the first day of the unit, and put a sign on it. It should be full by today.]
+- The room scrap bin, pulled to the front and open, with at least twenty usable pieces: cut-up t-shirts, jeans legs, towel pieces, pillowcases, sweater sleeves, felt scraps, fabric remnants, old tote bags.
 - Three finished examples the teacher made, or three photographs of them: a t-shirt tote with no sewing, a jeans-leg pencil case, and a sweater-sleeve phone sleeve. Hold them up; do not pass a stitched sample around until Lesson 5.16 or students will pick it apart.
 - `Handout 05.15 - Upcycle Design Brief and Idea Menu.md`, one per student, printed double-sided: the idea menu with difficulty marks on the front, the design brief on the back
 - The permission note, one per student, on the last page of `Handout 05.15`, to go home today
@@ -133,13 +133,13 @@ Take the permission note home tonight if you want to use something of your own. 
 
 ## Connections
 
-Science and technology education: the design process in this lesson is the same one the technology teacher uses, define the problem, set criteria, set constraints, brainstorm, choose. Naming that out loud transfers it. Art: pattern, color, and composition on a patchwork square or a printed panel. Community: a local reuse shop, a maker space, or a library's fix-it program could take a photo set of the finished items, and a shop that gives fabric remnants for free is worth a phone call. [Sal: name the fabric store you would ask for remnants; most give away bin scraps.]
+Science and technology education: the design process in this lesson is the same one the technology teacher uses, define the problem, set criteria, set constraints, brainstorm, choose. Naming that out loud transfers it. Art: pattern, color, and composition on a patchwork square or a printed panel. Community: a local reuse shop, a maker space, or a library's fix-it program could take a photo set of the finished items, and a shop that gives fabric remnants for free is worth a phone call.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. d) and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Problem Solving and Innovation 2. a) a. to d.; Sustainability 1. e). Same folder. The Sustainability module's Family and Consumer Sciences illustrative activity names a recycle, upcycle, or repurposing project and gives recycling t-shirts into reusable shopping bags as its example, which is path 1 on the idea menu.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 2.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.16.
 - `Project 05 - Upcycle Challenge.md` and `Rubric 05 - Upcycle Challenge.md` (same folder).
 
@@ -151,5 +151,4 @@ Science and technology education: the design process in this lesson is the same 
 - Second common mistake: the scope is too big. The jeans-into-a-backpack student is the one who ends up with nothing. Constraint 2 exists for that student, and the reduced-scope line on the brief is where you steer them: a backpack becomes a pencil case, a quilt becomes one patchwork square.
 - The rice hand warmer needs three rules said out loud: uncooked rice only, nothing scented, and it is never heated at school. Heating happens at home, 30 seconds maximum, with an adult, and the display card says so. A student with a rice sensitivity uses dried beans or flax.
 - The permission note matters. A cut-up jacket that belonged to somebody's grandmother is a phone call you do not want. No signed note, no cutting, no exceptions, and the scrap bin means no student is punished by the rule.
-- [Sal: your students respond to a real user. Push every brief past "for me" to a named person, a little brother, a grandmother, a coach, the classroom. The ones who name a person finish.]
-- Budget note for the unit plan: this lesson costs nothing if the bin and the drive work. Thread, needles, and pins are already in the Topic 5.2 budget. The only new items are the rice for the hand warmers (a two-pound bag, about $2 [update]) and cord or shoelaces for drawstring bags (about $4 for a spool of cotton cord [update]).
+- Budget note for the unit plan: this lesson costs nothing if the bin and the drive work. Thread, needles, and pins are already in the Topic 5.2 budget. The only new items are the rice for the hand warmers (a two-pound bag, about $2) and cord or shoelaces for drawstring bags (about $4 for a spool of cotton cord).

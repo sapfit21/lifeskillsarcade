@@ -20,7 +20,7 @@ I ended with AQ __________ at the closing bell (Day 9).
 
 The difference (ending minus starting): __________ (write a minus sign if it is a loss)
 
-Sentence starter: I started with ___ and ended with ___. / ___ ile başladım ve ___ ile bitirdim. / Comecei com ___ e terminei com ___. / Empecé con ___ y terminé con ___. [check with a native speaker]
+Sentence starter: I started with ___ and ended with ___. / ___ ile başladım ve ___ ile bitirdim. / Comecei com ___ e terminei com ___. / Empecé con ___ y terminé con ___.
 
 ## Part 2: Percent return, with the formula
 
@@ -86,7 +86,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-Sentence starter: The crisis taught me ___. / Kriz bana ___ öğretti. / A crise me ensinou ___. / La crisis me enseñó ___. [check with a native speaker]
+Sentence starter: The crisis taught me ___. / Kriz bana ___ öğretti. / A crise me ensinou ___. / La crisis me enseñó ___.
 
 ## Part 5: One thing I would do differently
 
@@ -96,7 +96,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-Sentence starter: Next time I will ___. / Bir dahaki sefere ___ yapacağım. / Da próxima vez, eu vou ___. / La próxima vez voy a ___. [check with a native speaker]
+Sentence starter: Next time I will ___. / Bir dahaki sefere ___ yapacağım. / Da próxima vez, eu vou ___. / La próxima vez voy a ___.
 
 ## Part 6: The reveal table (filled on Day 9)
 

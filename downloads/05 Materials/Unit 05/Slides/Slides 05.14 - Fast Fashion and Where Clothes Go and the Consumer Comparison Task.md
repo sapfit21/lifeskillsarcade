@@ -85,7 +85,7 @@ Notes: say the reason for the whole step: you will see these numbers on a poster
 - About **11.3 million tons** of that was landfilled.
 - About **2.5 million tons** was recycled, a rate of about **15 percent**.
 - **Source:** US Environmental Protection Agency, Facts and Figures about Materials, Waste and Recycling.
-- **Year of the data: 2018** (published 2020). **[check for a newer year]**
+- **Year of the data: 2018** (published 2020).
 
 Notes: model the four questions aloud on this one. It counts one country, one year, all textiles including sheets and towels and footwear. It does not count clothing still in closets, and it does not say how much of the landfilled share was still wearable.
 
@@ -93,7 +93,7 @@ Notes: model the four questions aloud on this one. It counts one country, one ye
 
 - A commonly cited estimate: roughly **1,800 to 2,000 gallons** of water to produce one pair of cotton jeans.
 - **Source:** widely repeated; versions appear in United Nations Environment Programme materials and in many news articles.
-- **Year and method: varies. [check the original source and the year.]**
+- **Year and method: varies.**
 - This number changes a lot depending on who counts what.
 
 Notes: this is the honest one. Ask the class which of the four questions this number fails, and why that matters when somebody quotes it at you.
@@ -101,7 +101,7 @@ Notes: this is the honest one. Ask the class which of the four questions this nu
 ## Slide 11: Day 1. Numbers 3 and 4
 
 - **Number 3:** one study reported the average number of times a garment is worn before it stops being used fell by about **36 percent over fifteen years**.
-- **Source:** Ellen MacArthur Foundation, A New Textiles Economy, **2017**. **[check]**
+- **Source:** Ellen MacArthur Foundation, A New Textiles Economy, **2017**.
 - **Number 4:** where a donated garment goes: sold locally, baled and exported, cut into rags, shredded into fiber, or landfilled.
 - **The share going to each path is different for every charity, every sorting center, and every year. There is no reliable single national percentage.**
 - If you see one on a poster with no source, that is the point of this exercise.
@@ -125,7 +125,7 @@ Notes: have every student write one move and the day they will do it on the comm
 ## Slide 14: Day 2. Do now
 
 - Cost per wear, one problem:
-- A $36 jacket [update] worn 90 times.
+- A $36 jacket worn 90 times.
 - Show the division. Write the unit.
 
 Notes: answer is $0.40 per wear. If Lesson 5.13's exit cards said cost per wear was shaky, run a second problem instead of the hook. Hook: in twenty minutes you make a real clothing decision on paper and hand it in. First I will show you one.
@@ -133,9 +133,9 @@ Notes: answer is $0.40 per wear. If Lesson 5.13's exit cards said cost per wear 
 ## Slide 15: Day 2. The model decision
 
 - **I need sneakers for gym class.**
-- Option 1: a $30 discount pair [update]
-- Option 2: a $75 brand pair [update]
-- Option 3: an $18 secondhand pair [update]
+- Option 1: a $30 discount pair
+- Option 2: a $75 brand pair
+- Option 3: an $18 secondhand pair
 - Watch me fill the row.
 
 ## Slide 16: Day 2. The model, filled in
@@ -149,7 +149,7 @@ Notes: answer is $0.40 per wear. If Lesson 5.13's exit cards said cost per wear 
 | Quality check | single-needle upper stitching, thin sole | double stitching, replaceable insole | check the sole tread and the heel wear before buying |
 | Sustainability | new, made and shipped | new, but lasts longest | nothing new was made |
 
-Notes: all figures [update]. The interesting result is that all three are close on cost per wear, which forces the recommendation to turn on something else, and that is the lesson.
+Notes: all figures. The interesting result is that all three are close on cost per wear, which forces the recommendation to turn on something else, and that is the lesson.
 
 ## Slide 17: Day 2. The recommendation
 

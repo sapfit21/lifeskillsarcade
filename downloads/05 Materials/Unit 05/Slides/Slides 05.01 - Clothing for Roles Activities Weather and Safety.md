@@ -1,6 +1,6 @@
 # Slides 5.1: Clothing for Roles, Activities, Weather, and Safety
 
-Slide outline for Lesson 5.1, one day, twelve slides. The real objects on the front table do most of the work today; the slides are the frame and the backup. [Sal: photograph your own PPE box once and the slides are permanent.]
+Slide outline for Lesson 5.1, one day, twelve slides. The real objects on the front table do most of the work today; the slides are the frame and the backup.
 
 ## Slide 1: Make It, Mend It, Wear It
 
@@ -79,7 +79,7 @@ Notes: Pairs. Rotate on the bell. Push on footwear and weather at every card.
 
 - A restaurant kitchen: closed-toe non-slip shoes, hair back, no loose jewelry
 - A hospital: scrubs, no long nails, no rings in a sterile room
-- This school: [Sal: paste the exact wording from the handbook]
+- This school: the dress code in the handbook's own words
 - Sort each rule: safety, sanitation, image, team identity. Most are more than one.
 Image: three uniformed figures, a line cook, a nurse, and a student, drawn simply with no faces.
 Notes: Keep this to the reasoning. Do not run a debate about this building's code. If the earlier hand vote was high, give this school's line ninety seconds and move.

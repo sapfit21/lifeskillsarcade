@@ -112,7 +112,7 @@ None. Optional: notice one edited photo on any feed this week and name one thing
 
 ## Connections
 
-Inside the building: the health teacher owns body image, eating, and anything medical; share slide 4 and slide 9 so both classes use "self-talk" the same way. The art or media teacher, if there is one, can show how a filter works in two minutes, which makes the "twelve taps" number real. [Sal: your Brentwood personal branding unit had a first impressions lab with a handshake and greeting practice; that practice runs in Lesson 3.13 and again in Unit 7, not here.]
+Inside the building: the health teacher owns body image, eating, and anything medical; share slide 4 and slide 9 so both classes use "self-talk" the same way. The art or media teacher, if there is one, can show how a filter works in two minutes, which makes the "twelve taps" number real.
 
 ## Sources
 
@@ -128,4 +128,3 @@ Inside the building: the health teacher owns body image, eating, and anything me
 - If the period runs short, cut Step 4 to the four channels with no table; Lesson 3.9 and Lesson 3.13 cover it again.
 - Common mistake: students rewrite negative self-talk into fake positive self-talk. Hold the line on "accurate." The clipboard check is for this.
 - The private side of the closure card stays with the student. Say it twice. If you forget, someone will hand it in, and you will have a problem to solve.
-- [Sal: your Zoe story from the Brentwood packet is a good two-minute read-aloud before Step 2 if the class is slow to see the cost of a two-self life. The version in the slides is a new fictional character; use yours if you prefer it.]

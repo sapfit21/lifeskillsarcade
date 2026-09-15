@@ -48,8 +48,6 @@ This is the before picture. At least one of these three lines is going to turn o
 | If this existed, what would you pay for it? | Bu var olsaydı, buna ne kadar ödersiniz? | Se isso existisse, quanto você pagaria? | Si esto existiera, ¿cuánto pagaría? |
 | What would make you not buy it? | Sizi bunu almaktan ne vazgeçirir? | O que faria você não comprar? | ¿Qué haría que no lo comprara? |
 
-**[check with a native speaker]**
-
 ## The recording rule
 
 **Write down what they said, not what you think they meant.**
@@ -219,7 +217,7 @@ Checking team: ____________________
 
 **Teacher initials (the gate):** ______
 
-## Word bank [check with a native speaker]
+## Word bank
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

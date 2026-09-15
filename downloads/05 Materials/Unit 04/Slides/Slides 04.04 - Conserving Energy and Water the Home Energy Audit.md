@@ -1,6 +1,6 @@
 # Slides 4.4: Conserving Energy and Water: the Home Energy Audit
 
-Slide outline for Lesson 4.4. Day 1 has twelve slides; Day 2 has nine. [Sal: slide 5 is yours. Put one photo from your Penn State zero-energy home project on it and tell the story in two minutes.]
+Slide outline for Lesson 4.4. Day 1 has twelve slides; Day 2 has nine.
 
 # Day 1
 
@@ -38,8 +38,6 @@ Notes: Rounded from EPA WaterSense.
 
 ## Slide 5: A zero-energy home
 
-- [Sal: your Penn State project. One photo, three lines: what it is, what it cost, what surprised you.]
-Image: [Sal: your photo or drawing.]
 Notes: Two minutes. This is the story students will remember from this lesson.
 
 ## Slide 6: Phantom load

@@ -49,8 +49,6 @@ I feel ________________ when ________________________________ because __________
 
 ### Sentence frame in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | I feel ___ when ___ because ___, and I need ___. | ___ olduğunda ___ hissediyorum çünkü ___, ve ___ ihtiyacım var. | Eu me sinto ___ quando ___ porque ___, e eu preciso de ___. | Me siento ___ cuando ___ porque ___, y necesito ___. |

@@ -87,7 +87,7 @@ Grade 8 stretch cup 7: 3/4 cup water using only the 1/4 cup and the 1/2 cup dry 
 
 Class: ______ Date: __________
 
-Typical targets use these weights: water 237 g per cup (15 g per Tbsp, 5 g per tsp); flour, spooned and leveled, 120 g per cup (about 8 g per Tbsp); granulated sugar 200 g per cup (about 12.5 g per Tbsp); vegetable oil about 13.6 g per Tbsp (about 218 g per cup); table salt about 6 g per tsp. Tight band is within 5 percent or 2 g, whichever is larger. Wide band is within 12 percent or 4 g, whichever is larger. [Sal: weigh each item with the room's own cups and flour the day before and write your numbers in the "my target" column; flour can run 10 percent heavy on a humid day. Tare the scale on an empty cup before each weigh-in.]
+Typical targets use these weights: water 237 g per cup (15 g per Tbsp, 5 g per tsp); flour, spooned and leveled, 120 g per cup (about 8 g per Tbsp); granulated sugar 200 g per cup (about 12.5 g per Tbsp); vegetable oil about 13.6 g per Tbsp (about 218 g per cup); table salt about 6 g per tsp. Tight band is within 5 percent or 2 g, whichever is larger. Wide band is within 12 percent or 4 g, whichever is larger.
 
 Card A
 

@@ -156,4 +156,3 @@ Notes for the next class: ______________________________________________________
 - The reduced-dexterity versions of every stitch (a large needle and yarn on binca or plastic canvas, a large coat button, a visible mend with floss) are scored on the same rows at the same levels. The tool is different; the stitch is the same stitch.
 - Score out loud. A performance check scored in silence teaches nothing, and this one is short enough to narrate.
 - Keep the sampler cards in the FACS folder until the end of Unit 5, then send them home with the Upcycle Challenge. Photograph three or four of them, names covered, for the website's Unit 5 page.
-- [Sal: the 40-seconds-per-student pace assumes three tables of about seven, 21 students. A section of 28 needs a fourth table; at 28, start the check at minute 18 and cut the mounting block to two minutes, and the mounting can be finished in the do now of Lesson 5.12.]

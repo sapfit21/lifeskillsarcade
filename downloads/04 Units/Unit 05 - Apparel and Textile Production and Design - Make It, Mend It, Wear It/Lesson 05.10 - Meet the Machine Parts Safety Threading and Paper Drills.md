@@ -54,7 +54,7 @@ Tier 3 (FACS): presser foot, feed dogs, bobbin, take-up lever, hand wheel, foot 
 - Slides: `Slides 05.10 - Meet the Machine Parts Safety Threading and Paper Drills` (Day 1, Day 2, and Day 3 labeled)
 - Timer visible to the class
 
-**Setup notes:** test every machine yourself with thread on scrap the week before, and wind every bobbin ahead. A machine that skips stitches or eats fabric on a student's first day teaches that student that machines are the enemy, and that costs more than the hour of testing. Number the machines before Day 1 and write the assignment list to match; a student who sits at the same machine every day learns its habits, notices when something changed, and stops blaming the machine. [Sal: count the working machines and write the number in the unit plan, Section 10. The plan assumes most of the class can sit at a machine at once, with the hand station and the spares absorbing the rest.]
+**Setup notes:** test every machine yourself with thread on scrap the week before, and wind every bobbin ahead. A machine that skips stitches or eats fabric on a student's first day teaches that student that machines are the enemy, and that costs more than the hour of testing. Number the machines before Day 1 and write the assignment list to match; a student who sits at the same machine every day learns its habits, notices when something changed, and stops blaming the machine.
 
 ## Pre-assessment
 
@@ -150,7 +150,7 @@ None. Optional: find one sewing machine in your life, at home, at a relative's, 
 
 ## Connections
 
-Technology and engineering: a sewing machine is a cam, a linkage, and a feed mechanism, and a technology teacher can open the cover and show the inside in five minutes; the pivot drill is the same tool-path thinking a CNC or 3D printer lesson uses. Career awareness: machine competence is a hiring line in costume shops, upholstery, alterations, and small manufacturing, which is the bridge to Lesson 5.19. Community: a local quilt shop, costume shop, or sewing circle will often lend a machine or a volunteer; a volunteer at one machine during the threading drill doubles the verification speed. [Sal: that ask is worth making before this week.]
+Technology and engineering: a sewing machine is a cam, a linkage, and a feed mechanism, and a technology teacher can open the cover and show the inside in five minutes; the pivot drill is the same tool-path thinking a CNC or 3D printer lesson uses. Career awareness: machine competence is a hiring line in costume shops, upholstery, alterations, and small manufacturing, which is the bridge to Lesson 5.19. Community: a local quilt shop, costume shop, or sewing circle will often lend a machine or a volunteer; a volunteer at one machine during the threading drill doubles the verification speed.
 
 ## Sources
 
@@ -169,4 +169,3 @@ Technology and engineering: a sewing machine is a cam, a linkage, and a feed mec
 - The assignment list is the discipline system. Same student, same machine, all unit: when machine 4 comes up unthreaded or out of adjustment, I know exactly who sat there, and so does the class. Say that out loud on Day 1, kindly.
 - Keep the machine doctor tags where students can reach them. The tag is a permission, not a confession: the message is that reporting a problem is what a professional does.
 - By the end of Day 2 I have a list of licensed threaders. Before Lesson 5.11 Day 1, I pre-thread every machine myself anyway, because the first fabric day should spend its minutes on sewing, not threading; from 5.11 Day 2 on, the licensed threaders thread their own and the buddy system covers the rest.
-- [Sal: this lesson assumes machines for most of the class at once, per D19. Write the real machine count in the unit plan, Section 10, and adjust the buddy list to match.]

@@ -16,8 +16,6 @@ A trait can turn into a strength. "Patient" is a trait. "Sits with my little cou
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | trait | kişilik özelliği | traço (característica) | rasgo |

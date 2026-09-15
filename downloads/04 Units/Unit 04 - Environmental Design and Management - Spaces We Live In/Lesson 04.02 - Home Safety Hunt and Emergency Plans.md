@@ -43,7 +43,7 @@ Tier 3 (FACS): smoke detector, carbon monoxide (CO) detector, Poison Control, GF
 
 - Handout, one per student: `Handout 04.02 - Home Safety Hunt Floor Plan and Emergency Plan.md` (the described two-floor home, the hunt table, the emergency plan template)
 - Highlighters, one per team of three
-- A real smoke detector and a real CO detector to pass around (a battery model of each; press the test button once so students hear it) [Sal: the custodian may lend one; otherwise about $15 and $25 at a hardware store, and they go on the classroom wall after]
+- A real smoke detector and a real CO detector to pass around (a battery model of each; press the test button once so students hear it); the custodian may lend them, otherwise about $15 and $25 at a hardware store, and they go on the classroom wall after
 - Slides: `Slides 04.02 - Home Safety Hunt and Emergency Plans`
 - Timer visible to the class
 - Setup notes: no staged hazards today; the hunt is on paper. Have the Poison Control number (1-800-222-1222) written on the board before class and leave it there for the rest of the unit. Allergy check: none needed.
@@ -112,7 +112,7 @@ None. Optional: make a two-line emergency plan for your own home with an adult (
 
 ## Connections
 
-Inside the building: the school nurse or the fire safety officer visits for five minutes during Lesson 4.3 to show how a detector is tested and where the building's CO detectors are. FACS gives the nurse a class that has already listed hazards; the nurse gives a second adult voice. Community: the local fire department's public education officer runs free home-safety talks and sometimes gives out detectors; a good visitor for Lesson 4.16 (careers) too. [Sal: name the department.]
+Inside the building: the school nurse or the fire safety officer visits for five minutes during Lesson 4.3 to show how a detector is tested and where the building's CO detectors are. FACS gives the nurse a class that has already listed hazards; the nurse gives a second adult voice. Community: the local fire department's public education officer runs free home-safety talks and sometimes gives out detectors; a good visitor for Lesson 4.16 (careers) too.
 
 ## Sources
 
@@ -120,7 +120,7 @@ Inside the building: the school nurse or the fire safety officer visits for five
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 3. c), 3. e), and 4. g). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.7 and 11.3.5, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Detector placement and testing guidance follows the U.S. Fire Administration and NFPA public guidance (smoke alarms on every level and in every sleeping area, test monthly, replace at ten years; CO alarms near sleeping areas). Poison Control: 1-800-222-1222. [Sal: confirm the fire death statistic in Step 1 against the current NFPA fact sheet before it goes on a slide; the "three in five" figure is from NFPA's home fire reports and gets updated.]
+- Detector placement and testing guidance follows the U.S. Fire Administration and NFPA public guidance (smoke alarms on every level and in every sleeping area, test monthly, replace at ten years; CO alarms near sleeping areas). Poison Control: 1-800-222-1222.
 - Sal's own materials: Lesson 1.1 Hunt the Hazard is the pattern; this is the same hunt moved from the kitchen to the whole house.
 
 ## Teacher notes
@@ -129,4 +129,3 @@ Inside the building: the school nurse or the fire safety officer visits for five
 - Common mistake: students list the grandmother's cane as a hazard. It is not. The loose rug she has to cross is. Use it to make the point: the person is never the hazard; the home is.
 - The hazard nobody finds is usually the running car in the attached garage (CO). That is the one to reveal last, and it is the reason the CO detector item is on the quiz.
 - Some students will have lived through a house fire or a poisoning scare. Keep the hunt about the paper family. If a student wants to tell a story, take it after class.
-- [Sal: your Brentwood room had a real extinguisher and first aid kit walk in Lesson 1.3; point back to it so students see it is the same skill in a new building.]

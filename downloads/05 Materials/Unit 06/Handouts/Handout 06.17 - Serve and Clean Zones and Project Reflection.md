@@ -80,8 +80,6 @@ Sentence starters:
 | Everyone has a plate. We can begin. | Herkesin tabağı var. Başlayabiliriz. | Todos têm um prato. Podemos começar. | Todos tienen un plato. Podemos empezar. |
 | This dish is called ___ and it comes from ___. | Bu yemeğin adı ___ ve ___ mutfağından geliyor. | Este prato se chama ___ e vem de ___. | Este plato se llama ___ y viene de ___. |
 
-**[check with a native speaker]**
-
 ## The table question
 
 The teacher will come to your table and ask one question. Write your answer here.
@@ -212,8 +210,6 @@ ________________________________________________________________________
 | It cost $___ per person. We planned $___. | Kişi başı ___ dolara geldi. ___ dolar planlamıştık. | Custou $___ por pessoa. Planejamos $___. | Costó $___ por persona. Planeamos $___. |
 | Next time I would change ___ in block ___. | Bir dahaki sefere ___. bölümde ___ değiştirirdim. | Na próxima vez eu mudaria ___ no bloco ___. | La próxima vez cambiaría ___ en el bloque ___. |
 | The reason is ___. | Sebebi ___. | O motivo é ___. | La razón es ___. |
-
-**[check with a native speaker]**
 
 ## Before you hand in the folder, check that it has all of this
 

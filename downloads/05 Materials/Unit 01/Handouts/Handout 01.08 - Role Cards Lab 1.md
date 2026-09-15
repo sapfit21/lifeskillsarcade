@@ -4,7 +4,7 @@ Print one set per station and cut the cards apart. Each card has two columns: re
 
 The four phases, every lab, every year: PREP 0 to 10 | COOK 10 to 28 | PLATE AND EAT 28 to 35 | CLEAN 35 to 40
 
-Every role, every phase: wash hands first, apron and hair tie on, handles in, say "behind you" and "hot" out loud, and the burner is off before the pan leaves the stove. [Sal: add "behind you," "hot," "done," and "help" in Turkish, Portuguese, and Spanish from `Vocabulary 01.md` on the back of every card.]
+Every role, every phase: wash hands first, apron and hair tie on, handles in, say "behind you" and "hot" out loud, and the burner is off before the pan leaves the stove.
 
 * * *
 

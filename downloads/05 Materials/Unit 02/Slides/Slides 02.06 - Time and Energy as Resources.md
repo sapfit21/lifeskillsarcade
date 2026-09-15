@@ -42,7 +42,7 @@ Notes: Grade 6 uses six categories: 1, 2, 3, 4, 5, 10. Students copy the list on
 - Two biggest: school and sleep, then screens
 - Guess was: sleep 8, screens 2
 Image: a pie chart of the numbers above, screens as a visible wedge.
-Notes: [Sal: your own numbers, if you are willing. A teacher who shows 6 hours of sleep and 3 of screens makes the lesson honest.] This slide is also the fallback for a student who cannot recall yesterday.
+Notes: This slide is also the fallback for a student who cannot recall yesterday.
 
 ## Slide 6: Count yours
 
@@ -78,7 +78,7 @@ Notes: Say this sentence slowly. It is the one they should remember.
 - Short sleep the next day: attention drops, mood drops, memory drops
 - The second lap: tired people spend more time on screens and less on the goal
 - Source: American Academy of Sleep Medicine, as published by the CDC
-Notes: [Sal: confirm the current CDC numbers and agree on them with the health teacher.] Leave sleep hygiene (screens before bed, caffeine) to health unless they ask you to cover it.
+Notes: Leave sleep hygiene (screens before bed, caffeine) to health unless they ask you to cover it.
 
 ## Slide 10: Your sleep window
 

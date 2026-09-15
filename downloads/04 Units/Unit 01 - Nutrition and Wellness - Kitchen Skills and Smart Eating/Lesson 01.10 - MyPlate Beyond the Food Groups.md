@@ -23,7 +23,7 @@ Note on the theme line: the HSW 1. Health Practices topic has no line that names
 
 Health class typically covers: the five MyPlate food groups by name, "eat a variety," and often a MyPlate coloring or labeling worksheet. Some health programs cover body image and healthy weight here. FACS does not teach body image; that stays with health.
 
-This lesson goes further: students treat MyPlate as proportions on a real plate, not a list of five names. They build a plate with physical food cards, measure the difference between a serving and a portion with real cups and bowls, and check one day of their own eating privately. Physical activity is taught as the other half of wellness, using the 60 minutes a day guideline for ages 6 to 17. [Sal: tell the health teacher the plate check is private and never shared aloud, so it does not overlap with any body image lesson.]
+This lesson goes further: students treat MyPlate as proportions on a real plate, not a list of five names. They build a plate with physical food cards, measure the difference between a serving and a portion with real cups and bowls, and check one day of their own eating privately. Physical activity is taught as the other half of wellness, using the 60 minutes a day guideline for ages 6 to 17.
 
 ## Enduring understanding and essential question
 
@@ -122,16 +122,15 @@ Inside the building: the physical education teacher. FACS gives PE a class that 
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 1. a) and 1. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.2.1 and 14.3.1.
-- MyPlate proportions and group names: USDA, myplate.gov. Physical activity guideline: Physical Activity Guidelines for Americans, 2nd edition (health.gov), ages 6 to 17, 60 minutes or more daily. [Sal: check both sites once a year; the MyPlate graphic has not changed since 2011 but the wording of the tips does.]
-- Sal's own materials: "MyPlate Budget" and "Nutrition Dungeon Quest" existed as names only; the build a plate task here is a fresh version. Nutrition Dungeon Quest can return as a review game before the Unit 1 test. [Sal: if you have the game rules written somewhere, send them and I will fold them in.]
+- MyPlate proportions and group names: USDA, myplate.gov. Physical activity guideline: Physical Activity Guidelines for Americans, 2nd edition (health.gov), ages 6 to 17, 60 minutes or more daily.
+- Sal's own materials: "MyPlate Budget" and "Nutrition Dungeon Quest" existed as names only; the build a plate task here is a fresh version. Nutrition Dungeon Quest can return as a review game before the Unit 1 test.
 
 ## Teacher notes
 
 - If time runs short, cut Step 5 entirely and take the volunteers in the closure. Never cut Step 4; the private plate check is the piece health class does not do.
 - Common mistake: students fill the dairy cup with cheese cards and the protein section with more cheese. Ask: "Where does the milk go on MyPlate? Where does the chicken go?"
 - The plate check is private for a reason. Some students are on restricted diets, some do not have enough food at home, and some are in the middle of a body image fight. Score it complete or not, and say so out loud before they write.
-- [Sal: your Brentwood students knew MyPlate from health but could not tell a serving from a portion. That is why the two bowls are the hook. Use your own bowl from home; it lands harder.]
 - The plate photo you take today (cards on a paper plate) can be the cover image for the $40 project poster later.

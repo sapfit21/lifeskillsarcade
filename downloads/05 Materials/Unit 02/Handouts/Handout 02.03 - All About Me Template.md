@@ -8,8 +8,6 @@ I am making a: Circle one: Poster / Slide
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | values | değerler | valores | valores |
@@ -82,7 +80,7 @@ What "done" looks like: all five parts, readable from three feet, your name on i
 | Clear | Most of the page cannot be read from three feet; boxes run together | Some parts are too small or crowded; a reader has to hunt for the known-for sentence | Every part can be read from three feet; one idea per box; the name and the known-for sentence are the biggest text | Meets, and the layout guides the eye in order (name, sentence, then the four boxes) with no wasted space |
 | Connected | The known-for sentence is missing or is a goal, not a description; the boxes do not relate | The known-for sentence uses a value or a strength, but not both; the careers do not match the letters or strengths | The known-for sentence uses at least one value and one strength; each career links to a letter or a strength named on the page | Meets, and the student can say out loud, without reading, how all five parts fit together in one story |
 
-Total: ______ / 12. Meets on all three is 9. [Sal: 9 and up is the "met the check" line for the grade book.]
+Total: ______ / 12. Meets on all three is 9.
 
 ### Partner share, Day 2
 

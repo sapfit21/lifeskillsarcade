@@ -40,7 +40,7 @@ Tier 3 (FACS): stress management, box breathing, brain dump, toolkit, baseline. 
 
 - `Handout 03.08 - Toolkit Test Sheet and Toolkit Card.md`, one per student (the test sheet is page 1; the toolkit card is the bottom third of page 2, cut off and kept)
 - Slides: `Slides 03.08 - Stress Management Toolkit` (one slide per tool with the steps and the timer)
-- A speaker and one instrumental track, about 90 seconds, for the music or movement break [Sal: your pick; no lyrics]
+- A speaker and one instrumental track, about 90 seconds, for the music or movement break
 - A walk loop marked in the room (tape on the floor) or a hallway loop agreed with the office
 - Scrap paper, one sheet per student, for the brain dump (they keep it or shred it)
 - Index cards or card stock for the toolkit card if the handout is not on card stock
@@ -108,7 +108,7 @@ None. Optional: use your number one tool once before tomorrow and write the befo
 
 ## Connections
 
-Inside the building: the health teacher, if health teaches breathing or mindfulness, so the counts and names match; the PE teacher, who may already run a two-minute walk or stretch and can tell you what students call it; the counselor, who may want copies of the tool slides for advisory. [Sal: the HDR module's illustrative activity is a mindfulness journal; if the counselor runs one, the toolkit card is a page in it.]
+Inside the building: the health teacher, if health teaches breathing or mindfulness, so the counts and names match; the PE teacher, who may already run a two-minute walk or stretch and can tell you what students call it; the counselor, who may want copies of the tool slides for advisory.
 
 ## Sources
 
@@ -116,7 +116,7 @@ Inside the building: the health teacher, if health teaches breathing or mindfuln
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 6. d) and 6. e). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 13.1.6.
-- Box breathing (four counts in, hold, out, hold) is a widely taught paced breathing pattern; the walk, list, music, talking, and sleep and food tools are the everyday coping strategies listed on the National Institute of Mental Health fact sheet on stress for teens ("I'm So Stressed Out," nimh.nih.gov). [Sal: confirm the page before teaching.]
+- Box breathing (four counts in, hold, out, hold) is a widely taught paced breathing pattern; the walk, list, music, talking, and sleep and food tools are the everyday coping strategies listed on the National Institute of Mental Health fact sheet on stress for teens ("I'm So Stressed Out," nimh.nih.gov).
 - Sal's own materials: the sleep window from Lesson 2.6 and the self-talk swap from Lesson 3.5 are the two tools from earlier lessons that students may add to the card.
 
 ## Teacher notes
@@ -126,4 +126,3 @@ Inside the building: the health teacher, if health teaches breathing or mindfuln
 - Common mistake: students rate every tool a 2 because they think low numbers are the right answer. Say before the first tool: "A rating that did not move is a true rating. I am not grading whether the tool worked. I am grading whether you tested it."
 - The brain dump sheet is private. Have a shred box or a recycling bin they can fold it into. Nobody reads it, including you.
 - Watch the room during the talking tool. A student who cannot stop crying or who goes silent and stays there needs the who-to-ask list today, not the card.
-- [Sal: the two-minute walk is the tool most likely to be cut by a school that does not want students in the hallway. Tape a loop in the room. It works almost as well.]

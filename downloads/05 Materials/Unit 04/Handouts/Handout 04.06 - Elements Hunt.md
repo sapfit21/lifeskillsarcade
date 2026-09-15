@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Team: ______
 
 ## Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | line | çizgi | linha | línea |
@@ -101,6 +99,6 @@ _______________________________________________________________________
 
 **Hunt A:** Line: the tall windows, the floor-to-ceiling bookshelf (vertical, makes the room feel taller), the long low couch (horizontal, calm), the stripes of sun (diagonal, active), the curved lamp neck (soft). Shape: the round coffee table, the orange circles in the painting, the diamonds on the rug. Form: the couch, the coffee table, the lamp (things you walk around). Space: the empty corner by the windows is the negative space; the packed bookshelf is dense positive space; long and narrow is the room's own space. Color: pale warm gray walls, dark blue couch, orange circles (warm accent), the many book colors. Texture: nubby wool cushions (rough, cozy), the shiny table top (smooth, cool), the bare brick (rough). Pattern: the black and white diamonds, the stripes of light through the blinds. Light: natural from the two tall windows in the afternoon; artificial from the floor lamp.
 
-**Hunt B:** depends on the room. [Sal: write your eight examples here so the check goes fast.]
+**Hunt B:** depends on the room.
 
 **Part 3:** accept any three changes with the element named and a reason tied to function or feel. Strong ones: desk to the window (light, and space in the corner opens); bed away from the window so the window is not blocked (light); rug turned to run the long way (line); bookshelf moved away from the door (space and traffic); a plain bedspread instead of a busy one (pattern). Grade 8: desk move is free and changes light and space; a new bedspread costs money.

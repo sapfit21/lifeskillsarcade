@@ -76,4 +76,3 @@ Question 9 math: Mug Cake, 4 eggs at about $0.29 each is about $1.16 for the sta
 
 Question 8 is the evidence for CTE CIR 3. Workplace Communication f) Demonstrate effective communication skills in a group setting to accomplish a task. Look for a named message and a real moment, not "we communicated well."
 
-[Sal: your original reflection had four parts, recall, critical thinking, personal, real world. This keeps the shape and adds the rubric link so the reflection is the Objective 3 score, not extra work.]

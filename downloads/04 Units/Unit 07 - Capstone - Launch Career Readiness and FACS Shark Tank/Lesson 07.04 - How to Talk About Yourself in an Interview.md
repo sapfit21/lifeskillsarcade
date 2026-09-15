@@ -122,13 +122,13 @@ None required. Optional: say your three-part answer out loud to one person at ho
 
 ## Connections
 
-Inside the building: the ELA teacher. NYS Next Generation ELA speaking and listening work at grade 8 asks students to present claims with relevant evidence and to adapt speech to context, which is exactly the three-part answer and the STAR story. FACS gives ELA a real audience and a real reason; ELA gives FACS the revision and evidence language students already have. Also the school counselor, who does mock interviews for high school applications and can reuse this frame. Community: any adult who hires, invited for Lesson 7.5 or for the Lesson 7.11 panel. [Sal: this lesson is yours and was taught at Brentwood to grade 8. If your school wants to see one lesson of this course, this is a strong candidate.]
+Inside the building: the ELA teacher. NYS Next Generation ELA speaking and listening work at grade 8 asks students to present claims with relevant evidence and to adapt speech to context, which is exactly the three-part answer and the STAR story. FACS gives ELA a real audience and a real reason; ELA gives FACS the revision and evidence language students already have. Also the school counselor, who does mock interviews for high school applications and can reuse this frame. Community: any adult who hires, invited for Lesson 7.5 or for the Lesson 7.11 panel.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. a), 3. c), and 3. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. a); Theme Module 02, Communication and Interpersonal Relationships, line 3. a).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.2 and 1.2.2.
 - Sal's own materials: his lesson "How to Talk About Yourself in a Job Interview: Answering 'Tell Me About Yourself' with Confidence," taught at Brentwood South to grade 8 and submitted at Queens College in April 2026 (FNES 538). The CEO hook, the anchor chart, the unstructured versus structured modeling, the three-part frame, the pizza shop and animal shelter scenarios, the STAR introduction, the 3-2-1 exit card, and the closing lines are his. Re-leveled here for grades 6 to 8 and rewritten for a real room; the original was demonstrated over video, which is why the original says students respond in the chat.
 - The Career and Community Opportunities illustrative activity in the state's Individual Growth and Life Readiness module names "preparing for a job interview" as an intended use of the personal-traits work, which is this lesson.
@@ -141,5 +141,5 @@ Inside the building: the ELA teacher. NYS Next Generation ELA speaking and liste
 - Common mistake: part two becomes a list of adjectives. Fix it by asking for the proof, every time: "Where can I see that?" The FACS folder is on the desk for exactly this reason.
 - Second common mistake: the STAR Result box says "it was good." Push once: "What actually happened? A number, a time, or what somebody said."
 - Sal's closing lines are the emotional end of the lesson and they are the reason students come back willing to be interviewed the next day. Say them. Do not read them.
-- The pretend jobs work best when they are places students have actually been. [Sal: swap the pizza shop and the animal shelter for two real businesses within walking distance of your school. Use their real names only if you have permission; otherwise describe them.]
+- The pretend jobs work best when they are places students have actually been.
 - Keep the handouts. The three-part answer and the STAR outline are both scored tomorrow and both go in the portfolio on the last day.

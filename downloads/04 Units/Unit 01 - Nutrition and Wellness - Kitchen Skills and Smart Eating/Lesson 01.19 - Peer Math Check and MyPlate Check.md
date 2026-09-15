@@ -84,7 +84,7 @@ Exit card: 3 things the check sheet looked at, 2 changes your team made after fe
 
 ## Differentiation and supports
 
-- ELL: the Peer Check Sheet has the four checks as icons with a checkbox each; feedback sentence frames on the sheet ("Line ___: you wrote ___, it should be ___," "Your plan did ___ well," in English, Turkish, Portuguese, and Spanish, marked [check with a native speaker]); the checking roles let an ELL student verify numbers in the circular, which needs no English beyond the product names.
+- ELL: the Peer Check Sheet has the four checks as icons with a checkbox each; feedback sentence frames on the sheet ("Line ___: you wrote ___, it should be ___," "Your plan did ___ well," in English, Turkish, Portuguese, and Spanish, to be verified by a native speaker); the checking roles let an ELL student verify numbers in the circular, which needs no English beyond the product names.
 - IEP and 504 (general): the recalculation is split across four students so no one recomputes twenty lines alone; calculators; the feedback can be dictated to the Recorder; the reading in Step 3 is silent and timed so nobody is put on the spot; extended time on the revision by finishing at the start of Lesson 1.20.
 - Grade 6 support: the check covers arithmetic and the cap only; the plate check is done by the teacher with the team; one feedback comment instead of two.
 - Grade 8 stretch: checkers also verify each unit price against the shelf-tag math from Lesson 1.16 and flag any item where a store-brand swap would save more than $1, with the exact saving written; the revision log must show the new cost per person.
@@ -124,4 +124,3 @@ Math: the peer check is the same "check your partner's work" routine the math te
 - Common mistake: the checking team argues with the plan ("we would not buy that") instead of checking it. The four checks are the only things that count. Taste is for the class vote in Lesson 1.21.
 - Second common mistake: checkers erase and rewrite. Colored pen only, and the original stays visible; the checked team decides what to change.
 - The team that gets a clean check sheet sometimes feels cheated out of the lesson. That is why Step 4 gives them an improvement to find on their own.
-- [Sal: in your run of show this was one checkpoint inside a two-period lesson. Here it is a full period because the plan is priced to the penny and the lab budget rides on it. If your classes are fast, this can shrink to 25 minutes and the station card from Lesson 1.20 Day 1 can start today.]

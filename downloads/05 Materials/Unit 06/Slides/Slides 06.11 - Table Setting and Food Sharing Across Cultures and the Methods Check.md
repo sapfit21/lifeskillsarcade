@@ -1,6 +1,6 @@
 # Slides 6.11: Table Setting and Food Sharing Across Cultures, and the Methods Check
 
-Slide outline for Lesson 6.11. Thirteen slides, one day. Slides 4 and 5 are the review deck for item 11 on the Cooking Methods Check. Cover the wall paths before slide 13. [Sal: photograph a correctly set basic setting from your own room and use that instead of a clip-art diagram; students recognize their own plates.]
+Slide outline for Lesson 6.11. Thirteen slides, one day. Slides 4 and 5 are the review deck for item 11 on the Cooking Methods Check. Cover the wall paths before slide 13.
 
 ## Slide 1: The Table, Four Ways
 

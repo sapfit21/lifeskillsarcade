@@ -26,7 +26,7 @@
 
 Health class typically covers: "choose healthy snacks" and sometimes a sodium or sugar limit as a number on a slide. Health does not cook.
 
-This lesson goes further: students cook a real snack in a real kitchen, read the labels of the actual ingredients they used, compute the sodium in the plate in front of them, and judge it with a number. The label math is the piece no other class in the building does with a hot pan on the table. [Sal: send the health teacher the Nacho Label Math handout; the per-plate sodium number is a good shared example for both classes.]
+This lesson goes further: students cook a real snack in a real kitchen, read the labels of the actual ingredients they used, compute the sodium in the plate in front of them, and judge it with a number. The label math is the piece no other class in the building does with a hot pan on the table.
 
 ## Enduring understanding and essential question
 
@@ -59,12 +59,12 @@ Per station (three stations of about seven students):
 Shared salsa bar, on a separate counter, set up before class and kept cold until the oven step:
 - 1 jar salsa, 16 ounces, with a serving spoon
 - 1 tub sour cream, 16 ounces, with a serving spoon
-- Optional, no knives required: 1 can sliced black olives (drained), 1 bag pre-shredded lettuce. [Sal: add or drop these to fit the $20 per station line and what your students will actually eat.]
+- Optional, no knives required: 1 can sliced black olives (drained), 1 bag pre-shredded lettuce.
 
 Teacher station: oven preheated to 400 degrees F before students arrive, timer, oven mitts, clipboard with the lab rubric.
 
 - Slides: `Slides 01.13 - Lab 2 Sheet Pan Nachos with a Label Discussion.md` (outline; build the deck from it; Day 1 and Day 2 are labeled)
-- Setup notes: pre-cut foil the day before; pre-open one bean can and one corn can per station so no student touches a sharp lid; set the salsa bar before class; confirm the oven is at 400 before the bell; put oven mitts and a trivet at every station. Zero-knife lab: nothing is cut. Allergy check the day before: dairy (cheese, sour cream), and check the chip bag for shared-line warnings (some are made on lines with milk or wheat). A student who cannot eat dairy gets a foil-divided corner of the pan with no cheese and skips the sour cream. [Sal: your room's oven count decides the pan size. One oven with two racks holds three quarter sheet pans; rotate them at five minutes. Two ovens hold three half sheet pans.]
+- Setup notes: pre-cut foil the day before; pre-open one bean can and one corn can per station so no student touches a sharp lid; set the salsa bar before class; confirm the oven is at 400 before the bell; put oven mitts and a trivet at every station. Zero-knife lab: nothing is cut. Allergy check the day before: dairy (cheese, sour cream), and check the chip bag for shared-line warnings (some are made on lines with milk or wheat). A student who cannot eat dairy gets a foil-divided corner of the pan with no cheese and skips the sour cream.
 
 ## Pre-assessment
 
@@ -126,7 +126,7 @@ Day 2: clean up and station check (minutes 36 to 40). Sanitation Lead runs the l
 - Grade 6 support: the Nacho Label Math uses rounded numbers (beans as 2 servings, corn as 1) and asks for the pan total and the per-person share only; the percent of a day is given.
 - Grade 8 stretch: compute the pan total for calories and saturated fat too, and rewrite the recipe with one swap (low sodium beans, reduced fat cheese, or half the chips) with the new per-person number; on Day 2, the Head Chef at a grade 8 station also plates one "MyPlate nacho plate" with a side of the salsa bar lettuce and reports whether it moved the plate closer to MyPlate.
 - UDL checkpoint used: multiple means of action and expression (seven roles so every student has a physical task that fits them) and multiple means of representation (the flowchart as a slide, a station card, and a timer the teacher calls aloud).
-- No-kitchen or no-machine alternative: Day 1 runs as written. Day 2 becomes "build a nacho plate": each team gets the Nutrient Sort Cards plus six nacho ingredient cards (chips, cheese, beans, corn, salsa, sour cream) with the label numbers on the back. Teams build the plate, compute the sodium for the plate exactly as on Day 1, then rebuild it with two swaps to bring the sodium under 400 mg per person while keeping at least three MyPlate groups on the plate. The Sanitation Lead's job becomes the recorder. If a microwave is available, a single microwave version works: chips, beans, corn, and cheese on a paper plate for 45 seconds, one plate per team, teacher at the microwave. [Sal: the microwave version is a real option for a day the oven is down.]
+- No-kitchen or no-machine alternative: Day 1 runs as written. Day 2 becomes "build a nacho plate": each team gets the Nutrient Sort Cards plus six nacho ingredient cards (chips, cheese, beans, corn, salsa, sour cream) with the label numbers on the back. Teams build the plate, compute the sodium for the plate exactly as on Day 1, then rebuild it with two swaps to bring the sodium under 400 mg per person while keeping at least three MyPlate groups on the plate. The Sanitation Lead's job becomes the recorder. If a microwave is available, a single microwave version works: chips, beans, corn, and cheese on a paper plate for 45 seconds, one plate per team, teacher at the microwave.
 
 ## Assessment
 
@@ -159,19 +159,19 @@ Inside the building: the math teacher (the same ratio work as Lesson 1.11, now w
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 2. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 03, Financial and Consumer Literacy, line 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Standard 3a, Interpersonal Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 14.2.4.
-- Sodium daily value (2,300 mg) and the 5 and 20 rule: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov). Rinsing canned beans removes about 41 percent of the sodium: Duyff, Jones, and Mount, "Sodium reduction in canned beans after draining, rinsing," Journal of Culinary Science and Technology, 2011. [Sal: the number is widely cited as "about 40 percent"; keep it approximate on the slide.]
+- Sodium daily value (2,300 mg) and the 5 and 20 rule: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov). Rinsing canned beans removes about 41 percent of the sodium: Duyff, Jones, and Mount, "Sodium reduction in canned beans after draining, rinsing," Journal of Culinary Science and Technology, 2011.
 - Sal's own materials: `education_teachingwork_8th_grade_nachos_recipe_sheet_2026_05.docx` (his Sheet Pan Nachos with Salsa Bar teacher sheet: the 40-minute flowchart, ingredient amounts per station, prep notes, the zero-knife policy, and the "Nutrition Facts discussion while it bakes" idea). Rewritten here for three stations of seven with the teacher on oven duty. The label numbers on the handouts are typical values for store brand products and must be replaced with the numbers on the packages you actually buy.
 
 ## Teacher notes
 
 - If Day 1 runs short, cut Step 2 (the salsa bar plan) to one minute and let the Runners figure out the traffic pattern on Day 2 with you at the bar. Never cut Step 3; the label math is Objective 3 and the rubric row.
 - If Day 2 runs short, the bake is fixed at 8 to 10 minutes; the only place to save time is plating. Have the Runners pre-set plates at the bar during the bake.
-- Per-station cost, estimated at Long Island supermarket store brand prices, September 2026: chips 13 oz $3.99; cheese 8 oz $3.49 (half used; buy one bag for two stations, $1.75); black beans $1.29 (half used; one can for two stations, $0.65); corn $1.19; salsa 16 oz $3.29 shared by three stations, $1.10; sour cream 16 oz $2.49 shared, $0.83; foil, about $0.30. About $9.80 per station buying shared items across the class, or about $12.20 if every station gets its own cheese bag and bean can. Optional olives and lettuce add about $1.35 per station. A class of three stations runs about $30 to $41, well under the $20 per station line. [Sal: your May 2026 sheet priced this at $9.56 per station off the King Kullen circular; re-price off the current circular the week before and note the store and dates on the station card, the way you did.]
+- Per-station cost, estimated at Long Island supermarket store brand prices, September 2026: chips 13 oz $3.99; cheese 8 oz $3.49 (half used; buy one bag for two stations, $1.75); black beans $1.29 (half used; one can for two stations, $0.65); corn $1.19; salsa 16 oz $3.29 shared by three stations, $1.10; sour cream 16 oz $2.49 shared, $0.83; foil, about $0.30. About $9.80 per station buying shared items across the class, or about $12.20 if every station gets its own cheese bag and bean can. Optional olives and lettuce add about $1.35 per station. A class of three stations runs about $30 to $41, well under the $20 per station line.
 - Common mistake: a pan with the chips piled in a mound, so the middle stays cold and the cheese never reaches the bottom. Say "one layer, you should see foil between some chips" at Step 1.
 - Second common mistake: the Prep Cook rinses the corn too and it goes watery, or does not rinse the beans and the pan tastes of the can. Beans: drain and rinse. Corn: drain only. It is on the station card twice.
-- The teacher at the oven is not a suggestion in this version. Sal's original sheet had students rotate mitts and pull their own pans; with three stations of seven and grade 6 in the room, the teacher pulls. [Sal: if your grade 8 section has a Lab 1 rubric average of 10 or better and you want them to pull their own pans with you standing there, that is your call; say it on the slide so the rule is clear.]
+- The teacher at the oven is not a suggestion in this version. Sal's original sheet had students rotate mitts and pull their own pans; with three stations of seven and grade 6 in the room, the teacher pulls.
 - The label discussion during the bake is the part that makes this a nutrition lesson and not just a snack. Do not skip it to "let them relax." Ten minutes is enough for the number, the swap question, and the beans surprise.
 - Keep the four empty packages. They are the Label Reading Quiz review set and one of the stations in Lesson 1.16 (unit price).

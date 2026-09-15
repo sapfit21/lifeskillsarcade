@@ -1,6 +1,6 @@
 # Slides 6.6: Cooking Methods, Dry Heat, Moist Heat, and Why
 
-Slide outline for Lesson 6.6. Thirteen slides, one day. Slides 4 and 5 are the review deck for the Cooking Methods Check. [Sal: take a photo of the two plated potatoes at the end of the period. That photo is a better review slide than anything stock.]
+Slide outline for Lesson 6.6. Thirteen slides, one day. Slides 4 and 5 are the review deck for the Cooking Methods Check.
 
 ## Slide 1: Dry Heat, Moist Heat, and Why
 

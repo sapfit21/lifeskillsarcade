@@ -1,6 +1,6 @@
 # Slides 5.3: Fibers, Natural and Manufactured
 
-Slide outline for Lesson 5.3, one day, thirteen slides. Slides 10 and 11 are the burn demonstration and the no-flame version; use whichever one the building allows. [Sal: get the open-flame answer in writing before you plan on slide 10.]
+Slide outline for Lesson 5.3, one day, thirteen slides. Slides 10 and 11 are the burn demonstration and the no-flame version; use whichever one the building allows.
 
 ## Slide 1: What is this made of?
 

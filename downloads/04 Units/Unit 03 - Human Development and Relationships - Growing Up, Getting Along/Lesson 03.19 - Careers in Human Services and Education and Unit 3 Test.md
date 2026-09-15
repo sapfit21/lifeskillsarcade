@@ -84,7 +84,7 @@ The Unit 3 Test is the closure. The walk sheet is collected with the test. Tomor
 
 ## Differentiation and supports
 
-- ELL: each career card has a picture of the person at work and three short lines (does, needs, uses); the walk sheet's three questions have a 1 to 3 face scale; the careers are listed in Turkish, Portuguese, and Spanish on the handout (marked [check with a native speaker]); the test has a word bank for the matching items and reads at a grade 6 level; a bilingual glossary is allowed on the test.
+- ELL: each career card has a picture of the person at work and three short lines (does, needs, uses); the walk sheet's three questions have a 1 to 3 face scale; the careers are listed in Turkish, Portuguese, and Spanish on the handout (to be verified by a native speaker); the test has a word bank for the matching items and reads at a grade 6 level; a bilingual glossary is allowed on the test.
 - IEP and 504 (general): the walk can be done seated with the eight cards printed on one page; the walk sheet is rating only, with one written line; extended time on the test means it continues at the start of Lesson 4.1 or in a resource period, per the plan; the test can be read aloud; a student may answer the short response orally to the teacher and have it scribed.
 - Grade 6 support: six careers instead of eight (teacher, pediatric nurse, social worker, counselor, child care director, coach); the test's short response is scored on two examples instead of three.
 - Grade 8 stretch: the four extra career cards (pediatrician, occupational therapist, family mediator, youth program director); grade 8 students also write on the walk sheet what a middle schooler could do this year to start toward the circled career (the babysitting course, volunteering, a club, a class in high school).
@@ -105,7 +105,7 @@ None. Optional: look up one of the eight careers with an adult and find one thin
 
 ## Connections
 
-Inside the building: the school counselor and the social worker, if the building has one, are two of the eight careers and could each take one minute at their own card, live. The school nurse is a third. That turns the walk into a live visit with no prep beyond asking. Community: a local college's human services or early childhood program sometimes sends a student to talk about the pathway; the county's youth bureau is another. [Sal: the counselor already visited in Lesson 3.12; ask whether they would stand at their card for two minutes today.]
+Inside the building: the school counselor and the social worker, if the building has one, are two of the eight careers and could each take one minute at their own card, live. The school nurse is a third. That turns the walk into a live visit with no prep beyond asking. Community: a local college's human services or early childhood program sometimes sends a student to talk about the pathway; the county's youth bureau is another.
 
 ## Sources
 
@@ -114,7 +114,7 @@ Inside the building: the school counselor and the social worker, if the building
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Learning Standards, Intermediate, Standard 1. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 7.1.1.
-- Career card content (what each person does, typical education) from the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) and the NYS Education Department's licensing pages for teachers, nurses, social workers, and speech-language pathologists. [Sal: confirm the New York training lines before printing; licensing rules change.]
+- Career card content (what each person does, typical education) from the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) and the NYS Education Department's licensing pages for teachers, nurses, social workers, and speech-language pathologists.
 - Sal's own materials: the Careers Card Sort from Lesson 1.22 (`Handout 01.22 - Careers Card Sort.md`) set the card pattern; the 16 clusters from Lesson 2.21.
 
 ## Teacher notes
@@ -123,4 +123,3 @@ Inside the building: the school counselor and the social worker, if the building
 - The careers walk uses the reset cue from Unit 0 (lights, countdown, hands empty) to rotate. Students know it by now; do not explain it again.
 - Common mistake on the walk: rating from the picture, not the card. The "reads the whole card" line on the clipboard is there for that.
 - The test's short response asks students to defend that no one family structure is better than another, with examples from the scenarios in Lesson 3.14. It does not ask about their own family and the key says a student who writes about their own family is not marked down for it; the examples just have to be real examples.
-- [Sal: your Brentwood students often named coach, nurse, and teacher as the jobs they could see themselves in. The eight cards lead with those three. If a class has a strong pull toward one, the pathway line for that one gets the extra minute in Step 3.]

@@ -86,8 +86,4 @@ Name, the scenario, deliverables, steps by day, group or individual, choice buil
 
 ## 13. Vocabulary for translation
 
-See `Vocabulary NN.md`: Tier 3 words with a one-line student definition, and columns for Turkish, Portuguese, and Spanish marked [check with a native speaker] until verified.
-
-## 14. What Sal should replace
-
-[List of every [Sal: ...] placeholder in the unit, so he can find them.]
+See `Vocabulary NN.md`: Tier 3 words with a one-line student definition, and columns for Turkish, Portuguese, and Spanish, to be checked by a native speaker.

@@ -134,7 +134,6 @@ All middle-level students are entitled to 1 3/4 units of CTE; instruction can be
 
 # THE TWELVE MODULES, VERBATIM
 
-
 ## CONTENT MODULE: Individual Growth and Life Readiness
 
 **BEGIN CONTENT MODULE TEXT: Individual Growth and Life Readiness**
@@ -330,10 +329,7 @@ New York State Association of Family and Consumer Sciences Educators (NYSAFCSE)
 http://www.nysafcse.org/
 Family and Consumer Sciences education in New York state is delivered through a variety of courses designed to promote student attainment of the intermediate and commencement level New York State Learning Standards for Family and Consumer Sciences (FACS) and Career Development and Occupational Studies (CDOS). This professional organization hosts a website that includes "Curriculum" and a "Best Practices" tabs.
 
-
 **END CONTENT MODULE TEXT: Individual Growth and Life Readiness**
-
-
 
 ## CONTENT MODULE: Human Development and Relationships
 
@@ -532,10 +528,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END CONTENT MODULE TEXT: Human Development and Relationships**
-
-
 
 ## CONTENT MODULE: Apparel and Textile Production and Design
 
@@ -689,10 +682,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END CONTENT MODULE TEXT: Apparel and Textile Production and Design**
-
-
 
 ## CONTENT MODULE: Environmental Design and Management
 
@@ -854,10 +844,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END CONTENT MODULE TEXT: Environmental Design and Management**
-
-
 
 ## CONTENT MODULE: Nutrition and Wellness
 
@@ -1027,10 +1014,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END CONTENT MODULE TEXT: Nutrition and Wellness**
-
-
 
 ## CONTENT MODULE: Food Systems and Production
 
@@ -1219,10 +1203,7 @@ New York State Association of Family and Consumer Sciences Educators (NYSAFCSE)
 http://www.nysafcse.org/
 Family and Consumer Sciences education in New York state is delivered through a variety of courses designed to promote student attainment of the intermediate and commencement level New York State Learning Standards for Family and Consumer Sciences (FACS) and Career Development and Occupational Studies (CDOS). This professional organization hosts a website that includes "Curriculum" and a "Best Practices" tabs.
 
-
 **END CONTENT MODULE TEXT: Food Systems and Production**
-
-
 
 ## THEME MODULE: Career and Community Opportunities
 
@@ -1427,10 +1408,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END THEME MODULE TEXT: Career and Community Opportunities**
-
-
 
 ## THEME MODULE: Communication and Interpersonal Relationships
 
@@ -1657,10 +1635,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END THEME MODULE TEXT: Communication and Interpersonal Relationships**
-
-
 
 ## THEME MODULE: Financial and Consumer Literacy
 
@@ -1890,10 +1865,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END THEME MODULE TEXT: Financial and Consumer Literacy**
-
-
 
 ## THEME MODULE: Health, Safety, and Wellness
 
@@ -2147,10 +2119,7 @@ Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END THEME MODULE TEXT: Health, Safety, and Wellness**
-
-
 
 ## THEME MODULE: Problem Solving and Innovation
 
@@ -2399,10 +2368,7 @@ The Career and Technical Education Technical Assistance Center (CTE TAC) operate
 
 under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
 
-
 **END THEME MODULE TEXT: Problem Solving and Innovation**
-
-
 
 ## THEME MODULE: Sustainability
 
@@ -2625,6 +2591,5 @@ The US Composting Council is involved in research, training, and public educatio
 Career and Technical Education Technical Assistance Center of New York (CTE TAC)
 http://nyctecenter.org/
 The Career and Technical Education Technical Assistance Center (CTE TAC) operates under a state contract to assist the New York State Education Department (NYSED) in carrying out its mission of improving the quality, access, and delivery of career and technical education through research-based methods and strategies resulting in broader CTE opportunities for all students.
-
 
 **END THEME MODULE TEXT: Sustainability**

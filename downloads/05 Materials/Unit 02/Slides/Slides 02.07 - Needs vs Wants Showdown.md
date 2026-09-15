@@ -1,6 +1,6 @@
 # Slides 02.07: Needs vs Wants Showdown
 
-Lesson 2.7, one day, 12 slides. All prices marked [update].
+Lesson 2.7, one day, 12 slides. All prices to be refreshed before teaching.
 
 ## Slide 1: Do now
 - Is a smartphone a need or a want?
@@ -61,7 +61,7 @@ Notes: Write the values students name next to the card. This is the line you wil
 Image: a single $100 bill next to a short shopping list.
 
 ## Slide 10: Model line
-- Monthly bus pass, $60 [update], BUY, N.
+- Monthly bus pass, $60, BUY, N.
 - "I cannot get to school without it."
 - Running total: $60. Left: $40.
 - Now you.

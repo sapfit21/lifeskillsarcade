@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Partner: ______________________
 
-This pay stub is made up for class. The bagel shop, the worker, and the numbers are fictional. The hourly rate is the Long Island minimum wage for 2026 [update each September].
+This pay stub is made up for class. The bagel shop, the worker, and the numbers are fictional. The hourly rate is the Long Island minimum wage for 2026.
 
 ## The pay stub
 
@@ -15,7 +15,7 @@ This pay stub is made up for class. The bagel shop, the worker, and the numbers 
 
 | Line | Earnings | Hours | Rate | This period |
 |---|---|---|---|---|
-| 1 | Regular pay | 24.00 | $17.00 [update] | $408.00 |
+| 1 | Regular pay | 24.00 | $17.00 | $408.00 |
 | | **GROSS PAY** | | | **$408.00** |
 
 | Line | Deductions (what came out) | This period |
@@ -86,7 +86,7 @@ $______ divided by $______ = ______ x 100 = ______ percent
 
 26 x $______ = $______
 
-7. Dana pays her own phone plan, $35 a month [update], and a monthly bus pass, $60 [update]. She gets two paychecks a month. Does her take-home cover those two needs? Write two sentences with the numbers.
+7. Dana pays her own phone plan, $35 a month, and a monthly bus pass, $60. She gets two paychecks a month. Does her take-home cover those two needs? Write two sentences with the numbers.
 
 _____________________________________________________________________________
 

@@ -23,7 +23,7 @@ Note on the theme lines: the Communication and Interpersonal Relationships theme
 
 Health class typically covers: "get health information from a trusted adult or a doctor," and sometimes a lesson on media literacy or on fad diets and body image. If the health teacher runs a fad diet or eating disorder lesson, this lesson does not repeat it; it stays on how to check a food claim.
 
-This lesson goes further: students take a real viral food claim, run it through a four-question source check (who wrote it, what do they sell, what is the evidence, when was it posted), check it against three sources of different types, and write the class checklist for judging any food video. The claim is about food, not bodies. [Sal: tell the health teacher the video you pick and confirm it is not about weight loss, so the two classes stay in their lanes.]
+This lesson goes further: students take a real viral food claim, run it through a four-question source check (who wrote it, what do they sell, what is the evidence, when was it posted), check it against three sources of different types, and write the class checklist for judging any food video. The claim is about food, not bodies.
 
 ## Enduring understanding and essential question
 
@@ -44,8 +44,8 @@ Tier 3 (FACS): dietary information, registered dietitian (RD or RDN), peer-revie
 
 ## Materials and setup
 
-- One short viral food video (60 to 90 seconds), pre-screened, downloaded so it plays without ads. Pick a claim that is about food, testable, and not about weight or body size. Examples that have circulated: "seed oils are poison," "microwaving food destroys the nutrients," "brown eggs are healthier than white eggs," "you must drink a gallon of water a day," "honey is healthier than sugar so eat as much as you want." [Sal: pick the one your students are already repeating this year. Do not show the creator's name on the slide; the point is the method, not the person.]
-- Three printed sources on the same claim, one page each, one set per pair: (A) a post or video transcript from the person making the claim, (B) a page from a credible source that addresses it (a registered dietitian's article, a university extension page, the Academy of Nutrition and Dietetics, MedlinePlus, or a USDA page), (C) a product page or ad from a company that sells something related to the claim. [Sal: print these the week before; the three sources on the handout are written as fictional examples for the honey claim so the lesson can run even if you have no time to find real ones.]
+- One short viral food video (60 to 90 seconds), pre-screened, downloaded so it plays without ads. Pick a claim that is about food, testable, and not about weight or body size. Examples that have circulated: "seed oils are poison," "microwaving food destroys the nutrients," "brown eggs are healthier than white eggs," "you must drink a gallon of water a day," "honey is healthier than sugar so eat as much as you want."
+- Three printed sources on the same claim, one page each, one set per pair: (A) a post or video transcript from the person making the claim, (B) a page from a credible source that addresses it (a registered dietitian's article, a university extension page, the Academy of Nutrition and Dietetics, MedlinePlus, or a USDA page), (C) a product page or ad from a company that sells something related to the claim.
 - Food Video Fact Check handout, one per student: `Handout 01.12 - Food Video Fact Check.md` (the four-question check, the three-source table, and space for the class checklist)
 - Chart paper or whiteboard for the class checklist
 - Empty packages students brought from Lesson 1.11 homework, if any
@@ -120,10 +120,10 @@ Inside the building: the library media specialist, who teaches source evaluation
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. e); Theme Module 05, Problem Solving and Innovation, line 4. b) b. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.1.2 and 14.2.4.
-- Credible source guidance: Academy of Nutrition and Dietetics, eatright.org, "What is a Registered Dietitian Nutritionist"; MedlinePlus, "Evaluating Health Information" (medlineplus.gov). [Sal: both pages move; check the links before the lesson.]
+- Credible source guidance: Academy of Nutrition and Dietetics, eatright.org, "What is a Registered Dietitian Nutritionist"; MedlinePlus, "Evaluating Health Information" (medlineplus.gov).
 - The three fictional sources on the handout were written for this lesson and are not real publications.
 
 ## Teacher notes
@@ -131,5 +131,4 @@ Inside the building: the library media specialist, who teaches source evaluation
 - If time runs short, cut Step 4 and put the four do now "facts" on the Lesson 1.13 Day 1 do now instead. Never cut Step 3; the class checklist is the product that carries into Unit 6.
 - Common mistake: students mark a source credible because it "sounds professional" or has a nice website. Send them back to the four questions every time; "sounds professional" is not one of them.
 - Second common mistake: students mark the credible source not credible because it disagrees with the video they liked. That is the lesson. Ask: "Which of the four questions does the dietitian fail?" Usually none.
-- [Sal: your class will name a creator. Do not let the lesson turn into a pile-on. Move it back to "what would you need to see to believe it?"]
 - Keep the chart paper checklist on the wall through the $40 project. Students use it when they cite a source for a recipe or a nutrition claim on the menu card.

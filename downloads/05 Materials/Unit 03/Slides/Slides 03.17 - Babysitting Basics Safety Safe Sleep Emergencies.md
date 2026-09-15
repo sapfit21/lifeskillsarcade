@@ -35,7 +35,7 @@ Image: an outline of an eye over a small figure, and a door with a figure walkin
 - With nothing else in it: no blanket, no pillow, no stuffed animal, no bumper
 - Why: anything soft can block breathing. Back is the only safe position
 Image: a plain empty crib with a baby drawn on its back, and beside it the same crib with a blanket, pillow, and stuffed animal drawn crossed out.
-Notes: Empty the shoebox crib in front of the class, item by item, and say why each one comes out. Never cut this. [Sal: the school nurse can take this demonstration and say it in her own words; ask.]
+Notes: Empty the shoebox crib in front of the class, item by item, and say why each one comes out. Never cut this.
 
 ## Slide 5: Rule 3: Never shake a baby
 
@@ -111,7 +111,7 @@ Notes: Students fill it from the fictional family's information box. Grade 8 wri
 - Rule 7, the general rule for 12 to 14 year olds: short jobs, a child old enough to talk, a parent you know and can reach, a house you have seen, daylight or early evening, no infants overnight
 - New York has no minimum babysitting age in law. This rule is about what a middle schooler is ready for
 - This class is not medical training. No CPR, no first aid beyond "call 911"
-- Next step: the American Red Cross Babysitting Basics course [Sal: confirm the current course name, format, age minimum, cost, and the local chapter]
+- Next step: the American Red Cross Babysitting Basics course
 Notes: Take job D out loud. It fails rule 6 and rule 7 both: unknown ages, unknown house, no parent's number.
 
 ## Slide 13: Questions

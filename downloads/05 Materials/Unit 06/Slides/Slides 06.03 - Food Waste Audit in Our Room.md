@@ -1,6 +1,6 @@
 # Slides 6.3: Food Waste Audit in Our Room
 
-Slide outline for Lesson 6.3. Twelve slides, one day. Slide 5 needs a current national figure pulled the week you teach it. [Sal: photograph your own two bins before you uncover them; the photo is the review slide and it is more convincing than any chart.]
+Slide outline for Lesson 6.3. Twelve slides, one day. Slide 5 needs a current national figure pulled the week you teach it.
 
 ## Slide 1: Food Waste Audit in Our Room
 
@@ -36,7 +36,7 @@ Image: four photos, one per place: a field with unharvested produce, a store bak
 - About a third of the food grown in this country is never eaten
 - Homes are the single biggest share
 - Per person, roughly 200 to 300 pounds a year
-Notes: [Sal: pull the current USDA or EPA figure the week you teach it. Students will look it up on their phones and it is better if your number matches theirs.] Compare to the board guesses now.
+Notes: Compare to the board guesses now.
 
 ## Slide 6: Two bins, two different things
 

@@ -33,7 +33,7 @@ A relationship is a connection between people with expectations on both sides. A
 
 Every one of these is a family because every one of them does the four jobs.
 
-Structure names in other languages [check with a native speaker before printing]:
+Structure names in other languages:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

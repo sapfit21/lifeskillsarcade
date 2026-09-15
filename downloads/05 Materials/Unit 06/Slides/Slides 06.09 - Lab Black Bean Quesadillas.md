@@ -1,6 +1,6 @@
 # Slides 6.9: Lab, Black Bean Quesadillas
 
-Slide outline for Lesson 6.9. Twelve slides, one day. Slide 4 is the flowchart and it stays up all period. Slide 7 is the golden-brown photo pair and it is the most useful slide in the deck. [Sal: this is Lab 4. Do not reteach the phases or the roles.]
+Slide outline for Lesson 6.9. Twelve slides, one day. Slide 4 is the flowchart and it stays up all period. Slide 7 is the golden-brown photo pair and it is the most useful slide in the deck.
 
 ## Slide 1: Lab 4, Black Bean Quesadillas
 
@@ -100,4 +100,4 @@ Notes: Count the shears out and count them back in, every time, all year.
 - How many minutes of cook time?
 - Quesadillas per minute?
 - What minute did the line stall, and what one change would fix it? Name a role and a minute
-Notes: The Station Manager reads the station's throughput out loud when you sign. The Lab Reflection is finished in the first five minutes of Lesson 6.10 or goes home. Cost per station: about $12.94 main dish, about $20.91 with the dessert at full prices, which is over the cap. Run the swaps or share one dessert platter for the room [update from this week's circular].
+Notes: The Station Manager reads the station's throughput out loud when you sign. The Lab Reflection is finished in the first five minutes of Lesson 6.10 or goes home. Cost per station: about $12.94 main dish, about $20.91 with the dessert at full prices, which is over the cap. Run the swaps or share one dessert platter for the room.

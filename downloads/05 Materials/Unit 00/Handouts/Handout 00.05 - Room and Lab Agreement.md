@@ -1,6 +1,6 @@
 # Handout 0.5: The Room and Lab Agreement
 
-Family and Consumer Sciences, Mr. Prevosto's room. [Sal: school name and year]
+Family and Consumer Sciences, Mr. Prevosto's room.
 
 Name: ______________________ Date: __________ Period: ______ Table number: ______
 
@@ -17,7 +17,7 @@ Image: a small stove with a hand held up flat.
 - Hair back, sleeves up, no loose jewelry at a station.
 - If something spills, breaks, burns, or cuts, I tell an adult first. Then we fix it.
 - I know where the first aid kit, the fire extinguisher, the exits, and the Safety Data Sheet binder are. I do not use the extinguisher; I leave.
-- When the fire alarm goes, everything stops where it is. We leave by the exit on the map and meet at [Sal: your meeting spot].
+- When the fire alarm goes, everything stops where it is. We leave by the exit on the map and meet at the spot we walked to on the room tour.
 
 ## 2. Respect
 
@@ -50,7 +50,6 @@ Image: a sponge and a checklist.
 
 Image: a phone with a line through it, next to a laptop.
 
-- [Sal: write your school's phone policy here in one or two lines. Example: "Phones are off and in bags from bell to bell. A phone out during a lab is a safety issue, not a phone issue."]
 - Class devices are for the task on the board. ClassroomStreet, research, and the do now are tasks. Games are not.
 - No photos or video of anyone in this room without Mr. Prevosto's yes and the person's yes.
 
@@ -58,7 +57,7 @@ Image: a phone with a line through it, next to a laptop.
 
 Image: a plate with a crossed-out peanut.
 
-- The nurse's allergy list for this room says we do not bring in: [Sal: list the foods from the nurse's list, for example peanuts and tree nuts]. Not for a lab, not for a snack, not for a birthday.
+- The nurse's allergy list for this room says we do not bring in: ____________________. Not for a lab, not for a snack, not for a birthday.
 - I tell Mr. Prevosto about any food I cannot eat (allergy, religion, family rule) before the first lab, privately if I want. The lab plan will have a version I can eat.
 - We eat what we cook, at the table, after the station is clean. Food from a lab does not leave the room unless Mr. Prevosto says so.
 - I do not eat anything at a station before it is done and served. Tasting is a step in the recipe, not a snack.
@@ -116,12 +115,12 @@ Optional. A family member or guardian who has read this and would like to sign:
 
 Family: ______________________________ Date: __________
 
-Note for families [check with a native speaker]:
+Note for families:
 
-- English: This paper explains how the Family and Consumer Sciences room runs (safety, respect, roles, clean up, phones, food and allergies, and what happens when a rule is broken). Your student helped write it and signed it. Your signature is optional. Questions: [Sal: your school email].
-- Türkçe: Bu kağıt, Aile ve Tüketici Bilimleri sınıfının nasıl işlediğini açıklar (güvenlik, saygı, görevler, temizlik, telefonlar, yiyecek ve alerjiler ve bir kural bozulduğunda ne olacağı). Öğrenciniz bu kuralların yazılmasına yardım etti ve imzaladı. İmzanız isteğe bağlıdır. Sorular için: [Sal: your school email].
-- Português: Este papel explica como funciona a sala de Ciências da Família e do Consumidor (segurança, respeito, funções, limpeza, celulares, comida e alergias, e o que acontece quando uma regra é quebrada). Seu filho ou filha ajudou a escrever e assinou. Sua assinatura é opcional. Dúvidas: [Sal: your school email].
-- Español: Este papel explica cómo funciona el salón de Ciencias de la Familia y del Consumidor (seguridad, respeto, roles, limpieza, teléfonos, comida y alergias, y qué pasa cuando se rompe una regla). Su hijo o hija ayudó a escribirlo y lo firmó. Su firma es opcional. Preguntas: [Sal: your school email].
+- English: This paper explains how the Family and Consumer Sciences room runs (safety, respect, roles, clean up, phones, food and allergies, and what happens when a rule is broken). Your student helped write it and signed it. Your signature is optional. Questions:.
+- Türkçe: Bu kağıt, Aile ve Tüketici Bilimleri sınıfının nasıl işlediğini açıklar (güvenlik, saygı, görevler, temizlik, telefonlar, yiyecek ve alerjiler ve bir kural bozulduğunda ne olacağı). Öğrenciniz bu kuralların yazılmasına yardım etti ve imzaladı. İmzanız isteğe bağlıdır. Sorular için:.
+- Português: Este papel explica como funciona a sala de Ciências da Família e do Consumidor (segurança, respeito, funções, limpeza, celulares, comida e alergias, e o que acontece quando uma regra é quebrada). Seu filho ou filha ajudou a escrever e assinou. Sua assinatura é opcional. Dúvidas:.
+- Español: Este papel explica cómo funciona el salón de Ciencias de la Familia y del Consumidor (seguridad, respeto, roles, limpieza, teléfonos, comida y alergias, y qué pasa cuando se rompe una regla). Su hijo o hija ayudó a escribirlo y lo firmó. Su firma es opcional. Preguntas:.
 
 * * *
 
@@ -140,4 +139,3 @@ The six-step sanitation routine in section 4 uses the same wording as every Unit
 
 Section 8 matches the grading plan: a safety violation in a lab is a zero for that lab's participation and a conversation, not a lecture, and the student gets a written lab alternative so no one loses lab points for being pulled out.
 
-[Sal: fill in the four brackets before printing: school name and year, the meeting spot, the phone policy, the nurse's allergy list, and your email in the family note. The family note translations need a native speaker's check before they go home.]

@@ -84,7 +84,7 @@ Clipboard checklist during Step 4: for each pair, a yes or no on "the I-message 
 
 ## Differentiation and supports
 
-- ELL: the four listening moves have an icon each on the slides (an eye, a body turned, a speech bubble with an arrow back, a question mark) and the same icons on the handout; the I-message frame is printed with the four blanks in Turkish, Portuguese, and Spanish on the handout (marked [check with a native speaker]); Draw/See/Hear can be played in a shared home language for the first round; sentence starter for the restate move: "So you are saying ___."
+- ELL: the four listening moves have an icon each on the slides (an eye, a body turned, a speech bubble with an arrow back, a question mark) and the same icons on the handout; the I-message frame is printed with the four blanks in Turkish, Portuguese, and Spanish on the handout (to be verified by a native speaker); Draw/See/Hear can be played in a shared home language for the first round; sentence starter for the restate move: "So you are saying ___."
 - IEP and 504 (general): the you-statement list gives ten choices so a student can pick a short one; a student who does not want to speak an I-message aloud writes it and reads it to the teacher instead of a partner; the checklist uses checkboxes, not sentences; extended time means the second I-message can be finished at the start of Lesson 3.11.
 - Grade 6 support: use the first five you-statements only (they are about objects and turns, not feelings between people). The I-message frame for grade 6 has three parts: I feel ... when ... I need ...; the "because" is optional.
 - Grade 8 stretch: numbers 8 to 10 involve a group chat, a rumor, and a family rule. Grade 8 pairs also write a one-line answer to "what could the listener say back that would make this worse?" and then the opposite.
@@ -107,13 +107,13 @@ None. Optional: use one I-message at home this week and be ready to say what hap
 
 ## Connections
 
-Inside the building: the ELA teacher, who teaches speaking and listening standards, could use the same four listening moves during literature circles so students hear one language in two rooms. The counselor's office can post the I-message frame; students who already know it from FACS can use it in a mediation. [Sal: give the counselor a copy of the handout.]
+Inside the building: the ELA teacher, who teaches speaking and listening standards, could use the same four listening moves during literature circles so students hear one language in two rooms. The counselor's office can post the I-message frame; students who already know it from FACS can use it in a mediation.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. c) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 2. b), 2. c), and 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.2 and 13.3.3.
 - Sal's own materials: the Draw/See/Hear game as written up in Lesson 0.2 (`Handout 00.02 - Draw See Hear Picture Cards and Room Map.md`); his Brentwood Communication Styles packet (`education_teachingwork_communication_styles_2026_04.docx`) for the assertive, passive, and aggressive vocabulary and the listening-as-communication idea, rewritten here without the personal branding frame.
 
@@ -123,4 +123,3 @@ Inside the building: the ELA teacher, who teaches speaking and listening standar
 - Common mistake: the fake I-message. "I feel like you ..." is a you-statement wearing a costume. The test is whether the word after "I feel" is a feeling (frustrated, left out, worried, embarrassed). Keep a feelings word bank on the slide.
 - The second common mistake is a vague need. "I need respect" cannot be done tomorrow. "I need you to ask before you take my charger" can.
 - The Draw/See/Hear twist (no questions for 45 seconds) is new; the Unit 0 version let drawers ask from the start. Students who played it in September will notice the difference, which is the point.
-- [Sal: your Brentwood Communication Styles packet used four fictional friends with four styles. If you want the styles named (assertive, passive, aggressive), put them on one slide at the end of Step 3 as "an I-message is the assertive choice." Keep it to one slide; Lesson 3.13 comes back to saying no assertively.]

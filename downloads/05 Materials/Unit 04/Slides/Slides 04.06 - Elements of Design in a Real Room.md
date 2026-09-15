@@ -1,6 +1,6 @@
 # Slides 4.6: Elements of Design in a Real Room
 
-Slide outline for Lesson 4.6. Fourteen slides, one day. Slides 3 to 10 are the element cards; they come back as the review before the Design Vocabulary Check. [Sal: the described photos should be replaced by photos of real rooms, and the classroom slide by a photo of your room.]
+Slide outline for Lesson 4.6. Fourteen slides, one day. Slides 3 to 10 are the element cards; they come back as the review before the Design Vocabulary Check.
 
 ## Slide 1: Elements of Design
 

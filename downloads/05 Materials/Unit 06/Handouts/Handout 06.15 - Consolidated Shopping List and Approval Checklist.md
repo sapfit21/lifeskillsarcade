@@ -6,7 +6,7 @@ Lesson 6.15. Page 1 is the four rules and the store sections. Page 2 is the cons
 
 Print the consolidated list at poster size for the class chart and letter size for every student.
 
-Class budget: **$80.00**. Station budget: **$20.00** each. All prices marked **[update from this week's circular]**.
+Class budget: **$80.00**. Station budget: **$20.00** each. All prices to be refreshed from the current circular before teaching.
 
 * * *
 
@@ -143,8 +143,6 @@ Every pair reports. The teacher writes each saving on the board and subtracts.
 | That item is in the ___ section. | Bu ürün ___ bölümünde. | Esse item está na seção de ___. | Ese artículo está en la sección de ___. |
 | If it is out of stock, we will buy ___ instead. | Stokta yoksa yerine ___ alacağız. | Se estiver em falta, vamos comprar ___ em vez disso. | Si no hay, compraremos ___ en su lugar. |
 
-**[check with a native speaker]**
-
 * * *
 
 # Page 4. The Teacher Approval Checklist
@@ -165,8 +163,6 @@ The teacher reads this out loud with the class and checks every line. **Every li
 | 10 | Every item on all four station cards appears somewhere on this list (read the cards against the list, not from memory) | |
 | 11 | Nothing needs to be bought that the room already owns (foil, spray, salt, garlic powder, spoons) | |
 | 12 | Signature and date, and the sheet goes in the folder | |
-
-**[Sal: add line 13 for your school's purchasing rule: a purchase order, a reimbursement form, a p-card, or your own money and a receipt. Say out loud which one it is. Students should know real money has a real process.]**
 
 **APPROVED. Teacher signature: ______________________ Date: __________**
 

@@ -1,6 +1,6 @@
 # Slides 4.16: Careers in Housing, Interior Design, and Sustainability
 
-Slide outline for Lesson 4.16. Thirteen slides, one day. Every pay figure on these slides is marked [update]. [Sal: pull the current median from bls.gov/ooh before you teach this, and put your local BOCES or CTE partner on slide 13.]
+Slide outline for Lesson 4.16. Thirteen slides, one day. Every pay figure on these slides is to be refreshed before teaching.
 
 ## Slide 1: Do now
 
@@ -54,11 +54,11 @@ Notes: "Apprenticeship" gets heard as "not a real job." Say the pay out loud on 
 
 ## Slide 7: The numbers
 
-- Electrician: median about $62,000 [update]
-- Interior designer: median about $62,000 [update]
-- Plumber: about $63,000. HVAC: about $60,000. [update]
-- Architect: about $95,000. Construction manager: about $105,000. [update]
-- Furniture maker: about $42,000. Real estate agent: about $55,000, on commission. [update]
+- Electrician: median about $62,000
+- Interior designer: median about $62,000
+- Plumber: about $63,000. HVAC: about $60,000.
+- Architect: about $95,000. Construction manager: about $105,000.
+- Furniture maker: about $42,000. Real estate agent: about $55,000, on commission.
 - Union electricians in the New York area often earn more
 Image: a simple bar chart of the medians, sorted low to high, with the path labeled under each bar.
 Notes: The electrician and the interior designer earn about the same, and one of them pays for four years of school. Let that sit. Then say the numbers move every year and the cards say where each came from.
@@ -109,8 +109,7 @@ Image: two small line drawings side by side, the same room in plan view, one lab
 ## Slide 13: The bridge
 
 - A student who can draw a plan to scale, price a room, and pitch it has already done the first week of every one of these jobs
-- The CTE programs near us that lead to these trades: [Sal: name the local BOCES or your school's high school CTE partner]
+- The CTE programs near us that lead to these trades: the local BOCES or high school CTE partner
 - Write one program name on your self-check
-- [Sal: two sentences on your own path, business degree to MBA to Oracle to fitness to this classroom. A path bends.]
 - Exit line: "The career I fit best is ___ because in the project I ___. The path to it is ___."
 Notes: Two exit lines read aloud. Sort the slips by path. If a class chose the degree path only, open the Lesson 4.17 review with the trades bridge again. Keep the slips; Unit 7's career plan comes back to them.

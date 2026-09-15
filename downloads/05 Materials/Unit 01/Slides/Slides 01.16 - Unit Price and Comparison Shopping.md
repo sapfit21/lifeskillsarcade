@@ -1,6 +1,6 @@
 # Slides 01.16: Unit Price and Comparison Shopping
 
-Lesson 1.16, one day, 13 slides. All prices marked [update from this week's circular].
+Lesson 1.16, one day, 13 slides. All prices to be refreshed from the current circular before teaching.
 
 ## Slide 1: Do now
 - A 16 oz box of pasta costs $1.29.
@@ -50,7 +50,7 @@ Image: an 8 oz bag and a 2 lb bag of shredded cheese.
 - In New York, most grocery food is not taxed.
 - Foil, paper plates, cups, soap: taxed.
 - Candy, soda, prepared hot food: taxed.
-- Our county: about 8.625 percent. [Sal: confirm the local rate]
+- Our county: about 8.625 percent.
 - A $3.49 roll of foil rings up at $3.79.
 
 ## Slide 9: Practice

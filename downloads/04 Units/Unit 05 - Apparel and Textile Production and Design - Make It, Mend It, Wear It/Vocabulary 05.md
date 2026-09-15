@@ -2,13 +2,13 @@
 
 Unit 5, Apparel and Textile Production and Design. The unit's 66 Tier 3 words across the five topics, with a one-line definition written for a grade 6 to 7 reader and columns for Turkish, Portuguese, and Spanish.
 
-**Translation status: [check with a native speaker].** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been checked by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Tool and stitch names are the worst case. Sewing words drift by country and by trade: what one country calls a stitch, another calls something else, and a few of these have no single everyday word in every language. **The English term stays on every card,** because a student will see the English word on a real care label, a real pattern envelope, a real tool, and a real store tag.
+**Translation status.** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been checked by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Tool and stitch names are the worst case. Sewing words drift by country and by trade: what one country calls a stitch, another calls something else, and a few of these have no single everyday word in every language. **The English term stays on every card,** because a student will see the English word on a real care label, a real pattern envelope, a real tool, and a real store tag.
 
 Two words do double duty and the table says which meaning is meant. "Pattern" here is the paper shape you cut fabric from, not a repeating print (the repeating print is the art word, and it belongs to Unit 4). "Shank" here is the small stack of thread under a button that gives it room to fasten, not the part of a tool.
 
 How lessons use this file: each lesson names its own Tier 3 words, and the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints the table as picture-ready cards. **The card is allowed as a word bank on the Unit 5 Test**, because the test is checking whether a student can choose a stitch and run a comparison, not whether they can spell "whipstitch."
 
-## The table [check with a native speaker]
+## The table
 
 | # | Topic | English term | Student definition | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|---|---|
@@ -81,7 +81,7 @@ How lessons use this file: each lesson names its own Tier 3 words, and the hando
 
 ## Sentence starters
 
-Print these on the back of the station count sheet, the feedback slip, and the 45-second planner. **[check with a native speaker]** [Sal: swap in the Turkish and Portuguese starters you already use at Brentwood if they read better than these.]
+Print these on the back of the station count sheet, the feedback slip, and the 45-second planner.
 
 ### Asking for help at a sewing station (Lessons 5.5 to 5.11, 5.16 to 5.18)
 

@@ -44,7 +44,7 @@ Tier 3 (FACS): client, design brief, mood (from Lesson 4.9), gallery walk, self-
 - A visible sixty-second timer
 - A clipboard sheet with the five pitch parts as a checklist, one row per team
 - Slides: `Slides 04.15 - Pitch and Gallery Walk`
-- Setup notes: arrange the stations before class so no two teams with the same client card are next to each other. Assign each team a "client" for the pitch: a student from another team who holds the client card and listens as that person. [Sal: if a period has an odd number of teams, you are the client for one.]
+- Setup notes: arrange the stations before class so no two teams with the same client card are next to each other. Assign each team a "client" for the pitch: a student from another team who holds the client card and listens as that person.
 
 ## Pre-assessment
 
@@ -89,7 +89,7 @@ Self-assessment: each team fills the self-assessment row of Rubric 04, one score
 
 ## Differentiation and supports
 
-- ELL: the pitch planner is a five-box card with an icon per box (a person, a plan, a dollar sign, a paint chip, a leaf and a shield) and a sentence starter in each; the picture pitch card in `Project 04 - Design a Room.md` lets a student point to the plan and model while a teammate reads the line; sentence starters in Turkish, Portuguese, and Spanish on the project sheet, marked [check with a native speaker]; a student may pitch in the home language with a teammate translating, and the five parts are scored on content, not accent.
+- ELL: the pitch planner is a five-box card with an icon per box (a person, a plan, a dollar sign, a paint chip, a leaf and a shield) and a sentence starter in each; the picture pitch card in `Project 04 - Design a Room.md` lets a student point to the plan and model while a teammate reads the line; sentence starters in Turkish, Portuguese, and Spanish on the project sheet, to be verified by a native speaker; a student may pitch in the home language with a teammate translating, and the five parts are scored on content, not accent.
 - IEP and 504 (general): a student may read the pitch from the planner; a student may pitch to the teacher alone at the station instead of in front of the half-class; the feedback slip has checkboxes for the most common stars and steps beside the write-in lines; extended time: two slips instead of four; a student who does not speak in front of others owns the feedback slips and the self-assessment evidence lines, which are part of criterion 5.
 - Grade 6 support: pitch three parts (the client and the need, the plan, the budget total) and two feedback slips.
 - Grade 8 stretch: answer two client questions instead of one; on the self-assessment, write which rubric level the model would reach if the budget were cut to $250 and what would go first.
@@ -112,13 +112,13 @@ None. Optional: tell someone at home about your client and the room in one minut
 
 ## Connections
 
-English language arts: the sixty-second pitch is a persuasive speech with a claim (the room solves the need) and evidence (the path width, the total, the label); the ELA teacher can use the pitch planner as a persuasion outline. Community: a local interior designer, architect, or contractor as a guest client for one period, asking the questions, is the best version of this lesson and sets up Lesson 4.16 [Sal: your Brentwood contacts or your school's parent network].
+English language arts: the sixty-second pitch is a persuasive speech with a claim (the room solves the need) and evidence (the path width, the total, the label); the ELA teacher can use the pitch planner as a persuasion outline. Community: a local interior designer, architect, or contractor as a guest client for one period, asking the questions, is the best version of this lesson and sets up Lesson 4.16.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. c) and 3. a). Copy in `02 Standards/NYS Module PDFs/`. The module's Problem Solving and Innovation illustrative activity (a gallery walk to critique tiny house designs, naming elements admired and proposing alternatives) is the source of the gallery walk and the two stars and a step slip.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.4 and 11.6.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - Sal's own materials: the sixty-second pitch and gallery routine from the $40 project (Unit 1, Lesson 1.21) and the "design statement" and "personal reflection" prompts in `education_teachingwork_dream_home_challenge_2026_04.docx`.
 
@@ -128,5 +128,4 @@ English language arts: the sixty-second pitch is a persuasive speech with a clai
 - Common mistake: the pitch describes the room ("the bed is here, the desk is here") and never says the need. Hold to the order: need first. The clipboard has part 1 first for a reason.
 - Common mistake: feedback slips that say "cool" or "nice colors." Read one good slip aloud before the walk and one bad one (made up). The rule is a feature and a client.
 - Twelve pitches at sixty seconds plus a question is about eighteen minutes; the split rounds keep the room from sitting still for that long. In a class of more than fourteen teams, run three rounds of six minutes each and shorten the planner time.
-- [Sal: your Orangetheory sales background is the pitch lesson. The line "the client does not buy the room, the client buys the problem going away" is yours to say.]
 - Keep the models on the shelf until after the Unit 4 Test; the review game in Lesson 4.17 uses them.

@@ -1,6 +1,6 @@
 # Slides 02.12: Saving and Compound Growth
 
-Lesson 2.12, one day, 13 slides. Rates marked [update].
+Lesson 2.12, one day, 13 slides. Rates to be refreshed before teaching.
 
 ## Slide 1: Do now
 - You put $20 a week in a jar and never touch it.
@@ -25,7 +25,6 @@ Image: a jar, a bank building, a stock chart, left to right.
 - Most banks and credit unions open a youth account with an adult co-owner.
 - Bring ID. Some need a small first deposit.
 - Ask three things: the rate, the fees, the minimum balance.
-- [Sal: name the credit union or bank nearest the school]
 
 ## Slide 5: Pay yourself first
 - The savings line is the first thing out of every paycheck.

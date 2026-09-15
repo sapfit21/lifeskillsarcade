@@ -52,7 +52,7 @@ Per station:
 - Two pre-threaded and knotted needles parked in the cushion for anyone who needs one
 
 For the whole class:
-- Practice cloths, two per student plus ten spares: white cotton muslin or an old sheet cut to about six by nine inches, with the practice lines printed or drawn on them. Printing works: run cut muslin squares through a copier or a home inkjet, or draw the lines with a ruler and a fine marker. The lines are described in `Handout 05.06 - Practice Cloth Guide.md`. [Sal: an old flat sheet from a thrift store, about $4, cuts into roughly sixty practice cloths. At three stations of about seven, 21 students, two each plus ten spares is 52 cloths, so one sheet supplies the topic. A section of 28 runs a fourth station and needs 66, so cut a second sheet. Do it once with the fabric shears and a ruler and the topic is supplied.]
+- Practice cloths, two per student plus ten spares: white cotton muslin or an old sheet cut to about six by nine inches, with the practice lines printed or drawn on them. Printing works: run cut muslin squares through a copier or a home inkjet, or draw the lines with a ruler and a fine marker. The lines are described in `Handout 05.06 - Practice Cloth Guide.md`. An old flat sheet from a thrift store, about $4, cuts into roughly sixty practice cloths; at three stations of about seven, two each plus ten spares is 52 cloths, so one sheet supplies the topic, and a section of 28 needs a second sheet.
 - The demonstration rig: one large blunt yarn needle, a ball of yarn in a bright color, and a piece of burlap or plastic canvas about twelve inches square stapled to a foam board or held in an embroidery hoop. This is what the back row watches.
 - A document camera if the room has one; if not, the small demonstration is done at one table with the class standing in a ring, twice, once for each half of the class.
 - Handout, one per student: `Handout 05.06 - Practice Cloth Guide.md`
@@ -129,7 +129,7 @@ None. Optional: teach one person at home the quilter's knot. If they already kno
 
 ## Connections
 
-Art: the running stitch is a drawing on cloth, and the art teacher's line quality vocabulary transfers directly; trade the practice cloths for their contour line lesson. Mathematics: measuring stitch length, averaging ten of them, and reporting a range is real measurement and data, and the math teacher can use the class's own numbers. Community: a quilting guild or a senior center craft group will often send two volunteers for an hour, and two extra pairs of hands on threading day is worth more than any material. [Sal: a local quilt shop or a senior center is the easiest ask; threading day is the day to ask for.]
+Art: the running stitch is a drawing on cloth, and the art teacher's line quality vocabulary transfers directly; trade the practice cloths for their contour line lesson. Mathematics: measuring stitch length, averaging ten of them, and reporting a range is real measurement and data, and the math teacher can use the class's own numbers. Community: a quilting guild or a senior center craft group will often send two volunteers for an hour, and two extra pairs of hands on threading day is worth more than any material.
 
 ## Sources
 
@@ -148,4 +148,3 @@ Art: the running stitch is a drawing on cloth, and the art teacher's line qualit
 - Common mistake: thread cut three feet long because longer feels like fewer refills. Let one student do it and then let them discover the tangle. It teaches faster than the rule.
 - Common mistake: students hold the fabric up in the air and stitch toward themselves. Fabric flat on the table, free hand behind the needle.
 - Put the practice cloths in named zip bags at the end and keep them in the room. They are the sampler base, and a cloth that goes home does not come back.
-- [Sal: yesterday you asked who had sewn before. Use those students as station helpers today and tell them the rule out loud: they teach, they do not touch somebody else's needle. It keeps them busy and it gets you three extra pairs of hands.]

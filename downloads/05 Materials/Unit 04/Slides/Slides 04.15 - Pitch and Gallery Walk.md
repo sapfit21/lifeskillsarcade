@@ -1,6 +1,6 @@
 # Slides 4.15: Pitch and Gallery Walk
 
-Slide outline for Lesson 4.15. Twelve slides, one day. This is the last day of Project 04 and the turn-in day. [Sal: on slide 3, your Orangetheory line belongs here: the client does not buy the room, the client buys the problem going away.]
+Slide outline for Lesson 4.15. Twelve slides, one day. This is the last day of Project 04 and the turn-in day.
 
 ## Slide 1: Do now
 
@@ -22,7 +22,6 @@ Image: the models set out on tables around the room, each with its client card f
 
 - Not because they read your Budget Sheet
 - Because you told them, in their words, that this room solves their problem
-- [Sal: your line from Orangetheory here.]
 - Sixty seconds. The timer does not care what you have left to say.
 Notes: One minute on this, no more. Then straight to the planner.
 
@@ -60,7 +59,7 @@ Notes: The answer has to contain a number or a feature from the plan, the sheet,
 - Sixty seconds, then the timer stops you
 - The client asks one question. One sentence back.
 - Clients rotate between pitches, so every listener hears two
-Notes: Nine minutes. Score the five parts and "every teammate spoke" on the clipboard sheet as you go. [Sal: if a period has an odd number of teams, you are the client for one.]
+Notes: Nine minutes. Score the five parts and "every teammate spoke" on the clipboard sheet as you go.
 
 ## Slide 8: Round two
 

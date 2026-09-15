@@ -49,7 +49,7 @@ Tier 3 (FACS): skillet, spatula, golden brown, drain and rinse, portion, wedge, 
 ## Materials and setup
 
 Per station of about seven students:
-- 1 package flour tortillas, 10 count, store brand [update from this week's circular]
+- 1 package flour tortillas, 10 count, store brand
 - 2 cans black beans, 15 oz, store brand, opened by the teacher before class
 - 2 bags shredded Mexican blend cheese, 8 oz each (1 1/2 bags is enough)
 - 1 jar salsa, 16 oz, store brand, for dipping
@@ -60,7 +60,7 @@ Per station of about seven students:
 - The 40-minute flowchart in five-minute blocks on the board from the slides, a visible timer, aprons and hair ties, the clean-up zone chart at each station
 - `Rubric 01 - Lab Rubric.md` on a clipboard
 - Slides: `Slides 06.09 - Lab, Black Bean Quesadillas`
-- Setup notes: open the cans before class, because a can opener is a tool that needs supervision and there is no time for it in a ten-minute prep. Do not preheat the skillets; students set them and turn the heat on. Put the colander in the sink. The dessert station, if it runs, sits on a separate counter away from the stove and is assembled by the Toppings Chief and Plate Builder during the cook phase. Sanitation routine, all six steps, in this order: hair back, sleeves up, wash hands, sanitize surfaces, clean as you go, station check before dismissal. Allergy check the day before: wheat in the tortilla and the graham cracker, dairy in the cheese and the whipped cream, soy in some shredded cheese (the lecithin), and some salsas carry a shared-equipment note. Substitutions are in Differentiation. [Sal: confirm against the nurse's allergy list, not the student's word.]
+- Setup notes: open the cans before class, because a can opener is a tool that needs supervision and there is no time for it in a ten-minute prep. Do not preheat the skillets; students set them and turn the heat on. Put the colander in the sink. The dessert station, if it runs, sits on a separate counter away from the stove and is assembled by the Toppings Chief and Plate Builder during the cook phase. Sanitation routine, all six steps, in this order: hair back, sleeves up, wash hands, sanitize surfaces, clean as you go, station check before dismissal. Allergy check the day before: wheat in the tortilla and the graham cracker, dairy in the cheese and the whipped cream, soy in some shredded cheese (the lecithin), and some salsas carry a shared-equipment note. Substitutions are in Differentiation.
 
 ## Pre-assessment
 
@@ -129,13 +129,13 @@ The Lab Reflection, if not finished in class. Optional: make one quesadilla at h
 
 ## Connections
 
-Math: throughput is a rate problem (items per minute), and cost per quesadilla is division with money. Social studies and Spanish: the quesadilla is one of the dishes Lesson 6.10 studies, and a Spanish teacher can give the class the right words for the ingredients, which costs them two minutes and gives students a reason to use the language. Careers: this is a line cook's job and a food truck's whole business model, and it belongs in the careers lesson at the end of the unit. [Sal: if the school has a Spanish teacher, inviting them to name the ingredients in Spanish at the start of the period is a five-minute favor that students remember.]
+Math: throughput is a rate problem (items per minute), and cost per quesadilla is division with money. Social studies and Spanish: the quesadilla is one of the dishes Lesson 6.10 studies, and a Spanish teacher can give the class the right words for the ingredients, which costs them two minutes and gives students a reason to use the language. Careers: this is a line cook's job and a food truck's whole business model, and it belongs in the careers lesson at the end of the unit.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. e), 2. c), and 2. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Resources. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.5.7.
 - `Rubric 01 - Lab Rubric.md` and `Handout 01.08 - Lab Reflection.md`, reused unchanged.
@@ -150,7 +150,7 @@ Math: throughput is a rate problem (items per minute), and cost per quesadilla i
 - The empty skillet is the whole lesson. When you see one sitting on heat with nothing in it, ask whose job the next tortilla was rather than fixing it yourself.
 - Sal's package included the graham cracker blueberry stacks running in parallel. Keep them as an optional dessert station: it gives two students a real job away from the heat and it is the only thing in the lab a student with a dairy or wheat allergy can run start to finish with a substituted ingredient.
 - If the period is under 35 minutes, cut to four large quesadillas on one skillet per station and skip the dessert.
-- Per-station cost estimate (store brand, Long Island supermarket; every price marked [update from this week's circular]):
+- Per-station cost estimate (store brand, Long Island supermarket; every price to be refreshed from the current circular before teaching):
 
 | Item | Qty per station of seven | Estimated price | Budget swap |
 |---|---|---|---|
@@ -166,4 +166,3 @@ Math: throughput is a rate problem (items per minute), and cost per quesadilla i
 | No-kitchen Rolled Wraps | per station of seven | about $13 | Tortillas $2.49, beans $1.98, cheese $5.98, salsa $2.49, lettuce $1.99, minus the spray |
 
 - The dessert is what pushes this lab over $20 at full prices. Sal's own package flagged the same thing. Either run the swaps or drop the dessert to a shared class platter instead of a station each, which is about $8 for the whole room.
-- [Sal: your March 2026 package priced the main dish at about $14.93 for eight and the whole thing at about $22.90 at full prices. The numbers here are the same list at seven per station with your own swap column applied.]

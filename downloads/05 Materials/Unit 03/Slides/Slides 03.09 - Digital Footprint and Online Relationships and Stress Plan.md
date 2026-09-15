@@ -65,7 +65,7 @@ Notes: 8 minutes with Part 2. Grade 6 and IEP/504: four scenarios.
 
 - Log off when: the chat is setting off your body signals (3.7); it is past your sleep window (2.6); an argument has gone three messages with no one calmer; someone is being hurt
 - Tell an adult when: anyone asks to meet or for photos; a screenshot of someone is going around; anyone talks about hurting themselves or others; you are scared
-- Who: the counselor [Sal: name, room]; the technology coordinator [Sal: name]; any teacher; the office; an adult at home
+- Who: the counselor; the technology coordinator; any teacher; the office; an adult at home
 Notes: Reveal the scenario key: 1 healthy; 2 log off and tell; 3 healthy; 4 log off; 5 unhealthy pattern, notice it; 6 log off and tell, do not forward. Thumbs for five or six right. Whiteboard: "A screenshot of a classmate going around: which category?" Log off and tell, with a person.
 
 ## Slide 9: The Stress Plan
@@ -75,7 +75,6 @@ Notes: Reveal the scenario key: 1 healthy; 2 log off and tell; 3 healthy; 4 log 
 - Two tools from your toolkit card, and when each fits
 - One person to talk to (a role)
 - One boundary with your phone, and why it would lower your number
-- [Sal: if the school has a phone policy, say it here and ask for a boundary outside school]
 Notes: Read the rubric on slide 10 aloud before they start.
 
 ## Slide 10: The mini rubric
@@ -88,8 +87,8 @@ Notes: The rubric is printed on page 2 of the handout. Say: check your plan agai
 
 ## Slide 11: Two example stressors (from your exit strips)
 
-- Most common category in this class: [Sal: fill from the 3.7 strips, for example "S: school, a test week"]
-- Second: [Sal: for example "F: friends, a group chat argument"]
+- Most common category in this class, from the 3.7 strips
+- Second most common
 - These are examples. Your stressor can be any category
 - Sentence starters: "When ___ stresses me, I will ___." "I can talk to ___ because ___." "My phone will ___ at ___"
 Notes: Start the 10-minute timer. Collect at the timer.

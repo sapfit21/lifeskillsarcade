@@ -43,7 +43,7 @@ Tier 3 (FACS): apparel, personal protective equipment (PPE), dress code, uniform
 - Handout, one per student: `Handout 05.01 - Match the Clothing to the Situation.md`
 - Slides: `Slides 05.01 - Clothing for Roles Activities Weather and Safety` (outline in 05 Materials; the site renders it as a deck)
 - Five situation cards printed large, one taped on each of five spots around the room (job interview, construction site, wedding, soccer game, cold walk to school). Cards are in the handout, Part 2, and can be enlarged.
-- The PPE box: real items from this room and the school, laid out on the front table. Minimum set: an apron, an oven mitt, safety glasses or goggles, a hair tie or hair net, a closed-toe shoe next to a flip-flop, a work glove, a high-visibility vest if the custodian will lend one, a bike helmet. [Sal: pull these from your own room and the custodian's closet. Eight items is plenty. The flip-flop next to the closed-toe shoe does more teaching than any slide.]
+- The PPE box: real items from this room and the school, laid out on the front table. Minimum set: an apron, an oven mitt, safety glasses or goggles, a hair tie or hair net, a closed-toe shoe next to a flip-flop, a work glove, a high-visibility vest if the custodian will lend one, a bike helmet.
 - Index cards for the closure, one per student
 - Timer visible to the class
 - Setup notes: lay the PPE box out before the bell so students see it on the way in and start asking. Tape the five situation cards up before the period. No allergy or safety check needed today; nothing is worn by a student unless they volunteer, and nothing goes on a head that has been on another head.
@@ -98,7 +98,7 @@ Exit card, three lines: (1) one piece of protective clothing you will wear in th
 - Grade 6 support: three situation cards instead of five (interview, soccer game, cold walk) and the reason frame is filled in for the first card as an example.
 - Grade 8 stretch: add a sixth card, "a paid job you might actually get at 15 (grocery bagger, camp counselor, dog walker)," and have the student find and quote the real dress rule from that employer's own posted policy, then judge whether the rule is about safety or about image.
 - UDL checkpoint used: multiple means of representation (real objects in hand, plus the same items on the slide and in the picture-word bank) and multiple means of engagement (the rotation is a timed pair task with movement and choice at each card).
-- No-kitchen or no-machine alternative: nothing in this lesson needs a kitchen or a machine. If the PPE box cannot be assembled, the slide deck carries a photo of every item and the walk becomes a slide walk with students naming the protection before the answer appears. [Sal: your own room's apron and mitt beat any stock photo. Take the pictures once and you have the slides forever.]
+- No-kitchen or no-machine alternative: nothing in this lesson needs a kitchen or a machine. If the PPE box cannot be assembled, the slide deck carries a photo of every item and the walk becomes a slide walk with students naming the protection before the answer appears.
 
 ## Assessment
 
@@ -114,7 +114,7 @@ None. Optional: look at the care tag or the label inside one thing you are weari
 
 ## Connections
 
-Physical education and health: the PE teacher already enforces footwear and can co-sign the closed-toe rule in one sentence at the door; FACS gives PE a class that can explain why the rule exists instead of arguing about it. Science: goggles and the reason for them is the same lesson in both rooms, so trade the goggle line for the science teacher's fabric-and-heat demo in Lesson 5.3. Community: the school custodian for the high-visibility vest and one minute on why he wears it in the parking lot; he gives the class a real worker's answer and gets a class that stops leaving bags in the hallway. [Sal: ask the custodian first; he is the easiest yes in the building.]
+Physical education and health: the PE teacher already enforces footwear and can co-sign the closed-toe rule in one sentence at the door; FACS gives PE a class that can explain why the rule exists instead of arguing about it. Science: goggles and the reason for them is the same lesson in both rooms, so trade the goggle line for the science teacher's fabric-and-heat demo in Lesson 5.3. Community: the school custodian for the high-visibility vest and one minute on why he wears it in the parking lot; he gives the class a real worker's answer and gets a class that stops leaving bags in the hallway.
 
 ## Sources
 
@@ -123,7 +123,7 @@ Physical education and health: the PE teacher already enforces footwear and can 
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, Key Idea and PI C. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), content standard 16.2 and competency 2.1.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - Sal's own materials: the Brentwood "Dress the Part" packet (workbook 5.9), specifically its second activity, outfits for five situations. Re-leveled here for grades 6 to 8 and retied to ATPD 1. b). The packet's style-profile activity moves to Lesson 5.2.
-- This school's own student dress code, quoted from the student handbook for Step 4. [Sal: paste the exact wording; do not paraphrase a code you are about to ask students to analyze.]
+- This school's own student dress code, quoted from the student handbook for Step 4.
 
 ## Teacher notes
 
@@ -131,5 +131,4 @@ Physical education and health: the PE teacher already enforces footwear and can 
 - Common mistake: students dress the situation and forget the feet. Ask "and the shoes?" at every card. It becomes a running joke by the third card, which is fine, because they stop forgetting.
 - Common mistake: the wedding card turns into a fashion conversation. Redirect with the setting question: "What does the family expect of a guest?" Keep judgments about specific clothing out of it; that agreement gets written tomorrow.
 - The dress code step can go sideways fast if a student in the room was recently dress-coded. Watch the hand vote count. If it is high, keep Step 4 on the restaurant and the hospital and give this school's code 90 seconds with no personal stories. The point is the reasoning, not this building's policy.
-- [Sal: you have the 80s Day story from Spirit Week and it is the right story, but it belongs tomorrow, in Lesson 5.2, where the class writes the agreement. Do not spend it today.]
 - Keep the PPE box packed in one bin labeled Unit 5. It comes back out in Lesson 5.5 and again in Lesson 5.11.

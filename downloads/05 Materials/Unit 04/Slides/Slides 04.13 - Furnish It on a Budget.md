@@ -1,6 +1,6 @@
 # Slides 4.13: Furnish It on a Budget
 
-Slide outline for Lesson 4.13. Thirteen slides, one day. Every price on these slides is a 2026 Long Island figure and is marked [update]. [Sal: on slide 3, swap the described listings for two or three real ones printed from a local marketplace or thrift site, with the seller's name and photo cropped out.]
+Slide outline for Lesson 4.13. Thirteen slides, one day. Every price on these slides is a 2026 Long Island figure and is to be refreshed before teaching.
 
 ## Slide 1: Do now
 
@@ -20,9 +20,9 @@ Image: a floor plan with a price tag hanging off each piece of furniture.
 
 ## Slide 3: One desk, three prices
 
-- New in a box: $149 [update]
-- The same desk secondhand from a listing: $40 [update]
-- DIY, a door blank on two file cabinets: $35 in parts [update]
+- New in a box: $149
+- The same desk secondhand from a listing: $40
+- DIY, a door blank on two file cabinets: $35 in parts
 - Same job. Three prices.
 - Your client has $400 for the whole room. Which desk, and what does that choice buy you somewhere else?
 Image: three photos side by side: a boxed desk, a marketplace listing with the seller cropped out, a door-on-cabinets desk.
@@ -30,8 +30,8 @@ Notes: Hand vote first: who has bought something secondhand, and what was it? Th
 
 ## Slide 4: The budget comes from the card
 
-- Room refresh: $400 [update]
-- Tiny house interior: $1,500 [update]
+- Room refresh: $400
+- Tiny house interior: $1,500
 - A refresh means the walls and the floor are already there
 - The money buys furniture, storage, light, paint, and finish
 Notes: Nobody gets more money. The budget is a constraint from the client, the same way the room size is.
@@ -49,7 +49,7 @@ Notes: Point at the quality note column. That column is the whole lesson. A pric
 ## Slide 6: The tax
 
 - In New York, furniture and building supplies are taxed. Food is not.
-- The rate here is 8.625 percent [update to your county]
+- The rate here is 8.625 percent
 - Subtotal times 0.08625 equals the tax
 - Subtotal times 1.08625 equals the total
 - Worked line: twin bed frame secondhand $60, tax $5.18, total $65.18
@@ -60,8 +60,6 @@ Notes: Write the line on the board and leave it. Compute the tax once, on the su
 - It is the order you buy them in
 - Needs first. Wants after, only if money is left.
 - Fill the Budget Sheet header now: client, budget, tax rate
-Notes: [Sal: two minutes from Oracle or financial services on what it costs to be wrong about a price. Save the secondhand dresser story for slide 11.]
-
 ## Slide 8: Price the plan, 14 minutes
 
 - Every piece on your plan is one line on the sheet

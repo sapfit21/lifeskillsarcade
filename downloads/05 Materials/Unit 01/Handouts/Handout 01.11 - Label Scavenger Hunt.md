@@ -44,7 +44,7 @@ E. ______________________________ (a nutrient to get less of; salt)
 F. ______________________________ (a nutrient to get more of; keeps you full)
 G. ______________________________ (sugar the company put in)
 
-**Word bank:** serving size, servings per container, calories, percent daily value, sodium, dietary fiber, added sugars. [Sal: add the Turkish, Portuguese, and Spanish words from `Vocabulary 01.md`.]
+**Word bank:** serving size, servings per container, calories, percent daily value, sodium, dietary fiber, added sugars.
 
 **From the label on the screen:** Serving size ____________ Calories ____________ Three nutrients and their amounts: ____________, ____________, ____________
 
@@ -110,7 +110,7 @@ Grade 8 stretch: pick a package that gives fiber in grams only. Compute the % DV
 
 ## Teacher key
 
-**Page 1.** A: servings per container. B: serving size. C: calories. D: percent daily value. E: sodium. F: dietary fiber. G: added sugars. The screen label answers depend on the poster label you use. [Sal: write them here: serving size ______, calories ______, sodium ______% (low / in between / high), fiber ______% (low / in between / high), package calories ______, package sodium ______ mg.]
+**Page 1.** A: servings per container. B: serving size. C: calories. D: percent daily value. E: sodium. F: dietary fiber. G: added sugars. The screen label answers depend on the poster label you use.
 
 **Pages 2 and 3.** Answers depend on the packages at each station. What to check: the serving size column is filled before the calories column (watch for it during the hunt); every hunt answer has a package name and a number; question 3 says whether high is good or bad for that nutrient (high fiber, calcium, iron: good; high sodium, added sugars, saturated fat: not good).
 

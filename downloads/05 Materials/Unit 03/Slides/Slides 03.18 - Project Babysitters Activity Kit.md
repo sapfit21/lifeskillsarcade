@@ -64,8 +64,6 @@ Notes: These are the PSI Design Process lines. Name them; the same four steps sh
 - Your kit builds that one thing. Not four things. One
 - Write the area and the one thing on the plan
 Image: the ages and stages grid from the handout, ages 2 to 6 down the side, four areas across.
-Notes: [Sal: confirm the chart lines against the CDC "Learn the Signs. Act Early." checklists before printing.]
-
 ## Slide 8: One that fits, one that does not
 
 - Sorting by color fits a 3 year old: naming colors, matching one to one
@@ -117,8 +115,6 @@ Notes: Take three. Hand back signed plans as students write.
 - Tape and glue. No staples
 - You may change the plan. Write the change on the plan
 - Build first, card second
-Notes: [Sal: no balloons in the bin; check latex allergies. Beans or rice stay sealed, double-bagged, and taped on every edge.]
-
 ## Slide 14: What finished looks like
 
 - One example of each of the five kit types
@@ -219,7 +215,7 @@ Image: a counter with five age signs, kits under each, cards propped in front, t
 - One safety line
 - What changed after the test
 - Two minutes. I score criteria 4 and 5 live
-Notes: Grade 6 demos run one minute. A student may demo to me at the table instead of to the class. [Sal: with more than 16 students, run two demo lines with a student timekeeper, or score the last few from the card and the kit alone, which the rubric allows.]
+Notes: Grade 6 demos run one minute. A student may demo to me at the table instead of to the class.
 
 ## Slide 26: While you are not presenting
 

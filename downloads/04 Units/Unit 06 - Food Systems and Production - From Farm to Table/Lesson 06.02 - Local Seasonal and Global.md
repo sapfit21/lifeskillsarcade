@@ -109,16 +109,16 @@ None. Optional: ask an adult at home which fruit or vegetable tastes best to the
 
 ## Connections
 
-Science: growing season, climate, and greenhouse energy use line up with the earth science unit on climate and seasons; science gives the why, FACS gives the grocery cart. Social studies: trade routes and immigration explain half of what is in a Long Island supermarket. Community: a farm stand, a farmers market manager, or a CSA farmer for a ten-minute visit in spring or fall. [Sal: Long Island has working farms east of you and farm stands closer; a printed CSA share list from one of them makes this lesson concrete.]
+Science: growing season, climate, and greenhouse energy use line up with the earth science unit on climate and seasons; science gives the why, FACS gives the grocery cart. Social studies: trade routes and immigration explain half of what is in a Long Island supermarket. Community: a farm stand, a farmers market manager, or a CSA farmer for a ten-minute visit in spring or fall.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 2. a), 2. b), and 4. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 06, Sustainability, line 2. h); Theme Module 03, Financial and Consumer Literacy, line 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Thinking Skills. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.1.4 and 2.5.1.
-- The seasonal chart on the handout is built from the general New York growing calendar. [Sal: check it once against the NYS Department of Agriculture and Markets availability calendar or a local farm stand's own list, and fix any month that is wrong for your part of the Island.]
+- The seasonal chart on the handout is built from the general New York growing calendar.
 
 ## Teacher notes
 
@@ -127,4 +127,3 @@ Science: growing season, climate, and greenhouse energy use line up with the ear
 - Do not let "local is always better" go unchallenged. The heated greenhouse case is the one that teaches students to check instead of repeating a slogan.
 - Common mistake: students count a food as local because the store is local. Point at the wall path from Lesson 6.1 and ask which step the label describes.
 - Tape the four source sticky notes onto the wall paths at the start and leave them. The wall keeps building through the topic.
-- [Sal: if you ran the $40 family project in Unit 1, remind students what a tomato cost in their circular and ask what month that circular was from. They already have the data.]

@@ -75,8 +75,6 @@ Image: eight cards fanned out with the role names.
 - Mug Cake: egg, milk, wheat.
 - Tacos: egg, milk, wheat (flour tortillas).
 - If you have a swap on the nurse's list, I already have it ready. Tell me if you think I missed one.
-Notes: [Sal: read the swaps from the lesson's Differentiation block; do not name students.]
-
 ## Slide 10: Closure
 
 - Exit card, one sentence: "My role tomorrow is ___. My first job is ___. My safety rule is ___."

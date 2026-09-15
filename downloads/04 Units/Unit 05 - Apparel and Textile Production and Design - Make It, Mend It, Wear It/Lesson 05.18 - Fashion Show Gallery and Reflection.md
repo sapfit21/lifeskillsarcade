@@ -145,13 +145,13 @@ None. Items go home after the Unit 5 Test on day 143, with the rubric. Anything 
 
 ## Connections
 
-English language arts: the 45-second explanation is a short informative presentation with a required structure, which is a speaking and listening standard, and the two-stars-and-a-step protocol is the peer feedback format the ELA teacher probably already uses. Say so, and use their words if they differ. Art: display and composition on the tables. The school community: a display case in the main hallway for a week, items and cards only, no names and no faces, is the cheapest advertisement a FACS program has. [Sal: ask for the case by the main office for the week after day 141, and photograph the tables before anything moves.]
+English language arts: the 45-second explanation is a short informative presentation with a required structure, which is a speaking and listening standard, and the two-stars-and-a-step protocol is the peer feedback format the ELA teacher probably already uses. Say so, and use their words if they differ. Art: display and composition on the tables. The school community: a display case in the main hallway for a week, items and cards only, no names and no faces, is the cheapest advertisement a FACS program has.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. c), 2. c), 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Communication and Interpersonal Relationships 1. f) and 2. c); Problem Solving and Innovation 2. a) g. and i. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - `Rubric 05 - Upcycle Challenge.md` and `Project 05 - Upcycle Challenge.md` (same folder).
 - The two stars and a step feedback format is a common classroom peer-feedback structure, not a standard.
@@ -165,5 +165,4 @@ English language arts: the 45-second explanation is a short informative presenta
 - Common mistake on the slips: "it's cool." The model-good-slip-and-bad-slip move on the slide fixes most of it in thirty seconds. Send one bad slip back, publicly but without the name, and the rest improve.
 - Vote categories are named on purpose so that neatness does not win everything. Most Surprising Material rewards the student who saw something in a towel, and Best Construction rewards the student whose stitches are even. Read both definitions out loud before voting or the class votes for whoever they like.
 - Photograph every item with the display card, no faces, no names. That set of photos is the Unit 5 page on the website, the display case, and next year's Lesson 5.15 slide deck all at once.
-- [Sal: this is the day to say out loud what the class did, in numbers. Twenty-one items, nine days, one dollar of thread, and nothing bought new. A principal walking past should hear that sentence.]
-- Budget note for the unit plan: card stock for display cards (one pack, about $6 [update], or use the copier's heaviest paper for free), butcher paper or three cloths for the tables (free or about $8 [update]), markers from room stock. Nothing else.
+- Budget note for the unit plan: card stock for display cards (one pack, about $6, or use the copier's heaviest paper for free), butcher paper or three cloths for the tables (free or about $8), markers from room stock. Nothing else.

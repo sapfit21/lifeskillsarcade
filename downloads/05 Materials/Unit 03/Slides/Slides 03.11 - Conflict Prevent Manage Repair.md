@@ -171,9 +171,9 @@ Notes: Model the bad one first, in the same voice people really use. Then the re
 
 - Rung 5: anything physical, a threat, a weapon, anything that scares you
 - Also any conflict that keeps coming back no matter what you do
-- Who to ask: an adult at home; the counselor [Sal: name, room ___] or the nurse [Sal: name]; any teacher, me included, or the main office; the approved help line [Sal: the number your building approves]
+- Who to ask: an adult at home; the counselor or the nurse; any teacher, me included, or the main office; the approved help line
 - Telling is not tattling. Tattling is trying to get someone in trouble. Telling is trying to get someone safe
-Notes: Say the four parts of rung 5 out loud every class. If a student reports something today, follow the building's reporting steps. [Sal: have those steps in front of you before you teach this; you are a mandated reporter.]
+Notes: Say the four parts of rung 5 out loud every class. If a student reports something today, follow the building's reporting steps.
 
 ## Slide 22: Card 8: report only
 

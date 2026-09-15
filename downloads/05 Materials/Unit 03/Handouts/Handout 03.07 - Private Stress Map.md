@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | stress | stres | estresse | estrés |
@@ -107,12 +105,12 @@ My starred stressor is (circle): handle it / bring it
 
 | Person (a role) | Where or how |
 |---|---|
-| The school counselor | [Sal: name and room] |
-| The nurse | [Sal: room] |
+| The school counselor | |
+| The nurse | |
 | Any teacher, including me | |
 | The main office | |
 | An adult at home | |
-| A help line the school approves | [Sal: the number your school uses] |
+| A help line the school approves | |
 
 * * *
 

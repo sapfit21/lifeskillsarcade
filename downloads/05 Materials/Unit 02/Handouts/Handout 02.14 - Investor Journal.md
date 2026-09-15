@@ -11,7 +11,7 @@ This journal stays in your FACS folder for the whole ClassroomStreet Investor Ch
 
 Three sentences and the number is a complete entry. More is welcome.
 
-Sentence starters (Turkish, Portuguese, and Spanish lines are marked [check with a native speaker]):
+Sentence starters (Turkish, Portuguese, and Spanish lines are to be verified by a native speaker):
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

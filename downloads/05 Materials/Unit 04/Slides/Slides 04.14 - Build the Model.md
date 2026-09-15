@@ -1,6 +1,6 @@
 # Slides 4.14: Build the Model
 
-Slide outline for Lesson 4.14. Day 1 has ten slides, Day 2 has nine, Day 3 has ten. Keep the conversion line on the board all three days: at 1/2 inch equals 1 foot, 1 foot is 0.5 inch, 3 feet is 1.5 inches, 8 feet is 4 inches. At 1 inch equals 1 foot, 3 feet is 3 inches and 8 feet is 8 inches. [Sal: photograph every finished model on Day 3, no names and no faces. They are next year's hook and the website's project page.]
+Slide outline for Lesson 4.14. Day 1 has ten slides, Day 2 has nine, Day 3 has ten. Keep the conversion line on the board all three days: at 1/2 inch equals 1 foot, 1 foot is 0.5 inch, 3 feet is 1.5 inches, 8 feet is 4 inches. At 1 inch equals 1 foot, 3 feet is 3 inches and 8 feet is 8 inches.
 
 # Day 1
 
@@ -44,7 +44,7 @@ Image: a ruler on the floor of a shoebox with a pencil line drawn along it.
 - Bring the box to my cutting station for the door opening
 - The window is cut at the station or drawn as a frame with a marker
 Image: a box wall with a door cut out and a window drawn in marker.
-Notes: Craft knives stay at my station. [Sal: your room's rule on whether a supervised grade 8 student may cut.]
+Notes: Craft knives stay at my station.
 
 ## Slide 6: Extra walls
 
@@ -225,7 +225,7 @@ Notes: Clipboard check, one line per team: matches the plan; color scheme named 
 - The floor as a parallelogram at 1/2 inch equals 1 foot, walls up 8 feet
 - Every piece of furniture drawn as a box to scale
 - The color scheme colored in, GREEN and SAFE drawn as callouts with arrows
-- A 3-D room in a free app the school allows also counts, printed or on a screen [Sal: name the app]
+- A 3-D room in a free app the school allows also counts, printed or on a screen
 Notes: Say this on all three days so nobody thinks the drawing is the consolation prize. Criterion 4 is scored the same way.
 
 ## Slide 28: Self-check against the rubric

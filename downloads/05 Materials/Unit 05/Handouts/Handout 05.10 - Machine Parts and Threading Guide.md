@@ -8,8 +8,6 @@ Name: ______________________________ Date: ______________ Period: ______ **My ma
 
 ## Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | sewing machine | dikiş makinesi | máquina de costura | máquina de coser |

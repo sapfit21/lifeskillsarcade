@@ -23,7 +23,7 @@ Note on the theme lines: the FCL 4. Buying Goods and Services topic has no line 
 
 Health class typically covers: "read the label" as a one-line tip, and sometimes the calories line. Health rarely gives students a real package to hold.
 
-This lesson goes further: two days on the Nutrition Facts panel itself, with five real packages per station on Day 1, percent daily value math, the 5 and 20 rule, and on Day 2 the tricks companies use (serving size games, "natural," front-of-package claims) and a critique of a misleading ad using the label as evidence. This is the consumer skill FACS owns. [Sal: send the health teacher the Spot the Trick handout so they can point to it instead of repeating it.]
+This lesson goes further: two days on the Nutrition Facts panel itself, with five real packages per station on Day 1, percent daily value math, the 5 and 20 rule, and on Day 2 the tricks companies use (serving size games, "natural," front-of-package claims) and a critique of a misleading ad using the label as evidence. This is the consumer skill FACS owns.
 
 ## Enduring understanding and essential question
 
@@ -46,7 +46,7 @@ Tier 3 (FACS): Nutrition Facts, serving size, servings per container, percent da
 
 ## Materials and setup
 
-- Day 1: five clean, empty food packages per station (three stations, fifteen packages total). Mix them so every station has at least one cereal box, one chip or cracker bag, one canned item, one drink bottle, and one snack bar box. [Sal: collect these from home for two weeks before the lesson; rinse and dry them. Ask students to bring empty packages the week before; a package with a name on it is fine, a package with student writing on it is not.]
+- Day 1: five clean, empty food packages per station (three stations, fifteen packages total). Mix them so every station has at least one cereal box, one chip or cracker bag, one canned item, one drink bottle, and one snack bar box.
 - Label Scavenger Hunt handout, one per student: `Handout 01.11 - Label Scavenger Hunt.md`
 - Day 2: Spot the Trick handout, one per student: `Handout 01.11 - Spot the Trick.md` (two product comparisons and one advertisement with full label data written out)
 - One large printed Nutrition Facts label (poster size) or the same on the screen
@@ -137,10 +137,10 @@ Inside the building: the math teacher. Percent daily value, multiplying by servi
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. e) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.2.4 and 3.5.6.
-- Label facts: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov), including the 5% and 20% DV rule and the daily values used on the 2020 label (sodium 2,300 mg; added sugars 50 g; dietary fiber 28 g; saturated fat 20 g). FDA's position on "natural": fda.gov, "Use of the Term Natural on Food Labeling." [Sal: FDA proposed front-of-package rules in 2025; check whether they are final before this lesson runs and add a slide if they are.]
+- Label facts: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov), including the 5% and 20% DV rule and the daily values used on the 2020 label (sodium 2,300 mg; added sugars 50 g; dietary fiber 28 g; saturated fat 20 g). FDA's position on "natural": fda.gov, "Use of the Term Natural on Food Labeling."
 - Sal's own materials: `FNES538_notes_NextWeek-NutritionLabels-Tiered_2026-03.docx` (his tiered Bloom's objectives for a Nutrition Labels lesson) supplied the three objectives and the grade 8 stretch.
 
 ## Teacher notes
@@ -148,5 +148,4 @@ Inside the building: the math teacher. Percent daily value, multiplying by servi
 - If Day 1 runs short, cut Step 4 and take the share in the closure. If Day 2 runs short, cut comparison 2 (the chips) and keep the ad critique; the critique is Objective 3 and the quiz item.
 - Common mistake: students read the calories first and stop. Say the order every time: serving size, servings per container, then calories. The serving size decides whether every other number is real.
 - Second common mistake: students treat "% DV" as "percent of the food." Say: "It is percent of your whole day, if your day is 2,000 calories."
-- [Sal: the packages that work best are the ones your students actually eat. A sports drink, a family size chip bag, and a "kids" yogurt are usually the three that surprise them the most.]
 - Keep the ad critiques. The best three become the review slide before the Label Reading Quiz, and the whole set is a strong artifact for a principal walk-through: claim, evidence, evidence, evidence.

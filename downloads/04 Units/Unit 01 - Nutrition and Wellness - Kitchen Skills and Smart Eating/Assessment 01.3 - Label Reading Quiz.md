@@ -2,7 +2,7 @@
 
 **Unit:** Unit 1, Kitchen Skills and Smart Eating (Nutrition and Wellness)
 **Topic:** 1.3 Nutrients, MyPlate, and Labels (Lessons 1.9 to 1.13)
-**When:** The first 15 minutes of the class period after Lab 2 (the opening of Lesson 1.14). The seven topic days are all lesson days, so the quiz opens the next period. [Sal: if the schedule gives you a spare period, give it there instead.]
+**When:** The first 15 minutes of the class period after Lab 2 (the opening of Lesson 1.14). The seven topic days are all lesson days, so the quiz opens the next period.
 **Category:** Topic assessments (25 percent). One retake after a review; best score counts.
 **Points:** 30
 **Allowed:** a calculator. Nothing else.

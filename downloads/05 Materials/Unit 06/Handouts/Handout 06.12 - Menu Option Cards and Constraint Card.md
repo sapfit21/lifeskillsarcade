@@ -4,7 +4,7 @@ Name: ______________________ Date: __________ Station: ______
 
 Lesson 6.12, Feed the Class launch. Pages 1 to 6. Print pages 2 and 3 as five cards and set them at five spots in the room for the option walk. Every student gets pages 1, 4, and 5. Page 6 is the no-kitchen version.
 
-All prices are real Long Island supermarket prices and are marked **[update from this week's circular]**. The math works no matter what the prices are.
+All prices are real Long Island supermarket prices and are to be refreshed from the current circular before teaching. The math works no matter what the prices are.
 
 * * *
 

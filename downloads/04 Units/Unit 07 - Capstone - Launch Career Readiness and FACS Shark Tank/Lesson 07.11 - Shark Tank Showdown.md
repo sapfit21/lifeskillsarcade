@@ -44,11 +44,11 @@ Tier 3 (FACS): pitch, investor, ask, prototype, margin, break-even, composure, a
 - Team folders returned at the door with criteria 3, 4, and 5 scored, so teams know where they stand before they pitch
 - A visible timer with a sound that the whole room can hear, run by a student timekeeper who is not pitching in that round
 - The running order posted large at the front, and a second copy at the judge table
-- Four award cards, printed and ready, in these categories: **Most Useful. Best Numbers. Best Pitch. Most Likely To Actually Work.** [Sal: print them on card stock. A physical card a student can take home costs nothing and is the thing that ends up on a refrigerator.]
+- Four award cards, printed and ready, in these categories: **Most Useful. Best Numbers. Best Pitch. Most Likely To Actually Work.**
 - Water and a chair for each judge, and a one-page briefing for judges handed to them at the door
 - Allergen card at the front, read aloud before any food sample is tasted, per the Unit 1 procedure. Judges only; no class tasting.
 - Slides: `Slides 07.11 - Shark Tank Showdown`
-- Setup notes: set the room before the bell. Judges arrive five minutes early and get the briefing, the packet, and the running order. [Sal: email the judges the one-page briefing two days ahead so nobody is reading it cold in front of students.]
+- Setup notes: set the room before the bell. Judges arrive five minutes early and get the briefing, the packet, and the running order.
 
 ## The panel
 
@@ -149,7 +149,7 @@ Inside the building: this is the lesson that connects FACS to the rest of the sc
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. c), 3. d), and 5. b).
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 1. f) and 6. f); Theme Module 05, Problem Solving and Innovation, line 1. e).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.8 and 13.3.2.
 - Sal's own materials: his Brentwood business packet "Shark Tank Showdown," which supplies the 60-second pitch structure, the investor ask, and the judging frame. Rewritten here with the teacher side it lacked: the panel logistics, the judge briefing, the timing math, the audience scoring sheet that keeps every student working, and the award categories.
 - The Problem Solving and Innovation illustrative activity in the state's Individual Growth and Life Readiness module ends with groups pitching "to a panel representing potential investors" and "classmates and investors vote on which entrepreneurs to back." The audience scoring sheet and the two sets of award votes are that line, written as a procedure.
@@ -165,4 +165,3 @@ Inside the building: this is the lesson that connects FACS to the rest of the sc
 - A team's poster falling off the easel is the most likely physical failure. Tape everything down at the end of Lesson 7.10 Day 2.
 - Thank the judges by name, out loud, in front of the students. It models the follow-up that the Lesson 7.5 vocabulary already named, and it is how you get them back next year.
 - **The no-guest version.** If no outside adult can come, the panel is the teacher plus three students drawn from teams that have already pitched, sitting at the judge table with the same judge sheet. Run the pitches in two halves: the first five teams pitch to a panel of the teacher and three students from teams 6 to 10, then the panel swaps. Everything else is identical, including the award cards and the audience sheet. The version with students as judges is a genuinely good lesson and not a lesser one: a student judging with a rubric in hand has to defend a score out loud, which is criterion 3 of the audience objective at a higher level. Do not cancel pitch day for lack of guests.
-- [Sal: your invitation list is the thing to build in September, not June. One administrator, one teacher, one parent, one business owner. Ask in writing, give them a date and 45 minutes, and send the briefing two days out. If you get an outside guest in year one, you will have three in year two.]

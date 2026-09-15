@@ -64,7 +64,7 @@ Cluster: Law, Public Safety, Corrections and Security.
 
 **Card 12. Youth program director.** Does: Runs an after-school program, a summer camp, or a youth center: plans activities, hires staff, keeps kids safe, works with families and the community. Needs: a bachelor's degree in recreation, education, or human services is common; a summer camp job at 16 is the usual first step. Four years plus experience. Uses: the activity kit, the babysitting rules, conflict steps, community supports. Cluster: Human Services.
 
-Career names in other languages [check with a native speaker before printing]:
+Career names in other languages:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -112,6 +112,6 @@ Stretch: **One thing I could do this year to start toward it** (the babysitting 
 ## Teacher key
 
 - The walk sheet is checked for all three ratings on at least six careers (eight for everyone but grade 6 support), a circled top career, a pathway line that matches the card's "needs" line (not a guess), and a unit skill with a lesson or activity named ("the five conflict steps, in the role plays").
-- Training lines on the cards are general and reflect New York requirements as commonly described; [Sal: confirm each against the NYS Education Department's Office of the Professions and Office of Teaching Initiatives before printing. Licensing rules change.]
+- Training lines on the cards are general and reflect New York requirements as commonly described;
 - A student who rates everything 3 gets the question "which one would you not want to do at 7 a.m. on a Monday?"
 - A class's most-circled career is written on the board tomorrow with the pathway line, as the two-item debrief at the start of Unit 4.

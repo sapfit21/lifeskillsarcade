@@ -106,7 +106,7 @@ None. Optional: ask an adult at home what your first word was and when you walke
 
 ## Connections
 
-Inside the building: the health teacher, if the grade 6 health course covers child development, so the milestone ranges match. Community: a local pediatric office or an early childhood center could check the chart's ranges once a year. [Sal: if your school runs a pre-K, its director is the person to ask, and Lesson 3.18 could test the activity kits there, with the school's permission process, never with photos.]
+Inside the building: the health teacher, if the grade 6 health course covers child development, so the milestone ranges match. Community: a local pediatric office or an early childhood center could check the chart's ranges once a year.
 
 ## Sources
 
@@ -115,7 +115,7 @@ Inside the building: the health teacher, if the grade 6 health course covers chi
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, first performance indicator. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 12.1.2 and 15.2.1.
 - Sal's own materials: `ObjectPermanence_Presentation.pptx` (FNES 782, Google Drive): the silhouette hook, the egg under the napkin demo, the before and after 8 months contrast, the four-step timeline, the myth busting, and the "why should you care" slide are his and are rewritten here. The fictional case in that deck was adapted from a professor's course materials and is not reused; the child in this lesson's slides is new and fictional. His infant brain development concept map (FNES 782, Google Drive) supplies the grade 8 stretch, rewritten at a middle school level.
-- Milestone ranges follow the CDC "Learn the Signs. Act Early." developmental milestone checklists (cdc.gov/ncbddd/actearly), which were revised in 2022 to list the age by which most children (75 percent) reach a milestone. [Sal: confirm the ranges on the chart against the current CDC page before printing.]
+- Milestone ranges follow the CDC "Learn the Signs. Act Early." developmental milestone checklists (cdc.gov/ncbddd/actearly), which were revised in 2022 to list the age by which most children (75 percent) reach a milestone.
 
 ## Teacher notes
 
@@ -123,4 +123,3 @@ Inside the building: the health teacher, if the grade 6 health course covers chi
 - If the period runs short, cut Step 3 to the four hardest strips and finish the chart as the do now for Lesson 3.3. Never cut Step 4; the safety by stage rule is what Lesson 3.17 builds on.
 - Common mistake: students hear "8 months" as a rule and mark a 9-month-old who does not search as "behind." Say the word "about" every time, and say once that a pediatrician, not a babysitter, decides.
 - The "why should you care" wall works. Leave it up through Lesson 3.4.
-- [Sal: your object permanence deck opened with a "who's that Pokémon" silhouette. Use a character your students actually know, or a plain object; the point is that they recognize it from a shadow.]

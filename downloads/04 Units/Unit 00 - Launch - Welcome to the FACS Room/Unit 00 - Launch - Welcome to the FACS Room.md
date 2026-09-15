@@ -142,28 +142,17 @@ None. Unit 0 has no project and no rubric. The three products that end the unit 
 
 **Slides:** `Slides 00.01` through `Slides 00.05`, one outline per lesson, in the same folder. The site renders each as a deck.
 
-**No-kitchen plan:** nothing in Unit 0 needs heat or a sink except the tour. Lesson 0.4 needs water and rice at a table. Lesson 0.2's tour becomes a photo tour on the slides if the room is not ready. [Sal: take the photos of your room's zones in the first week; they become the no-room version of the tour and the reset slides for the Kitchen Safety Exam.]
+**No-kitchen plan:** nothing in Unit 0 needs heat or a sink except the tour. Lesson 0.4 needs water and rice at a table. Lesson 0.2's tour becomes a photo tour on the slides if the room is not ready.
 
 ## 11. Health and other-department coordination
 
-Health class does not cover classroom safety agreements or decision models in the first week; there is no overlap. Ask the health teacher and the nurse for the class allergy list before day 5 so the allergy line of the agreement is real, not general. ELA teachers may be teaching precise description or claim and evidence in September; Draw/See/Hear and the ranking reasons use the same language ("say exactly what you see," "give a reason someone could check"). [Sal: ask the grade 6 ELA teacher what they call a reason; use the same word.]
+Health class does not cover classroom safety agreements or decision models in the first week; there is no overlap. Ask the health teacher and the nurse for the class allergy list before day 5 so the allergy line of the agreement is real, not general. ELA teachers may be teaching precise description or claim and evidence in September; Draw/See/Hear and the ranking reasons use the same language ("say exactly what you see," "give a reason someone could check").
 
 ## 12. Connections (in-building and community)
 
 - Inside the building: the school nurse (the allergy list for the agreement; a two-minute visit on day 5 to say where the nurse's office is); FACS gives the nurse a class that knows the allergy rule before any food is served, and gets the list and a second adult voice on the rule. The custodian (where the breaker, the water shutoff, and the extinguisher are on the day 2 tour). The ENL teacher (a check on the Turkish, Portuguese, and Spanish lines in `Vocabulary 00.md` and on the agreement).
-- Community: a family member who signs the optional line on the agreement. FACS gives families a one-page picture of how the room runs before the first lab, and gets a signature that makes the phone and food rules easier to hold all year. [Sal: your school may have a family orientation night in the first two weeks; the agreement fits in that packet.]
+- Community: a family member who signs the optional line on the agreement. FACS gives families a one-page picture of how the room runs before the first lab, and gets a signature that makes the phone and food rules easier to hold all year.
 
 ## 13. Vocabulary for translation
 
-See `Vocabulary 00.md`: about 15 Tier 3 words (do now, reset cue, role card, station, hazard, sanitize, agreement, norm, decision, option, consequence, teamwork, listen, describe, precise, and a few more) with a one-line student definition and columns for Turkish, Portuguese, and Spanish marked [check with a native speaker] until verified.
-
-## 14. What Sal should replace
-
-Placeholders in the three unit-level files:
-- Unit plan, section 10: [Sal: take the photos of your room's zones in the first week.]
-- Unit plan, section 11: [Sal: ask the grade 6 ELA teacher what they call a reason.]
-- Unit plan, section 12: [Sal: your school may have a family orientation night.]
-- `Calendar 00.md`: [Sal: the calendar is in day numbers; map them onto your school's calendar.]
-- `Vocabulary 00.md`: [check with a native speaker] on the whole table.
-
-The lesson, handout, and assessment files list their own placeholders in their Teacher notes and keys. The ones that matter most: the room map in `Handout 00.02` needs Sal's actual room; the agreement in `Handout 00.05` needs your school's phone policy and the nurse's allergy list; the reset cue wording is written as "lights, countdown, hands empty" everywhere and should be changed in every file at once if he changes it.
+See `Vocabulary 00.md`: about 15 Tier 3 words (do now, reset cue, role card, station, hazard, sanitize, agreement, norm, decision, option, consequence, teamwork, listen, describe, precise, and a few more) with a one-line student definition and columns for Turkish, Portuguese, and Spanish, to be checked by a native speaker.

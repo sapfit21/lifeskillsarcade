@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | baby | bebek | bebê | bebé |
@@ -118,4 +116,4 @@ ________________________________________________________________________________
 
 **Part 3, sample answers.** 6 months: gives a safe place to roll and reach, being held and talked to; safety, never leave the baby on a changing table or bed unstrapped, keep small objects away from the mouth. 2 years: gives words for feelings, the same answer every time, patience; safety, gates on stairs, cabinet locks, move chairs from counters, outlet covers, hold hands near a street. 4 years: gives books, questions answered, chances to play with other children; safety, helmet on wheels, scissors supervised, pretend play checked for real hazards (a "boat" that is a bathtub with water). Any answer with a "because" that connects the skill to the step earns credit.
 
-Milestone ranges follow the CDC "Learn the Signs. Act Early." checklists (revised 2022, ages by which most children reach each milestone). [Sal: confirm against the current CDC page before printing.]
+Milestone ranges follow the CDC "Learn the Signs. Act Early." checklists (revised 2022, ages by which most children reach each milestone).

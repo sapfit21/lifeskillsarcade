@@ -105,7 +105,7 @@ None. Optional: find the eight elements in one room at home and write them on th
 
 ## Connections
 
-Art: the art teacher teaches the same elements with a slightly different list (value instead of light, no pattern); a five-minute swap of vocabulary keeps students from thinking they are two different things. FACS gives the art teacher a real room as the canvas; art gives FACS the drawing skills the sketch needs. [Sal: ask the art teacher which list she uses so the Design Vocabulary Check matches.]
+Art: the art teacher teaches the same elements with a slightly different list (value instead of light, no pattern); a five-minute swap of vocabulary keeps students from thinking they are two different things. FACS gives the art teacher a real room as the canvas; art gives FACS the drawing skills the sketch needs.
 
 ## Sources
 
@@ -121,4 +121,3 @@ Art: the art teacher teaches the same elements with a slightly different list (v
 - Common mistake: shape versus form. Say it as "shape is the drawing, form is the thing." Hold up a piece of paper (shape) and a mug (form).
 - Common mistake: writing where the element is instead of what it does. The clipboard question is always "and what does that do to the room?"
 - Keep the sketches. They go in the FACS folder and come out in Lesson 4.11, when the client brief asks students to redo a room for someone else.
-- [Sal: your Brentwood packet had the Marcus story about the cramped room. It works as a two-sentence hook if you want a story instead of the word list; keep the name fictional and do not reuse it in other lessons.]

@@ -143,7 +143,7 @@ Image: a hand mixer with the parts labeled.
 - Glass jar vs plastic jar: glass is heavier and does not scratch or hold smells; plastic does not shatter. Both must sit on the base before it runs.
 - Nothing goes in while it runs. Unplug before the blade comes out.
 Image: a blender with the layers drawn: milk at the bottom, banana in the middle, ice and berries on top.
-Notes: Do it wrong once on purpose, ice first with the lid on, and let them hear the motor struggle. Then do it right. [Sal: your Queens College demo script.]
+Notes: Do it wrong once on purpose, ice first with the lid on, and let them hear the motor struggle. Then do it right.
 
 ## Slide 19: Call and response
 

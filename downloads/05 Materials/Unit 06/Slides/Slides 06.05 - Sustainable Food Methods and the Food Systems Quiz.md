@@ -1,6 +1,6 @@
 # Slides 6.5: Sustainable Food Methods and the Food Systems Quiz
 
-Slide outline for Lesson 6.5. Twenty slides across two days: Day 1 slides 1 to 11, Day 2 slides 12 to 20. Cover the wall paths before slide 20. [Sal: collect the packages for a week before you teach this. Ask students to bring in the worst package they can find; they compete to win that.]
+Slide outline for Lesson 6.5. Twenty slides across two days: Day 1 slides 1 to 11, Day 2 slides 12 to 20. Cover the wall paths before slide 20.
 
 * * *
 

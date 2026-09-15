@@ -1,6 +1,6 @@
 # Slides 02.11: Credit vs Debit and What Interest Costs
 
-Lesson 2.11, one day, 12 slides. Rates marked [update].
+Lesson 2.11, one day, 12 slides. Rates to be refreshed before teaching.
 
 ## Slide 1: Do now
 - A store lets you take a $500 phone home today.
@@ -42,7 +42,7 @@ Image: a credit card with an arrow from a bank building to a store, and a bill c
 - Total owed: $525
 - Copy it.
 
-## Slide 7: Three rates you will meet [update]
+## Slide 7: Three rates you will meet
 - 5 percent: a good car loan.
 - 15 percent: a credit union card.
 - 24 percent: a typical bank credit card.

@@ -141,7 +141,7 @@ None. Optional: find out whether there is a sewing kit in your house, and if the
 
 ## Connections
 
-Technology and shop: if the building has a technology or makerspace teacher, their tool rules and their count routine are the same idea, and the two rooms should use the same words so a student hears one standard. Trade: they get a class that already counts, and FACS gets a look at how they store sharps. Health office: the nurse should know the week the needles come out and what the protocol is for a needle stick from a clean, never-used needle; ask before, not after. Community: a tailor, a dry cleaner's seamstress, or a costume shop volunteer is the best guest in this whole unit and they are usually happy to come; they get an hour of respect, and the class gets somebody who has done ten thousand of these stitches. [Sal: ask the local tailor or the high school drama costumer.]
+Technology and shop: if the building has a technology or makerspace teacher, their tool rules and their count routine are the same idea, and the two rooms should use the same words so a student hears one standard. Trade: they get a class that already counts, and FACS gets a look at how they store sharps. Health office: the nurse should know the week the needles come out and what the protocol is for a needle stick from a clean, never-used needle; ask before, not after. Community: a tailor, a dry cleaner's seamstress, or a costume shop volunteer is the best guest in this whole unit and they are usually happy to come; they get an hour of respect, and the class gets somebody who has done ten thousand of these stitches.
 
 ## Sources
 
@@ -161,4 +161,3 @@ Technology and shop: if the building has a technology or makerspace teacher, the
 - If a count does not match and the needle is not found after a sweep, write it in your own log with the date, station, and what you did. If the building has an incident form, use it. You want a paper trail that says you followed a procedure.
 - Assign the Station Manager to a different student every sewing day. By Lesson 5.11 every student in the room has run the count at least once, which is the real HSW 4. i) evidence.
 - Keep two threaded needles in the cushion at the start of every sewing day from here on, already knotted. They are for the student who cannot thread today, and handing one over without comment saves a student's period.
-- [Sal: your room. Decide now whether the iron is in this unit at all. It is optional everywhere except pressing a fold in Lesson 5.10, and a fold can be pressed by hand. If you leave it out, say so on the slide and drop rule 5 to a line about heat tools in general.]

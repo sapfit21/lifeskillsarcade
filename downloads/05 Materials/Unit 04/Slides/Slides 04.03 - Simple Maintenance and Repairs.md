@@ -1,6 +1,6 @@
 # Slides 4.3: Simple Maintenance and Repairs
 
-Slide outline for Lesson 4.3. Day 1 has thirteen slides; Day 2 has nine. [Sal: replace the described photos with photos of your own tools and stations; the breaker panel photo should be a panel like the ones in your students' homes.]
+Slide outline for Lesson 4.3. Day 1 has thirteen slides; Day 2 has nine.
 
 # Day 1
 

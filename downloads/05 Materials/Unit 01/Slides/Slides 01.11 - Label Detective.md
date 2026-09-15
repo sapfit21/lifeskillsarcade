@@ -58,7 +58,7 @@ Notes: Fill in from the poster label. Two examples out loud, then the students d
 ## Slide 7: The servings trap
 
 - The label describes ONE serving.
-- This bag has ______ servings. [Sal: your poster label.]
+- This bag has ______ servings.
 - Eat the bag, multiply everything by ______.
 - Calories: ______ x ______ = ______. Sodium: ______ x ______ = ______ mg.
 Notes: Do sodium out loud. Students do calories on the handout.
@@ -120,7 +120,7 @@ Image: a 20 ounce soda bottle with "2.5 servings" circled on its label.
 - So it can go on almost anything. It does not mean healthy, organic, or low in sugar.
 - Catch it with: the ingredient list. What is actually in it?
 Image: three very different packages (chips, a juice drink, candy) all with the word "natural" on the front.
-Notes: FDA's page "Use of the Term Natural on Food Labeling" says the agency has a longstanding policy but no formal definition. [Sal: check for a 2025 or 2026 update.]
+Notes: FDA's page "Use of the Term Natural on Food Labeling" says the agency has a longstanding policy but no formal definition.
 
 ## Slide 15: Trick 3, true but beside the point
 

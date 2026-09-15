@@ -46,7 +46,7 @@ Tier 3 (FACS): nuclear family, single parent family, blended family, extended fa
 
 ## Pre-assessment
 
-The Unit 3 pre-assessment (given in Lesson 2.22 or the first day of the unit [Sal: confirm where the Unit 3 pre-check landed]) asked students to list "kinds of families." Most lists have two or three. Today's do now asks for the count again; the change by the end of the period is the measure.
+The Unit 3 pre-assessment (given in Lesson 2.22 or the first day of the unit) asked students to list "kinds of families." Most lists have two or three. Today's do now asks for the count again; the change by the end of the period is the measure.
 
 ## Do now and hook (Time: 5 min)
 
@@ -85,7 +85,7 @@ Exit card on an index card: 3 structures from memory, 2 of the four jobs every f
 
 ## Differentiation and supports
 
-- ELL: every structure on the chart has a simple icon (stick figures in the arrangement) and a one-line definition; the twelve scenarios are short and use fictional first names; the structure names are listed in Turkish, Portuguese, and Spanish on the handout (marked [check with a native speaker]); sentence starter for the compare box: "___ and ___ are alike because ___. They are different because ___."
+- ELL: every structure on the chart has a simple icon (stick figures in the arrangement) and a one-line definition; the twelve scenarios are short and use fictional first names; the structure names are listed in Turkish, Portuguese, and Spanish on the handout (to be verified by a native speaker); sentence starter for the compare box: "___ and ___ are alike because ___. They are different because ___."
 - IEP and 504 (general): the scenario match is done in pairs with one writer; the chart has the definitions printed, so the task is matching, not recalling; a student may match six scenarios instead of twelve; extended time; the exit card sentence has a frame.
 - Grade 6 support: scenarios 1 to 8 (the first four structures plus adoptive and grandparents), and the compare box is one likeness and one difference only.
 - Grade 8 stretch: scenarios 9 to 12 (a family split between two countries, a deployed parent, a guardian who is an older sibling, a blended family that is also extended), plus the question "which transition on the chart would be hardest for the structure you chose, and what would help?" Grade 8 students also write two sentences on why the family life cycle is drawn as a loop and not a line.
@@ -125,4 +125,3 @@ Inside the building: the social studies teacher covers families in other culture
 - "Foster" appears here only as the name of the family type. There is no other word for it.
 - Watch the word "normal." If it comes up, the answer is on the slide: normal is any family doing the four jobs.
 - The family life cycle is drawn as a loop because a family can be at two stages at once (a teen and a toddler in the same home) and because launching leads to later years, which is where grandparents raising grandchildren enters the loop again. Grade 8 students can be asked to explain this; everyone else just needs to see it is not a ladder.
-- [Sal: your Brentwood classes had families from many countries and some split between two. Scenario 9 (a family with a parent in another country who sends money home and calls every night) is there for them. If it is too close for a particular class, swap it for scenario 12.]

@@ -41,7 +41,7 @@ Tier 3 (FACS): resume, bullet, summary, skill, experience, reference. See `Vocab
 - Highlighters, one per student (any color; students mark what they find in the folder)
 - Chart paper or a cleared board section headed "This Year We Actually Did" with a marker
 - Slides: `Slides 07.01 - The Resume and the Three-Part Bullet` (outline in 05 Materials; the site renders it as a deck)
-- A printed copy of one real, ordinary adult resume with the name and contact information blacked out, one per table of four, for the 45-second timing demonstration. [Sal: use your own resume with your address and phone removed. Students find out that a real one is one page and mostly bullets, and that it belongs to somebody they know.]
+- A printed copy of one real, ordinary adult resume with the name and contact information blacked out, one per table of four, for the 45-second timing demonstration.
 - Timer visible to the class
 - Setup notes: put the folders out before the bell so students see them and start looking without being told. Write the year's eight projects and labs on the board in advance, in order, as a memory aid: the $40 meal, the budget and ClassroomStreet, the babysitter kit, the room design, the upcycle item, Feed the Class, the safety exam, every lab. Allergy check: none, no food today.
 
@@ -119,7 +119,7 @@ Inside the building: the ELA teacher. This lesson is the opposite of what ELA us
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018 preliminary release), lines 3. d) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 3. a) and 3. c). Same folder. The module's own Career and Community Opportunities illustrative activity names "creating a resume, identifying references, creating a targeted cover letter, filling out a job application, preparing for a job interview, and sending follow-up communication" as the intended use of the personal-traits work, which is exactly what Topic 7.1 does.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 1, Intermediate. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.2 and 1.2.8.
 - Sal's own materials: the three-part resume bullet formula (the work, the explanation, the output) is from the Smeal MBA interview guide he used at Penn State and is the formula he used building resumes one on one with more than 87 students at Brentwood South.
@@ -131,5 +131,4 @@ Inside the building: the ELA teacher. This lesson is the opposite of what ELA us
 - The second most common miss is languages. A student who speaks Turkish, Portuguese, or Spanish at home has a skill an employer pays for. Put the languages section on the slide and say so directly.
 - Watch for the student who writes nothing because they think nothing they did counts. Walk over with their own folder open to a lab rubric and read the objective line out loud. That usually does it.
 - The 45-second look at a real resume is the highest-value 45 seconds in the lesson. Students are surprised it is one page and that it has no paragraphs.
-- [Sal: you built resumes one on one with 87 or more students at Brentwood. Decide how much of that story to tell on day one. Telling it sets the expectation that they each get a conference tomorrow, which is the promise of Lesson 7.2.]
 - Keep the mining sheets. They are the raw material for Lesson 7.2 and half the class will forget them at home if you let them leave the room.

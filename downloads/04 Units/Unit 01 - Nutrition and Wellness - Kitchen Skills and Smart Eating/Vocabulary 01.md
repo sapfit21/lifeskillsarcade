@@ -2,11 +2,11 @@
 
 Unit 1, Nutrition and Wellness. The unit's Tier 3 words across the four topics, with a one-line definition written for a grade 6 to 7 reader and columns for Turkish, Portuguese, and Spanish.
 
-**Translation status: [check with a native speaker].** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Where a term is a kitchen convention rather than a plain word (mise en place, tsp, FIFO), the translation gives the meaning, and the English term stays on the card too, because students will see it in every recipe.
+**Translation status.** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Where a term is a kitchen convention rather than a plain word (mise en place, tsp, FIFO), the translation gives the meaning, and the English term stays on the card too, because students will see it in every recipe.
 
 How lessons use this file: each lesson names its own Tier 3 words; the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints this table as picture-ready cards.
 
-## The table [check with a native speaker]
+## The table
 
 | # | Topic | English term | Student definition | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|---|---|
@@ -53,7 +53,7 @@ How lessons use this file: each lesson names its own Tier 3 words; the handout f
 
 ## Sentence starters
 
-Print these on the back of the role cards and the pitch planner. [Sal: swap in the Turkish and Portuguese sentence starters you already used for Feed a Family at Brentwood if they read better than these.] [check with a native speaker]
+Print these on the back of the role cards and the pitch planner.
 
 ### For a lab role
 

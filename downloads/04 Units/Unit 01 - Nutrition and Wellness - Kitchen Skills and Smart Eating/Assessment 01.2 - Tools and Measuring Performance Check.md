@@ -127,7 +127,7 @@ Total: ______ out of 30
 14. Cocoa: 2 Tbsp times 2 = 4 Tbsp (accept 1/4 cup). Baking powder: 1/4 tsp times 2 = 2/4 tsp = 1/2 tsp. One point each; the work must show the doubling.
 15. The recipe says "Let it cool 2 minutes; it sets as it cools" and "The top will look wet." Skipping the cooling means the cake is still soft and wet in the middle, and the mug is too hot to hold. Two points for a quoted or paraphrased recipe line plus the result; one point for the result alone.
 
-**Station B, measure four items (10 points; 2.5 each).** Targets below are typical. [Sal: measure each item yourself with the room's cups and the room's flour the day before and write your numbers in the "my target" column; flour varies with the bag and the weather.]
+**Station B, measure four items (10 points; 2.5 each).** Targets below are typical.
 
 | Cup | Item | Typical target (g) | My target (g) | Tight band (2.5 pts) | Wide band (2 pts) |
 |---|---|---|---|---|---|

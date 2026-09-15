@@ -1,6 +1,6 @@
 # Slides 4.10: Reading and Drawing a Floor Plan to Scale, and the Design Vocabulary Check
 
-Slide outline for Lesson 4.10. Day 1 has thirteen slides; Day 2 has ten. Keep the two conversions on the board through Lesson 4.14: 12 feet is 12 squares, and 36 inches is 3 feet is 3 squares. [Sal: the lesson file names this deck "Slides 04.10 - Reading and Drawing a Floor Plan to Scale." The file is saved under the longer name that matches the lesson's own title, so the site links line up. Fix one or the other, not both.]
+Slide outline for Lesson 4.10. Day 1 has thirteen slides; Day 2 has ten. Keep the two conversions on the board through Lesson 4.14: 12 feet is 12 squares, and 36 inches is 3 feet is 3 squares.
 
 # Day 1
 
@@ -181,7 +181,7 @@ Notes: Hand out the prompt list so an absent student can catch up. Students mark
 - The software does in ten seconds what you just did by hand
 - It does not know the client
 - Ask me what it costs and who uses it
-Image: a screenshot of a browser floor plan tool with one room drawn. [Sal: name the tool your school allows; nobody but you needs a device for this.]
+Image: a screenshot of a browser floor plan tool with one room drawn.
 Notes: This is the first thing to cut if Day 2 runs long. The check is fixed at 12 minutes.
 
 ## Slide 22: Sketch 4, then clear the desks

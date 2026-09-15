@@ -100,7 +100,7 @@ A fee is _________________________________________________________________
 | Round 2: 2 per trade | | |
 | Round 3: 3 once, then free | | |
 
-Real choice: Checking Account A charges $12 a month and nothing per transaction [update]. Checking Account B charges nothing a month and $0.50 per transaction [update]. A person who makes 10 transactions a month should pick ______ (A costs $______, B costs $______). A person who makes 40 should pick ______ (A costs $______, B costs $______).
+Real choice: Checking Account A charges $12 a month and nothing per transaction. Checking Account B charges nothing a month and $0.50 per transaction. A person who makes 10 transactions a month should pick ______ (A costs $______, B costs $______). A person who makes 40 should pick ______ (A costs $______, B costs $______).
 
 ### After the debrief
 

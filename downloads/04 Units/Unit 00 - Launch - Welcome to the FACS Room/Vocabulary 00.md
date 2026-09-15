@@ -2,11 +2,11 @@
 
 Unit 0, Launch. The unit's Tier 3 words across the five days, with a one-line definition written for a grade 6 to 7 reader and columns for Turkish, Portuguese, and Spanish.
 
-**Translation status: [check with a native speaker].** The Turkish, Portuguese, and Spanish columns are working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Where a term is a classroom routine rather than a plain word (do now, reset cue, role card), the translation gives the meaning, and the English term stays on the card too, because students will hear it every day.
+**Translation status.** The Turkish, Portuguese, and Spanish columns are working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Where a term is a classroom routine rather than a plain word (do now, reset cue, role card), the translation gives the meaning, and the English term stays on the card too, because students will hear it every day.
 
 How lessons use this file: each lesson names its own Tier 3 words; the handout for that lesson carries a word bank pulled from this table in the three languages. The reset cue and the five decision steps are also on wall posters in all four languages.
 
-## The table [check with a native speaker]
+## The table
 
 | # | Day | English term | Student definition | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|---|---|
@@ -32,7 +32,7 @@ How lessons use this file: each lesson names its own Tier 3 words; the handout f
 | 20 | 5 | sanitize | To kill germs on hands, tools, or surfaces so they do not get into food. | dezenfekte etmek (hijyen sağlamak) | higienizar (desinfetar) | desinfectar (higienizar) |
 | 21 | 5 | allergy | When a food makes a person's body react in a way that can be dangerous. | alerji | alergia | alergia |
 
-## The five decision steps [check with a native speaker]
+## The five decision steps
 
 For the wall poster. English first; keep the English on the poster.
 
@@ -44,13 +44,13 @@ For the wall poster. English first; keep the English on the poster.
 | 4 | Decide | Karar ver | Decida | Decide |
 | 5 | Look back | Geriye bak | Olhe para trás | Mira atrás |
 
-## The reset cue [check with a native speaker]
+## The reset cue
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | Lights, countdown, hands empty. | Işıklar, geri sayım, eller boş. | Luzes, contagem, mãos vazias. | Luces, cuenta atrás, manos vacías. |
 
-## Sentence starters used this week [check with a native speaker]
+## Sentence starters used this week
 
 | Use | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|
@@ -59,6 +59,5 @@ For the wall poster. English first; keep the English on the poster.
 | Day 4 norms | We ___ before we ___. | Biz ___ önce ___. | Nós ___ antes de ___. | Nosotros ___ antes de ___. |
 | Day 5 rewrite | Change "___" to "___" because ___. | "___" yerine "___" yazalım çünkü ___. | Mude "___" para "___" porque ___. | Cambia "___" por "___" porque ___. |
 
-Notes:
 - Unit 1's vocabulary list (`Vocabulary 01.md`) uses the same translations for hazard and sanitation; keep them matching if one is corrected.
 - The Spanish column is new in this unit because Sal's sections may include Spanish speakers; at Brentwood the translations were Turkish and Portuguese only.

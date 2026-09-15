@@ -48,7 +48,7 @@ Per station:
 - Four needle threaders, out in the open
 - The count sheet on the clipboard, the day's row ready
 - Two pre-threaded, pre-knotted needles parked in the cushion
-- A dish of buttons: 30 mixed buttons, at least ten two-hole and ten four-hole, in a range of sizes, plus two large coat buttons. [Sal: a bag of mixed buttons is about $6 for several hundred, or free if you cut them off garments that are going in the rag bin. Cutting buttons off donated garments is also a five-minute job a student can do while you set up.]
+- A dish of buttons: 30 mixed buttons, at least ten two-hole and ten four-hole, in a range of sizes, plus two large coat buttons. A bag of mixed buttons is about $6 for several hundred, or free if they are cut off garments headed for the rag bin.
 - Toothpicks or extra straight pins, 10, for holding the shank slack
 - Scrap fabric squares, about four by four inches, three per student: a medium-weight woven cotton, not felt, because a real button goes on a real shirt
 
@@ -60,7 +60,7 @@ For the whole class:
 - Handout, one per student: `Handout 05.08 - Button Steps and Portfolio Card.md`
 - Slides: `Slides 05.08 - Sewing On a Button` (outline in 05 Materials; the site renders it as a deck)
 - Timer visible to the class
-- Setup notes: cut the scrap squares ahead. Sort the button dishes so every station has both hole types and a range of sizes. Print the portfolio cards on card stock and cut the two slits before the period, because cutting slits with the fabric shears is not a thing that is going to happen. [Sal: buy or find one thrifted button-down shirt with a button already missing for the hook. It costs two dollars and it does the whole introduction for you.]
+- Setup notes: cut the scrap squares ahead. Sort the button dishes so every station has both hole types and a range of sizes. Print the portfolio cards on card stock and cut the two slits before the period, because cutting slits with the fabric shears is not a thing that is going to happen.
 
 ## Pre-assessment
 
@@ -132,7 +132,7 @@ None. Optional, and this is the one I actually push: put a button back on someth
 
 ## Connections
 
-Mathematics: the cost-saved calculation is multiplication and comparison and it previews the cost-per-wear math in Lesson 5.13. Family and community: this is the single most transferable skill in Unit 5 and it belongs in anything the school sends home about life skills; the counselor or the family liaison may want the step card as a handout. Community: a clothing pantry, a shelter, or a thrift shop that sorts donations will usually have a bin of garments rejected for a missing button, and a class that can sew buttons can fix twenty of them in a period. That is a real service project and it is the CCO community-agency activity the ATPD module itself suggests. [Sal: call the clothing pantry before Lesson 5.9 and ask if they have a reject bin.]
+Mathematics: the cost-saved calculation is multiplication and comparison and it previews the cost-per-wear math in Lesson 5.13. Family and community: this is the single most transferable skill in Unit 5 and it belongs in anything the school sends home about life skills; the counselor or the family liaison may want the step card as a handout. Community: a clothing pantry, a shelter, or a thrift shop that sorts donations will usually have a bin of garments rejected for a missing button, and a class that can sew buttons can fix twenty of them in a period. That is a real service project and it is the CCO community-agency activity the ATPD module itself suggests.
 
 ## Sources
 
@@ -151,4 +151,3 @@ Mathematics: the cost-saved calculation is multiplication and comparison and it 
 - Common mistake: fifteen passes through the holes, because more feels stronger. Five or six is plenty and more makes a lumpy mess that fills the buttonhole.
 - Tug every portfolio button yourself. It is the fastest assessment in the unit and students take it seriously because it is a real test with a real result.
 - Keep the portfolio cards in the room. They are the evidence for the sampler check and they get mounted on the sampler card in Lesson 5.11.
-- [Sal: your prices on the cost slide. If you have the thrifted shirt with the missing button, sew the button on in front of the class at the end of Step 1, in about ninety seconds, and hold up the closed shirt. That is the moment the lesson lands.]

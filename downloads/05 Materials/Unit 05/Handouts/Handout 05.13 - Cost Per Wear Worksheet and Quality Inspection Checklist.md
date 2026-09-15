@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Station: ______
 
-Lesson 5.13, one day. Every dollar figure on this sheet is written for class and marked [update].
+Lesson 5.13, one day. Every dollar figure on this sheet is written for class and to be refreshed before teaching.
 
 **The formula:** cost per wear = price divided by the number of times worn. The answer is in dollars per wear.
 
@@ -17,15 +17,15 @@ Spanish: precio, uso, dividir, costura, hilo, botón, fuerte
 
 Show the division. Write the unit on every answer.
 
-**(a) The jeans.** A pair of jeans costs $60 [update]. You wear them 200 times before they wear out.
+**(a) The jeans.** A pair of jeans costs $60. You wear them 200 times before they wear out.
 
 $60 ÷ 200 wears = $__________ per wear
 
-**(b) The shirt.** A shirt costs $15 [update]. You wore it 5 times and then stopped wearing it.
+**(b) The shirt.** A shirt costs $15. You wore it 5 times and then stopped wearing it.
 
 $15 ÷ 5 wears = $__________ per wear
 
-**(c) The coat.** A winter coat costs $90 [update]. You wear it for 3 winters.
+**(c) The coat.** A winter coat costs $90. You wear it for 3 winters.
 
 First you have to estimate. How many times do you wear a winter coat in one winter? ________ times
 
@@ -127,7 +127,7 @@ Most likely to last, 1, to least likely, 4. Write one reason for each rank.
 
 Two garments, two different people. Compute both.
 
-**Garment 2, the thin t-shirt: $8 [update]. Garment 1, the heavy sweatshirt: $44 [update].**
+**Garment 2, the thin t-shirt: $8. Garment 1, the heavy sweatshirt: $44.**
 
 ## Person 1: a student who walks to school and will wear it four days a week for two winters
 

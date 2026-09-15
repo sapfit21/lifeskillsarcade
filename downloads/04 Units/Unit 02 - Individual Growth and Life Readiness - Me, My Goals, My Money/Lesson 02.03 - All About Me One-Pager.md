@@ -37,8 +37,7 @@ Tier 3 (FACS): one-pager, rubric, "known for" statement (a one-sentence personal
 
 - `Handout 02.03 - All About Me Template.md`, one per student: the draft template (page 1), the layout guide (page 2), and the mini rubric with a peer feedback box (page 3)
 - Students' three sheets and three notice cards from the FACS folder: Lesson 2.1 sort sheet, Lesson 2.2 strengths inventory, Lesson 2.2 interest quiz
-- Poster option: one sheet of 11 by 17 paper or half a poster board per student, markers, a ruler; a stack of magazine pages or a printed sheet of small icons for students who want pictures [Sal: your room's supply; a class set of 30 sheets of 11 by 17 is about $6]
-- Slide option: one device per student and a one-slide template file [Sal: make a blank one-slide file in your school's slide tool with five labeled boxes matching page 2 of the handout, and share it read-only so each student makes a copy]
+- Slide option: one device per student and a one-slide template file
 - Slides: `Slides 02.03 - All About Me One-Pager` (Day 1 and Day 2 labeled)
 - Two finished examples, one poster and one slide, made by the teacher about a fictional student (slides 5 and 6), so nobody's real work is the model
 - Timer visible to the class
@@ -119,7 +118,7 @@ Inside the building: the ELA teacher, if the class is working on personal narrat
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a), 1. b), and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.1.
 - Sal's own materials: the Your Mission Statement packet (`Lesson Dups/Unit_5_Personal_Branding/education_teachingwork_your_mission_statement_2026_04.docx`) supplied the mission statement frame ("I want to use my [strengths] to [action] so that [impact]"), adapted here into the known-for sentence; the My Career Vision Board packet (`Unit_2_Career_Exploration`) supplied the idea of a single visual product closing the topic.
@@ -131,5 +130,4 @@ Inside the building: the ELA teacher, if the class is working on personal narrat
 - Common mistake: students copy the whole strengths inventory onto the poster. Say the three-foot rule twice: if you cannot read it from three feet, it is too much.
 - Common mistake: the known-for sentence turns into a goal ("I want to be known as someone who made the NBA"). Push it back with the frame: the sentence is about who you are, not what you get. The goal version is what Lesson 2.4 is for, so tell the student to save it.
 - The two teacher examples (Rosa and one other fictional student) should be a 3 and a 4 on the rubric, not two 4s. Students need to see what the gap looks like.
-- [Sal: decide whether posters go home or stay up. A wall of one-pagers is the fastest way to show a visitor what the class is about, but some students will not want theirs up. Ask before you tape.]
 - Keep page 1 of every template in the FACS folder after the poster goes home. It is the source for the Goal Plan (Lesson 2.5) and the career research card (Lesson 2.22).

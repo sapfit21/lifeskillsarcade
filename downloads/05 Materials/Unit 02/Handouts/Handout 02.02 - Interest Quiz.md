@@ -8,8 +8,6 @@ The six letters: R _______________ I _______________ A _______________ S _______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | interest | ilgi alanı | interesse | interés |

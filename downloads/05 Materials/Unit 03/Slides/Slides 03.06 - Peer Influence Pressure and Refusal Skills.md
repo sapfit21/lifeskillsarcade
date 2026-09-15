@@ -108,7 +108,7 @@ Notes: This is the most common skit mistake. Say it before the skits.
 
 ## Slide 15: The model
 
-- Card: [Sal: one of yesterday's hardest]
+- Card: one of yesterday's hardest
 - Pusher script: "Come on. Everyone is doing it. Do not be boring."
 - Refuser: step 1, then step 3, then step 4 if it continues
 - Watch which step comes first

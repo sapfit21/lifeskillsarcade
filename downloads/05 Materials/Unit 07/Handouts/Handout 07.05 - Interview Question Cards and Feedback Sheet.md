@@ -8,7 +8,7 @@ Unit 7, Lesson 7.5. **Print pages 1 and 2 on card stock and cut: six question ca
 
 Every triad gets the same six. Students have seen these before the interview starts, because a student hearing a question for the first time in the chair learns nothing except that this is scary.
 
-Each card is printed with the English question and the Turkish, Portuguese, and Spanish translation under it. **[check with a native speaker]**
+Each card is printed with the English question and the Turkish, Portuguese, and Spanish translation under it.
 
 ## Card 1
 **Tell me about yourself.**
@@ -127,7 +127,7 @@ ____________________________________________________________________
 
 **Next time try** ____________________________________________________
 
-**Sentence starters in four languages** [check with a native speaker]
+**Sentence starters in four languages**
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

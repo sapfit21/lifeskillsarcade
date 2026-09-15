@@ -29,7 +29,7 @@ Notes: Nine minutes. Sections: 1 safety, 2 respect, 3 roles, 4 clean up, 5 phone
 
 ## Slide 4: The allergy line, for real
 
-- The nurse's list for this room this year: [Sal: the foods]
+- The nurse's list for this room this year, read aloud
 - Not for a lab. Not for a snack. Not for a birthday.
 - Anything you cannot eat: tell me before the first lab, privately if you want. The lab will have a version you can eat.
 

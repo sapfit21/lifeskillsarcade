@@ -44,7 +44,7 @@ Tier 3 (FACS): interview, candidate, employer, STAR, composure, adaptability, pr
 - Lesson 7.3 self-score sheets from the FACS folders, so students can compare what they thought with what a peer saw
 - Slides: `Slides 07.05 - Mock Interviews With Peer Feedback`
 - A visible timer with a sound, and a bell or a chime for the round change
-- One tie, one collared shirt on a hanger, or any one professional item hung at the front. [Sal: optional. Some classes take the handshake and the greeting more seriously when there is one physical marker in the room that says this is different from a normal period.]
+- One tie, one collared shirt on a hanger, or any one professional item hung at the front.
 - Setup notes: arrange the room into triads before the bell, two chairs facing and one to the side. Write the round order on the board: Round 1 A interviews B, C observes; Round 2 B interviews C, A observes; Round 3 C interviews A, B observes. Assign letters as students walk in so triads are not friend groups. Allergy check: none.
 
 ## Pre-assessment
@@ -122,7 +122,7 @@ Inside the building: the school counselor, who can take one triad for the period
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. b), 3. c), and 3. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. d); Theme Module 02, Communication and Interpersonal Relationships, line 2. c).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.2 and 13.3.3.
 - Sal's own materials: the STAR interview lesson and its peer feedback step (FNES 538, April 2026), and the ACT FAST drill's four observed traits, which are the four trait rows on the feedback sheet.
 - The Communication and Interpersonal Relationships illustrative activity in the state's Individual Growth and Life Readiness module has students "work in pairs to practice effective communication skills," including "role playing active/reflective listening," before interviewing an adult. The triad structure here is that activity with a third role added so the listening gets written down.
@@ -137,5 +137,4 @@ Inside the building: the school counselor, who can take one triad for the period
 - Tell students before Round 1 exactly what is being scored. Criterion 2 has four levels and they are on the rubric in their hands. Nothing about the scoring should be a surprise while they are sitting in the chair.
 - Common mistake: the candidate reads the whole three-part answer off the paper. Say the rule twice in Step 1 and turn the papers face down yourself while walking the room.
 - Second common mistake: the interviewer coaches. "You should say..." Stop it the first time you hear it, in one sentence: "Interviewers do not help. That is the whole point."
-- [Sal: keep a private list of the students who did the hallway version. In Lesson 7.11 they will need the written-pitch accommodation too, and it is easier to offer it before they ask.]
 - Return the scored rubric criteria 1 and 2 at the start of Lesson 7.7 so students know where they stand before the project takes over the unit.

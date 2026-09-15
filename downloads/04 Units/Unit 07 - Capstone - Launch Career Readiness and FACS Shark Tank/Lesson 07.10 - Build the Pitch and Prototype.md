@@ -39,7 +39,7 @@ Tier 3 (FACS): prototype, deck, pitch, ask, margin, break-even, brand. See `Voca
 ## Materials and setup
 
 - `Handout 07.10 - Five-Panel Deck Template and Peer Review.md`, two per student (one is the panel planner, one is the peer review sheet)
-- Poster board or trifold card, one per team, or five sheets of letter paper taped in a row. [Sal: one poster board per team at about $1.00 is the only real consumable in this unit. Ten teams is about $10.00 to $12.00. Budget it.]
+- Poster board or trifold card, one per team, or five sheets of letter paper taped in a row. Poster board at about $1.00 per team is the only real consumable in this unit; ten teams is about $10 to $12.
 - Markers, rulers, scissors, glue sticks, tape, one tray per team
 - Prototype materials, drawn from what the room already has: scrap fabric, thread, needles, and the sewing stations from Unit 5; graph paper and rulers from Unit 4; index cards for menus and price lists; cardboard and a box cutter used only by the teacher; food samples only with the Unit 1 allergen procedure and only if the idea is a food product
 - Team folders: the signed numbers page from Lesson 7.8, the interview sheets, the Lesson 7.9 draft sheet, and the Lands and Kills list
@@ -160,7 +160,7 @@ Inside the building: the art teacher for panel layout and legibility from ten fe
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 2. d), 3. b), and 5. b).
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, lines 2. a) f. and 2. a) g.; Theme Module 02, Communication and Interpersonal Relationships, line 3. f).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Managing Resources. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Managing Resources. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 1.2.4.
 - Sal's own materials: his Brentwood business packets "Shark Tank Showdown" (the five-slide deck structure: problem, solution, market, financial projections, investment ask) and "Design Thinking Challenge" and "Competition Check" (the prototype and competitor work). The five panels here are his five slides with "market" replaced by "the customer," because this course has real customer interviews behind it and a middle school team cannot size a market honestly. The prototype rule (it must use a skill from this course, and the team names which unit) is what makes this a FACS capstone.
 - The Problem Solving and Innovation illustrative activity in the state's Individual Growth and Life Readiness module has students "make prototype food, textile, or human services products," which is the state's own list and it is the prototype menu here.
@@ -174,5 +174,4 @@ Inside the building: the art teacher for panel layout and legibility from ten fe
 - The peer review round is worth more than any teacher feedback on Day 2, because the criteria are the class's own Lands and Kills list. Do not replace it with a teacher walk-through.
 - Protect the prototype from becoming the whole project. A beautiful object with no numbers scores badly, and the reverse is also true. Say the four-gate list out loud when a team disappears into craft work.
 - The stuck-team protocol's step 5 matters more than it looks. Every year one idea genuinely fails when the numbers come in. Telling that team that an honest "here is why this does not work" is a real pitch, and scoring it at Meets, is the difference between a student learning something and a student learning to fake it.
-- [Sal: your room's consumables here are one poster board per team and the scrap bin from Unit 5. Add poster board to the unit budget in the unit plan. Everything else is already in the room from the other six units, which is worth pointing out to a principal: the capstone costs about twelve dollars.]
 - Set the posters on the counter in running order at the end of Day 2. On pitch day you do not want ten teams carrying posters around a room with adults in it.

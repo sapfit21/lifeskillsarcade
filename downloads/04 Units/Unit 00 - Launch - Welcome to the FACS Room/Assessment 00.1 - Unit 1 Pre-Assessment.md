@@ -125,8 +125,7 @@ Tally sheet (one per section):
 | 14 | | | | |
 | 15 | | | | cooked a full meal: ____ ; helps: ____ ; never: ____ |
 
-Notes:
-- Growth measure: after the Unit 1 Test, compare item 1 here (wash hands first) to the test's handwashing item, item 11 here (danger zone) to the test's danger zone item, and item 13 here (unit price) to the test's unit price item, student by student. The Unit 1 Test key lists which of its items these are. [Sal: the Unit 1 Test as written has the danger zone at item 1, the six nutrients at item 11, and the food groups at item 13; its growth note says to compare "items 1, 11, and 13 to the pre-assessment." Read that as a comparison by topic, not by matching item number: pre-assessment 1 to test 2, pre-assessment 11 to test 1, pre-assessment 13 to test 17, plus pre-assessment 5 to test 11 and pre-assessment 7 to test 13. Or renumber one of the two. Decide once and write it on both keys.]
+- Growth measure: after the Unit 1 Test, compare item 1 here (wash hands first) to the test's handwashing item, item 11 here (danger zone) to the test's danger zone item, and item 13 here (unit price) to the test's unit price item, student by student. The Unit 1 Test key lists which of its items these are.
 - Grade 6 version: omit items 13 and 15 (unit price and the attitude item) and allow the full 12 minutes for the rest. Grade 8 stretch: item 13 asks for the answer to the cent.
 - ELL: a bilingual dictionary is allowed; the items may be read aloud in a small group; items 3, 5, and 7 accept answers in the home language (score them with the ENL teacher's help or the class word list).
 - Absent on day 5: take it during the do now of Lesson 1.1.

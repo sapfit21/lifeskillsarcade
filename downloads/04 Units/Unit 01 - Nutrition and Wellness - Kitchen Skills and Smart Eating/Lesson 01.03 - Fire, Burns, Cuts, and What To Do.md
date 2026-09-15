@@ -41,9 +41,9 @@ Tier 3 (FACS): grease fire, oven mitt, PASS (pull, aim, squeeze, sweep), first a
 ## Materials and setup
 
 - A skillet with a lid that fits, a box of baking soda, and a dry oven mitt and a wet oven mitt (for the demo of why a wet mitt burns)
-- The room's fire extinguisher, or a photo of it on the slide if it cannot be taken off the wall; a training extinguisher if the school has one [Sal: ask the custodian; some buildings keep one for staff training]
+- The room's fire extinguisher, or a photo of it on the slide if it cannot be taken off the wall; a training extinguisher if the school has one
 - The first aid kit, opened, and the Safety Data Sheet binder or folder (the unlabeled spray bottle from the Hazard Hunt goes next to it)
-- A blank accident report form from the school, or the four-line version on the slide [Sal: use your school's real form once you have it]
+- A blank accident report form from the school, or the four-line version on the slide
 - Butter knives and kitchen shears, one of each, to show what "the only cutting tools in this course" means
 - What Would You Do scenario cards, one set per team, cut apart: `Handout 01.03 - What Would You Do Scenarios.md` (8 scenarios)
 - One relay answer sheet per team (the second page of the handout)
@@ -59,7 +59,7 @@ The do now is the pre-assessment. Most students say "water" for a grease fire an
 
 On the board: "Oil in a pan catches fire on the stove. Write the first thing you would do. Be honest."
 
-Debrief: hand vote for water, blanket or towel, lid, run, or something else. Do not correct yet. Then the hook: show the slide that describes what happens when a cup of water hits a grease fire (a fireball to the ceiling, because water sinks under the oil, turns to steam instantly, and throws burning oil everywhere). [Sal: a 20-second fire department demo video works better than the description if the school allows video; the description on the slide is the no-video version.] Say: "Everyone who voted water just made a small fire into a big one. Today you learn what to do instead."
+Debrief: hand vote for water, blanket or towel, lid, run, or something else. Do not correct yet. Then the hook: show the slide that describes what happens when a cup of water hits a grease fire (a fireball to the ceiling, because water sinks under the oil, turns to steam instantly, and throws burning oil everywhere). Say: "Everyone who voted water just made a small fire into a big one. Today you learn what to do instead."
 
 ## Procedure
 
@@ -121,9 +121,9 @@ Inside the building: the school nurse or custodian visits for five minutes durin
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c), d), f), g), and h). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.4.1 and 1.2.7.
-- Burn first aid (cool running water, no ice) and grease fire response (lid, no water) follow public guidance from the American Red Cross and the U.S. Fire Administration. PASS is the standard extinguisher sequence taught by the National Fire Protection Association. [Sal: confirm the current pages before the site goes public.]
+- Burn first aid (cool running water, no ice) and grease fire response (lid, no water) follow public guidance from the American Red Cross and the U.S. Fire Administration. PASS is the standard extinguisher sequence taught by the National Fire Protection Association.
 - Sal's own materials: the zero-knife policy, no frying, pre-cooked meat only, teacher drains pasta and handles the oven door, from the King Kullen menu documents and Brentwood lab constraints (Education/TeachingWork/LessonPlans).
 
 ## Teacher notes
@@ -132,5 +132,4 @@ Inside the building: the school nurse or custodian visits for five minutes durin
 - Common mistake: students think the extinguisher is a game. Say plainly: it is for adults, it makes a mess, and if you ever have to use one, you have already done the right thing by getting out and calling for me.
 - Common mistake: "cover the pan" turns into "throw a towel on it" in student answers. A towel catches fire. A lid does not. Say lid every time.
 - The wet mitt demo is worth the 30 seconds. Wet it in front of them and ask what happens when steam comes through cloth.
-- [Sal: your school's fire drill route and accident report form replace the generic ones here. Fill in the room map on the handout with real locations the first week you have the room.]
 - Keep the relay answer sheets. The scenarios teams miss become exam review in Lesson 1.4.

@@ -16,8 +16,6 @@ What a child is working on, by area. Pick one line. Your kit builds that one thi
 | 5 | Skips; balances on one foot 10 seconds; copies a triangle; ties a knot; dresses alone | Wants to be like friends; follows rules; takes turns without help | Manages feelings with words most of the time; understands others' feelings | Counts to 20; knows most letters; rhymes; retells a story in order; sorts by two rules; simple addition with objects |
 | 6 | Rides a bike; jumps rope; writes letters and numbers; ties shoes | Best friends; team games; fairness matters a lot | Handles losing (mostly); proud of what they can do | Reads simple words; counts by tens; tells time to the hour; understands rules of a board game; long pretend with a plot |
 
-[Sal: the lines are general markers from common pediatric milestone lists; confirm against the CDC "Learn the Signs. Act Early." checklists before printing.]
-
 ## Part 2: The kit plan
 
 **My child's age:** [ ] 2 [ ] 3 [ ] 4 [ ] 5 [ ] 6

@@ -3,7 +3,7 @@
 Lesson 2.18, one day. Slides 1 to 12. Set the market to window 33 before class. Swap the example prices for the class's real peak and bottom where marked.
 
 ## Slide 1: Do now
-- Sparkstone was AQ57.80 before the crisis and AQ31.20 at the bottom. [Sal: use your class's real numbers.]
+- Sparkstone was AQ57.80 before the crisis and AQ31.20 at the bottom.
 - Someone bought 100 units at the bottom. If the price goes back to 57.80, how much does that person make?
 - Harder: what percent of their money did they make?
 Notes: 3 minutes. 26.60 a unit, 2,660 on 100 units. Percent: 2,660 divided by 3,120, about 85 percent.

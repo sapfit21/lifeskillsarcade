@@ -39,7 +39,7 @@ Tier 3 (FACS): dry measuring cup, liquid measuring cup, measuring spoons, whisk,
 - Day 1, one "which tool would you use" card at each station (six cards; see `Handout 01.05 - Tool ID and Where It Lives.md`, Part 3).
 - Day 1, Tool ID handout, one per student: `Handout 01.05 - Tool ID and Where It Lives.md`
 - Day 1, a blank map of the kitchen stations (Part 2 of the handout) and one colored pencil per pair.
-- Day 2, the machines: one stove and oven per station, one microwave per station, one stand or hand mixer, one blender. [Sal: if there is only one mixer in the room, run Step 2 as a demo at the front.]
+- Day 2, the machines: one stove and oven per station, one microwave per station, one stand or hand mixer, one blender.
 - Day 2, blender demo supplies: a plastic blender jar and a glass jar if the room has both (or a photo of each), one banana, one cup of milk, a handful of ice, a scoop of frozen berries, a spoon (to show what must never go in).
 - Day 2, "what went wrong" scene cards, five cards, one per machine (printed from Slides 01.05 Day 2).
 - Day 2, Tools Check, one per student (Part 4 of the handout; ten items, scored as daily work).
@@ -100,7 +100,7 @@ Day 2: one sentence on the exit card: "The machine I will be most careful with i
 - Grade 6 support: twelve tools on the trays, not eighteen (drop can opener, peeler, grater, food thermometer, saucepan vs skillet contrast, and the second bowl); the drawer map is pre-labeled with drawer names.
 - Grade 8 stretch: students also sort the eighteen tools into the National FCS categories on the slide (processing, cooking, holding, storing, serving) and write one tool the room is missing and why it matters. On Day 2, the stretch team writes the safe procedure for a machine not in the room (an air fryer or an electric kettle).
 - UDL checkpoint used: multiple means of representation (the real tool on the tray, a photo on the slide, and a label in three languages) and multiple means of action and expression (matching, writing, or pointing at the drawer map).
-- No-kitchen alternative: the six trays become six photo posters on the walls (use the tray photos). The drawer scavenger hunt becomes a "design the drawer" task: teams draw where the eighteen tools should live in a kitchen and defend it. The equipment walk uses the labeled diagrams on the slides; the blender demo runs at a table with any outlet. [Sal: a plastic blender and a mixer travel fine on a cart.]
+- No-kitchen alternative: the six trays become six photo posters on the walls (use the tray photos). The drawer scavenger hunt becomes a "design the drawer" task: teams draw where the eighteen tools should live in a kitchen and defend it. The equipment walk uses the labeled diagrams on the slides; the blender demo runs at a table with any outlet.
 
 ## Assessment
 
@@ -124,7 +124,7 @@ Science: the blender and mixer are simple machines with a motor and a blade or b
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. a) and 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a, Technology. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.3.6.
 - Sal's own materials: the blender safety demo he ran at Queens College (order of ingredients, lid on, glass vs plastic), and the zero-knife policy from his King Kullen station cards (Education/TeachingWork/LessonPlans), which is why kitchen shears and a butter knife are the only cutting tools on the trays.
@@ -133,6 +133,6 @@ Science: the blender and mixer are simple machines with a motor and a blade or b
 
 - If Day 1 runs short, cut the station rotation to five stations (fold Station F into a teacher-held tray at the front) and keep the drawer hunt; the map is what saves time in every lab after this.
 - Common mistake: students call the liquid measuring cup "the big measuring cup" and use it for flour. Point out the pour spout and the space above the top line every time it comes up. Lesson 1.6 makes this the whole point.
-- The blender demo: put the ice in first once, on purpose, with the lid on, and let them hear the motor struggle. Then do it in the right order. The sound is the lesson. [Sal: you have run this demo; use your own script.]
+- The blender demo: put the ice in first once, on purpose, with the lid on, and let them hear the motor struggle. Then do it in the right order. The sound is the lesson.
 - Tape the drawer map inside the cabinet door at each station after Day 1. Every lab this year starts with "check the map."
 - Keep the tray photos. They become the review slide before the performance check and the pictures on the tool tray station of Assessment 01.2.

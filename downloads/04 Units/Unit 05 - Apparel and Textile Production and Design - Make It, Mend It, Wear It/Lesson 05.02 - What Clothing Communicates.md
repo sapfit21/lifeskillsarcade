@@ -45,7 +45,7 @@ Tier 3 (FACS): nonverbal communication, first impression, uniform, costume, pers
 - Slides: `Slides 05.02 - What Clothing Communicates` (outline in 05 Materials; the site renders it as a deck)
 - Chart paper and two thick markers for the class agreement, or a projected shared document if the room has one
 - Sticky notes, three per student, two colors if possible
-- One plain garment that can be shown three ways: a plain button-down shirt on a hanger is the easiest. Show it with a tie, with the sleeves rolled and untucked, and with a hoodie over it. [Sal: bring one of your own shirts. It reads as real, and it keeps the example off any student.]
+- One plain garment that can be shown three ways: a plain button-down shirt on a hanger is the easiest. Show it with a tie, with the sleeves rolled and untucked, and with a hoodie over it.
 - Index cards for the closure, one per student
 - Setup notes: write the one hard rule on the board before the bell: "Today we talk about clothing, not about each other's clothes." Hang the chart paper where it will stay up for the rest of the unit. Read the room before the period; if something happened in the hallway this week, the agreement is going to do real work today and Step 4 needs its full time.
 
@@ -116,7 +116,7 @@ None. Optional: ask one adult in your family what they wore at your age that som
 
 ## Connections
 
-English language arts: intent versus impact is the same lesson the ELA teacher runs on audience and purpose; trade the clothing examples for their persuasive writing prompt. Social studies: cultural dress connects to whatever region the social studies class is in this quarter, and the social studies teacher will have better images than I will. Health: the comments-about-appearance piece overlaps the health teacher's unit on body image and bullying, so tell the health teacher the week this runs and use the same words they use. Community: nobody outside the building is needed for this one, and that is on purpose. [Sal: the counselor may want a copy of the agreement. Give them one.]
+English language arts: intent versus impact is the same lesson the ELA teacher runs on audience and purpose; trade the clothing examples for their persuasive writing prompt. Social studies: cultural dress connects to whatever region the social studies class is in this quarter, and the social studies teacher will have better images than I will. Health: the comments-about-appearance piece overlaps the health teacher's unit on body image and bullying, so tell the health teacher the week this runs and use the same words they use. Community: nobody outside the building is needed for this one, and that is on purpose.
 
 ## Sources
 
@@ -125,7 +125,7 @@ English language arts: intent versus impact is the same lesson the ELA teacher r
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 16.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - Sal's own materials: the Brentwood Spirit Week segment on what is and is not okay to say about what somebody is wearing, built after 80s Day with a colleague; and the dress-as-communication and identity writing from FNES 727, The Meanings of Dress (Queens College, summer 2026). The FNES 727 course content itself stays in that course; only the idea is used here, in my own words. The "Dress the Part" packet's style-profile activity is the optional stretch in Part 3.
-- The first-impression timing claim (people form an impression in roughly one to two seconds) is widely reported in social psychology. [Sal: either cite a specific study on the slide or drop the number and say "almost instantly." Do not put a number on the site you cannot source.]
+- The first-impression timing claim (people form an impression in roughly one to two seconds) is widely reported in social psychology.
 
 ## Teacher notes
 
@@ -134,4 +134,3 @@ English language arts: intent versus impact is the same lesson the ELA teacher r
 - Common mistake in Step 1: students think a uniform has no message. Ask what a police uniform says, then what a referee's says, then what a school uniform says. Three different answers, all loud.
 - Common mistake in Step 3: "it is just a costume" gets used to defend something that was not okay. Have the answer ready: a costume works only when the wearer and the audience both know it is one, and an item that belongs to a living culture is not a costume for anyone outside it.
 - Keep the chart paper up through Lesson 5.18. When the finished pouches and upcycled items go on display, the agreement is what keeps the gallery walk from turning into a roast.
-- [Sal: tell the 80s Day story in your own words, in first person, in about 45 seconds, right before the sticky notes. Say that you and a colleague stopped the planned lesson to deal with it. Students believe a story about a teacher changing his plan. Do not name the colleague or any student.]

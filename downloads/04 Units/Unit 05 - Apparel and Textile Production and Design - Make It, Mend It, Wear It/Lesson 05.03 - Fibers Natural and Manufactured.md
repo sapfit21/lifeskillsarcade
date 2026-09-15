@@ -44,7 +44,7 @@ Tier 3 (FACS): fiber, natural fiber, manufactured fiber, cotton, wool, silk, lin
 Three stations of about seven students. Each station runs the same three tests on the same six swatches, so nothing has to rotate between stations except students' attention.
 
 Per station:
-- Six labeled swatches, about four inches square, one of each: cotton (an old T-shirt or muslin), wool (a thrifted sweater or felt made of wool), silk or linen (a thrifted blouse or a linen napkin), polyester (a fleece or a cheap dress shirt), nylon (a windbreaker or tights), spandex blend (leggings or a swim fabric). Label each with a letter A to F on masking tape, not with the fiber name. [Sal: cut these from thrifted garments once and they last for years. Keep a master set in a labeled bag in the Unit 5 bin. One thrift store bag of six garments at about $2 each gives you twenty sets.]
+- Six labeled swatches, about four inches square, one of each: cotton (an old T-shirt or muslin), wool (a thrifted sweater or felt made of wool), silk or linen (a thrifted blouse or a linen napkin), polyester (a fleece or a cheap dress shirt), nylon (a windbreaker or tights), spandex blend (leggings or a swim fabric). Label each with a letter A to F on masking tape, not with the fiber name. Cut the swatches from thrifted garments once and keep a master set in a labeled bag in the unit bin; one thrift store bag of six garments at about $2 each gives twenty sets.
 - One small cup of water and one eye dropper or pipette
 - One paper towel
 - One magnifier or a phone camera on zoom, optional but good for the weave
@@ -53,7 +53,7 @@ Per station:
 For the whole class:
 - Handout, one per student: `Handout 05.03 - Fiber Test Station Record.md`
 - Slides: `Slides 05.03 - Fibers Natural and Manufactured` (outline in 05 Materials; the site renders it as a deck)
-- The burn demonstration kit, teacher only: a metal pie pan or a ceramic dish, a long lighter or matches, metal tweezers or tongs, a cup of water, the room's fire extinguisher within reach, one two-inch snip of each of three fibers only (cotton, wool, polyester). The room's exhaust fan or an open window. [Sal: check the building's policy on open flame in a classroom before you plan on this. Many buildings say no, and the lesson works without it.]
+- The burn demonstration kit, teacher only: a metal pie pan or a ceramic dish, a long lighter or matches, metal tweezers or tongs, a cup of water, the room's fire extinguisher within reach, one two-inch snip of each of three fibers only (cotton, wool, polyester). The room's exhaust fan or an open window.
 - Index cards for the closure
 - Timer visible to the class
 - Setup notes: cut and label swatches the day before. Fill the water cups at the start of the period, not before, so nothing spills overnight. If the burn demonstration is running, clear a three-foot radius at the front table, move the class's chairs behind a taped line on the floor, and tell the class the day before that there will be a small flame at the front, because a student with a trauma history or an asthma trigger needs a chance to tell me quietly. That student sits at the back with the video version and no comment is made.
@@ -125,7 +125,7 @@ None. Optional: find the fiber content tag in one thing you own (it is usually n
 
 ## Connections
 
-Science: the burn test is a materials science demonstration, and the science teacher may already have a fume hood, which is a better place for it than a FACS room; trade the fiber swatches for ten minutes at their hood. Health and PE: wicking versus absorbing is why the PE teacher tells students not to wear a cotton shirt for the mile run, and PE can say it in one sentence at the start of that unit. Community: a local dry cleaner or tailor will usually give a bag of fabric scraps and thirty seconds on which fiber gives them the most trouble; they get a class that stops bringing them ruined wool. [Sal: ask the cleaner near the school; scraps are free and they have plenty.]
+Science: the burn test is a materials science demonstration, and the science teacher may already have a fume hood, which is a better place for it than a FACS room; trade the fiber swatches for ten minutes at their hood. Health and PE: wicking versus absorbing is why the PE teacher tells students not to wear a cotton shirt for the mile run, and PE can say it in one sentence at the start of that unit. Community: a local dry cleaner or tailor will usually give a bag of fabric scraps and thirty seconds on which fiber gives them the most trouble; they get a class that stops bringing them ruined wool.
 
 ## Sources
 
@@ -133,7 +133,7 @@ Science: the burn test is a materials science demonstration, and the science tea
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. a); Theme Module, Sustainability, line 2. e). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.1, 16.2.2, and 16.2.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
-- Burn test results (flame behavior, odor, and residue for cotton, wool, and polyester) are the standard identification results published in textile science references and in cooperative extension fiber identification guides. [Sal: pick one source and put it on the slide; a university extension fiber burn chart is the cleanest citation and is usually a free PDF.]
+- Burn test results (flame behavior, odor, and residue for cotton, wool, and polyester) are the standard identification results published in textile science references and in cooperative extension fiber identification guides.
 - Fire response wording is carried over verbatim from `Lesson 01.03 - Fire, Burns, Cuts, and What To Do.md` so students hear the same rules in the same words.
 
 ## Teacher notes
@@ -144,4 +144,3 @@ Science: the burn test is a materials science demonstration, and the science tea
 - Common mistake: students decide a fabric's fiber by its color or by whether they like it. Push them back to the three test columns every time.
 - Label the swatches with letters, not names, and keep the answer envelope sealed. The guess-then-check is the reason students care about the test data.
 - The spandex swatch is the one everybody gets right and the silk-versus-polyester pair is the one nobody does. Plan the two-minute review around that pair.
-- [Sal: your room, your materials. If you have a scrap bin from the sewing stations, use it for the swatches and save the thrift trip. Keep one swatch of each for the Lesson 5.4 laundry sort.]

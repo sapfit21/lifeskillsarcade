@@ -41,7 +41,7 @@ Tier 3 (FACS): design brief, universal design, accessible, zone (from Lesson 4.1
 - The do-now floor plan folder each student started in Lesson 4.10 (the stack is collected with the project in Lesson 4.15)
 - Slides: `Slides 04.11 - The Client Brief`
 - A visible timer
-- Setup notes: cut the client cards the day before. Decide before class whether teams of two are chosen by students or by you; the project sheet says students choose, with your veto. [Sal: if a class has a student who uses a walker, a wheelchair, or has a family member who does, read the cards yourself first and decide whether to say so out loud. The cards are meant to be respectful and real, not a joke.]
+- Setup notes: cut the client cards the day before. Decide before class whether teams of two are chosen by students or by you; the project sheet says students choose, with your veto.
 
 ## Pre-assessment
 
@@ -111,7 +111,7 @@ Math: needs versus wants and constraints are the same idea as a word problem's g
 
 - NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. a) and 2. a). Copy in `02 Standards/NYS Module PDFs/`. The state's Health, Safety, and Wellness illustrative activity for this module (a floor plan revised for a family member who uses a walker or wheelchair) is the seed of the six client cards.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) sub-lines a., b., c. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.5 and 11.2.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - Sal's own materials: `Lesson Dups/Unit_1_Interior_Design/education_teachingwork_dream_home_challenge_2026_04.docx` (the synthesis idea, the "client needs" vocabulary entry, and the budget line). The client, the budget, and the model are new.
 - Turning circle and path widths: the 2010 ADA Standards for Accessible Design (ada.gov), sections 304 (60-inch turning space) and 403 (36-inch clear width). The 30-inch general path is a common residential planning guideline, not a code line.
@@ -122,5 +122,4 @@ Math: needs versus wants and constraints are the same idea as a word problem's g
 - Common mistake: a student picks the tiny house because it sounds fun and then discovers the bathroom and kitchen. Say on Day 1 that the tiny house is the harder path, and let a student switch cards up to the end of Lesson 4.12 Day 1 with no penalty.
 - Common mistake: every want gets sorted as a need. Use the test out loud: "If the room does not have this, does the client's life get worse, or just less fun?"
 - Teams of two: the project sheet lets students choose. In a class that cannot handle choosing, assign by client card. A team of two turns in one plan, one budget, one model, and two do-now stacks.
-- [Sal: your own client story from Oracle or Orangetheory, the one where the customer said they wanted one thing and needed another, is the best two minutes of this lesson. Put it in Step 1.]
 - Keep the exit slips. The "not sure how to fit" answers are your board examples for Lesson 4.12.

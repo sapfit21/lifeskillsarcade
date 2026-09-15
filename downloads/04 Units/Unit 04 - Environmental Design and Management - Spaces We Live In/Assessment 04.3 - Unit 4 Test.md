@@ -194,5 +194,5 @@ Points per item are in the item. Accept any answer that is correct and specific 
 Scoring notes:
 - Items 4, 11, and 14 are the math items. Give the point for a correct answer with the work shown; give half a point for correct work with an arithmetic slip.
 - Items 19 and 20 are the evaluate-and-justify items. A student who names a problem without a fix on item 19 gets half a point for that line.
-- A retake uses the same key with new numbers on items 4, 11, and 14 [Sal: swap 60 and 9 watts for 75 and 10; swap the subtotal $312 for $276; swap 3.5 inches for 2.75 inches].
+- A retake uses the same key with new numbers on items 4, 11, and 14: swap 60 and 9 watts for 75 and 10, the subtotal $312 for $276, and 3.5 inches for 2.75 inches.
 - ELL: the vocabulary list with translations may be used as a word bank; the written response may be in the home language and scored on content.

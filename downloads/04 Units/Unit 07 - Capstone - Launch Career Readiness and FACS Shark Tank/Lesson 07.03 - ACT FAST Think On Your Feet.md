@@ -118,7 +118,7 @@ Inside the building: the drama or music teacher, if your school has one. What th
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. a) and 3. c).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. c); Theme Module 02, Communication and Interpersonal Relationships, line 1. f).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Personal Qualities. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Personal Qualities. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.8 and 13.3.2.
 - Sal's own materials: the ACT FAST rapid-fire interview drill he built and taught, including his own reflection on it, which said to keep the scenario rounds tight and give more time to the teaching reveal. That is why Step 3 is 12 minutes and Rounds 1 and 2 are 6 each.
 
@@ -129,6 +129,5 @@ Inside the building: the drama or music teacher, if your school has one. What th
 - The clap-for-everyone rule matters. Say it once at the start and enforce it on the first answer.
 - Count how many students freeze completely. If it is more than three, add 10 seconds to the thinking time in Round 2 and say why out loud: "I am giving you more time because more time is what real interviews give you when you ask for a second."
 - The transfer line to say in Step 3, in these words or close to them: "You are going to stand in front of a panel next week with a business idea, and one of them is going to ask you something you did not plan for. This is that skill."
-- [Sal: your own version of this drill used slightly absurd scenarios on purpose. Keep the absurd ones. They make it safe to be wrong, which is the only way a kid will risk answering at all. Swap in the ones your students laughed at.]
 - Use the pair round in Step 4 to finish the Lesson 7.2 resume conferences. Two minutes each, and the room is busy enough that nobody notices.
 - Keep the self-score sheets. They come back in Lesson 7.5 and again in Lesson 7.12, where students compare the trait they circled today to what a peer and then an adult observed.

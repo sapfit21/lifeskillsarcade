@@ -25,7 +25,7 @@ Notes: Come back to this image every time a student asks "why do I..."
 - Hungrier
 - The sleep clock shifts later: the body wants to fall asleep later and wake later
 - School does not move, so sleep gets squeezed
-- Sleep window from Lesson 2.6: 8 to 10 hours for ages 13 to 18; 9 to 12 for ages 6 to 12 [Sal: confirm]
+- Sleep window from Lesson 2.6: 8 to 10 hours for ages 13 to 18; 9 to 12 for ages 6 to 12
 Notes: Puberty questions go to health. Say the coordination line once, plainly, and move on.
 
 ## Slide 4: Brain (a brain)
@@ -76,7 +76,7 @@ Notes: If more than a third stood wrong on the sleep strip (1) or the brain stri
 - One cries at a movie, one does not. Both normal
 - Same age is not the same stage. Late is not wrong
 - Not a phase and needs an adult: sadness that does not lift for weeks; not sleeping for days; hurting yourself or someone else; a friend who says any of those
-- Tell: the counselor [Sal: name, room], the nurse, any teacher, the office, an adult at home
+- Tell: the counselor, the nurse, any teacher, the office, an adult at home
 Notes: Students copy the rule and the list onto Part 2. This list is the one thing nobody leaves without.
 
 ## Slide 10: The case

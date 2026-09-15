@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Team: ______
 
 ## Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | balance | denge | equilíbrio | equilibrio |

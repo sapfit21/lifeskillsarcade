@@ -12,7 +12,7 @@ Date: ______________ Period: ______
 
 Visit three of the six signs. Under each one, write problems you have **actually seen.** Not problems you imagine. Drawings count. One word counts.
 
-**Sentence frame, four languages** [check with a native speaker]
+**Sentence frame, four languages**
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -108,7 +108,7 @@ Our idea connects to ______________ because _____________________________
 
 ____________________________________________________________________
 
-**Sentence frame, four languages** [check with a native speaker]
+**Sentence frame, four languages**
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -259,4 +259,4 @@ If two people want the same role, the one who has **not** had that kind of job b
 
 **Scoring:** the problem scan and the filter sheet are scored complete, partial, or missing for daily work. **The signed gate section is not a grade, it is a gate:** no signed sheet, no next step, and the team gets a three-minute conference at the start of Lesson 7.8 with a narrowed version of their own idea.
 
-**Note:** these role cards are written fresh. Sal's own team formation and role decision sheets, which used the same three C-suite titles, were not available in the source folder. [Sal: replace with your originals if they turn up. Keep the titles either way; students take real titles seriously.]
+**Note:** these role cards are written fresh. Sal's own team formation and role decision sheets, which used the same three C-suite titles, were not available in the source folder.

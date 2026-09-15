@@ -251,4 +251,3 @@ The panel becomes the teacher plus three students drawn from teams that have alr
 
 Thank the judges by name, out loud, in front of the students. Send a handwritten note from the class. **Keep the list.** The same people come back next year and they bring somebody.
 
-[Sal: build the invitation list in September, not June. One administrator, one teacher, one parent, one business owner, asked in writing for 45 minutes on a named date, with this briefing sent two days out. One outside adult in year one is a success.]

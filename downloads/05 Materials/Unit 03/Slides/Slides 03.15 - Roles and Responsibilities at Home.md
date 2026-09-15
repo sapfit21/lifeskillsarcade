@@ -85,7 +85,7 @@ Notes: This is the "teach" job from yesterday's four. A tradition is also how a 
 - A family where the youngest lights a candle on a holiday
 - A family that calls a grandparent in another country every Saturday
 - The family next door has different traditions, and both sets are right
-Notes: [Sal: these three are placeholders. Pick three that fit your room, and do not name any student's country as "the" example.] Students write one tradition from a show, a book, or a fictional family on the handout.
+Notes: Students write one tradition from a show, a book, or a fictional family on the handout.
 
 ## Slide 11: The tradition card, by choice
 

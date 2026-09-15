@@ -49,7 +49,7 @@ Tier 3 (FACS): critical path, rolling boil, al dente, colander, drain, simmer, s
 ## Materials and setup
 
 Per station of about seven students:
-- 1 lb pasta, spaghetti or elbows, store brand [update from this week's circular]
+- 1 lb pasta, spaghetti or elbows, store brand
 - 1 jar marinara sauce, 24 oz, store brand
 - 2 bags shredded mozzarella, 8 oz each (1 1/2 bags is enough; the extra covers a second station's shortfall)
 - 1 Tbsp salt for the pasta water, from the room's pantry
@@ -58,7 +58,7 @@ Per station of about seven students:
 - The 40-minute flowchart in five-minute blocks on the board from the slides, a visible timer, aprons and hair ties, the clean-up zone chart taped at each station
 - `Rubric 01 - Lab Rubric.md` on a clipboard, one group grid per class
 - Slides: `Slides 06.08 - Lab, Cheesy Pasta Marinara With Role Cards`
-- Setup notes: do not preheat anything. Students fill and carry the empty pot to the burner and turn on the heat; I carry nothing and turn on nothing, and I drain every pot. Put the grocery bags at each station so unpacking is part of prep. Fill the pot to about three quarters, not to the top, or it takes too long and it is too heavy. Have the colander already in the sink before the bell. Sanitation routine, all six steps, in this order: hair back, sleeves up, wash hands, sanitize surfaces, clean as you go, station check before dismissal. Allergy check the day before: wheat in the pasta, dairy in the cheese, and some marinara jars carry a soy or a "made on shared equipment" note. Substitutions are in Differentiation. [Sal: confirm against the nurse's allergy list, not the student's word.]
+- Setup notes: do not preheat anything. Students fill and carry the empty pot to the burner and turn on the heat; I carry nothing and turn on nothing, and I drain every pot. Put the grocery bags at each station so unpacking is part of prep. Fill the pot to about three quarters, not to the top, or it takes too long and it is too heavy. Have the colander already in the sink before the bell. Sanitation routine, all six steps, in this order: hair back, sleeves up, wash hands, sanitize surfaces, clean as you go, station check before dismissal. Allergy check the day before: wheat in the pasta, dairy in the cheese, and some marinara jars carry a soy or a "made on shared equipment" note. Substitutions are in Differentiation.
 
 ## Pre-assessment
 
@@ -127,13 +127,13 @@ The Lab Reflection, if it is not finished in class. Optional: cook pasta at home
 
 ## Connections
 
-Math: cost per serving from the receipt, and the flowchart is a real scheduling problem with a critical path, which is the same idea a project management unit teaches. Science: the pasta absorbs water and swells, which is why a pound of dry pasta feeds seven, and Lesson 6.6's moist heat lesson explains why it never browns. Careers: a line cook works exactly this way, and the critical path language is what a kitchen manager uses. [Sal: your ClassroomStreet students already think about time as a resource; say out loud that a schedule is a budget for minutes.]
+Math: cost per serving from the receipt, and the flowchart is a real scheduling problem with a critical path, which is the same idea a project management unit teaches. Science: the pasta absorbs water and swells, which is why a pound of dry pasta feeds seven, and Lesson 6.6's moist heat lesson explains why it never browns. Careers: a line cook works exactly this way, and the critical path language is what a kitchen manager uses.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Resources. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3, 8.5.7, and 14.4.2.
 - `Rubric 01 - Lab Rubric.md` and `Handout 01.08 - Lab Reflection.md`, reused unchanged.
@@ -148,7 +148,7 @@ Math: cost per serving from the receipt, and the flowchart is a real scheduling 
 - Common mistake: the Head Cook adds pasta to water that is not boiling yet. Small bubbles at the bottom are not a boil. Show the class one rolling boil at the front before the lab if you have a spare minute in Lesson 6.7.
 - Sal's package included a no-bake chocolate pudding dessert running in parallel. It is dropped from this lab on purpose, to keep one dish and one clock and to keep the critical path visible, which is the point of the day. The pudding fits as a dessert station in the Feed the Class project (Lesson 6.16) or as the grade 8 second dish in the no-kitchen version.
 - The Time Keeper role is written for eight students. At seven, the Station Manager keeps time, and the card says so.
-- Per-station cost estimate (store brand, Long Island supermarket; every price marked [update from this week's circular]):
+- Per-station cost estimate (store brand, Long Island supermarket; every price to be refreshed from the current circular before teaching):
 
 | Item | Qty per station of seven | Estimated price | Budget swap |
 |---|---|---|---|
@@ -161,4 +161,3 @@ Math: cost per serving from the receipt, and the flowchart is a real scheduling 
 | No-kitchen Cold Noodle Bowl | per station of seven | about $11 | Pasta $1.29, cheese $2.99, corn $0.99, black beans $0.99, dressing $2.49, bowls and forks about $2 |
 
 - Both versions are well under the $20 per station cap. The unit budget line for Lab 3 should carry about $40 for a class of four stations at full prices.
-- [Sal: your package priced this at about $9.76 for eight students in March 2026. At seven per station the number barely moves, because the pasta box and the sauce jar are whole units either way.]

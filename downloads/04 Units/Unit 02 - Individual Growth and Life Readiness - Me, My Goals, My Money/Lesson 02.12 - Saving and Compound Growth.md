@@ -41,7 +41,7 @@ Tier 3 (FACS): savings account, emergency fund, principal, simple interest, comp
 - Calculators, one per pair
 - Slides: `Slides 02.12 - Saving and Compound Growth`
 - A clear jar with $20 in ones for the do now (or a picture on slide 1)
-- Setup notes: the table uses 5 percent a year so the math is clean; real savings account rates in 2026 run from under 1 percent at big banks to about 4 percent at online banks [update]; say so on slide 6. No food handled today.
+- Setup notes: the table uses 5 percent a year so the math is clean; real savings account rates in 2026 run from under 1 percent at big banks to about 4 percent at online banks; say so on slide 6. No food handled today.
 
 ## Pre-assessment
 
@@ -87,7 +87,7 @@ Clipboard checklist during Step 3: for each pair, yes or no on "year 1 interest 
 - ELL: the three reasons to save each have a picture on the slide; the words save, interest, compound, principal are on a card in English, Turkish, Portuguese, and Spanish (see `Vocabulary 02.md`); the table has the column headers in plain words ("what is in it," "add this year," "the bank pays," "end of year"); sentence frame for Part E: "I will save $___ a week in ___. My first goal is ___."
 - IEP and 504 (general): pairs; calculators; the table has year 1 completed as a model and the addition and multiplication set up in each cell; a student may complete years 1 to 3 and copy 4 and 5 from the board; extended time; Part E may be dictated.
 - Grade 6 support: complete years 1 to 3 of the table; the jar comparison at three years ($3,120 versus $3,442.53); Part E as two sentences.
-- Grade 8 stretch: redo the five-year table at 3 percent [update] and say how much the rate matters over five years (about $347 less); then use the exponent shortcut to check Nia's number: $1,000 x 1.05 to the 50th power. Preview of CTE FCL 2. d): compare a big bank savings account at 0.5 percent, an online bank at 4 percent, and a credit union at 3 percent [update], and say what else besides the rate should decide where the money goes (fees, minimum balance, an adult co-owner, a branch nearby).
+- Grade 8 stretch: redo the five-year table at 3 percent and say how much the rate matters over five years (about $347 less); then use the exponent shortcut to check Nia's number: $1,000 x 1.05 to the 50th power. Preview of CTE FCL 2. d): compare a big bank savings account at 0.5 percent, an online bank at 4 percent, and a credit union at 3 percent, and say what else besides the rate should decide where the money goes (fees, minimum balance, an adult co-owner, a branch nearby).
 - UDL checkpoint used: multiple means of representation (the jar you can see, the table you build, the exponent shortcut) and multiple means of engagement (the do now guess and the two savers question the class argues).
 - No-kitchen or no-machine alternative: not a lab; none needed. Without calculators, round every interest amount to the nearest dollar; the teacher key gives both versions.
 
@@ -105,7 +105,7 @@ None. Optional: ask an adult at home whether they have a savings account and wha
 
 ## Connections
 
-Math: exponents as repeated multiplication and percent of a number; this table is a ready-made grade 7 exponent lesson, and the math teacher can run the 3 percent version. ClassroomStreet: the savings account is the "safe" choice students compare to stocks in Topic 2.4 (Lesson 2.14, safe versus risky). Community: [Sal: a credit union youth account visit fits here or in Lesson 2.10; ask them to bring the real rate and the real fee sheet.]
+Math: exponents as repeated multiplication and percent of a number; this table is a ready-made grade 7 exponent lesson, and the math teacher can run the 3 percent version. ClassroomStreet: the savings account is the "safe" choice students compare to stocks in Topic 2.4 (Lesson 2.14, safe versus risky). Community: a credit union youth account visit fits here or in Lesson 2.10; ask them to bring the real rate and the real fee sheet.
 
 ## Sources
 
@@ -113,7 +113,7 @@ Math: exponents as repeated multiplication and percent of a number; this table i
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. a) and 2. c). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.1 and 3.3.4.
-- FDIC insurance limit of $250,000 per depositor per bank (fdic.gov); NCUA is the equivalent for credit unions. Savings rates in 2026 are marked [update].
+- FDIC insurance limit of $250,000 per depositor per bank (fdic.gov); NCUA is the equivalent for credit unions. Savings rates in 2026 are to be refreshed before teaching.
 - The table and the two savers numbers were computed for this lesson at 5 percent compounded yearly with the deposit at the start of each year; the teacher key shows the arithmetic.
 - Sal's own materials: The Magic of Compound Interest packet (Brentwood South, 2026, `Lesson Dups/Unit_4_Financial_Literacy/education_teachingwork_the_magic_of_compound_interest_2026_04.docx`) supplied the year-by-year table format and the early saver versus late saver story; the story was rebuilt with new names and ages and the table moved from a one-time $100 to $20 a week so it matches the budget from Lesson 2.9. The Savings Challenge packet in the same folder is the source for "pay yourself first."
 
@@ -122,5 +122,4 @@ Math: exponents as repeated multiplication and percent of a number; this table i
 - If time runs short, cut the table to three years and give years 4 and 5 from the slide. Never cut the two savers; it is the sentence students repeat at home.
 - Common mistake: forgetting to add the new deposit before computing interest, so every year earns $52. The clipboard check catches it at year 2.
 - Second common mistake: rounding. Tell students to keep two decimal places and round only at the end; the key accepts answers within $1 of the printed number.
-- Be honest about the rate. 5 percent is for clean math. A big bank pays much less and an online bank pays close to it [update]; the grade 8 stretch has students find out which.
-- [Sal: your Series 6 years are the credential here. One minute on what "the eighth wonder of the world" line sounded like in a sales meeting, and why it is still true even when it is a pitch.]
+- Be honest about the rate. 5 percent is for clean math. A big bank pays much less and an online bank pays close to it; the grade 8 stretch has students find out which.

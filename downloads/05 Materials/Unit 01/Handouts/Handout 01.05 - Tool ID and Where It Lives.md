@@ -31,8 +31,6 @@ Visit all six trays. Each tool has a number. Write the name and the job. Use the
 
 Word bank: dry measuring cups, liquid measuring cup, measuring spoons, mixing bowls, whisk, wooden spoon, rubber spatula, tongs, colander, cutting board, kitchen shears, can opener, peeler, grater, sheet pan, saucepan, skillet, oven mitt, food thermometer
 
-[Sal: word bank in Turkish, Portuguese, and Spanish from `Vocabulary 01.md` goes here for the ELL copy.]
-
 ## Part 2: Where it lives (Day 1, scavenger hunt)
 
 Draw your kitchen station in the box: the counter, the sink, the stove, and every drawer and cabinet. Number the drawers. Then write each tool's number (from Part 1) inside the drawer or cabinet where it lives. Rule: open, look, close. Nothing comes out of a drawer.
@@ -102,7 +100,7 @@ Name the tool in each photo on the slide (items 1 to 6). Then answer items 7 to 
 
 ## Teacher key
 
-**Part 1.** Tray order as staged: 1 dry measuring cups (measure flour, sugar, dry ingredients; family 1), 2 liquid measuring cup (measure water, milk, oil; 1), 3 measuring spoons (small amounts; 1), 4 mixing bowls (hold and mix; 2), 5 whisk (beat, whip, mix air in; 2), 6 wooden spoon (stir, especially on the stove; 2), 7 rubber spatula (scrape, fold, push; 2), 8 tongs (grip and turn hot food; 2), 9 colander (drain and rinse; 2), 10 cutting board (a surface to cut on; 3), 11 kitchen shears (cut food and open bags; 3), 12 can opener (open cans; 3), 13 peeler (remove skin from carrots and potatoes; 3), 14 grater (shred cheese, carrots; 3), 15 sheet pan (bake flat foods, nachos, cookies; 3), 16 saucepan (boil, simmer, sauces; 3), 17 skillet (fry, scramble, saute; 3), 18 oven mitt (protect hands from heat; 3), and food thermometer (check inside temperature; 3) shares Tray F as the eighteenth if you drop one. [Sal: match the numbers to your trays.] Families: 1 measure, 2 mix and move, 3 cut and cook.
+**Part 1.** Tray order as staged: 1 dry measuring cups (measure flour, sugar, dry ingredients; family 1), 2 liquid measuring cup (measure water, milk, oil; 1), 3 measuring spoons (small amounts; 1), 4 mixing bowls (hold and mix; 2), 5 whisk (beat, whip, mix air in; 2), 6 wooden spoon (stir, especially on the stove; 2), 7 rubber spatula (scrape, fold, push; 2), 8 tongs (grip and turn hot food; 2), 9 colander (drain and rinse; 2), 10 cutting board (a surface to cut on; 3), 11 kitchen shears (cut food and open bags; 3), 12 can opener (open cans; 3), 13 peeler (remove skin from carrots and potatoes; 3), 14 grater (shred cheese, carrots; 3), 15 sheet pan (bake flat foods, nachos, cookies; 3), 16 saucepan (boil, simmer, sauces; 3), 17 skillet (fry, scramble, saute; 3), 18 oven mitt (protect hands from heat; 3), and food thermometer (check inside temperature; 3) shares Tray F as the eighteenth if you drop one. Families: 1 measure, 2 mix and move, 3 cut and cook.
 
 **Part 2.** Whatever your room says. Post the answer map on the cabinet door.
 
@@ -112,4 +110,4 @@ Name the tool in each photo on the slide (items 1 to 6). Then answer items 7 to 
 
 **Part 5.** Smoking pan on a burner left on: stove; burner not turned off when the pan was empty; turn the knob off the moment the food comes out and check every knob at the station check. Foil tray in the microwave: microwave; metal sparks; ceramic, glass, or paper only. Blender on with the lid off: blender; contents fly out and the blade is exposed; lid on, hand on the lid, then the switch. Mixer with a spoon in the bowl: mixer; the spoon catches in the beaters; hands and tools out while it runs, stop and unplug to scrape. Oven rack grabbed with a dish towel: oven; a thin towel burns through and a wet towel steams; use the oven mitt, and the teacher opens the door.
 
-**Tools Check (10 points, 1 each).** Items 1 to 6: the six photos on the slide [Sal: pick six from the tray photos; suggested: liquid measuring cup, whisk, tongs, colander, kitchen shears, oven mitt]. 7: liquid measuring cup, because oil is a liquid and you read it at eye level. 8: an oven mitt or a folded paper towel. 9: milk (liquid first). 10: kitchen shears and a butter knife.
+**Tools Check (10 points, 1 each).** Items 1 to 6: the six photos on the slide. 7: liquid measuring cup, because oil is a liquid and you read it at eye level. 8: an oven mitt or a folded paper towel. 9: milk (liquid first). 10: kitchen shears and a butter knife.

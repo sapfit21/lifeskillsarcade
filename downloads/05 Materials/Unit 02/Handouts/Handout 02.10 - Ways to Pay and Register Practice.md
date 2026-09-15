@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Partner: ______________________
 
-The account holder, the bank, the soccer league, and every number here are made up for class. Fees are typical Long Island bank fees for 2026 [update].
+The account holder, the bank, the soccer league, and every number here are made up for class. Fees are typical Long Island bank fees for 2026.
 
 ## Part A: The seven ways to pay (fill in as the slides go by)
 
@@ -52,12 +52,12 @@ Starting balance: **$250.00**
 | 10/2 | Debit | Groceries, supermarket | $42.18 | | $547.88 |
 | 10/3 | 101 | Long Island Youth Soccer League, fall registration | $ | | $ |
 | 10/5 | ATM | Cash withdrawal, out-of-network ATM | $40.00 | | $ |
-| 10/5 | Fee | Out-of-network ATM fee [update] | $3.00 | | $ |
+| 10/5 | Fee | Out-of-network ATM fee | $3.00 | | $ |
 | 10/7 | App transfer | Paid a friend back for pizza | $12.50 | | $ |
-| 10/9 | Debit, autopay | Phone plan [update] | $35.00 | | $ |
+| 10/9 | Debit, autopay | Phone plan | $35.00 | | $ |
 | 10/12 | Deposit | Birthday cash | | $50.00 | $ |
-| 10/14 | Debit | Movie ticket [update] | $17.00 | | $ |
-| 10/15 | Debit | Monthly bus pass [update] | $60.00 | | $ |
+| 10/14 | Debit | Movie ticket | $17.00 | | $ |
+| 10/15 | Debit | Monthly bus pass | $60.00 | | $ |
 | 10/16 | Direct deposit | Paycheck, Harbor Bagel Shop | | $340.06 | $ |
 
 Final balance in the register: $__________ My partner's final balance: $__________ Same? yes / no
@@ -73,7 +73,7 @@ Pick the safest way to pay and name one risk it avoids.
 | Situation | Safest way | The risk it avoids |
 |---|---|---|
 | Pay a friend back $12.50 | | |
-| Pay rent, $2,200 [update], to a landlord | | |
+| Pay rent, $2,200, to a landlord | | |
 | Buy a $40 item online from a site you have never heard of | | |
 | Carry money on a school trip to the city | | |
 
@@ -85,7 +85,7 @@ The bank's app shows a balance of **$770.44** on 10/16. Your register says somet
 
 _____________________________________________________________________________
 
-Overdraft: suppose the 10/15 bus pass had been charged on 10/11, before the birthday deposit on 10/12. Would the account have gone below zero? What would a $35 overdraft fee [update] have done to the balance?
+Overdraft: suppose the 10/15 bus pass had been charged on 10/11, before the birthday deposit on 10/12. Would the account have gone below zero? What would a $35 overdraft fee have done to the balance?
 
 _____________________________________________________________________________
 

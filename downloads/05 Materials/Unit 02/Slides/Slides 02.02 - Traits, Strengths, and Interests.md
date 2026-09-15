@@ -113,7 +113,7 @@ Notes: Show of hands per choice. Say: you just took the first question of the qu
 - S, Social: help, teach, take care of people (two people)
 - E, Enterprising: lead, persuade, sell, compete (megaphone)
 - C, Conventional: order, records, numbers, careful (checklist)
-Notes: Students write one word next to each letter on the quiz header. Say what the quiz is: a paper version in the same six categories counselors use. Say what it is not: a fortune. If they have used the O*NET Interest Profiler, say the letters are the same. [Sal: check with the counselor whether grade 8 takes it.]
+Notes: Students write one word next to each letter on the quiz header. Say what the quiz is: a paper version in the same six categories counselors use. Say what it is not: a fortune. If they have used the O*NET Interest Profiler, say the letters are the same.
 
 ## Slide 14: The rule
 

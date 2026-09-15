@@ -81,7 +81,7 @@ Notes: If a student brings up a family member, the answer is "the clock is for a
 ## Slide 10: Four things a person needs in place
 
 - Age: a body and a brain that are done growing, and their own school years finished
-- Money: the clock has a cost. Diapers alone run about $70 a month, and child care can cost more than rent [Sal: confirm local figures and mark the month]
+- Money: the clock has a cost. Diapers alone run about $70 a month, and child care can cost more than rent
 - Support: a partner, a parent, a friend, a neighbor. Nobody does 24 hours alone for long
 - Patience: the 2 a.m. fever and the spilled cup are the job
 - Which of the four does your clock show most clearly?
@@ -98,13 +98,13 @@ Image: five plain icons in a row: a stethoscope, a school building, a stack of b
 
 ## Slide 12: The numbers for this community, and the match
 
-- 211: [Sal: confirm 211 coverage for your county]
-- The nearest pediatric clinic: [Sal: name and number]
-- The public library branch: [Sal: name and number]
-- The county WIC office: [Sal: name and number]
-- The family liaison at school: [Sal: name, room ___] and the after-hours nurse line [Sal: number if the district has one]
+- 211, by phone or text
+- The nearest pediatric clinic, name and number
+- The public library branch, name and number
+- The county WIC office, name and number
+- The family liaison at school: and the after-hours nurse line
 - On your handout: match each support to one hour on your clock where it would help. Copy 211 and one other
-Notes: [Sal: ask the family liaison for the building's own list; it will be better than mine.] If the liaison can take five minutes of this step, let them.
+Notes: If the liaison can take five minutes of this step, let them.
 
 ## Slide 13: Questions
 

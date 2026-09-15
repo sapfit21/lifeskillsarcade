@@ -28,8 +28,6 @@ The four rules:
         \ ___________________ /
 ```
 
-[Sal: replace this with a large blank circle and a cup outline before printing.]
-
 Section 1 (top left): ______________________ Food: ______________________
 Section 2 (top right): ______________________ Food: ______________________
 Section 3 (bottom left): ______________________ Food: ______________________
@@ -111,10 +109,10 @@ _____________________________________________________________________________
 
 **Page 1, Part A.** MyPlate sections, clockwise from top left: Vegetables (top left, the largest section, a little more than a quarter), Fruits (bottom left, a little less than a quarter), Grains (top right, a little more than a quarter), Protein Foods (bottom right, a little less than a quarter), Dairy (the cup on the side). Any correct food in each section counts. Common errors to correct: fruit larger than vegetables; protein larger than grains; dairy drawn on the plate instead of in the cup.
 
-**Page 1, Part B.** A serving is the standard amount on a label or in MyPlate (for example 1 cup of cereal, 1 ounce of chips, 3 ounces of cooked meat, about the size of a deck of cards). A portion is how much you choose to put on your plate or eat. Accept any wording that gets "standard amount set by the label" versus "the amount you actually eat." The chip bag answer depends on the bag you use. [Sal: write the real number here after you buy it: ______ servings.]
+**Page 1, Part B.** A serving is the standard amount on a label or in MyPlate (for example 1 cup of cereal, 1 ounce of chips, 3 ounces of cooked meat, about the size of a deck of cards). A portion is how much you choose to put on your plate or eat. Accept any wording that gets "standard amount set by the label" versus "the amount you actually eat." The chip bag answer depends on the bag you use.
 
 **Page 2.** Score complete, partial, or missing: a plate with all five parts, one whole grain named, a partner signature, and a serving and portion for one food is complete. The partner check is not scored for being right; it is scored for being done.
 
 **Page 3.** Score complete or not complete only. Never comment on the foods. A student who fills in only the movement line and the change line has done enough. If a page suggests a student is not getting enough to eat at home, follow the school's process and tell the counselor; do not raise it with the student in class.
 
-**Serving sizes for the slide and the "one serving" line, from MyPlate and the FDA label rules:** 1 cup dry cereal; 1 slice bread; 1/2 cup cooked rice or pasta; 1 cup raw leafy greens; 1/2 cup cooked vegetables; 1 medium fruit; 1/2 cup fruit; 3 ounces cooked meat, poultry, or fish (a deck of cards); 1 egg; 1/4 cup cooked beans; 1 tablespoon peanut butter; 1 cup milk or yogurt; 1 1/2 ounces cheese (about four dice); 1 ounce chips (about 15 potato chips or 7 to 10 tortilla chips). [Sal: check myplate.gov once a year; the group names have not changed since 2011 but the "what counts as a cup" pages get edited.]
+**Serving sizes for the slide and the "one serving" line, from MyPlate and the FDA label rules:** 1 cup dry cereal; 1 slice bread; 1/2 cup cooked rice or pasta; 1 cup raw leafy greens; 1/2 cup cooked vegetables; 1 medium fruit; 1/2 cup fruit; 3 ounces cooked meat, poultry, or fish (a deck of cards); 1 egg; 1/4 cup cooked beans; 1 tablespoon peanut butter; 1 cup milk or yogurt; 1 1/2 ounces cheese (about four dice); 1 ounce chips (about 15 potato chips or 7 to 10 tortilla chips).

@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Station: ______
 
-Lesson 5.12, two days. Day 1 is pages 1 and 2. Day 2 is pages 3 to 5. Every price on this handout is a realistic 2026 figure written for class, marked [update], and not a real store's price today.
+Lesson 5.12, two days. Day 1 is pages 1 and 2. Day 2 is pages 3 to 5. Every price on this handout is a realistic 2026 figure written for class, to be refreshed before teaching, and not a real store's price today.
 
 Word bank: price, quality, shipping, return, size, seam, stitch, label
 Turkish: fiyat, kalite, kargo, iade, beden, dikiş yeri, dikiş, etiket
@@ -33,7 +33,7 @@ Run all four checks on the sweatshirt at your station. Write what you find. Chec
 | 3. Stitch density | Lay the ruler on a seam and count the stitches in one inch. 8 is low. 10 to 12 holds. | ______ stitches per inch | [ ] |
 | 4. The label | Read it. Fiber content percentages? Care instructions? Country? Is there a brand label at all? | | [ ] |
 
-My guess at the price of garment ___ : $__________ [update]
+My guess at the price of garment ___: $__________
 
 The real price: $__________ Vendor type: ______________________
 
@@ -45,7 +45,7 @@ Build the landed cost from the packing slip the teacher passes around.
 
 | Line | Amount |
 |---|---|
-| Listed price | $__________ [update] |
+| Listed price | $__________ |
 | Shipping | $__________ |
 | Sales tax | $__________ |
 | **What you actually paid** | $__________ |
@@ -60,9 +60,9 @@ The hidden cost I think matters most is ______________________ because _________
 
 # Page 3. Day 2: the price and spec sheet, eight items
 
-All eight are plain pullover hooded sweatshirts unless the notes say otherwise. Prices marked [update].
+All eight are plain pullover hooded sweatshirts unless the notes say otherwise. Prices to be refreshed before teaching.
 
-| # | Vendor type | Price [update] | Extra cost [update] | Fiber content | Fabric weight | Seams | Stitches per inch | Care label | Sizes available | Returns | Delivery | Notes from the tag or the listing |
+| # | Vendor type | Price | Extra cost | Fiber content | Fabric weight | Seams | Stitches per inch | Care label | Sizes available | Returns | Delivery | Notes from the tag or the listing |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | A | Discount store | $12.99 | none | 60% cotton, 40% polyester | 7.5 oz | Single-needle throughout | 8 | Machine wash cold, tumble dry low, do not bleach | S, M, L, XL | 30 days in store, free | Today | Thin. Flat cord drawstring. Cuffs have no stretch fiber. |
 | B | Discount store, two-pack | $19.99 for two ($10.00 each) | none | 50% cotton, 50% polyester | 7 oz | Single-needle throughout | 7 | Machine wash warm, tumble dry low | Youth M, Youth L only | 30 days in store, free | Today | Sold only as a two-pack. Youth sizes. |
@@ -75,7 +75,7 @@ All eight are plain pullover hooded sweatshirts unless the notes say otherwise. 
 
 ## Screen the items against your buyer
 
-| # | Can it work for my buyer? | If no, which limit does it break? (money, time, size) | Total my buyer pays [update] |
+| # | Can it work for my buyer? | If no, which limit does it break? (money, time, size) | Total my buyer pays |
 |---|---|---|---|
 | A | | | |
 | B | | | |
@@ -96,7 +96,7 @@ Your station gets one card. Read it out loud. Underline the three limits: money,
 
 Ana is in seventh grade. She walks to school, about fifteen minutes each way. She wants one sweatshirt she can wear four or five days a week from October through March, for two years. She washes it about once a week.
 
-- **Money:** she has $50 saved [update] and she would rather not spend all of it.
+- **Money:** she has $50 saved and she would rather not spend all of it.
 - **Time:** no deadline, but she wants it before the weather turns.
 - **Size:** adult M. She has stopped growing quickly.
 - **Other:** nobody in her house can drive to a store to make a return, and she does not want to pay return shipping.
@@ -106,7 +106,7 @@ Ana is in seventh grade. She walks to school, about fifteen minutes each way. Sh
 
 Three kids, ages 7, 10, and 13. All three need a sweatshirt. The cold week starts next Monday.
 
-- **Money:** $60 total for all three [update].
+- **Money:** $60 total for all three.
 - **Time:** they need all three by Monday, which is five days from today.
 - **Sizes:** Youth M (age 7), Youth L (age 10), adult S (age 13).
 - **Other:** the 7-year-old will grow out of anything within about a year. The 13-year-old cares what it looks like. Whoever shops has a car and can return things in person.
@@ -116,7 +116,7 @@ Three kids, ages 7, 10, and 13. All three need a sweatshirt. The cold week start
 
 Dev is in eighth grade and is performing in the school talent show in three weeks. He wants the printed cropped style in this season's color, the one everybody is wearing right now, for the show. He will probably wear it a few more times after.
 
-- **Money:** $30 [update].
+- **Money:** $30.
 - **Time:** three weeks, but he wants to try it on and be sure at least a few days before.
 - **Size:** S.
 - **Other:** the look matters more to him than the fabric weight. He knows it will not last for years and he is fine with that.
@@ -132,7 +132,7 @@ Copy this onto the chart paper. Everybody at the station signs it.
 
 **We recommend item:** ______
 
-**Total our buyer pays, including shipping and tax:** $__________ [update]
+**Total our buyer pays, including shipping and tax:** $__________
 
 **Quality reason 1:** ________________________________________________
 

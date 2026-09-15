@@ -47,7 +47,6 @@ Image: three icons: an eye on a plan sheet, a hand on a stitch card, two people 
 
 ## Slide 5: Day 1. Today's three demonstrations
 
-- [Sal: fill these three in from the "the part I am worried about" lines on the plan sheets. The three most common are usually:]
 - **Starting a knot that holds.** Double the thread, or knot and take one tiny backstitch to lock it.
 - **Turning a corner.** Stop one stitch short, put the needle down through the corner, pivot the fabric, come up on the new line.
 - **How far from the edge to stitch.** Your seam allowance, the same distance the whole way. Mark it with chalk first.

@@ -31,7 +31,7 @@ Picture line: a walker
 - A small TV
 - His favorite color is blue
 
-**Budget:** $400 [update]
+**Budget:** $400
 
 **The rule:** no loose rugs. A rug must be flat and taped down, or there is no rug.
 
@@ -57,7 +57,7 @@ Picture line: a desk and two beds
 - A spot for Luz to play on the floor
 - Mia wants purple; Luz wants yellow
 
-**Budget:** $400 [update]
+**Budget:** $400
 
 **The rule:** if there is a bunk bed, the older sister takes the top.
 
@@ -85,7 +85,7 @@ Picture line: a coat hook and a boot
 - A spot for mail and keys
 - A bench with storage inside it
 
-**Budget:** $400 [update]
+**Budget:** $400
 
 **The rule:** nothing in the swing of the front door.
 
@@ -112,7 +112,7 @@ Picture line: a crib
 - Soft, calm colors
 - A small dresser for baby clothes
 
-**Budget:** $400 [update]
+**Budget:** $400
 
 **The rule:** nothing goes in the crib but the baby and a fitted sheet (safe sleep, from Lesson 3.17).
 
@@ -141,7 +141,7 @@ Picture line: a tiny house on a trailer
 - Plants
 - They like white, natural wood, and green
 
-**Budget:** $1,500 for the interior (furniture, fixtures, storage, finish; not the building itself) [update]
+**Budget:** $1,500 for the interior (furniture, fixtures, storage, finish; not the building itself)
 
 **The rule:** every piece has to fit through the 3-foot door or fold.
 
@@ -169,7 +169,7 @@ Picture line: a wheelchair
 - A wall for posters
 - He likes gray and orange
 
-**Budget:** $400 [update]
+**Budget:** $400
 
 **The rule:** every path is 36 inches.
 
@@ -225,7 +225,7 @@ Write one sentence. It must name the client, the need, and the limit (the room s
 
 My client is ______________________. The one thing this room fails without is ______________________. The one thing I am not sure how to fit is ______________________.
 
-Word bank: need (ihtiyaç / necessidade / necesidad), want (istek / desejo / deseo), client (müşteri / cliente / cliente), budget (bütçe / orçamento / presupuesto), rule (kural / regra / regla). [check with a native speaker]
+Word bank: need (ihtiyaç / necessidade / necesidad), want (istek / desejo / deseo), client (müşteri / cliente / cliente), budget (bütçe / orçamento / presupuesto), rule (kural / regra / regla).
 
 * * *
 

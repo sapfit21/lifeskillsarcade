@@ -42,7 +42,7 @@ Tier 3 (FACS): safe sleep, choking hazard, childproof, 911, emergency card, baby
 - Slides: `Slides 03.17 - Babysitting Basics Safety Safe Sleep Emergencies`
 - A toilet paper tube (the choke test: anything that fits through it can choke a child under 3), one per pair, plus a handful of safe objects to test (a large block, a tennis ball, a bottle cap, a grape-sized bead, a coin, a marker cap)
 - An empty shoebox "crib" with a small blanket, a stuffed animal, and a pillow, for the safe sleep demonstration (what comes out)
-- The American Red Cross Babysitting Basics course information on one slide [Sal: check the current course name, format, age minimum (11 at last check), and local availability; the Red Cross also lists local chapters]
+- The American Red Cross Babysitting Basics course information on one slide
 - Setup notes: put a tube and the test objects at each pair. Stage the shoebox crib with everything wrong in it. No child, doll, or infant simulator is used. No allergy check needed (nothing is eaten; the food examples are on a slide).
 
 ## Pre-assessment
@@ -86,7 +86,7 @@ Clipboard checklist during Step 2, one line per pair: "finds the water hazard (t
 
 ## Differentiation and supports
 
-- ELL: the seven rules have a picture each on the slides and the handout; the described home has a simple floor plan sketch next to the text so hazards can be circled on the picture; the emergency card is a form with labels, not prose; the words safe sleep, choking, water, stairs, emergency, and address are listed in Turkish, Portuguese, and Spanish on the handout (marked [check with a native speaker]); 911 works in any language and the slide says so.
+- ELL: the seven rules have a picture each on the slides and the handout; the described home has a simple floor plan sketch next to the text so hazards can be circled on the picture; the emergency card is a form with labels, not prose; the words safe sleep, choking, water, stairs, emergency, and address are listed in Turkish, Portuguese, and Spanish on the handout (to be verified by a native speaker); 911 works in any language and the slide says so.
 - IEP and 504 (general): the safety walk is done in pairs with one reader and one writer; a student may circle hazards on the sketch instead of writing them; the emergency card can be filled with the information box next to it (it is); extended time; the four scenarios can be reduced to two.
 - Grade 6 support: the safety walk covers three rooms (living room, kitchen, bathroom); the job scenarios are the first two only.
 - Grade 8 stretch: all five rooms plus the yard; grade 8 pairs also write a two-sentence "what I would say to the parent before they leave" script that asks for every line on the emergency card, and answer the "baby sleeps on her stomach" question in writing.
@@ -109,7 +109,7 @@ None. Optional: fill a blank emergency card for a fictional home of your own des
 
 ## Connections
 
-Inside the building: the school nurse, who can take Step 1's safe sleep demonstration and say it in her own words; the health teacher, who covers CPR or first aid in some middle schools [Sal: ask; if health teaches hands-only CPR, this lesson does not need to]. Community: the American Red Cross Babysitting Basics course (local chapter or online) as the named next step; the local library or community center sometimes hosts it. [Sal: if your school has a partnership with a hospital or a youth bureau, a babysitter course on site is a real thing to ask for.]
+Inside the building: the school nurse, who can take Step 1's safe sleep demonstration and say it in her own words; the health teacher, who covers CPR or first aid in some middle schools. Community: the American Red Cross Babysitting Basics course (local chapter or online) as the named next step; the local library or community center sometimes hosts it.
 
 ## Sources
 
@@ -117,8 +117,8 @@ Inside the building: the school nurse, who can take Step 1's safe sleep demonstr
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 3. c), 3. e), and 4. g). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PIs on childcare and a safe and healthy home. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 15.2.1 and 15.2.4.
-- Safe sleep guidance: the American Academy of Pediatrics safe sleep recommendations (back to sleep, firm flat surface, nothing in the sleep space) and the NICHD Safe to Sleep campaign. Choking hazards and the small-parts test: the U.S. Consumer Product Safety Commission's small parts guidance (the toilet paper tube is the common home stand-in for the small parts cylinder). Poison control: 1-800-222-1222. [Sal: confirm each against the current source before the slide is printed; guidance changes.]
-- American Red Cross Babysitting Basics course information (redcross.org). [Sal: check the current name and age minimum.]
+- Safe sleep guidance: the American Academy of Pediatrics safe sleep recommendations (back to sleep, firm flat surface, nothing in the sleep space) and the NICHD Safe to Sleep campaign. Choking hazards and the small-parts test: the U.S. Consumer Product Safety Commission's small parts guidance (the toilet paper tube is the common home stand-in for the small parts cylinder). Poison control: 1-800-222-1222.
+- American Red Cross Babysitting Basics course information (redcross.org).
 - Sal's own materials: his FNES 782 infant care work exists only as a description; this lesson is written fresh.
 
 ## Teacher notes
@@ -129,4 +129,3 @@ Inside the building: the school nurse, who can take Step 1's safe sleep demonstr
 - The toilet paper tube test: anything that fits through is a choking hazard for a child under 3. Students remember the tube better than the list.
 - The general rule for 12 to 14 year olds (short jobs, a child who can talk, a parent you know and can reach, a house you have seen, daylight or early evening, no infants overnight) is this course's rule, not a law. New York State has no minimum babysitting age in law. Say that; the rule is about what a middle schooler is ready for, not what is legal.
 - A student may say something in this lesson about their own home. Have the building's reporting steps in front of you and follow them, the same as in Lesson 3.12.
-- [Sal: the Red Cross slide needs the current course format and cost. Their online version has been about $40 to $50 in recent years; check before you put a number on the slide.]

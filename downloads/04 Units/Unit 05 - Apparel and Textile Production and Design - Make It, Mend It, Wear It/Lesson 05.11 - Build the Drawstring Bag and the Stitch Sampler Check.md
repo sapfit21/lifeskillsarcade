@@ -169,7 +169,7 @@ None. The bags stay in the room until the check is done, then go home. Optional:
 
 ## Connections
 
-Mathematics: quarter-inch seam allowance, pattern as scale drawing, and the channel's circumference. Technology and engineering: the machine is the room's first real machine tool, and the pivot is tool-path thinking; a technology teacher can run the same language. Career awareness: this build is the room's version of a production sample, which is the bridge to Lesson 5.19's careers work. Community: simple drawstring bags are a real donation item for shelters and hospital volunteer offices; a class that makes thirty has made a real donation. [Sal: if the class wants to donate, ask the partner before Day 1 so size and fabric fit what they need.]
+Mathematics: quarter-inch seam allowance, pattern as scale drawing, and the channel's circumference. Technology and engineering: the machine is the room's first real machine tool, and the pivot is tool-path thinking; a technology teacher can run the same language. Career awareness: this build is the room's version of a production sample, which is the bridge to Lesson 5.19's careers work. Community: simple drawstring bags are a real donation item for shelters and hospital volunteer offices; a class that makes thirty has made a real donation.
 
 ## Sources
 
@@ -190,4 +190,4 @@ Mathematics: quarter-inch seam allowance, pattern as scale drawing, and the chan
 - Pins out before the foot, every time. A machine needle that hits a pin breaks, and the broken needle rule from Lesson 5.10 runs: handed to me flat on the palm, both pieces, never the trash, never the floor.
 - The doctor tag earns its keep this week. A jam on Day 2 with the channel half sewn is exactly when a student would otherwise sit and wait; the tag moves them and the lesson does not stall.
 - Photograph the display after the check for the website's Unit 5 page; no student in the frame.
-- [Sal: prices. Costed for three tables of about seven, 21 students. A thrifted flat sheet at about $4 cuts into roughly fifteen bag rectangles, so two sheets cover a class with spares; cord or shoelaces about $4 for 21; thread and pins in the unit bin; felt for the hand path about $2. About $14 total, and less if students bring an outgrown pillowcase, which is the upcycle version of this build and worth offering. A section of 28 adds a third sheet and about $2 of cord.]
+- Prices, costed for three tables of about seven, 21 students: a thrifted flat sheet at about $4 cuts into roughly fifteen bag rectangles, so two sheets cover a class with spares; cord or shoelaces about $4 for 21; thread and pins in the unit bin; felt for the hand path about $2. About $14 total, and less if students bring an outgrown pillowcase, which is the upcycle version of this build and worth offering. A section of 28 adds a third sheet and about $2 of cord.

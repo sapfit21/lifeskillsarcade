@@ -8,7 +8,7 @@ Name: ______________________________ Date: ______________ Station: ______ Sub-te
 
 ## Word bank in other languages
 
-**[Check with a native speaker before printing.]** These are working translations. The English word stays on every card, because the English word is the one you will see on a paint chip in a store.
+ These are working translations. The English word stays on every card, because the English word is the one you will see on a paint chip in a store.
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

@@ -1,6 +1,6 @@
 # Grading Plan
 
-Draft of 2026-09-11. [Sal: match this to your school's grading policy before it goes on the syllabus.]
+Draft of 2026-09-11.
 
 ## Categories and weights
 
@@ -29,7 +29,7 @@ Four marking periods of about 45 days. Each marking period holds one and a half 
 
 ## How grades are shared
 
-Students track their own lab rubric scores in a FACS folder that stays in the room. Rubrics go home with the project. [Sal: name your school's grade portal here.]
+Students track their own lab rubric scores in a FACS folder that stays in the room. Rubrics go home with the project.
 
 ## Why these weights
 

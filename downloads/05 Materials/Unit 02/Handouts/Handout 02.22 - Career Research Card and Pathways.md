@@ -32,7 +32,7 @@ A fictional student, Devon, has S and I as his two interest letters and Health S
 | Cluster number and name | 8, Health Science |
 | Three main tasks | 1. Cleans teeth and removes plaque. 2. Takes X-rays and checks gums. 3. Teaches patients how to brush and floss. |
 | Path after high school | Two-year degree (associate) plus a state license |
-| Pay range and the year of the source | [update] Write the low and high figure from your source and the year. Devon wrote: "about $__ to $__ a year, source dated 20__." |
+| Pay range and the year of the source | Write the low and high figure from your source and the year. Devon wrote: "about $__ to $__ a year, source dated 20__." |
 | A day in the life (three lines) | Sees a patient every hour. Stands most of the day. Talks to nervous kids and adults all day long. |
 | Source (name it) | Occupational Outlook Handbook, bls.gov/ooh, "Dental Hygienists" page |
 | Verdict: does it fit my top three, my two letters, and my values? | Yes for my top three (Health Science) and my two letters (S: talks to people all day; I: reads X-rays). For: I like helping people feel better. Against: standing all day and being inside a mouth is not for everyone, and I need to find out if I can handle that. |
@@ -47,7 +47,7 @@ Directions: Pick one career from one of your top three clusters (your match shee
 | Cluster number and name (must be one of my top three) | |
 | Three main tasks | 1. 2. 3. |
 | Path after high school (one of the six from Part 1) | |
-| Pay range and the year of the source | [update] Low: $________ High: $________ Source year: ________ |
+| Pay range and the year of the source | Low: $________ High: $________ Source year: ________ |
 | A day in the life (three lines: where, who with, what the day feels like) | |
 | Source (name the site or sheet) | |
 | Verdict: does it fit my top three, my two letters (______ ______), and my values? Circle: Yes / Partly / No | For: Against: |
@@ -81,6 +81,6 @@ One job per path that counts (accept others that fit): on-the-job training, reta
 
 Part 3 is scored on the Part 4 checklist. Common gaps: a career from a poster the student liked rather than from the top three (no point on line 1); pay copied without a year (no point on line 2); a verdict with a reason for but no reason against (no point on line 4).
 
-Pay figures: every pay range on this handout is marked [update]. Have students write the year of their source. Do not print a pay figure on the example without a date. [Sal: if you print a class set of career sheets for the no-device day, date them on the front.]
+Pay figures: every pay range on this handout is to be refreshed before teaching. Have students write the year of their source. Do not print a pay figure on the example without a date.
 
-Word bank for ELL students [check with a native speaker]: apprenticeship (çıraklık / aprendizagem / aprendizaje); certificate (sertifika / certificado / certificado); degree (diploma, derece / diploma, grau / título, carrera); on-the-job training (iş başında eğitim / treinamento no trabalho / capacitación en el trabajo); pay (maaş, ücret / salário / salario, sueldo); source (kaynak / fonte / fuente).
+Word bank for ELL students: apprenticeship (çıraklık / aprendizagem / aprendizaje); certificate (sertifika / certificado / certificado); degree (diploma, derece / diploma, grau / título, carrera); on-the-job training (iş başında eğitim / treinamento no trabalho / capacitación en el trabajo); pay (maaş, ücret / salário / salario, sueldo); source (kaynak / fonte / fuente).

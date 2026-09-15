@@ -1,6 +1,6 @@
 # Slides 02.10: Ways to Pay
 
-Lesson 2.10, one day, 14 slides. Fees marked [update].
+Lesson 2.10, one day, 14 slides. Fees to be refreshed before teaching.
 
 ## Slide 1: Do now
 - List every way you have seen someone pay for something in the last seven days.
@@ -18,7 +18,7 @@ Image: three bills and some coins on a counter.
 - Money from: your checking account.
 - Record: the check, your register, the bank statement.
 - Risk: it bounces if the balance is too low. Slow to clear.
-- Fee: overdraft, about $35 [update].
+- Fee: overdraft, about $35.
 - Landlords, leagues, schools, and the IRS still take them.
 Image: a paper check with the six parts numbered.
 
@@ -26,7 +26,7 @@ Image: a paper check with the six parts numbered.
 - Money from: your checking account, right now.
 - Record: the bank statement.
 - Risk: a stolen card or number drains the account.
-- Fee: out-of-network ATM, about $3 plus the other bank's fee [update].
+- Fee: out-of-network ATM, about $3 plus the other bank's fee.
 Image: a plain debit card next to an ATM screen.
 
 ## Slide 5: Credit card
@@ -40,19 +40,19 @@ Image: a credit card next to a paper statement.
 - Money from: loaded in advance. No bank account needed.
 - Record: the card balance.
 - Risk: lost is gone, like cash.
-- Fee: to load it, to check the balance, sometimes monthly [update].
+- Fee: to load it, to check the balance, sometimes monthly.
 Image: a gift card on a store rack.
 
 ## Slide 7: Phone or app payment
 - Money from: a linked card or bank account.
 - Record: the app history.
 - Risk: send to the wrong person and it is usually final. Scam requests.
-- Fee: some apps charge to move money instantly, about 1.5 to 3 percent [update].
+- Fee: some apps charge to move money instantly, about 1.5 to 3 percent.
 Image: a phone screen drawn in words: a contact name, an amount box, a green Send button.
 
 ## Slide 8: Bank transfer
 - Direct deposit: how most paychecks arrive. Dana's stub said "direct deposit."
-- Wire: bank to bank, cannot be reversed, $15 to $30 [update].
+- Wire: bank to bank, cannot be reversed, $15 to $30.
 - App to bank: free if you wait a day or two.
 Image: two bank buildings with an arrow between them.
 
@@ -82,7 +82,7 @@ Notes: Do the first two lines on the board.
 
 ## Slide 13: Which way is safest?
 - Pay a friend back $12.50.
-- Pay rent, $2,200 [update], to a landlord.
+- Pay rent, $2,200, to a landlord.
 - Buy a $40 item online from a site you have never heard of.
 - Carry money on a school trip to the city.
 - Hold up the number: 1 cash, 2 check, 3 debit, 4 credit, 5 prepaid, 6 app, 7 transfer.

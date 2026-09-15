@@ -112,14 +112,14 @@ None. The class agreement is posted in the room, not taken home.
 
 ## Connections
 
-Careers: a front-of-house job in a restaurant is exactly this content, and the outside-in rule is a thing a new server is taught on day one. The Unit 6 careers lesson picks it up. Unit 7: the interview lesson uses the same idea that a system of manners exists to make other people comfortable, not to catch you out. World languages and social studies: three of the four serving systems belong to regions the social studies curriculum covers. Community: a restaurant manager or a catering manager can explain in ten minutes why a table is set the way it is, and they usually enjoy being asked. [Sal: the Feed the Class project ends in a served meal. This lesson is where the serving standard gets set, so the agreement on the wall is doing real work two weeks later.]
+Careers: a front-of-house job in a restaurant is exactly this content, and the outside-in rule is a thing a new server is taught on day one. The Unit 6 careers lesson picks it up. Unit 7: the interview lesson uses the same idea that a system of manners exists to make other people comfortable, not to catch you out. World languages and social studies: three of the four serving systems belong to regions the social studies curriculum covers. Community: a restaurant manager or a catering manager can explain in ten minutes why a table is set the way it is, and they usually enjoy being asked.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. h) and 1. i). Copy in `02 Standards/NYS Module PDFs/`. Cited because the FSP module has no table setting or serving line; see the note in the Standards block.
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production, line 2. d). Same folder.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 6. d) and 6. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Personal Qualities. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3, 8.5.12, and 6.2.4.
 - Lesson 6.10's class agreement on food talk, which this lesson's food sharing agreement extends from talk to serving.
@@ -134,4 +134,3 @@ Careers: a front-of-house job in a restaurant is exactly this content, and the o
 - The plants from Lesson 6.5 go on the front table today. A dead one is fine, and it is worth one sentence: what did it need that it did not get?
 - Retakes on the check are allowed once after a review, per the Grading Plan. Plan the review into the first five minutes of the Feed the Class launch, since that lesson opens with constraints and reads like a review anyway.
 - Keep the paper place setting cut-outs. They are the fastest review for the Unit 6 test.
-- [Sal: your students will ask why any of this matters. The honest answer is that a place setting is a signal that somebody prepared for you, and that is true at a restaurant, at an interview lunch, and at their own table. Say that instead of "manners."]

@@ -1,6 +1,6 @@
 # Slides 4.17: Unit 4 Review and Test
 
-Slide outline for Lesson 4.17. Eleven slides, one day. The timing is fixed: do now 3, game 15, transition 2, test 20. That is the whole period. [Sal: if a class had a bad day on the model or the pitch, spend ten seconds on each model on the shelf before anyone sits down for the test. No names.]
+Slide outline for Lesson 4.17. Eleven slides, one day. The timing is fixed: do now 3, game 15, transition 2, test 20. That is the whole period.
 
 ## Slide 1: Do now
 

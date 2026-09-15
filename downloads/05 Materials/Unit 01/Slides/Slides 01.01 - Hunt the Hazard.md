@@ -1,6 +1,6 @@
 # Slides 1.1: Hunt the Hazard
 
-Slide outline for Lesson 1.1. Fourteen slides. The six station photo slides double as the stations for the no-kitchen version and as the review slides before the Kitchen Safety Exam. [Sal: replace each described image with a photo of your own staged station; take them the day you set the hazards.]
+Slide outline for Lesson 1.1. Fourteen slides. The six station photo slides double as the stations for the no-kitchen version and as the review slides before the Kitchen Safety Exam.
 
 ## Slide 1: Hunt the Hazard
 

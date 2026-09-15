@@ -45,7 +45,7 @@ Tier 3 (FACS): digital footprint, screenshot, online relationship, group chat, l
 - The toolkit card from Lesson 3.8 (students bring it; keep three spare blank cards for anyone who lost theirs; they can rebuild it from the test sheet, which you have)
 - The exit strips from Lesson 3.7 (the two most common categories become the two example stressors on slide 11)
 - Slides: `Slides 03.09 - Digital Footprint and Online Relationships and Stress Plan`
-- The school's who-to-tell list (counselor, technology coordinator, any teacher, an adult at home) on slide 8 [Sal: names and rooms]
+- The school's who-to-tell list (counselor, technology coordinator, any teacher, an adult at home) on slide 8
 - Timer visible to the class
 - Setup notes: none beyond the slides. The Stress Plan is scored with the three-criterion mini rubric below; print the rubric on the handout so students see it before they write.
 
@@ -121,7 +121,7 @@ None. The Stress Plan is done in class. Optional: keep the phone boundary for th
 
 ## Connections
 
-Inside the building: the technology coordinator, who owns the school's acceptable use policy and should see slide 8 so the "tell" list matches the school's process; the counselor, who is on the list; the health teacher, who owns cyberbullying if health covers it. Unit 7 (careers) returns to the footprint when students build a resume. [Sal: your Brentwood personal branding unit ran a digital footprint audit; the audit here is shorter and never asks for account names.]
+Inside the building: the technology coordinator, who owns the school's acceptable use policy and should see slide 8 so the "tell" list matches the school's process; the counselor, who is on the list; the health teacher, who owns cyberbullying if health covers it. Unit 7 (careers) returns to the footprint when students build a resume.
 
 ## Sources
 
@@ -138,4 +138,3 @@ Inside the building: the technology coordinator, who owns the school's acceptabl
 - Common mistake: a student writes a real person's name in the "person to talk to" line. Hand it back to change to a role before scoring; the plan goes in a folder that other people may see.
 - The online friend red flags will produce a question you did not plan for. Answer the general version, then say "and that specific one goes to [the counselor] today, with me if you want." Then go.
 - The phone boundary is the line students resist most and remember longest. Ask in Lesson 3.10's do now whether it held.
-- [Sal: if your school has a phone policy (a pouch, a locker), say so on slide 9 and let students pick a boundary for outside school; a boundary the school already enforces is not a plan.]

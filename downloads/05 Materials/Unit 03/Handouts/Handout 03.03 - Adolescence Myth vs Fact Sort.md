@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ### Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | brain | beyin | cérebro | cerebro |
@@ -107,6 +105,6 @@ Corrections (accept any that gives the fact):
 
 **Part 3, sample:** the brain's reward and feeling parts are loud and the braking part is slow to catch up, so the "no" feels enormous; the parent is protecting a school night and probably reacting to the slam, not the request. Better: ask again when calm with a plan (homework done, home by 8), or name the feeling instead of slamming. Any response that waits for calm, offers a plan, or names the feeling earns credit, with a reason that mentions the brain, the feelings, or the family's need to be heard.
 
-**Not just a phase (board list):** sadness that does not lift for weeks, not sleeping for days, hurting yourself or someone else, or a friend who says any of those. Tell: the counselor, the nurse, any teacher, the office, an adult at home. [Sal: names and rooms.]
+**Not just a phase (board list):** sadness that does not lift for weeks, not sleeping for days, hurting yourself or someone else, or a friend who says any of those. Tell: the counselor, the nurse, any teacher, the office, an adult at home.
 
 Statements 1, 2, 3, and 7 appear on the Lifespan Stages Quiz, item 10.

@@ -142,15 +142,13 @@ Clean:         |as you go, all period       |ZONES|
 | Done | | | |
 | Help | | | |
 
-[Sal: fill these from `Vocabulary 06.md` and print them on the back of the card.]
-
 ## Allergy note for this lab
 
 This recipe contains **wheat** (pasta), **dairy** (cheese), and some marinara jars carry a **soy** or shared-equipment statement. If you have an allergy on the nurse's list, I have already set your role and your portion. Come see me before the timer starts.
 
 ## Cost of this station
 
-| Item | Price [update from this week's circular] |
+| Item | Price |
 |---|---|
 | Pasta, 1 lb store brand | $1.29 |
 | Marinara, 24 oz store brand | $2.49 |

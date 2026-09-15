@@ -40,7 +40,7 @@ Tier 3 (FACS): zone, station, reset cue, role card, hand sink, Safety Data Sheet
 - Slides: `Slides 00.02 - How This Room Works`
 - Blank paper and a pencil for every student (the drawer draws on the back of the map)
 - The light switch, a countdown on the screen, and a timer
-- Setup notes: walk the tour route once before class and tape a numbered card at each stop (1 hand sink, 2 kitchen station A, 3 first aid kit, 4 fire extinguisher, 5 exit, 6 supply closet, 7 sewing stations, 8 SDS binder, 9 trash and recycling, 10 the teacher desk and the turn-in tray). [Sal: your room, your stops; the map on the handout is blank on purpose so it matches whatever room your school gives you.] Nothing hot, nothing sharp today; the drawers of knives stay closed.
+- Setup notes: walk the tour route once before class and tape a numbered card at each stop (1 hand sink, 2 kitchen station A, 3 first aid kit, 4 fire extinguisher, 5 exit, 6 supply closet, 7 sewing stations, 8 SDS binder, 9 trash and recycling, 10 the teacher desk and the turn-in tray). Nothing hot, nothing sharp today; the drawers of knives stay closed.
 
 ## Pre-assessment
 
@@ -48,7 +48,7 @@ Yesterday's hope card count by module is the do now opener. Today's pre-assessme
 
 ## Do now and hook (Time: 4 min)
 
-On the board: "Yesterday's count: [Sal: fill in the six hope card numbers]. On your map handout, before we walk: draw an X where you think the fire extinguisher is. Do not get up."
+On the board: yesterday's count, the six hope card numbers, then: "On your map handout, before we walk: draw an X where you think the fire extinguisher is. Do not get up."
 
 Debrief: blink the lights, count down from five, hands empty. Time how long it takes. "That was ___ seconds. That is the reset cue. Lights, countdown, hands empty, eyes here. When you see it, whatever is in your hands goes down, even a whisk. By Friday it will take three seconds." Then the hook: "Now let's find out how many of you put the X in the right place."
 
@@ -83,12 +83,12 @@ Exit card, three lines: one zone and its rule; the reset cue in three words; one
 
 ## Differentiation and supports
 
-- ELL: the ten tour stops have a picture card at each stop (taped next to the number); the map word bank on the handout is in Turkish, Portuguese, and Spanish (see `Vocabulary 00.md`, [check with a native speaker]); the precise-words slide has a picture for each position word; Draw/See/Hear works in any language, so a pair that shares a home language may play in it, then repeat one round in English.
+- ELL: the ten tour stops have a picture card at each stop (taped next to the number); the map word bank on the handout is in Turkish, Portuguese, and Spanish (see `Vocabulary 00.md`); the precise-words slide has a picture for each position word; Draw/See/Hear works in any language, so a pair that shares a home language may play in it, then repeat one round in English.
 - IEP and 504 (general): the map comes with the ten stop names pre-printed for a student who needs it, so the task is placing, not spelling; the describer role can go to the student who prefers talking and the drawer role to the student who prefers not to; a student who cannot walk the full tour gets the photo tour on the slides at a table; extra time on round 2 by skipping the comparison writing and doing it aloud.
 - Grade 6 support: label six stops, not eight; round 2 uses the simplest card (card 1, the house).
 - Grade 8 stretch: after round 2, the pair writes a three-sentence "recipe" for one card (step 1, step 2, step 3) that a third student could draw from; the student also writes which lab role would need the most precise words and why.
 - UDL checkpoint used: multiple means of representation (a walked tour, a map, and numbered picture cards) and multiple means of action and expression (a student can show the zone by walking to it, pointing, or labeling).
-- No-room alternative: the tour becomes a photo tour on the slides, ten photos of the room's stops [Sal: take them the first week], and students label the map from the photos. Draw/See/Hear runs anywhere.
+- No-room alternative: the tour becomes a photo tour on the slides, ten photos of the room's stops, and students label the map from the photos. Draw/See/Hear runs anywhere.
 
 ## Assessment
 
@@ -122,4 +122,3 @@ Inside the building: the custodian, for a two-minute stop on the tour at the bre
 - Common mistake: the describer uses hand motions. Have describers sit on their hands for round 1. It gets a laugh and it works.
 - Common mistake two: pairs argue about whose fault the drawing was. The comparison frame on the handout ("the word that was missing") puts the blame on the word, not the person. Say that out loud.
 - The one-minute role card moment at stop 2 is enough today. Day 4 does the roles for real with the rice and water.
-- [Sal: the reset cue timing matters more than it looks. Post the day 2 time on the wall and beat it every day this week. By Lab 1 it should be three seconds with a whisk in every hand.]

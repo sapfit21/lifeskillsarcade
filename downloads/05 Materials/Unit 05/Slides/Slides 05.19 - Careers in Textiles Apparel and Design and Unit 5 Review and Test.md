@@ -107,7 +107,6 @@ Notes: do not editorialize. Let the sort say it, then ask the deepen-learning qu
 
 - An alterations shop, a dry cleaner, a costume shop, or a tailor, when a sixteen-year-old asks for work.
 - A high school CTE apparel or design program, when you apply.
-- [Sal: put the real program name here, the county's BOCES or district CTE apparel and design program, and what it takes to get in.]
 
 ## Slide 13: Day 1. The ladder from here
 
@@ -118,8 +117,6 @@ Notes: do not editorialize. Let the sort say it, then ask the deepen-learning qu
 
 - Start the folder today. Entry one is already done.
 
-Notes: [Sal: thirty seconds on your own path here, Penn State, Oracle, hospitality, a business you built, and now a classroom. It is the best evidence in the room that these routes are not one-way.]
-
 ## Slide 14: Day 1. Exit card
 
 - 3 careers in textiles or apparel, and what each one does
@@ -128,7 +125,7 @@ Notes: [Sal: thirty seconds on your own path here, Penn State, Oracle, hospitali
 
 ## Slide 15: Day 2. Do now
 
-- Cost per wear: a $48 jacket [update] worn 120 times is $______ per wear.
+- Cost per wear: a $48 jacket worn 120 times is $______ per wear.
 - Name the stitch you would use to close a seam that has to hold weight.
 
 Notes: answers on the board: $0.40 per wear; backstitch. Hook: fifteen minutes of game with your station, twenty minutes of test alone. The game is the test with help.

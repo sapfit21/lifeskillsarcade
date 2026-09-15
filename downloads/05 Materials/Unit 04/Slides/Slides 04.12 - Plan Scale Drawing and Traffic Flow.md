@@ -20,7 +20,7 @@ Notes: Day 6 of the floor plan stack. Skim the stack before class for scale erro
 - A student walks through it with the walker. Watch.
 - Thirty inches is fine for you. It is not fine for Grandpa Okafor.
 Image: two labeled masking tape strips on the floor, one 36 inches and one 30 inches apart.
-Notes: [Sal: borrow a walker, or a wheelchair from the nurse's office. Ten seconds of rolling through the 30-inch strip does more than any slide.] Land it: today every path in your plan gets measured.
+Notes: Land it: today every path in your plan gets measured.
 
 ## Slide 3: Plan: Scale Drawing and Traffic Flow
 

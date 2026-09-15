@@ -38,7 +38,7 @@ Tier 3 (FACS): entrepreneur, business, problem, customer, product, service, reve
 ## Materials and setup
 
 - `Handout 07.06 - Four Questions and Profit Example.md`, one per student
-- Five business cards printed large enough to read from the back of the room and taped to the board in a row before class: a barber shop, a phone repair counter, a school bus company, a bakery, and a lawn mowing crew. [Sal: swap in five businesses inside a mile of your school. The activity is better when students have walked past all five.]
+- Five business cards printed large enough to read from the back of the room and taped to the board in a row before class: a barber shop, a phone repair counter, a school bus company, a bakery, and a lawn mowing crew.
 - `Rubric 07 - Career Readiness and Shark Tank.md` returned at the door with criteria 1 and 2 scored, plus the stapled Topic 7.1 sets
 - One real receipt from anything, held up, for the revenue and cost example. A supermarket receipt from the Unit 6 project works and connects the two units.
 - Slides: `Slides 07.06 - What a Business Is`
@@ -120,7 +120,7 @@ Inside the building: math. Revenue minus cost equals profit is a two-step expres
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 5. b) and 4. b).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 1. a); Theme Module 03, Financial and Consumer Literacy, line 4. a).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 2. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 2. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 3.1.2, 2.5.1, and 2.5.2.
 - Sal's own materials: his Brentwood business packet "So You Want to Start a Business?", which supplies the entrepreneur, business, product, service, customer, profit, revenue, and expense definitions and the risk and opportunity framing. Rewritten here with a teacher side the packet did not have and with the problem-first order, which is the change: the packet starts with the idea, this lesson starts with the problem.
 - Sal's own background: Penn State BS in Corporate Innovation and Entrepreneurship, Penn State MBA, business development at Oracle, a financial services license, and seasonal bar and hotel management. The four questions are how he was taught to look at a business and they are the reason this unit exists.
@@ -132,5 +132,4 @@ Inside the building: math. Revenue minus cost equals profit is a two-step expres
 - Use real local businesses. A student who has been inside the place can find the problem in four seconds; a student reading about a generic "bakery" is guessing.
 - The 60-shirt twist is where the arithmetic becomes real. Do not rescue it too fast. Let them find $90.00 and be annoyed by it. That annoyance is what makes break-even make sense in Lesson 7.8.
 - Do not let the business-or-hobby distinction become a judgment about hobbies. Say plainly that most of what makes life good is a hobby and that the distinction is about money, not worth. One student every year hears "your thing is just a hobby" as an insult.
-- [Sal: you have the receipt from the Feed the Class project in the Unit 6 folder. Hold that up in Step 3. Those are real costs the class already paid, and the cost-per-person number the class computed in Lesson 6.17 is the first food cost they ever calculated. Name that out loud; it makes this lesson a continuation instead of a new subject.]
 - Keep the exit cards. Reading eight of them out loud at the start of Lesson 7.7 starts the brainstorm from a warm place, which is worth about four minutes.

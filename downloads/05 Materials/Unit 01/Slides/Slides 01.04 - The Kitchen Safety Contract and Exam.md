@@ -26,8 +26,6 @@ Notes: One hazard from each team on the board. Then the story on the next slide.
 - The next class walked into a room that smelled and a counter they could not use
 - Nobody got hurt. Nobody could cook either.
 - Today we write the rules so that never happens to the class after us
-Notes: [Sal: tell as much of the real Brentwood story as you want, without names. The point is that the kitchen belongs to everyone who uses it.]
-
 ## Slide 4: The sanitation routine
 
 - Start: hair back, sleeves up, wash hands, sanitize surfaces

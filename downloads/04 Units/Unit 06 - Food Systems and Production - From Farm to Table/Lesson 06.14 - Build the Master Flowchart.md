@@ -122,13 +122,13 @@ None required. Optional: watch anybody cook at home for ten minutes and write th
 
 ## Connections
 
-Inside the building: the technology or engineering teacher, if the school has one, teaches flowcharts and process diagrams with the same shapes. FACS gives that class a real process with a deadline and a consequence; the tech teacher gives FACS the standard symbols and, if willing, five minutes to look at the four posters and name the bottlenecks. Community: a restaurant kitchen manager or a caterer. FACS gives them a class that knows what a station is and what a critical path is; they give FACS a photo of a real prep list or line schedule and two minutes on what happens when one station goes down. [Sal: you managed food and beverage at a hotel on Fire Island. The story of one night when the line backed up is worth more here than any slide.]
+Inside the building: the technology or engineering teacher, if the school has one, teaches flowcharts and process diagrams with the same shapes. FACS gives that class a real process with a deadline and a consequence; the tech teacher gives FACS the standard symbols and, if willing, five minutes to look at the four posters and name the bottlenecks. Community: a restaurant kitchen manager or a caterer. FACS gives them a class that knows what a station is and what a critical path is; they give FACS a photo of a real prep list or line schedule and two minutes on what happens when one station goes down.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 3. e) and 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standard 3a, Managing Resources and Managing Information, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 8.4.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - Sal's own materials: `education_teaching_facs_kingkullen_masterflowchart_2026_03.pdf` (one page, four kitchens, five-minute blocks from setup through clean up, with a support duty column and the note that it is substitute-teacher friendly) is the exact model for the class master grid and the eight blocks. `education_teaching_facs_kingkullen_stationcards_2026_03.pdf` (one card per kitchen for seven students: ingredients, ten numbered steps, safety reminders, and a "what does done look like" checklist) is the exact model for the station card template.
@@ -141,4 +141,3 @@ Inside the building: the technology or engineering teacher, if the school has on
 - Second common mistake: a station card step that is three actions in one sentence ("boil the water, add the pasta, and set the timer"). One action per numbered step. Sal's own cards do this correctly; show step 4 of his spaghetti card as the model.
 - The read-across in Step 5 finds the oven collision every year. Do not fix it for them at Step 2; let it show up on the grid so the class sees why a master flowchart exists.
 - Laminate or sleeve the four station cards. They get splashed on cook day. Keep a photocopy in the folder because the sleeved one will not come back clean.
-- [Sal: your flowchart gave Kitchen 4 a SUPPORT DUTY block once its bread was in the oven. Build that into whichever station has the earliest finish this year, and write it on the master grid in red. It is the single thing that keeps the room from having three students with nothing to do at minute 20.]

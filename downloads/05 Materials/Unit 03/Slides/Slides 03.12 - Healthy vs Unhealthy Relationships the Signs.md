@@ -85,12 +85,11 @@ Image: three icons, a speech bubble with "I," a footprint stepping backward, and
 
 ## Slide 11: Who to tell in this building
 
-- The counselor [Sal: name, room ___]
-- The nurse [Sal: name, room ___]
+- The counselor
+- The nurse
 - Any teacher, me included, or the main office
 - An adult at home
-- The approved help line [Sal: the number the counselor approves]
-- [Sal: add the dean and the social worker with names and rooms if your building has them]
+- The approved help line
 Image: a plain list with a small doorway icon beside each line.
 Notes: The counselor speaks for the rest of this step: where the office is, what happens when a student walks in (it is not trouble), and two questions. If the counselor cannot come, keep the six minutes anyway, show this slide, and read the three sentences they gave you. Students write the counselor's name and room on the answer sheet.
 

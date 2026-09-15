@@ -174,8 +174,6 @@ Adaptability: __________________________________________
 | problem solving | problem çözme | resolução de problemas | resolución de problemas |
 | adaptability | uyum sağlama (esneklik) | adaptabilidade | adaptabilidad |
 
-**[check with a native speaker]**
-
 ## My score, after Round 3
 
 Score yourself 1 to 4. **1 = not yet. 2 = starting. 3 = I did this. 4 = I did this well.** Then write one sentence of evidence for each. Evidence has to be something somebody could have **seen or heard**, not a feeling. "I was nervous" is a feeling. "My voice shook for the first five seconds and then it stopped" is evidence.
@@ -229,7 +227,7 @@ ____________________________________________________________________
 
 **Grade 8 use:** cards 19 to 24 in Round 2, one deliberate interruption each, and the fifth line on the self-score sheet.
 
-**Cards to pull before class:** read the deck and set aside any card that would land badly in your room this year. Card 19 (the teammate who did not do their part) can be pointed at a real student by accident if there has been a recent group conflict; card 23 (the business losing money) can sting a student whose family business is struggling; card 10 (late to work) can land on a student with attendance problems. Pull two or three, not ten. [Sal: your own version used slightly absurd scenarios on purpose, and the absurd ones are the ones that make it safe to be wrong. Swap in the ones your students laughed at.]
+**Cards to pull before class:** read the deck and set aside any card that would land badly in your room this year. Card 19 (the teammate who did not do their part) can be pointed at a real student by accident if there has been a recent group conflict; card 23 (the business losing money) can sting a student whose family business is struggling; card 10 (late to work) can land on a student with attendance problems. Pull two or three, not ten.
 
 **Timing, from Sal's own reflection on this drill:** keep the scenario rounds tight, six minutes each, and give the reveal real time. If you are behind at minute 12, cut Round 2 to four speakers rather than shorten the reveal.
 

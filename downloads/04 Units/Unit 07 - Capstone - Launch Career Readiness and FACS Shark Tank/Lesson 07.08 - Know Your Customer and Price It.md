@@ -43,7 +43,7 @@ Tier 3 (FACS): customer, target customer, unit cost, price, margin, break-even, 
 - Calculators, one per team minimum, and available to every student without asking
 - `Project 07 - FACS Shark Tank.md` in hand from yesterday
 - Slides: `Slides 07.08 - Know Your Customer and Price It` (Day 1 and Day 2 labeled)
-- A price reference for the worked example: the Unit 6 supermarket circular, or a printout of prices for craft and food supplies. [Sal: the Unit 6 circular is already in the room and students already know how to read it. Reuse it.]
+- A price reference for the worked example: the Unit 6 supermarket circular, or a printout of prices for craft and food supplies.
 - Timer with a visible count for the interview rotation
 - Setup notes: Day 1 needs a rotation plan. Ten teams of three means that on the teacher's signal, one member of each team stands and moves two tables clockwise, so every team always has a stranger in front of it. Write the rotation on the board. Day 2 needs the worked example numbers on the board before the bell so no class time goes to writing them. Allergy check: none, even for a food idea; nothing is tasted this week until Lesson 7.11 and only with the standing allergen procedure from Unit 1.
 
@@ -154,7 +154,7 @@ Inside the building: math, directly and by name. Unit cost is a sum, margin is a
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 4. b) and 5. b).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c); Theme Module 05, Problem Solving and Innovation, line 2. a) b.; Theme Module 02, Communication and Interpersonal Relationships, line 2. c).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standards 2 and 3a, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standards 2 and 3a, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 2.5.1.
 - Sal's own materials: his Brentwood business packets "Know Your Customer" (the customer profile, the demographics and target audience framing, and the three-question customer interview with the biggest need, what they would pay, and how they would hear about it) and "Money In, Money Out" (revenue, expense, profit, fixed cost, variable cost, and break-even, and the two-page budget and profit analysis activity). Rewritten here with the teacher side they lacked, with break-even computed in units rather than months, and with the rule that the projection's unit count needs a reason.
 
@@ -167,6 +167,5 @@ Inside the building: math, directly and by name. Unit cost is a sum, margin is a
 - Break-even in units, not months. Months require assumptions a 13-year-old cannot defend. Units are countable and the sentence "we stop losing money after the fourth bag" is something a student can say to a judge under pressure.
 - Every team member writes the numbers, not just the CFO. On pitch day a judge will ask the CEO what the margin is, and the CEO needs to know.
 - The most common arithmetic error is forgetting the fixed cost in the projection. The second most common is dividing the wrong way on break-even. The peer number check in Step 4 catches both, which is why it exists.
-- [Sal: the Unit 6 circular is already in the room and students already read unit prices off it in Lesson 6.15. Use it for any food idea's unit cost. It makes the numbers real and it saves you finding prices.]
 - The signed numbers page is a gate. No signed page, no deck. Say it on Day 1 so nobody is surprised.
 - If the unit is running in the one-period version, say so to students at the start and tell them exactly when their own numbers get done. Students tolerate compression fine; they do not tolerate finding out that a thing they were promised is not happening.

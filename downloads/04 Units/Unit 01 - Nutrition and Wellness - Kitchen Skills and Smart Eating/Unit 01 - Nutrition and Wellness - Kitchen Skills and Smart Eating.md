@@ -232,7 +232,7 @@ Key Idea: Students will understand and be able to manage personal resources of t
 - PI C: Students are able to budget their time and money. (Lessons 1.15, 1.18, 1.19)
 - PI E: Students identify their own abilities and interests as possible guides to career choice. (Lesson 1.22)
 
-The PI letters are NYLearns codes; the NYSED print document lists the indicators as bullets. [Sal: confirm the Standard 1 and Standard 3 wording against the NYSED PDF before the standards map goes live; see crosswalk E.4.]
+The PI letters are NYLearns codes; the NYSED print document lists the indicators as bullets.
 
 ### CDOS (Intermediate)
 
@@ -308,7 +308,7 @@ Career Ready Practices are a secondary citation on the unit page only; the CCTC 
 
 **ELL and IEP supports:** sentence starters for the pitch in Turkish, Portuguese, and Spanish (`Vocabulary 01.md`); a picture-based circular for the shopping list; the price math as a fill-in table with the operations shown; a role on the team that fits the student (the recorder, the price checker, the presenter, the plating lead); a pitch that can be read from the card or delivered by two students together; extra time on Day 3.
 
-**How it is presented:** each team pitches for 60 seconds at the tasting gallery while the class tastes the dish, then the class votes for the meal it would eat at home. Menu cards go up on the wall for the rest of the marking period. [Sal: your Brentwood run had a pitch and jingle and a class vote; keep the jingle if it still works for you.]
+**How it is presented:** each team pitches for 60 seconds at the tasting gallery while the class tastes the dish, then the class votes for the meal it would eat at home. Menu cards go up on the wall for the rest of the marking period.
 
 ## 9. Assessment plan
 
@@ -325,7 +325,7 @@ Career Ready Practices are a secondary citation on the unit page only; the CCTC 
 
 ## 10. Materials, budget, and room
 
-**Room assumptions:** three kitchen stations of seven students each (21 per section). With 28 students, run four stations and raise every lab cost by one third. [Sal: set the station count once you know your school's section sizes and how many working kitchens the room has.] Zero-knife policy: everything that needs cutting is pre-cut by me or bought pre-cut. Pre-cooked meat only. Stovetop, oven, and microwave. Allergy check before every lab from the nurse's list; a nut-free room.
+**Room assumptions:** three kitchen stations of seven students each (21 per section). With 28 students, run four stations and raise every lab cost by one third. Zero-knife policy: everything that needs cutting is pre-cut by me or bought pre-cut. Pre-cooked meat only. Stovetop, oven, and microwave. Allergy check before every lab from the nurse's list; a nut-free room.
 
 **Consumables, per lab, per section:**
 
@@ -337,9 +337,9 @@ Career Ready Practices are a secondary citation on the unit page only; the CCTC 
 | Pantry and cleanup for the unit | all labs | | about $30 | dish soap, sanitizer spray, paper towels, foil, disposable gloves, zip bags for leftovers, masking tape and markers for labels |
 | Silent Measurement Challenge | 1.6 | | about $6 | flour, rice, water, vanilla or colored water (reused across sections) |
 
-Unit total for one section, three labs: about $150. Multiply the lab lines by the number of sections; the pantry line stretches across sections. [Sal: put your school's lab budget here and adjust the per-station caps to match. Your Brentwood number was about $20 per 4 to 8 students per lab.]
+Unit total for one section, three labs: about $150. Multiply the lab lines by the number of sections; the pantry line stretches across sections.
 
-**Equipment (already in a working FACS room; buy what is missing):** per station: dry measuring cup set, liquid measuring cup, measuring spoon set, mixing bowls in two sizes, silicone spatula, whisk, wooden spoon, tongs, sheet pan, oven mitts, microwave-safe mugs (seven), cutting board (for pre-cut items and the tool ID lesson), can opener, colander, plates, forks, cups, dish towels, sponge. Shared: microwave, oven, stovetop, refrigerator with a thermometer, a gram scale (about $15 if not owned; needed for the Silent Measurement Challenge and the performance check), two instant-read food thermometers (about $10 each), fire extinguisher, first aid kit, the Safety Data Sheet binder. [Sal: walk your school's room with this list before the year starts; the gram scale and the thermometers are the two things most rooms are missing.]
+**Equipment (already in a working FACS room; buy what is missing):** per station: dry measuring cup set, liquid measuring cup, measuring spoon set, mixing bowls in two sizes, silicone spatula, whisk, wooden spoon, tongs, sheet pan, oven mitts, microwave-safe mugs (seven), cutting board (for pre-cut items and the tool ID lesson), can opener, colander, plates, forks, cups, dish towels, sponge. Shared: microwave, oven, stovetop, refrigerator with a thermometer, a gram scale (about $15 if not owned; needed for the Silent Measurement Challenge and the performance check), two instant-read food thermometers (about $10 each), fire extinguisher, first aid kit, the Safety Data Sheet binder.
 
 **Handouts (in `05 Materials/Unit 01/`, named as the lesson files name them):**
 - Topic 1.1: `Handout 01.01 - Hazard Hunt.md`; `Handout 01.02 - Safe or Not Safe Scenario Cards.md`; `Handout 01.03 - What Would You Do Scenarios.md`; `Handout 01.04 - Kitchen Safety Contract Template.md`.
@@ -356,7 +356,7 @@ Unit total for one section, three labs: about $150. Multiply the lab lines by th
 The health course covers the food groups, the Dietary Guidelines as a document, body image, and eating disorders. FACS does not reteach those. FACS covers what health cannot do in a classroom: reading a real label, building a real plate at a real meal, testing a real food video against a credible source, cooking, and shopping on a budget.
 
 Coordination points, flagged on the lesson pages:
-- Lesson 1.9 (the six nutrients): pre-assessed in Lesson 0.5. If health has already taught nutrients this year, this lesson runs as a 15-minute review and the time goes to Lesson 1.10. [Sal: ask the health teacher in the first week which grade gets nutrients and when.]
+- Lesson 1.9 (the six nutrients): pre-assessed in Lesson 0.5. If health has already taught nutrients this year, this lesson runs as a 15-minute review and the time goes to Lesson 1.10.
 - Lesson 1.10 (MyPlate beyond the food groups): health teaches the groups; FACS puts portions on a real plate and a real lunch tray. Share the plate cards with the health teacher so both rooms use the same picture.
 - Lesson 1.12 (credible sources): N&W 2. d) and National FCS 14.2.3 touch fad diets, supplements, and eating disorders. FACS stays on "is this source credible and what is it selling." Anything about body image or disordered eating is referred to the health teacher and the counselor, and the lesson says so.
 
@@ -366,32 +366,9 @@ Math: the math teacher covers unit rate in grade 6 and 7; Lesson 1.16 uses the s
 
 - Inside the building: the school nurse, for Topic 1.1. FACS gives the nurse a class that knows where the first aid kit is, how to report an accident, and the allergy rules of the room; the nurse gives FACS a five-minute visit in Lesson 1.3 on burns, cuts, and choking, and the section allergy list before every lab.
 - Inside the building: the math teacher, for Lesson 1.16. FACS gives the math class a real unit-rate problem set with a store circular attached; the math teacher gives FACS the vocabulary and the method the students already know so the lesson does not fight it.
-- Community: the manager of the local supermarket the circular comes from. FACS gives the store a class of future customers who can read a unit price tag and a thank-you card from each team; the store gives FACS a stack of circulars each week, a short visit or video on how the store decides what goes on sale, and, if it is willing, a small gift card toward the Budget Meal Lab. [Sal: at Brentwood this was King Kullen. Name your school's nearest store.]
-- Community: a Cornell Cooperative Extension nutrition educator (Suffolk or Nassau office) for Lesson 1.10 or 1.22. FACS gives the educator a class audience and a place to run one of the extension's own plate activities; the educator gives FACS a credible-source guest for Lesson 1.12 and a real dietitian pathway for Lesson 1.22. [Sal: confirm which county office serves your district.]
+- Community: the manager of the local supermarket the circular comes from. FACS gives the store a class of future customers who can read a unit price tag and a thank-you card from each team; the store gives FACS a stack of circulars each week, a short visit or video on how the store decides what goes on sale, and, if it is willing, a small gift card toward the Budget Meal Lab.
+- Community: a Cornell Cooperative Extension nutrition educator (Suffolk or Nassau office) for Lesson 1.10 or 1.22. FACS gives the educator a class audience and a place to run one of the extension's own plate activities; the educator gives FACS a credible-source guest for Lesson 1.12 and a real dietitian pathway for Lesson 1.22.
 
 ## 13. Vocabulary for translation
 
-See `Vocabulary 01.md`: 40 Tier 3 terms across the four topics with a one-line student definition and columns for Turkish, Portuguese, and Spanish, marked [check with a native speaker] until a native speaker verifies them, plus sentence starters for a lab role, for feedback, and for the pitch in all four languages.
-
-## 14. What Sal should replace
-
-Placeholders in the three unit-level files (`Unit 01`, `Calendar 01`, `Vocabulary 01`). The lesson, project, rubric, and assessment files list their own.
-
-In this unit plan:
-1. Section 7: [Sal: confirm the Standard 1 and Standard 3 wording against the NYSED PDF before the standards map goes live; see crosswalk E.4.]
-2. Section 8: [Sal: your Brentwood run had a pitch and jingle and a class vote; keep the jingle if it still works for you.]
-3. Section 10: [Sal: set the station count once you know your school's section sizes and how many working kitchens the room has.]
-4. Section 10: [Sal: put your school's lab budget here and adjust the per-station caps to match. Your Brentwood number was about $20 per 4 to 8 students per lab.]
-5. Section 10: [Sal: walk your school's room with this list before the year starts; the gram scale and the thermometers are the two things most rooms are missing.]
-5a. Section 10: [Sal: pick one extension for the Materials page; the lesson references get renamed to match in the site build.]
-6. Section 11: [Sal: ask the health teacher in the first week which grade gets nutrients and when.]
-7. Section 12: [Sal: at Brentwood this was King Kullen. Name your school's nearest store.]
-8. Section 12: [Sal: confirm which county office serves your district.]
-
-In `Calendar 01.md`:
-9. Header: [Sal: the calendar is in day numbers; map them onto your school's calendar.]
-10. Day 35 cell: [Sal: if your school ends marking period 1 before day 35, move the Unit 1 test to the first day of Unit 2.]
-
-In `Vocabulary 01.md`:
-11. Header: [check with a native speaker] on all three translation columns.
-12. Sentence starters: [Sal: swap in the Turkish and Portuguese sentence starters you already used for Feed a Family at Brentwood if they read better than these.]
+See `Vocabulary 01.md`: 40 Tier 3 terms across the four topics with a one-line student definition and columns for Turkish, Portuguese, and Spanish, to be checked by a native speaker, plus sentence starters for a lab role, for feedback, and for the pitch in all four languages.

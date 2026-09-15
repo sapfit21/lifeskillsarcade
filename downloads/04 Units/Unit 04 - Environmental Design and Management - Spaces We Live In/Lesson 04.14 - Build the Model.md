@@ -37,11 +37,11 @@ Tier 3 (FACS): elevation, isometric, color scheme (monochromatic, complementary,
 
 ## Materials and setup
 
-- One shoebox per student or team, lid removed (collected free from students, families, and a shoe store the month before) [Sal: send the note home in Lesson 4.6 so boxes arrive by day 110], or foam board 20 by 30 inches, one sheet cut to make two or three model bases
+- One shoebox per student or team, lid removed (collected free from students, families, and a shoe store the month before), or foam board 20 by 30 inches, one sheet cut to make two or three model bases
 - Foam board or corrugated cardboard for walls that are not the box's own walls (tiny house: the box is the trailer; the loft is a shelf of card)
 - Card stock (white and colored), scrap fabric, felt scraps, sample paint chips, construction paper, magazine pages for floor and wall finishes
 - Glue sticks, white glue, low-temperature glue guns at one supervised station, masking tape
-- Scissors; craft knives only at the teacher's cutting station, teacher use or supervised grade 8 use only [Sal: your room's rule]
+- Scissors; craft knives only at the teacher's cutting station, teacher use or supervised grade 8 use only
 - Rulers, pencils, markers
 - `Handout 04.14 - Model Build Guide and Label Cards.md`: the build guide (one per team), the two label cards and the justification card (one set per team), and the isometric grid page for the no-materials alternative
 - The plan, the Budget Sheet, and the client card in the project folder
@@ -121,7 +121,7 @@ Written above under each day.
 - Grade 6 support: build the five required pieces only (bed or crib, one seat, one work or storage surface, one storage piece, one light); one label (GREEN or SAFE, student's choice); a one-sentence justification.
 - Grade 8 stretch: build one wall elevation on card that lifts off to show the wall's height and window; add a third label, ACCESSIBLE, for any universal design feature (bed height, desk knee space, rod height, switch height), with the measurement; tiny house teams build the loft with the ladder to scale.
 - UDL checkpoint used: multiple means of action and expression (a shoebox model, a foam board model, or the isometric drawing alternative all meet criterion 4) and multiple means of representation (the plan, the elevation do now, and the model show the same room three ways).
-- No-materials alternative: a student or team with no box and no materials, or a class with no craft budget, draws the room in 3-D on the isometric grid page of the build guide: the floor as a parallelogram at 1/2 inch = 1 foot, walls up 8 feet, every piece of furniture as a box drawn to scale, the color scheme colored in, and the GREEN and SAFE labels drawn as callouts. A digital version in any free 3-D room app is also accepted, printed or shown on a screen at the gallery walk [Sal: name the app the school allows]. Criterion 4 is scored the same way.
+- No-materials alternative: a student or team with no box and no materials, or a class with no craft budget, draws the room in 3-D on the isometric grid page of the build guide: the floor as a parallelogram at 1/2 inch = 1 foot, walls up 8 feet, every piece of furniture as a box drawn to scale, the color scheme colored in, and the GREEN and SAFE labels drawn as callouts. A digital version in any free 3-D room app is also accepted, printed or shown on a screen at the gallery walk. Criterion 4 is scored the same way.
 
 ## Assessment
 
@@ -143,7 +143,7 @@ Art: the art teacher can lend the isometric grid lesson and the color mixing fro
 
 - NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a), b), c), d). Copy in `02 Standards/NYS Module PDFs/`. The module's Problem Solving and Innovation illustrative activity (Tiny Houses) is the source of the tiny house path.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) f.; Theme Module, Sustainability, line 2. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.4 and 11.9.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11. (The research file confirmed only 11.9.1 under 11.9; check the LEAD FCS PDF for others.)
 - Sal's own materials: `education_teachingwork_dream_home_challenge_2026_04.docx` (the synthesis of elements, principles, color, and sustainability in one room); `education_teachingwork_sustainable_style_2026_04.docx` (the green choices used in Lesson 4.5 and on the GREEN label); `education_teachingwork_color_me_impressed_2026_04.docx` (the color schemes from Lesson 4.8).
 
@@ -153,5 +153,4 @@ Art: the art teacher can lend the isometric grid lesson and the color mixing fro
 - Common mistake: furniture built to no scale (a bed the size of the room). Keep the cut-out sheet dimensions on the slide all three days and make students measure the model piece against the plan piece.
 - Common mistake: the model drifts from the plan because a piece "looked better" somewhere else. That is allowed, but the plan must change too; the rubric scores the match. Say it on Day 2.
 - Glue gun rule: one station, one adult, low-temperature guns only, no walking with a hot gun. Treat a burn as a burn (Lesson 1.3): cool water, tell the teacher.
-- Materials cost per model, target under $4: shoebox free; one 20 by 30 foam board sheet at about $3 to $4 makes two or three bases if boxes run short (so $1.50 or less per model); card stock about $0.30; glue sticks about $0.25 per model; scrap fabric and paint chips free (ask a fabric store for remnants and a paint department for old chip cards); masking tape and markers from the room stock. Budget about $2 to $3.50 per model [update with your store's prices]. Add it to the unit plan's materials list.
-- [Sal: photograph every finished model, no names, no faces. They are next year's hook, the website's project page, and the principal's walk-through in one shelf.]
+- Materials cost per model, target under $4: shoebox free; one 20 by 30 foam board sheet at about $3 to $4 makes two or three bases if boxes run short (so $1.50 or less per model); card stock about $0.30; glue sticks about $0.25 per model; scrap fabric and paint chips free (ask a fabric store for remnants and a paint department for old chip cards); masking tape and markers from the room stock. Budget about $2 to $3.50 per model. Add it to the unit plan's materials list.

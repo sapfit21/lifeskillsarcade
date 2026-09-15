@@ -1,6 +1,6 @@
 # Slides 02.13: The Skittles Market Game and Money Basics Quiz
 
-Lesson 2.13, one day, 11 slides. The slides stay off during trading; only the timer and the fee card are visible. Prices marked [update].
+Lesson 2.13, one day, 11 slides. The slides stay off during trading; only the timer and the fee card are visible. Prices to be refreshed before teaching.
 
 ## Slide 1: Do now
 - Think of a game or app you play.
@@ -53,8 +53,8 @@ Notes: The house set the rules, never took a risk, and got paid on every trade w
 - Fill in Part D.
 
 ## Slide 9: Fees in real life
-- ATM fee: another bank's machine, about $3 plus your bank's fee [update].
-- Instant transfer fee: the app, about 1.5 to 3 percent to get your money today [update].
+- ATM fee: another bank's machine, about $3 plus your bank's fee.
+- Instant transfer fee: the app, about 1.5 to 3 percent to get your money today.
 - Subscription fee: every month, whether you use it or not.
 - Commission: a broker or an agent, a piece of every trade or sale.
 - The card network takes a piece of every swipe. You never see it; the store pays it, and prices it in.

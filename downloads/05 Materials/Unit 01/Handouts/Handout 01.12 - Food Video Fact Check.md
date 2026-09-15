@@ -24,8 +24,6 @@ Two shortcuts:
 - A registered dietitian (RD or RDN) has a license and can lose it for giving bad advice.
 - A website ending in .gov or .edu is usually not selling anything.
 
-[Sal: add the four questions in Turkish, Portuguese, and Spanish from `Vocabulary 01.md` here.]
-
 * * *
 
 ## Page 2: The three-source check

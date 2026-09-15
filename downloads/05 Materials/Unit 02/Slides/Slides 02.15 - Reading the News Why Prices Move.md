@@ -104,7 +104,7 @@ Image: a tree with a few apples and a small frost patch on one branch.
 - Windows 13 to 18 open now.
 - Before each click, one merchant runs the three tests on the headline out loud.
 - Trade or hold. Note trades on Entry 4.
-Notes: 10 minutes. [Sal: if you send a custom hype dispatch from the Command Bridge today, label it "Anonymous" and confess afterward.]
+Notes: 10 minutes.
 
 ## Slide 17: Entry 4
 - What I did. Why. What happened.

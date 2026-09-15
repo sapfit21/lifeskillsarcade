@@ -39,7 +39,7 @@ Tier 3 (FACS): short-term goal, long-term goal, goal ladder, decision model, dec
 - `Handout 02.05 - Goal Ladder and Decision Grid.md`, one per student: the ladder (page 1), the six scenario cards and the decision grid (page 2), the Goal Plan cover and mini rubric (page 3)
 - Students' Lesson 2.4 SMART Goal Builder and Lesson 2.1 sort sheet, from the FACS folder
 - Slides: `Slides 02.05 - Goals and the Five-Step Decision Model` (Day 1 and Day 2 labeled)
-- The five-step decision model poster from Unit 0, on the wall [Sal: if the Unit 0 poster is not up, print slide 12 as a page and tape it up before Day 2]
+- The five-step decision model poster from Unit 0, on the wall
 - Timer visible to the class
 - Setup notes: Day 1 needs the "needs more" pile from Lesson 2.4 (goals without a number or date) so those students get five minutes to fix the goal before they build a ladder on it. Day 2 needs nothing beyond the handout. Both days are paper only.
 
@@ -112,13 +112,13 @@ None. Optional: do the first rung of your ladder before Lesson 2.6 and be ready 
 
 ## Connections
 
-Inside the building: the school counselor, whose grade 8 planning conference uses a short-term and long-term goal pair; the health teacher, if the health class teaches a decision model (agree on one wording so students hear the same five steps in both rooms). [Sal: check the health teacher's decision model before Day 2; if it has six steps, say so and map them.] Community: none this lesson.
+Inside the building: the school counselor, whose grade 8 planning conference uses a short-term and long-term goal pair; the health teacher, if the health class teaches a decision model (agree on one wording so students hear the same five steps in both rooms). Community: none this lesson.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 1. e); Career and Community Opportunities, line 4. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Thinking Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 2.1.2.
 - The five-step decision model (name the choice, list options, weigh each against what matters, decide, look back) is this course's own wording, introduced in Unit 0 and used in every unit.
@@ -131,5 +131,5 @@ Inside the building: the school counselor, whose grade 8 planning conference use
 - Common mistake on the ladder: rungs that are results ("get better," "be more focused"). The test is "could someone watch you do it?" If not, it is not a rung.
 - Common mistake on the grid: every row gets a plus for the option the student already wanted. Say once: "If the grid agrees with you on everything, you filled it in backwards." Then ask them to find one honest minus.
 - The six scenario cards are safe choices for students who will not bring a real one. About a third of the class will use a card; that is fine and still meets the rubric.
-- The look-back step needs a real date. Put a note in your own calendar for four weeks after Day 2: hand the Goal Plans back for five minutes at the start of a Topic 2.4 lesson and have students write one line on the cover: "Did I do the first rung? Did the decision hold?" That is the "evaluate" in IGLR 2. d), and it is the part most goal lessons skip. [Sal: pick the day; Lesson 2.15 or 2.16 has room.]
+- The look-back step needs a real date. Put a note in your own calendar for four weeks after Day 2: hand the Goal Plans back for five minutes at the start of a Topic 2.4 lesson and have students write one line on the cover: "Did I do the first rung? Did the decision hold?" That is the "evaluate" in IGLR 2. d), and it is the part most goal lessons skip.
 - Keep the Goal Plans in the FACS folder after scoring. Lesson 2.6 schedules the first rung; Topic 2.3 uses the money goals for the budget; Unit 7 revisits the career stretch goals.

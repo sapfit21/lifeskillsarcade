@@ -2,13 +2,13 @@
 
 Unit 6, Food Systems and Production. The unit's 49 Tier 3 words across the four topics, with a one-line definition written for a grade 6 to 7 reader and columns for Turkish, Portuguese, and Spanish.
 
-**Translation status: [check with a native speaker].** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Cooking words are the ones most likely to differ by country: what one country calls a way of cooking, another calls something else, and a few of these have no single everyday word in every language. Baking terms are the worst case, because "pó royal," "polvo de hornear," and "kabartma tozu" all describe the same jar but a student may know it by a brand name at home. **The English term stays on every card,** because students will see the English word on a real package, a real recipe, and a real station card.
+**Translation status.** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Cooking words are the ones most likely to differ by country: what one country calls a way of cooking, another calls something else, and a few of these have no single everyday word in every language. Baking terms are the worst case, because "pó royal," "polvo de hornear," and "kabartma tozu" all describe the same jar but a student may know it by a brand name at home. **The English term stays on every card,** because students will see the English word on a real package, a real recipe, and a real station card.
 
 Two words appear twice on purpose. "Scale" here means multiplying a recipe up, not the machine that weighs things (the machine is in Lesson 6.3 and is called a kitchen scale). "Control" here means the comparison batch in an experiment, not being in charge.
 
 How lessons use this file: each lesson names its own Tier 3 words, and the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints this table as picture-ready cards. Twelve of these words are on the Unit 6 test, so the card is allowed on the two topic quizzes and not on the unit test.
 
-## The table [check with a native speaker]
+## The table
 
 | # | Topic | English term | Student definition | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|---|---|
@@ -64,7 +64,7 @@ How lessons use this file: each lesson names its own Tier 3 words, and the hando
 
 ## Sentence starters
 
-Print these on the back of the role cards, the dish research card, and the project reflection. **[check with a native speaker]** [Sal: swap in the Turkish and Portuguese starters you already use at Brentwood if they read better than these.]
+Print these on the back of the role cards, the dish research card, and the project reflection.
 
 ### For a lab role (Lessons 6.7, 6.8, 6.9, 6.16)
 

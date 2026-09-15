@@ -16,7 +16,7 @@ Notes: Five quick answers on the board.
 - Dishwasher, prep cook, line cook: no degree. Start from the bottom, climb by showing up and learning.
 - Baker, restaurant manager, caterer: a certificate, an apprenticeship, or a two-year degree.
 - School food service director, health inspector, food scientist, registered dietitian: a four-year degree or more.
-- Pay ranges on the cards are marked [update].
+- Pay ranges on the cards are to be refreshed before teaching.
 Image: a ladder drawn with the ten careers on rungs, color coded in three groups.
 Notes: Ask: which of these did you do a piece of in this unit? All of them.
 

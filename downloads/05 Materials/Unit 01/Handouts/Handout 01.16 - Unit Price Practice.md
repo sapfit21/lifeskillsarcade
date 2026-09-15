@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Partner: ______________________
 
-All prices on this sheet are realistic Long Island supermarket prices for September 2026. Every one is marked [update from this week's circular]; your teacher may write the real price on the board.
+All prices on this sheet are realistic Long Island supermarket prices for September 2026. Every one is to be refreshed from the current circular before teaching; your teacher may write the real price on the board.
 
 ## The rule
 
@@ -18,12 +18,12 @@ Worked example: a 24 oz jar of sauce costs $2.29. $2.29 divided by 24 = $0.095 p
 
 | # | Item | Price | Quantity | Unit price (show your division) |
 |---|---|---|---|---|
-| 1 | Store-brand pasta [update from this week's circular] | $1.29 | 16 oz | $______ per oz |
-| 2 | Marinara sauce, jar [update from this week's circular] | $2.29 | 24 oz | $______ per oz |
-| 3 | Shredded cheese, bag [update from this week's circular] | $2.49 | 8 oz | $______ per oz |
-| 4 | Frozen corn, bag [update from this week's circular] | $1.79 | 12 oz | $______ per oz |
-| 5 | Deli half rotisserie chicken [update from this week's circular] | $4.99 | 1 lb 4 oz = ______ oz | $______ per oz |
-| 6 | Rice, bag [update from this week's circular] | $2.79 | 2 lb = ______ oz | $______ per oz |
+| 1 | Store-brand pasta | $1.29 | 16 oz | $______ per oz |
+| 2 | Marinara sauce, jar | $2.29 | 24 oz | $______ per oz |
+| 3 | Shredded cheese, bag | $2.49 | 8 oz | $______ per oz |
+| 4 | Frozen corn, bag | $1.79 | 12 oz | $______ per oz |
+| 5 | Deli half rotisserie chicken | $4.99 | 1 lb 4 oz = ______ oz | $______ per oz |
+| 6 | Rice, bag | $2.79 | 2 lb = ______ oz | $______ per oz |
 
 ## Part B: Which is the better buy per ounce? Circle it and show why.
 
@@ -37,7 +37,7 @@ Worked example: a 24 oz jar of sauce costs $2.29. $2.29 divided by 24 = $0.095 p
 
 Copy the rule from the board:
 
-In New York, most grocery food is ______ taxed. Non-food items (foil, paper plates, cups, soap) and candy, soda, and prepared hot food ______ taxed. The rate in our county is about ______ percent. [Sal: confirm the local rate]
+In New York, most grocery food is ______ taxed. Non-food items (foil, paper plates, cups, soap) and candy, soda, and prepared hot food ______ taxed. The rate in our county is about ______ percent.
 
 Circle the items that get taxed at the register: a bag of rice, a roll of foil, a two-liter soda, paper plates, a loaf of bread, a candy bar.
 
@@ -76,7 +76,7 @@ Part A: 1. $0.081 per oz. 2. $0.095 per oz. 3. $0.311 per oz. 4. $0.149 per oz. 
 
 Part B: 1. $0.095 vs $0.084; the 45 oz jar. 2. $0.124 vs $0.081; store brand. 3. $0.311 vs $0.250; the 2 lb bag (then ask: can the family use 2 lb of cheese before it molds? That is Part D's question).
 
-Part C: most grocery food is not taxed; non-food items, candy, soda, and prepared hot food are taxed; about 8.625 percent in Suffolk and Nassau counties [Sal: confirm]. Taxed: foil, soda, paper plates, candy bar. Not taxed: rice, bread. Foil tax: $3.49 times 0.08625 = $0.30 (rounded). Total $3.79.
+Part C: most grocery food is not taxed; non-food items, candy, soda, and prepared hot food are taxed; about 8.625 percent in Suffolk and Nassau counties. Taxed: foil, soda, paper plates, candy bar. Not taxed: rice, bread. Foil tax: $3.49 times 0.08625 = $0.30 (rounded). Total $3.79.
 
 Part D: 10 lb bag: $0.599 per lb. 3 lb bag: $0.997 per lb. Cheaper per pound: the 10 lb bag. The family should buy the 3 lb bag: they use about 4 lb a month, the potatoes will sprout or rot in a warm cabinet before they use 10 lb, and the waste costs more than the savings. Accept the 10 lb bag only with a fix (a cool, dark place to store them and a plan to use them within three weeks).
 

@@ -138,13 +138,13 @@ None. If your permission note is not signed yet, bring it tomorrow or use the sc
 
 ## Connections
 
-Math: measurement in inches and fractions of an inch, perimeter, and the grade 8 stretch's area-and-waste calculation. The scale drawing on graph paper is the Unit 4 floor plan skill used again, and saying that out loud is the transfer. Technology education: prototyping before production is the same step the technology teacher calls a model. Community: a tailor or an alterations shop would answer one question on video in two minutes, "How much fabric do you leave for a seam, and what happens if you leave too little?" [Sal: the dry cleaner near the school probably has an alterations tailor on site.]
+Math: measurement in inches and fractions of an inch, perimeter, and the grade 8 stretch's area-and-waste calculation. The scale drawing on graph paper is the Unit 4 floor plan skill used again, and saying that out loud is the transfer. Technology education: prototyping before production is the same step the technology teacher calls a model. Community: a tailor or an alterations shop would answer one question on video in two minutes, "How much fabric do you leave for a seam, and what happens if you leave too little?"
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Problem Solving and Innovation 2. a) e. and f.; Health, Safety, and Wellness 4. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.3.3 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - The count-out and count-in routine and the four taught hand stitches and the machine seam come from Topic 5.2 of this unit (Lessons 5.5 to 5.10).
 
@@ -156,5 +156,4 @@ Math: measurement in inches and fractions of an inch, perimeter, and the grade 8
 - Second common mistake: a student plans to sew the closure on before they sew the body, and then cannot reach inside. Walk the order of work with your finger on the mock-up.
 - Third common mistake: cutting a knit t-shirt for a project that needs a woven, then wondering why the edge curls. Fix it in Step 2 by having them pull the fabric sideways.
 - Keep the mock-ups. They go in the bag and come out in Lesson 5.18 as part of the display; a before-and-after with a paper mock-up next to a finished item is the most convincing thing on the table at the gallery.
-- [Sal: your airplane-crash simulation worked because students had to defend a decision under a constraint. The approval table is the same move, quietly. Ask the five questions the same way every time and students start pre-answering them.]
-- Budget note for the unit plan: mock-up paper is free (newspaper, the recycling bin, or brown grocery bags). Chalk or soap slivers are free. Add fabric-marking chalk if you want it, about $3 for a pack of three [update]. Binder clips, a box of 12 for about $2 [update], are the reduced-dexterity alternative to pins and are worth having.
+- Budget note for the unit plan: mock-up paper is free (newspaper, the recycling bin, or brown grocery bags). Chalk or soap slivers are free. Add fabric-marking chalk if you want it, about $3 for a pack of three. Binder clips, a box of 12 for about $2, are the reduced-dexterity alternative to pins and are worth having.

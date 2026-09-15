@@ -46,8 +46,6 @@ Name: ______________________________ Date: ______________ Period: ______
 | Minerals | | |
 | Water | | |
 
-**Word bank** (for the nutrient names): [Sal: paste the Turkish, Portuguese, and Spanish words from `Vocabulary 01.md` here before printing.]
-
 **The sort:** Put every card in a pile. If a card belongs in two piles, put it between them and write it here.
 
 Card that fits two piles: ______________________ Piles: __________________ and __________________

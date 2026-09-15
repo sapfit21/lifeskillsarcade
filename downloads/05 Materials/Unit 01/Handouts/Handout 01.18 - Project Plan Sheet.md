@@ -35,7 +35,7 @@ My guess for the total before pricing (Day 2 do now): $______
 
 Rules: every line has a unit. You pay for the whole package, not the part you use. Pantry items are $0 and marked "pantry." Sale prices count only if the sale is on this week.
 
-Worked row: Marinara sauce, 24 oz jar, $2.29, per jar, need 1 jar, cost $2.29, running total $2.29. [update from this week's circular]
+Worked row: Marinara sauce, 24 oz jar, $2.29, per jar, need 1 jar, cost $2.29, running total $2.29.
 
 | # | Item (product and brand) | Size | Price | Unit (per jar, per lb, per bag, each) | How many to buy for four | Cost | Running total |
 |---|---|---|---|---|---|---|---|

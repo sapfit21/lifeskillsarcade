@@ -1,6 +1,6 @@
 # Slides 4.11: The Client Brief
 
-Slide outline for Lesson 4.11. Thirteen slides, one day. This is day 1 of Project 04, Design a Room. [Sal: slide 5 is yours. Tell the Oracle or Orangetheory story where the customer said they wanted one thing and needed another. Two minutes, no more.]
+Slide outline for Lesson 4.11. Thirteen slides, one day. This is day 1 of Project 04, Design a Room.
 
 ## Slide 1: The Client Brief
 
@@ -34,9 +34,7 @@ Image: a one-page brief form with the six parts labeled down the side.
 
 ## Slide 5: A client story
 
-- [Sal: your Oracle or Orangetheory story. The customer who said they wanted everything, and the three things they actually needed.]
 - The designer's job is to find the three things
-Image: [Sal: nothing needed, or a photo from that job.]
 Notes: Two minutes. Land it on one line: a client tells you what they want, and you have to hear what they need.
 
 ## Slide 6: Read a card like a designer

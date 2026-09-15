@@ -40,7 +40,7 @@ Tier 3 (FACS): balance (symmetrical, asymmetrical), visual weight, focal point, 
 - A wall or a table row for the gallery
 - Slides: `Slides 04.07 - Principles Balance Focal Point Rhythm Proportion` (Day 1 and Day 2 labeled)
 - Timer visible to the class
-- Setup notes: cut the five furniture sets the night before, one envelope per team, and put the focal point card inside face down. Day 1 needs nothing but the handout. Allergy check: none needed. [Sal: laminate the furniture cards once and they last the year and the project.]
+- Setup notes: cut the five furniture sets the night before, one envelope per team, and put the focal point card inside face down. Day 1 needs nothing but the handout. Allergy check: none needed.
 
 ## Pre-assessment
 
@@ -119,7 +119,7 @@ None. Optional: pick one wall at home and decide whether it is balanced. If not,
 
 ## Connections
 
-Art: the art teacher's principles list overlaps (balance, emphasis, rhythm, proportion, unity, contrast) and may add movement or variety; a shared word wall between the two rooms stops the double-teaching. Math: proportion and scale are ratio language; the math teacher can borrow the king-bed layout as a ratio problem. [Sal: your Brentwood packets had a Marcus and a Destiny story for balance and focal point; use one as a two-sentence hook if you want a story, and keep the names fictional and unrepeated.]
+Art: the art teacher's principles list overlaps (balance, emphasis, rhythm, proportion, unity, contrast) and may add movement or variety; a shared word wall between the two rooms stops the double-teaching. Math: proportion and scale are ratio language; the math teacher can borrow the king-bed layout as a ratio problem.
 
 ## Sources
 
@@ -136,4 +136,3 @@ Art: the art teacher's principles list overlaps (balance, emphasis, rhythm, prop
 - Common mistake in the game: teams put the couch with its back to the door so it faces the focal point, and nobody can walk in. That is the traffic argument you want; do not solve it for them. Lesson 4.10 does traffic flow properly.
 - The "every piece used or set aside with a reason" rule is what makes proportion real. A team that sets aside the dining table because "the room is too small" has learned scale.
 - Keep the built rooms taped and photographed. The photos are the review slides for the Design Vocabulary Check and the "before" examples for the project.
-- [Sal: the retake review for the Home Safety and Conservation Quiz happens at your side table during Day 1 Step 2. Items 7, 8, and 11. Five minutes per group of three or four.]

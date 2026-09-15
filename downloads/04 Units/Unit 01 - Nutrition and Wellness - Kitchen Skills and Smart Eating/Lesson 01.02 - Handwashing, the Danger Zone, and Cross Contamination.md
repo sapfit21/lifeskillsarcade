@@ -34,13 +34,13 @@ Tier 3 (FACS): bacteria, foodborne illness, temperature danger zone, two-hour ru
 
 ## Materials and setup
 
-- Glitter lotion (hand lotion mixed with fine craft glitter in a small tub), or a bottle of plain lotion plus a shaker of glitter, enough for one student's hands. [Sal: if glitter is banned in your room, use washable tempera paint thinned with water; it shows the same thing and washes out of the sink.]
+- Glitter lotion (hand lotion mixed with fine craft glitter in a small tub), or a bottle of plain lotion plus a shaker of glitter, enough for one student's hands.
 - One clean serving spoon and one clean bowl for the demo
 - A sink with soap, warm water, and paper towels, or a basin with two pitchers of water for the no-sink version
 - Safe or Not Safe scenario cards, cut apart, one set per team: `Handout 01.02 - Safe or Not Safe Scenario Cards.md` (16 cards)
 - Two labeled sorting mats per team: "Safe" and "Not Safe" (a sheet of paper with the word on it is enough)
 - One "Fix It" strip per team (a half sheet where the team writes the fix for each "not safe" card)
-- A food thermometer to hold up during the danger zone slide [Sal: the one you will use in labs, so they see it now]
+- A food thermometer to hold up during the danger zone slide
 - Slides: `Slides 01.02 - Handwashing, the Danger Zone, and Cross Contamination.md`
 - Timer visible to the class
 - Setup notes: mix the glitter lotion before class and test it on your own hands so you know how long it takes to wash off with soap. Put the card sets in envelopes so the sort takes ten seconds to hand out. Allergy check: no food is handled today; check that no student has a skin sensitivity to the lotion before choosing the volunteer.
@@ -117,9 +117,9 @@ Inside the building: the school nurse already teaches handwashing for illness pr
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 2. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.4.1 and 14.4.5.
-- Handwashing steps, the 40 F to 140 F danger zone, and the two-hour rule follow the USDA Food Safety and Inspection Service and FoodSafety.gov public guidance ("Clean, Separate, Cook, Chill"). [Sal: confirm the current USDA page before the site goes public; the numbers have been stable for years.]
+- Handwashing steps, the 40 F to 140 F danger zone, and the two-hour rule follow the USDA Food Safety and Inspection Service and FoodSafety.gov public guidance ("Clean, Separate, Cook, Chill").
 - Sal's own materials: the pre-cooked meat and eggs-only constraint from the King Kullen menu documents (Education/TeachingWork/LessonPlans) decides which cross contamination examples are used.
 
 ## Teacher notes
@@ -128,5 +128,4 @@ Inside the building: the school nurse already teaches handwashing for illness pr
 - Common mistake: students think the danger zone is where food is safe because it has the word "zone" in it, like an end zone. Say it plainly twice: the danger zone is where bacteria are happy, so we keep food out of it, cold below 40 F or hot above 140 F.
 - Common mistake on the cards: the sandwich-in-the-backpack card splits every class. Let them argue, then give the rule: more than two hours in the zone, throw it out, unless it had an ice pack.
 - Glitter travels. Have the volunteer wash at the sink, not the counter, and wipe the spoon and bowl yourself. Choose a volunteer who will not mind being the "chicken" for a day; ask first.
-- [Sal: the shared-room story fits here as well as in Lesson 1.4. Food left on counters overnight is the danger zone in real life. Tell as much as you are comfortable with, without names.]
 - The three sink pictures (wet and soap, scrub 20, dry and turn off with the towel) stay taped above the sink all year. Point at them at the start of every lab.

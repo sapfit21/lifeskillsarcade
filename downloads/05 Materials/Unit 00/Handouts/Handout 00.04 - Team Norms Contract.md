@@ -88,4 +88,4 @@ Part 3 is scored complete, partial, or missing. Complete means four norms that e
 
 Keep the signed contracts. Reread them at the start of Lab 1 (Lesson 1.8) and before every project team task. The eight or so norms the class reads aloud in the closure go on chart paper and feed section 9 of the Room and Lab Agreement tomorrow.
 
-Word bank [check with a native speaker]: norm (norm, takım kuralı / norma / norma); measure (ölçmek / medir / medir); level off (düzlemek / nivelar / nivelar); pour (dökmek / despejar / verter); point (işaret etmek / apontar / señalar); wait (beklemek / esperar / esperar).
+Word bank: norm (norm, takım kuralı / norma / norma); measure (ölçmek / medir / medir); level off (düzlemek / nivelar / nivelar); pour (dökmek / despejar / verter); point (işaret etmek / apontar / señalar); wait (beklemek / esperar / esperar).

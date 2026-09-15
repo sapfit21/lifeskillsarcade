@@ -1,6 +1,6 @@
 # Slides 6.7: Quick Bread Science Lab
 
-Slide outline for Lesson 6.7. Nineteen slides across two days: Day 1 slides 1 to 10, Day 2 slides 11 to 19. Slide 6 is the treatment table and it stays on the board all of Day 2. [Sal: photograph the four muffins in a row at the end of Day 2. That photo is the review slide for items 9 and 10 on the Cooking Methods Check.]
+Slide outline for Lesson 6.7. Nineteen slides across two days: Day 1 slides 1 to 10, Day 2 slides 11 to 19. Slide 6 is the treatment table and it stays on the board all of Day 2.
 
 * * *
 
@@ -67,8 +67,6 @@ Notes: Run all four in order and call the result out loud each time. Then ask th
 - **Dependent variable:** what we measure. Height, crumb, taste
 - **Constants:** flour, sugar, salt, milk, oil, egg, batter per liner, oven temperature, bake time, same oven, same shelf
 - The control batch is the ruler. Without it, the other three mean nothing
-Notes: [Sal: ask the science teacher which words they use for independent and dependent variable and use theirs instead of these. It is free and it makes both classes stronger.]
-
 ## Slide 9: Predict
 
 - One prediction per batch

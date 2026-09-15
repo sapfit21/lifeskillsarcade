@@ -33,7 +33,7 @@ Notes: Build one goal on the board letter by letter. "Get better at math" become
 - A SMART goal is the next rung: make the school team this spring by going to every open gym
 - A stretch goal is not wrong. It cannot be your only goal
 - Every stretch goal needs a SMART goal under it
-- Mine: stretch: [Sal: yours]. SMART under it: [Sal: yours]
+- Mine: my own stretch goal, with the SMART goal under it
 Notes: Students take the distinction seriously when the teacher shows a stretch goal that is not finished yet.
 
 ## Slide 5: Sort the six

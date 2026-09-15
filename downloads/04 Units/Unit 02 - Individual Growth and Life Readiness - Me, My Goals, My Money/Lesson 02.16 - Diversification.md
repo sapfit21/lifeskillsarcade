@@ -40,7 +40,7 @@ Tier 3 (FACS): diversification, allocation, portfolio pie, rebalance, risk level
 - Investor Journal in the folder
 - Slides: `Slides 02.16 - Diversification`
 - Exit cards
-- Setup notes: set the market to window 19 before class. This is the last calm day before the crisis; the prices in windows 19 to 24 get jumpy on purpose. Do not mention tomorrow. Print the class portfolio count from the Command Bridge Rankings tab if the site shows holdings by venture; if not, use the hand count from Lesson 2.14 Day 2. [Sal: confirm which class-level views the live Command Bridge shows.]
+- Setup notes: set the market to window 19 before class. This is the last calm day before the crisis; the prices in windows 19 to 24 get jumpy on purpose. Do not mention tomorrow. Print the class portfolio count from the Command Bridge Rankings tab if the site shows holdings by venture; if not, use the hand count from Lesson 2.14 Day 2.
 
 ## Pre-assessment
 
@@ -121,4 +121,3 @@ Math: percent of a quantity (grade 6 and 7 ratios and proportions) is the whole 
 - If the period runs short, skip Shock 2 and do it as the Day 1 do now in Lesson 2.17 before the crisis dispatch goes up. Never cut the trading window; students need to have made the rebalance-or-hold decision before tomorrow, or tomorrow teaches nothing.
 - Common mistake: students hear "diversify" and buy one unit of everything, leaving 90 percent in the original venture. Ask at the desk: "What is the biggest slice now?" The pie sketch catches it.
 - Tomorrow the crisis hits at window 25. Some students will come in tomorrow with 80 percent in Sparkstone after this lesson. Let them. Their Investor Report is going to be the most honest one in the class.
-- [Sal: your original Day 4 had students analyze the whole class's aggressive vs conservative split. If the live Command Bridge shows holdings by venture across a period, put that pie on slide 6; it is a strong moment.]

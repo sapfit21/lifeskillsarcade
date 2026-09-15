@@ -40,7 +40,7 @@ Day 1:
 - Each team's Fix It strip (Lesson 1.2) and relay answer sheet (Lesson 1.3), returned
 - Kitchen Safety Contract template, one per student, plus one poster-size copy for the wall: `Handout 01.04 - Kitchen Safety Contract Template.md`
 - Sticky notes, one pad per team, and a marker per team
-- A spray bottle of sanitizer and two clean cloths for the routine demo [Sal: whatever the school approves for food surfaces; the SDS goes in the binder from Lesson 1.3]
+- A spray bottle of sanitizer and two clean cloths for the routine demo
 - Slides: `Slides 01.04 - The Kitchen Safety Contract and Exam.md` (Day 1 section)
 
 Day 2:
@@ -59,7 +59,7 @@ The three exit-card piles from Lessons 1.1, 1.2, and 1.3 are the pre-assessment.
 
 Day 1, on the board: "Look at your team's top five from the Hazard Hunt. Which one is still the most likely to happen in this room next week? Write it and one reason."
 
-Debrief: one hazard from each team on the board. Then the hook, the shared room story: "This room is used by more than one class. There was a stretch when someone left grease on the stove and food on the counters over a weekend. The next class walked into a room that smelled, with a pan nobody wanted to touch and a counter you could not put a cutting board on. Nobody got hurt, but nobody could cook either. Today we write the rules so that never happens to the class after us." [Sal: tell as much of the real story as you want, without names.]
+Debrief: one hazard from each team on the board. Then the hook, the shared room story: "This room is used by more than one class. There was a stretch when someone left grease on the stove and food on the counters over a weekend. The next class walked into a room that smelled, with a pan nobody wanted to touch and a counter you could not put a cutting board on. Nobody got hurt, but nobody could cook either. Today we write the rules so that never happens to the class after us."
 
 Day 2, on the board: "Put the six steps of the sanitation routine in order. Start: ___, ___, ___, ___. During: ___. End: ___." (Word bank on the slide, scrambled.)
 
@@ -132,7 +132,7 @@ Inside the building: give the principal or the other teacher who uses the room a
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. a), e), and i). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.4.1.
 - `03 Course Design/03 Grading Plan.md` for the pass-or-retake rule on the Kitchen Safety Exam.
 - Sal's own materials: the reset cue, the role cards, the station-of-seven layout, and the Brentwood observation notes about the shared room (Education/TeachingWork/LessonPlans) shape the routine and the story.
@@ -144,5 +144,4 @@ Inside the building: give the principal or the other teacher who uses the room a
 - Common mistake: rules that are wishes ("We will be careful") instead of actions ("We will turn pot handles in"). Ask "how would I see it?" until the rule becomes something you can check.
 - Common mistake: teams copy the Room and Lab Agreement from Unit 0. Say the difference: that one is my rules for the room; this one is your rules for the kitchen.
 - Retake logistics: the retake is the same exam with the scenarios swapped for the two spare ones on the key. Ten minutes of review with the exit cards first. Most retakes pass the second time. A student who fails twice is usually a reading problem, not a safety problem; give the oral version.
-- [Sal: your Brentwood role cards (Head Chef, Sous Chef, and so on) start in Lesson 1.5. If you want the contract to name who does the station check on each team, add a line to the poster on Day 1.]
 - Keep the poster up all year. When a rule gets broken in a lab, walk the student to the poster and ask them to read the rule aloud. It works better than a lecture.

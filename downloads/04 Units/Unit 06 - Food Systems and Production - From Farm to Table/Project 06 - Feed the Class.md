@@ -43,7 +43,7 @@ I have done this before. Four kitchens in one period, 112 students across four p
 - **$80.00 for the class.** Four stations, $20 each. If your station comes in under, that is a good result, not a missed chance. Coming in under is what a real kitchen tries to do.
 - **Cost per person** is the number you will report twice: what you planned in Lesson 6.15, and what the receipt actually said in Lesson 6.17.
 
-All prices in the handouts are real Long Island supermarket prices marked [update from this week's circular]. The math works no matter what the prices are; only the answers change.
+All prices in the handouts are real Long Island supermarket prices to be refreshed from the current circular before teaching. The math works no matter what the prices are; only the answers change.
 
 ## The constraints (the constraint card, and none of these are negotiable)
 
@@ -130,7 +130,7 @@ Rubric 06 comes back at the start of Lesson 6.18 Day 2, before the review game a
 
 **The picture flowchart.** Page 4 of `Handout 06.14` is eight empty boxes, one per five-minute block, with room to draw the step and write one word under it. A team may submit this as its real station card, and a student may keep this version at their station on cook day even if the team submitted the written one. The eight blocks are also drawn as symbols: a pot, a clock, a flame, an oven, a checkmark, a plate, a fork, a sponge.
 
-**Sentence starters** (Turkish, Portuguese, and Spanish; all marked **[check with a native speaker]** until a native speaker, a bilingual colleague, or the ENL teacher verifies them). The full set, with the reflection and the lab role starters, is in `Vocabulary 06.md`.
+**Sentence starters** (Turkish, Portuguese, and Spanish, to be checked by a native speaker, a bilingual colleague, or the ENL teacher). The full set, with the reflection and the lab role starters, is in `Vocabulary 06.md`.
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -169,7 +169,7 @@ Everything in this project except the heat is unchanged. If the room has no kitc
 
 **What changes:** the five menu options become five assembly options, the flowchart phases become setup, portion, assemble, serve and eat, clean, and the critical path becomes whichever item has to be opened, drained, brought from a cooler, or set out first. Nothing else changes. Scaling, unit conversion, the yield check, costing from the circular, the swap log, the consolidated list, the twelve-item approval checklist, the station card, the pre-flight, the duty list, the serve-others-first rule, the four clean-up zones, the station check, and the reflection all stay.
 
-**The five no-cook options, priced for 28 portions at station scale** (Long Island prices, [update from this week's circular]):
+**The five no-cook options, priced for 28 portions at station scale** (Long Island prices):
 
 | Option | Dish | Type | Station cost for 28 | Per person | Notes |
 |---|---|---|---|---|---|
@@ -191,8 +191,6 @@ Everything in this project except the heat is unchanged. If the room has no kitc
 - The teacher's job in this project is to hold the constraints and buy the food. Everything else belongs to the students. The hardest part for a teacher who has done this before is not fixing the over-budget station's problem for them.
 - Buy the day before cook day, not the same morning. Portion into four labeled station bins before the bell.
 - One section or several: Sal's own system ran the same menu across six periods on one order, which is the version that scales. If two sections cook different menus, you buy and set up twice. Decide before Lesson 6.12, because it changes which options are on the table.
-- Budget reality check: $80 per section per year for this project, plus about $8 in paper goods if the room does not already have them. Across four sections that is about $350. That is the single biggest line in the whole course. [Sal: get that number approved before you promise the class a meal. If your school will only fund half, run three stations instead of four and use the two cheapest options, which brings a section to about $55.]
+- Budget reality check: $80 per section per year for this project, plus about $8 in paper goods if the room does not already have them. Across four sections that is about $350. That is the single biggest line in the whole course. If the budget will only fund half, three stations instead of four with the two cheapest options brings a section to about $55.
 - The three checkpoint signatures are what keep this project from going wrong: the costing sheet signed in 6.13, the station card approved in 6.14, and the consolidated list approved in 6.15. No signature, no next step. Say that on day one.
 - The reflection is the part most likely to get cut for time, and it is the part that makes this a project instead of a cooking day. Protect the eight minutes in Lesson 6.17.
-- [Sal: your constraints are already written on your own menu documents: "No knives, No frying, Pre-cooked meat only, Stovetop plus oven." I added the microwave, the allergy list, the 40-minute limit, and the per-station budget, which are the four your documents assume rather than state. Confirm all seven against your actual room before Lesson 6.12.]
-- [Sal: the difficulty marks on the five options are my read, not yours. You have run these dishes. Reorder them and tell the class which one you think is hardest; students believe the teacher who has burned something.]

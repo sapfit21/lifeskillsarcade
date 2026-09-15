@@ -153,8 +153,6 @@ For classes without devices. Print two short paragraphs and one photo per dish f
 | One fact about the local crop, the climate, a trade route, a migration, or a religious practice | Box 4 |
 | The source title, author or publisher, and date, printed at the bottom of the page | The two source lines |
 
-[Sal: your school librarian can pull these in twenty minutes and will probably enjoy being asked. A print encyclopedia food entry, a university extension page, or a museum exhibit page all work. Print the source line at the bottom of every sheet so the citation task is real and not a guess.]
-
 * * *
 
 # Page 6: Grade 8 stretch card

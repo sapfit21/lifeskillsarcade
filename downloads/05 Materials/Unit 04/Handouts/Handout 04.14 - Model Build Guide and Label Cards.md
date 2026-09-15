@@ -73,7 +73,7 @@ Picture 7: a card bed with a fabric blanket next to the plan showing the same be
 
 Picture 8: the finished model with the three label cards inside and the client card on the front.
 
-Word bank: wall (duvar / parede / pared), floor (zemin / piso / piso), door (kapı / porta / puerta), window (pencere / janela / ventana), glue (yapıştır / colar / pegar), cut (kes / cortar / cortar), label (etiket / etiqueta / etiqueta). [check with a native speaker]
+Word bank: wall (duvar / parede / pared), floor (zemin / piso / piso), door (kapı / porta / puerta), window (pencere / janela / ventana), glue (yapıştır / colar / pegar), cut (kes / cortar / cortar), label (etiket / etiqueta / etiqueta).
 
 * * *
 
@@ -117,7 +117,7 @@ Glue the client card here (outside, front wall). Scale of this model: ______ inc
 
 ## Page 4: The isometric grid alternative (no box, no materials, or absent for the build days)
 
-Draw the room in 3-D on isometric grid paper (the triangle grid). If the school has none, print a free isometric sheet [Sal: any free grid generator; set the triangle side to 1/4 inch] or draw the room on plain paper using the steps below.
+Draw the room in 3-D on isometric grid paper (the triangle grid). If the school has none, print a free isometric sheet or draw the room on plain paper using the steps below.
 
 **Scale:** 1/2 inch = 1 foot. One grid triangle side is 1/4 inch, so two triangle sides equal 1 foot.
 
@@ -129,7 +129,7 @@ Draw the room in 3-D on isometric grid paper (the triangle grid). If the school 
 6. **The labels.** Draw the GREEN and SAFE labels as callouts with an arrow to the feature. Write the WHY sentences under the drawing.
 7. **The client card** is stapled to the drawing. **The scale** is written in the corner.
 
-A digital 3-D room in any free room-planner app the school allows, printed or shown on a screen at the gallery walk, is also accepted. It needs the same labels, the same scale note, and the client card. [Sal: name the app.]
+A digital 3-D room in any free room-planner app the school allows, printed or shown on a screen at the gallery walk, is also accepted. It needs the same labels, the same scale note, and the client card.
 
 It is scored on Rubric 04 criterion 4 exactly like a box model.
 
@@ -141,4 +141,4 @@ It is scored on Rubric 04 criterion 4 exactly like a box model.
 - Day 3 clipboard check: matches the plan (door, window, every piece placed as drawn); color scheme named and applied; GREEN and SAFE labels each give a reason for this client; scale written; WHY has a need and a principle. Four or five yeses is a Meets on criterion 4 before the pitch.
 - Green choices students will pick, and whether they count: an LED lamp (yes); a secondhand piece (yes, reuse); low-VOC paint (yes); a recycled-fiber rug (yes); a window placed for daylight so the lamp stays off (yes); a plant (yes, weakly; push for a reason); "it is blue like the ocean" (no).
 - Safety features students will pick, and whether they count: a night light on the path (yes); cordless blinds (yes); a rug taped down or no rug (yes); a crib 3 feet from the window (yes); a smoke alarm on the ceiling (yes, and rare, praise it); furniture anchored (yes); a 36-inch path (yes, and it is also criterion 2); "a lock on the door" (only if the client card gives a reason).
-- Materials per model, target under $4: shoebox free; foam board about $3 to $4 per 20 by 30 sheet, two or three bases per sheet; card stock $0.30; glue sticks $0.25; scraps free. Realistic total $2 to $3.50 [update].
+- Materials per model, target under $4: shoebox free; foam board about $3 to $4 per 20 by 30 sheet, two or three bases per sheet; card stock $0.30; glue sticks $0.25; scraps free. Realistic total $2 to $3.50.

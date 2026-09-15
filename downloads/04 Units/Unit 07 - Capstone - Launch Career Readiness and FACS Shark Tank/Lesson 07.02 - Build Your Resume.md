@@ -43,7 +43,7 @@ Tier 3 (FACS): resume, summary, experience, skill, reference, cover letter (name
 - Slides: `Slides 07.02 - Build Your Resume`
 - One "conference chair" pulled next to the teacher's seat, facing the room so the rest of the class is visible during conferences
 - The conference order list from yesterday's exit card piles, written on a sticky note before class
-- Optional: devices with a word processor, and the template saved where students can open it. [Sal: name your school's platform and the folder path here. If devices are not available the paper template is the deliverable and it is scored the same.]
+- Optional: devices with a word processor, and the template saved where students can open it.
 - Setup notes: print the worked example single sided so it can sit next to the blank template. Set the timer for the conference rotation: 2 minutes per student, which gets through 12 to 14 students in one period, so plan two periods of conferences across Lessons 7.2 and 7.3 to reach everyone.
 
 ## Pre-assessment
@@ -118,7 +118,7 @@ Inside the building: the ELA teacher and the school counselor, as in Lesson 7.1.
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. d) and 2. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. d); Theme Module 02, Communication and Interpersonal Relationships, line 3. e).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Universal Foundation Skills, Managing Information. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDFs.]
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Universal Foundation Skills, Managing Information. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.2 and 3.1.5.
 - Sal's own materials: the resume process he ran one on one with 87 or more students at Brentwood South, and the three-part bullet formula from the Smeal MBA interview guide.
 
@@ -130,5 +130,4 @@ Inside the building: the ELA teacher and the school counselor, as in Lesson 7.1.
 - Common mistake: a student writes the whole thing in paragraphs. Fix it by covering the page with a hand so only one line shows and asking, "would you read this in six seconds?"
 - Second common mistake: bullets that start with "I." Teach the verb-first habit in the conference, not from the front. It is faster one on one.
 - The students who resist hardest are usually the ones with the thinnest folder. Have their own lab rubric open when you call them over. Read the objective line out loud. Then ask the three questions.
-- [Sal: decide whether the school will print these. A printed resume in a student's hand on the last day of school is the single most useful object this unit produces, and it costs almost nothing.]
 - Keep the drafts in the room in the folder crate. They are needed in Lesson 7.5 for scoring and in Lesson 7.12 for the portfolio.

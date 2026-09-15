@@ -4,7 +4,7 @@ Slide outline for Lesson 3.1. Eleven slides. Slide 1 is the ClassroomStreet Roun
 
 ## Slide 1: ClassroomStreet Round 2: final standings
 
-- Standings by merchant number [Sal: paste the leaderboard, no names]
+- Standings by merchant number
 - Three lines from Entry 10, "a sentence to my future self," read aloud (chosen with permission, no names)
 - Unit 2 was about you. Unit 3 is about everybody, at every age
 - Investor Journals go in the folder now

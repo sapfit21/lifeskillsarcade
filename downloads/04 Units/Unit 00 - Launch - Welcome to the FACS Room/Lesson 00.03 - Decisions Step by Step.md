@@ -84,7 +84,7 @@ Exit card, three lines: the five steps in order (from memory; the handout is tur
 
 ## Differentiation and supports
 
-- ELL: the ten items are on cards with a picture each (described on the handout); the scenario is on the slide in short lines with a picture (a lake, a plane, snow at night); the five steps are on a poster with an icon each and the words in Turkish, Portuguese, and Spanish (see `Vocabulary 00.md`, [check with a native speaker]); sentence starter for the team: "I think ___ is number ___ because ___."
+- ELL: the ten items are on cards with a picture each (described on the handout); the scenario is on the slide in short lines with a picture (a lake, a plane, snow at night); the five steps are on a poster with an icon each and the words in Turkish, Portuguese, and Spanish (see `Vocabulary 00.md`); sentence starter for the team: "I think ___ is number ___ because ___."
 - IEP and 504 (general): rank the top five and bottom three instead of all ten; the scoring is a fill-in table with the subtraction set up; a student can be the team's card mover instead of the speaker; extended time by scoring the alone column as tomorrow's do now.
 - Grade 6 support: rank six items (the key marks which six); the team must agree on the top three only.
 - Grade 8 stretch: the team writes a one-sentence rule for what a group should do when one member is sure and the rest are not; the student ranks the items again for a different situation on the handout (a hot desert road in July, town 5 miles away, no distress call) and explains which two items change place and why.
@@ -123,5 +123,4 @@ Inside the building: social studies, which teaches how governments and groups de
 - Common mistake: teams vote on the whole list in two minutes and sit there. The rule "every person can say why for the top three" stops it. Enforce it by asking the quietest student at the table for the reason on number 2.
 - Common mistake two: students argue with the expert key as if it were a test answer. It is not. A team that ranks the whistle above the tarp and gives a reason (searchers are close) is doing the lesson right. Say so.
 - The map is the teaching item. Almost every group ranks it too high because walking out feels like doing something. The key's reason (the town is 40 miles away and searchers know where you are) is the "weigh each against what matters" step made visible.
-- [Sal: your Brentwood version had survivors choosing "who to bring to an island." If you prefer the people version, keep the five steps and the scoring the same and swap the item list; the handout's structure holds either way.]
 - Post the five steps on the wall today and leave them up all year. Every project sheet from Unit 1 on has a "five steps" box that points at this poster.

@@ -88,8 +88,6 @@ This is the checklist in Step 5, printed on the handout and used by the teacher 
 | 11 | Nothing needs to be bought that the room already owns (foil, spray, salt, garlic powder, spoons) | |
 | 12 | A signature and a date, and the sheet goes in the folder | |
 
-[Sal: add a line 13 for your school's purchasing rule, whatever it is: a purchase order, a reimbursement form, a p-card, or your own money and a receipt. Say out loud which one it is. Students should know that real money has a real process.]
-
 ## Questions to ask
 
 Monitor understanding:
@@ -141,17 +139,17 @@ None required. Optional: bring in a receipt from a grocery trip at home, any dat
 
 ## Connections
 
-Inside the building: the cafeteria manager. FACS gives them a class that has read a unit price and built a purchase list; the cafeteria manager gives FACS five minutes on how the school actually buys food, what a case costs compared to a retail package, and the allergen protocol the building already runs. That five minutes is the single most useful visit in this unit. [Sal: the Brentwood cafeteria manager is someone you already know; if your school's food service is contracted out, ask the district's food service director instead.] Math: the unit price work is unit rate and percent, and the swap total is a percent-saved problem ready to hand over.
+Inside the building: the cafeteria manager. FACS gives them a class that has read a unit price and built a purchase list; the cafeteria manager gives FACS five minutes on how the school actually buys food, what a case costs compared to a retail package, and the allergen protocol the building already runs. That five minutes is the single most useful visit in this unit. Math: the unit price work is unit rate and percent, and the swap total is a percent-saved problem ready to hand over.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 5. a) and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness, line 3. a). Same folder.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. g) and 4. i). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standard 3a, Managing Resources and Basic Skills, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 8.6.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: `education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf` (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list, the savings per swap, and the note that prices were verified on shopkingkullen.com for the week of March 20 to 26, 2026). That document is the model for the consolidated list, the swap column, and the store-brand rule. All prices marked [update from this week's circular].
+- Sal's own materials: `education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf` (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list, the savings per swap, and the note that prices were verified on shopkingkullen.com for the week of March 20 to 26, 2026). That document is the model for the consolidated list, the swap column, and the store-brand rule. All prices to be refreshed from the current circular before teaching.
 
 ## Teacher notes
 
@@ -160,5 +158,4 @@ Inside the building: the cafeteria manager. FACS gives them a class that has rea
 - Second common mistake: forgetting paper goods, foil, and spray, because they are not in a recipe. Checklist items 9 and 11 exist for that. Count what the room already has the week before so you are not buying plates you own.
 - Do not shop the same day. Buy the day before cook day so cold items are cold and you can substitute calmly if something is out.
 - Keep the receipt. Lesson 6.17's reflection asks what the cost actually was per person, and the receipt is the answer. Black out nothing except a card number.
-- If the list comes in under budget, do not spend the difference. Say out loud that coming in under is the goal and tell them what the remainder buys: the spare package that saves a station on cook day. [Sal: your King Kullen lists came in at $147.84 against $150 and at $160.70 against $200. Show both numbers; being $39 under is a professional result, not a missed opportunity.]
-- [Sal: decide before this lesson whether students may come shopping with you. If your school allows it and a parent drives, taking two students to the store is the best version of this lesson. If not, the receipt and a photo of the shelf tag do most of the work.]
+- If the list comes in under budget, do not spend the difference. Say out loud that coming in under is the goal and tell them what the remainder buys: the spare package that saves a station on cook day.

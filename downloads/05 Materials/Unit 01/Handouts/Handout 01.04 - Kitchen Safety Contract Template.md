@@ -83,13 +83,11 @@ Teacher signature: ______________________________ Date: ______________
 
 Family member signature (optional): ______________________________ Date: ______________
 
-A note for families: your student helped write these rules. If you sign, you are saying you read them together. This page comes back to school and stays in your student's FACS folder. [Sal: add a line in Spanish, Turkish, and Portuguese here if you have the translations checked.]
+A note for families: your student helped write these rules. If you sign, you are saying you read them together. This page comes back to school and stays in your student's FACS folder.
 
 * * *
 
 ## Word bank for the routine
-
-[Check with a native speaker before printing.]
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

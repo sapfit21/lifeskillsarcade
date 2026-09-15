@@ -24,7 +24,7 @@ Notes: Hand vote: water, towel, lid, run, something else. Do not correct yet. Co
 - The steam throws burning oil up and out of the pan
 - A small fire becomes a fireball in under one second
 Image: described, since there is no photo: a pan on a stove with flames the height of a person, oil spraying outward.
-Notes: [Sal: a 20-second fire department demo video replaces this slide if the school allows video.] Say: everyone who voted water just made a small fire into a big one.
+Notes: Say: everyone who voted water just made a small fire into a big one.
 
 ## Slide 4: Stove and oven
 
@@ -96,7 +96,7 @@ Notes: Walk the room with the class. Stop at each place. If the nurse or custodi
 
 - Every cleaner in this room has a sheet
 - It says: what is in it, what it does to you, what to do if it gets on skin or in eyes
-- The sheets live at: [Sal: location]
+- Where the sheets live in this room
 - Remember the unlabeled spray bottle from the Hazard Hunt? This is why we label.
 Image: a binder with the letters SDS on the spine, open to a page with a product name and a first aid section.
 Notes: Pull out one sheet and read the first aid line aloud.

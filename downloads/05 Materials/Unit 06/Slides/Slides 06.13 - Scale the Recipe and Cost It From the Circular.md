@@ -57,7 +57,7 @@ Notes: This is the error that shows up on cheese, sauce, and sour cream every si
 - 1 tablespoon = 3 teaspoons
 - Shredded cheese: 4 oz is about 1 cup
 - A 16 oz can of refried beans is about 1 3/4 cups
-Notes: The last four are estimates. [Sal: measure one package of each once and write the real number on the strip.]
+Notes: The last four are estimates.
 
 ## Slide 9: The yield check
 - We need **30** portions: 28 students, me, and one spare.

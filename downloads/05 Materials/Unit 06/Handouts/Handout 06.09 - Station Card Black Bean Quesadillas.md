@@ -169,15 +169,13 @@ Clean:           |as you go, all period      |ZONES|
 | Done | | | |
 | Help | | | |
 
-[Sal: fill these from `Vocabulary 06.md` and print them on the back of the card.]
-
 ## Allergy note for this lab
 
 This recipe contains **wheat** (tortillas and graham crackers) and **dairy** (cheese and whipped cream). Some shredded cheese contains **soy** lecithin, and some salsas carry a shared-equipment statement. If you have an allergy on the nurse's list, I have already set your role and your portion, and your quesadilla is cooked first in a clean skillet. Come see me before the timer starts.
 
 ## Cost of this station
 
-| Item | Price [update from this week's circular] | Budget swap |
+| Item | Price | Budget swap |
 |---|---|---|
 | Flour tortillas, 10 count store brand | $2.49 | Corn tortillas, about $1.99 |
 | Black beans, 15 oz, 2 cans | $1.98 | Pinto beans, about $1.78 |

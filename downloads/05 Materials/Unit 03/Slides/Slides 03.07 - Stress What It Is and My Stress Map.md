@@ -75,12 +75,12 @@ Notes: Students sort their starred stressor on Part 4.
 
 ## Slide 10: Who to ask
 
-- The school counselor: [Sal: name and room]
-- The nurse: [Sal: room]
+- The school counselor, in the counseling office
+- The nurse, in the nurse's office
 - Any teacher, including me
 - The main office
 - An adult at home
-- A help line the school approves: [Sal: the number your school uses]
+- A help line the school approves
 Notes: Students copy this onto the back of the map for keeps. This is the one thing nobody leaves without.
 
 ## Slide 11: Exit strip and tomorrow

@@ -41,7 +41,7 @@ Tier 3 (FACS): income, wages, salary, gross pay, net pay, pay stub, Social Secur
 - Calculators, one per pair (phone calculators are fine if the room allows them)
 - Slides: `Slides 02.08 - Paycheck Detective`
 - Six index cards labeled with a source of income (allowance, dog walking, birthday money, hourly job, salary, interest on savings) for the do now sort
-- Setup notes: the stub uses the Long Island minimum wage of $17.00 an hour for 2026, marked [update]. Check the number every September; the stub math changes if the wage changes. No food handled today.
+- Setup notes: the stub uses the Long Island minimum wage of $17.00 an hour for 2026, to be refreshed before teaching. Check the number every September; the stub math changes if the wage changes. No food handled today.
 
 ## Pre-assessment
 
@@ -105,7 +105,7 @@ None. Optional: ask an adult if you may look at one of their pay stubs (numbers 
 
 ## Connections
 
-Math: percent of a whole and multi-step subtraction with decimals; the math teacher can use the same stub for a percent lesson the same week. Social studies: what federal and state taxes pay for. Community: [Sal: a payroll or HR person from a local business, or a New York Life or bank contact from your own network, could visit for ten minutes in Lesson 2.12 and bring a blank stub.]
+Math: percent of a whole and multi-step subtraction with decimals; the math teacher can use the same stub for a percent lesson the same week. Social studies: what federal and state taxes pay for. Community: a payroll or HR person from a local business could visit for ten minutes in Lesson 2.12 and bring a blank stub.
 
 ## Sources
 
@@ -113,7 +113,7 @@ Math: percent of a whole and multi-step subtraction with decimals; the math teac
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 1. c) and 1. d). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 3.3.1.
-- Social Security and Medicare rates (6.2 percent and 1.45 percent of gross for the employee) are the federal FICA rates; New York minimum wage of $17.00 for Long Island in 2026 per the NYS Department of Labor. [Sal: confirm both each September.]
+- Social Security and Medicare rates (6.2 percent and 1.45 percent of gross for the employee) are the federal FICA rates; New York minimum wage of $17.00 for Long Island in 2026 per the NYS Department of Labor.
 - Sal's own materials: the Paycheck Detective activity in the Salary Secrets packet (Brentwood South, 2026, `Lesson Dups/Unit_2_Career_Exploration/education_teachingwork_salary_secrets_2026_04.docx`) and the first-paycheck story in the Taxes packet (`Unit_4_Financial_Literacy/education_teachingwork_taxes_where_does_the_money_go_2026_04.docx`). The stub was rebuilt with 2026 Long Island numbers and Medicare added as its own line.
 
 ## Teacher notes
@@ -122,4 +122,3 @@ Math: percent of a whole and multi-step subtraction with decimals; the math teac
 - Common mistake: students subtract the deductions one at a time and lose one. Have them add all four first, then subtract once.
 - Second common mistake: "Social Security" gets called "savings." It is not the worker's savings account. Say it as "a tax that pays today's retired workers; someone will pay yours."
 - The stub shows a small federal and state withholding on purpose so students see the lines. In real life a low-income teen may see $0 on those lines. Say so; a student who gets their first job will notice.
-- [Sal: you sold insurance and hold a Series 6. Tell the class in one minute what a commission stub looked like for you. It makes "sources of income" real.]

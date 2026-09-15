@@ -4,8 +4,6 @@ Name: ____________________________________  Date: ______________  Period: ______
 
 **Everything in this handout is made up for class.** The neighborhood is not a real place. The prices are written to look like a real Long Island supermarket and a real corner store. Nobody is being described here.
 
-[Sal: update the supermarket column from this week's circular and the convenience column from whatever store is near the school. Students believe the numbers more when they recognize them.]
-
 * * *
 
 ## Part 1. The two words
@@ -188,7 +186,7 @@ A food desert is ______________________________________________________, and the
 
 **Part 1:** Food insecurity is not having reliable access to enough affordable food. A food desert is a neighborhood where reaching a full grocery store is hard because of distance, transportation, or both. Accept student wording that includes distance or transportation for the second one. Do not accept "a place with no food," which is the most common wrong answer and the reason the do now asks for the guess first.
 
-**Part 2 distances,** measured from the map as drawn: Home A to the supermarket, about 1.1 miles; Home B, about 0.7 miles; Home C, about 1.4 miles. Nearest convenience store: Home A to Quick Stop about 0.3 miles, Home B to Corner Mart about 0.4 miles, Home C to Corner Mart about 0.2 miles. [Sal: these depend on how the map prints. Measure your own printed copy once and write the answers in, or tell students any answer within a tenth of a mile of the class average is fine. The exact number is not the point; the ratio is.]
+**Part 2 distances,** measured from the map as drawn: Home A to the supermarket, about 1.1 miles; Home B, about 0.7 miles; Home C, about 1.4 miles. Nearest convenience store: Home A to Quick Stop about 0.3 miles, Home B to Corner Mart about 0.4 miles, Home C to Corner Mart about 0.2 miles.
 
 **Home C has the hardest trip.** Reasons: it is the farthest, the household has no car, the bus runs once an hour so a round trip eats most of an afternoon, there is no sidewalk on part of the route, and frozen or refrigerated food will not survive the wait at the stop.
 

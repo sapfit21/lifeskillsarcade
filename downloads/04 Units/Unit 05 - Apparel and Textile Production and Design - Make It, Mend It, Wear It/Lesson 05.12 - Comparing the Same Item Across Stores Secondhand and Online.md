@@ -40,7 +40,7 @@ Tier 3 (FACS): fabric weight, stitch density, single-needle seam, double-needle 
 
 ## Materials and setup
 
-- Four sample hooded sweatshirts, one per vendor type, labeled A through D with a hang tag showing only the price and the vendor type. One thin discount-store fleece, one mall brand, one heavy secondhand, one that came from an online order in its shipping bag with the packing slip. [Sal: your own closet, the school lost and found with permission, a thrift shop run, or four sweatshirts borrowed from staff. The online one matters most because of the packing slip.]
+- Four sample hooded sweatshirts, one per vendor type, labeled A through D with a hang tag showing only the price and the vendor type. One thin discount-store fleece, one mall brand, one heavy secondhand, one that came from an online order in its shipping bag with the packing slip.
 - Three inspection kits, one per station of about seven students: a ruler with quarter-inch marks, a magnifier or a phone camera set to zoom (school policy permitting), a kitchen or postal scale if available, a small flashlight, and a pair of white index cards to lay behind the fabric so students can see light through it
 - `Handout 05.12 - Price and Spec Sheets and Buyer Cards.md`, one per student (the four-garment inspection page and one buyer card; the eight-item sheet in the same file is the grade 8 stretch and the extension for a longer period)
 - One shipping bag with a real packing slip showing item price, shipping, and the return policy. Black out the name and address before class.
@@ -61,7 +61,7 @@ The do now is the pre-assessment: students write what they think the four sweats
 | Do now and hook | Slide 1. On the board: "Four sweatshirts are on the table. Write what you think each one cost, A to D. Then circle the one you would buy." Ninety seconds of writing, then take three guesses out loud and write the spread on the board. Hook: "One of these cost four dollars more than another and will last three times as long. Nobody can tell me which one by looking at it from here." | Write four guesses. Circle one. Say a guess out loud when called. | 4 min |
 | 1. Direct instruction: the four vendor types | Slides 2 to 5, fast. Name the four types, one cost advantage and one risk each: discount store (lowest tag price; thinner fabric, fewer stitches), mall brand (better construction and easy returns; you pay for the logo and the store), secondhand shop (best price for the quality; one size, as-is, no returns, inspect it yourself), online marketplace (widest choice and often the lowest listed price; you cannot touch it, shipping and returns cost money, sizing is a guess, days to arrive). Post the four on the wall. | Fill the four-box chart on the handout: type, one advantage, one risk. | 6 min |
 | 2. Learning activity: the four quality checks, at stations | Slides 6 to 9, one check per slide. Demonstrate each on garment A for ten seconds: seam strength (pull gently sideways across a seam), fabric weight (flashlight against a white card, heavier blocks more light), stitch density (ruler on the seam, count the stitches in one inch; 8 is low, 10 to 12 is good), and the label (fiber content, care, country, brand). Rotate the three stations about every four minutes with a bell. Circulate with the clipboard checklist. | At each station, run all four checks on one sweatshirt and record the result on the inspection table. Write the guessed price before the real price is revealed. | 12 min |
-| 3. The hidden costs online | Slide 10. Pass the shipping bag and the packing slip around. Build the landed cost on the board from the slip: item price, shipping, tax, the return cost if it does not fit, the days waited. Name the five hidden costs: shipping, return shipping, restocking fees, sizing risk, time. Ask: "The listing says $9.99 [update]. What did it actually cost to get one that fits?" | Compute the landed cost on the handout. Write the one hidden cost that matters most and why. | 7 min |
+| 3. The hidden costs online | Slide 10. Pass the shipping bag and the packing slip around. Build the landed cost on the board from the slip: item price, shipping, tax, the return cost if it does not fit, the days waited. Name the five hidden costs: shipping, return shipping, restocking fees, sizing risk, time. Ask: "The listing says $9.99. What did it actually cost to get one that fits?" | Compute the landed cost on the handout. Write the one hidden cost that matters most and why. | 7 min |
 | 4. Reveal, then the buyer choice | Slide 11. Reveal the four real prices and vendor types; students correct their guesses in a different color. Then read the class buyer card out loud (one buyer, three limits: money, time, size) and set the individual task: pick one of the four garments for this buyer and write the defense on the handout: the item, the total the buyer pays including any hidden cost, one quality check that supports it, one line on how the choice fits the buyer's values and resources, and the runner-up and why it lost. This is each student's own call, made with the garment data in front of them. | Correct the guesses; underline the buyer's three limits; choose, compute, and write the five-line defense. | 8 min |
 | Closure | Slide 12. Two students read their defense line. Exit card below. | Read or listen; write the exit card. | 3 min |
 
@@ -72,7 +72,7 @@ Day total: 4 plus 6 plus 12 plus 7 plus 8 plus 3 = 40 minutes.
 Monitor understanding:
 - What is the stitch count on that seam? Show me where you counted.
 - Which of these two labels tells you more, and what does it tell you?
-- Your buyer has $50 [update]. What does the item actually cost her by the time it is in her hands?
+- Your buyer has $50. What does the item actually cost her by the time it is in her hands?
 - Which of the eight items cannot work for your buyer at all? Say the reason out loud.
 
 Deepen learning (why and how, tied to their lives):
@@ -114,16 +114,16 @@ None required. Optional, and it makes Lesson 5.13 better: find one piece of clot
 
 ## Connections
 
-Math: the landed cost and the price comparison are unit rate and percent work, the same skills the grade 7 math teacher tests. Send the math teacher the eight-item sheet; the sheet gives math a real context, and math gives FACS students who can already compute a total with tax. Community: a local thrift shop or consignment store manager for a five-minute visit or a recorded answer to one question, "What makes you price a donated sweatshirt at six dollars instead of two?" [Sal: name the shop you would ask.]
+Math: the landed cost and the price comparison are unit rate and percent work, the same skills the grade 7 math teacher tests. Send the math teacher the eight-item sheet; the sheet gives math a real context, and math gives FACS students who can already compute a total with tax. Community: a local thrift shop or consignment store manager for a five-minute visit or a recorded answer to one question, "What makes you price a donated sweatshirt at six dollars instead of two?"
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. e), 1. f), 4. a), 4. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Financial and Consumer Literacy, lines 4. f) and 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and Standard 2 PI on clothing selection. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and Standard 2 PI on clothing selection. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.5.2 and 2.1.4, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.16.
 - `02 Standards/STANDARDS CROSSWALK.md`, Part B.3 (ATPD rows) and Part E.3 (the Standard 2 and Standard 3 note).
-- Prices and specifications on `Handout 05.12` are realistic 2026 Long Island figures written for this lesson, every one marked [update].
+- Prices and specifications on `Handout 05.12` are realistic 2026 Long Island figures written for this lesson, every one to be refreshed before teaching.
 
 ## Teacher notes
 
@@ -131,5 +131,4 @@ Math: the landed cost and the price comparison are unit rate and percent work, t
 - Common mistake: students count the stitches on the outside topstitching instead of the seam that holds the garment together. Show both on garment A and name the difference before the rotation starts.
 - Second common mistake: students treat the lowest tag price as the answer for every buyer. The buyer cards exist to break that. If a station recommends the cheapest item for the two-winter buyer, ask them to say out loud how many winters a seven-ounce fleece survives being washed weekly.
 - The secondhand garment does the most teaching in this lesson. Pick one that is genuinely good: heavy cotton, tight stitching, one small flaw. The lesson lands when students realize the best-made sweatshirt on the table was also the cheapest and that the flaw is the reason.
-- [Sal: your students compared grocery unit prices in Unit 1 and ran a budget in Unit 2. Say that out loud on Day 1. This is the same skill applied to a hoodie, and naming that makes the transfer.]
 - Keep the four sample sweatshirts. They come back out in Lesson 5.13 as two of the four inspection garments and again in the Unit 5 review game.

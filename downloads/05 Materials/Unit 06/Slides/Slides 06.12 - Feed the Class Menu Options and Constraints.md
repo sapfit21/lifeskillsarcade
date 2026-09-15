@@ -49,7 +49,7 @@ Notes: Walk them one at a time. Ask the class what each one rules out BEFORE you
 - D Garlic Bread and Vegetable Tray: $18.93, $0.68 a person, EASY, support duty
 - E No-Bake Cookie Dessert Cups: $18.94, $0.68 a person, EASIEST
 Image: a photo of each finished dish, five across.
-Notes: Prices marked [update from this week's circular]. Do not point out that Option B is over budget. Let a team find it.
+Notes: Prices to be refreshed from the current circular before teaching. Do not point out that Option B is over budget. Let a team find it.
 
 ## Slide 7: The option walk
 - Five cards, five spots, 90 seconds each.

@@ -128,7 +128,7 @@ None. Optional: find a seam in something at home that has started to come apart.
 
 ## Connections
 
-Technology and engineering: the running stitch versus backstitch comparison is a structural load test, and a technology teacher can take the same props into a lesson on joints and fasteners. Mathematics: stitch length against seam strength is a controlled comparison with one variable, and the numbers from Step 2 are real data. Community: the tailor or costumer guest invited in Lesson 5.5 is most useful today or in Lesson 5.9, because a professional's backstitch at speed is a thing students should see once. [Sal: if the guest can only come one day, pick Lesson 5.9.]
+Technology and engineering: the running stitch versus backstitch comparison is a structural load test, and a technology teacher can take the same props into a lesson on joints and fasteners. Mathematics: stitch length against seam strength is a controlled comparison with one variable, and the numbers from Step 2 are real data. Community: the tailor or costumer guest invited in Lesson 5.5 is most useful today or in Lesson 5.9, because a professional's backstitch at speed is a thing students should see once.
 
 ## Sources
 
@@ -146,4 +146,3 @@ Technology and engineering: the running stitch versus backstitch comparison is a
 - Common mistake: the whipstitch gets sewn through one layer instead of two. Check by opening the seam; if it opens, one layer got missed.
 - Common mistake: students use felt for the backstitch practice and it feels so easy that they never practice on the woven cloth they will actually use. Backstitch on the muslin practice cloth, whipstitch on the felt. Keep it that way.
 - If a station is far ahead, give them the second seam at a shorter stitch length and the pull comparison. Do not give them the pouch materials early; that period has its own setup.
-- [Sal: you now have two stitches on the board and two more days before the pouch. If the class is shaky on the backstitch after today, swap Lesson 5.8 and 5.9 so the button day gives the slow students another day of backstitch practice at my table before the repair clinic.]

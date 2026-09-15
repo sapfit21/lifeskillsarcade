@@ -39,10 +39,10 @@ Tier 3 (FACS): food cost, per serving, station card, yield, allergen. See the un
 ## Materials and setup
 
 - Handout, one per student plus one large copy per station: `Handout 06.12 - Menu Option Cards and Constraint Card.md` (the constraint card, five costed menu option cards, the station choice sheet, the role sheet)
-- The class allergy list, printed and posted at the front and at every station. [Sal: pull the current list from the nurse the week before. Names come off; the allergens stay on.]
+- The class allergy list, printed and posted at the front and at every station.
 - Four large sheets of paper or the whiteboard divided into four station areas
 - A calculator per pair
-- One real supermarket circular per station, this week's, for the do now only (they get used for real in Lesson 6.13). [Sal: King Kullen, Stop and Shop, or whatever your school's neighborhood store is. Prices in the handout are Long Island prices marked [update from this week's circular].]
+- One real supermarket circular per station, this week's, for the do now only (they get used for real in Lesson 6.13).
 - Slides: `Slides 06.12 - Feed the Class Menu Options and Constraints` (outline in 05 Materials; the site renders it as a deck)
 - Setup notes: post the allergy list before the bell. Set the four station areas so teams sit where they will cook. No food is handled today, but the allergy list goes up today because every decision made in this period depends on it.
 
@@ -121,16 +121,16 @@ None required. Optional and useful: ask at home what a dinner for your family co
 
 ## Connections
 
-Math: the cost per person division and the scale factor in Lesson 6.13 are ratio and unit rate work. Show the math teacher the option cards; if the grade 7 math class is on unit rate that month, the same five cards are a ready problem set. Community: the manager of the supermarket the circular comes from. FACS gives the store a class of customers who can read a unit price and a thank-you note; the store gives FACS this week's circular in a stack, a five-minute answer on why a store brand costs less, and sometimes a donation toward the $80. [Sal: you priced the King Kullen lists yourself; ask the store manager whether they will hold the order and whether they do school donations.]
+Math: the cost per person division and the scale factor in Lesson 6.13 are ratio and unit rate work. Show the math teacher the option cards; if the grade 7 math class is on unit rate that month, the same five cards are a ready problem set. Community: the manager of the supermarket the circular comes from. FACS gives the store a class of customers who can read a unit price and a thank-you note; the store gives FACS this week's circular in a stack, a five-minute answer on why a store brand costs less, and sometimes a donation toward the $80.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. c), 5. a), 5. b), and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c); Theme Module 05, Problem Solving and Innovation, line 2. a) c. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
 - CDOS Intermediate Standard 3a, Managing Resources, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 8.4.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: `education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf` (six costed menus for 165 students across six periods and three kitchens on a $200 budget, with the standing constraints "No knives, No frying, Pre-cooked meat only, Stovetop plus oven"). The five option cards in `Handout 06.12` are rescaled from his six for one class of 28 at four stations. Prices are his verified King Kullen prices from the week of March 20 to 26, 2026, marked [update from this week's circular].
+- Sal's own materials: `education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf` (six costed menus for 165 students across six periods and three kitchens on a $200 budget, with the standing constraints "No knives, No frying, Pre-cooked meat only, Stovetop plus oven"). The five option cards in `Handout 06.12` are rescaled from his six for one class of 28 at four stations. Prices are his verified King Kullen prices from the week of March 20 to 26, 2026, to be refreshed from the current circular before teaching.
 
 ## Teacher notes
 
@@ -139,5 +139,4 @@ Math: the cost per person division and the scale factor in Lesson 6.13 are ratio
 - Common mistake: a team computes cost per person by dividing by 7 (their station) instead of 28 (the class). The option card says "28 portions" in bold for that reason. Catch it at Step 3, not at Step 4.
 - The over-budget option is on the table on purpose. A team that notices Option B is $1.32 over before you say it is a team that will find the store-brand swap in Lesson 6.15 without help.
 - Two stations will both want the oven. Let them discover it here. The fix is the flowchart in Lesson 6.14: one bakes in minutes 10 to 20, the other in minutes 20 to 30, or one moves to the toaster oven.
-- [Sal: your master flowchart put Kitchen 4 on support duty after its bread went in the oven. Decide now which station is your support station this year, because it changes who picks which option. The dessert station and the bread station are the two that free up.]
 - Keep the four "hardest constraint" sentences on the board through Lesson 6.16. On cook day, point at them.

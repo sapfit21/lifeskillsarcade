@@ -108,7 +108,7 @@ None. Optional: ask an adult at home whether your home is rented or owned and on
 
 ## Connections
 
-Social studies: the types of housing map onto how a neighborhood is zoned; the social studies teacher can show a zoning map of the town in exchange for FACS students bringing the seven-jobs list to a lesson on community. Community: a local housing counselor or a realtor for a five-minute visit during Lesson 4.16 (careers) to answer the rent-versus-own questions students wrote today. [Sal: a local partner if you have one.]
+Social studies: the types of housing map onto how a neighborhood is zoned; the social studies teacher can show a zoning map of the town in exchange for FACS students bringing the seven-jobs list to a lesson on community. Community: a local housing counselor or a realtor for a five-minute visit during Lesson 4.16 (careers) to answer the rent-versus-own questions students wrote today.
 
 ## Sources
 
@@ -124,4 +124,3 @@ Social studies: the types of housing map onto how a neighborhood is zoned; the s
 - Common mistake: students match on preference ("the teen would love the big house") instead of need. Say the rule twice: the card tells you what they need; the listing tells you what the home has. If the sentence does not name both, it is not done.
 - The no-perfect-fit family (the Okafor card: three generations, one income, needs a no-step entrance) is on purpose. It previews the Design a Room client brief in Lesson 4.11, where every client has a constraint.
 - Some students live in shared housing, shelters, or with relatives. The word "home" is used all day without judgment, and the do now says "any home you know" for that reason. Do not ask anyone to describe where they live.
-- [Sal: if your class is mostly one housing type, add a seventh listing that looks like their neighborhood so the task is not all about somewhere else.]

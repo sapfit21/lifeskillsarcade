@@ -35,8 +35,6 @@ Posted on the wall for both days and read out loud at the start of Day 1.
 3. No ranking. No best cuisine, no worst, no "weird." Different climates and different crops made different food, and that is the whole explanation.
 4. Nobody has to be the expert on their own background. A student may share a family dish if they want to, and may say nothing, and neither choice gets a follow-up question.
 
-[Sal: this agreement is worth naming as a class rule, not a lesson rule. If your students already have a version of it from Unit 0, use their words instead of mine.]
-
 ## Objectives
 
 By the end of this lesson, students will be able to:
@@ -133,18 +131,18 @@ None required. Optional and invited, not assigned: if there is a dish your famil
 
 ## Connections
 
-Social studies: the spice trade, the Columbian exchange, and migration patterns are the same content this lesson uses, and the five factors are a social studies framework with food as the evidence. World languages: the dish names are a free vocabulary lesson, and a language teacher can pronounce them correctly, which matters more than it sounds. Library: the source rule is a research skills lesson, and a librarian can teach the two-source rule better than a FACS teacher can in twelve minutes. Community: a family member or a local restaurant owner who wants to talk about one dish for ten minutes. [Sal: at Brentwood you had Turkish and Portuguese speaking students. This is the lesson where their home food is content, not a footnote, and the way to do it is to invite and never to call on.]
+Social studies: the spice trade, the Columbian exchange, and migration patterns are the same content this lesson uses, and the five factors are a social studies framework with food as the evidence. World languages: the dish names are a free vocabulary lesson, and a language teacher can pronounce them correctly, which matters more than it sounds. Library: the source rule is a research skills lesson, and a librarian can teach the two-source rule better than a FACS teacher can in twelve minutes. Community: a family member or a local restaurant owner who wants to talk about one dish for ten minutes.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness, line 1. i). Same folder. Cited because no FSP line names cultural food practices; see the note in the Standards block.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 6. d) and 6. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Information. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.1.2, 14.1.4, and 6.2.4.
 - The FSP module's own Career and Community Connections illustrative activity, Community Food Festivals, is the source of this lesson's shape.
-- Dish facts on the handout are written at a general level and every research card requires students to cite their own two sources. [Sal: if a dish description on the handout is wrong for a family in your room, the family is right and the handout gets corrected. Say that out loud.]
+- Dish facts on the handout are written at a general level and every research card requires students to cite their own two sources.
 
 ## Teacher notes
 
@@ -156,4 +154,3 @@ Social studies: the spice trade, the Columbian exchange, and migration patterns 
 - Watch the fourth agreement point hardest during Day 2 questions. A question like "do you actually eat that?" needs to be rephrased in front of the room, kindly and immediately, into "what does it taste like?"
 - If the tasting runs, keep every package. The ingredient panels are a Unit 1 label lesson for free, and one student always notices that two of the three flatbreads have nearly the same ingredient list.
 - Cost if the tasting runs: about $8 to $10 per class for three packaged flatbreads. This is a class cost, not a per-station cost, because nothing is cooked.
-- [Sal: your airplane crash simulation taught students to argue without ranking people. Same muscle here, applied to food. If they did that lesson, name it.]

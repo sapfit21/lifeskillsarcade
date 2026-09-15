@@ -40,7 +40,7 @@ Tier 3 (FACS): need, want, value, goal, delayed gratification. See `Vocabulary 0
 - The $100 sheet, one per student
 - Slides: `Slides 02.07 - Needs vs Wants Showdown`
 - Whiteboard with three columns drawn before the bell
-- Setup notes: cut the card sets the day before; 12 sets covers a class of 24. Prices on the $100 sheet are Long Island prices for 2026 and marked [update]. No food handled today.
+- Setup notes: cut the card sets the day before; 12 sets covers a class of 24. Prices on the $100 sheet are Long Island prices for 2026 and to be refreshed before teaching. No food handled today.
 
 ## Pre-assessment
 
@@ -59,7 +59,7 @@ Debrief: hand vote, three choices: need, want, depends. Count each. Say the hook
 | 1. Direct instruction: the test and the gray zone | Show the definitions (slides 2 to 4). A need keeps you safe, healthy, and able to do school or work. A want makes life more fun or more comfortable. The gray zone is an item that can be either, depending on the person and the situation. Give the test in one sentence: "Do I need this to be safe, healthy, and able to do school or work?" Show one example of each and one gray zone item (winter coat: need; third winter coat: want; a phone: gray zone). Remind students of the values list from Lesson 2.1 on the board. | Copy the test sentence at the top of the $100 sheet. Say the three categories back in a choral response. | 6 min |
 | 2. Learning activity: the Showdown sort | Hand out the card sets and mats. Rules: both partners must agree before a card lands; a card you cannot agree on goes to gray zone with a sticky note that says why. Circulate with the clipboard checklist. When a pair finishes, ask them to pick their three hardest gray zone cards and write what would move each one to need or to want. | Sort all 30 cards. Argue. Put disagreements in gray zone. Write the three hardest gray zone cards on the $100 sheet, Part A, with the "what would change it" line. | 10 min |
 | 3. Class tally and the values turn | Call out six cards (bus pass, phone, name brand sneakers, school lunch, streaming subscription, birthday gift for a sibling). Pairs hold up N, W, or G. Tally on the board. Pick the most split card and ask two pairs to argue it. Then ask: "Which of your values from Lesson 2.1 decided that card for you?" Write the values students name next to the card. | Vote with cards. Two pairs argue one card. Name the value that decided it. | 6 min |
-| 4. The $100 task | Hand out or turn to Part B of the $100 sheet. The list has 14 items with prices. Students have $100 and must decide what to buy, what to skip, and what to save. The only rule: at least one need must be covered before any want. Model the first line: "Bus pass for the month, $60 [update], need, because I cannot get to school without it." | Build the $100 plan. Total it. Write three justification sentences: one names a need, one names a want, one names the value that decided the hardest choice. | 10 min |
+| 4. The $100 task | Hand out or turn to Part B of the $100 sheet. The list has 14 items with prices. Students have $100 and must decide what to buy, what to skip, and what to save. The only rule: at least one need must be covered before any want. Model the first line: "Bus pass for the month, $60, need, because I cannot get to school without it." | Build the $100 plan. Total it. Write three justification sentences: one names a need, one names a want, one names the value that decided the hardest choice. | 10 min |
 
 ## Questions to ask
 
@@ -120,4 +120,3 @@ Health class: the health teacher covers advertising and peer pressure; share the
 - Common mistake: students sort by price. A $4 coffee is a want and a $60 bus pass is a need. Say it once at the start: "Price does not decide. The test decides."
 - The phone argument will eat the whole period if you let it. Give it two minutes, land on gray zone, and move on. It comes back in Lesson 2.9 when the phone bill has a price.
 - The $100 sheet is the first draft of the budget thinking that Lesson 2.9 builds on and Project 02 revises. Keep the sheets in the FACS folders.
-- [Sal: your Brentwood version used a Saturday at the mall story with $50. If that story worked, tell it in Step 1 instead of the coat example.]

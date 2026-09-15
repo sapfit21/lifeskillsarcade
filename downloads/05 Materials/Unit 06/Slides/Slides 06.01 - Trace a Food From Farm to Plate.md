@@ -1,6 +1,6 @@
 # Slides 6.1: Trace a Food From Farm to Plate
 
-Slide outline for Lesson 6.1. Twelve slides, one day. The ten-step slide and the four food slides become the review deck before the Food Systems Quiz. [Sal: photos of your own store and your own milk carton beat stock photos here.]
+Slide outline for Lesson 6.1. Twelve slides, one day. The ten-step slide and the four food slides become the review deck before the Food Systems Quiz.
 
 ## Slide 1: Trace a Food From Farm to Plate
 

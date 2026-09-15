@@ -41,7 +41,7 @@ Tier 3 (FACS): resource, time audit, energy, sleep window, the four boxes (urgen
 - Slides: `Slides 02.06 - Time and Energy as Resources`
 - Colored pencils, one small set per table, for the pie on the audit (optional)
 - Timer visible to the class
-- Setup notes: score the Goal Plans before this lesson so students have the first rung in hand. Hand them back as students enter. No other setup. [Sal: the sleep numbers on slide 8 are the American Academy of Sleep Medicine ranges as published by the CDC (9 to 12 hours for ages 6 to 12; 8 to 10 hours for ages 13 to 18). Confirm they have not changed before you teach it.]
+- Setup notes: score the Goal Plans before this lesson so students have the first rung in hand. Hand them back as students enter. No other setup.
 
 ## Pre-assessment
 
@@ -106,16 +106,16 @@ None. Optional: do the first rung on the day and hour you scheduled it. Bring ba
 
 ## Connections
 
-Inside the building: the health teacher, who covers sleep in the health curriculum; agree on the sleep range numbers and the source so students hear one set of numbers. [Sal: this is the first flagged overlap with health in Unit 2; the second is stress and money in Topic 2.3.] The math teacher, because the audit is a whole-number sum to 24 and a pie chart, which is grade 6 and 7 math. Community: none this lesson.
+Inside the building: the health teacher, who covers sleep in the health curriculum; agree on the sleep range numbers and the source so students hear one set of numbers. The math teacher, because the audit is a whole-number sum to 24 and a pie chart, which is grade 6 and 7 math. Community: none this lesson.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 1. c) and 1. f). Same folder. (The Financial and Consumer Literacy theme module has no line on managing time; checked against the verbatim extract.)
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Managing Resources. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 2.1.1. (2.1.4 in 3.0 is a clothing competency and is not cited.)
-- Sleep ranges: American Academy of Sleep Medicine consensus recommendations (Paruthi et al., 2016), as published by the CDC on its "How Much Sleep Do I Need?" page: ages 6 to 12, 9 to 12 hours per 24 hours; ages 13 to 18, 8 to 10 hours per 24 hours. [Sal: confirm the current CDC page before teaching.]
+- Sleep ranges: American Academy of Sleep Medicine consensus recommendations (Paruthi et al., 2016), as published by the CDC on its "How Much Sleep Do I Need?" page: ages 6 to 12, 9 to 12 hours per 24 hours; ages 13 to 18, 8 to 10 hours per 24 hours.
 - The four boxes (urgent and important) are a public, widely used prioritizing frame; no single source is quoted.
 - Sal's own materials: ClassroomStreet's budgeting idea (a fixed amount, categories, and a total that must balance) is the model for the 24-hour audit; the audit is a budget with hours instead of dollars, and Topic 2.3 says so when the money budget arrives.
 
@@ -127,5 +127,4 @@ Inside the building: the health teacher, who covers sleep in the health curricul
 - The four-box sort produces one useful sentence: the goal step is always box 2, important but not urgent, which is exactly why it does not happen. Say that sentence, and then say the fix: put it on the calendar yourself. That is the whole reason the week plan exists.
 - Sleep is the flagged health overlap. Teach the numbers and the "second lap" (tired people spend more on screens and less on the goal), and leave sleep hygiene (screens before bed, caffeine) to the health teacher unless they ask you to cover it.
 - The audit is a budget with hours. Say that at the end: "In Topic 2.3 you do this same thing with dollars. The rule is the same: it has to add up, and the thing that matters has to be in it before the thing that is easy."
-- [Sal: your own audit on slide 5 works better than a fictional one, if you are willing. A teacher who shows 6 hours of sleep and 3 hours of screens makes the lesson honest.]
 - Staple the week plan to the Goal Plan and keep both in the FACS folder. Four weeks after Lesson 2.5 Day 2, both come out for the look-back line on the cover.

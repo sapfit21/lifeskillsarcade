@@ -112,7 +112,7 @@ Notes: Let students argue for repairing it first, then land it. Knowing when a t
 
 ## Slide 13: What a tailor charges
 
-- A tailor charges about twelve dollars to hem a pair of pants [Sal: call one and use the real number]
+- A tailor charges about twelve dollars to hem a pair of pants
 - The materials cost five cents
 - So what are you actually paying for?
 - Five-minute warning: needles and pins back, count out loud, initials

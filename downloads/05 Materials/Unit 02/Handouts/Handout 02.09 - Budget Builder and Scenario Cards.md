@@ -70,25 +70,25 @@ Total money in: $______ Total money out: $______ Projected balance (in minus out
 
 ## Page 2 (Day 2): Scenario cards (teacher cuts; one card per student)
 
-All prices are Long Island prices for 2026 and marked [update]. Every person on these cards is made up.
+All prices are Long Island prices for 2026 and to be refreshed before teaching. Every person on these cards is made up.
 
 ### Card A: Mateo, age 13
 
 **Income:** allowance $15 a week ($60 a month) plus dog walking, two dogs, $10 a walk, four walks a month ($40). **Monthly net income: $100.** (No deductions; nobody takes taxes out of an allowance.)
 
-**Fixed expenses (must pay every month):** share of the family streaming plan, $5 [update]; school lunch account refill, $35 [update].
+**Fixed expenses (must pay every month):** share of the family streaming plan, $5; school lunch account refill, $35.
 
-**Variable expenses (his usual month):** pizza slice with friends on Fridays, $4 each, four Fridays [update]; bubble tea, $7 [update], about twice a month; a game skin or app, $10; a gift for his sister's birthday this month, $20; snacks from the deli, $3 a day on days he forgets lunch, about five days [update].
+**Variable expenses (his usual month):** pizza slice with friends on Fridays, $4 each, four Fridays; bubble tea, $7, about twice a month; a game skin or app, $10; a gift for his sister's birthday this month, $20; snacks from the deli, $3 a day on days he forgets lunch, about five days.
 
-**Savings goal (from his SMART goal):** a concert ticket, $120 [update], in four months.
+**Savings goal (from his SMART goal):** a concert ticket, $120, in four months.
 
 ### Card B: Priya, age 16
 
-**Income:** cashier at a supermarket, 12 hours a week at $17.00 an hour [update]. Gross $204 a week. About 17 percent comes out in deductions. **Monthly net income: about $680** (four weeks).
+**Income:** cashier at a supermarket, 12 hours a week at $17.00 an hour. Gross $204 a week. About 17 percent comes out in deductions. **Monthly net income: about $680** (four weeks).
 
-**Fixed expenses:** phone plan, $35 [update]; monthly bus pass, $60 [update]; gym membership, $30 [update]; a music subscription, $12 [update].
+**Fixed expenses:** phone plan, $35; monthly bus pass, $60; gym membership, $30; a music subscription, $12.
 
-**Variable expenses (her usual month):** food out with friends, $80; clothes, $60; ride share when the bus does not run late, $15 a ride, about four rides [update]; movies, $17 a ticket, twice [update]; skin care and hair, $40; gifts, $20.
+**Variable expenses (her usual month):** food out with friends, $80; clothes, $60; ride share when the bus does not run late, $15 a ride, about four rides; movies, $17 a ticket, twice; skin care and hair, $40; gifts, $20.
 
 **Savings goal (from her SMART goal):** $2,000 toward a used car in 12 months.
 
@@ -96,21 +96,21 @@ All prices are Long Island prices for 2026 and marked [update]. Every person on 
 
 **Income:** summer camp counselor, eight weeks, $2,400 net for the whole summer. No income during the school year. She has to make it last ten months (September to June). **Monthly net income to budget: $240.**
 
-**Fixed expenses:** phone plan, $35 [update]; robotics club dues, $20 a month [update]; school lunch account refill, $35 [update].
+**Fixed expenses:** phone plan, $35; robotics club dues, $20 a month; school lunch account refill, $35.
 
-**Variable expenses (her usual month):** food out, $40; a new pair of sneakers this month, $90 [update]; movies, $17, once [update]; art supplies, $25; a gift, $15; bubble tea, $7, three times [update].
+**Variable expenses (her usual month):** food out, $40; a new pair of sneakers this month, $90; movies, $17, once; art supplies, $25; a gift, $15; bubble tea, $7, three times.
 
-**Savings goal (from her SMART goal):** a laptop for high school, $350 [update], by June (ten months).
+**Savings goal (from her SMART goal):** a laptop for high school, $350, by June (ten months).
 
 ### Card D: Theo, age 14
 
-**Income:** babysitting for a neighbor, $15 an hour [update], about eight hours a month ($120), plus birthday and holiday money that averages $20 a month. **Monthly net income: $140.**
+**Income:** babysitting for a neighbor, $15 an hour, about eight hours a month ($120), plus birthday and holiday money that averages $20 a month. **Monthly net income: $140.**
 
-**Fixed expenses:** phone plan, $35 (a family rule: he pays his own line) [update]; school lunch account refill, $35 [update]; a game subscription, $10 [update].
+**Fixed expenses:** phone plan, $35 (a family rule: he pays his own line); school lunch account refill, $35; a game subscription, $10.
 
-**Variable expenses (his usual month):** snacks, $3 a day, about ten days [update]; a game on release day, $70 [update]; pizza Fridays, $4, four times [update]; a haircut, $25 [update]; a gift, $15.
+**Variable expenses (his usual month):** snacks, $3 a day, about ten days; a game on release day, $70; pizza Fridays, $4, four times; a haircut, $25; a gift, $15.
 
-**Savings goal (from his SMART goal):** a week of sports camp, $300 [update], in six months.
+**Savings goal (from his SMART goal):** a week of sports camp, $300, in six months.
 
 * * *
 

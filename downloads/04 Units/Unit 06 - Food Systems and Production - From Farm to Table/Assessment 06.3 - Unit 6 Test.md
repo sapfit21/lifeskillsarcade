@@ -172,7 +172,7 @@ ________________________________________________________________________
 
 # Teacher key
 
-**Total: 40 points.** A grade 6 version omits items 19 and 20 and is scored out of 28. [Sal: or keep all twenty items and give the extra time in a support period.]
+**Total: 40 points.** A grade 6 version omits items 19 and 20 and is scored out of 28.
 
 Standard lines are cited from `02 Standards/STANDARDS CROSSWALK.md` Part B.6 and the verbatim extract. Items that check content taught in Topics 6.1 and 6.2 name the FSP module line; the lesson that teaches each line is in the unit plan's Section 7 table.
 
@@ -272,5 +272,3 @@ Coverage check: Topic 6.1 (where food comes from) items 1 to 5, 7, 8, 9, 13, 15;
 - Item 19 is the item that shows whether the flowchart work transferred. A student who names preheating as the critical path has understood the unit's single biggest idea.
 - Item 20 is scored on the five lines, not on grammar. A student who writes it as a bulleted list with the five elements present earns full credit; say that in the directions if the class needs to hear it.
 - Do not pre-teach the test. The review game on Day 2 uses the same four topic piles and the room's own walls, which is enough.
-- [Sal: swap item 15's example responses for the ones your own community actually has. If your school's neighborhood is a food desert by the USDA measure, say so and use the real nearest supermarket distance; that changes this item from a definition into a fact about their street.]
-- [Sal: prices in items 17 and 16 are your verified King Kullen prices from March 2026. Update them from this week's circular and the key's answers change with them; the method does not.]

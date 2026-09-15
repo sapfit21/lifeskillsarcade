@@ -1,6 +1,6 @@
 # Slides 6.10: Global Foods, One Dish, Three Cultures
 
-Slide outline for Lesson 6.10. Twenty slides across two days: Day 1 slides 1 to 11, Day 2 slides 12 to 20. Slide 2 is read out loud and never skipped. [Sal: every dish photo should be a real dish, not a stylized one, and every photo needs the dish name and the region under it so students see both together.]
+Slide outline for Lesson 6.10. Twenty slides across two days: Day 1 slides 1 to 11, Day 2 slides 12 to 20. Slide 2 is read out loud and never skipped.
 
 * * *
 

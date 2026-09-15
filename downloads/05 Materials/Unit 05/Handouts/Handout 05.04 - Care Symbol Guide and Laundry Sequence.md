@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Period: ______
 
 ## Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | care label | bakım etiketi | etiqueta de conservação | etiqueta de cuidado |
@@ -152,7 +150,7 @@ Why the label is there: in the United States a permanent care label is required 
 | Chlorine bleach on a colored shirt | Bleach strips the dye, in patches, and there is no way to put it back | A triangle with an X, or a triangle with diagonal lines (non-chlorine only) | $12 |
 | Hot iron on polyester | Polyester melts instead of burning, so the plate leaves a shine or a hole | An iron with one dot (low heat) or an iron with an X | $20 |
 
-Total, about $88 from one bad load. [Sal: use your own prices; the total is the point, not the numbers.]
+Total, about $88 from one bad load.
 
 **Part 4, the sequence and the reasons.**
 

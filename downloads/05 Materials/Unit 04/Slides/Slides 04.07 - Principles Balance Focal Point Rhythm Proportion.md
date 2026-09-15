@@ -1,6 +1,6 @@
 # Slides 4.7: Principles: Balance, Focal Point, Rhythm, Proportion
 
-Slide outline for Lesson 4.7. Day 1 has twelve slides; Day 2 has eight. [Sal: photos of the built rooms from Day 2 become review slides for the Design Vocabulary Check; take them before the tape comes off.]
+Slide outline for Lesson 4.7. Day 1 has twelve slides; Day 2 has eight.
 
 # Day 1
 

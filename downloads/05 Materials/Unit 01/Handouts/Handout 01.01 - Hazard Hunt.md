@@ -19,8 +19,6 @@ Every hazard belongs to one of these six families. If it can burn, cut, trip, sp
 
 ## Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | hazard | tehlike | perigo | peligro |
@@ -69,7 +67,7 @@ Keep this sheet. Your team's top five becomes part of the class Kitchen Safety C
 
 # Teacher key
 
-There is no single right answer for Part 1, because the planted hazards are the teacher's own. Use the list below to check that a station's hazard was named, put in the right family, and given a prevention step that would actually work. The stations and hazards here are the ones suggested in Lesson 1.1; replace them with your own. [Sal: write your real station list here after you stage the room, and keep the photos.]
+There is no single right answer for Part 1, because the planted hazards are the teacher's own. Use the list below to check that a station's hazard was named, put in the right family, and given a prevention step that would actually work. The stations and hazards here are the ones suggested in Lesson 1.1; replace them with your own.
 
 | Station | Planted hazard | Family | What could happen | A prevention step that works |
 |---|---|---|---|---|

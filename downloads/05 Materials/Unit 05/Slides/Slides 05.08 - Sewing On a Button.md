@@ -26,8 +26,6 @@ Notes: Debrief into three columns on the board: fixed, still in a drawer, thrown
 - The repair takes four minutes
 - This is the most useful forty minutes in the unit
 Image: a shirt with a price tag reading $18 next to a single button with a tag reading $0.04.
-Notes: [Sal: your prices. Sew the button on in front of the class at the end of Step 1, in about ninety seconds, and hold up the closed shirt.]
-
 ## Slide 4: Step 1 and 2, position and anchor
 
 1. Find the position: line the button up with the buttonhole it has to reach. The old thread leaves a mark. Mark it with chalk.

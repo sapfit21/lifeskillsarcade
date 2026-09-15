@@ -6,8 +6,6 @@ Name: ______________________________ Date: ______________ Team: ______ Zone: ___
 
 ## Word bank in other languages
 
-[Check with a native speaker before printing.]
-
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
 | energy | enerji | energia | energía |
@@ -179,7 +177,7 @@ Which fixes should the landlord pay for, and which the family? Why? ____________
 
 **Part 2:** Worked: 60 x 5 x 365 = 109,500 Wh = 109.5 kWh = $27.38. LED: 16,425 Wh = 16.4 kWh = $4.11. Savings $23.27 (accept $23). Practice 1: 100 x 6 x 365 = 219,000 Wh = 219 kWh = $54.75. Practice 2: 15 x 24 x 365 = 131,400 Wh = 131.4 kWh = $32.85. Practice 3: 1,825 gallons; about 30 bathtubs. Thermostat: $126.
 
-**Part 3, classroom:** answers depend on the room and the planted wastes. [Sal: list your planted wastes here before Day 2 so the check is fast.]
+**Part 3, classroom:** answers depend on the room and the planted wastes.
 
 **Part 4, apartment:** Lights 1: Fix (free), the bedroom lamp and the range hood light. Lights 2: Fix ($), ten old bulbs. Phantom 1: Fix (free), three chargers. Phantom 2: Fix (free or $20 strip), cable box and console, and the TV for the dog. Heat 1: cannot read it; landlord's heat. Heat 2: Fix (free), the child's window open with the heater on. Heat 3: Fix (free), the couch on the radiator. Heat 4: Fix ($), the AC in the window in January; take it out or seal it, weatherstrip. Water 1: Fix ($2), the drip. Water 2: Fix (free to $8), the toilet runs a minute, check the flapper. Appliance 1: Fix ($), the torn seal (a new gasket is about $50, a new fridge is the landlord's). Appliance 2: Fix (free), the half-full dishwasher.
 

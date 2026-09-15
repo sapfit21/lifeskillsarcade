@@ -53,7 +53,7 @@ Practice: leftover pasta sat out from 6 pm to 10 pm. Fridge or trash? ______ Why
 
 ## Part 4: The waste scenario
 
-A family throws away this every week [update from this week's circular]:
+A family throws away this every week:
 - Half a bag of spinach (the bag cost $2.99, so half is $1.50)
 - Four slices of bread (the loaf cost $2.49 and has 20 slices, so four slices are about $0.50)
 - One container of leftovers they forgot about (about $3.00 of food)

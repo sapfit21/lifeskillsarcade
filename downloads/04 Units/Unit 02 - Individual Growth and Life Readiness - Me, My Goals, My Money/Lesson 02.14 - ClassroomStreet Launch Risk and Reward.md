@@ -38,12 +38,12 @@ Tier 3 (FACS): saving, investing, venture, portfolio, ledger, total fortune, hig
 ## Materials and setup
 
 - One device per student with a browser (Chromebook, laptop, or a phone if the school allows); a pair shares one device if needed
-- The ClassroomStreet login cards: one per student with the class period, the merchant number, and the four-digit PIN. No names on the cards. [Sal: print these from the Command Bridge Settings tab the day before; keep the master list in your desk, not on the board.]
+- The ClassroomStreet login cards: one per student with the class period, the merchant number, and the four-digit PIN. No names on the cards.
 - `Handout 02.14 - Venture Risk Cards.md`, one set of seven cards per pair, cut apart, plus the teacher key (do not hand out the key; the "what it really is" line is the Lesson 2.19 reveal)
 - `Handout 02.14 - Investor Journal.md`, one per student, kept in the FACS folder for the whole topic
 - Slides: `Slides 02.14 - ClassroomStreet Launch Risk and Reward`
 - Exit cards, one per student per day
-- Setup notes: log in to the Command Bridge before class and set the market to window 1. Turn off auto-advance for the class run so windows move only when you click. [Sal: confirm the live site has a manual advance setting; the Desktop version auto-advances on system time.] Test one student login from a student device on the school Wi-Fi. If the site will not load, run the paper ledger version from `Project 02` and `Handout 02.19 - Paper Ledger.md` and say so at the start of class.
+- Setup notes: log in to the Command Bridge before class and set the market to window 1. Turn off auto-advance for the class run so windows move only when you click. Test one student login from a student device on the school Wi-Fi. If the site will not load, run the paper ledger version from `Project 02` and `Handout 02.19 - Paper Ledger.md` and say so at the start of class.
 
 ## Pre-assessment
 
@@ -95,7 +95,7 @@ Day 2: two students read their Entry 2 aloud. Exit card: "Cash, units, price, va
 
 ## Differentiation and supports
 
-- ELL: the Venture Risk Cards have a picture cue and a one-line description each; the risk ladder slide uses icons (a jar, a bank, a factory, a rocket); the journal template has sentence starters in Turkish, Portuguese, and Spanish ("Today I bought ___ because ___," "My total fortune is ___"); pair each ELL student with a partner who can point to the screen; the words buy and sell appear on the site as Acquire and Divest, so the slide shows both pairs of words. [Sal: confirm the button names on the live site.]
+- ELL: the Venture Risk Cards have a picture cue and a one-line description each; the risk ladder slide uses icons (a jar, a bank, a factory, a rocket); the journal template has sentence starters in Turkish, Portuguese, and Spanish ("Today I bought ___ because ___," "My total fortune is ___"); pair each ELL student with a partner who can point to the screen; the words buy and sell appear on the site as Acquire and Divest, so the slide shows both pairs of words.
 - IEP and 504 (general): the login card is the only thing to type; the journal template has boxes, not lines; a student who cannot write three sentences can dictate to a partner or record a voice note on the device; extended time by finishing Entry 2 at the start of Lesson 2.15; seat any student who gets anxious about the leaderboard where the projector is not in direct view.
 - Grade 6 support: the sort uses five cards (HNYP, SEAL, WLLW, MDOW, SPRK), and the first buy rule is two ventures, not three; the journal entry can be two sentences with the number.
 - Grade 8 stretch: the pair also writes one sentence predicting which venture will move most by Day 5 and why, and on Day 2 computes gain or loss as a percent of 25,000 (a preview of Lesson 2.18).
@@ -124,7 +124,7 @@ Math: the class math teacher can use the Day 2 gain or loss numbers as integer p
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 4. b) and 4. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. b) and 3. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - CDOS Intermediate Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 3.3.4.
 - Sal's own materials: `Fortune_Street_Lesson_Plan.docx` (Days 1 and 2), `Fortune_Street_Student_Guide.docx` (the seven ventures, login steps, tips), `FortuneStreet/README.md` (starting prices), all in `Education/TeachingWork/Projects/Financial Concept Lesson Plan/Files Needed for Simulation/`. ClassroomStreet.com is the live version.
@@ -135,5 +135,4 @@ Math: the class math teacher can use the Day 2 gain or loss numbers as integer p
 - The login is the whole risk on Day 1. Have a printed backup of every card and a second copy of the class list of merchant numbers in your desk. A student who mistypes the PIN three times gets a reset from the Command Bridge Merchants tab, not a new number.
 - Common mistake: students spend all 25,000 in the first two minutes on one venture because it "sounds cool." The cash rule (keep AQ1,000) and the three-venture rule stop the worst of it without taking the choice away. Do not fix the rest; that portfolio is a lesson on Day 5.
 - Common mistake: students read a price drop as "I lost money." Say it on Day 2 and again on Day 6: you have not lost anything until you sell. The ledger is where that becomes visible.
-- Sal's Desktop files disagree on the starting purse (25,000 Florins in the lesson plan and student guide, AQ10,000 in the README) and on the currency name. This unit uses AQ25,000 everywhere. [Sal: confirm the starting purse and the currency symbol on the live site and fix the slides if they differ.]
-- [Sal: your Student Guide lists merchant rank titles from Grand Merchant down to Apprentice. If the live site still uses them, put the list on slide 9; students love them.]
+- Sal's Desktop files disagree on the starting purse (25,000 Florins in the lesson plan and student guide, AQ10,000 in the README) and on the currency name. This unit uses AQ25,000 everywhere.

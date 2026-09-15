@@ -4,7 +4,7 @@ Name: ______________________ Date: __________ Station: ______ Option: ______
 
 Lesson 6.13, two days. Day 1 is pages 1 to 3. Day 2 is pages 4 to 6. Page 3 is the pre-filled version. Page 5 is the short circular excerpt. Page 7 is the teacher key.
 
-All prices are real Long Island supermarket prices marked **[update from this week's circular]**.
+All prices are real Long Island supermarket prices to be refreshed from the current circular before teaching.
 
 * * *
 
@@ -93,8 +93,6 @@ Every ingredient gets a row. The Scale Lead reads each row aloud before it is wr
 | A 14 oz loaf of Italian bread makes about ______ serving pieces | 12 |
 | One aerosol can of whipped topping gives about ______ cups | 2 |
 | An 8 oz pack of sliced pepperoni holds about ______ slices | 150 |
-
-**[Sal: the last six numbers are estimates. Open one of each package, count or measure it once, and write the real number on this strip. Then the key's answers are exact for your room.]**
 
 ## The two practice conversions
 
@@ -205,7 +203,7 @@ Worked example: store-brand shredded mozzarella, 8 oz, $1.99. $1.99 ÷ 8 = **$0.
 
 # Page 5. Circular excerpt (Day 2). Use this if a full circular is too much, or if the store's circular is missing an item.
 
-**Prices verified week of March 20 to 26, 2026. [update from this week's circular]**
+**Prices verified week of March 20 to 26, 2026.**
 
 | Item | Brand | Size | Price |
 |---|---|---|---|
@@ -286,8 +284,6 @@ If YES, what and what we will do: ________________________________________
 | We will buy ___ instead of ___ and save $___. | ___ yerine ___ alacağız ve ___ dolar tasarruf edeceğiz. | Vamos comprar ___ em vez de ___ e economizar $___. | Vamos a comprar ___ en lugar de ___ y ahorrar $___. |
 | The store brand costs ___ per ounce. The name brand costs ___ per ounce. | Market markası onsu ___. Ünlü marka onsu ___. | A marca do mercado custa ___ por onça. A marca famosa custa ___ por onça. | La marca del supermercado cuesta ___ por onza. La marca conocida cuesta ___ por onza. |
 | We gave up ___ to stay under budget. | Bütçeyi aşmamak için ___ vazgeçtik. | Abrimos mão de ___ para ficar no orçamento. | Renunciamos a ___ para no pasarnos del presupuesto. |
-
-**[check with a native speaker]**
 
 ## The peer check (Day 2, Step 4). Trade sheets with the station next door.
 

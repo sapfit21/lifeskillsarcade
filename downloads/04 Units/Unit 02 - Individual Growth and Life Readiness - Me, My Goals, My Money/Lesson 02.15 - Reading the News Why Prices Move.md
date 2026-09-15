@@ -39,7 +39,7 @@ Tier 3 (FACS): dispatch, supply, demand, headline, trading window, hold. See the
 - Investor Journal from Lesson 2.14, in the folder
 - Slides: `Slides 02.15 - Reading the News Why Prices Move`
 - Exit cards
-- Setup notes: before each period, use Jump to Window in the Command Bridge to set the opening window for the day (Day 1 opens at window 7, Day 2 at window 13), so every period sees the same story. [Sal: the Desktop version shares market state across periods; confirm the live site behaves the same.] Read the six dispatches for each day in advance and pick the one you will use for the do now.
+- Setup notes: before each period, use Jump to Window in the Command Bridge to set the opening window for the day (Day 1 opens at window 7, Day 2 at window 13), so every period sees the same story. Read the six dispatches for each day in advance and pick the one you will use for the do now.
 
 ## Pre-assessment
 
@@ -127,4 +127,3 @@ ELA: the three tests are the same source evaluation the ELA teacher uses for res
 - If Day 1 runs short, cut Part A to five matches and skip the debrief; take the missed match into the Day 2 do now. Never cut the trading window; students who did not get to react to the dispatches have no entry to write.
 - The dispatches on the site are pre-written and tied to the window number, so the story is the same every year. Read the six for the day before class so you can pick the clearest one for the do now and know which one is a trap.
 - Common mistake: students buy on every positive dispatch and sell on every negative one, six trades in ten minutes. That is fine this week; it produces the panic on Day 6 that the topic is built around. Do not stop it. Do ask, at the desk, "What did that trade cost you in the price gap?"
-- [Sal: your Command Bridge can send a custom dispatch. One fake hype dispatch on Day 2, sent by you and labeled "Anonymous," is a great Part B live test. Tell them afterward that you wrote it.]

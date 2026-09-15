@@ -34,7 +34,7 @@ ____________________________________________________________________
 | **2. What you are good at** | One or two skills, and where you can prove them. | |
 | **3. Why you fit this job** | The connection between your skill and this specific job. | |
 
-**Sentence starters in four languages** [check with a native speaker]
+**Sentence starters in four languages**
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -99,7 +99,7 @@ A different kind of question: **"Tell me about a time when..."** Those need a st
 
 **The part everybody skips is the** ______________. **Do not skip it.**
 
-**Sentence starters in four languages** [check with a native speaker]
+**Sentence starters in four languages**
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

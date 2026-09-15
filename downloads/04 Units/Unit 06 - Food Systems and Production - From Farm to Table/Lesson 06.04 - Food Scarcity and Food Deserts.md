@@ -31,8 +31,6 @@ This topic sits close to some students' lives. Three rules, said out loud at the
 2. This is not something that happens only somewhere else. One in eight households in this country has trouble affording enough food in a given year, and there are families in every district in New York, including well-off ones. I say that plainly and I do not name anybody.
 3. The tone is problem solving, not pity. The question is how a system produces this result and what communities do about it, not who to feel sorry for.
 
-[Sal: you know your roster. If you know a student is living this, the person to loop in before this lesson is the counselor, not the student.]
-
 ## Enduring understanding and essential question
 
 **Big idea:** Having enough food is not only about money. It is also about distance, transportation, time, and what the nearest store actually stocks. Change any one of those and the same family eats differently.
@@ -121,25 +119,24 @@ None, and deliberately none. Nothing about this lesson goes home as an assignmen
 
 ## Connections
 
-Social studies: this is a geography and civics lesson as much as a FACS lesson, and the map task is the same skill as any thematic map reading. Math: unit price and scale conversion. Community: a food pantry coordinator is usually willing to speak for ten minutes and to explain what the pantry actually needs, which is almost never canned corn. A pantry drive is a real service option, and it belongs in the Unit 7 capstone if a class wants to run one. [Sal: if your school runs a pantry or a backpack program, the coordinator is the right guest, and the visit should be arranged so no student in the room is identified as a client.]
+Social studies: this is a geography and civics lesson as much as a FACS lesson, and the map task is the same skill as any thematic map reading. Math: unit price and scale conversion. Community: a food pantry coordinator is usually willing to speak for ten minutes and to explain what the pantry actually needs, which is almost never canned corn. A pantry drive is a real service option, and it belongs in the Unit 7 capstone if a class wants to run one.
 
 ## Sources
 
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. d), 3. b), 3. c), and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 5. b); Theme Module 03, Financial and Consumer Literacy, line 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Thinking Skills. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.4 and 14.1.3.
-- The neighborhood, the distances, and the two price lists on the handout are constructed for teaching. The prices are written to feel like a real Long Island supermarket and a real corner store, and the handout says so on its face. [Sal: update the supermarket column from this week's circular and the convenience column from whatever store is near the school; students will believe the numbers more if they recognize them.]
-- Program facts on SNAP and WIC are stated at the level of what each program is and who runs it. [Sal: verify current New York eligibility language on the state OTDA and Department of Health pages before you teach it, and keep it to facts.]
+- The neighborhood, the distances, and the two price lists on the handout are constructed for teaching. The prices are written to feel like a real Long Island supermarket and a real corner store, and the handout says so on its face.
+- Program facts on SNAP and WIC are stated at the level of what each program is and who runs it.
 
 ## Teacher notes
 
 - Read the three rules out loud. Do not paraphrase them. The lesson only works if the room knows it is safe.
 - If time runs short, cut the convenience store cart and use the printed sample. Never cut Step 4; ending on "here is what people do about it" is the whole reason this lesson is teachable at this age.
-- One optional minute inside Step 4, if you want FSP 3. b) met on both halves in this period: after SNAP, name one other country's program in a sentence, for example the United Kingdom's Healthy Start vouchers for pregnant women and young children, or Brazil's national school meal program, which buys a set share of its food from small local farms. Say the point in one line: every country decides by law who gets food help and what the money can buy, and that decision changes what is on the shelf. [Sal: pick a country your students have a connection to; the Turkish and Portuguese speakers in the room will have one.]
+- One optional minute inside Step 4, if you want FSP 3. b) met on both halves in this period: after SNAP, name one other country's program in a sentence, for example the United Kingdom's Healthy Start vouchers for pregnant women and young children, or Brazil's national school meal program, which buys a set share of its food from small local farms. Say the point in one line: every country decides by law who gets food help and what the money can buy, and that decision changes what is on the shelf.
 - Common mistake: students decide the convenience store owner is the villain. Redirect with the volume question in the "deepen" list. The point is a system, not a bad guy.
 - Watch the room. If a student goes quiet, let them be quiet, and check in after class without making it a conversation about food.
 - Do not ask for a show of hands on anything about money or food at home. Not once, not as a warm-up, not as a joke.
 - This lesson pairs naturally with the Unit 2 budgeting work and with ClassroomStreet. A student who ran a budget in that simulation already knows what a fixed income feels like. Use that language.
-- [Sal: your Brentwood students knew which stores near them were expensive. That knowledge is an asset in this lesson, but let them volunteer it about stores, not about themselves.]

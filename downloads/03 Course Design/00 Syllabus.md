@@ -9,7 +9,7 @@
 **Course length:** Full year, every day, one 40-minute period
 **Credit:** This course counts toward the New York State middle level requirement of 1 3/4 units of career and technical education (Commissioner's Regulation 100.4). It covers what districts used to call Home and Career Skills, and more.
 
-Draft of 2026-09-11. [Sal: fill the brackets, check the grading policy against the school's, and read the whole thing aloud once. It is written in your voice.]
+Draft of 2026-09-11.
 
 ## What this class is
 
@@ -90,4 +90,4 @@ FACS is the class where your child learns to cook, sew, budget, and plan. Ask th
 
 This course is aligned to the New York State Middle Level CTE Family and Consumer Sciences framework (six content modules and six CTE theme modules), the NYS Learning Standards for Family and Consumer Sciences (Intermediate), the NYS Career Development and Occupational Studies standards, and the National Standards for Family and Consumer Sciences Education 3.0. Every unit and lesson on the course website names the exact standard lines it teaches.
 
-Sign and return the last page. [Sal: add the school's signature slip.]
+Sign and return the last page.

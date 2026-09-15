@@ -78,8 +78,6 @@ ________________________________________________________________________
 | My job in this block is ___. | Bu bölümdeki görevim ___. | Meu trabalho neste bloco é ___. | Mi trabajo en este bloque es ___. |
 | If it is late, we will ___ instead. | Gecikirse, onun yerine ___ yapacağız. | Se atrasar, vamos ___ em vez disso. | Si se retrasa, vamos a ___ en su lugar. |
 
-**[check with a native speaker]**
-
 * * *
 
 # Page 3. The Station Card
@@ -202,8 +200,6 @@ Pick three. Copy them onto your card. Then write one that is only about your dis
 | 10 | If anyone has a food allergy, tell the teacher before you start. | Kimsenin gıda alerjisi varsa başlamadan önce öğretmene söyle. | Se alguém tiver alergia alimentar, avise o professor antes de começar. | Si alguien tiene alergia a un alimento, dile al maestro antes de empezar. |
 | 11 | Clean as you go. A wet floor is a fall. | İş ilerledikçe temizle. Islak zemin düşme demektir. | Limpe enquanto trabalha. Um chão molhado é uma queda. | Limpia mientras trabajas. Un piso mojado es una caída. |
 | 12 | Reheated meat goes to 165 degrees F. The teacher checks it with the thermometer. | Isıtılan et 165 dereceye (F) gelir. Öğretmen termometreyle kontrol eder. | Carne reaquecida vai a 165 graus F. O professor verifica com o termômetro. | La carne recalentada llega a 165 grados F. El maestro lo revisa con el termómetro. |
-
-**[check with a native speaker]**
 
 ## The six-step sanitation routine (the same six steps all year, in this order)
 

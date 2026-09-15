@@ -6,7 +6,7 @@ Print the catalog (pages 1 and 2) once per pair. Print the Budget Sheet (page 3)
 
 ## Pages 1 and 2: The Furnishing Catalog
 
-Every price is a realistic 2026 price for Long Island and is marked [update]. Three columns for every item:
+Every price is a realistic 2026 price for Long Island and is to be refreshed before teaching. Three columns for every item:
 
 - **New** (a box icon): from a store, in a box, with a warranty.
 - **Secondhand** (a recycle-arrow icon): from a thrift store, a yard sale, or a marketplace listing. You check it yourself before you buy.
@@ -14,7 +14,7 @@ Every price is a realistic 2026 price for Long Island and is marked [update]. Th
 
 A dash in a column means that item is not sold that way. "None" under DIY means there is no safe or practical way to make it.
 
-**Sales tax:** everything in this catalog is taxed at 8.625 percent [update to your county's rate]. Food is not taxed; furniture is. Compute the tax once, on the subtotal, at the bottom of the Budget Sheet. (In real life a yard sale item from a neighbor usually has no sales tax collected; for this project, tax everything so the math is one rule.)
+**Sales tax:** everything in this catalog is taxed at 8.625 percent. Food is not taxed; furniture is. Compute the tax once, on the subtotal, at the bottom of the Budget Sheet. (In real life a yard sale item from a neighbor usually has no sales tax collected; for this project, tax everything so the math is one rule.)
 
 ### Beds and sleep
 
@@ -143,13 +143,13 @@ Use the five-step decision model: name the choice, list options, weigh each agai
 
 Frame for ELL students: "I chose ___ (new / secondhand / DIY) for ___ because the client needs ___."
 
-Word bank: budget (bütçe / orçamento / presupuesto), tax (vergi / imposto / impuesto), total (toplam / total / total), new (yeni / novo / nuevo), secondhand (ikinci el / de segunda mão / de segunda mano), make it (kendin yap / faça você mesmo / hazlo tú mismo). [check with a native speaker]
+Word bank: budget (bütçe / orçamento / presupuesto), tax (vergi / imposto / impuesto), total (toplam / total / total), new (yeni / novo / nuevo), secondhand (ikinci el / de segunda mão / de segunda mano), make it (kendin yap / faça você mesmo / hazlo tú mismo).
 
 Teacher initials on the final total: ______
 
 * * *
 
-## Page 4: Sales tax table at 8.625 percent [update]
+## Page 4: Sales tax table at 8.625 percent
 
 Find the subtotal closest below yours, then add the tax on the rest by hand, or multiply the whole subtotal by 0.08625. Every row: subtotal, tax, total.
 
@@ -180,6 +180,6 @@ The hidden number: to land at or under $400 with tax, the subtotal has to be $36
 
 - There is no single right budget. A "Meets" Budget Sheet has every plan piece as a line, a correct running subtotal, the tax computed once, a total at or under budget, needs before wants, and three justifications tied to the client's need.
 - Worked example, Okafor card, one strong answer: twin bed frame DIY platform $60; twin mattress new $149; mattress protector new $25; nightstand secondhand $15; armchair secondhand $45; table lamp secondhand $10; LED bulbs new $12; night lights new $14; floating shelves DIY $15; paint new $58 (blue). Subtotal $403. Over. Trade-off: paint becomes one quart and a borrowed roller [write in, $18], saving $40; the shelves become one secondhand shelf, $12, saving $3. New subtotal $360; tax $31.05; total $391.05; under by $8.95. No rug (the rule). The TV is a want and waits.
-- Worked example, tiny house: a kitchen counter with a two-burner cooktop and a sink [write in, new $420], a mini fridge secondhand $80, a composting toilet new $650 [write in], and a shower kit new $380 [write in] come to $1,530 before a single chair. A strong tiny house team discovers that the toilet, the shower, and the kitchen eat the budget and that the couch, the table, the storage, and the loft ladder have to be DIY or secondhand, or the fixtures have to be secondhand (a used shower kit is fine; a used composting toilet is not). That discovery is the lesson. [Sal: add the tiny house fixtures (cooktop, sink, shower kit, composting toilet) to the catalog with your prices if you want the tiny house priced fully; the blank lines cover it for now. Realistic 2026 figures: two-burner cooktop $90 to $150; bar sink with faucet $120 to $200; shower kit 32 by 32 $350 to $500; composting toilet $600 to $1,000; all [update].]
+- Worked example, tiny house: a kitchen counter with a two-burner cooktop and a sink [write in, new $420], a mini fridge secondhand $80, a composting toilet new $650 [write in], and a shower kit new $380 [write in] come to $1,530 before a single chair. A strong tiny house team discovers that the toilet, the shower, and the kitchen eat the budget and that the couch, the table, the storage, and the loft ladder have to be DIY or secondhand, or the fixtures have to be secondhand (a used shower kit is fine; a used composting toilet is not). That discovery is the lesson. Realistic 2026 figures for the fixtures, to be refreshed before teaching: two-burner cooktop $90 to $150; bar sink with faucet $120 to $200; shower kit 32 by 32 $350 to $500; composting toilet $600 to $1,000.
 - Common errors to catch: the tax added to every line (same total, more mistakes); a secondhand mattress (not allowed); a DIY read as $0; the subtotal copied as the total.
 - Recheck routine from Lesson 1.19: a wrong running subtotal is recalculated from line 1 with a partner.

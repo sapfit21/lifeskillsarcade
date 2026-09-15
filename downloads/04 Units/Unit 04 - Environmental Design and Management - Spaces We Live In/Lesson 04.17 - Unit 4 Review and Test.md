@@ -86,7 +86,7 @@ Written above under the procedure. Do now 3, game 15, transition 2, test 20 = 40
 
 ## Differentiation and supports
 
-- ELL: the review game cards have a picture cue on the front for the safety, conservation, and color categories; the test allows the Unit 4 vocabulary list with translations as a word bank; the scenario item is read aloud to the class once; the short written response may be written in the home language and scored on content (arrange a translation with the ELL teacher) [Sal: check the school's testing accommodation rule].
+- ELL: the review game cards have a picture cue on the front for the safety, conservation, and color categories; the test allows the Unit 4 vocabulary list with translations as a word bank; the scenario item is read aloud to the class once; the short written response may be written in the home language and scored on content (arrange a translation with the ELL teacher).
 - IEP and 504 (general): extended time on the test into the first ten minutes of Unit 5 Lesson 5.1 or a study hall, per the plan; items read aloud; a reduced-choice version of the matching items (three choices instead of five); a calculator on any item; a separate setting if the plan says so.
 - Grade 6 support: the test's grade 6 version drops item 20 (the second written response line) and gives the tax as a dollar amount on the budget item so the student adds instead of multiplying.
 - Grade 8 stretch: item 20's second prompt (what would you cut from the budget first, and why) is required; a stretch item on percent of the budget is offered for two bonus points.
@@ -115,7 +115,7 @@ Math: the scale and percent items are the same skills the math teacher tests; a 
 
 - NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b), 1. d), 2. c), 3. a), 4. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Health, Safety, and Wellness 3. c); Sustainability 3. e); Financial and Consumer Literacy 4. c); Problem Solving and Innovation 2. a) h. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.6.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - `03 Course Design/03 Grading Plan.md` (retake rule).
 
@@ -125,5 +125,4 @@ Math: the scale and percent items are the same skills the math teacher tests; a 
 - Common mistake in the game: a team writes the answer before the card is finished. Read the whole card, then start the 20 seconds.
 - Common mistake on the test: the scale conversion done backward (inches to feet when the item asks feet to inches). The do now is there to fix that before the test.
 - The scenario on the test uses a new client (not one of the six cards) so a student cannot answer from memory of their own project.
-- [Sal: if a class had a bad day on the model or the pitch, the review game is where you say what the models got right before anyone sits down for the test. Ten seconds per model, no names.]
 - Models go home on day 116 with the rubric. Photograph them first (no names, no faces).

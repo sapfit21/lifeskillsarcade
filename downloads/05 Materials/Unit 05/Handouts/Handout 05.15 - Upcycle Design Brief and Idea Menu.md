@@ -127,7 +127,7 @@ My item starts as ______________________ and becomes ______________________ for 
 
 The one measurement that ruins this if I get it wrong: ______________________
 
-What it would cost to buy this new: $__________ [update]. What it cost me to make: $__________ [update]. The difference: $__________
+What it would cost to buy this new: $__________. What it cost me to make: $__________. The difference: $__________
 
 * * *
 
@@ -194,8 +194,6 @@ If your student would rather use something of their own, it has to be something 
 If you have clean, used textiles you would like to donate to the class bin (t-shirts, towels, pillowcases, jeans, sweaters with holes, sheets, fabric scraps), we will take them and everyone will use them. Donating is not required and is not tracked.
 
 Thank you,
-
-[Sal: your name, your room number, your school email, and the best way to reach you]
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

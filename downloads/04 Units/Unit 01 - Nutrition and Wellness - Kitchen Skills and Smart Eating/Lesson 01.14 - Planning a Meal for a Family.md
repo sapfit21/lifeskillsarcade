@@ -123,4 +123,3 @@ Health: the health teacher's MyPlate and food allergy lessons feed this one; FAC
 - Common mistake: teams plan a dinner they like instead of one the card family would eat. Ask "who on the card eats this?" for every dish.
 - The pantry column is the one students skip. It matters most in Lesson 1.18, when a pantry item is free money on the $40 cap. Point at it today.
 - Keep the family cards. The same three families come back in Lesson 1.18 as the project scenario, so students walk into the project already knowing the families.
-- [Sal: if your students have real food rules in the room (halal, kosher, vegetarian, allergies), let them say so only if they want to. Never call on a student to explain their own rule.]

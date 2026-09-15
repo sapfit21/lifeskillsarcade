@@ -123,7 +123,7 @@ None on Day 1 beyond finishing the scenario table. None on Day 2. Optional: use 
 
 ## Connections
 
-Inside the building: the health teacher, who owns the substance and sexual pressure content, gets the four refusal steps so both courses teach the same steps in the same order. The drama or ELA teacher can lend a two-minute lesson on projecting to the back of the room before Day 2. The counselor may want the skits for an advisory period. [Sal: ask which refusal steps the health course already teaches; match the wording if they have one.]
+Inside the building: the health teacher, who owns the substance and sexual pressure content, gets the four refusal steps so both courses teach the same steps in the same order. The drama or ELA teacher can lend a two-minute lesson on projecting to the back of the room before Day 2. The counselor may want the skits for an advisory period.
 
 ## Sources
 
@@ -139,4 +139,3 @@ Inside the building: the health teacher, who owns the substance and sexual press
 - Day 2: initial every plan before a team performs. It takes ten seconds per team and it stops the one skit you would regret.
 - Common mistake: skits where the refuser gives a long apology ("sorry, sorry, I really wish I could but"). Point it out kindly in the debrief: an apology invites a second push. "No thanks" is complete.
 - Set the no-applause-until-the-end rule before the first skit, or the first team gets a big hand and the last team gets nothing.
-- [Sal: your students' hardest cards will not be the ones on the handout; they will be the ones they add. If a team writes its own card, read it before they use it.]

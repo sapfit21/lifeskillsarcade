@@ -2,13 +2,13 @@
 
 Unit 2, Individual Growth and Life Readiness. The unit's 54 Tier 3 words across the five topics, with a one-line definition written for a grade 6 to 7 reader and columns for Turkish, Portuguese, and Spanish.
 
-**Translation status: [check with a native speaker].** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Money words are the ones most likely to differ by country (a "check," a "debit card," and "buy now pay later" have different everyday names in Turkey, Brazil, Portugal, and the Spanish-speaking countries), so the English term stays on every card, because students will see the English word on a real pay stub, a real statement, and a real app.
+**Translation status.** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Money words are the ones most likely to differ by country (a "check," a "debit card," and "buy now pay later" have different everyday names in Turkey, Brazil, Portugal, and the Spanish-speaking countries), so the English term stays on every card, because students will see the English word on a real pay stub, a real statement, and a real app.
 
 Two words appear twice on purpose. "Interest" means what you like (Topic 2.1) and what money earns or costs (Topic 2.3); the translations are different words. "Return" here is the money word, not the verb.
 
 How lessons use this file: each lesson names its own Tier 3 words; the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints this table as picture-ready cards.
 
-## The table [check with a native speaker]
+## The table
 
 | # | Topic | English term | Student definition | Turkish | Portuguese | Spanish |
 |---|---|---|---|---|---|---|
@@ -69,7 +69,7 @@ How lessons use this file: each lesson names its own Tier 3 words; the handout f
 
 ## Sentence starters
 
-Print these on the back of the Investor Journal, the All About Me planner, and the share and feedback sheet. [Sal: swap in the Turkish and Portuguese starters from your Brentwood Fortune Street run if they read better than these.] [check with a native speaker]
+Print these on the back of the Investor Journal, the All About Me planner, and the share and feedback sheet.
 
 ### For the Investor Journal
 

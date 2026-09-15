@@ -40,7 +40,7 @@ Tier 3 (FACS): percent return, buying low, rebalancing, peak, bottom, starting v
 - Investor Journal in the folder
 - Slides: `Slides 02.18 - Buying Low Rebalancing and Return Math`
 - Exit cards
-- Setup notes: set the market to window 33 before class; the recovery begins here and runs through window 40 today. Print or note the closing prices from windows 24 (the peak before the crisis) and 32 (the bottom) for Sparkstone, so the do now has real numbers from this class's run. [Sal: the numbers in the handout are example prices from your README starting values and a made-up price path; the live site's path will differ. Use the handout numbers for the practice problems and the live numbers for the "my own return" box.] Tell the math teacher this is percent change week.
+- Setup notes: set the market to window 33 before class; the recovery begins here and runs through window 40 today. Print or note the closing prices from windows 24 (the peak before the crisis) and 32 (the bottom) for Sparkstone, so the do now has real numbers from this class's run. Tell the math teacher this is percent change week.
 
 ## Pre-assessment
 
@@ -48,7 +48,7 @@ The grade 8 stretch students already computed a percent drop in Lesson 2.17. Eve
 
 ## Do now and hook (Time: 3 min)
 
-On the board: "Sparkstone was AQ57.80 before the crisis and AQ31.20 at the bottom. Someone bought 100 units at the bottom. If the price goes back to 57.80, how much does that person make? Now the harder one: what percent of their money did they make?" [Sal: swap in your class's real peak and bottom.]
+On the board: "Sparkstone was AQ57.80 before the crisis and AQ31.20 at the bottom. Someone bought 100 units at the bottom. If the price goes back to 57.80, how much does that person make? Now the harder one: what percent of their money did they make?"
 
 Debrief: 26.60 a unit, 2,660 on 100 units. The percent is 2,660 divided by 3,120, about 85 percent. Then the hook: "That is what buying low means. It is also what everyone who sold at the bottom handed to the person who bought from them. Today you learn the one formula that tells you who won."
 
@@ -87,7 +87,7 @@ Exit card: "Write the percent return formula in words. Then: my return today is 
 ## Differentiation and supports
 
 - ELL: the formula is shown as a picture (a fraction with "end minus start" on top and "start" on the bottom) on the slide and the handout; the words peak and bottom have a mountain drawing; sentence starter "My return is ___ percent because ___" on the journal template; pair with a partner for Part C.
-- IEP and 504 (general): calculators for all; Part A can be two problems instead of four; the handout has the subtraction line and the division line printed as separate boxes; extended time by finishing Part C at the start of Lesson 2.19; a student who cannot compute Part B by hand can read the percent from the site's gain or loss line if it shows one and copy it with the formula next to it. [Sal: confirm whether the live portfolio screen shows a percent.]
+- IEP and 504 (general): calculators for all; Part A can be two problems instead of four; the handout has the subtraction line and the division line printed as separate boxes; extended time by finishing Part C at the start of Lesson 2.19; a student who cannot compute Part B by hand can read the percent from the site's gain or loss line if it shows one and copy it with the formula next to it.
 - Grade 6 support: the practice problems use round numbers (start 100, end 120); Part C is the safe and the risky portfolio only, with the mixed portfolio done as a class.
 - Grade 8 stretch: the student also computes the percent return of the risky portfolio from the bottom to today (the recovery return, which is large and positive) and explains why it is not the same as the return from the start; and finds the venture with the biggest percent swing in their own ledger.
 - UDL checkpoint used: multiple means of representation (the formula as words, as a picture, and as a worked example) and multiple means of action and expression (Part B uses the student's own numbers; Part C can be answered with a circled letter and one sentence).
@@ -122,4 +122,4 @@ Math: percent change is a grade 7 standard (ratios and proportional relationship
 - Sal's original Day 10 taught risk-adjusted return (the Sharpe ratio idea). It is cut here for time and grade level; the grade 8 stretch (recovery return vs return from start) carries the idea that when you measure from matters.
 - Common mistake: dividing by the ending value. The handout prints "start" on the bottom in bold; say it three times anyway.
 - Common mistake: a student with a negative return thinks they "failed." Point at Part C: the class's best possible risky portfolio is also negative today. The report scores the reasoning, not the rank.
-- Tomorrow is the closing bell. Freeze the market at window 40 at the end of this period; do not advance before Lesson 2.19. [Sal: if the live site auto-advances overnight, the leaderboard tomorrow will not match today's exit cards. Turn it off or note the last window number on the board.]
+- Tomorrow is the closing bell. Freeze the market at window 40 at the end of this period; do not advance before Lesson 2.19.

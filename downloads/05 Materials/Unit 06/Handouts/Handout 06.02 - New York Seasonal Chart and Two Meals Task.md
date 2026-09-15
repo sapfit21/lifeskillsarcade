@@ -4,8 +4,6 @@ Name: ____________________________________  Date: ______________  Period: ______
 
 Print pages 1 to 3 for every student. Page 4 is the food picture bank for cut-and-glue and for the grade 6 version. Page 5 is the distance table for the grade 8 stretch.
 
-[Sal: check the chart once against the New York State Department of Agriculture and Markets availability calendar or a local farm stand list, and fix any month that is wrong for your part of the Island.]
-
 * * *
 
 ## Part 1. What grows in New York, and when
@@ -148,8 +146,6 @@ For cut-and-glue and for the grade 6 version. Print, cut apart, and glue into th
 | tomato | broccoli | lettuce | cucumber |
 | strawberry | blueberry | peach | banana |
 | orange | grapes | corn | mushroom |
-
-[Sal: your printer, your pictures. One clip-art image per box is enough, and photos of the real items from your store work better.]
 
 * * *
 

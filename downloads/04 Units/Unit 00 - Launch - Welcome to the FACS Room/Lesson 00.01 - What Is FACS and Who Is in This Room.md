@@ -35,7 +35,7 @@ Tier 3 (FACS): FACS (Family and Consumer Sciences), do now, exit card, hope card
 ## Materials and setup
 
 - The do now on the board before students walk in (see below), and a stack of index cards at the door
-- Seating: tables of four with a number card on each; a seat chart by table number so nobody chooses and nobody is left out [Sal: mixed grades if the section is mixed; put a bilingual pair at each table where you can]
+- Seating: tables of four with a number card on each; a seat chart by table number so nobody chooses and nobody is left out
 - Handout, one per student: `Handout 00.01 - Course Map and Hope Card.md`
 - Slides: `Slides 00.01 - What Is FACS and Who Is in This Room`
 - A tray of six real objects, one per module, on the front table, covered with a towel: a wooden spoon (Nutrition and Wellness), a coin or a play bill (Individual Growth and Life Readiness), a baby sock or a small toy (Human Development and Relationships), a paint chip or a tape measure (Environmental Design and Management), a needle and thread on a card (Apparel and Textile Production and Design), a can of beans with the label facing out (Food Systems and Production)
@@ -83,7 +83,7 @@ The hope card is the exit card. Three students read their module and one sentenc
 
 ## Differentiation and supports
 
-- ELL: the six module names on the slide have the six objects as pictures; the handout has the module names in Turkish, Portuguese, and Spanish (see `Vocabulary 00.md`, [check with a native speaker]); the introduction frame is printed as three sentence starters ("My name is ___. I can ___. I can offer ___."); seat a bilingual pair at each table where possible.
+- ELL: the six module names on the slide have the six objects as pictures; the handout has the module names in Turkish, Portuguese, and Spanish (see `Vocabulary 00.md`); the introduction frame is printed as three sentence starters ("My name is ___. I can ___. I can offer ___."); seat a bilingual pair at each table where possible.
 - IEP and 504 (general): the year map has the six names pre-printed so the student writes only the expectation; the introduction can be read from the card; a student who does not want to speak on day one says their name and passes, and the recorder writes their offer from the card; seat by the chart, not by choice.
 - Grade 6 support: the home column asks for three modules, not six; the hope card is one sentence.
 - Grade 8 stretch: add a seventh line to the year map: "the unit I think I will like least, and one thing that could change my mind"; the introduction adds one thing the student learned in a FACS or Home and Careers class before.
@@ -119,5 +119,4 @@ Inside the building: the ENL teacher, for the seat chart (who can pair with whom
 - If the period runs short, cut Step 2 to the two marks (skip the words) and keep Step 3 whole. The table introductions are the point of the day.
 - Common mistake: spending ten minutes on rules on day one. The rules come Friday, written with the class. Today is the map and the people.
 - The tray of objects works better than a slide. Let students touch the spoon and the needle; it tells them this is a doing class.
-- [Sal: if your school runs mixed-grade sections, the seat chart is the most important thing you do today. A grade 6 student alone at a table of grade 8 students will not speak on day one.]
 - Keep the hope cards. Reread them on the first day of each unit; a student who hoped for sewing in September is your first volunteer in Unit 5.

@@ -9,7 +9,7 @@ Lesson 1.17, one day, 13 slides.
 Notes: Hands for yes and no. The answer is no: three hours in the danger zone is past the two-hour rule.
 
 ## Slide 2: The $10 in the trash
-- Families in this country throw away a large share of the food they buy. [Sal: cite the USDA figure you trust; reported as 30 to 40 percent of the food supply.]
+- Families in this country throw away a large share of the food they buy.
 - On a $40 dinner budget, that is about $10 a week.
 - Today is about keeping that $10.
 Image: a grocery bag with a quarter of it drawn falling into a trash can.

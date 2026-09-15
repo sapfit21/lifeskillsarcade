@@ -8,7 +8,7 @@ Slide outline for Lesson 3.14, one day. Thirteen slides. Every family on every s
 - Unit 3: Growing Up, Getting Along
 - Do now: think of families from shows, movies, books, or games. Not real people you know
 - List as many different kinds of families as you can. Two minutes. Kinds, not names
-Notes: Hand vote on how many kinds each student listed: 1 to 2, 3 to 4, 5 or more. Collect the kinds on the board without judging any of them. [Sal: if the last three pairs from Lesson 3.13 still owe a performance, run them before this do now, five minutes.]
+Notes: Hand vote on how many kinds each student listed: 1 to 2, 3 to 4, 5 or more. Collect the kinds on the board without judging any of them.
 
 ## Slide 2: By the end of today
 

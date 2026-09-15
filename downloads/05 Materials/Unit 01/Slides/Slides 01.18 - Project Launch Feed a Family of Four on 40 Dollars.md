@@ -1,6 +1,6 @@
 # Slides 01.18: Project Launch: Feed a Family of Four on $40
 
-Lesson 1.18, two days. Day 1: slides 1 to 11. Day 2: slides 12 to 21. All prices marked [update from this week's circular].
+Lesson 1.18, two days. Day 1: slides 1 to 11. Day 2: slides 12 to 21. All prices to be refreshed from the current circular before teaching.
 
 ## Slide 1: Do now (Day 1)
 - Two families each made dinner for four last night.
@@ -14,7 +14,6 @@ Notes: Hands for $12, hands for $38. Then reveal.
 - Bakery garlic bread $4.49
 - Two-liter soda $2.49
 - Name-brand ice cream $6.99, plus tax on the soda
-- [update from this week's circular]
 Image: a photo of the five items on a counter, or a drawn plate: a square of lasagna, a pile of salad, bread, a glass of soda.
 
 ## Slide 3: Dinner B: $12.16
@@ -23,7 +22,6 @@ Image: a photo of the five items on a counter, or a drawn plate: a square of las
 - Frozen mixed vegetables $1.79
 - Store-brand shredded parmesan $2.49
 - Italian bread $2.99, plus a can of beans from the pantry $0 and water
-- [update from this week's circular]
 Image: a drawn plate: pasta with vegetables in red sauce, bread, a glass of water.
 
 ## Slide 4: Check both against MyPlate

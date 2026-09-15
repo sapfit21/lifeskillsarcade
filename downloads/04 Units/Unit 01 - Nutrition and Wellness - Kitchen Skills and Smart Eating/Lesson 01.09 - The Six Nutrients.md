@@ -20,7 +20,7 @@
 
 Health class typically covers: the names of the food groups, "eat a balanced diet," and the basic idea that the body needs food for energy and growth. Some health programs also name the six nutrients once.
 
-This lesson goes further: students match real foods to the nutrient they supply, explain what each nutrient does in the body, and compare what three real people at different ages need. That is the nutrition science a cook needs before Lesson 1.10 (plates), Lesson 1.11 (labels), and the $40 family meal project. [Sal: ask the health teacher which week they teach nutrients so this lesson lands after it or at least a week away from it.]
+This lesson goes further: students match real foods to the nutrient they supply, explain what each nutrient does in the body, and compare what three real people at different ages need. That is the nutrition science a cook needs before Lesson 1.10 (plates), Lesson 1.11 (labels), and the $40 family meal project.
 
 ## Enduring understanding and essential question
 
@@ -61,7 +61,7 @@ Today's do now is the second read.
 
 On the board: "Write what you ate for breakfast today, or the last thing you ate. Next to each food, write what you think it did for your body. One word is fine (energy, muscle, bones, nothing)."
 
-Debrief in two minutes: cold call three students, write their foods on the board. Then the hook: "Here is the pre-assessment score. [Sal: read the class number, for example 14 of 22 could name five nutrients.] You already know more than I expected, so today we skip the part you know and get to the part you do not: what these things actually do, and why your little cousin and your grandmother do not eat like you."
+Debrief in two minutes: cold call three students, write their foods on the board. Then the hook: "Here is the pre-assessment score. You already know more than I expected, so today we skip the part you know and get to the part you do not: what these things actually do, and why your little cousin and your grandmother do not eat like you."
 
 ## Procedure
 
@@ -123,10 +123,10 @@ Inside the building: the health teacher. FACS gives health a class that already 
 
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 2. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 1. b) and 1. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Standard 2, Intermediate. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.2.1 and 14.2.2.
-- Lifespan nutrient facts: Dietary Guidelines for Americans 2020 to 2025 (dietaryguidelines.gov), chapters on toddlers, adolescents, and older adults. [Sal: the 2025 to 2030 edition may be out; check the site and update the slide numbers if any changed.]
+- Lifespan nutrient facts: Dietary Guidelines for Americans 2020 to 2025 (dietaryguidelines.gov), chapters on toddlers, adolescents, and older adults.
 - Sal's own materials: the Unit 1 pre-assessment from Lesson 0.5.
 
 ## Teacher notes
@@ -134,5 +134,4 @@ Inside the building: the health teacher. FACS gives health a class that already 
 - If time runs short, cut Step 3 to two people (toddler and teen athlete) and keep the grandparent for the do now of Lesson 1.10.
 - Common mistake: students put every dairy card in Proteins or every dairy card in Fats. Milk, cheese, and yogurt are the classic "belongs in two piles" cards; that is the point of the rule. Do not fix it for them.
 - The pre-assessment rule at the top is the reason this lesson exists in one day and not two. If the class already knows the six nutrients, do not teach them again; teach the jobs and the lifespan piece, which health class does not do.
-- [Sal: your students eat breakfast at school. If the do now stalls because "I did not eat," switch to "the last thing you ate" and move on.]
 - Keep the card sets. They come back in Lesson 1.10 (build a plate), the no-kitchen version of Lesson 1.13, and the $40 project MyPlate check in Lesson 1.19.

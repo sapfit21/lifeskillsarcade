@@ -118,7 +118,7 @@ None on Day 1 beyond finishing Part 3 if it is not done. None on Day 2.
 
 ## Connections
 
-Inside the building: science, if the grade 7 life science course covers genes and traits the same month; agree on the words "heredity" and "trait" so students hear them twice. The counselor gets the "1 influence I want more of" lines (no names) as a read on what students say they are missing. [Sal: decide whether to share those.]
+Inside the building: science, if the grade 7 life science course covers genes and traits the same month; agree on the words "heredity" and "trait" so students hear them twice. The counselor gets the "1 influence I want more of" lines (no names) as a read on what students say they are missing.
 
 ## Sources
 
@@ -134,4 +134,3 @@ Inside the building: science, if the grade 7 life science course covers genes an
 - If Day 1 runs short, cut Step 2 to five items. If Day 2 runs short, cut the game to three rounds; never shorten the quiz below 15 minutes.
 - Common mistake: a student labels everything heredity because "that is science." The first language example fixes it fastest: born able to learn any language, got the one in the house.
 - The Day 2 game needs the 21 cards from Lesson 3.1. If they went missing, the stage names on slips of paper work.
-- [Sal: your Brentwood students come from many countries and languages. The first language example lands hard there; use it, and let a student who wants to name their language do it. Nobody has to.]

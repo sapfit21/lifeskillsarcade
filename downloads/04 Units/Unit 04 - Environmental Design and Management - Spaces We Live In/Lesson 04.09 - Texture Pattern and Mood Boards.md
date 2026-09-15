@@ -40,7 +40,7 @@ Tier 3 (FACS): texture, visual texture, actual texture, pattern, pattern scale, 
 
 ## Materials and setup
 
-- The swatch box, one per table of four: fabric scraps, wallpaper samples, tile and wood samples, paint chip cards, carpet squares if a flooring store donated any. Aim for about 40 pieces per box so a table has real choices. [Sal: the ReStore and a paint department will fill this box for free if you ask; the sewing bin from Unit 5 is the other source. Build one box per table once and it lasts years.]
+- The swatch box, one per table of four: fabric scraps, wallpaper samples, tile and wood samples, paint chip cards, carpet squares if a flooring store donated any. Aim for about 40 pieces per box so a table has real choices.
 - A stack of old magazines and catalogs, about one per two students, for cutting
 - Card stock, one half sheet per student (cut a letter sheet across the middle), plus a few spares
 - Scissors, one per student; glue sticks, one per pair
@@ -100,12 +100,12 @@ The boards go in the project folder. Say this out loud at the bell: "This board 
 
 ## Differentiation and supports
 
-- ELL: the handout carries a word bank with texture, pattern, mood, swatch, smooth, rough, soft, and shiny in Turkish, Portuguese, and Spanish (from `Vocabulary 04.md`, marked [check with a native speaker]); every one of the six texture words is taught with a swatch in the hand, so the word arrives with the object; the justification frame is printed on the handout ("For a ___ room I chose ___ because it feels ___ and the ___ pattern keeps it ___"); pair each ELL student with a partner who can point at a swatch and name it.
+- ELL: the handout carries a word bank with texture, pattern, mood, swatch, smooth, rough, soft, and shiny in Turkish, Portuguese, and Spanish (from `Vocabulary 04.md`, to be verified by a native speaker); every one of the six texture words is taught with a swatch in the hand, so the word arrives with the object; the justification frame is printed on the handout ("For a ___ room I chose ___ because it feels ___ and the ___ pattern keeps it ___"); pair each ELL student with a partner who can point at a swatch and name it.
 - IEP and 504 (general): four pieces is the whole product, so the writing load is one sentence; a student who struggles with writing gives the justification out loud to me at the table and I initial the line; pre-cut swatch squares in a labeled envelope for a student who cannot use scissors; the assignment card can be chosen rather than drawn if a student needs a room they can picture; extended time, the board and the sentence can be finished in the first five minutes of Lesson 4.10 Day 1; fidgets allowed, and the swatch box is itself a legitimate fidget today.
 - Grade 6 support: three pieces instead of four (color, texture, pattern, no object) and the printed sentence frame filled in with blanks; the judging table asks works or fights only, with no rule part named.
 - Grade 8 stretch: five pieces, two patterns on the board that must obey all three parts of the rule, and one line on the back naming the pattern scale of each in inches (a half-inch stripe next to a six-inch plaid); also write a seventh combination for the table next door to judge.
 - UDL checkpoint used: multiple means of representation (the same idea arrives as a spoken word, a slide photo, and a swatch in the hand) and multiple means of action and expression (the product is built by hand and defended in writing or out loud).
-- No-kitchen or no-machine alternative: this is not a lab, so no kitchen alternative is needed. The materials alternative matters more: if the swatch box has not been filled, the whole lesson runs on magazines, paint chips, and colored pencils. Students draw the texture in a one-inch box (cross hatching for coarse, smooth shading for smooth, small circles for bumpy) and label it, then cut the pattern and the object from magazines. Everything else is identical, including the rule, the judging, the board, and the strips. [Sal: the drawn version is also the version to use if a student has a sensory reason not to handle fabric or carpet.]
+- No-kitchen or no-machine alternative: this is not a lab, so no kitchen alternative is needed. The materials alternative matters more: if the swatch box has not been filled, the whole lesson runs on magazines, paint chips, and colored pencils. Students draw the texture in a one-inch box (cross hatching for coarse, smooth shading for smooth, small circles for bumpy) and label it, then cut the pattern and the object from magazines. Everything else is identical, including the rule, the judging, the board, and the strips.
 
 ## Assessment
 
@@ -129,7 +129,7 @@ Art: the art teacher teaches texture as an element and often teaches rubbings an
 
 - NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 2. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) sub-lines b. and d., and 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per the crosswalk, Part A.6. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1, 11.2.3, and 11.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - Sal's own materials: the Brentwood interior design packets in `Lesson Dups/Unit_1_Interior_Design`, including the "Mood Maker" packet, are the seed of the board and the room and mood pairing. The four-piece limit, the three-part layering rule, and the judging table are new.
 
@@ -141,5 +141,4 @@ Art: the art teacher teaches texture as an element and often teaches rubbings an
 - Combination 4 (everything shiny) is the argument you want. Let the table fight about it. The answer is that shine is a texture too, and a room where every surface is shiny has no contrast, so nothing reads as special.
 - The swatch box is the material that makes or breaks this lesson. Build it once. Label the box by category (fabric, wall, floor, chips) so the twelve-minute build is not a hunt.
 - This is the flex lesson of the unit. If a day is lost, the unit plan and the calendar move texture and pattern into the element list of Lesson 4.6 and the board into the last ten minutes of Lesson 4.11. If that happens, keep the three-part rule and the four-piece limit; those are the two things students actually use in the project.
-- [Sal: your students at Brentwood built mood boards already. If your version of the assignment list reads better than the eight cards on the handout, swap yours in and keep the four-piece limit.]
 - Photograph the boards, no names, before they go in the folders. They are the texture and pattern review slides for the vocabulary check and the examples for next year's Step 3.

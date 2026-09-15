@@ -52,7 +52,6 @@ Notes: Circulate in that order: rules, cost, steps.
 - Rice and Bean Bowl, about $13.33, no meat, stovetop only.
 - Pasta with Vegetables and Jarred Sauce, about $11.05, no meat, stovetop and oven.
 - Chicken Quesadillas, about $17.64, pre-cooked chicken, oven only.
-- [update from this week's circular]
 
 ## Slide 9: Lab roles for Day 2
 - Station Manager: reads the card, calls time.

@@ -2,7 +2,7 @@
 
 Print the thirteen cards (pages 1 to 3) on card stock, one set per table of four, and cut. Print the Project Chain sheet (page 4) and the "would I like this" self-check (page 5) one per student.
 
-Every pay figure is a typical yearly range for the United States, rounded, from the Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) or, for the two jobs the handbook does not list separately, from job listings. Every one is marked [update]; the numbers move every year. Pay in the New York City area is usually higher than the national figure.
+Every pay figure is a typical yearly range for the United States, rounded, from the Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) or, for the two jobs the handbook does not list separately, from job listings. Every one is to be refreshed before teaching; the numbers move every year. Pay in the New York City area is usually higher than the national figure.
 
 * * *
 
@@ -24,7 +24,7 @@ Picture line: a drafting pen and a rolled plan
 
 **Path:** a five-year college degree in architecture, then about three years of paid work under a licensed architect, then a licensing exam. College degree.
 
-**Pay range:** about $70,000 to $130,000 a year; median about $95,000 [update].
+**Pay range:** about $70,000 to $130,000 a year; median about $95,000.
 
 **Works most:** an office, with site visits.
 
@@ -42,7 +42,7 @@ Picture line: a paint chip fan and a floor plan
 
 **Path:** usually a two- or four-year degree in interior design; in New York, a state certification exam (NCIDQ) to use the title "certified interior designer." Some start as a designer's assistant. College degree, mostly.
 
-**Pay range:** about $40,000 to $100,000; median about $62,000 [update].
+**Pay range:** about $40,000 to $100,000; median about $62,000.
 
 **Works most:** an office and clients' homes.
 
@@ -60,7 +60,7 @@ Picture line: a hard hat and a clipboard
 
 **Path:** most start in a trade (carpentry is common) through a high school CTE program and an apprenticeship, then years on the job, then a contractor's license from the county. Some have a construction management degree. Apprenticeship or trade school, then experience.
 
-**Pay range:** about $60,000 to $160,000; construction managers' median about $105,000 [update]. Many own their business.
+**Pay range:** about $60,000 to $160,000; construction managers' median about $105,000. Many own their business.
 
 **Works most:** the job site.
 
@@ -78,7 +78,7 @@ Picture line: a wire and a switch
 
 **Path:** a high school CTE electrical program, then a four- to five-year paid apprenticeship (about 8,000 hours on the job plus classes), then a journeyman license. Apprenticeship. Paid from day one.
 
-**Pay range:** about $40,000 to $105,000; median about $62,000 [update]. Union electricians in the New York area often earn more.
+**Pay range:** about $40,000 to $105,000; median about $62,000. Union electricians in the New York area often earn more.
 
 **Works most:** job sites and clients' homes.
 
@@ -96,7 +96,7 @@ Picture line: a wrench and a pipe
 
 **Path:** high school CTE, then a four- to five-year paid apprenticeship, then a license. Apprenticeship.
 
-**Pay range:** about $40,000 to $105,000; median about $63,000 [update].
+**Pay range:** about $40,000 to $105,000; median about $63,000.
 
 **Works most:** job sites and clients' homes.
 
@@ -114,7 +114,7 @@ Picture line: a thermostat
 
 **Path:** a six-month to two-year trade school program or a high school CTE program, then a paid apprenticeship of two to five years, plus an EPA certification to handle refrigerants. Trade school or apprenticeship.
 
-**Pay range:** about $37,000 to $90,000; median about $60,000 [update].
+**Pay range:** about $37,000 to $90,000; median about $60,000.
 
 **Works most:** clients' homes and buildings.
 
@@ -132,7 +132,7 @@ Picture line: a house key
 
 **Path:** a 77-hour course in New York, a state exam, and a license; no degree required. License after a course. Pay depends on sales.
 
-**Pay range:** about $30,000 to $130,000; median about $55,000 [update]. Commission, so it varies a lot.
+**Pay range:** about $30,000 to $130,000; median about $55,000. Commission, so it varies a lot.
 
 **Works most:** clients' homes and an office.
 
@@ -150,7 +150,7 @@ Picture line: a building with many windows
 
 **Path:** experience in rentals or an office, often a real estate license; some have a business degree. License and experience.
 
-**Pay range:** about $40,000 to $115,000; median about $65,000 [update].
+**Pay range:** about $40,000 to $115,000; median about $65,000.
 
 **Works most:** an office and the buildings.
 
@@ -168,7 +168,7 @@ Picture line: a flashlight and a checklist
 
 **Path:** in New York, a 140-hour course plus 40 hours of supervised inspections, then a state exam and license; many are former contractors. License after a course and experience.
 
-**Pay range:** about $45,000 to $105,000; construction and building inspectors' median about $70,000 [update].
+**Pay range:** about $45,000 to $105,000; construction and building inspectors' median about $70,000.
 
 **Works most:** other people's houses.
 
@@ -186,7 +186,7 @@ Picture line: a house with arrows showing heat leaking out
 
 **Path:** a certification course (BPI or RESNET, a few weeks) plus experience; some come from HVAC or construction. Certification after a course.
 
-**Pay range:** about $45,000 to $80,000 (from job listings; the handbook does not list this job separately) [update].
+**Pay range:** about $45,000 to $80,000 (from job listings; the handbook does not list this job separately).
 
 **Works most:** clients' homes.
 
@@ -204,7 +204,7 @@ Picture line: a tree and a path
 
 **Path:** a landscape architect has a college degree and a license (that is who stamps the ramp plan); a landscape designer may learn through a two-year program or on a crew. College degree for the architect; trade or two-year program for the designer.
 
-**Pay range:** about $50,000 to $120,000; landscape architects' median about $80,000 [update].
+**Pay range:** about $50,000 to $120,000; landscape architects' median about $80,000.
 
 **Works most:** outside, and an office.
 
@@ -222,7 +222,7 @@ Picture line: a saw and a chair
 
 **Path:** high school CTE woodworking, then a shop apprenticeship or a two-year program; many are self-employed. Apprenticeship or trade school.
 
-**Pay range:** about $30,000 to $65,000; woodworkers' median about $42,000 [update]. Custom makers who own a shop can earn more.
+**Pay range:** about $30,000 to $65,000; woodworkers' median about $42,000. Custom makers who own a shop can earn more.
 
 **Works most:** a workshop.
 
@@ -240,7 +240,7 @@ Picture line: a leaf on a blueprint
 
 **Path:** usually a college degree (environmental science, engineering, architecture, or business) plus a green building credential (LEED is the common one). College degree.
 
-**Pay range:** about $55,000 to $110,000 (from job listings; the handbook does not list this job separately) [update].
+**Pay range:** about $55,000 to $110,000 (from job listings; the handbook does not list this job separately).
 
 **Works most:** an office, with site visits.
 
@@ -291,11 +291,11 @@ By where they work most:
 | What they do (one sentence) | | | |
 | A day in the life (one thing) | | | |
 | The path (degree / apprenticeship or trade / license after a course) | | | |
-| Pay range [update] | | | |
+| Pay range | | | |
 | One thing I would like about it | | | |
 | One thing I would not like | | | |
 
-Word bank: job (iş / trabalho / trabajo), build (inşa etmek / construir / construir), fix (tamir etmek / consertar / arreglar), draw (çizmek / desenhar / dibujar), sell (satmak / vender / vender), check (kontrol etmek / verificar / revisar). [check with a native speaker]
+Word bank: job (iş / trabalho / trabajo), build (inşa etmek / construir / construir), fix (tamir etmek / consertar / arreglar), draw (çizmek / desenhar / dibujar), sell (satmak / vender / vender), check (kontrol etmek / verificar / revisar).
 
 ### Part 4: Predict the 2045 house
 
@@ -354,7 +354,7 @@ Career 1: ______________________ My fit rating (1 to 4): ______ Evidence from Pr
 
 Career 2: ______________________ My fit rating (1 to 4): ______ Evidence from Project 04: "I rated it ______ because in the project I ______________________________."
 
-One CTE program near me that leads to one of these (from the teacher): ______________________ [Sal: name the local BOCES or your school's CTE partner on the slide]
+One CTE program near me that leads to one of these (from the teacher): ______________________
 
 ### Exit line (tear off)
 
@@ -378,6 +378,6 @@ Accept a defended alternative (a contractor with a construction management degre
 
 Reject the gadget answer. "A robot that folds laundry" is not a design prediction until the student says what changes about the room. The question to ask is "What has to change about the room for that to work?" A student who answers "the closet needs an outlet and a drain" has made the design prediction and gets full credit.
 
-Sources for the two facts: U.S. Census Bureau, population projections by age and the historical series on average household size (census.gov). Both are given as a direction, not a figure, so the page does not go stale. [Sal: if you print the actual numbers, print the year next to each.]
+Sources for the two facts: U.S. Census Bureau, population projections by age and the historical series on average household size (census.gov). Both are given as a direction, not a figure, so the page does not go stale.
 
-**Sources for the cards:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, entries for architects; interior designers; construction managers; electricians; plumbers, pipefitters, and steamfitters; heating, air conditioning, and refrigeration mechanics and installers; real estate brokers and sales agents; property, real estate, and community association managers; construction and building inspectors; landscape architects; woodworkers. New York license facts: NYS Department of State (real estate salesperson, 77-hour course; home inspector, 140 hours plus 40 supervised); NYS Office of the Professions (architecture; certified interior designer). Energy auditor and sustainability consultant ranges are from job listings. [Sal: check every number before you print; they are all marked [update].]
+**Sources for the cards:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, entries for architects; interior designers; construction managers; electricians; plumbers, pipefitters, and steamfitters; heating, air conditioning, and refrigeration mechanics and installers; real estate brokers and sales agents; property, real estate, and community association managers; construction and building inspectors; landscape architects; woodworkers. New York license facts: NYS Department of State (real estate salesperson, 77-hour course; home inspector, 140 hours plus 40 supervised); NYS Office of the Professions (architecture; certified interior designer). Energy auditor and sustainability consultant ranges are from job listings.

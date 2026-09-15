@@ -39,7 +39,7 @@ Tier 3 (FACS): budget, income, expense, fixed expense, variable expense, savings
 - Calculators, one per pair
 - Students' $100 sheets from Lesson 2.7 and their SMART goal from Lesson 2.4 (in the FACS folders)
 - Slides: `Slides 02.09 - Budget Like a Boss`
-- Setup notes: cut the scenario cards so each student gets one; six copies of each of the four cards covers a class of 24. Prices are Long Island prices for 2026 and marked [update]. No food handled today. [Sal: if the ClassroomStreet budgeting mode exists, Day 2 runs inside it with the same four scenarios entered as profiles.]
+- Setup notes: cut the scenario cards so each student gets one; six copies of each of the four cards covers a class of 24. Prices are Long Island prices for 2026 and to be refreshed before teaching. No food handled today.
 
 ## Pre-assessment
 
@@ -114,7 +114,7 @@ None. Optional after Day 1: track your real spending for three days on the back 
 
 ## Connections
 
-Math: percent of a number and multi-step subtraction; the math teacher can use the four scenario cards for a percent practice set the same week. ClassroomStreet: the budget built here is the starting point for the Investor Challenge in Topic 2.4 and the revision in Project 02. [Sal: if a local credit union runs a youth account program, this is the lesson to invite them to; they can bring a real budget worksheet.]
+Math: percent of a number and multi-step subtraction; the math teacher can use the four scenario cards for a percent practice set the same week. ClassroomStreet: the budget built here is the starting point for the Investor Challenge in Topic 2.4 and the revision in Project 02.
 
 ## Sources
 
@@ -131,4 +131,4 @@ Math: percent of a number and multi-step subtraction; the math teacher can use t
 - Common mistake: students put the savings line last and fill it with whatever is left, which is usually zero. Make them write it second, right under income, before any expense.
 - Second common mistake: a fixed expense gets cut to make the budget balance ("I will just not pay the phone"). Ask what happens next month. Fixed means fixed.
 - The four cards are built so that A and D balance easily, B balances only if wants are cut hard, and C forces the student to divide a lump sum across ten months. Assign on purpose.
-- Keep the Builders. They come back after Lesson 2.19 for the Project 02 revision. The summary lines at the bottom of the Builder (income, needs, savings, wants, total, balance) use the same six lines as Part 7 of the Investor Report template, so the "Before" column is a straight copy. [Sal: your Cost of Living Reality Check packet has the adult version of this with rent and groceries; that one fits Unit 4 (Environmental Design) when students plan a first apartment.]
+- Keep the Builders. They come back after Lesson 2.19 for the Project 02 revision. The summary lines at the bottom of the Builder (income, needs, savings, wants, total, balance) use the same six lines as Part 7 of the Investor Report template, so the "Before" column is a straight copy.

@@ -1,6 +1,6 @@
 # Slides 4.1: Housing Needs Across the Lifespan and Types of Housing
 
-Slide outline for Lesson 4.1. Thirteen slides, one day. The six housing type slides double as the review cards before the Home Safety and Conservation Quiz. [Sal: replace the described photos with photos of housing in your own town where you can; students match faster when the buildings look familiar.]
+Slide outline for Lesson 4.1. Thirteen slides, one day. The six housing type slides double as the review cards before the Home Safety and Conservation Quiz.
 
 ## Slide 1: Spaces We Live In
 

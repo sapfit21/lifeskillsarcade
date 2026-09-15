@@ -1,6 +1,6 @@
 # Slides 05.12: Comparing the Same Item Across Stores, Secondhand, and Online
 
-Lesson 5.12, two days (days 131 and 132). Slides 1 to 12 are Day 1. Slides 13 to 18 are Day 2. All prices marked [update].
+Lesson 5.12, two days (days 131 and 132). Slides 1 to 12 are Day 1. Slides 13 to 18 are Day 2. All prices to be refreshed before teaching.
 
 * * *
 
@@ -95,7 +95,7 @@ Image: a garment care label with fiber percentages and wash symbols.
 
 ## Slide 10: Day 1. The hidden costs of buying online
 
-- Listed price $9.99 [update]
+- Listed price $9.99
 - Plus shipping $______
 - Plus sales tax $______
 - **What you actually paid $______**
@@ -113,7 +113,7 @@ Notes: pass the shipping bag and the packing slip. Build the landed cost on the 
 - Garment D: $______ , ______________________
 - Compare to the guesses on the board.
 
-Notes: [Sal: fill in your four real prices and vendor types.] Ask which garment scored best on stitch density and whether that matched its price. Usually it did not.
+Notes: Ask which garment scored best on stitch density and whether that matched its price. Usually it did not.
 
 ## Slide 12: Day 1. Exit card
 

@@ -39,14 +39,14 @@ Tier 3 (FACS): fee, transaction fee, commission, subscription fee, the house, sc
 
 ## Materials and setup
 
-- One fun-size bag of Skittles per student, plus six extra (about 14 to 16 pieces per bag; a 24-student class needs about 30 bags, roughly $15 [update]). [Sal: add this to the Unit 2 materials budget.]
-- Non-food version: a tub of colored paper clips in five colors, 15 per student, mixed in a cup per student (a box of 500 assorted clips covers a class, about $8 [update])
+- One fun-size bag of Skittles per student, plus six extra (about 14 to 16 pieces per bag; a 24-student class needs about 30 bags, roughly $15).
+- Non-food version: a tub of colored paper clips in five colors, 15 per student, mixed in a cup per student (a box of 500 assorted clips covers a class, about $8)
 - Three "house" tables, each with a clear jar labeled HOUSE, a stamp or a pen for the banker, and a fee card: `Handout 02.13 - Skittles Market Game Rules and Ledger.md` (rules and fee cards on page 1; the ledger on page 2)
 - A trade ledger per student (page 2 of the handout)
 - Napkins or paper plates, one per student, to keep the candy off the desks
 - The Money Basics Quiz, one per student: `Assessment 02.1 - Money Basics Quiz.md`, plus calculators
 - Slides: `Slides 02.13 - The Skittles Market Game and Money Basics Quiz`
-- A prize for the winner [Sal: a homework pass, or whatever your room uses]
+- A prize for the winner
 - Timer visible to the class
 - Setup notes: allergy check the day before. Original Skittles in the US list no peanuts, tree nuts, milk, egg, wheat, soy, or gelatin, but they contain artificial colors; check the class list for dye sensitivities and any "no candy" note, and hand those students paper clip cups with no comment. No eating during trading. After the count, students eat only if the room rules and the class list allow it. Pick three House Bankers before class (students who do better with a fixed role than a loud floor). Print the quiz the day before and keep it face down until Step 7.
 
@@ -95,7 +95,7 @@ The last line of the quiz is the exit line: "One fee I will watch for, and where
 - ELL: the game is nearly language-free, which is why it works for newcomers; the fee cards use a picture (one Skittle, two Skittles, a membership card) and a number; the ledger columns are "gave," "got," "fee"; the debrief slides carry the four real-life fees with a picture each; the sentence starter under the do now: "The maker gets ___ every time I ___."
 - IEP and 504 (general): the House Banker role is a fixed seat with a clear job for a student who finds the floor too loud; a quiet trading corner with the same rules for a student who needs it; the ledger has room for six trades so nobody has to write more than that; the quiz accommodations are listed in the quiz file (extended time, read aloud, oral answers for the scenario).
 - Grade 6 support: two rounds instead of three (drop Round 2, keep the fee and the membership); the ledger math is fees paid only.
-- Grade 8 stretch: the bankers each compute the house's take per round and report which fee structure earned the house the most; one student designs a Round 4 fee structure that would make the house even more, and the class says whether anyone would trade under it. Preview of CTE FCL 5. d): compare a checking account with a $12 monthly fee and free transactions to one with no monthly fee and a $0.50 per-transaction fee [update], for a person who makes 10 transactions a month and one who makes 40.
+- Grade 8 stretch: the bankers each compute the house's take per round and report which fee structure earned the house the most; one student designs a Round 4 fee structure that would make the house even more, and the class says whether anyone would trade under it. Preview of CTE FCL 5. d): compare a checking account with a $12 monthly fee and free transactions to one with no monthly fee and a $0.50 per-transaction fee, for a person who makes 10 transactions a month and one who makes 40.
 - UDL checkpoint used: multiple means of engagement (a live game with a prize, a fixed role for students who choose it) and multiple means of representation (the ledger, the house jar you can see, the board tally).
 - No-kitchen or no-machine alternative: the non-food version with colored paper clips runs exactly the same way; use it for the whole class if the class list has any candy restriction you cannot work around, or for individual students without comment.
 
@@ -114,7 +114,7 @@ None. Optional: find one fee on a receipt, a bank statement, or an app screen at
 
 ## Connections
 
-Social studies: the game is a small economy; the social studies teacher can use the ledger data for a supply and scarcity lesson. Math: the house's take per round as a percent of the room's Skittles. ClassroomStreet: Lesson 2.14 opens with "commission free" trading apps and how they make money; this debrief is the setup. [Sal: this was your design. If the Island Negotiation Game from your Brentwood file fits Unit 7, this game is its younger cousin.]
+Social studies: the game is a small economy; the social studies teacher can use the ledger data for a supply and scarcity lesson. Math: the house's take per round as a percent of the room's Skittles. ClassroomStreet: Lesson 2.14 opens with "commission free" trading apps and how they make money; this debrief is the setup.
 
 ## Sources
 
@@ -122,7 +122,7 @@ Social studies: the game is a small economy; the social studies teacher can use 
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 5. a) and 4. f). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 2.5.1.
-- Skittles allergen statement: check the current package and the manufacturer's site each year; the setup note reflects the original US product in 2026 [update].
+- Skittles allergen statement: check the current package and the manufacturer's site each year; the setup note reflects the original US product in 2026.
 - Sal's own materials: The Skittles Market Game, original design, full lesson in `FPM_Interview_2026-08/02_Curriculum/Prevosto_FACS_Curriculum_FullYear.docx` (a 55-minute grade 9 to 12 version with a 20-minute open floor and a 20-minute debrief). This version cuts it to 22 minutes, adds the three fee structures and the House Banker role, and moves the "Find the Game" assignment to the optional homework and the quiz scenario. The transaction-tax extension in his Island game notes is the seed of the fee rounds.
 
 ## Teacher notes
@@ -133,4 +133,3 @@ Social studies: the game is a small economy; the social studies teacher can use 
 - Second common problem: a team pools Skittles into one winner (a cartel). Let it happen. In the debrief, ask what the cartel paid the house in fees to do it.
 - The House Bankers must not trade. Their reward is a share of the house jar (or the paper clip equivalent plus a prize). That is the debrief line: the bankers made "money" and never took a risk.
 - Keep the ledgers. The room total lost to the house makes a good opening number for Lesson 2.14.
-- [Sal: your original debrief line, "the house does not need you to lose; the house needs you to play," is the sentence to end on. Say it once and stop.]

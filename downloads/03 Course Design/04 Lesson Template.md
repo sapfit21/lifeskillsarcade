@@ -112,8 +112,8 @@ Deepen learning (why and how, tied to their lives):
 
 ## Sources
 
-[URLs or file names for every standard quoted and any outside material used. Sal's own materials are named by file.]
+[URLs or file names for every standard quoted and any outside material used. My own materials are named by file.]
 
 ## Teacher notes
 
-[What to cut if the period runs short. Common mistakes. What Sal has seen work. Marked [Sal: ...] where his experience should replace the placeholder.]
+[What to cut if the period runs short. Common mistakes. What I have seen work.]

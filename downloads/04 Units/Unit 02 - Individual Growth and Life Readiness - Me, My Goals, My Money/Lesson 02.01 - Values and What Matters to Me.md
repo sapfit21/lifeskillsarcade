@@ -35,7 +35,7 @@ Tier 3 (FACS): value, core values, standard, choice (in the sense of the decisio
 
 ## Materials and setup
 
-- Value card decks, one per student: `Handout 02.01 - Value Cards and Sort Sheet.md`, page 1 printed on card stock and cut into 24 cards before class, held with a paper clip or a small envelope. [Sal: cut once, laminate if you can, and reuse them every year. Thirty decks is about 90 minutes of cutting; a student helper or the paper cutter makes it 20.]
+- Value card decks, one per student: `Handout 02.01 - Value Cards and Sort Sheet.md`, page 1 printed on card stock and cut into 24 cards before class, held with a paper clip or a small envelope.
 - Sort sheet, one per student (page 2 of the same handout)
 - Slides: `Slides 02.01 - Values and What Matters to Me`
 - Three sticky notes or index cards per table labeled "Matters a lot," "Matters some," "Matters less"
@@ -56,7 +56,7 @@ Debrief: cold call four students for the first blank only. Write the answers in 
 
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
-| 1. Direct instruction: what a value is | Show slide 3. Define a value: something that matters to you so much that it changes what you do. Contrast with a like (pizza) and a goal (make the team). Show the test: "If it changes how you spend money, time, or attention, it is a value." Give two examples from your own life. [Sal: your own two, told in one sentence each; students remember the teacher's examples.] | Write the definition and the test on the sort sheet, Part 1. | 5 min |
+| 1. Direct instruction: what a value is | Show slide 3. Define a value: something that matters to you so much that it changes what you do. Contrast with a like (pizza) and a goal (make the team). Show the test: "If it changes how you spend money, time, or attention, it is a value." Give two examples from your own life. | Write the definition and the test on the sort sheet, Part 1. | 5 min |
 | 2. Learning activity: the three-pile sort | Start the timer. Say the rules: every card goes in a pile, no card left in your hand, no pile can be empty, no talking until the timer ends. Circulate. Watch for the student who puts 20 cards in "matters a lot"; that student gets the question, "If you could keep only ten, which ten go?" | Sort all 24 cards into the three piles on the table. | 6 min |
 | 3. Practice: top five, then top three | Say: "From your 'matters a lot' pile, choose five. Write them on the sort sheet. Now cross off two. The three left are your core values." Give 90 seconds for each cut. Then ask for the partner turn: "Tell your partner your top three and one you cut. Say why you cut it." | Write the top five, cross off two, write the top three in Part 2. Partner turn, 2 minutes. | 7 min |
 | 4. Practice: values in action | Show slide 7, the three columns: money, time, friends. Model with your own value: "I value health. Money: I buy running shoes before video games. Time: I run before work. Friends: I pick friends who do not make fun of that." Then assign Part 3. | For one of their top three, write one sentence in each column: how the value shows up in what they spend, how they spend time, and who they spend it with. | 7 min |
@@ -113,7 +113,7 @@ Inside the building: the school counselor uses values sorts in advisory or in hi
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a) and 2. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, line 3. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2. [Sal: confirm against the NYSED PDF.]
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 2.1.2.
 - Sal's own materials: the Core Values Compass packet (`Lesson Dups/Unit_5_Personal_Branding/education_teachingwork_core_values_compass_2026_04.docx`) supplied the 24-value list and the top five, then top three sort. Rewritten here with definitions on every card, the three-pile step, the money, time, friends columns, and the values vs standards step added.
@@ -124,5 +124,4 @@ Inside the building: the school counselor uses values sorts in advisory or in hi
 - Common mistake: students treat the sort as a test of what they should value and put "learning" and "hard work" on top because the teacher is watching. Say once, at the start: "Nobody grades your values. I grade whether you can explain them."
 - Common mistake: "matters less" feels rude to some students ("family matters to everyone"). Say that the pile is about you, this year, not about whether the thing is good.
 - The pairing of values and standards is the line the state wants (IGLR 2. a)). Students get "value" fast and "standard" slowly. Use the bedtime example and one about phones; both are rules they already have and did not call standards.
-- [Sal: your Core Values Compass packet had a four-friends story (Dev, Priya, Aisha, Leo) making four different choices about the same weekend. It works as a two-minute read-aloud before Step 4 if the class is slow to see that different values produce different choices. Decide whether to keep it or tell a story from your own life instead.]
 - Keep the sort sheets in the FACS folder. They come back out in Lesson 2.3 (the one-pager), Lesson 2.5 (the decision grid), and Topic 2.3 (needs vs wants, where the values column of the budget comes from this sheet).

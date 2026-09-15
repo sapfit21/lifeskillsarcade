@@ -1,6 +1,6 @@
 # Scope and Sequence: Family and Consumer Sciences, Grades 6 to 8
 
-Full year, daily, 40-minute periods, 180 instructional days. Draft of 2026-09-11, built on the working assumptions in `00 _admin/DECISIONS.md`. [Sal: the sequence and day counts are yours to change. Everything downstream is built so a unit can move or shrink without rewriting the others.]
+Full year, daily, 40-minute periods, 180 instructional days. Draft of 2026-09-11, built on the working assumptions in `00 _admin/DECISIONS.md`.
 
 ## The year at a glance
 
@@ -66,7 +66,7 @@ Module: Individual Growth and Life Readiness (IGLR). Themes: Financial and Consu
 | 2.4 ClassroomStreet Investor Challenge | 10 (plus 10-minute trading windows during Topic 2.5) | 2.14 Risk and reward, safe vs risky; 2.15 Reading the news: why prices move; 2.16 Diversification; 2.17 The crisis and panic selling; 2.18 Buying low, rebalancing, return math; 2.19 Results, the reveal, and the Investor Report | Investor Report and rubric |
 | 2.5 Work and Careers | 3 | 2.20 Employability: soft skills superpower; 2.21 The 16 career clusters and my top three; 2.22 Education roadmap and a career research card (Career Box preview) | Career research card |
 
-The project is the ClassroomStreet Investor Report plus the personal budget from 2.9, revised after the simulation. [Sal: if the ClassroomStreet budgeting mode exists, 2.9 through 2.11 run inside it.]
+The project is the ClassroomStreet Investor Report plus the personal budget from 2.9, revised after the simulation.
 
 ## Unit 3: Growing Up, Getting Along (25 days)
 

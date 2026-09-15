@@ -34,13 +34,13 @@ Tier 3 (FACS): employability, hard skill, soft skill, work ethic, professionalis
 
 ## Materials and setup
 
-- Devices for the trading window (one per student or one per pair, as Topic 2.4 has been running it); the ClassroomStreet dispatches for today's Round 2 window block loaded, windows 41 to 47 [Sal: Round 2 is the same board, same account, same rules, after the reveal; set the dispatch and the timer before class]
+- Devices for the trading window (one per student or one per pair, as Topic 2.4 has been running it); the ClassroomStreet dispatches for today's Round 2 window block loaded, windows 41 to 47
 - Each student's Investor Journal (`Handout 02.14 - Investor Journal.md`), open to the Round 2 lines
 - Handout, one per student: `Handout 02.20 - Soft Skills Self-Rating and Growth Plan.md`
 - Slides: `Slides 02.20 - Employability Soft Skills Superpower`
 - The lab role cards from Unit 1 (`Handout 01.08 - Role Cards Lab 1.md`) on the document camera or one printed set on the board, so students can point at the role they held
 - Timer visible to the class
-- Setup notes: write the do now on the board before students walk in. Have the six-skill slide up and covered. Pull two or three real job ads from a local employer's site the night before and highlight the soft skill words (for example "reliable," "team player," "communicates clearly"); the ads are the proof that this is what employers actually write. [Sal: pick employers your students recognize: a supermarket, a hospital, a restaurant group, the town.]
+- Setup notes: write the do now on the board before students walk in. Have the six-skill slide up and covered. Pull two or three real job ads from a local employer's site the night before and highlight the soft skill words (for example "reliable," "team player," "communicates clearly"); the ads are the proof that this is what employers actually write.
 
 ## Pre-assessment
 
@@ -123,5 +123,5 @@ Inside the building: the guidance counselor, who sees the same six skills on the
 - If the trading window runs long (it will if the dispatch is a crisis follow-up), cut Step 5 and take the pair question as the first line of tomorrow's do now. Never cut Step 3; the evidence rule is the whole lesson.
 - Common mistake: students rate every skill a 4. The fix is not a lecture; it is "show me the event." A 4 with no event becomes a 2 on the sheet.
 - Common mistake two: students choose their weakest skill to grow and pick a place to practice it that is months away. Push them to the next lab or the next group task, not "high school."
-- The job ads matter more than the slide. Students believe an employer's own words. [Sal: your Brentwood packet said 75 percent of career success depends on soft skills; that figure is repeated widely without a solid source, so this lesson uses the job ads as the proof instead of the number.]
+- The job ads matter more than the slide. Students believe an employer's own words.
 - Keep the self-ratings. They come back in Unit 7 (Lesson 7.1) when the same students write the three-part resume bullet; the evidence sentences from today are the bullets.

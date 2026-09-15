@@ -1,6 +1,6 @@
 # Slides 02.19: Results, the Reveal, and the Investor Report
 
-Lesson 2.19, two days. Day 1: slides 1 to 14. Day 2: slides 15 to 22. The market is frozen at window 40. The leaderboard shows merchant numbers or trading-house names only. [Sal: confirm before it goes on the projector.]
+Lesson 2.19, two days. Day 1: slides 1 to 14. Day 2: slides 15 to 22. The market is frozen at window 40. The leaderboard shows merchant numbers or trading-house names only.
 
 ## Slide 1: Do now (Day 1)
 - Guess your final rank in this class: top third, middle, bottom third.
@@ -17,7 +17,7 @@ Image: a drawn bell.
 - Grand Merchant: Merchant ___. Master Trader: Merchant ___. Silver Purse: Merchant ___. Rising Star: Merchants ___ and ___.
 - Class average fortune: AQ ______. Class average return: ______ percent.
 - Two rules: nobody is named unless they name themselves; nobody says "loser" about anyone.
-Notes: Read the top five and stop. [Sal: confirm the rank titles on the live site.]
+Notes: Read the top five and stop.
 
 ## Slide 4: Your line
 - Find your merchant number. Write your final total fortune and your rank on the report template cover.
@@ -66,15 +66,13 @@ Image: a honey jar with a bank's front door drawn on the label.
 - Rent comes in. Value moves with the economy, the weather, and the neighborhood.
 - Medium risk.
 Image: a row of buildings and a field.
-Notes: Students fill the reveal table on the report template as each slide goes up. [Sal: confirm the current asset list; if the live site has ten ventures, add three slides here.]
+Notes: Students fill the reveal table on the report template as each slide goes up.
 
 ## Slide 12: The rest of the map
 - AQ = dollars. Fortune Street = Wall Street. The Bazaar = the stock market.
 - Dispatches = financial news. Trading windows = market hours.
 - The crisis = a real crash, like 2008 or 2020, with the names changed.
 - The leaderboard = what an adviser calls performance.
-Notes: [Sal: your Reveal doc says Florins = Dollars. Fix to whatever the live site shows.]
-
 ## Slide 13: Three merchants, by number only
 - Merchant ___ held safe ventures and finished slightly up.
 - Merchant ___ held risky ventures through the crash: down, and recovering.

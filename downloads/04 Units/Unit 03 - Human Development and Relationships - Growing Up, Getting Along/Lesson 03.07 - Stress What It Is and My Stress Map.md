@@ -6,7 +6,7 @@
 **Days:** 1 class period of 40 minutes (day 74 of the year)
 **Room:** Classroom or FACS lab
 
-**Coordination line:** This lesson is about everyday stress and how to notice it. Anxiety disorders, depression, and anything clinical are the health teacher's and the counselor's. The stress map is private and is never collected. If a student writes or says something that needs an adult, the school's reporting process applies. [Sal: know it before this lesson, and tell the counselor the day it runs.]
+**Coordination line:** This lesson is about everyday stress and how to notice it. Anxiety disorders, depression, and anything clinical are the health teacher's and the counselor's. The stress map is private and is never collected. If a student writes or says something that needs an adult, the school's reporting process applies.
 
 ## Standards
 
@@ -43,7 +43,7 @@ Tier 3 (FACS): stress, stressor, good stress (eustress, named only), bad stress 
 - `Handout 03.07 - Private Stress Map.md`, one per student; the map pages go in the FACS folder and are never collected; the exit strip at the bottom is torn off and turned in
 - Slides: `Slides 03.07 - Stress What It Is and My Stress Map`
 - A blank body outline on slide 5 (a plain figure, no gender, no features) for the body signals list
-- The school's "who to ask" list on slide 10: counselor, nurse, any teacher, the main office, a trusted adult at home, and a national or local help line the school approves [Sal: fill in the names, room numbers, and the help line your school uses before you teach this]
+- The school's "who to ask" list on slide 10: counselor, nurse, any teacher, the main office, a trusted adult at home, and a national or local help line the school approves
 - Timer visible to the class
 - Setup notes: none beyond the slides. Reread the coordination line.
 
@@ -109,7 +109,7 @@ None. Optional: tonight, notice the first body signal when something stresses yo
 
 ## Connections
 
-Inside the building: the counselor and nurse are named on slide 10 and get a copy of the "handle it or bring it" slide; the health teacher owns anything clinical and gets the good vs bad table so the words match. Community: the approved help line on slide 10. [Sal: your school will have a policy on which help lines go on a slide; ask before you print it.]
+Inside the building: the counselor and nurse are named on slide 10 and get a copy of the "handle it or bring it" slide; the health teacher owns anything clinical and gets the good vs bad table so the words match. Community: the approved help line on slide 10.
 
 ## Sources
 
@@ -117,7 +117,7 @@ Inside the building: the counselor and nurse are named on slide 10 and get a cop
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 6. a), 6. c), and 5. e). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.1.6 and 14.1.1.
-- The good stress and bad stress framing and the body signals list follow the general account on the National Institute of Mental Health fact sheet on stress for teens ("I'm So Stressed Out," nimh.nih.gov). [Sal: confirm the page before teaching.]
+- The good stress and bad stress framing and the body signals list follow the general account on the National Institute of Mental Health fact sheet on stress for teens ("I'm So Stressed Out," nimh.nih.gov).
 - Sal's own materials: the sleep window from Lesson 2.6 is referenced as the first thing that shortens under stress.
 
 ## Teacher notes
@@ -126,4 +126,3 @@ Inside the building: the counselor and nurse are named on slide 10 and get a cop
 - If the period runs short, cut Step 2 to a whole-class list with no outline marking. Never cut Step 4; the who-to-ask list is the one thing every student must leave with.
 - Common mistake: students label every stress "bad." The game example fixes it. Ask who has ever played better because they were a little nervous.
 - Sunday night and the bus show up on a lot of maps. Neither is a surprise; both are useful to name out loud without asking anyone to own them.
-- [Sal: the HDR module's illustrative activity is a mindfulness journal with prompts about stress, peer pressure, gratitude, and mindset. If you want a journal running across Topic 3.2, this map is its first page; the toolkit card and the Stress Plan are pages two and three.]

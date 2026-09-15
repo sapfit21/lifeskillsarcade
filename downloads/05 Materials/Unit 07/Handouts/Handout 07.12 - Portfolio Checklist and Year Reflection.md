@@ -124,7 +124,7 @@ ____________________________________________________________________
 
 ____________________________________________________________________
 
-## Sentence starters, four languages [check with a native speaker]
+## Sentence starters, four languages
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -197,7 +197,7 @@ One rule and it is the one that matters: **nobody comments, including the teache
 ### What to do with the portfolios
 
 - **The folder goes home with the student.** Say it four times during the period. Students assume everything gets collected, and the fact that this one does not is the point of it.
-- **Photograph three pages per student before it leaves:** the resume, the year reflection, and this checklist with the twelve proof lines. Four minutes a class with a phone against a wall, done during Step 3 while students are writing. [Sal: name where these live, on your own drive and not the school's, so you keep them when you move.]
+- **Photograph three pages per student before it leaves:** the resume, the year reflection, and this checklist with the twelve proof lines. Four minutes a class with a phone against a wall, done during Step 3 while students are writing.
 - **Nothing with a student's name goes on the website, ever.** The site shows the templates, this checklist, and the rubric. The resume shown on the site is the fictional worked example from `Handout 07.02`.
 - **Type the answer-5 sentences over the summer,** with permission and no names, and post them in September. Twenty anonymous sentences from last year's class, read by a sixth grader on the first day, are worth more than any syllabus.
 - **Read five reflections at random in August before planning next year.** Answer 2, the hardest thing, is the best free curriculum feedback you will get and it will tell you which lesson to rebuild.

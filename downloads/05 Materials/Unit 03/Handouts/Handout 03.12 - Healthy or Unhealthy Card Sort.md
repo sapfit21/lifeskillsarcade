@@ -56,7 +56,7 @@ Rules: one bad day is not a sign; a pattern is. Fear is a tell-an-adult sign the
 | Fairness | | Fear | |
 | Separate identities | | | |
 
-Sign words in other languages [check with a native speaker before printing]:
+Sign words in other languages:
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

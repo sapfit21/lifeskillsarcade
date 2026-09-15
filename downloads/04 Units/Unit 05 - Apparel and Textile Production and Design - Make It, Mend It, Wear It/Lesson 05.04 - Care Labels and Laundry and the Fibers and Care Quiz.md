@@ -43,7 +43,7 @@ Tier 3 (FACS): care label, care symbol, pretreat, agitate, delicate cycle, line 
 ## Materials and setup
 
 **Day 1, per station (three stations of about seven):**
-- A laundry basket with eight to ten real garments with their care labels still in them. The set must include: a wool sweater, something with spandex (leggings), a white cotton T-shirt, a colored cotton T-shirt, a dress shirt that says iron, something that says dry clean only, a pair of jeans, and one towel. Thrifted is fine and cheaper. [Sal: your basket. Real garments with real tags beat any worksheet. One thrift trip of ten items at about $2 each is about $20 for three stations if you split the set.]
+- A laundry basket with eight to ten real garments with their care labels still in them. The set must include: a wool sweater, something with spandex (leggings), a white cotton T-shirt, a colored cotton T-shirt, a dress shirt that says iron, something that says dry clean only, a pair of jeans, and one towel. Thrifted is fine and cheaper. One thrift trip of ten items at about $2 each is about $20 for three stations if the set is split.
 - Three sorting signs per station, printed: "Hot or warm wash," "Cold wash," "Hand wash, line dry, or professional care"
 - One magnifier, because care symbols are printed small
 
@@ -72,7 +72,7 @@ Day 1 do now is the pre-assessment for care labels: a hand vote on who does thei
 
 **Day 1.** On the board: "Write down one piece of clothing that got ruined in the wash, yours or somebody's in your house. What happened to it? Do you know why?"
 
-Debrief, then the hand vote: who does their own laundry, who has ruined something, who reads the tag first. Then the hook: hold up a wool sweater that has been washed hot, so it is child sized and stiff. "This was a men's large. One wash. Forty dollars. There was a tag inside that told us exactly how to not do that, and nobody read it." [Sal: ruin one thrifted sweater on purpose for this. It is the best two dollars in the unit.]
+Debrief, then the hand vote: who does their own laundry, who has ruined something, who reads the tag first. Then the hook: hold up a wool sweater that has been washed hot, so it is child sized and stiff. "This was a men's large. One wash. Forty dollars. There was a tag inside that told us exactly how to not do that, and nobody read it."
 
 **Day 2.** On the board: "Put these in order and number them 1 to 7: dry or hang, fold or hang up, load the machine, sort, treat a stain, add detergent, wash." Then one line: "Which step do people skip most?"
 
@@ -154,7 +154,7 @@ None. Optional, and worth doing: read the tag on one thing before it goes in the
 
 ## Connections
 
-Math: the cost math in Day 2 Step 3 is unit cost and percent change, which the math teacher can take as a warm-up with the same numbers. Science: the stain station is a fair test with a control, so the science teacher's variables vocabulary fits it exactly; use their words for independent and dependent variable if the class has had them. Family and community: the laundry sequence is the single most transferable thing in Unit 5, and it belongs in whatever the school sends home about life skills. Community: a laundromat near the school will often give a stack of their posted instruction cards, which are written for real machines. [Sal: name the laundromat or the building's own machines.]
+Math: the cost math in Day 2 Step 3 is unit cost and percent change, which the math teacher can take as a warm-up with the same numbers. Science: the stain station is a fair test with a control, so the science teacher's variables vocabulary fits it exactly; use their words for independent and dependent variable if the class has had them. Family and community: the laundry sequence is the single most transferable thing in Unit 5, and it belongs in whatever the school sends home about life skills. Community: a laundromat near the school will often give a stack of their posted instruction cards, which are written for real machines.
 
 ## Sources
 
@@ -162,7 +162,7 @@ Math: the cost math in Day 2 Step 3 is unit cost and percent change, which the m
 - NYS Middle Level CTE Theme Module, Sustainability, line 1. e); Theme Module 03, Financial and Consumer Literacy, line 4. h). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.3, 16.2.5, and 16.4.3, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
-- Care symbol meanings follow the ASTM care symbol system used on United States care labels; the labeling requirement itself is the Federal Trade Commission's Care Labeling Rule, 16 CFR Part 423. [Sal: put the FTC page on the slide and check it before the site goes public; the agency reviews this rule periodically.]
+- Care symbol meanings follow the ASTM care symbol system used on United States care labels; the labeling requirement itself is the Federal Trade Commission's Care Labeling Rule, 16 CFR Part 423.
 - The stain comparison design is built from the Sustainability module's own illustrative activity for this content module, "Stain Removal Comparison," which asks students to compare commercial and home-prepared stain removal and to consider the environmental cost of discarding textiles.
 
 ## Teacher notes
@@ -173,4 +173,4 @@ Math: the cost math in Day 2 Step 3 is unit cost and percent change, which the m
 - Common mistake: students think dry clean only means "this is fancy." It usually means the fiber or the construction will not survive water. Say that.
 - Do not put the rubbing alcohol at a station with no adult in sight. Keep it on a tray, one cup per station, and count the cups back in at the end, the same way needles get counted starting next period. That is a good place to preview the count routine.
 - The ruined wool sweater is a permanent prop. Keep it in the Unit 5 bin with the swatches; it opens this lesson every year.
-- [Sal: your prices for the ruin slide and the stain math. At 2027 prices a thrifted basket of ten garments runs about $20, the treatment supplies about $12 for the year (dish soap, baking soda, white vinegar, one bottle of rubbing alcohol, swabs), and the clothesline and clips about $8. That is the whole Topic 5.1 consumable budget besides the swatches.]
+- Prices for the ruin slide and the stain math: a thrifted basket of ten garments runs about $20, the treatment supplies about $12 for the year (dish soap, baking soda, white vinegar, one bottle of rubbing alcohol, swabs), and the clothesline and clips about $8. That is the whole Topic 5.1 consumable budget besides the swatches.

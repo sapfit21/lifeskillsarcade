@@ -44,8 +44,8 @@ Notes: One line each. Reliable: shows up every shift. Communication: says the or
 
 ## Slide 5: What the employer actually wrote
 
-- Job ad 1: [Sal: paste a local ad with the soft skill words highlighted]
-- Job ad 2: [Sal: paste a second ad]
+- Job ad 1: a local ad with the soft skill words highlighted
+- Job ad 2: a second local ad
 - Count the soft skill words in each.
 - "Companies hire for hard skills and fire for soft skills."
 

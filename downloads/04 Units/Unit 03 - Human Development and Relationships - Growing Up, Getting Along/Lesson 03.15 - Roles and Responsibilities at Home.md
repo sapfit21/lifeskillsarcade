@@ -84,7 +84,7 @@ Clipboard checklist during Step 2, one line per group: "every job has a name," "
 
 ## Differentiation and supports
 
-- ELL: the home jobs list has an icon for every job; the family cards use pictures for ages and a clock for hours; the words fair, equal, chore, tradition, and culture are listed in Turkish, Portuguese, and Spanish on the handout (marked [check with a native speaker]); the tradition card may be written in any language; sentence starter for the "why" column: "___ does this because ___."
+- ELL: the home jobs list has an icon for every job; the family cards use pictures for ages and a clock for hours; the words fair, equal, chore, tradition, and culture are listed in Turkish, Portuguese, and Spanish on the handout (to be verified by a native speaker); the tradition card may be written in any language; sentence starter for the "why" column: "___ does this because ___."
 - IEP and 504 (general): the fair-share chart is a group product with one writer; the jobs list is printed, not recalled; a student may fill the chart by drawing lines from jobs to names instead of writing; the tradition card is optional and can be a drawing; extended time.
 - Grade 6 support: family card A (a family of four with no constraint beyond a parent who works days); the chart has ten jobs, not twenty; the tradition card is a drawing with a caption.
 - Grade 8 stretch: family card C (a single parent who works nights, a toddler, a grandparent who cannot lift, a 14 year old with practice four days a week); grade 8 groups also write what the 14 year old should not be asked to do and why, and one sentence on what changes on the chart if the parent's hours change (a transition from Lesson 3.14).
@@ -107,7 +107,7 @@ None. Optional: do one job from your "3" line this week without being asked. Be 
 
 ## Connections
 
-Inside the building: the social studies teacher, for the culture and traditions piece; ask whether a "traditions" unit is running and match the week if you can. The ELA teacher may have a personal narrative assignment where the tradition card becomes a first line. Community: a local cultural center or house of worship's community program sometimes hosts a tradition night; the cards could travel there with permission. [Sal: only with the student's and family's permission, and never with a student name on the site.]
+Inside the building: the social studies teacher, for the culture and traditions piece; ask whether a "traditions" unit is running and match the week if you can. The ELA teacher may have a personal narrative assignment where the tradition card becomes a first line. Community: a local cultural center or house of worship's community program sometimes hosts a tradition night; the cards could travel there with permission.
 
 ## Sources
 
@@ -123,4 +123,3 @@ Inside the building: the social studies teacher, for the culture and traditions 
 - The word "fair" will start an argument in Step 2. Good. The answer is on the family card: hours, age, ability. Equal is the same amount for everyone; fair is the right amount for each person. Say it, then let them argue with the card in hand.
 - Nobody is asked what chores they do at home or who does them. The chart is for a fictional family. A student who says "in my house the girls do everything" is describing a real pattern; the answer is "on your family card, what would be fair?" and the conversation stays with the card.
 - The tradition card is by choice, and the choice includes "a tradition I would like to start." A student with no tradition they want to share still has a card to write.
-- [Sal: your Brentwood room had students from Turkey, Portugal and Brazil, El Salvador, and elsewhere. The three fictional traditions in Step 3 are placeholders; pick three that fit your room without naming any student's country as "the" example.]

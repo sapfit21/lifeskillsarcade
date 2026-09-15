@@ -26,7 +26,7 @@ Notes: Pour the real bowls at the demo table while this slide is up.
 - Other half: grains and protein foods. Grains get a little more room.
 - Dairy on the side, in a cup.
 - Make half your grains whole grains.
-Image: the MyPlate graphic: a plate divided into four sections (vegetables top left, fruits bottom left, grains top right, protein foods bottom right) with a cup labeled dairy at the top right. Labels in English, Turkish, Portuguese, and Spanish. [Sal: the USDA graphic is public domain; use it.]
+Image: the MyPlate graphic: a plate divided into four sections (vegetables top left, fruits bottom left, grains top right, protein foods bottom right) with a cup labeled dairy at the top right. Labels in English, Turkish, Portuguese, and Spanish.
 
 ## Slide 4: Rate the dinner
 
@@ -50,7 +50,7 @@ Notes: Walk the room. The two errors to catch: fruit bigger than vegetables; pro
 - A SERVING is the standard amount on a label or on MyPlate. Somebody else set it.
 - A PORTION is how much you choose to put on your plate. You set it.
 - 1 cup of cereal is a serving. A big bowl is a portion, about 3 servings.
-- 1 ounce of chips is a serving. A family size bag is about ______ servings. [Sal: read the bag.]
+- 1 ounce of chips is a serving. A family size bag is about ______ servings.
 Image: a 1 ounce chip bag next to a family size bag; a deck of cards next to a piece of chicken.
 Notes: The deck of cards is 3 ounces of cooked meat, one serving.
 
