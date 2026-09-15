@@ -261,6 +261,11 @@ pre code{background:none;border:0;padding:0;font-size:1em}
 blockquote{margin:1rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent-line);
   color:var(--ink-2)}
 
+/* Long fill-in blanks (______) and long file names in code never wrap on their
+   own, and on a phone one of them widens the whole page. Let them break. */
+.doc p,.doc li,.doc td,.doc th,.doc dd,.lesson-sec p,.lesson-sec li,.lesson-sec td{overflow-wrap:anywhere}
+code{overflow-wrap:anywhere}
+
 /* ---------- tables ---------- */
 .table-wrap{overflow-x:auto;margin:1.1rem 0 1.5rem;border:1px solid var(--line);
   border-radius:var(--radius);background:var(--surface)}
