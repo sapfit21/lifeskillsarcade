@@ -78,6 +78,22 @@
   <div class="choice-row" id="srQChoices"></div>
 </div>
 
+<div class="art-bank" id="srArt" hidden>
+<span data-key="Hair back"><img class="piece" src="art/station-rush-hair-back.webp" alt="" loading="lazy"></span>
+<span data-key="Sleeves up"><img class="piece" src="art/station-rush-sleeves-up.webp" alt="" loading="lazy"></span>
+<span data-key="Wash hands"><img class="piece" src="art/station-rush-wash-hands.webp" alt="" loading="lazy"></span>
+<span data-key="Sanitize surfaces"><img class="piece" src="art/station-rush-sanitize.webp" alt="" loading="lazy"></span>
+<span data-key="Clean as you go"><img class="piece" src="art/station-rush-clean-as-you-go.webp" alt="" loading="lazy"></span>
+<span data-key="Station check before dismissal"><img class="piece" src="art/station-rush-station-check.webp" alt="" loading="lazy"></span>
+<span data-key="Station Manager"><img class="piece" src="art/station-rush-role-manager.webp" alt="" loading="lazy"></span>
+<span data-key="Head Cook"><img class="piece" src="art/station-rush-role-head-cook.webp" alt="" loading="lazy"></span>
+<span data-key="Second Cook"><img class="piece" src="art/station-rush-role-second-cook.webp" alt="" loading="lazy"></span>
+<span data-key="Prep Cook"><img class="piece" src="art/station-rush-role-prep-cook.webp" alt="" loading="lazy"></span>
+<span data-key="Helper Cook"><img class="piece" src="art/station-rush-role-helper.webp" alt="" loading="lazy"></span>
+<span data-key="Toppings Chief"><img class="piece" src="art/station-rush-role-toppings.webp" alt="" loading="lazy"></span>
+<span data-key="Plate Builder"><img class="piece" src="art/station-rush-role-plate-builder.webp" alt="" loading="lazy"></span>
+<span data-key="Time Keeper"><img class="piece" src="art/station-rush-role-time-keeper.webp" alt="" loading="lazy"></span>
+</div>
 <div class="panel end" id="srEnd" hidden>
   <h2>Station check</h2>
   <p class="big" id="srFinal"></p>
@@ -107,6 +123,10 @@
 .sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
 .sr-card.wrong{background:var(--brand-red);color:#fff}
 .sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece,.sr-slots li .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.sr-slots li .piece{position:absolute;right:.4rem;top:.3rem;width:2.2rem;height:2.2rem}
+.sr-slots li.has-art{padding-right:3rem}
 </style>
 
 <script>
@@ -161,6 +181,8 @@
 
   var score, streak, secs, tick, round, next, placed, missed, locked, quiz, qi, qcorrect, feedTimer;
 
+  // card pictures: a hidden bank in the page holds one image per card that has art (build_site.py fills it in)
+  function art(key) { var im = document.querySelector('#srArt [data-key="' + key.replace(/"/g, '') + '"] img'); return im ? im.cloneNode(true) : null; }
   function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
   function hud() {
     elRound.textContent = (round + 1) + " of 4"; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
@@ -194,7 +216,9 @@
     var order = shuffle(R.items.map(function (_, i) { return i; }));
     order.forEach(function (i) {
       var b = document.createElement("button");
-      b.type = "button"; b.className = "sr-card"; b.textContent = R.items[i].t; b.setAttribute("data-i", i);
+      b.type = "button"; b.className = "sr-card"; b.setAttribute("data-i", i);
+      var a = art(R.items[i].t); if (a) { b.appendChild(a); b.classList.add("has-art"); }
+      var sp = document.createElement("span"); sp.textContent = R.items[i].t; b.appendChild(sp);
       b.addEventListener("click", function () { tapCard(i, b); });
       cardsEl.appendChild(b);
     });
@@ -206,6 +230,7 @@
   function fillSlot(i, cls) {
     var R = ROUNDS[round], li = slots.children[i];
     li.textContent = R.items[i].t; li.className = cls;
+    var a = art(R.items[i].t); if (a) { li.appendChild(a); li.classList.add("has-art"); }
     if (R.items[i].tag) { var s = document.createElement("span"); s.className = "tag"; s.textContent = R.items[i].tag; li.appendChild(s); }
   }
   function tapCard(i, b) {
@@ -247,7 +272,9 @@
     playP.hidden = true; quizP.hidden = false;
     var row = document.getElementById("srQChoices"); row.innerHTML = "";
     ROLES.forEach(function (r) {
-      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.textContent = r; b.setAttribute("data-role", r);
+      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.setAttribute("data-role", r);
+      var a = art(r); if (a) { b.appendChild(a); }
+      var sp = document.createElement("span"); sp.textContent = r; b.appendChild(sp);
       b.addEventListener("click", function () { answer(r, b); });
       row.appendChild(b);
     });
