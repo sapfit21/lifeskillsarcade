@@ -81,6 +81,21 @@
   </div>
 </div>
 
+<div class="art-bank" id="ffArt" hidden>
+<span data-key="Grow or raise"><img class="piece" src="art/farm-grow.webp" alt="" loading="lazy"></span>
+<span data-key="Harvest"><img class="piece" src="art/farm-harvest.webp" alt="" loading="lazy"></span>
+<span data-key="Process"><img class="piece" src="art/farm-process.webp" alt="" loading="lazy"></span>
+<span data-key="Package"><img class="piece" src="art/farm-package.webp" alt="" loading="lazy"></span>
+<span data-key="Transport"><img class="piece" src="art/farm-transport.webp" alt="" loading="lazy"></span>
+<span data-key="Store"></span>
+<span data-key="Sell"></span>
+<span data-key="Cook"></span>
+<span data-key="Eat"></span>
+<span data-key="Leftovers and waste"></span>
+<span data-key="Apples"></span>
+<span data-key="Sweet corn"></span>
+<span data-key="Strawberries"></span>
+</div>
 <div class="panel end" id="ffEnd" hidden>
   <h2>Plate cleared</h2>
   <p class="big" id="ffFinal"></p>
@@ -108,12 +123,19 @@
 .sr-card.wrong{background:var(--brand-red);color:#fff}
 .sr-card.decoy{background:#C7D3DA;text-decoration:line-through}
 .sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.5rem}
+.sr-card .piece{width:2.5rem;height:2.5rem;object-fit:contain;flex:none}
+.sr-slots li .piece{position:absolute;right:.35rem;top:.3rem;width:2rem;height:2rem;object-fit:contain}
+.sr-slots li.has-art{padding-right:2.8rem}
+.gr-text .piece{display:inline-block;width:2.6rem;height:2.6rem;object-fit:contain;vertical-align:middle;margin-right:.4rem}
 #ffSeason .choice-row .gbtn{flex:1 1 45%}
 </style>
 
 <script>
 (function () {
   "use strict";
+  // card pictures: a hidden bank in the page holds one image per card that has art (build_site.py fills it in, D52)
+  function art(key) { var im = document.querySelector('#ffArt [data-key="' + String(key).replace(/"/g, '') + '"] img'); return im ? im.cloneNode(true) : null; }
   var STEPS = ["Grow or raise", "Harvest", "Process", "Package", "Transport", "Store", "Sell", "Cook", "Eat", "Leftovers and waste"];
   // Jobs and decoys from Handout 6.1, one set per traced food.
   var FOODS = [
@@ -165,7 +187,9 @@
     STEPS.forEach(function () { var li = document.createElement("li"); li.textContent = " "; slots.appendChild(li); });
     var items = STEPS.map(function (s, i) { return {i: i, t: s}; }).concat(food.decoys.map(function (d) { return {i: -1, t: d[0], why: d[1]}; }));
     shuffle(items).forEach(function (it) {
-      var b = document.createElement("button"); b.type = "button"; b.className = "sr-card"; b.textContent = it.t;
+      var b = document.createElement("button"); b.type = "button"; b.className = "sr-card";
+      var a = art(it.t); if (a) { b.appendChild(a); b.classList.add("has-art"); }
+      var sp = document.createElement("span"); sp.textContent = it.t; b.appendChild(sp);
       b.addEventListener("click", function () { tapStep(it, b); });
       cards.appendChild(b);
     });
@@ -174,7 +198,7 @@
     startClock(R1_SECS, function () { endRound1(false); });
     playP.scrollIntoView({behavior: "smooth", block: "start"});
   }
-  function fill(i, cls) { var li = document.getElementById("ffSlots").children[i]; li.textContent = STEPS[i]; li.className = cls; }
+  function fill(i, cls) { var li = document.getElementById("ffSlots").children[i]; li.textContent = STEPS[i]; li.className = cls; var a = art(STEPS[i]); if (a) { li.appendChild(a); li.classList.add("has-art"); } }
   function tapStep(it, b) {
     if (locked || !tick) { return; }
     if (it.i === next) {
@@ -222,7 +246,7 @@
     locked = false;
     var c = deck[di];
     document.getElementById("ffSLab").textContent = "Round 2: it is " + MONTHS[month] + ". " + (di + 1) + " of " + deck.length;
-    document.getElementById("ffSText").textContent = c[0];
+    var st = document.getElementById("ffSText"); st.textContent = c[0]; var sa = art(c[0]); if (sa) { st.insertBefore(sa, st.firstChild); }
     live.textContent = MONTHS[month] + ". " + c[0] + ". From New York this month?";
     startClock(R2_SECS, function () { answerSeason(null); });
   }

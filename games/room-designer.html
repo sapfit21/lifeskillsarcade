@@ -92,6 +92,16 @@
   <div class="choice-row" id="rdQChoices"></div>
 </div>
 
+<div class="art-bank" id="rdArt" hidden>
+<span data-key="desk"><img class="piece" src="art/room-desk.webp" alt="" loading="lazy"></span>
+<span data-key="chair"><img class="piece" src="art/room-chair.webp" alt="" loading="lazy"></span>
+<span data-key="dresser"><img class="piece" src="art/room-dresser.webp" alt="" loading="lazy"></span>
+<span data-key="shelf"><img class="piece" src="art/room-bookcase.webp" alt="" loading="lazy"></span>
+<span data-key="lamp"></span>
+<span data-key="arm"><img class="piece" src="art/room-armchair.webp" alt="" loading="lazy"></span>
+<span data-key="rug"></span>
+<span data-key="bed"></span>
+</div>
 <div class="panel end" id="rdEnd" hidden>
   <h2>Room done</h2>
   <p class="big" id="rdFinal"></p>
@@ -120,6 +130,11 @@
   display:flex;align-items:center;justify-content:center;font:700 .62rem/1.1 var(--sans);text-align:center;color:var(--ink);cursor:pointer;overflow:hidden;padding:2px}
 .rd-piece.rug{background:rgba(143,214,240,.45);border-style:dashed;pointer-events:auto}
 .rd-piece.bad{background:var(--brand-red);color:#fff}
+.rd-piece.has-art{background:#fff}
+.rd-piece.has-art .piece{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.rd-piece.has-art .lab{position:relative;background:rgba(255,255,255,.75);border-radius:3px;padding:0 2px}
+.rd-piece.bad.has-art .piece{opacity:.35}
+.rd-tray button .piece{display:inline-block;width:1.7rem;height:1.7rem;object-fit:contain;vertical-align:middle;margin-right:.35rem}
 .rd-key{font-size:.85rem;color:var(--ink-2);margin:.5rem 0}
 .rd-tray{display:flex;flex-wrap:wrap;gap:.45rem;margin:.6rem 0}
 .rd-tray button{font:600 .9rem/1.2 var(--sans);padding:.55rem .7rem;border-radius:10px;border:2.5px solid var(--outline);background:#fff;color:var(--ink);
@@ -132,6 +147,8 @@
 <script>
 (function () {
   "use strict";
+  // card pictures: a hidden bank in the page holds one image per card that has art (build_site.py fills it in, D52)
+  function art(key) { var im = document.querySelector('#rdArt [data-key="' + String(key).replace(/"/g, '') + '"] img'); return im ? im.cloneNode(true) : null; }
   var W = 12, H = 11;
   // From the cut-out sheet in Handout 4.10 (squares to cut, wide by long).
   var PIECES = [
@@ -210,6 +227,7 @@
       var b = document.createElement("button"); b.type = "button"; b.setAttribute("data-id", p.id);
       b.innerHTML = "<span></span><small></small>";
       b.firstChild.textContent = p.name; b.lastChild.textContent = p.w + " by " + p.h + " ft" + (p.must ? ", required" : "");
+      var a = art(p.id); if (a) { b.insertBefore(a, b.firstChild); }
       b.addEventListener("click", function () { select(p.id); });
       tray.appendChild(b);
     });
@@ -255,7 +273,9 @@
       e.className = "rd-piece" + (p.rug ? " rug" : "");
       e.style.left = (q.x / W * 100) + "%"; e.style.top = (q.y / H * 100) + "%";
       e.style.width = (q.w / W * 100) + "%"; e.style.height = (q.h / H * 100) + "%";
-      e.textContent = p.name.split(",")[0];
+      var lab = document.createElement("span"); lab.className = "lab"; lab.textContent = p.name.split(",")[0];
+      var a = art(id); if (a) { e.appendChild(a); e.classList.add("has-art"); }
+      e.appendChild(lab);
       e.setAttribute("data-id", id);
       e.addEventListener("click", function (ev) { ev.stopPropagation(); pickUp(id); });
       piecesEl.appendChild(e);

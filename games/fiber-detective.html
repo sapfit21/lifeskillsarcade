@@ -71,6 +71,16 @@
   <div class="choice-row" id="fdChoices"></div>
 </div>
 
+<div class="art-bank" id="fdArt" hidden>
+<span data-key="Cotton"><img class="piece" src="art/fiber-cotton.webp" alt="" loading="lazy"></span>
+<span data-key="Wool"><img class="piece" src="art/fiber-wool.webp" alt="" loading="lazy"></span>
+<span data-key="Silk"><img class="piece" src="art/fiber-silk.webp" alt="" loading="lazy"></span>
+<span data-key="Linen"><img class="piece" src="art/fiber-linen.webp" alt="" loading="lazy"></span>
+<span data-key="Polyester"><img class="piece" src="art/fiber-polyester.webp" alt="" loading="lazy"></span>
+<span data-key="Nylon"><img class="piece" src="art/fiber-nylon.webp" alt="" loading="lazy"></span>
+<span data-key="Rayon"><img class="piece" src="art/fiber-rayon.webp" alt="" loading="lazy"></span>
+<span data-key="Spandex"><img class="piece" src="art/fiber-spandex.webp" alt="" loading="lazy"></span>
+</div>
 <div class="panel end" id="fdEnd" hidden>
   <h2>Case closed</h2>
   <p class="big" id="fdFinal"></p>
@@ -92,6 +102,8 @@
 <script>
 (function () {
   "use strict";
+  // card pictures: a hidden bank in the page holds one image per card that has art (build_site.py fills it in, D52)
+  function art(key) { var im = document.querySelector('#fdArt [data-key="' + String(key).replace(/"/g, '') + '"] img'); return im ? im.cloneNode(true) : null; }
   var FIBERS = [
     {n: "Cotton", nat: true, src: "a plant", clues: ["Soft, absorbent, breathable. Wrinkles, shrinks, and is slow to dry.", "Comes from a plant. The T-shirt fiber.", "Catches fast in the burn test, smells like burning paper, leaves a soft gray ash."]},
     {n: "Wool", nat: true, src: "an animal", clues: ["Warm even when damp. Springs back. Itchy to some people. Shrinks and felts in hot water.", "Made from a haircut.", "Curls away from the flame, smells like burning hair, leaves a black bead you can crush."]},
@@ -155,7 +167,9 @@
   function buttons(list, onTap) {
     choices.innerHTML = "";
     list.forEach(function (t) {
-      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.textContent = t;
+      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn";
+      var a = art(t); if (a) { b.appendChild(a); }
+      var sp = document.createElement("span"); sp.textContent = t; b.appendChild(sp);
       b.addEventListener("click", function () { onTap(t, b); });
       choices.appendChild(b);
     });
