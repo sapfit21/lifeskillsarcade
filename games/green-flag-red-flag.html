@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css?v=2026-09-15">
-<link rel="stylesheet" href="games.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
 </head>
 <body class="student game">
 <a class="skip" href="#main">Skip to content</a>
@@ -48,14 +48,14 @@
 <p>This game reviews <a href="../lesson-03-12.html">Lesson 3.12, Healthy vs Unhealthy Relationships: the Signs</a> and <a href="../lesson-03-06.html">Lesson 3.6, Peer Influence, Pressure, and Refusal Skills</a>. Round 1 uses the lesson's own card sort (Handout 3.12): a situation appears, and the player has 3 seconds to tap green flag (a sign of a relationship that is good for you) or red flag (a sign of one that is not). Every red flag names its sign: control, put-downs, isolation, pressure, or fear. The two "depends" cards from the handout are left out on purpose. Round 2 is the four refusal steps from Lesson 3.6, scrambled, tapped into order. Use it as the do now before Lesson 3.13 or as review before the Unit 3 test. Every card is a role, never a person in the room. Nothing is saved when the page closes.</p>
 </div>
 
-<h1 class="game-title">Green Flag, <span class="alt2">Red Flag</span></h1>
+<div class="game-head"><img class="title-art" src="art/green-flag-red-flag-title.webp" alt=""><h1 class="game-title">Green Flag, <span class="alt2">Red Flag</span></h1></div>
 <p class="game-lede">A friend, a teammate, a cousin, a person in a group chat. Is what they do a green flag or a red flag? You have 3 seconds. Then, the four steps for saying no.</p>
 
 <div class="hud" aria-hidden="true">
   <div class="stat"><span class="lab">Card</span><span class="val" id="grCard">0 of 12</span></div>
   <div class="stat timer" id="grTimerBox"><span class="lab">Seconds</span><span class="val" id="grTimer">3</span></div>
   <div class="stat"><span class="lab">Streak</span><span class="val" id="grStreak">0</span></div>
-  <div class="stat"><span class="lab">Score</span><span class="val" id="grScore">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="grScore">0</span></div>
 </div>
 <div class="sr-live" aria-live="polite" id="grLive"></div>
 
@@ -88,7 +88,7 @@
   <div class="sr-cards gr-cards" id="grCards"></div>
 </div>
 
-<div class="panel" id="grEnd" hidden>
+<div class="panel end" id="grEnd" hidden>
   <h2>Done</h2>
   <p class="big" id="grFinal"></p>
   <p id="grSummary"></p>
@@ -249,6 +249,7 @@
   function finish() {
     stepsP.hidden = true; endP.hidden = false;
     document.getElementById("grFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "green-flag-red-flag", lesson: "3.12", score: score, max: 0, rounds: 2}); }
     document.getElementById("grSummary").textContent = right + " of " + N + " flags right." + (right === N ? " Every sign, every time." : "");
     var ul = document.getElementById("grMissed"); ul.innerHTML = "";
     document.getElementById("grMissWrap").hidden = !missed.length;

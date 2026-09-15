@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css?v=2026-09-15">
-<link rel="stylesheet" href="games.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
 </head>
 <body class="student game">
 <a class="skip" href="#main">Skip to content</a>
@@ -48,13 +48,13 @@
 <p>This game reviews <a href="../lesson-01-01.html">Lesson 1.1, Hunt the Hazard</a>: the six hazard families (burns, cuts, falls, fire, electrical, food contamination), what could happen, and the one action that prevents it. Use it as the do now before Lesson 1.2, as the review before the Kitchen Safety Exam in Lesson 1.4, or on the board with the class calling out taps. The 8 hazard setting is the grade 6 support from the lesson; 12 is the full hunt. Nothing is saved when the page closes.</p>
 </div>
 
-<h1 class="game-title">Hazard <span class="alt2">Hunt</span></h1>
+<div class="game-head"><img class="title-art" src="art/hazard-hunt-title.webp" alt=""><h1 class="game-title">Hazard <span class="alt2">Hunt</span></h1></div>
 <p class="game-lede">There are hazards planted in this kitchen. Tap each one before the clock runs out. Look, do not touch: a tap on something safe costs you 3 seconds.</p>
 
 <div class="hud" aria-hidden="true">
   <div class="stat"><span class="lab">Found</span><span class="val" id="hhFound">0 of 12</span></div>
   <div class="stat timer" id="hhTimerBox"><span class="lab">Seconds</span><span class="val" id="hhTimer">90</span></div>
-  <div class="stat"><span class="lab">Score</span><span class="val" id="hhScore">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="hhScore">0</span></div>
 </div>
 <div class="sr-live" aria-live="polite" id="hhLive"></div>
 
@@ -275,7 +275,7 @@
   <div class="choice-row hh-fam" id="hhFamilies"></div>
 </div>
 
-<div class="panel" id="hhEnd" hidden>
+<div class="panel end" id="hhEnd" hidden>
   <h2>Hunt over</h2>
   <p class="big" id="hhFinal"></p>
   <p id="hhSummary"></p>
@@ -495,6 +495,7 @@
     endP.hidden = false;
     timerBox.querySelector(".lab").textContent = "Seconds";
     document.getElementById("hhFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "hazard-hunt", lesson: "1.1", score: score, max: 0, rounds: 2}); }
     var s = "You found " + found.length + " of " + active.length + " hazards";
     if (found.length) { s += " and named the right family for " + r2correct + " of " + found.length + "."; } else { s += "."; }
     document.getElementById("hhSummary").textContent = s;

@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css?v=2026-09-15">
-<link rel="stylesheet" href="games.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
 </head>
 <body class="student game">
 <a class="skip" href="#main">Skip to content</a>
@@ -48,14 +48,14 @@
 <p>This game reviews <a href="../lesson-02-07.html">Lesson 2.7, Needs vs Wants Showdown</a>, <a href="../lesson-02-08.html">Lesson 2.8, Paycheck Detective</a>, and <a href="../lesson-02-09.html">Lesson 2.9, Budget Like a Boss</a>. Round 1 is a random pay stub at $17.00 an hour with the four deductions from the lesson (federal income tax, New York State income tax, Social Security at 6.2 percent, Medicare at 1.45 percent): three quick reads of gross, deductions, and net. Round 2 is the month: two of those paychecks, savings taken first at 20 percent, then ten expense cards sorted with the lesson's test ("Do I need this to be safe, healthy, and able to do school or work?"). Needs get paid. Wants are a choice, and buying one you cannot afford ends the month in the red. Prices are the Long Island 2026 prices from the handouts. Nothing is saved when the page closes.</p>
 </div>
 
-<h1 class="game-title">Paycheck <span class="alt2">Puzzle</span></h1>
+<div class="game-head"><img class="title-art" src="art/paycheck-puzzle-title.webp" alt=""><h1 class="game-title">Paycheck <span class="alt2">Puzzle</span></h1></div>
 <p class="game-lede">Read the stub. Find the number you budget with. Then get through the month in the black.</p>
 
 <div class="hud" aria-hidden="true">
   <div class="stat"><span class="lab">Round</span><span class="val" id="ppRound">1 of 2</span></div>
   <div class="stat timer" id="ppTimerBox"><span class="lab">Seconds</span><span class="val" id="ppTimer">20</span></div>
   <div class="stat"><span class="lab">Balance</span><span class="val" id="ppBal">$0</span></div>
-  <div class="stat"><span class="lab">Score</span><span class="val" id="ppScore">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="ppScore">0</span></div>
 </div>
 <div class="sr-live" aria-live="polite" id="ppLive"></div>
 
@@ -94,7 +94,7 @@
   <p class="pp-ledger" id="ppLedger"></p>
 </div>
 
-<div class="panel" id="ppEnd" hidden>
+<div class="panel end" id="ppEnd" hidden>
   <h2 id="ppEndHead">Month over</h2>
   <p class="big" id="ppFinal"></p>
   <p id="ppSummary"></p>
@@ -333,6 +333,7 @@
       sum = "Month over with " + money0(balance) + " left, on top of the " + money0(savings) + " you saved first. That banks " + bank + " points (one per 5 dollars). Sorting: " + sortRight + " of " + deck.length + " right.";
     }
     document.getElementById("ppFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "paycheck-puzzle", lesson: "2.8", score: score, max: 0, rounds: 2}); }
     document.getElementById("ppSummary").textContent = sum;
     var ul = document.getElementById("ppMissed"); ul.innerHTML = "";
     document.getElementById("ppMissWrap").hidden = !missed.length;

@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css?v=2026-09-15">
-<link rel="stylesheet" href="games.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
 </head>
 <body class="student game">
 <a class="skip" href="#main">Skip to content</a>
@@ -48,14 +48,14 @@
 <p>This game reviews <a href="../lesson-07-06.html">Lesson 7.6, What a Business Is</a>, <a href="../lesson-07-08.html">Lesson 7.8, Know Your Customer and Price It</a>, and <a href="../lesson-07-09.html">Lesson 7.9, The Elevator Pitch</a>, plus the three-part bullet from <a href="../lesson-07-01.html">Lesson 7.1</a>. Round 1: a problem card and a customer card; the player builds a short pitch from five columns (problem, customer, product, price, ask), and each column is scored against the Rubric 07 lines: the problem names who has it, the customer is specific, the product solves that problem, the price fits what the customer can spend and comes with a number, the ask names something specific with a number that fits the product. Round 2 is fast: tap the resume bullet that has all three parts (the work, the explanation, the output). Use it as the do now before Lesson 7.10. Nothing is saved when the page closes.</p>
 </div>
 
-<h1 class="game-title">Pitch <span class="alt2">Perfect</span></h1>
+<div class="game-head"><img class="title-art" src="art/pitch-perfect-title.webp" alt=""><h1 class="game-title">Pitch <span class="alt2">Perfect</span></h1></div>
 <p class="game-lede">A problem and a customer. Build the pitch one column at a time, and make every piece fit the piece before it. Then the fast round: which resume bullet has all three parts?</p>
 
 <div class="hud" aria-hidden="true">
   <div class="stat"><span class="lab">Round</span><span class="val" id="pfRound">1 of 2</span></div>
   <div class="stat timer" id="pfTimerBox"><span class="lab">Seconds</span><span class="val" id="pfTimer">20</span></div>
   <div class="stat"><span class="lab">Streak</span><span class="val" id="pfStreak">0</span></div>
-  <div class="stat"><span class="lab">Score</span><span class="val" id="pfScore">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="pfScore">0</span></div>
 </div>
 <div class="sr-live" aria-live="polite" id="pfLive"></div>
 
@@ -82,7 +82,7 @@
   <div class="pf-options" id="pfFOptions"></div>
 </div>
 
-<div class="panel" id="pfEnd" hidden>
+<div class="panel end" id="pfEnd" hidden>
   <h2>Pitch over</h2>
   <p class="big" id="pfFinal"></p>
   <p id="pfSummary"></p>
@@ -240,6 +240,7 @@
   function finish() {
     fastP.hidden = true; endP.hidden = false;
     document.getElementById("pfFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "pitch-perfect", lesson: "7.9", score: score, max: 0, rounds: 2}); }
     document.getElementById("pfSummary").textContent = "Pitch: " + colsRight + " of 5 columns fit" + (colsRight === 5 ? ", a Meets on the rubric." : ".") + " Bullets: " + fastRight + " of " + FAST_N + ".";
     document.getElementById("pfFinalText").textContent = built.join(" ");
     var ul = document.getElementById("pfMissed"); ul.innerHTML = "";

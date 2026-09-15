@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css?v=2026-09-15">
-<link rel="stylesheet" href="games.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
 </head>
 <body class="student game">
 <a class="skip" href="#main">Skip to content</a>
@@ -48,14 +48,14 @@
 <p>This game reviews <a href="../lesson-05-03.html">Lesson 5.3, Fibers: Natural and Manufactured</a> and <a href="../lesson-05-04.html">Lesson 5.4, Care Labels and Laundry</a>. Round 1: a fiber name or a clue from the lesson's table appears; tap natural or manufactured, then tap which of the eight fibers it is (cotton, wool, silk, linen, polyester, nylon, rayon, spandex). Round 2: a care symbol appears, drawn the way it is printed on a tag; tap what it means. Only the symbol families the lesson teaches (wash, bleach, dry, iron, professional care, with the dots, bars, and X marks). Use it as the do now before the Fibers and Care Quiz in Lesson 5.4 Day 2. Nothing is saved when the page closes.</p>
 </div>
 
-<h1 class="game-title">Fiber <span class="alt2">Detective</span></h1>
+<div class="game-head"><img class="title-art" src="art/fiber-detective-title.webp" alt=""><h1 class="game-title">Fiber <span class="alt2">Detective</span></h1></div>
 <p class="game-lede">Round 1: a fiber or a clue. Natural or manufactured? Then which one? Round 2: read the tag. What does the symbol mean?</p>
 
 <div class="hud" aria-hidden="true">
   <div class="stat"><span class="lab">Question</span><span class="val" id="fdQ">0 of 10</span></div>
   <div class="stat timer" id="fdTimerBox"><span class="lab">Seconds</span><span class="val" id="fdTimer">15</span></div>
   <div class="stat"><span class="lab">Streak</span><span class="val" id="fdStreak">0</span></div>
-  <div class="stat"><span class="lab">Score</span><span class="val" id="fdScore">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="fdScore">0</span></div>
 </div>
 <div class="sr-live" aria-live="polite" id="fdLive"></div>
 
@@ -71,7 +71,7 @@
   <div class="choice-row" id="fdChoices"></div>
 </div>
 
-<div class="panel" id="fdEnd" hidden>
+<div class="panel end" id="fdEnd" hidden>
   <h2>Case closed</h2>
   <p class="big" id="fdFinal"></p>
   <p id="fdSummary"></p>
@@ -234,6 +234,7 @@
   function finish() {
     playP.hidden = true; endP.hidden = false;
     document.getElementById("fdFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "fiber-detective", lesson: "5.3", score: score, max: 0, rounds: 2}); }
     document.getElementById("fdSummary").textContent = "Fibers: " + right1 + " of " + R1_N + ". Care symbols: " + right2 + " of " + R2_N + ". The fiber decides the care, and the care decides how long the garment lasts.";
     var ul = document.getElementById("fdMissed"); ul.innerHTML = "";
     document.getElementById("fdMissWrap").hidden = !missed.length;

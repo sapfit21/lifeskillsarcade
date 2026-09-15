@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css?v=2026-09-15">
-<link rel="stylesheet" href="games.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
 </head>
 <body class="student game">
 <a class="skip" href="#main">Skip to content</a>
@@ -48,14 +48,14 @@
 <p>This game reviews the hand sewing block, <a href="../lesson-05-06.html">Lesson 5.6</a> to <a href="../lesson-05-09.html">Lesson 5.9</a>: which stitch does which job. Running stitch bastes, gathers, and decorates. Backstitch holds a seam that takes stress. Whipstitch joins two edges and finishes them. Hem stitch holds a fold and stays hidden on the front. Use it as the do now on a sewing day, or as the warm-up before the Stitch Sampler Performance Check in Lesson 5.11. A job that two stitches can do (a patch, for one) accepts both. Nothing is saved when the page closes.</p>
 </div>
 
-<h1 class="game-title">Stitch <span class="alt2">Match</span></h1>
+<div class="game-head"><img class="title-art" src="art/stitch-match-title.webp" alt=""><h1 class="game-title">Stitch <span class="alt2">Match</span></h1></div>
 <p class="game-lede">A job appears. Tap the stitch that does it. 60 seconds, as many as you can. Different stitches do different jobs, and picking the wrong one is why things come apart.</p>
 
 <div class="hud" aria-hidden="true">
   <div class="stat"><span class="lab">Matched</span><span class="val" id="smDone">0</span></div>
   <div class="stat timer" id="smTimerBox"><span class="lab">Seconds</span><span class="val" id="smTimer">60</span></div>
   <div class="stat"><span class="lab">Streak</span><span class="val" id="smStreak">0</span></div>
-  <div class="stat"><span class="lab">Score</span><span class="val" id="smScore">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="smScore">0</span></div>
 </div>
 <div class="sr-live" aria-live="polite" id="smLive"></div>
 
@@ -88,7 +88,7 @@
   </div>
 </div>
 
-<div class="panel" id="smEnd" hidden>
+<div class="panel end" id="smEnd" hidden>
   <h2>Time</h2>
   <p class="big" id="smFinal"></p>
   <p id="smSummary"></p>
@@ -214,6 +214,7 @@
     var end = document.getElementById("smEnd");
     end.hidden = false;
     document.getElementById("smFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "stitch-match", lesson: "5.6", score: score, max: 0, rounds: 1}); }
     document.getElementById("smSummary").textContent = done + " matched in 60 seconds. Best streak: " + best + ".";
     var seen = {}; var uniq = missed.filter(function (m) { if (seen[m.j]) { return false; } seen[m.j] = true; return true; });
     var ul = document.getElementById("smMissed"); ul.innerHTML = "";

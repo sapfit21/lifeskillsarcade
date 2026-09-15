@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css?v=2026-09-15">
-<link rel="stylesheet" href="games.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15"><script src="arcade.js?v=2026-09-15"></script>
 </head>
 <body class="student game">
 <a class="skip" href="#main">Skip to content</a>
@@ -48,14 +48,14 @@
 <p>This game reviews the routines from <a href="../lesson-00-02.html">Lesson 0.2, How This Room Works</a> and <a href="../lesson-01-02.html">Lesson 1.2, Handwashing, the Danger Zone, and Cross Contamination</a>, in the exact words the class hears all year: the six-step sanitation routine (taught for the exam in <a href="../lesson-01-04.html">Lesson 1.4</a>), the six handwashing steps, and the eight lab roles from Handout 1.8 in the order they turn on. Round 4, Whose job is it, asks who does what at a station. Use it as the do now on any lab day, or on the board with the class calling out the next card. Nothing is saved when the page closes.</p>
 </div>
 
-<h1 class="game-title">Station <span class="alt2">Rush</span></h1>
+<div class="game-head"><img class="title-art" src="art/station-rush-title.webp" alt=""><h1 class="game-title">Station <span class="alt2">Rush</span></h1></div>
 <p class="game-lede">The cards are shuffled. Tap them into the right order before the clock runs out. Three order rounds, then a lightning round: whose job is it?</p>
 
 <div class="hud" aria-hidden="true">
   <div class="stat"><span class="lab">Round</span><span class="val" id="srRound">1 of 4</span></div>
   <div class="stat timer" id="srTimerBox"><span class="lab">Seconds</span><span class="val" id="srTimer">40</span></div>
   <div class="stat"><span class="lab">Streak</span><span class="val" id="srStreak">0</span></div>
-  <div class="stat"><span class="lab">Score</span><span class="val" id="srScore">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" id="srScore">0</span></div>
 </div>
 <div class="sr-live" aria-live="polite" id="srLive"></div>
 
@@ -78,7 +78,7 @@
   <div class="choice-row" id="srQChoices"></div>
 </div>
 
-<div class="panel" id="srEnd" hidden>
+<div class="panel end" id="srEnd" hidden>
   <h2>Station check</h2>
   <p class="big" id="srFinal"></p>
   <p id="srSummary"></p>
@@ -287,6 +287,7 @@
     stopClock();
     playP.hidden = true; quizP.hidden = true; endP.hidden = false;
     document.getElementById("srFinal").textContent = score + " points";
+    if (window.LSA && LSA.report) { LSA.report({game: "station-rush", lesson: "1.2", score: score, max: 0, rounds: 4}); }
     document.getElementById("srSummary").textContent = "Whose job: " + qcorrect + " of " + QUIZ_N + " right. " +
       (missed.length ? "" : "Every card in order, every job to the right role. The station passes.");
     var ul = document.getElementById("srMissed"); ul.innerHTML = "";
