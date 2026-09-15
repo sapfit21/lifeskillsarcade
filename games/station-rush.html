@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Station Rush, Life Skills Arcade</title>
+<meta name="description" content="The sanitation routine, the handwashing steps, and the eight lab roles come as shuffled cards. Tap them into order before the clock runs out, then answer fast: whose job is it?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15">
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- Station Rush. Reviews Lessons 0.2 and 1.2 (with the routine from 1.4 and the role cards from Lab 1). Built 2026-09-15.
+     Everything on this page is static: no sound, no storage, no network. -->
+<div class="game" id="stationRush">
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>This game reviews the routines from <a href="../lesson-00-02.html">Lesson 0.2, How This Room Works</a> and <a href="../lesson-01-02.html">Lesson 1.2, Handwashing, the Danger Zone, and Cross Contamination</a>, in the exact words the class hears all year: the six-step sanitation routine (taught for the exam in <a href="../lesson-01-04.html">Lesson 1.4</a>), the six handwashing steps, and the eight lab roles from Handout 1.8 in the order they turn on. Round 4, Whose job is it, asks who does what at a station. Use it as the do now on any lab day, or on the board with the class calling out the next card. Nothing is saved when the page closes.</p>
+</div>
+
+<h1 class="game-title">Station <span class="alt2">Rush</span></h1>
+<p class="game-lede">The cards are shuffled. Tap them into the right order before the clock runs out. Three order rounds, then a lightning round: whose job is it?</p>
+
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" id="srRound">1 of 4</span></div>
+  <div class="stat timer" id="srTimerBox"><span class="lab">Seconds</span><span class="val" id="srTimer">40</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" id="srStreak">0</span></div>
+  <div class="stat"><span class="lab">Score</span><span class="val" id="srScore">0</span></div>
+</div>
+<div class="sr-live" aria-live="polite" id="srLive"></div>
+
+<div class="panel" id="srStart">
+  <h2>How to play</h2>
+  <p>Each card you place in the right spot is 10 points. Three right in a row adds a 5 point bonus. A wrong tap costs 2 seconds and resets your streak. When the clock runs out, the round ends and the right order shows. Round 4 is lightning: eight seconds a question.</p>
+  <p><button class="gbtn go" id="srGo" type="button">Start</button></p>
+</div>
+
+<div class="sr-play" id="srPlay" hidden>
+  <div class="sr-task"><span class="sr-tasklab" id="srTaskLab">Round 1</span><span class="sr-tasktext" id="srTaskText"></span></div>
+  <div class="feedback" id="srFeed"></div>
+  <ol class="sr-slots" id="srSlots" aria-label="The order so far"></ol>
+  <div class="sr-cards" id="srCards"></div>
+</div>
+
+<div class="sr-play" id="srQuiz" hidden>
+  <div class="sr-task"><span class="sr-tasklab" id="srQLab">Round 4: whose job is it?</span><span class="sr-tasktext" id="srQText"></span></div>
+  <div class="feedback" id="srQFeed"></div>
+  <div class="choice-row" id="srQChoices"></div>
+</div>
+
+<div class="panel" id="srEnd" hidden>
+  <h2>Station check</h2>
+  <p class="big" id="srFinal"></p>
+  <p id="srSummary"></p>
+  <div id="srMissWrap"><p><b>The ones to study:</b></p><ul class="miss-list" id="srMissed"></ul></div>
+  <p><button class="gbtn go" id="srAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline)}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-slots li .tag{display:block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2);margin-top:.15rem}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+</style>
+
+<script>
+(function () {
+  "use strict";
+  // The three order rounds. The wording is the canonical routine wording (D10) and the role card titles from Handout 1.8.
+  var ROUNDS = [
+    {lab: "Round 1: the sanitation routine", text: "Every lab starts and ends the same way. Tap the six steps in order.",
+     items: [
+       {t: "Hair back", tag: "Start"}, {t: "Sleeves up", tag: "Start"}, {t: "Wash hands", tag: "Start"}, {t: "Sanitize surfaces", tag: "Start"},
+       {t: "Clean as you go", tag: "During"}, {t: "Station check before dismissal", tag: "End"}]},
+    {lab: "Round 2: handwashing", text: "Twenty seconds of scrubbing. Tap the six steps in order.",
+     items: [
+       {t: "Wet", tag: ""}, {t: "Soap", tag: ""}, {t: "Scrub 20 seconds", tag: "backs, between fingers, under nails"},
+       {t: "Rinse", tag: ""}, {t: "Dry with a paper towel", tag: ""}, {t: "Turn the faucet off with the towel", tag: ""}]},
+    {lab: "Round 3: the lab roles", text: "Four core roles run at every station. The rest turn on as the team grows. Tap the eight roles in the order they turn on.",
+     items: [
+       {t: "Station Manager", tag: "Core"}, {t: "Head Cook", tag: "Core"}, {t: "Second Cook", tag: "Core"}, {t: "Prep Cook", tag: "Core"},
+       {t: "Helper Cook", tag: "Turns on at 5"}, {t: "Toppings Chief", tag: "Turns on at 6"}, {t: "Plate Builder", tag: "Turns on at 7"}, {t: "Time Keeper", tag: "Turns on at 8"}]}
+  ];
+  var ROLES = ["Station Manager", "Head Cook", "Second Cook", "Prep Cook", "Helper Cook", "Toppings Chief", "Plate Builder", "Time Keeper"];
+  // Round 4 pool. ok lists every role the card gives the job to. From Handout 1.8, Role Cards Lab 1.
+  var JOBS = [
+    {q: "Reads the whole station card out loud to the team before anyone starts.", ok: ["Head Cook"]},
+    {q: "Walks the station check at the end and reports \"done\" to the teacher.", ok: ["Station Manager"]},
+    {q: "Measures the dry ingredients and levels every spoon.", ok: ["Prep Cook"]},
+    {q: "Keeps the count while every teammate takes a 30-second turn at the whisk.", ok: ["Second Cook"]},
+    {q: "Measures the wet ingredients, reading the cup at eye level.", ok: ["Helper Cook"]},
+    {q: "Spoons whipped cream onto each bowl and sprinkles the chips.", ok: ["Toppings Chief"]},
+    {q: "Splits each cake into two bowls so everybody gets a fair share.", ok: ["Plate Builder"]},
+    {q: "Calls the time every five minutes and gives the two-minute warning.", ok: ["Time Keeper"]},
+    {q: "Pours the eggs into skillet 1 at minute 12 and takes them off while they still look a little wet.", ok: ["Head Cook"]},
+    {q: "Cooks the frozen peppers and onions in skillet 2, stirring every minute.", ok: ["Second Cook"]},
+    {q: "Stacks 8 tortillas on a plate under a damp paper towel.", ok: ["Prep Cook"]},
+    {q: "Clears the trash the moment it appears and keeps the sink clear.", ok: ["Station Manager"]},
+    {q: "Sweeps the floor and replaces the trash liner.", ok: ["Helper Cook", "Time Keeper"]},
+    {q: "At a station of seven, this role also keeps time.", ok: ["Station Manager"]},
+    {q: "Sets the timer to 40 minutes and announces each phase out loud.", ok: ["Time Keeper"]},
+    {q: "Measures 1 cup of shredded cheese and sets it at the end of the assembly line.", ok: ["Toppings Chief"]},
+    {q: "Holds each tortilla open while the cooks fill it.", ok: ["Plate Builder"]},
+    {q: "Runs the heat. The eggs are rubber or silk depending on this role watching the clock.", ok: ["Head Cook"]},
+    {q: "Cracks the eggs with the Head Cook: one cracks, the other checks for shell.", ok: ["Helper Cook"]},
+    {q: "Wipes the microwave inside and out and washes the four mugs.", ok: ["Head Cook"]}
+  ];
+  var QUIZ_N = 12, QUIZ_SECS = 8, ROUND_SECS = 40;
+
+  var startP = document.getElementById("srStart"), playP = document.getElementById("srPlay"), quizP = document.getElementById("srQuiz"), endP = document.getElementById("srEnd");
+  var elRound = document.getElementById("srRound"), elT = document.getElementById("srTimer"), elTB = document.getElementById("srTimerBox");
+  var elS = document.getElementById("srStreak"), elSc = document.getElementById("srScore"), live = document.getElementById("srLive");
+  var feed = document.getElementById("srFeed"), qfeed = document.getElementById("srQFeed");
+  var slots = document.getElementById("srSlots"), cardsEl = document.getElementById("srCards");
+
+  var score, streak, secs, tick, round, next, placed, missed, locked, quiz, qi, qcorrect, feedTimer;
+
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function hud() {
+    elRound.textContent = (round + 1) + " of 4"; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
+    elTB.className = "stat timer" + (secs <= 5 ? " low" : "");
+  }
+  function say(el, text, cls) {
+    el.textContent = text; el.className = "feedback" + (cls ? " " + cls : "");
+    clearTimeout(feedTimer);
+    feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 2600);
+  }
+  function stopClock() { clearInterval(tick); tick = null; }
+  function startClock(n, onOut) {
+    stopClock(); secs = n; hud();
+    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
+  }
+  function scoreHit() {
+    score += 10; streak += 1;
+    if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; }
+    return "";
+  }
+
+  // ---- order rounds ----
+  function startRound(r) {
+    round = r; next = 0; placed = []; locked = false;
+    var R = ROUNDS[r];
+    document.getElementById("srTaskLab").textContent = R.lab;
+    document.getElementById("srTaskText").textContent = R.text;
+    slots.innerHTML = "";
+    R.items.forEach(function () { var li = document.createElement("li"); li.textContent = " "; slots.appendChild(li); });
+    cardsEl.innerHTML = "";
+    var order = shuffle(R.items.map(function (_, i) { return i; }));
+    order.forEach(function (i) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "sr-card"; b.textContent = R.items[i].t; b.setAttribute("data-i", i);
+      b.addEventListener("click", function () { tapCard(i, b); });
+      cardsEl.appendChild(b);
+    });
+    playP.hidden = false; quizP.hidden = true;
+    live.textContent = R.lab + ". " + R.text;
+    startClock(ROUND_SECS, function () { endRound(false); });
+    playP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function fillSlot(i, cls) {
+    var R = ROUNDS[round], li = slots.children[i];
+    li.textContent = R.items[i].t; li.className = cls;
+    if (R.items[i].tag) { var s = document.createElement("span"); s.className = "tag"; s.textContent = R.items[i].tag; li.appendChild(s); }
+  }
+  function tapCard(i, b) {
+    if (locked || !tick) { return; }
+    if (i === next) {
+      b.hidden = true; fillSlot(i, "filled"); next += 1;
+      var extra = scoreHit();
+      say(feed, "Yes. Step " + next + ": " + ROUNDS[round].items[i].t + "." + extra, "good");
+      live.textContent = "Placed " + ROUNDS[round].items[i].t + " at " + next;
+      hud();
+      if (next === ROUNDS[round].items.length) { endRound(true); }
+    } else {
+      streak = 0; secs = Math.max(0, secs - 2);
+      b.classList.add("wrong"); setTimeout(function () { b.classList.remove("wrong"); }, 500);
+      say(feed, "Not yet. That is not step " + (next + 1) + ". Minus 2 seconds.", "bad");
+      hud();
+      if (secs === 0) { stopClock(); endRound(false); }
+    }
+  }
+  function endRound(done) {
+    stopClock(); locked = true;
+    var R = ROUNDS[round];
+    if (done) {
+      score += secs;
+      say(feed, "All " + R.items.length + " in order. " + secs + " seconds left, added to your score.", "good");
+    } else {
+      say(feed, "Time. Here is the right order.", "");
+      for (var i = next; i < R.items.length; i++) { fillSlot(i, "shown"); missed.push(R.lab.replace(/^Round \d: /, "") + ": " + R.items.slice(next).map(function (x) { return x.t; }).join(", ")); break; }
+      var bs = cardsEl.querySelectorAll(".sr-card"); for (var k = 0; k < bs.length; k++) { bs[k].hidden = true; }
+    }
+    hud();
+    setTimeout(function () { if (round + 1 < ROUNDS.length) { startRound(round + 1); } else { startQuiz(); } }, done ? 1400 : 3200);
+  }
+
+  // ---- round 4: whose job is it ----
+  function startQuiz() {
+    round = 3; qi = 0; qcorrect = 0; locked = false;
+    quiz = shuffle(JOBS.slice()).slice(0, QUIZ_N);
+    playP.hidden = true; quizP.hidden = false;
+    var row = document.getElementById("srQChoices"); row.innerHTML = "";
+    ROLES.forEach(function (r) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.textContent = r; b.setAttribute("data-role", r);
+      b.addEventListener("click", function () { answer(r, b); });
+      row.appendChild(b);
+    });
+    hud();
+    showQ();
+    quizP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function showQ() {
+    var q = quiz[qi];
+    document.getElementById("srQLab").textContent = "Round 4: whose job is it? " + (qi + 1) + " of " + QUIZ_N;
+    document.getElementById("srQText").textContent = q.q;
+    live.textContent = "Question " + (qi + 1) + ": " + q.q;
+    locked = false;
+    startClock(QUIZ_SECS, function () { answer(null, null); });
+  }
+  function answer(role, btn) {
+    if (locked) { return; }
+    locked = true; stopClock();
+    var q = quiz[qi], right = role && q.ok.indexOf(role) !== -1;
+    var bs = document.querySelectorAll("#srQChoices .gbtn");
+    for (var i = 0; i < bs.length; i++) { if (q.ok.indexOf(bs[i].getAttribute("data-role")) !== -1) { bs[i].classList.add("right"); } }
+    if (right) { qcorrect += 1; var extra = scoreHit(); say(qfeed, "Yes. " + q.ok.join(" or ") + "." + extra, "good"); }
+    else {
+      streak = 0; if (btn) { btn.classList.add("wrong"); }
+      say(qfeed, (role ? "No. " : "Time. ") + "That is the " + q.ok.join(" or the ") + ".", "bad");
+      missed.push("Whose job: " + q.q + " (" + q.ok.join(" or ") + ")");
+    }
+    hud();
+    setTimeout(function () {
+      for (var k = 0; k < bs.length; k++) { bs[k].classList.remove("right", "wrong"); }
+      qi += 1;
+      if (qi >= QUIZ_N) { finish(); } else { showQ(); }
+    }, 1100);
+  }
+
+  function finish() {
+    stopClock();
+    playP.hidden = true; quizP.hidden = true; endP.hidden = false;
+    document.getElementById("srFinal").textContent = score + " points";
+    document.getElementById("srSummary").textContent = "Whose job: " + qcorrect + " of " + QUIZ_N + " right. " +
+      (missed.length ? "" : "Every card in order, every job to the right role. The station passes.");
+    var ul = document.getElementById("srMissed"); ul.innerHTML = "";
+    document.getElementById("srMissWrap").hidden = !missed.length;
+    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
+    endP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function begin() {
+    score = 0; streak = 0; missed = [];
+    startP.hidden = true; endP.hidden = true;
+    startRound(0);
+  }
+  document.getElementById("srGo").addEventListener("click", begin);
+  document.getElementById("srAgain").addEventListener("click", begin);
+  secs = ROUND_SECS; score = 0; streak = 0; round = 0; hud();
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-15. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>
