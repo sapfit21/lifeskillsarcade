@@ -63,7 +63,7 @@ Image: felt glued into the floor of the box.
 
 ## Slide 8: Craft day rules
 
-- Sleeves up, hair back, same as a lab
+- Hair back, sleeves up, same as a lab
 - Glue guns: one station, one adult, low temperature, nobody walks with a hot gun
 - A burn is a burn: cool water, tell me (Lesson 1.3)
 - Tell me now if hot glue fumes or foam bother you. We have another way to do every step.
@@ -111,7 +111,7 @@ Notes: A team with no color card picks one of the three schemes on the build gui
 - Dresser: a stacked card block with the drawers drawn on
 - Lamp: a paper straw with a paper cone
 Image: those four pieces sitting next to a ruler.
-Notes: Build all three live, fast. Speed is the message: a model is scrap and twenty minutes, not a craft project.
+Notes: Build all four live, fast. Speed is the message: a model is scrap and twenty minutes, not a craft project.
 
 ## Slide 14: To scale, every piece
 
@@ -198,7 +198,7 @@ Notes: A smoke alarm on the ceiling is rare and correct. Praise it out loud when
 - Two sentences
 - One: the biggest design choice in this room, and the client need it serves
 - Two: the principle of design it uses, and why
-- Principles: balance, focal point, rhythm, proportion, emphasis, unity
+- Principles: balance, focal point, rhythm, proportion, unity, contrast
 Image: a filled WHY card for the Okafor room.
 Notes: Model it on the board for Okafor. "The biggest choice is the bed on the long wall with 36 inches on the open side, because Grandpa gets in and out with a walker. It uses proportion, because a twin bed instead of a full leaves the floor open."
 

@@ -21,7 +21,7 @@
 - National FCS 3.0: 8.5.7 Prepare fruits, vegetables, starches, legumes, dairy, fats, and oils safely and with professional technique.
 - National FCS 3.0: 14.4.2 Examine safety and sanitation practice.
 
-(Four module lines, one more than usual, because FSP 5. d) is the scheduling work on the critical path and it is graded here. This lesson demonstrates a second time what Unit 1 taught: FSP 1. a), c), and e) repeat N&W 1. b) and d) almost word for word, and the standards map lists both.)
+(Four module lines, one more than usual, because FSP 5. d) is the scheduling work on the critical path and it is graded here. This lesson demonstrates a second time what Unit 1 taught: FSP 1. c) and e) repeat N&W 1. b) and d) almost word for word, and the standards map lists both.)
 
 ## What is new here, and what is a repeat
 
@@ -131,9 +131,9 @@ Math: cost per serving from the receipt, and the flowchart is a real scheduling 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 5. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Resources. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3, 8.5.7, and 14.4.2.
 - `Rubric 01 - Lab Rubric.md` and `Handout 01.08 - Lab Reflection.md`, reused unchanged.

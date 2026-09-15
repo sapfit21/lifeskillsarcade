@@ -133,9 +133,9 @@ Math: throughput is a rate problem (items per minute), and cost per quesadilla i
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. e), 2. c), and 2. e). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. e), 2. c), and 2. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Resources. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.5.7.
 - `Rubric 01 - Lab Rubric.md` and `Handout 01.08 - Lab Reflection.md`, reused unchanged.
@@ -159,10 +159,10 @@ Math: throughput is a rate problem (items per minute), and cost per quesadilla i
 | Shredded Mexican blend cheese, 8 oz | 2 bags | $2.99 each, $5.98 | 1 1/2 bags store brand mozzarella, about $3.74 |
 | Salsa, 16 oz, store brand | 1 jar | $2.49 | Store brand picante sauce, about $1.99 |
 | Cooking spray or butter | pantry | pantry | A teaspoon of butter per skillet works |
-| **Main dish total per station** | | **about $12.94** | **about $10.24 with swaps** |
+| **Main dish total per station** | | **about $12.94** | **about $9.50 with swaps** |
 | Optional dessert: graham crackers, blueberries, whipped cream | 1 box, 1 container, 1 can | $2.49 + $2.99 + $2.49 = $7.97 | Vanilla wafers $1.99, canned fruit drained $1.29, whipped topping tub $1.79, about $5.07 |
-| **Station total with dessert** | | **about $20.91, over the cap** | **about $15.31 with swaps, under the cap** |
-| Class of four stations, main dish only | | about $52 | about $41 with swaps |
+| **Station total with dessert** | | **about $20.91, over the cap** | **about $14.57 with swaps, under the cap** |
+| Class of four stations, main dish only | | about $52 | about $38 with swaps |
 | No-kitchen Rolled Wraps | per station of seven | about $13 | Tortillas $2.49, beans $1.98, cheese $5.98, salsa $2.49, lettuce $1.99, minus the spray |
 
 - The dessert is what pushes this lab over $20 at full prices. My own package flagged the same thing. Either run the swaps or drop the dessert to a shared class platter instead of a station each, which is about $8 for the whole room.

@@ -18,7 +18,7 @@
 - National FCS 3.0: 12.1.1 Examine physical, emotional, social, moral, and cognitive development.
 - National FCS 3.0: 12.1.3 Examine current research on human growth and development, brain research included.
 
-(The task asked for a 12.2.x competency on influences on development. 12.2.1, heredity and environment, is the subject of Lesson 3.4 and is cited there. 12.1.3 is cited here instead because the brain development research is the content of this lesson and the number is confirmed in the 3.0 text.)
+(12.2.1, heredity and environment, is the subject of Lesson 3.4 and is cited there. 12.1.3 is cited here instead because the brain development research is the content of this lesson and the number is confirmed in the 3.0 text.)
 
 ## Enduring understanding and essential question
 
@@ -98,7 +98,7 @@ Exit card on the bottom of the handout: 3 things that change in adolescence, one
 
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
-| 1. Describe one change in each of four parts | HDR 1. b); National FCS 12.1.1 | Part 1 chart, Step 1 | Formative; chart checked for four entries; summative on the Lifespan Stages Quiz, items 9 and 10 |
+| 1. Describe one change in each of four parts | HDR 1. b); National FCS 12.1.1 | Part 1 chart, Step 1 | Formative; chart checked for four entries; summative on the Lifespan Stages Quiz, item 10 |
 | 2. Sort twelve statements and correct the myths | HDR 3. d); National FCS 12.1.3; CDOS 3a Personal Qualities | Myth vs fact sort, Step 2 | Formative; stand-and-sort count, handout key; summative on the quiz, item 10 |
 | 3. Evaluate a case and recommend a response | HDR 3. d); HSW 5. c); Std 2 KI | Part 3 case, Step 4 | Formative; scored complete, partial, or missing for daily work; the response pattern returns in Lesson 3.6 (refusal) and Lesson 3.10 (I-messages) |
 
@@ -112,9 +112,9 @@ Inside the building: the health teacher gets the exit card questions (no names) 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. b) and 3. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. b) and 3. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 12.1.1 and 12.1.3.
 - The brain content (prefrontal cortex maturing into the mid 20s, reward sensitivity higher in adolescence, later sleep timing) is the general account given in the National Institute of Mental Health's "The Teen Brain: 7 Things to Know" fact sheet (nimh.nih.gov) and the American Academy of Sleep Medicine sleep ranges as published by the CDC.
 - My own materials: the infant brain development concept map from my graduate coursework supplies the "connections get built, used ones stay, and the wrapping that speeds signals finishes last, in the front" framing, rewritten at grade 7.

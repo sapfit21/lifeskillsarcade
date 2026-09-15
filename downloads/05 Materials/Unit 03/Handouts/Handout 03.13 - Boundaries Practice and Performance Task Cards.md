@@ -14,7 +14,7 @@ Name: ______________________________ Date: ______________ Partner: _____________
 
 Drifting is not a fight. It is what happens when two people grow.
 
-This class is about what a good relationship of any kind looks like, how to draw a line, and how to say no and be heard. Questions about the body go to health class. Anything that worries you goes to the counselor (, room ______).
+This class is about what a good relationship of any kind looks like, how to draw a line, and how to say no and be heard. Questions about the body go to health class. Anything that worries you goes to the counselor (room ______).
 
 ## Part 2: Boundaries
 

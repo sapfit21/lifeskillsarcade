@@ -15,7 +15,7 @@ How lessons use this file: each lesson names its own Tier 3 words; the handout f
 | 1 | 3.1 | lifespan | The whole life of a person, from birth to old age, in stages. | yaşam süresi (yaşam boyu) | ciclo de vida (período de vida) | ciclo de vida (etapas de la vida) |
 | 2 | 3.1 | development | The changes in body, thinking, feelings, and friendships that happen as a person grows. | gelişim | desenvolvimento | desarrollo |
 | 3 | 3.1 | infancy | The first stage of life, birth to about age one. | bebeklik | primeira infância (fase de bebê) | infancia temprana (etapa de bebé) |
-| 4 | 3.1 | adolescence | The stage from about 11 to 18, when a child becomes an adult. You are in it now. | ergenlik | adolescência | adolescencia |
+| 4 | 3.1 | adolescence | The stage from about 12 to 18, when a child becomes an adult. You are in it now. | ergenlik | adolescência | adolescencia |
 | 5 | 3.1 | milestone | A skill most children reach at about the same age, like walking or first words. | gelişim basamağı (kilometre taşı) | marco do desenvolvimento | hito del desarrollo |
 | 6 | 3.1 | object permanence | Knowing that a thing still exists when you cannot see it. Babies learn it around eight months. | nesne kalıcılığı (nesne sürekliliği) | permanência do objeto | permanencia del objeto |
 | 7 | 3.1 | sensory | Having to do with the five senses: touch, sight, sound, smell, taste. A sensory toy is one a toddler explores with the senses. | duyusal | sensorial | sensorial |
@@ -26,7 +26,7 @@ How lessons use this file: each lesson names its own Tier 3 words; the handout f
 | 12 | 3.2 | self-talk | The things you say to yourself in your head. It can be fair or unfair. | iç konuşma (kendi kendine konuşma) | diálogo interno | diálogo interno |
 | 13 | 3.2 | peer | A person about your age and in your situation, like a classmate. | akran | colega (par) | par (compañero) |
 | 14 | 3.2 | peer pressure | When people your age push you to do something, on purpose or just by what they do. It can be good or bad. | akran baskısı | pressão dos colegas | presión de grupo (presión de los compañeros) |
-| 15 | 3.2 | refusal | Saying no in a way that works. There are five refusal skills in this unit. | reddetme | recusa | rechazo (negativa) |
+| 15 | 3.2 | refusal | Saying no in a way that works. There are four refusal steps in this unit. | reddetme | recusa | rechazo (negativa) |
 | 16 | 3.2 | stress | Your body and mind's response when something feels like too much. Everyone has it. | stres | estresse | estrés |
 | 17 | 3.2 | stressor | The thing that causes the stress: a test, a fight, no sleep, a group chat. | stres kaynağı | fator de estresse (estressor) | factor de estrés (estresor) |
 | 18 | 3.2 | coping | What you do to handle stress. Some ways help; some make it worse. | başa çıkma | enfrentamento | afrontamiento |

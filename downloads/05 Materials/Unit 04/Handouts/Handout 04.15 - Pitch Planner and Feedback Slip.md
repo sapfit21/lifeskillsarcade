@@ -26,7 +26,7 @@ Our one-sentence answer: ________________________________
 
 **Rehearsal time:** ______ seconds. Under 60? Yes / No. If no, cut words, not parts.
 
-Sentence starters in Turkish, Portuguese, and Spanish are on `Project 04 - Design a Room.md`, to be verified by a native speaker.
+Sentence starters in Turkish, Portuguese, and Spanish are on `Project 04 - Design a Room.md`.
 
 * * *
 

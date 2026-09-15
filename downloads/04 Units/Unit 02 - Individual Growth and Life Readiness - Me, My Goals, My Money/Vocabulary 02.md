@@ -4,7 +4,7 @@ Unit 2, Individual Growth and Life Readiness. The unit's 54 Tier 3 words across 
 
 **Translation status.** The Turkish, Portuguese, and Spanish columns are my best working translations and have not been verified by a native speaker. Use them for word banks and picture cards; have a native speaker, a bilingual colleague, or the ENL teacher check the whole table once before it is printed for students. Money words are the ones most likely to differ by country (a "check," a "debit card," and "buy now pay later" have different everyday names in Turkey, Brazil, Portugal, and the Spanish-speaking countries), so the English term stays on every card, because students will see the English word on a real pay stub, a real statement, and a real app.
 
-Two words appear twice on purpose. "Interest" means what you like (Topic 2.1) and what money earns or costs (Topic 2.3); the translations are different words. "Return" here is the money word, not the verb.
+One word appears twice on purpose. "Interest" means what you like (Topic 2.1) and what money earns or costs (Topic 2.3); the translations are different words. "Return" here is the money word, not the verb.
 
 How lessons use this file: each lesson names its own Tier 3 words; the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints this table as picture-ready cards.
 
@@ -89,7 +89,7 @@ Print these on the back of the Investor Journal, the All About Me planner, and t
 | My strength is ___. I showed it when ___. | Güçlü yönüm ___. Bunu ___ zaman gösterdim. | Meu ponto forte é ___. Eu mostrei isso quando ___. | Mi fortaleza es ___. La mostré cuando ___. |
 | I am interested in ___ because ___. | ___ ile ilgileniyorum çünkü ___. | Eu me interesso por ___ porque ___. | Me interesa ___ porque ___. |
 | A goal I have is ___. | Bir hedefim ___. | Uma meta que eu tenho é ___. | Una meta que tengo es ___. |
-| My top three letters are ___, and a career that fits is ___. | İlk üç harfim ___, ve buna uyan bir meslek ___. | Minhas três letras principais são ___, e uma carreira que combina é ___. | Mis tres letras principales son ___, y una carrera que encaja es ___. |
+| My two letters are ___, and a career that fits is ___. | İki harfim ___, ve buna uyan bir meslek ___. | Minhas duas letras são ___, e uma carreira que combina é ___. | Mis dos letras son ___, y una carrera que encaja es ___. |
 
 ### For giving feedback
 

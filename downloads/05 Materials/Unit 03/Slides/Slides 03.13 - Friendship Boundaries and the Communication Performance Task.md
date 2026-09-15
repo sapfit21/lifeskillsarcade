@@ -1,6 +1,6 @@
 # Slides 3.13: Friendship, Boundaries, and the Communication Performance Task
 
-Slide outline for Lesson 3.13, two days. Slides 1 to 12 are Day 1. Slides 13 to 22 are Day 2, and Day 2 holds the Communication Performance Task, the formal check for Topic 3.3, in its last 25 minutes (six minutes of planning, twenty minutes of performances, four minutes of self-score). Slide 4 is the statement of what this class is and is not about; say it out loud every year. Nothing here is about the body. That is health class.
+Slide outline for Lesson 3.13, two days. Slides 1 to 12 are Day 1. Slides 13 to 22 are Day 2, and Day 2 holds the Communication Performance Task, the formal check for Topic 3.3, in its last 30 minutes (six minutes of planning, twenty minutes of performances, four minutes of self-score). Slide 4 is the statement of what this class is and is not about; say it out loud every year. Nothing here is about the body. That is health class.
 
 ## Slide 1: Friendship, Boundaries, and Saying No
 
@@ -31,7 +31,7 @@ Notes: On the handout Part 1, students write one way to make a friend, one way t
 - This class: what a good relationship looks like, how to draw a line, how to say no and be heard
 - Questions about the body go to health class with the health teacher
 - Anything that worries you goes to the counselor
-Notes: Say this plainly and do not paraphrase it away. Students and parents both need to hear it. If a student pushes the conversation to the body, the answer is "that is a health class question, and [health teacher's name] is the person to ask."
+Notes: Say this plainly and do not paraphrase it away. Students and parents both need to hear it. If a student pushes the conversation to the body, the answer is "that is a health class question, and the health teacher is the person to ask."
 
 ## Slide 5: A boundary, in three parts
 
@@ -184,4 +184,4 @@ Notes: A self-score within one point of mine on every criterion is accurate self
 - Questions to think about: a friend respects your boundary but is clearly annoyed. Did the boundary work?
 - You said a perfect no and your friend pushed a third time. What is that a sign of, and what is your next move?
 - Tomorrow: families. What a family is, and how families change
-Notes: Collect the planning sheets and self-scores. The pressure answer for the third push is Lesson 3.12's fifth unhealthy sign, and the next move is step back or tell a trusted adult.
+Notes: Collect the planning sheets and self-scores. The pressure answer for the third push is Lesson 3.12's fourth unhealthy sign, and the next move is step back or tell a trusted adult.

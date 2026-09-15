@@ -90,7 +90,7 @@ Collect the tests. As students pass them forward, one line on a sticky note stuc
 
 - ELL: the six paths on the slide have one picture each (a hard hat, a tool belt, a certificate, a two-year calendar, a four-year calendar, a uniform); the path names and the research card headings are in Turkish, Portuguese, and Spanish on the handout (see `Vocabulary 02.md`); the career resource has a Spanish version; the test has a word bank on the matching items and reads at grade 6; a bilingual dictionary is allowed on the test.
 - IEP and 504 (general): the research card may be completed with a partner on the same career, each writing their own verdict; extended time on the test by finishing it during tomorrow's do now; the test can be read aloud in a small group; fewer items (see the grade 6 note on the key).
-- Grade 6 support: the research card asks for two tasks and one "day in the life" line; the verdict is one sentence; the test omits items 16 and 20 (scored out of 44).
+- Grade 6 support: the research card asks for two tasks and one "day in the life" line; the verdict is one sentence; the test omits items 16 and 20 (scored out of 38).
 - Grade 8 stretch: the research card adds "two other careers on the same path" and "the first step I could take before high school ends"; item 20 on the test asks for two examples with numbers.
 - UDL checkpoint used: multiple means of representation (the six paths as words, years, pictures, and three worked answers from the do now) and multiple means of action and expression (research on a device or a printed sheet; a verdict written or dictated).
 - No-device alternative: printed career sheets for the research card; the paper trading window from Lesson 2.20 (`Handout 02.19 - Paper Ledger.md` and the price table).
@@ -115,9 +115,9 @@ Inside the building: the guidance counselor, who issues working papers to studen
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 5. a) and 3. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 5. a) and 3. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 4. a) and 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 1.1.6.
 - Career research sources students use: the New York State career exploration site the guidance office recommends, and the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh). Pay figures on the handout example are to be refreshed before teaching and dated.
 - My own materials: my packet "Education Roadmap: Paths to Your Dream Career" (Unit 2 Career Exploration, April 2026). The pathways table (duration, example careers, who pays) and Activity 2 (choose a career, name its path, plan a first step) are rebuilt as the six-paths table and the research card. The logic puzzle is dropped.

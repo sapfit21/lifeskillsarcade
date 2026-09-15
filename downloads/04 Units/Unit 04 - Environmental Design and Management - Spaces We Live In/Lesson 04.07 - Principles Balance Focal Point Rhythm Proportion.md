@@ -123,10 +123,10 @@ Art: the art teacher's principles list overlaps (balance, emphasis, rhythm, prop
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in.
-- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) with sub-lines a., d., e., and g. Text per.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) with sub-lines a., d., e., and g. Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.4.4, per.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.4.4, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - My own materials: my "Balance and Harmony" packet supplied the eight layouts in the Balance Detective table, rewritten here; "The Focal Point Game" packet supplied the focal point finder and the design-around-a-focal-point task, which is now a timed team build with cards, a gallery, and a critique checklist.
 
 ## Teacher notes

@@ -320,7 +320,7 @@ Any card placed in a column the pair can defend counts. **Ten out of thirteen ma
 18. The clock is not negotiable, the presentation is. Plates go down at minute 29 whatever state the dish is in.
 19. One list means one trip, no duplicate buying, nothing forgotten, and a total you can check against the budget. Four lists means four of each problem.
 20. Any three of the twelve: one line per item; a size and a price on every line; sorted by store section; at or under budget; a swap named on every line; the yield check clears 30; nothing on the allergy list; no knife, fryer, or raw meat; paper goods counted; every station card item on the list; nothing the room already owns; signed and dated.
-21. Planned about **$2.77** per person from the class total of $77.50, or $2.70 at $75.50 after the fixes. Actual is whatever the receipt said.
+21. Planned about **$2.77** per person from the class total of $77.50, or $2.65 at $74.20 after the fixes. Actual is whatever the receipt said.
 22. The **food safety inspector**, at the INSPECT link.
 23. No degree: chef or line cook, grocery store manager, processing technician, farmer, food photographer. Four-year or more: food scientist, registered dietitian, agricultural engineer, grocery buyer, food safety inspector.
 24. A food safety certification program. The Food Handler level is short; the Food Protection Manager level is what many restaurants require of a supervisor. A high school student can earn it, and it is the difference between an application that gets a call and one that does not.

@@ -113,7 +113,7 @@ Example: ________________________________________________
 
 1. ____________ 2. ____________ 3. ____________ 4. ____________ 5. ____________
 
-**18.** (3 points) Match each community support to what it does. Write the letter.
+**18.** (2 points) Match each community support to what it does. Write the letter.
 
 Supports: A) 211   B) WIC   C) the pediatrician   D) the public library
 
@@ -171,7 +171,7 @@ Points per item are in the table. Standard lines are cited in the crosswalk form
 | 15 | Care, teach, provide, belong (accept close wording: keep safe and fed, teach rules and language, give a home and money, make you feel you are theirs). Half a point each. | 2 | NYS HDR 5. a), b); National FCS 6.1.1 |
 | 16 | Equal is the same amount for everyone; fair is the right amount for each person based on age, time, and ability. Example: the 14 year old with practice four nights gets fewer weeknight jobs and more weekend jobs; the 5 year old puts toys away instead of doing dishes; the parent who works nights does not get the morning jobs. 1 point for the difference, 1 point for a fair-not-equal example with the reason. | 2 | NYS HDR 5. e); CDOS 3a Managing Resources |
 | 17 | Any five of: safety, food, health, love, teaching, limits, money, time. Half a point each for five (2.5 points). Circled: a babysitter does safety, food, love, limits, time (not money or health decisions; teaching is accepted either way). Half a point for a reasonable circle set. | 3 | NYS HDR 6. b); CTE CCO 1. a); National FCS 15.1.2 |
-| 18 | Free books: D (library). Food help: B (WIC). One phone number: A (211). Checkups and shots: C (pediatrician). 1 point each for the first three, and the fourth is required for full credit (3 points for all four, 2 for three, 1 for two). | 3 | NYS HDR 5. f); National FCS 15.3.1 |
+| 18 | Free books: D (library). Food help: B (WIC). One phone number: A (211). Checkups and shots: C (pediatrician). Half a point each. | 2 | NYS HDR 5. f); National FCS 15.3.1 |
 | 19 | a) The crib is not a safe sleep space: the blanket, the pillow, and the bear come out; the baby sleeps on a firm flat mattress with nothing else in the crib. 1 point for naming the problem, 1 point for emptying the crib. b) Babies sleep on their backs, every time; say so to the parent kindly and put the baby down on her back (accept "back to sleep"). 1 point. c) Put the baby down safely on her back in the empty crib, step out for two minutes and breathe, check her, then call the parent; never shake a baby. 1 point for the what-to-do, 1 point for "never shake." | 5 | NYS HDR 1. c); CTE HSW 3. c), e); NYS FACS Std 2 PI A; National FCS 15.2.1, 15.2.4 |
 | 20 | Full credit (4): names the four jobs (or at least three of them) and uses two structures from class (nuclear, single parent, blended, extended, adoptive, foster, grandparents raising, guardian) as examples showing each one doing the jobs; states the claim plainly (a family is defined by what it does, not who is in it; no structure is better). 3 points: claim and two structures, but the jobs are named loosely or only two. 2 points: the claim with one structure or no jobs. 1 point: a claim with no example. Three to five sentences; do not take points for length or spelling if the content is there. A student who uses their own family as one of the examples is not marked down; the example still has to show the jobs. | 4 | NYS HDR 5. a), b), c); National FCS 6.1.1, 6.2.1 |
 

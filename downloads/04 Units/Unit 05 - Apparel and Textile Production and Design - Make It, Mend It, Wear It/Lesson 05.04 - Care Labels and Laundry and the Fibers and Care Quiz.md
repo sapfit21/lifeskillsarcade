@@ -21,7 +21,7 @@ This lesson is the one students will use the most in their actual lives. It clos
 - National FCS 3.0: 16.2.3 Examine textile laws, standards, and labeling in a global economy.
 - National FCS 3.0: 16.4.3 Use the right industry products and materials to clean, press, and finish textiles and apparel.
 
-Note on the citations: the SUS line the task asked for, one on extending the life of things, does not exist in those words in the Sustainability module. The closest verbatim line is SUS 1. e) on practices that promote stewardship of environmental resources, so that is cited; SUS 3. c) on reducing, reusing, and recycling is the alternate and is cited in Lesson 5.9. FCL 4. h) is cited because care labels are a legal requirement, which is the consumer protection angle and the reason the tag is in the garment at all. The NYS FACS PI that fits is PI C, quoted above.
+Note on the citations: the SUS line the task asked for, one on extending the life of things, does not exist in those words in the Sustainability module. The closest verbatim line is SUS 1. e) on practices that promote stewardship of environmental resources, so that is cited; SUS 3. c) on reducing, reusing, and recycling is the alternate and is cited in Lesson 5.8. FCL 4. h) is cited because care labels are a legal requirement, which is the consumer protection angle and the reason the tag is in the garment at all. The NYS FACS PI that fits is PI C, quoted above.
 
 ## Enduring understanding and essential question
 
@@ -62,7 +62,7 @@ Tier 3 (FACS): care label, care symbol, pretreat, agitate, delicate cycle, line 
 - The six labeled swatches from Lesson 5.3, kept for the Day 1 sort
 - Index cards for the Day 1 closure
 - Timer visible to the class
-- Setup notes: make the stains on Day 1 after the last period and leave them to dry, or the treatments all "work" because the stain is still wet and that is not what happens at home. Rubbing alcohol and vinegar are the only two things in this lesson with a Safety Data Sheet; pull both sheets and know where they are, because a student will ask and it is the one chance all unit to use HSW 4. f) honestly. No open cups of anything near the quiz.
+- Setup notes: make the stains on Day 1 after the last period and leave them to dry, or the treatments all "work" because the stain is still wet and that is not what happens at home. Rubbing alcohol and vinegar are the only two things in this lesson with a Safety Data Sheet; pull both sheets and know where they are, because a student will ask and it is the one chance all unit long to use HSW 4. f) honestly. No open cups of anything near the quiz.
 
 ## Pre-assessment
 
@@ -158,10 +158,10 @@ Math: the cost math in Day 2 Step 3 is unit cost and percent change, which the m
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in.
-- NYS Middle Level CTE Theme Module, Sustainability, line 1. e); Theme Module 03, Financial and Consumer Literacy, line 4. h). Text per.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Sustainability, line 1. e); Theme Module 03, Financial and Consumer Literacy, line 4. h). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.3, 16.2.5, and 16.4.3, per, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.3, 16.2.5, and 16.4.3, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - Care symbol meanings follow the ASTM care symbol system used on United States care labels; the labeling requirement itself is the Federal Trade Commission's Care Labeling Rule, 16 CFR Part 423.
 - The stain comparison design is built from the Sustainability module's own illustrative activity for this content module, "Stain Removal Comparison," which asks students to compare commercial and home-prepared stain removal and to consider the environmental cost of discarding textiles.
 

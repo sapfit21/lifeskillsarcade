@@ -118,7 +118,7 @@ Scenario 7 (the slammed door): write the three repair steps the student could ta
 
 Rung 5 is anything physical, a threat, a weapon, or anything that scares you. It is also any conflict that keeps coming back no matter what you do. Those are not yours to handle alone.
 
-Adults who can help: a parent or guardian, the teacher, the counselor (, room ______), the dean, any teacher.
+Adults who can help: a parent or guardian, the teacher, the counselor (room ______), the dean, any teacher.
 
 Telling is not tattling. Tattling is trying to get someone in trouble. Telling is trying to get someone safe.
 

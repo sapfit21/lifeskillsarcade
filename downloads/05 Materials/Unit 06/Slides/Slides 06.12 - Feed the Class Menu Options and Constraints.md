@@ -11,7 +11,7 @@ Notes: Collect six numbers, low to high, on the board. The spread is usually $20
 ## Slide 2: The real number
 - About $20 per station.
 - About $80 for this class.
-- That is under a dollar and a half a person.
+- That is under three dollars a person.
 - In two weeks you plan it, price it, cook it, and serve it. I do not.
 Notes: Then the line: "I ran this at my last school. Four kitchens in one period, 112 students across four periods on $150. It worked because the plan was on paper before anybody turned on a burner."
 

@@ -117,10 +117,10 @@ Family: ______________________________ Date: __________
 
 Note for families:
 
-- English: This paper explains how the Family and Consumer Sciences room runs (safety, respect, roles, clean up, phones, food and allergies, and what happens when a rule is broken). Your student helped write it and signed it. Your signature is optional. Questions:.
-- Türkçe: Bu kağıt, Aile ve Tüketici Bilimleri sınıfının nasıl işlediğini açıklar (güvenlik, saygı, görevler, temizlik, telefonlar, yiyecek ve alerjiler ve bir kural bozulduğunda ne olacağı). Öğrenciniz bu kuralların yazılmasına yardım etti ve imzaladı. İmzanız isteğe bağlıdır. Sorular için:.
-- Português: Este papel explica como funciona a sala de Ciências da Família e do Consumidor (segurança, respeito, funções, limpeza, celulares, comida e alergias, e o que acontece quando uma regra é quebrada). Seu filho ou filha ajudou a escrever e assinou. Sua assinatura é opcional. Dúvidas:.
-- Español: Este papel explica cómo funciona el salón de Ciencias de la Familia y del Consumidor (seguridad, respeto, roles, limpieza, teléfonos, comida y alergias, y qué pasa cuando se rompe una regla). Su hijo o hija ayudó a escribirlo y lo firmó. Su firma es opcional. Preguntas:.
+- English: This paper explains how the Family and Consumer Sciences room runs (safety, respect, roles, clean up, phones, food and allergies, and what happens when a rule is broken). Your student helped write it and signed it. Your signature is optional. If you have questions, ask Mr. Prevosto.
+- Türkçe: Bu kağıt, Aile ve Tüketici Bilimleri sınıfının nasıl işlediğini açıklar (güvenlik, saygı, görevler, temizlik, telefonlar, yiyecek ve alerjiler ve bir kural bozulduğunda ne olacağı). Öğrenciniz bu kuralların yazılmasına yardım etti ve imzaladı. İmzanız isteğe bağlıdır. Sorularınız için Bay Prevosto'ya ulaşabilirsiniz.
+- Português: Este papel explica como funciona a sala de Ciências da Família e do Consumidor (segurança, respeito, funções, limpeza, celulares, comida e alergias, e o que acontece quando uma regra é quebrada). Seu filho ou filha ajudou a escrever e assinou. Sua assinatura é opcional. Em caso de dúvidas, fale com o Sr. Prevosto.
+- Español: Este papel explica cómo funciona el salón de Ciencias de la Familia y del Consumidor (seguridad, respeto, roles, limpieza, teléfonos, comida y alergias, y qué pasa cuando se rompe una regla). Su hijo o hija ayudó a escribirlo y lo firmó. Su firma es opcional. Si tiene preguntas, hable con el Sr. Prevosto.
 
 * * *
 

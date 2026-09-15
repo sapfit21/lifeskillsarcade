@@ -4,7 +4,7 @@
 **Length:** 13 class periods of 40 minutes (days 168 to 180 of the year, inside marking period 4). Fourteen periods is the better version; see Section 6.
 **CTE themes carried:** Career and Community Opportunities (primary); Communication and Interpersonal Relationships; Problem Solving and Innovation; Financial and Consumer Literacy; Health, Safety, and Wellness; Sustainability
 **Unit project:** FACS Shark Tank, scored with `Rubric 07 - Career Readiness and Shark Tank.md`
-**Companion files in this folder:** `Calendar 07.md`, `Vocabulary 07.md`, Lessons 7.1 to 7.12, `Project 07 - FACS Shark Tank.md`, `Rubric 07 - Career Readiness and Shark Tank.md`. There is no `Assessment 07.x` file and no unit test; the course grading plan makes the capstone project and the year reflection the final. Handouts and slide outlines are in.
+**Companion files in this folder:** `Calendar 07.md`, `Vocabulary 07.md`, Lessons 7.1 to 7.12, `Project 07 - FACS Shark Tank.md`, `Rubric 07 - Career Readiness and Shark Tank.md`. There is no `Assessment 07.x` file and no unit test; the course grading plan makes the capstone project and the year reflection the final. Handouts and slide outlines are in `05 Materials/Unit 07/`.
 
 Reconciliation note: this plan was written to the scope and sequence and then reconciled to every lesson, the project sheet, and the rubric as they landed in the folder. Where a lesson page and this plan disagree, the lesson page wins; the calendar and this plan follow the lessons' day counts, handout names, and check slots.
 
@@ -85,7 +85,7 @@ This unit's spine is the **Individual Growth and Life Readiness** module's emplo
 ### 2.5 Links to other subjects
 
 - **Math.** The most direct link in the unit and it should be coordinated by name. Unit cost is a sum. Margin is a difference. **Break-even is a division whose answer must be rounded up to a whole item,** which is a genuinely good remainder-means-something problem. The one-month projection is a two-step expression. Panel 4 is a data display that has to be readable from ten feet. Ask the math teacher which words they use for unit rate at grade 7 and use theirs. The ten teams' numbers pages are a ready problem set for a math class in June.
-- **ELA.** Three pieces of real writing with real audiences: the resume (a compressed claim with evidence and no adjectives), the 60-second pitch (persuasion with a fixed structure and a hard time limit), and the year reflection (a claim supported by evidence the student physically holds). NYS Next Generation grade 8 speaking and listening standards on presenting claims with evidence and adapting speech to context are what Lessons 7.4, 7.5, 7.9, and 7.11 do; My own version of the Lesson 7.4 material cited 8SL4, 8SL6, and 8W4 and those are the right ones.
+- **ELA.** Three pieces of real writing with real audiences: the resume (a compressed claim with evidence and no adjectives), the 60-second pitch (persuasion with a fixed structure and a hard time limit), and the year reflection (a claim supported by evidence the student physically holds). NYS Next Generation grade 8 speaking and listening standards on presenting claims with evidence and adapting speech to context are what Lessons 7.4, 7.5, 7.9, and 7.11 do; my own version of the Lesson 7.4 material cited 8SL4, 8SL6, and 8W4 and those are the right ones.
 - **Art.** The five-panel deck is layout, hierarchy, and legibility at distance. The prototype is a model. Two minutes from the art teacher on "what does a person read first on this poster" is worth more than ten minutes from a FACS teacher.
 - **Social studies.** Markets, work, and the role of the consumer. Lesson 7.6's problem-first definition of a business is the household-scale version of supply and demand, and CCO 7. c) (how social, economic, and technological changes change work) is a social studies question being asked in a FACS room.
 - **Science and technology.** The design process in Lesson 7.7 and Lesson 7.10 is the same process a technology or engineering class runs. Match the vocabulary on purpose; students should hear the same words in both rooms.
@@ -215,7 +215,7 @@ Text verbatim from NYS Middle Level CTE FACS Content Module 01, Individual Growt
 - NYS IGLR 5. Career Pathways a) Explore various careers within the 16 national career clusters : Unit 2 Lessons 2.21, 2.22 (first taught); Lesson 7.12
 - NYS IGLR 5. Career Pathways b) Examine the skills needed to become an entrepreneur : Lessons 7.6, 7.7, 7.8, 7.9, 7.10, 7.11 (primary unit for this line)
 
-**Careers lines from the other five content modules, collected but not newly taught here:** N&W 4. a) and 4. b) (Unit 1 Lesson 1.22); HDR 7. a) and 8. b) (Unit 3 Lesson 3.19); EDM 4. a), 4. b), and 4. c) (Unit 4 Lesson 4.16); ATPD 5. a) and 5. b) (Unit 5 Lesson 5.19); FSP 6. a), 6. b), and 6. c) (Unit 6 Lesson 6.18). The self-checks and career research cards those lessons produced are read in Lessons 7.1 and 7.12. Full verbatim text in Section 2.1.
+**Careers lines from the other five content modules, collected but not newly taught here:** N&W 4. a) and 4. b) (Unit 1 Lesson 1.22); HDR 7. a) and 7. b) (Unit 3 Lesson 3.19); EDM 4. a), 4. b), and 4. c) (Unit 4 Lesson 4.16); ATPD 5. a) and 5. b) (Unit 5 Lesson 5.19); FSP 6. a), 6. b), and 6. c) (Unit 6 Lesson 6.18). The self-checks and career research cards those lessons produced are read in Lessons 7.1 and 7.12. Full verbatim text in Section 2.1.
 
 **One HDR line performed here and cited at unit level:**
 - NYS HDR 2. Self-Concept and Self-Image e) Assess the impact of first impressions on the development of relationships in social and work settings : Unit 3 Lesson 3.5 (first taught); performed in Lesson 7.5's greeting, handshake, and closing work. **Unit-level citation: no lesson page prints this line. See Section 14.**
@@ -392,7 +392,7 @@ Across four sections in one year that is roughly **$100 to $140**, and the two l
 
 **Equipment:** a visible timer with a sound (a kitchen timer from the lab is better than a phone because students can see the dial), a stopwatch or phone timer per team for Lessons 7.9 and 7.10, one easel or counter lip to stand a poster on for pitch day, and the FACS folder crate. Nothing else.
 
-**Handouts (in, as the lessons name them):**
+**Handouts (in `05 Materials/Unit 07/`, as the lessons name them):**
 - Topic 7.1: `Handout 07.01 - Resume Sections and the Three-Part Bullet.md`; `Handout 07.02 - Resume Template and Worked Example.md`; `Handout 07.03 - ACT FAST Scenario Cards and Self-Score.md`; `Handout 07.04 - Three-Part Answer and STAR Planner.md`; `Handout 07.05 - Interview Question Cards and Feedback Sheet.md`
 - Topic 7.2: `Handout 07.06 - Four Questions and Profit Example.md`; `Handout 07.07 - Problem Scan and Idea Filter and Role Cards.md`; `Handout 07.08 - Customer Profile Interview Sheet and Numbers Page.md`; `Handout 07.09 - Pitch Anatomy and Draft Sheet.md`; `Handout 07.10 - Five-Panel Deck Template and Peer Review.md`; `Handout 07.11 - Judge Sheet and Audience Scoring Sheet.md`; `Handout 07.12 - Portfolio Checklist and Year Reflection.md`
 

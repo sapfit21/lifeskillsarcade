@@ -118,7 +118,7 @@ Day 2: the station check is the closure. When I sign a station, the Station Mana
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
 | 1. Explain how leavening works | FSP 1. e); PSI 1. a) | The four sentences and the fizz rule, Day 1 Steps 1 and 2 | Formative; lab sheet checked for the acid rule; exit card sorted. Assessed summatively on the Cooking Methods Check, item 9 |
-| 2. Name the variable and constants and write a hypothesis | PSI 1. a); PSI 1. e); CDOS 3a Thinking Skills | Variable table and prediction sheet, Day 1 Steps 3 and 4 | Formative; four constants and one independent variable required. Assessed summatively on the Cooking Methods Check, item 10 (the experiment's variable) |
+| 2. Name the variable and constants and write a hypothesis | PSI 1. a); PSI 1. e); CDOS 3a Thinking Skills | Variable table and prediction sheet, Day 1 Steps 3 and 4 | Formative; four constants and one independent variable required. Assessed summatively on the Cooking Methods Check, items 7 and 8 (the experiment's variable and constants) |
 | 3. Write a conclusion from the data with evidence and a limitation | FSP 1. d); FSP 2. d); Std 1 PI A and PI B; National FCS 8.5.10, 9.5.6 | The lab, Day 2 Steps 1 to 4 | Summative; `Rubric 01 - Lab Rubric.md`, the three objective rows plus the safety and sanitation row, 16 points, scored on the clipboard during Step 3 and Step 4 and from the lab sheet |
 
 ## Homework
@@ -131,9 +131,9 @@ Science: this is the science teacher's lesson with food in it. Send them the lab
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 1. e), and 2. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 1. e), and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, lines 1. a) and 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Thinking Skills. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.10 and 9.5.6.
 - Unit 1, Lesson 1.8, for the science connection on baking powder that my own mug cake recipe sheet already carried, and `Rubric 01 - Lab Rubric.md` for scoring.

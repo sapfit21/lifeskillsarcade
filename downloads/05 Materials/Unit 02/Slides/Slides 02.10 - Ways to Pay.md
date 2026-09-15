@@ -76,7 +76,7 @@ Notes: Do the first two lines on the board.
 
 ## Slide 12: Practice
 - Write check 101: Long Island Youth Soccer League, $85.00, October 3, 2026.
-- Post all ten lines. Carry the balance to the cent.
+- Post the nine remaining lines. Carry the balance to the cent.
 - Compare final balances with your partner. Different? Find the line.
 - 14 minutes.
 

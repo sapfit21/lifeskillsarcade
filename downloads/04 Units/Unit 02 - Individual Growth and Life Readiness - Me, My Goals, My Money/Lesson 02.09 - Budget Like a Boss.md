@@ -118,9 +118,9 @@ Math: percent of a number and multi-step subtraction; the math teacher can use t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. c) and 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 2.6.2.
 - The 50/30/20 guide is a widely used personal finance rule of thumb (needs, wants, savings as shares of net income); it is a guide, not a standard.
 - My own materials: the Budget Like a Boss packet supplied the Alex story, the one-week estimate table, and the personal budget template. The scenario cards and the 50/30/20 step order are new. Cost of living numbers draw on my Cost of Living Reality Check packet.

@@ -173,7 +173,7 @@ Three placements and why:
 
 **Part 3:** a. name what is wrong; b. name what it should do; c. test to find the cause; d. fix it; e. check that the fix worked; f. stop it happening again. Toilet: keeps running; should stop within a minute; check the chain and the flapper; fix by freeing the chain or reseating the flapper or lowering the float; flush and time it; check the flapper yearly, replace it every few years ($8). Safety rules: eyes protected at the screw station; no tool leaves its station; nothing is plugged in; dry hands at the drain station; one person works while the team coaches.
 
-**Station 3 key:**
+**Station 3 key:** the five lines and the two objects are whatever you print and set out, so measure each one yourself to the nearest eighth of an inch and post that key at the station.
 
 **Part 4** (accept any month that fits the season; the reasoning is what is scored): detectors monthly, every month; furnace filter every one to three months; range hood monthly; lint trap every load, dryer vent yearly (fall); batteries yearly (many families use the fall clock change); gutters in late fall after the leaves and again in spring; furnace check in September or October; fans in October and April; hoses in October or November before the first freeze; salt in December to February; roof in March or April; AC in May; deck in April or May; water heater any month, once; extinguisher gauge any month, once; ten-year detectors when the date on the back says so.
 

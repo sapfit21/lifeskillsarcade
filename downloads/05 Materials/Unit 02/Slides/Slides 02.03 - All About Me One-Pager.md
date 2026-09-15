@@ -63,6 +63,7 @@ Notes: Page 3 of the handout has this table. Students read it while you score Ro
 - Slide: one slide, five boxes, big font, no animations, your name in the file name
 - Choose now and write it on page 1
 - No cart today? Everyone does a poster
+
 ## Slide 9: The draft, page 1
 
 - Copy from your three sheets into the five boxes

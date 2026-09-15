@@ -60,6 +60,7 @@ Notes: Write the line on the board and leave it. Compute the tax once, on the su
 - It is the order you buy them in
 - Needs first. Wants after, only if money is left.
 - Fill the Budget Sheet header now: client, budget, tax rate
+
 ## Slide 8: Price the plan, 14 minutes
 
 - Every piece on your plan is one line on the sheet

@@ -4,7 +4,7 @@
 **Length:** 30 class periods of 40 minutes (days 6 to 35 of the year; marking period 1)
 **CTE themes carried:** Health, Safety, and Wellness (primary); Financial and Consumer Literacy; Problem Solving and Innovation; Communication and Interpersonal Relationships; Sustainability; Career and Community Opportunities
 **Unit project:** Feed a Family of Four on $40, scored with `Rubric 01 - Feed a Family of Four.md`
-**Companion files in this folder:** `Calendar 01.md`, `Vocabulary 01.md`, Lessons 1.1 to 1.22, `Project 01 - Feed a Family of Four on 40 Dollars.md`, `Rubric 01 - Lab Rubric.md`, `Rubric 01 - Feed a Family of Four.md`, Assessments 01.1 to 01.4. Slides and handouts are in.
+**Companion files in this folder:** `Calendar 01.md`, `Vocabulary 01.md`, Lessons 1.1 to 1.22, `Project 01 - Feed a Family of Four on 40 Dollars.md`, `Rubric 01 - Lab Rubric.md`, `Rubric 01 - Feed a Family of Four.md`, Assessments 01.1 to 01.4. Slides and handouts are in `05 Materials/Unit 01/`.
 
 ## 1. Why this unit
 
@@ -302,7 +302,7 @@ Career Ready Practices are a secondary citation on the unit page only; the CCTC 
 
 **Steps by day:** Day 1 (Lesson 1.18, day 1): the $12 versus $38 dinner hook, the scenario and need cards, teams pick a main dish. Day 2 (1.18, day 2): plan the plate, build the list from the circular, price it. Day 3 (1.19): swap plans with another team for a peer math check and a MyPlate check, then fix what they found. Days 4 and 5 (1.20): cook one dish, set a place, serve it, clean, store the leftovers. Day 6 (1.21): menu card, pitch, tasting gallery, class vote.
 
-**Group or individual:** teams of three or four (the same teams as the lab stations). Each student owns one deliverable and signs it; the plan and the pitch are shared.
+**Group or individual:** teams of about seven (the same teams as the lab stations). Each student owns one deliverable and signs it; the plan and the pitch are shared.
 
 **Choice built in:** the main dish (from a list of six that fit the zero-knife, pre-cooked-meat rules, or a family dish the team proposes and I approve), the need card, the store (any circular I bring in or one the family uses), and the form of the menu card (drawn, cut paper, or a one-page digital layout).
 
@@ -318,8 +318,8 @@ Career Ready Practices are a secondary citation on the unit page only; the CCTC 
   - Topic 1.2: `Assessment 01.2 - Tools and Measuring Performance Check.md`, a station task at the start of Lesson 1.8 Day 1 (identify tools, measure amounts checked on the gram scale), so the check is the ticket into the first lab. Lab 1 scored on `Rubric 01 - Lab Rubric.md`.
   - Topic 1.3: `Assessment 01.3 - Label Reading Quiz.md`, given at the start of Lesson 1.13 Day 1, after Lesson 1.12 and before the nachos go in. Lab 2 scored on `Rubric 01 - Lab Rubric.md`.
   - Topic 1.4: the project, scored on `Rubric 01 - Feed a Family of Four.md` (plan, math, nutrition, lab, pitch; 20 points). The Budget Meal Lab itself is also scored on `Rubric 01 - Lab Rubric.md` so it counts with Labs 1 and 2.
-- **Unit test:** `Assessment 01.4 - Unit 1 Test.md`, given in Lesson 1.22 after the careers activity. Ten to fifteen items: matching (tools, nutrients, vocabulary), short answer (safety, label reading), one scenario (a family shopping problem with unit price), and one performance item (read a label and a recipe together). Retake once after a review.
-- **Lab rubric:** `Rubric 01 - Lab Rubric.md` is the three-objective, 1 to 4 pattern from the grading plan (12 points) with a notes box; it is used for Lab 1 (1.8), Lab 2 (1.13), and the Budget Meal Lab (1.20).
+- **Unit test:** `Assessment 01.4 - Unit 1 Test.md`, given in Lesson 1.22 after the careers activity. Twenty items: matching (tools, nutrients, vocabulary), short answer (safety, label reading), one scenario (a family shopping problem with unit price), and one performance item (read a label and a recipe together). Retake once after a review.
+- **Lab rubric:** `Rubric 01 - Lab Rubric.md` is the three-objective, 1 to 4 pattern from the grading plan plus a safety and sanitation row (16 points) with a notes box; it is used for Lab 1 (1.8), Lab 2 (1.13), and the Budget Meal Lab (1.20).
 - **Grade weights within the unit** follow the course grading plan: labs and projects 40 percent (three labs on the lab rubric plus the project rubric), topic assessments 25 percent (the safety exam as a pass, the performance check, the label quiz, the unit test), daily work 20 percent, participation and safety 15 percent (a safety violation in a lab is a zero for that lab's participation and a conversation).
 - **Missed labs:** a written lab alternative (recipe analysis and a safety plan for the same dish) so an absent student loses no points.
 
@@ -341,7 +341,7 @@ Unit total for one section, three labs: about $150. Multiply the lab lines by th
 
 **Equipment (already in a working FACS room; buy what is missing):** per station: dry measuring cup set, liquid measuring cup, measuring spoon set, mixing bowls in two sizes, silicone spatula, whisk, wooden spoon, tongs, sheet pan, oven mitts, microwave-safe mugs (seven), cutting board (for pre-cut items and the tool ID lesson), can opener, colander, plates, forks, cups, dish towels, sponge. Shared: microwave, oven, stovetop, refrigerator with a thermometer, a gram scale (about $15 if not owned; needed for the Silent Measurement Challenge and the performance check), two instant-read food thermometers (about $10 each), fire extinguisher, first aid kit, the Safety Data Sheet binder.
 
-**Handouts (in, named as the lesson files name them):**
+**Handouts (in `05 Materials/Unit 01/`, named as the lesson files name them):**
 - Topic 1.1: `Handout 01.01 - Hazard Hunt.md`; `Handout 01.02 - Safe or Not Safe Scenario Cards.md`; `Handout 01.03 - What Would You Do Scenarios.md`; `Handout 01.04 - Kitchen Safety Contract Template.md`.
 - Topic 1.2: `Handout 01.05 - Tool ID and Where It Lives.md`; `Handout 01.06 - Measuring Practice and Equivalents.md`; `Handout 01.06 - Silent Measurement Challenge Cards.md`; `Handout 01.07 - Recipe Reading Practice.md`; `Handout 01.08 - Role Cards Lab 1.md`; `Handout 01.08 - Station Card Mug Cake.md`; `Handout 01.08 - Station Card Scrambled Egg Tacos.md`; `Handout 01.08 - Lab Reflection.md` (reused for Labs 2 and 3).
 - Topic 1.3: `Handout 01.09 - Nutrient Sort Cards.md`; `Handout 01.10 - Build a Plate.md`; `Handout 01.11 - Label Scavenger Hunt.md`; `Handout 01.11 - Spot the Trick.md`; `Handout 01.12 - Food Video Fact Check.md`; Lesson 1.13 station card and role cards (named by the Lesson 1.13 writer; expected `Handout 01.13 - Role Cards Lab 2.md` and `Handout 01.13 - Station Card Sheet Pan Nachos.md`).

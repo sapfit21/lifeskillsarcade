@@ -21,7 +21,7 @@
 - National FCS 3.0: 14.4.1 Examine the conditions and habits that keep food safe to eat.
 - National FCS 3.0: 14.4.2 Examine safety and sanitation practice.
 - National FCS 3.0: 14.3.3 Show the ability to select, store, prepare, and serve food that is nourishing and looks good on the plate.
-- National FCS 3.0: 8.2.7 Show safe food handling and preparation that keeps hazardous foods from cross contaminating others. (Confirmed in the 3.0 text in, Area 8; cited in the crosswalk's FSP 2. e) row.)
+- National FCS 3.0: 8.2.7 Show safe food handling and preparation that keeps hazardous foods from cross contaminating others. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8; cited in the crosswalk's FSP 2. e) row.)
 
 ## Enduring understanding and essential question
 
@@ -69,7 +69,7 @@ Three labs in Topic 6.2 (Lessons 6.7, 6.8, 6.9) already scored every student on 
 3. Cooking stations confirm the critical path step is already running ("Station 1, is the water on? Station 2, is the oven at 400?").
 4. Every student reads their own line on the duty strip out loud to the teammate next to them.
 
-Then the hook, one sentence, said the same way both days: "Your plan is on the wall. In thirty-six minutes we eat. Go."
+Then the hook, one sentence, said the same way both days: "Your plan is on the wall. In twenty-five minutes we eat. Go."
 
 ## Procedure
 
@@ -209,11 +209,11 @@ Inside the building: the custodian and the building engineer. FACS gives them ad
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 2. e). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 2. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standards 2 and 3a, Personal Qualities, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.2.7, 14.3.3, 14.4.1, and 14.4.2, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standards 2 and 3a, Personal Qualities, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.2.7, 14.3.3, 14.4.1, and 14.4.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - The 165 F reheating temperature for previously cooked foods and the two-hour rule for leftovers are the USDA Food Safety and Inspection Service figures used all year in this course (Unit 1 Lessons 1.2 and 1.17).
 - My own materials: (four kitchens in five-minute blocks with a support duty column and the teacher notes on always supervising the draining of pasta because of the steam, checking the oven bread yourself, and letting no student touch knives or oven doors) is the source of the teacher duty list and the two required teacher points. supplies the station card format and the safety reminder wording.
 

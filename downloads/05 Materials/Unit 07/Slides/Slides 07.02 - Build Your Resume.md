@@ -1,6 +1,6 @@
 # Slides 7.2: Build Your Resume
 
-Slide outline for Lesson 7.2. Ten slides, one day. Slides 4, 5, and 8 stay up during the drafting block; the room needs the structure visible for fourteen minutes while the teacher is in conferences and cannot answer questions.
+Slide outline for Lesson 7.2. Ten slides, one day. Slides 5, 6, and 8 stay up during the drafting block; the room needs the structure visible for fourteen minutes while the teacher is in conferences and cannot answer questions.
 
 ## Slide 1: Build Your Resume
 

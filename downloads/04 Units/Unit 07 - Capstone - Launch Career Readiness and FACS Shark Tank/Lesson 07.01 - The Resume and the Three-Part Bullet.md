@@ -117,9 +117,9 @@ Inside the building: the ELA teacher. This lesson is the opposite of what ELA us
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018 preliminary release), lines 3. d) and 1. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018 preliminary release), lines 3. d) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 3. a) and 3. c). Same folder. The module's own Career and Community Opportunities illustrative activity names "creating a resume, identifying references, creating a targeted cover letter, filling out a job application, preparing for a job interview, and sending follow-up communication" as the intended use of the personal-traits work, which is exactly what Topic 7.1 does.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 1, Intermediate. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.2 and 1.2.8.
 - My own materials: the three-part resume bullet formula (the work, the explanation, the output) is from the MBA interview guide I used in graduate school and is the formula I used building resumes one on one with more than 87 students.

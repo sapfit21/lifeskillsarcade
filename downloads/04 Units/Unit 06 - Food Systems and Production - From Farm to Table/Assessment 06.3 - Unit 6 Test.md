@@ -63,7 +63,7 @@ b. Broiling
 c. Baking
 d. Simmering
 
-**11.** In the quick bread lab, all four batches used the same flour, the same liquid, the same pan, and the same oven temperature. Only the leavening changed: baking powder, baking soda, both, or neither. In that experiment, the leavening was the:
+**11.** In the quick bread lab, all four batches used the same flour, the same liquid, the same pan, and the same oven temperature. Only the leavening changed: the usual baking powder, double baking powder, baking soda with no acid, or none at all. In that experiment, the leavening was the:
 a. Control
 b. Variable
 c. Hypothesis
@@ -172,9 +172,9 @@ ________________________________________________________________________
 
 # Teacher key
 
-**Total: 40 points.** A grade 6 version omits items 19 and 20 and is scored out of 28.
+**Total: 40 points.** A grade 6 version omits items 19 and 20 and is scored out of 26.
 
-Standard lines are cited from Part B.6 and the verbatim extract. Items that check content taught in Topics 6.1 and 6.2 name the FSP module line; the lesson that teaches each line is in the unit plan's Section 7 table.
+Standard lines are cited from `02 Standards/STANDARDS CROSSWALK.md` Part B.6 and the verbatim extract. Items that check content taught in Topics 6.1 and 6.2 name the FSP module line; the lesson that teaches each line is in the unit plan's Section 7 table.
 
 ## Part A. Matching (6 points, 1 each)
 
@@ -262,7 +262,7 @@ Standard: NYS FSP 5. Consumer Resources and Finance b) Analyze decisions about p
 | G. Written response | 20 | 8 |
 | **Total** | **20 items** | **40** |
 
-Coverage check: Topic 6.1 (where food comes from) items 1 to 5, 7, 8, 9, 13, 15; Topic 6.2 (preparation methods and science) items 6, 10, 11, 18; Topic 6.3 (the Feed the Class system) items 14, 16, 17, 19; Topic 6.4 (careers) item 12; item 20 pulls from all four.
+Coverage check: Topic 6.1 (where food comes from) items 1 to 9, 13, 15; Topic 6.2 (preparation methods and science) items 10, 11, 18; Topic 6.3 (the Feed the Class system) items 14, 16, 17, 19; Topic 6.4 (careers) item 12; item 20 pulls from all four.
 
 ## Notes for the teacher
 

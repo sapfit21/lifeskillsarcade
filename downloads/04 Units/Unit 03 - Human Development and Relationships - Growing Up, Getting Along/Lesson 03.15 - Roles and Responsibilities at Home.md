@@ -111,9 +111,9 @@ Inside the building: the social studies teacher, for the culture and traditions 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 5. d) and 5. e). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 5. d) and 5. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 4. c); Career and Community Opportunities, line 1. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 6.1.4 and 6.1.5.
 - My own materials: the "roles may differ depending on the family structure" objective from my Types of Families tiered objectives is the seed of the fair-share chart; the fictional family cards follow the family card pattern from Project 01.
 

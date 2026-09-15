@@ -112,10 +112,10 @@ Social studies: the types of housing map onto how a neighborhood is zoned; the s
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 1. a). Copy in.
-- NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 3. d); Theme Module, Sustainability, line 1. b). Same folder; text per.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.7 and content standard 11.2, per.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 1. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 3. d); Theme Module, Sustainability, line 1. b). Same folder; text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.7 and content standard 11.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - My own materials: my "Your Room, Your Rules" packet supplied the "does your room work for you" idea that opens the unit.
 
 ## Teacher notes

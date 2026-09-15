@@ -14,7 +14,7 @@ Team: ______ Station: ______ Date: __________
 
 Makes: 7 tasting portions. Allergens: dairy (the cheese and sour cream can be left off any portion). Contains no wheat, no meat, no nuts.
 
-### 1. Ingredients and cost
+### 1. Ingredients and cost (Card 1)
 
 | Item | Size | Price | Unit | How many | Cost |
 |---|---|---|---|---|---|
@@ -28,10 +28,10 @@ Makes: 7 tasting portions. Allergens: dairy (the cheese and sour cream can be le
 
 **Total: $13.33** Under $20 by $6.67. Cost per tasting portion: $1.90.
 
-### 2. The room's rules
+### 2. The room's rules (Card 1)
 [x] No knives (nothing to cut; the can opener is the only tool) [x] No meat [x] Stovetop only [x] Teacher not needed except to check the can opener [x] Cooks in 20 minutes
 
-### 3. Steps
+### 3. Steps (Card 1)
 1. Wash hands. Prep Lead sets out every ingredient, the pot, the second pot, the can opener, the colander, the measuring cups, and a spoon per person.
 2. Cook Lead measures water for the rice by the box directions into the pot. Turn the burner to high. Handle turned in.
 3. Safety Checker opens both cans of beans. Prep Lead pours them into the colander in the sink and rinses them with cold water.
@@ -43,20 +43,20 @@ Makes: 7 tasting portions. Allergens: dairy (the cheese and sour cream can be le
 9. Sit and eat. Presenter notes how it looks for the menu card.
 10. Clean: Clean Crew washes the pots; everyone wipes; Safety Checker puts leftovers in a labeled container in the refrigerator within the two-hour rule.
 
-### 4. Roles
+### 4. Roles (Card 1)
 Station Manager, Prep Lead, Cook Lead, Plate Captain, Clean Crew 1, Clean Crew 2, Safety and Sanitation Checker.
 
-### 5. Flowchart
+### 5. Flowchart (Card 1)
 | 0 to 5 | 5 to 10 | 10 to 15 | 15 to 20 | 20 to 25 | 25 to 32 | 32 to 40 |
 |---|---|---|---|---|---|---|
 | Hands, set out, table set (all) | Water on, cans opened and rinsed (Cook Lead, Safety Checker, Prep Lead) | Rice in and covered; beans and corn heating (Cook Lead) | Stir beans; fluff rice (Cook Lead, Prep Lead) | Build seven bowls (Plate Captain, Prep Lead) | Eat (all) | Clean, station check, leftovers (all; Clean Crew leads) |
 
-### 6. Safety reminders
+### 6. Safety reminders (Card 1)
 1. Pot handles turned in, always.
 2. Steam burns; open the rice lid away from your face.
 3. Wet hands off the burner knobs.
 
-### 7. What does done look like?
+### 7. What does done look like? (Card 1)
 The dish is done when the rice is fluffy with no crunch and the beans are steaming. The plate looks like a bowl with white rice on the bottom, black and yellow on top, red salsa, and a white spoonful of sour cream in the middle. The station is done when surfaces are sanitized, both pots are washed, both knobs are off, the sink is empty, and leftovers are labeled and in the refrigerator.
 
 * * *
@@ -67,7 +67,7 @@ Team: ______ Station: ______ Date: __________
 
 Makes: 7 tasting portions. Allergens: wheat (pasta and bread), dairy (parmesan and butter; can be left off any portion). Contains no meat, no nuts.
 
-### 1. Ingredients and cost
+### 1. Ingredients and cost (Card 2)
 
 | Item | Size | Price | Unit | How many | Cost |
 |---|---|---|---|---|---|
@@ -80,10 +80,10 @@ Makes: 7 tasting portions. Allergens: wheat (pasta and bread), dairy (parmesan a
 
 **Total: $11.05** Under $20 by $8.95. Cost per tasting portion: $1.58.
 
-### 2. The room's rules
+### 2. The room's rules (Card 2)
 [x] No knives (the bread is torn, not sliced) [x] No meat [x] Stovetop and oven [x] Teacher drains the pasta and opens the oven [x] Cooks in 20 minutes
 
-### 3. Steps
+### 3. Steps (Card 2)
 1. Wash hands. Prep Lead sets out everything: large pot, colander (for the teacher), baking sheet, foil, bowl, spoon, measuring cup.
 2. Cook Lead fills the large pot two-thirds with water, adds a teaspoon of salt, turns the burner to high, handle in. Lid on to boil faster.
 3. Prep Lead tears the bread into seven pieces, puts them on a foil-lined baking sheet, spreads a little softened butter on each with the back of a spoon, and sprinkles garlic powder. Station Manager calls the teacher to put the sheet in the oven at 375 F for 8 minutes.
@@ -95,20 +95,20 @@ Makes: 7 tasting portions. Allergens: wheat (pasta and bread), dairy (parmesan a
 9. Plate Captain plates seven portions with a sprinkle of parmesan and one piece of garlic bread each. Sit and eat.
 10. Clean: Clean Crew washes the pot; everyone wipes; Safety Checker handles leftovers by the two-hour rule and checks both knobs and the oven are off.
 
-### 4. Roles
+### 4. Roles (Card 2)
 Station Manager, Prep Lead, Cook Lead, Plate Captain, Clean Crew 1, Clean Crew 2, Safety and Sanitation Checker.
 
-### 5. Flowchart
+### 5. Flowchart (Card 2)
 | 0 to 5 | 5 to 10 | 10 to 15 | 15 to 20 | 20 to 25 | 25 to 32 | 32 to 40 |
 |---|---|---|---|---|---|---|
 | Hands, set out, table set (all) | Water on; bread torn and buttered; bread into oven (teacher) | Pasta in; timer (Cook Lead) | Broccoli in at minute 6; teacher drains; sauce in | Sauce heats; bread out (teacher); plate (Plate Captain) | Eat (all) | Clean, station check, leftovers (all; Clean Crew leads) |
 
-### 6. Safety reminders
+### 6. Safety reminders (Card 2)
 1. Only the teacher touches the pot when it is being drained; steam and boiling water are the two biggest hazards in this dish.
 2. Oven mitts are for the teacher; students do not open the oven door.
 3. Handle in, lid on, and nobody reaches across the burner.
 
-### 7. What does done look like?
+### 7. What does done look like? (Card 2)
 The dish is done when the pasta bends without snapping and the sauce is steaming. The plate looks like red-coated pasta with green broccoli, a white sprinkle of cheese, and a piece of golden bread on the side. The station is done when the pot is washed, the baking sheet is cool and washed, the oven and burner are off, the sink is empty, and leftovers are labeled in the refrigerator.
 
 * * *
@@ -119,7 +119,7 @@ Team: ______ Station: ______ Date: __________
 
 Makes: 7 tasting portions (one half quesadilla each). Allergens: wheat (tortillas), dairy (cheese and sour cream). Contains no nuts. A bean version for a portion that cannot have chicken: swap in the canned black beans from the room pantry if available.
 
-### 1. Ingredients and cost
+### 1. Ingredients and cost (Card 3)
 
 | Item | Size | Price | Unit | How many | Cost |
 |---|---|---|---|---|---|
@@ -132,10 +132,10 @@ Makes: 7 tasting portions (one half quesadilla each). Allergens: wheat (tortilla
 
 **Total: $17.64** Under $20 by $2.36. Cost per tasting portion: $2.52.
 
-### 2. The room's rules
+### 2. The room's rules (Card 3)
 [x] No knives (the chicken is shredded with two forks; quesadillas are folded, not cut) [x] Pre-cooked meat only, reheated to 165 F [x] Oven only [x] Teacher opens the oven [x] Cooks in 20 minutes
 
-### 3. Steps
+### 3. Steps (Card 3)
 1. Wash hands. Prep Lead sets out everything: two forks, large bowl, two baking sheets, foil, spoon, thermometer.
 2. Station Manager calls the teacher to preheat the oven to 375 F (it should already be on).
 3. Prep Lead and Cook Lead pull the chicken off the bones with two forks into the bowl. No hands on the raw side of anything; this chicken is cooked, but hands still get washed after.
@@ -147,20 +147,20 @@ Makes: 7 tasting portions (one half quesadilla each). Allergens: wheat (tortilla
 9. Let cool 2 minutes. Plate Captain plates one folded quesadilla per person with a spoon of salsa and a spoon of sour cream on the side. Sit and eat.
 10. Clean: Clean Crew washes the bowl and forks; everyone wipes; the chicken carcass goes in the trash; Safety Checker handles any leftover shredded chicken by the two-hour rule.
 
-### 4. Roles
+### 4. Roles (Card 3)
 Station Manager, Prep Lead, Cook Lead, Plate Captain, Clean Crew 1, Clean Crew 2, Safety and Sanitation Checker.
 
-### 5. Flowchart
+### 5. Flowchart (Card 3)
 | 0 to 5 | 5 to 10 | 10 to 15 | 15 to 20 | 20 to 25 | 25 to 32 | 32 to 40 |
 |---|---|---|---|---|---|---|
 | Hands, set out, table set (all) | Shred chicken (Prep Lead, Cook Lead); line sheets (Clean Crew) | Build and fold seven quesadillas (Cook Lead, Plate Captain) | In the oven (teacher); wash the bowl (Clean Crew) | Out of the oven (teacher); temperature check (Safety Checker); plate | Eat (all) | Clean, station check, leftovers (all; Clean Crew leads) |
 
-### 6. Safety reminders
+### 6. Safety reminders (Card 3)
 1. Wash hands after handling the chicken even though it is cooked.
 2. The baking sheet is hot for ten minutes after it comes out; nobody touches it without the teacher.
 3. The thermometer goes into the chicken, not the tortilla; 165 F or it goes back in.
 
-### 7. What does done look like?
+### 7. What does done look like? (Card 3)
 The dish is done when the cheese is melted and stretches when the quesadilla is lifted, and the thermometer reads 165 F. The plate looks like a golden half-moon with a red spoon of salsa and a white spoon of sour cream beside it. The station is done when the bowl and forks are washed, the foil is in the trash, the oven is off, the sink is empty, and leftovers are labeled in the refrigerator.
 
 * * *

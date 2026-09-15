@@ -98,7 +98,7 @@ Written above under the procedure. Do now 3, game 15, transition 2, test 20 = 40
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
 | 1. Recall the unit's core facts as a team | EDM 1. b), 1. d), 2. c); HSW 3. c); SUS 3. e); National FCS 11.2.1 | Review game, Step 1 | Formative; scoreboard by category |
-| 2. Apply scale, energy, and budget math to new numbers | EDM 3. a); CDOS 3a Basic Skills; National FCS 11.6.1 | Unit 4 Test items 8, 14, 15, 16 | Summative; `Assessment 04.3 - Unit 4 Test.md`, key with points |
+| 2. Apply scale, energy, and budget math to new numbers | EDM 3. a); CDOS 3a Basic Skills; National FCS 11.6.1 | Unit 4 Test items 4, 11, and 14 | Summative; `Assessment 04.3 - Unit 4 Test.md`, key with points |
 | 3. Evaluate a client scenario and justify a decision | EDM 2. c); Std 2 PI B | Unit 4 Test items 19 and 20 | Summative; the test's rubric line for the written response |
 
 The Unit 4 Test counts in the topic assessments category (25 percent). One retake after a review, best score counts, per the grading plan.
@@ -113,11 +113,11 @@ Math: the scale and percent items are the same skills the math teacher tests; a 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b), 1. d), 2. c), 3. a), 4. a). Copy in.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b), 1. d), 2. c), 3. a), 4. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Health, Safety, and Wellness 3. c); Sustainability 3. e); Financial and Consumer Literacy 4. c); Problem Solving and Innovation 2. a) h. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.6.1, per, section 4.11.
-- (retake rule).
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.6.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
+- `03 Course Design/03 Grading Plan.md` (retake rule).
 
 ## Teacher notes
 

@@ -1,7 +1,7 @@
 # Lesson 5.6: Threading, Knotting, and the Running Stitch
 
 **Unit:** Unit 5, Make It, Mend It, Wear It (Apparel and Textile Production and Design)
-**Topic:** 5.2 Hand Sewing Skills
+**Topic:** 5.2 Hand and Machine Sewing Skills
 **Grade:** 6 to 8 (written at grade 7; see Differentiation for the grade 6 support and grade 8 stretch)
 **Days:** 1 class period of 40 minutes (day 122 of the year)
 **Room:** FACS lab, three sewing stations of about seven students (a no-station version is below)
@@ -21,7 +21,7 @@ Written so a teacher who has never taught sewing can run it. The demonstration t
 - National FCS 3.0: 16.4.1 Work skillfully with traditional and newer equipment, tools, and supplies to construct, alter, repair, and recycle textiles and apparel.
 - National FCS 3.0: 16.4.5 Show the basic skills for making, altering, repairing, and recycling textiles and apparel.
 
-Note on the citations: the task asked for a verbatim PSI or HSW line. PSI 2. b) is used because it is the state's own "practice these skills in a variety of classroom applications" line for the design theme, which is exactly what a practice cloth is; HSW 4. c) carries the tool safety that runs every sewing day. The crosswalk's ATPD 2. c) row pairs with PSI 2. a), the full design process, which fits Lesson 5.10 where students design and build an item rather than today, where they practice a motion.
+Note on the citations: the task asked for a verbatim PSI or HSW line. PSI 2. b) is used because it is the state's own "practice these skills in a variety of classroom applications" line for the design theme, which is exactly what a practice cloth is; HSW 4. c) carries the tool safety that runs every sewing day. The crosswalk's ATPD 2. c) row pairs with PSI 2. a), the full design process, which fits Lesson 5.11 where students design and build an item rather than today, where they practice a motion.
 
 ## Enduring understanding and essential question
 
@@ -133,10 +133,10 @@ Art: the running stitch is a drawing on cloth, and the art teacher's line qualit
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Problem Solving and Innovation, line 2. b). Text per.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Problem Solving and Innovation, line 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 16.4.5, per, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - The quilter's knot and the "move the needle onto the thread" technique are standard hand sewing practice taught in quilting and garment sewing references. This lesson is written new; nothing is reproduced from another teacher's materials.
 
 ## Teacher notes

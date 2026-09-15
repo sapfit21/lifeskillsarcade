@@ -69,12 +69,12 @@ Debrief: hands for $12, hands for $38. Then the hook: show the two dinners. Dinn
 | Day 1, 1. Direct instruction: the project brief | Walk through the project sheet: the scenario, the five deliverables, the calendar (plan today, price tomorrow, peer check, lab, pitch), and the rubric's five criteria. Point at the two budgets: $40 is the family's dinner at home for four; $20 is the lab budget to cook a class-size taste of one dish from that plan. Read the constraints aloud: no knives, pre-cooked meat only, stovetop and oven, teacher handles the oven and drains pasta. | Follow on the project sheet. Highlight the five deliverables. Ask questions. | 8 min |
 | Day 1, 2. Roles and the family card | Hand out role cards and family cards. Read each role's job in one sentence: the Planner runs the plan sheet and the plate; the Shopper owns the circular and the prices; the Nutrition Checker owns the MyPlate check and the family's rules; the Presenter owns the menu card and the pitch. Expansion roles for teams of five to seven: the Second Shopper prices the sides, the Recorder keeps the team copy clean, the Materials Manager runs calculators, circulars, and the running total. Teams choose roles in two minutes; if they cannot, the teacher assigns. | Choose roles, write names on the team plan sheet, read the family card aloud together, and underline every rule. | 6 min |
 | Day 1, 3. Learning activity: plan the dinner | Teams fill the planning grid: a main, a vegetable, a grain (if the main has none), a fruit or a second vegetable, a drink (water counts and is free), and one item the family already has in the pantry. Each dish gets a MyPlate group. The team picks the station dish: the one dish from the plan they will cook in Lesson 1.20, which must fit the room's constraints. Circulate with the check questions. | Plan on the grid. Mark the MyPlate group for every dish. Circle the station dish. Each student copies the team plan onto their own sheet. | 17 min |
-| Day 1, closure | See Closure. | 4 min |
+| Day 1, closure | See Closure. | See Closure. | 4 min |
 | Day 2, do now | On the board: "Your plan has five dishes. Before you price anything, guess the total. Write it at the top of your sheet. You will find out how close you were." | Write a guess. | 3 min |
 | Day 2, 4. Pricing to the penny | Show the pricing table on the screen and price one item together: product, size, price, unit, quantity needed for four, cost, running total. Rules: every line has a unit; if a package is bigger than the family needs, the whole package is paid for (nobody sells half a jar); pantry items are $0 and marked "pantry"; sale prices count only if the sale is on this week. | Shopper and Second Shopper find prices in the circular; Planner reads the quantity needed; Materials Manager runs the calculator; Recorder writes the running total. | 16 min |
 | Day 2, 5. MyPlate check and the revise loop | Nutrition Checker runs the MyPlate check on the sheet: which groups are covered, which are missing, and whether any rule on the family card is broken. Then the revise loop: if the total is over $40, or a group is missing, or a rule is broken, the team swaps, downsizes, or drops one item at a time, recalculates, and writes one sentence for each change in the revision log. Circulate; sign off on the sheet when it is at or under $40 with four groups and no rule broken. | Check the plate, revise, recalculate, log each change. Rough-cost the station dish against $20 in the station dish box. | 14 min |
 | Day 2, 6. Share the totals | Each team's Presenter says the guess, the first total, and the final total in one sentence. Write them on the board. | Report. Compare guesses to totals. | 3 min |
-| Day 2, closure | See Closure. | 4 min |
+| Day 2, closure | See Closure. | See Closure. | 4 min |
 
 Day 1 totals 40 minutes: 5 + 8 + 6 + 17 + 4. Day 2 totals 40 minutes: 3 + 16 + 14 + 3 + 4.
 
@@ -126,11 +126,11 @@ Math: the running total and the unit column are the same skills the math teacher
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e), 3. a), 3. b), and 3. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e), 3. a), 3. b), and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c); Theme Module 05, Problem Solving and Innovation, lines 1. e) and 2. a) c. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standard 3a, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.1 and 14.3.3, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.1 and 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - My own materials: the Feed a Family of Four on $40 run of show: the $12 vs $38 hook, the $40 cap, team planning with flyers, and my own improvement note to add checkpoints during planning so no team reaches the pitch with a broken budget. The King Kullen menu options and constraints.
 
 ## Teacher notes

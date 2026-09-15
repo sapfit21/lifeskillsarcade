@@ -110,8 +110,8 @@ Inside the building: the nurse (the allergy list and a two-minute visit to say w
 
 ## Sources
 
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness (nyctecenter.org, June 2018), lines 4. a) and 4. g). Copy in.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Personal Qualities. Wording per.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness (nyctecenter.org, June 2018), lines 4. a) and 4. g). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Personal Qualities. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.7.
 - My own materials: the signed Room and Lab Agreement, the reset cue, the role cards, the zero-knife and pre-cooked-meat rules, and the Halal accommodation planning from my lab packages (sections 2 and 6). The agreement is written fresh.
 - The Unit 1 pre-assessment items are keyed to the Unit 1 lessons that read them: `Lesson 01.01`, `01.05`, `01.09`, `01.10`, `01.16`, and `Assessment 01.4`.

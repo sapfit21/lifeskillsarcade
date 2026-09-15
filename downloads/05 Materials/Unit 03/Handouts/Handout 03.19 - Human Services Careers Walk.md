@@ -112,6 +112,6 @@ Stretch: **One thing I could do this year to start toward it** (the babysitting 
 ## Teacher key
 
 - The walk sheet is checked for all three ratings on at least six careers (eight for everyone but grade 6 support), a circled top career, a pathway line that matches the card's "needs" line (not a guess), and a unit skill with a lesson or activity named ("the five conflict steps, in the role plays").
-- Training lines on the cards are general and reflect New York requirements as commonly described;
+- Training lines on the cards are general and reflect New York requirements as commonly described.
 - A student who rates everything 3 gets the question "which one would you not want to do at 7 a.m. on a Monday?"
 - A class's most-circled career is written on the board tomorrow with the pathway line, as the two-item debrief at the start of Unit 4.

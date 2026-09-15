@@ -30,7 +30,7 @@ Notes: Pull the towel. Hold up each object as you name the unit on the next slid
 - The needle: Make It, Mend It, Wear It. You sew something you keep.
 - The can: From Farm to Table. You trace a food from the farm to the plate.
 
-Notes: Six units, one a marking period and a half. Say it once: the first cooking lab is on day 16. Students fill Part 1 of the handout.
+Notes: Six units, about five to six weeks each. Say it once: the first cooking lab is on day 16. Students fill Part 1 of the handout.
 
 ## Slide 4: What you already do
 

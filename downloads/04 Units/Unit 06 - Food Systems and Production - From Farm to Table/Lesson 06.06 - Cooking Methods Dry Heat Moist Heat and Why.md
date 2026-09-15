@@ -101,8 +101,8 @@ One line on the exit card: "Dry heat is for ___, moist heat is for ___, and the 
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
 | 1. Sort nine methods and name the equipment | FSP 1. b); HSW 4. c); CDOS 3a Technology | Two columns, Step 1; method cards, Step 3 | Formative; handout checked for nine methods in the right family with a tool each |
-| 2. Match eight foods to a method with a reason | FSP 1. a); FSP 2. d); Std 1 PI A; National FCS 8.5.2 | Match task, Step 3 | Formative; clipboard question during Step 3; handout scored complete, partial, or missing for daily work. Assessed summatively on the Cooking Methods Check, items 1 to 6 |
-| 3. Compare the same food two ways and explain the difference | FSP 2. d); PSI 1. a); National FCS 8.5.14 | Demonstration record and the compare sentence, Step 4 | Formative; the sentence must use browning or moisture. Assessed summatively on the Cooking Methods Check, items 7 and 8 (`Assessment 06.2 - Cooking Methods Check.md`) |
+| 2. Match eight foods to a method with a reason | FSP 1. a); FSP 2. d); Std 1 PI A; National FCS 8.5.2 | Match task, Step 3 | Formative; clipboard question during Step 3; handout scored complete, partial, or missing for daily work. Assessed summatively on the Cooking Methods Check, items 1 to 5 |
+| 3. Compare the same food two ways and explain the difference | FSP 2. d); PSI 1. a); National FCS 8.5.14 | Demonstration record and the compare sentence, Step 4 | Formative; the sentence must use browning or moisture. Assessed summatively on the Cooking Methods Check, item 6 (`Assessment 06.2 - Cooking Methods Check.md`) |
 
 ## Homework
 
@@ -114,9 +114,9 @@ Science: browning and evaporation are chemistry and physics, and the science tea
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. b), and 2. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. b), and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module 05, Problem Solving and Innovation, line 1. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Technology. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.2 and 8.5.14.
 - Unit 1, Lesson 1.5, for the tool names used in Step 1.

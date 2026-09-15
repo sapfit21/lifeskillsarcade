@@ -118,7 +118,7 @@ Inside the building: the drama or music teacher, if your school has one. What th
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. a) and 3. c).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. c); Theme Module 02, Communication and Interpersonal Relationships, line 1. f).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Personal Qualities. Wording per.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Personal Qualities. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.8 and 13.3.2.
 - My own materials: the ACT FAST rapid-fire interview drill I built and taught, including my own reflection on it, which said to keep the scenario rounds tight and give more time to the teaching reveal. That is why Step 3 is 12 minutes and Rounds 1 and 2 are 6 each.
 

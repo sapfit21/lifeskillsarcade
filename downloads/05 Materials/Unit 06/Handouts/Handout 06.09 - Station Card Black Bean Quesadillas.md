@@ -182,9 +182,9 @@ This recipe contains **wheat** (tortillas and graham crackers) and **dairy** (ch
 | Shredded Mexican blend cheese, 8 oz, 2 bags | $5.98 | 1 1/2 bags store brand mozzarella, about $3.74 |
 | Salsa, 16 oz store brand | $2.49 | Picante sauce, about $1.99 |
 | Cooking spray or butter | pantry | |
-| **Main dish total** | **about $12.94** | **about $10.24** |
+| **Main dish total** | **about $12.94** | **about $9.50** |
 | Optional dessert: graham crackers, blueberries, whipped cream | $7.97 | Vanilla wafers, canned fruit, whipped topping tub, about $5.07 |
-| **Station total with dessert** | **about $20.91, over the $20 cap** | **about $15.31, under the cap** |
+| **Station total with dessert** | **about $20.91, over the $20 cap** | **about $14.57, under the cap** |
 | Per person at 7, main dish only | **about $1.85** | |
 
 Most unprepared grocery food is exempt from New York State sales tax.
@@ -210,6 +210,6 @@ Same clock, same roles, same station check. Nothing is heated.
 
 **PLATE AND EAT 28 to 35 and CLEAN 35 to 40:** the same as above, minus the burners.
 
-**Cost: about $13 per station.** Tortillas $2.49, beans $1.98, cheese $5.98, salsa $2.49, lettuce $1.99, minus the spray.
+**Cost: about $15 per station.** Tortillas $2.49, beans $1.98, cheese $5.98, salsa $2.49, lettuce $1.99, minus the spray.
 
 **Second option:** a quesadilla made on a plate in the microwave, 45 seconds. The cheese melts, the tortilla does not brown. Compare it to the skillet version and answer the Lesson 6.6 question: which family of heat did the microwave use, and what did the food lose?

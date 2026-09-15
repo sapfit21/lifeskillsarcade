@@ -8,7 +8,7 @@ Name: ______________________________ Date: ______________ Table: ______
 
 ## Word bank in other languages
 
- The first three rows come from the unit vocabulary list. The rest are new working translations for this lesson and need the same check.
+ The first three rows come from the unit vocabulary list. The rest are new working translations for this lesson.
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|

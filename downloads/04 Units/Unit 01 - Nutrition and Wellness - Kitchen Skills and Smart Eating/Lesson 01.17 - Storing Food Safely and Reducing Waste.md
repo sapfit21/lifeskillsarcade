@@ -114,11 +114,11 @@ Science: food spoilage is bacteria growing in the danger zone; the science teach
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. f). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. f). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 2. b); Theme Module 06, Sustainability, lines 2. h) and 2. j). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standard 3a, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.2.6, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.2.6, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - Refrigerator and freezer temperatures, the two-hour rule, and leftover timing follow the USDA Food Safety and Inspection Service consumer guidance (FoodSafety.gov, "Cold Food Storage Chart" and "Leftovers and Food Safety").
 - My own materials: the leftovers plan and "already in your classroom" pantry check in my supermarket menu options.
 
@@ -126,5 +126,5 @@ Science: food spoilage is bacteria growing in the danger zone; the science teach
 
 - If time runs short, cut the second sort in Step 2 and the landfill slide in Step 4. Never cut the two-hour rule; it is the one that keeps someone from getting sick after the Lesson 1.20 lab.
 - Common mistake: students treat "best by" as "throw away by." Say it three times: best by is about taste, not safety. Then say the exception: for raw meat, poultry, fish, and dairy, do not push past the date.
-- The card most teams get wrong is potatoes (pantry or counter, not the fridge) and the open salsa (fridge once opened, pantry when sealed). Use those two in the debrief.
+- The cards most teams get wrong are potatoes (pantry or counter, not the fridge) and the open salsa (fridge once opened, pantry when sealed). Use those two in the debrief.
 - The waste number lands harder when it is in dinners: $520 a year is thirteen $40 dinners.

@@ -154,7 +154,7 @@ Inside the building: math, directly and by name. Unit cost is a sum, margin is a
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 4. b) and 5. b).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c); Theme Module 05, Problem Solving and Innovation, line 2. a) b.; Theme Module 02, Communication and Interpersonal Relationships, line 2. c).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standards 2 and 3a, Basic Skills. Wording per.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standards 2 and 3a, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 2.5.1.
 - My own materials: my business packets "Know Your Customer" (the customer profile, the demographics and target audience framing, and the three-question customer interview with the biggest need, what they would pay, and how they would hear about it) and "Money In, Money Out" (revenue, expense, profit, fixed cost, variable cost, and break-even, and the two-page budget and profit analysis activity). Rewritten here with the teacher side they lacked, with break-even computed in units rather than months, and with the rule that the projection's unit count needs a reason.
 

@@ -49,7 +49,7 @@ The do now is the pre-assessment for scale and symbols (Lesson 4.10). The hand v
 
 ## Do now and hook (Time: 5 min)
 
-Floor plan do now (day 5 of the daily stack). On the board: "A room is 10 feet by 12 feet. Draw it at 1/4 inch = 1 foot. Put a door on a short wall and a window on a long wall, using the symbols from Lesson 4.10. Label the scale." Two minutes to draw, one minute to check with a neighbor (does the door symbol show the swing?). Sheets go in the stack.
+Floor plan do now (sketch 5 of the daily stack). On the board: "A room is 10 feet by 12 feet. Draw it at 1/4 inch = 1 foot. Put a door on a short wall and a window on a long wall, using the symbols from Lesson 4.10. Label the scale." Two minutes to draw, one minute to check with a neighbor (does the door symbol show the swing?). Sheets go in the stack.
 
 Hook: "Every room you have ever seen was designed for somebody. Today you find out who your somebody is. You will not be designing your dream room. You will be designing theirs." Hand vote: who has ever picked out something for another person's room and got it wrong? Take one story in twenty seconds.
 
@@ -109,10 +109,10 @@ Math: needs versus wants and constraints are the same idea as a word problem's g
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. a) and 2. a). Copy in. The state's Health, Safety, and Wellness illustrative activity for this module (a floor plan revised for a family member who uses a walker or wheelchair) is the seed of the six client cards.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. a) and 2. a). Copy in `02 Standards/NYS Module PDFs/`. The state's Health, Safety, and Wellness illustrative activity for this module (a floor plan revised for a family member who uses a walker or wheelchair) is the seed of the six client cards.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) sub-lines a., b., c. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.5 and 11.2.4, per, section 4.11.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.5 and 11.2.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - My own materials: (the synthesis idea, the "client needs" vocabulary entry, and the budget line). The client, the budget, and the model are new.
 - Turning circle and path widths: the 2010 ADA Standards for Accessible Design (ada.gov), sections 304 (60-inch turning space) and 403 (36-inch clear width). The 30-inch general path is a common residential planning guideline, not a code line.
 

@@ -90,6 +90,6 @@ There are no right ratings. The test sheet is checked for: a baseline number, a 
 
 Box breathing counts: 4 in, 4 hold, 4 out, 4 hold. Common error: students hold their breath too hard; say "gentle" before the first round.
 
-The toolkit card is glanced at for three tools, three situations, and a backup line; then it goes back to the student. The two tools on the card are the two tools required on the Stress Plan in Lesson 3.9. Keep the test sheets until the Stress Plan is scored, so a student who lost the card can rebuild it.
+The toolkit card is glanced at for three tools, three situations, and a backup line; then it goes back to the student. Two of the three tools on the card are the two tools required on the Stress Plan in Lesson 3.9. Keep the test sheets until the Stress Plan is scored, so a student who lost the card can rebuild it.
 
 The brain dump sheet is private. Provide a shred box or a recycling bin. Nobody reads it.

@@ -199,16 +199,16 @@ This is the most likely combination (one pasta main, one oven main, one side, on
 
 **Class total $77.50 against $80.00, under by $2.50. Cost per person $2.77.**
 
-**But checklist item 4 fails**, because Station 2 is at $21.32, over the $20.00 station budget. And **checklist item 6 fails** for Station 4, because Option E's yield check comes to 28 portions on the whipped topping, not 30. Both failures are designed in. Do not name them; let the checklist find them. The two fixes:
+**But checklist item 4 fails**, because Station 2 is at $21.32, over the $20.00 station budget. And **checklist item 6 fails** for Station 2 as well, because Option B's yield check comes to 28 portions on the pizza sauce, not 30. Both failures are designed in. Do not name them; let the checklist find them. The two fixes:
 
 - **Station 2:** drop the pepperoni ($4.99, new station total $16.33) or swap to a store-brand pepperoni if the circular has one, or drop one bag of mozzarella ($1.99, new total $19.33). Any of the three clears $20.00.
-- **Station 4:** add one can of whipped topping ($2.99, new station total $21.93, now over) and then drop from 3 cans to 2 with a thinner layer plus one extra cookie pack, or simply accept 28 portions and note that the teacher and the spare come from another station's dish. The honest answer a class can defend: 28 portions of dessert for 28 students is fine if the teacher skips dessert, and that should be said out loud, not hidden.
+- **Station 2, the yield:** add one jar of pizza sauce ($1.69, which puts the no-pepperoni version at $18.02 and still under), or simply accept 28 portions and note that the teacher and the spare come from another station's dish. The honest answer a class can defend: 28 pizza tortillas for 28 students is fine if the teacher skips that dish, and that should be said out loud, not hidden.
 
-If Station 2 drops the pepperoni and Station 4 adds a can, the class total is **$75.50** and every station is under $20.00. That is the version to buy.
+If Station 2 drops the pepperoni and adds a jar of sauce, the class total is **$74.20** and every station is under $20.00. That is the version to buy.
 
 ## The duplicates students should catch in Step 2
 
-With Options A, B, D, and E, there is exactly one true duplicate: **flour tortillas** are not duplicated (only Station 2 uses them in this combination), but **shredded cheese** appears twice in kind (mozzarella for Station 2, parmesan for Station 1) and students often try to combine them. They are different items and stay on separate lines. If a station takes Option C as well, then tortillas **are** a real duplicate (Stations 2 and 3 both need 2 packs, so the line reads 4 packs, $13.96) and that is the catch to look for.
+With Options A, B, D, and E, there is no true duplicate: **flour tortillas** are not duplicated (only Station 2 uses them in this combination), but **shredded cheese** appears twice in kind (mozzarella for Station 2, parmesan for Station 1) and students often try to combine them. They are different items and stay on separate lines. If a station takes Option C as well, then tortillas **are** a real duplicate (Stations 2 and 3 both need 2 packs, so the line reads 4 packs, $13.96) and that is the catch to look for.
 
 **Say this out loud:** two things that are both "cheese" are not the same line. Same item, same brand, same size is what makes a line.
 

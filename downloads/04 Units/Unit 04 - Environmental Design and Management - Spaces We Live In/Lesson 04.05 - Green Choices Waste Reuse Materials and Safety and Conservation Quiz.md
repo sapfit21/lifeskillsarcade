@@ -61,7 +61,7 @@ Debrief in one minute: hand vote, how many starred at least half. Hook: hold up 
 | 1. Direct instruction: the four Rs and the green factors | One slide: reduce (do not bring it in: junk mail, a single-use bottle), reuse (the jar, the box, the T-shirt as a rag, the chair fixed), recycle (paper, cans, clean plastic and glass by the local rules; not the greasy pizza box), compost or "rot" (the peel, the grounds, yard waste). Then the green factors in a living space, one slide: natural light (fewer lamps, better mood), materials (wood, cotton, wool, secondhand, durable, not fast furniture), indoor air (low-VOC paint, plants, no aerosols, a window that opens, no smoking), water (low-flow, fix leaks), waste (the four Rs). Run the twelve-item sort as a class: hold up each item, class points to a bin, one student says why. | Fill in the four Rs and the five green factors on the handout, Part 1; sort the twelve items on the handout, Part 2, as the class does it. | 6 min |
 | 2. Learning activity: the Greener Room Swap | Pairs. Read the described room on the handout (a teen bedroom with eight items that are wrong: a broken blind that blocks the window, a particleboard desk that wobbles, a can of air freshener, a plastic storage tub set, a fast-furniture bookshelf, a bag of clothes for the trash, a dripping radiator valve with a bucket, a fan running all day with the door closed). Task: for each item, write the greener swap, the green factor it improves, and whether it is free, cheap (under $25), or money. Circulate with the clipboard check. | Read, swap, classify, price. Eight rows. | 10 min |
 | 3. Share | Take two pairs' top three (the swaps that do the most good for the least money). Settle on the board: free first, then cheap, then money; the free ones usually win. | Report; mark their own top three. | 3 min |
-| 4. Assessment: the Home Safety and Conservation Quiz | Hand out the quiz and calculators. Read the directions once. Fifteen minutes on the timer. Collect at the timer. Quiz covers Lessons 4.1 to 4.5: hazards by room, detectors, the emergency plan, a breaker item and a drain item, energy and water math with numbers given, the three Rs. | Take the quiz alone, calculator allowed, nothing else. | 15 min |
+| 4. Assessment: the Home Safety and Conservation Quiz | Hand out the quiz and calculators. Read the directions once. Fifteen minutes on the timer. Collect at the timer. Quiz covers Lessons 4.1 to 4.5: hazards by room, detectors, the emergency plan, a breaker item and a drain item, energy and water math with numbers given, the four Rs. | Take the quiz alone, calculator allowed, nothing else. | 15 min |
 
 ## Questions to ask
 
@@ -96,7 +96,7 @@ Collect the quizzes at the timer. One line on the back of the quiz, ungraded: "O
 
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
-| 1. Define the four Rs and sort twelve items | SUS 2. c); EDM 1. d); National FCS 2.2.3 | The sort, Step 1; quiz items 11 and 12 | Formative in class; summative on the quiz |
+| 1. Define the four Rs and sort twelve items | SUS 2. c); EDM 1. d); National FCS 2.2.3 | The sort, Step 1; quiz item 12 | Formative in class; summative on the quiz |
 | 2. Identify six greener swaps and classify them | EDM 2. d); SUS 2. f); National FCS 3.4.1; Std 3 PI B | The Greener Room Swap, Step 2 | Formative; clipboard checklist; handout scored complete, partial, or missing |
 | 3. Choose and defend the three best swaps; show Topic 4.1 on the quiz | EDM 1. b), c), d); CDOS 3a Systems; Std 3 KI | Step 3 share; the quiz, Step 4 | Summative; `Assessment 04.1 - Home Safety and Conservation Quiz.md`, 30 points, Topic assessments category; one retake after a review |
 
@@ -110,10 +110,10 @@ Science: the science teacher's unit on ecosystems or the carbon cycle is where "
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. d) and 2. d). Copy in.
-- NYS Middle Level CTE Theme Module, Sustainability, lines 2. c) and 2. f). Text per.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. d) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Sustainability, lines 2. c) and 2. f). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 3.4.1 and 2.2.3, per.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 3.4.1 and 2.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - My own materials: my "Sustainable Style" packet supplied the sustainable-alternatives table and the secondhand-first idea, rewritten here as the Greener Room Swap.
 
 ## Teacher notes

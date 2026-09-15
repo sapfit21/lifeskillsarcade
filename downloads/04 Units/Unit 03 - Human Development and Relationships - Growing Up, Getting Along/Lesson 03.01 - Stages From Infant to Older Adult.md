@@ -16,7 +16,7 @@
 - CDOS Standard 3a Universal Foundation Skills: Thinking Skills
 - National FCS 3.0: 12.1.1 Examine physical, emotional, social, moral, and cognitive development.
 
-(The task asked for one HSW 5. line on development or self-awareness. HSW 5. a) is the only line in that topic that names development factors, so it is cited verbatim. CCO 5. a) is added because the last step of the lesson is exactly "needs at each stage.")
+(HSW 5. a) is the only line in the Social-Emotional Learning topic that names development factors, so it is cited verbatim. CCO 5. a) is added because the last step of the lesson is exactly "needs at each stage.")
 
 ## Enduring understanding and essential question
 
@@ -87,7 +87,7 @@ Clipboard checklist during Step 2: for each team, a yes or no on "cards are unde
 
 - ELL: the seven stage headers on the board have a picture cue each (a crib, a tricycle, a backpack, a phone, a work badge, a house key, a cane); the handout word bank has stage, infant, child, teenager, adult, and grow in Turkish, Portuguese, and Spanish; sentence starter for Part 3: "A person in ___ needs ___ most because ___." Pair each ELL student with a partner who reads the cards aloud.
 - IEP and 504 (general): teams of three or four so nobody sorts alone; the sort sheet has a check column so a student can mark the aspect without writing a word; a student who cannot handle 21 cards gets the 14-card set (two per stage); extended time on Part 3 into Lesson 3.2's do now.
-- Grade 6 support: five stages instead of seven (combine the three adult stages into "adulthood" and "older adulthood"); the aspect letter is required on ten cards, not all 21.
+- Grade 6 support: six stages instead of seven (combine the three adult stages into "adulthood" and "older adulthood"); the aspect letter is required on ten cards, not all 21.
 - Grade 8 stretch: after the sort, write which two cards would change stage if the person had a disability or lived in another country, and why the stage might be the same even if the age is not (this previews Lesson 3.4, heredity and environment).
 - UDL checkpoint used: multiple means of representation (a physical card timeline plus the board timeline plus the sort sheet) and multiple means of action and expression (the exit card can be spoken to the teacher instead of written).
 - No-kitchen or no-machine alternative: not needed; this is a classroom lesson.
@@ -112,9 +112,9 @@ Inside the building: the health teacher gets a copy of the seven-stage board lis
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a) and 1. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a) and 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. a); Theme Module, Career and Community Opportunities, line 5. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 12.1.1.
 - The stage names and age ranges are the ones used in most middle school FACS texts (infancy, early childhood, middle childhood, adolescence, young, middle, and older adulthood).
 - My own materials: Unit 2 Calendar 02, day 66 note on the Round 2 close and the Entry 10 read-aloud.

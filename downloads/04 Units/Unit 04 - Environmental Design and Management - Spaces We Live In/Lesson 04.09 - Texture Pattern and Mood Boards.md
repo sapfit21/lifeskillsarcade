@@ -19,7 +19,7 @@ Day note: the unit calendar and the unit plan place this lesson on day 103, betw
 - National FCS 3.0: 11.2.3 Examine how design elements and principles shape how a space looks and how it works.
 - National FCS 3.0: 11.3.1 Examine product information for floor and wall coverings, textiles, window treatments, furniture, lighting, and kitchen and bath fixtures and equipment.
 
-Note on the NYS FACS performance indicator: the crosswalk's EDM 2. c) row assigns Standard 2, the key idea, and PI B, so PI B is quoted above. PI B is the closest of the three Standard 2 indicators; a mood board is a step in managing a home's look and feel, not a safety skill, so the fit is to the key idea's last sentence more than to the indicator. Note on the National FCS lines: the writing task asked for an 11.4.x competency. No 11.4 line fits this lesson. Every 11.4 competency is about construction documents, floor plans, and space planning, which is Lesson 4.10's work; 11.4.3 and 11.4.2 are cited there. The closest verbatim line for choosing and reading swatches is 11.3.1, so that is cited instead. All three National FCS lines are confirmed word for word in, section 4.11.
+Note on the NYS FACS performance indicator: the crosswalk's EDM 2. c) row assigns Standard 2, the key idea, and PI B, so PI B is quoted above. PI B is the closest of the three Standard 2 indicators; a mood board is a step in managing a home's look and feel, not a safety skill, so the fit is to the key idea's last sentence more than to the indicator. Note on the National FCS lines: the writing task asked for an 11.4.x competency. No 11.4 line fits this lesson. Every 11.4 competency is about construction documents, floor plans, and space planning, which is Lesson 4.10's work; 11.4.3 and 11.4.2 are cited there. The closest verbatim line for choosing and reading swatches is 11.3.1, so that is cited instead. All three National FCS lines are confirmed word for word in `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 
 ## Enduring understanding and essential question
 
@@ -50,7 +50,7 @@ Tier 3 (FACS): texture, visual texture, actual texture, pattern, pattern scale, 
 - Slides: `Slides 04.09 - Texture Pattern and Mood Boards` (outline in 05 Materials; the site renders it as a deck)
 - The Room and Mood assignment cards, cut from the handout, one per student, face down in a cup
 - Timer visible to the class
-- Setup notes: cut the card stock in half and cut the assignment cards before the bell. Put one swatch box and one glue stick per pair in the center of each table. Sort yesterday's 3-2-1 exit cards from Lesson 4.8 and yesterday's "needs more" principle from Lesson 4.7 before class; one of those becomes the first slide today. No food, no allergens, and no hot tools in this lesson, so no allergy check is needed. Ask students not to bring anything from home to cut up.
+- Setup notes: cut the card stock in half and cut the assignment cards before the bell. Put one swatch box and one glue stick per pair in the center of each table. Sort yesterday's 3-2-1 exit cards from Lesson 4.8 and the "needs more" principle from Lesson 4.7's Day 2 exit cards before class; one of those becomes the first slide today. No food, no allergens, and no hot tools in this lesson, so no allergy check is needed. Ask students not to bring anything from home to cut up.
 
 ## Pre-assessment
 
@@ -60,7 +60,7 @@ Two things tell you where the class is. First, the "needs more" pile from Lesson
 
 On the board as students enter: "Without standing up, find two things in this room you could touch that feel different from each other. Write what each one feels like in one word. Then find one thing you can see that has a repeat in it (stripes, squares, a pattern) and write what it is."
 
-Debrief in two parts. First, take four answers and write the feel words on the board in a column: rough, smooth, soft, shiny, bumpy, cold. Then the two-minute reteach of the principle the class missed yesterday, from the exit cards, with one room photo.
+Debrief in two parts. First, take four answers and write the feel words on the board in a column: rough, smooth, soft, shiny, bumpy, cold. Then the two-minute reteach of the principle the class missed in Lesson 4.7, from the exit cards, with one room photo.
 
 Hook: hold up two swatches that are the same color and nothing else, for example a smooth ceramic tile and a rough piece of burlap in the same tan. "Same color. Would you want to sleep on one of these? Color is only half of it. Today you learn the other half, and then you build the board you will carry into the project on Monday."
 
@@ -90,7 +90,7 @@ Deepen learning (why and how, tied to their lives):
 
 ## Check for understanding
 
-Clipboard check during Step 3: for each student, a yes or no on three things, "four pieces and only four," "one color repeats across the pieces," and "the sentence names the mood." A student with three yeses is ready for the vocabulary check tomorrow. A student with a no on the repeated color gets the swatch box back at their elbow and one question: "Which piece is the odd one out, and what would you trade it for?" The Part 2 judging table is the second check; walk it while tables argue about combination 4, which is the one that splits a class.
+Clipboard check during Step 3: for each student, a yes or no on three things, "four pieces and only four," "one color repeats across the pieces," and "the sentence names the mood." A student with three yeses is ready for the vocabulary check in Lesson 4.10 Day 2. A student with a no on the repeated color gets the swatch box back at their elbow and one question: "Which piece is the odd one out, and what would you trade it for?" The Part 2 judging table is the second check; walk it while tables argue about combination 4, which is the one that splits a class.
 
 ## Closure (Time: 3 min)
 
@@ -127,10 +127,10 @@ Art: the art teacher teaches texture as an element and often teaches rubbings an
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 2. c). Copy in.
-- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) sub-lines b. and d., and 2. b). Text per.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) sub-lines b. and d., and 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1, 11.2.3, and 11.3.1, per, section 4.11.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1, 11.2.3, and 11.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - My own materials: my interior design packets, including the "Mood Maker" packet, are the seed of the board and the room and mood pairing. The four-piece limit, the three-part layering rule, and the judging table are new.
 
 ## Teacher notes

@@ -38,6 +38,10 @@ Notes: Rounded from EPA WaterSense.
 
 ## Slide 5: A zero-energy home
 
+- A home built so tight and so efficient that it makes as much energy in a year as it uses
+- Thick insulation, tight windows, LED lights, a heat pump, and solar panels on the roof
+- The electric bill can come out close to zero
+Image: a house with solar panels on the roof next to a utility bill with a very small total.
 Notes: Two minutes. This is the story students will remember from this lesson.
 
 ## Slide 6: Phantom load
@@ -140,7 +144,7 @@ Notes: Watch for the heat lines. The family does not pay for heat, which changes
 - Rank the other ten by savings, highest first
 - Payback = cost / savings per year
 Image: the twelve-fix table from the handout.
-Notes: Common mistake is ranking by cost. Say it twice: cheapest first is the filter; savings is the rank.
+Notes: Common mistake is ranking by cost. Say it twice: cost is the filter; savings is the rank.
 
 ## Slide 18: Who pays?
 

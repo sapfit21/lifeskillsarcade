@@ -127,7 +127,7 @@ Score the apartment on the same twelve lines:
 
 ### Rank the fixes
 
-Twelve fixes with a cost and an estimated saving per year. Cross out the two that cost more than $50. Rank the other ten by savings, highest first. For the three that cost money, compute payback: cost divided by savings = years.
+Twelve fixes with a cost and an estimated saving per year. Cross out the two that cost more than $50. Rank the other ten by savings, highest first. For the five that cost money, compute payback: cost divided by savings = years.
 
 | Fix | Cost | Saves per year (estimate) | Rank | Payback (years) |
 |---|---|---|---|---|

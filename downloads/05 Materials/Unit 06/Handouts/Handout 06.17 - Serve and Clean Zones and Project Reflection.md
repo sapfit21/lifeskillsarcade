@@ -56,7 +56,7 @@ Checked by: ______________________ Covers fixed: ______
 ## The order, and it is not negotiable
 
 1. **Guests first.** Anyone in the room who is not on your station.
-2. **Teammates second.** The other stations.
+2. **Teammates second.** The others on your own station.
 3. **Yourselves last.**
 
 **Before the first plate goes out:** the Station Manager reads the **allergen box** for the dish aloud to the whole class. If it was not read, the teacher stops the service.
@@ -248,7 +248,7 @@ Any of the three methods is fine. What matters is a number next to the Lesson 6.
 
 ## Page 4: the cost comparison
 
-The planned class total from the completed key in Handout 06.15 is **$77.50**, or **$75.50** after the two required fixes, which is **$2.77** or **$2.70** per person. A real receipt in Long Island in May will usually land within about a dollar or two of that, higher, because of sales tax on the paper goods, a sale that ended, or one spare package.
+The planned class total from the completed key in Handout 06.15 is **$77.50**, or **$74.20** after the two required fixes, which is **$2.77** or **$2.65** per person. A real receipt in Long Island in May will usually land within about a dollar or two of that, higher, because of sales tax on the paper goods, a sale that ended, or one spare package.
 
 Acceptable reasons for the difference: sales tax on non-food items; an advertised price that expired; the store brand was out of stock and the name brand was bought; one extra package bought as a spare; the package size on the shelf was different from the circular. Not an acceptable reason: "the teacher spent more," with nothing after it.
 

@@ -1,6 +1,6 @@
 # Slides 4.12: Plan: Scale Drawing and Traffic Flow
 
-Slide outline for Lesson 4.12. Day 1 has eleven slides; Day 2 has eleven. Keep the conversion line on the board both days: at 1/2 inch equals 1 foot, one square is 6 inches, 6 squares is 36 inches, 5 squares is 30 inches, 10 squares is 60 inches.
+Slide outline for Lesson 4.12. Day 1 has eleven slides; Day 2 has ten. Keep the conversion line on the board both days: at 1/2 inch equals 1 foot, one square is 6 inches, 6 squares is 36 inches, 5 squares is 30 inches, 10 squares is 60 inches.
 
 # Day 1
 

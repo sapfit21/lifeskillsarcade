@@ -107,7 +107,7 @@ _____________________________________________________________________________
 
 ## Teacher key
 
-**Page 1, Part A.** MyPlate sections, clockwise from top left: Vegetables (top left, the largest section, a little more than a quarter), Fruits (bottom left, a little less than a quarter), Grains (top right, a little more than a quarter), Protein Foods (bottom right, a little less than a quarter), Dairy (the cup on the side). Any correct food in each section counts. Common errors to correct: fruit larger than vegetables; protein larger than grains; dairy drawn on the plate instead of in the cup.
+**Page 1, Part A.** MyPlate sections: Fruits (top left, a little less than a quarter), Vegetables (bottom left, the largest section, a little more than a quarter), Grains (top right, a little more than a quarter), Protein Foods (bottom right, a little less than a quarter), Dairy (the cup on the side). Any correct food in each section counts. Common errors to correct: fruit larger than vegetables; protein larger than grains; dairy drawn on the plate instead of in the cup.
 
 **Page 1, Part B.** A serving is the standard amount on a label or in MyPlate (for example 1 cup of cereal, 1 ounce of chips, 3 ounces of cooked meat, about the size of a deck of cards). A portion is how much you choose to put on your plate or eat. Accept any wording that gets "standard amount set by the label" versus "the amount you actually eat." The chip bag answer depends on the bag you use.
 

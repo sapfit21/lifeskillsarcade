@@ -225,7 +225,7 @@ Pick three. Copy them onto your card. Then write one that is only about your dis
 | 20 to 25 | KEY CHECK | Timer done at minute 18. **Call the teacher to drain at minute 19** (teacher-call minute, written in a second color). Pasta back in the pot. All 4 jars of sauce in. Stir. Parmesan on top | Station Manager calls the teacher. Head Cook stirs in the sauce. Toppings Chief adds parmesan |
 | 25 to 30 | FINISH AND PLATE | Pot to the serving table on a trivet. **Plates down at 29.** Station Manager reads the allergen box aloud (wheat, dairy) | Head Cook carries. Plate Builder plates 30. Station Manager reads the box |
 | 30 to 35 | SERVE AND EAT | Class served first, then teammates, then ourselves. Everyone eats. Time Keeper writes the actual times | Everyone |
-| 35 to 40 | CLEAN UP | Zone 1 surfaces and stove. Zone 2 sink and pot. Zone 3 floor and trash. Zone 4 tools returned, bin closed. Station check signed | Everyone by zone; Station Manager brings the sheet |
+| 35 to 40 | CLEAN UP | Zone 1 tables and covers. Zone 2 sink and pot. Zone 3 surfaces and stove. Zone 4 floor, trash, and tools returned, bin closed. Station check signed | Everyone by zone; Station Manager brings the sheet |
 
 ## The critical path for each option (page 2, Step 1)
 

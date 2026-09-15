@@ -113,11 +113,11 @@ Math: this is ratio and unit rate, which is in the grade 6 and 7 math standards;
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 3. b) and 3. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 3. b) and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. b) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standard 3a, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 2.5.1, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 2.5.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - New York State sales tax treatment of food: most food for home use is exempt; prepared food, candy, soda, and non-food items are taxable.
 - My own materials: the supermarket shopping list with store-brand swaps, the "NYS sales tax note" in my three cooking lesson packages, and the unit price day in my draft unit calendar.
 

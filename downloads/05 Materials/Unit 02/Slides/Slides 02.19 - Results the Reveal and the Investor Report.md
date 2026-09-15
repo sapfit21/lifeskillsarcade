@@ -8,7 +8,7 @@ Lesson 2.19, two days. Day 1: slides 1 to 14. Day 2: slides 15 to 22. The market
 Notes: 3 minutes. Hands for each third. Then the leaderboard.
 
 ## Slide 2: The closing bell
-- [The final leaderboard, by merchant number, pasted or projected live.]
+- The final leaderboard, by merchant number, projected live.
 - Nobody trades again on this board.
 - In ten minutes I will tell you what you were actually buying.
 Image: a drawn bell.
@@ -73,6 +73,7 @@ Notes: Students fill the reveal table on the report template as each slide goes 
 - Dispatches = financial news. Trading windows = market hours.
 - The crisis = a real crash, like 2008 or 2020, with the names changed.
 - The leaderboard = what an adviser calls performance.
+
 ## Slide 13: Three merchants, by number only
 - Merchant ___ held safe ventures and finished slightly up.
 - Merchant ___ held risky ventures through the crash: down, and recovering.

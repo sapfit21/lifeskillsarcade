@@ -102,7 +102,7 @@ Image: five plain icons in a row: a stethoscope, a school building, a stack of b
 - The nearest pediatric clinic, name and number
 - The public library branch, name and number
 - The county WIC office, name and number
-- The family liaison at school: and the after-hours nurse line
+- The family liaison at school, and the after-hours nurse line
 - On your handout: match each support to one hour on your clock where it would help. Copy 211 and one other
 Notes: If the liaison can take five minutes of this step, let them.
 

@@ -89,7 +89,7 @@ Clipboard checklist during Step 2, one line per pair: "finds the water hazard (t
 - ELL: the seven rules have a picture each on the slides and the handout; the described home has a simple floor plan sketch next to the text so hazards can be circled on the picture; the emergency card is a form with labels, not prose; the words safe sleep, choking, water, stairs, emergency, and address are listed in Turkish, Portuguese, and Spanish on the handout (to be verified by a native speaker); 911 works in any language and the slide says so.
 - IEP and 504 (general): the safety walk is done in pairs with one reader and one writer; a student may circle hazards on the sketch instead of writing them; the emergency card can be filled with the information box next to it (it is); extended time; the four scenarios can be reduced to two.
 - Grade 6 support: the safety walk covers three rooms (living room, kitchen, bathroom); the job scenarios are the first two only.
-- Grade 8 stretch: all five rooms plus the yard; grade 8 pairs also write a two-sentence "what I would say to the parent before they leave" script that asks for every line on the emergency card, and answer the "baby sleeps on her stomach" question in writing.
+- Grade 8 stretch: all four rooms plus the back door and yard; grade 8 pairs also write a two-sentence "what I would say to the parent before they leave" script that asks for every line on the emergency card, and answer the "baby sleeps on her stomach" question in writing.
 - UDL checkpoint used: multiple means of representation (rules as pictures, the home as text and sketch, the tube test as a physical check) and multiple means of action and expression (circle, write, or say the fix).
 - No-kitchen or no-machine alternative: none needed. If no tube or objects are available, the choke test is done from the slide with the objects drawn to size.
 
@@ -113,9 +113,9 @@ Inside the building: the school nurse, who can take Step 1's safe sleep demonstr
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 1. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 1. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 3. c), 3. e), and 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PIs on childcare and a safe and healthy home. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PIs on childcare and a safe and healthy home. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 15.2.1 and 15.2.4.
 - Safe sleep guidance: the American Academy of Pediatrics safe sleep recommendations (back to sleep, firm flat surface, nothing in the sleep space) and the NICHD Safe to Sleep campaign. Choking hazards and the small-parts test: the U.S. Consumer Product Safety Commission's small parts guidance (the toilet paper tube is the common home stand-in for the small parts cylinder). Poison control: 1-800-222-1222.
 - American Red Cross Babysitting Basics course information (redcross.org).

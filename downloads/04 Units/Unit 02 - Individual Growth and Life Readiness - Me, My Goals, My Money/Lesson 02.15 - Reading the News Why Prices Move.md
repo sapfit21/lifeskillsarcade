@@ -59,13 +59,13 @@ Debrief: cold call three students for the venture. Then the hook: advance to win
 | Day 1, 2. Learning activity: News Card and Price Change, Part A | Pairs get the handout. Part A: eight news cards and eight price changes, shuffled. Match each card to the change it caused and write the cause and effect sentence: "___ happened, so more people wanted to ___, so the price went ___." Circulate with the clipboard check. Debrief two matches, one easy and the one most pairs missed. | Match, write eight sentences, check with a neighboring pair. | 10 min |
 | Day 1, 3. Trading window | Advance windows 8 to 12, one click about every two minutes. Read every headline aloud as it lands. Ask before each click: "Who does this dispatch affect?" Circulate. | Read each dispatch. Predict the direction before the click. Trade or hold. Note trades on Entry 3 as they happen. | 10 min |
 | Day 1, 4. Investor Journal, Entry 3 | Set the prompt: what I did, why (name the dispatch), what happened. Add today's extra line: one prediction I made and whether it came true. | Write Entry 3 with total fortune. | 6 min |
-| Day 1, closure | See Closure. | 4 min |
+| Day 1, closure | See Closure. | | 4 min |
 | Day 2, do now | On the board, two headlines from the same window: one plain ("Cloudberry reports a delayed expedition; costs up 8 percent") and one loud ("Cloudberry about to EXPLODE, insiders say get in NOW"). "Which one would you trust with your money? One reason." | Write. | 4 min |
 | Day 2, 5. Direct instruction: fact vs hype | Slide 10: the three tests. Who says it (the venture itself, a reporter, or "insiders"?). Is there a number (a percent, a date, an amount)? Does it tell you to hurry (now, last chance, everyone is)? Two of three fails and it is hype. Say the rule that matters for real life: a headline that tells you to hurry is written by someone who wants your money to move today. Show one real-world example without a company name: a social media post that says "this stock is going to the moon" with no number and no source. | Copy the three tests. Score the two do now headlines with them. | 7 min |
 | Day 2, 6. Learning activity: Part B, fact or hype sort | Pairs do Part B: six headlines, score each on the three tests, label fact or hype, and for each fact write what a careful investor would do (buy, sell, hold, or wait for more). Debrief the two that split the room. | Score, label, decide. One pair defends a "hold" with a fact. | 9 min |
 | Day 2, 7. Trading window | Advance windows 13 to 18. Before each click, ask one student to run the three tests on the headline out loud. | Run the tests. Trade or hold. Note trades on Entry 4. | 10 min |
 | Day 2, 8. Investor Journal, Entry 4 | Prompt: what I did, why, what happened, plus: one headline I ignored today and why. | Write Entry 4 with total fortune. | 6 min |
-| Day 2, closure | See Closure. | 4 min |
+| Day 2, closure | See Closure. | | 4 min |
 
 Day 1 totals 40 minutes: 4 + 6 + 10 + 10 + 6 + 4. Day 2 totals 40 minutes: 4 + 7 + 9 + 10 + 6 + 4.
 
@@ -119,8 +119,8 @@ ELA: the three tests are the same source evaluation the ELA teacher uses for res
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, line 4. e).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 2. c); Theme Module 05, Problem Solving and Innovation, line 4. b) b.
-- NYS FACS Standard 3, Intermediate; CDOS 3a Managing Information; National FCS 3.0 competency 3.3.4, all per.
-- My own materials: (Day 3, Reading Market Dispatches); (the four dispatch families); (the dispatch data structure, 180 pre-written dispatches).
+- NYS FACS Standard 3, Intermediate; CDOS 3a Managing Information; National FCS 3.0 competency 3.3.4, all per `02 Standards/STANDARDS CROSSWALK.md`.
+- My own materials: my original ClassroomStreet plan (Day 3, Reading Market Dispatches); the ClassroomStreet Student Guide (the four dispatch families); my ClassroomStreet site notes (the dispatch data structure, 180 pre-written dispatches).
 
 ## Teacher notes
 

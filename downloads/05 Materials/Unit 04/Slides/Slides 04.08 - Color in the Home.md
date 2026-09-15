@@ -1,6 +1,6 @@
 # Slides 4.8: Color in the Home
 
-Slide outline for Lesson 4.8. Day 1 has thirteen slides; Day 2 has eleven. Slide 2 is the three-rooms reveal and needs three images of the same room in three palettes.
+Slide outline for Lesson 4.8. Day 1 has fourteen slides; Day 2 has eleven. Slide 3 is the three-rooms reveal and needs three images of the same room in three palettes.
 
 # Day 1
 

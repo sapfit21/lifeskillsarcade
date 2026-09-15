@@ -122,7 +122,7 @@ Inside the building: the school counselor, who can take one triad for the period
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. b), 3. c), and 3. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. d); Theme Module 02, Communication and Interpersonal Relationships, line 2. c).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.2 and 13.3.3.
 - My own materials: my STAR interview lesson and its peer feedback step, and the ACT FAST drill's four observed traits, which are the four trait rows on the feedback sheet.
 - The Communication and Interpersonal Relationships illustrative activity in the state's Individual Growth and Life Readiness module has students "work in pairs to practice effective communication skills," including "role playing active/reflective listening," before interviewing an adult. The triad structure here is that activity with a third role added so the listening gets written down.
@@ -134,7 +134,7 @@ Inside the building: the school counselor, who can take one triad for the period
 - Four minutes is long enough for seven questions at this age. If a triad finishes early, the interviewer draws a second random card. Do not let them sit.
 - Triads of three are the whole design. Pairs do not work, because there is nobody watching, and groups of four leave somebody with no role.
 - The 15-minute check at the end is the only formal check in Topic 7.1 and it has to happen inside this period. Do not let Rounds 2 and 3 run over. Set the timer and honor it.
-- Tell students before Round 1 exactly what is being scored. Criterion 2 has four levels and they are on the rubric in their hands. Nothing about the scoring should be a surprise while they are sitting in the chair.
+- Tell students before Round 1 exactly what is being scored. Criterion 2 has four levels and students read them on the rubric at the start of Step 4. Nothing about the scoring should be a surprise while they are sitting in the chair.
 - Common mistake: the candidate reads the whole three-part answer off the paper. Say the rule twice in Step 1 and turn the papers face down yourself while walking the room.
 - Second common mistake: the interviewer coaches. "You should say..." Stop it the first time you hear it, in one sentence: "Interviewers do not help. That is the whole point."
 - Return the scored rubric criteria 1 and 2 at the start of Lesson 7.7 so students know where they stand before the project takes over the unit.

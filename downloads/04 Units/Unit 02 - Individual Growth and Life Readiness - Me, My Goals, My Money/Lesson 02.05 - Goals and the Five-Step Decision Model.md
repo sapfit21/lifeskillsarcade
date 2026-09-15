@@ -104,7 +104,7 @@ Day 2: after the Goal Plan is turned in, a one-line index card: "The step of the
 | 2. Construct a goal ladder with a dated first step, an obstacle, and a helper | IGLR 2. c) and d); CCO 4. d); National FCS 2.1.1 | Day 1 Steps 2 and 3, page 1 | Formative on Day 1 (clipboard, partner turn). Summative as the "Ladder" criterion of the Goal Plan rubric |
 | 3. Apply the five-step model to a real choice and defend the decision | IGLR 2. d); PSI 1. e); Std 3 PI B; CDOS 3a Thinking Skills; National FCS 2.1.2 | Day 2 Step 2, page 2 | Summative as the "Decision grid" criterion of the Goal Plan rubric |
 
-**This lesson is the Topic 2.2 formal check.** The product is the Goal Plan: one SMART goal with a ladder (page 1) and a decision grid on a real choice (page 2), with the cover and self-score on page 3. It is assembled in the last 10 minutes of Day 2 (Step 3) and scored by the teacher after class on the three-criterion rubric printed on page 3 of `Handout 02.05 - Goal Ladder and Decision Grid.md` (SMART, Ladder, Decision grid; 12 points). The check goes in the grade book under "Quizzes and topic checks." The first rung of the ladder is scheduled in Lesson 2.6, which is the "implement" in IGLR 2. d); the look-back is revisited at the end of the unit (see Teacher notes).
+**This lesson is the Topic 2.2 formal check.** The product is the Goal Plan: one SMART goal with a ladder (page 1) and a decision grid on a real choice (page 2), with the cover and self-score on page 3. It is assembled in the last 10 minutes of Day 2 (Step 3) and scored by the teacher after class on the three-criterion rubric printed on page 3 of `Handout 02.05 - Goal Ladder and Decision Grid.md` (SMART, Ladder, Decision grid; 12 points). The check goes in the grade book under "Topic assessments." The first rung of the ladder is scheduled in Lesson 2.6, which is the "implement" in IGLR 2. d); the look-back is revisited at the end of the unit (see Teacher notes).
 
 ## Homework
 
@@ -116,13 +116,13 @@ Inside the building: the school counselor, whose grade 8 planning conference use
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 1. e); Career and Community Opportunities, line 4. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Thinking Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 2.1.2.
 - The five-step decision model (name the choice, list options, weigh each against what matters, decide, look back) is this course's own wording, introduced in Unit 0 and used in every unit.
-- My own materials: the airplane-crash decision-making simulation described in is the origin of the "weigh each against what matters" step as students already know it from Unit 0; the Your Mission Statement packet's Activity 2 ("my action, how it shows my mission, when I'll do it") supplied the dated-step habit on the ladder.
+- My own materials: the airplane-crash decision-making simulation is the origin of the "weigh each against what matters" step as students already know it from Unit 0; the Your Mission Statement packet's Activity 2 ("my action, how it shows my mission, when I'll do it") supplied the dated-step habit on the ladder.
 
 ## Teacher notes
 

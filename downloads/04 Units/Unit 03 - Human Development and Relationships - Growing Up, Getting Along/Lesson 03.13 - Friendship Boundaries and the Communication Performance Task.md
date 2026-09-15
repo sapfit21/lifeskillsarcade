@@ -95,7 +95,7 @@ Day 1: clipboard checklist during Step 3, one line per pair: "the no was a plain
 
 Day 2: the performance task is the summative check; see Assessment. The self-score in Step 4 is the formative read: a student whose self-score is within one point of the teacher's on every criterion is reading their own communication accurately.
 
-## Closure (Time: 4 min Day 1; 5 min Day 2)
+## Closure (Time: 4 min Day 1; 4 min Day 2)
 
 **Day 1.** 3-2-1 exit card: 3 parts of a boundary, 2 parts of a clear no, 1 group chat rule you would add to a chat you are in. Three students read their "1." Sort into "got it" and "needs more." The "needs more" pile gets a two-minute check-in during Day 2 planning.
 
@@ -130,9 +130,9 @@ Inside the building: the health teacher and the counselor. The ELA teacher could
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a), 4. c), and 3. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a), 4. c), and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 5. e) and 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.3 and 13.4.4.
 - My own materials: the refusal-skills skits from Lesson 3.6 and my peer pressure tiered objectives, which asked students to demonstrate refusal strategies in a short role play and to evaluate the best response; the I-message frame from Lesson 3.10 and the five steps from Lesson 3.11.
 
@@ -142,4 +142,4 @@ Inside the building: the health teacher and the counselor. The ELA teacher could
 - If Day 2 runs short, the last pairs perform at the start of Lesson 3.14 (before the do now, five minutes). Say so at the start of Day 2 so nobody feels skipped.
 - Scoring live is fast if the clipboard sheet has the four criteria as columns and you write only a number. Do not write comments during performances; write the one-line notes after class from the numbers.
 - Common mistake in the performance: both students talk and nobody listens. The listener's job is to restate before anything else. Say it in the criteria slide: "somebody has to say 'so you are saying' or criterion 2 is a 1."
-- The word "dating" is in the scope and sequence title for this lesson. In the room, use "any relationship" and "a person you like." Everything here is about respect, lines, and no. Nothing here is about the body. If a student pushes the conversation there, the answer is "that is a health class question and [health teacher's name] is the person to ask."
+- The word "dating" is in the scope and sequence title for this lesson. In the room, use "any relationship" and "a person you like." Everything here is about respect, lines, and no. Nothing here is about the body. If a student pushes the conversation there, the answer is "that is a health class question and the health teacher is the person to ask."

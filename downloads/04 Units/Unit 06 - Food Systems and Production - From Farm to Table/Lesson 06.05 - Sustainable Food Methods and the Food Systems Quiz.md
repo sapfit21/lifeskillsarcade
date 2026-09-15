@@ -111,9 +111,9 @@ Day 2: the quiz is the closure. Post the answers and a two-line review at the st
 
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
-| 1. Define sustainability, sort compost, name three farm methods | FSP 4. a); SUS 1. a); National FCS 2.2.3 | Steps 1 and 3, Day 1 | Formative; compost sort checked in the group reveal; exit card sorted. Assessed summatively on the Food Systems Quiz, items 8 to 10 (sustainable methods matching) |
+| 1. Define sustainability, sort compost, name three farm methods | FSP 4. a); SUS 1. a); National FCS 2.2.3 | Steps 1 and 3, Day 1 | Formative; compost sort checked in the group reveal; exit card sorted. Assessed summatively on the Food Systems Quiz, item 11 (sustainable methods matching) |
 | 2. Plant, label, and write a care plan | FSP 4. c); Std 3 PI B; National FCS 8.5.13 | Planting and care plan, Step 2, Day 1 | Formative; every cup labeled, care plan with four answers, watering chart signed. Checked again in Lesson 6.11 (is the plant alive?) |
-| 3. Redesign the packaging and justify it against both criteria | FSP 4. e); PSI 2. a) f.; CDOS 3a Systems; National FCS 14.5.1 | Redesign and pitch, Day 2 Steps 1 to 3 | Formative; the justification needs both criteria answered. Assessed summatively on the Food Systems Quiz, item 11 (packaging trade-off short answer) |
+| 3. Redesign the packaging and justify it against both criteria | FSP 4. e); PSI 2. a) f.; CDOS 3a Systems; National FCS 14.5.1 | Redesign and pitch, Day 2 Steps 1 to 3 | Formative; the justification needs both criteria answered. Assessed summatively on the Food Systems Quiz, item 12 (packaging trade-off short answer) |
 
 All of Topic 6.1 is assessed summatively on the Food Systems Quiz in the last fifteen minutes of Day 2 (`Assessment 06.1 - Food Systems Quiz.md`, twelve items, fifteen minutes).
 
@@ -127,9 +127,9 @@ Science: seed germination, decomposition, and the water cycle all sit in this le
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. a), 4. c), and 4. e). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. a), 4. c), and 4. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 06, Sustainability, line 1. a); Theme Module 05, Problem Solving and Innovation, line 2. a) f. Same folder. The Sustainability module's FACS illustrative activity on product lifecycles and the FSP module's Classroom Herb Garden activity are both behind this lesson's shape.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Systems. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.13, 2.2.3, and 14.5.1.
 - Unit 4, Lessons 4.11 to 4.15, for the design process language used on Day 2. The eight words are the state's own from PSI 2. a).

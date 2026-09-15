@@ -90,7 +90,7 @@ A 10-foot wall is __________ squares, which is __________ inches on the paper.
 
 **Rounding.** Measure to the nearest half foot, then draw to the nearest whole square. Rounding to the nearest square is close enough at this scale and it keeps you on the grid lines. In Lesson 4.12 the scale doubles to 1/2 inch = 1 foot, two squares per foot, and there a half foot is one whole square, so you can be exact.
 
-**If graph paper runs out.**
+**If graph paper runs out:** rule a grid of quarter-inch squares on plain paper with a ruler and keep the same scale.
 
 * * *
 

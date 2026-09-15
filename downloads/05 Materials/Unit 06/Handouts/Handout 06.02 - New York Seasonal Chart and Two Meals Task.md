@@ -209,6 +209,6 @@ _____________________________________________________________________________
 
 **Common error to catch:** labeling a January strawberry or a January corn as local. Point at the chart, not at the student.
 
-**Part 5, the hard question, sample answer:** a tomato grown in an unheated Florida field and trucked 1,200 miles can use less total energy than a tomato grown in a New York greenhouse heated through February, because heating a building all winter costs far more energy than a shared truckload of produce does per tomato. The reasoning students should show: compare how it was grown, not only how far it moved.
+**Page 5, the hard question, sample answer:** a tomato grown in an unheated Florida field and trucked 1,200 miles can use less total energy than a tomato grown in a New York greenhouse heated through February, because heating a building all winter costs far more energy than a shared truckload of produce does per tomato. The reasoning students should show: compare how it was grown, not only how far it moved.
 
 **Scoring:** the handout is daily work, scored complete, partial, or missing. Look for eight foods with correct seasons in Part 1, all eight items labeled in Part 3, and a reason in all four rows of Part 4.

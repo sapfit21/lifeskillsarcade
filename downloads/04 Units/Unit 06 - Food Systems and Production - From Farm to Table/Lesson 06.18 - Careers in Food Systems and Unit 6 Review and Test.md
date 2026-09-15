@@ -119,7 +119,7 @@ Day 1: during Step 2, a clipboard yes or no per pair on "the chain mat placement
 
 - ELL: every career card has a picture of the person at work, a one-line "a day in this job" in short sentences, and a symbol for the education level; the chain mat is a picture of the eight links; the self-check has a sentence frame in English, Turkish, Portuguese, and Spanish; the test is read aloud in a small group for any student with that support, with the item wording unchanged; ServSafe, apprenticeship, certificate, and degree are in `Vocabulary 06.md` in all four languages.
 - IEP and 504 (general): extended time on the test (finish at the start of Unit 7 Lesson 7.1 or in a support period); the test may be taken in a separate location; calculators for anyone who wants one, not just on items 16 and 17; the card sorts are physical and can be done on a desk with the cards handed over rather than reached for; the self-check may be dictated; the written-response item accepts a labeled drawing or a bulleted answer; the review game answer may be spoken to a teammate who writes it.
-- Grade 6 support: eight career cards instead of thirteen (farmer, processing technician, truck driver or logistics coordinator, grocery store manager, line cook, baker, dietitian, food safety inspector). The test omits items 19 and 20 and is scored out of 28. Or keep all twenty items and give the extra time.
+- Grade 6 support: eight career cards instead of thirteen (farmer, processing technician, truck driver or logistics coordinator, grocery store manager, line cook, baker, dietitian, food safety inspector). The test omits items 19 and 20 and is scored out of 26. Or keep all twenty items and give the extra time.
 - Grade 8 stretch: the pair adds a fourteenth card for a food-chain job not on the list (aquaculture farmer, food truck owner, packaging designer, agricultural drone operator, school food service director) with the link, the education, a day in the life, and where it exists locally. On the test, the written-response item asks for two reasons and one counterargument.
 - UDL checkpoint used: multiple means of representation (the chain as a drawn line, the careers as picture cards, the paths as a five-step ladder) and multiple means of engagement (the self-check is about the student's own future and has no right answer, and the review game is a team competition with the room's own work on the walls as the reference).
 - No-kitchen alternative: not needed; paper only both days.
@@ -148,11 +148,11 @@ Inside the building: the school counselor. FACS gives the counselor thirteen foo
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 6. a), 6. b), and 6. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 6. a), 6. b), and 6. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 4. a) and 7. c); Theme Module 06, Sustainability, line 4. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standard 1, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1, 8.1.1, 8.1.3, and 9.1.3, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standard 1, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1, 8.1.1, 8.1.3, and 9.1.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - Pay ranges and job outlook lines on the career cards are to be refreshed before teaching and should be filled from the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) and New York State Department of Labor wage data for the Long Island region. The registered dietitian credential requires a graduate degree to sit for the exam as of 2024; confirm with the Commission on Dietetic Registration. ServSafe is administered through the National Restaurant Association's training arm; confirm the current levels, exam fee, and proctoring rules at servsafe.com. Registered apprenticeship information for New York comes from the NYS Department of Labor apprenticeship office.
 - My own materials: the careers-day structure follows Lesson 1.22 in this course, and the Long Island jobs page draws on my own supermarket price research (King Kullen, a Long Island chain, is widely credited as the first American supermarket, opened in Queens in 1930, which is a one-line hook worth using) and my hotel food and beverage work.
 

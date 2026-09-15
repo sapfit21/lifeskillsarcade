@@ -42,7 +42,7 @@ Write the two honest points the class named out loud.
 
 # Page 2. Day 1: the journey of one sweatshirt
 
-## The seven cards (cut these apart, one set per station)
+## The eight cards (cut these apart, one set per station)
 
 **CARD: WORN**
 Somebody buys the sweatshirt and wears it. This is where every garment starts. How many times it gets worn is the whole question.
@@ -107,7 +107,7 @@ WORN → ______________________ → ______________________ → then one of: ____
 | About 17 million tons of textiles entered the United States municipal solid waste stream in one year. About 11.3 million tons of that was landfilled. About 2.5 million tons was recycled, which is a recycling rate of about 15 percent. | US Environmental Protection Agency, Facts and Figures about Materials, Waste and Recycling | 2018 data (published 2020). | |
 | A commonly cited estimate says it takes roughly 1,800 to 2,000 gallons of water to produce one pair of cotton jeans, counting the water to grow the cotton and to make the fabric. | Widely repeated; versions of it appear in United Nations Environment Programme materials and in many news articles. | Varies by source | |
 | One study reported that the average number of times a garment is worn before it stops being used fell by about 36 percent over fifteen years. | Ellen MacArthur Foundation, A New Textiles Economy | 2017. | |
-| Where a donated garment goes: sold locally, baled and exported, cut into wiping rags, shredded into fiber, or landfilled. The share going to each path is different for every charity, every sorting center, and every year. | No single reliable national percentage. **[if you see a percentage on a poster with no source, that is the point of this exercise]** | Varies | |
+| Where a donated garment goes: sold locally, baled and exported, cut into wiping rags, shredded into fiber, or landfilled. The share going to each path is different for every charity, every sorting center, and every year. | No single reliable national percentage. **If you see a percentage on a poster with no source, that is the point of this exercise.** | Varies | |
 
 Which number would you use if you had to convince a parent? ______________________
 

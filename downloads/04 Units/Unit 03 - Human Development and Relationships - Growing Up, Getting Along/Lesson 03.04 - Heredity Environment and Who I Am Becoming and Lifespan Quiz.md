@@ -17,7 +17,7 @@
 - CDOS Standard 3a Universal Foundation Skills: Thinking Skills
 - National FCS 3.0: 12.2.1 Examine how heredity and environment shape growth and development.
 
-(The task asked for a CIR 4. line on family or influence. CIR 4. b) is the crosswalk's line for how relationships change over time and is cited verbatim; the influences map is a map of relationships. HSW 5. a) is added because it names heredity and environment in so many words. HDR 2. a) is introduced here through "factors which affect the formation of self-concept" and is defined fully in Lesson 3.5. The quiz covers HDR 1. a), 1. b), and 3. d) from Lessons 3.1 to 3.4.)
+(CIR 4. b) is the crosswalk's line for how relationships change over time and is cited verbatim; the influences map is a map of relationships. HSW 5. a) is added because it names heredity and environment in so many words. HDR 2. a) is introduced here through "factors which affect the formation of self-concept" and is defined fully in Lesson 3.5. The quiz covers HDR 1. a), 1. b), and 3. d) from Lessons 3.1 to 3.4.)
 
 ## Enduring understanding and essential question
 
@@ -122,9 +122,9 @@ Inside the building: science, if the grade 7 life science course covers genes an
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a), 1. b), 2. a), and 3. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a), 1. b), 2. a), and 3. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. a); Theme Module, Communication and Interpersonal Relationships, line 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 12.2.1.
 - My own materials: the influences map borrows the "circle of people and places" idea from my Unit 2 All About Me one-pager (Lesson 2.3) so students recognize the shape.
 

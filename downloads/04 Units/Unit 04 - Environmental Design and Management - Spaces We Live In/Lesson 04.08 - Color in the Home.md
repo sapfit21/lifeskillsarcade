@@ -163,10 +163,10 @@ Art: the art teacher's color wheel is the same wheel; a ten-minute swap where FA
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in.
-- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) with sub-lines b., c., and h.; Theme Module, Health, Safety, and Wellness, line 5. a). Text per.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) with sub-lines b., c., and h.; Theme Module, Health, Safety, and Wellness, line 5. a). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1, 11.2.2, and 11.2.3, per.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1, 11.2.2, and 11.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - My own materials: my Color in the Home lesson plan, its rubric, and the Turkish and Portuguese vocabulary handouts that went with it. My "Color Me Impressed" and "Mood Maker" packets were read but not reused here.
 
 ## Teacher notes

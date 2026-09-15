@@ -26,7 +26,7 @@ Notes: Pour the real bowls at the demo table while this slide is up.
 - Other half: grains and protein foods. Grains get a little more room.
 - Dairy on the side, in a cup.
 - Make half your grains whole grains.
-Image: the MyPlate graphic: a plate divided into four sections (vegetables top left, fruits bottom left, grains top right, protein foods bottom right) with a cup labeled dairy at the top right. Labels in English, Turkish, Portuguese, and Spanish.
+Image: the MyPlate graphic: a plate divided into four sections (fruits top left, vegetables bottom left, grains top right, protein foods bottom right) with a cup labeled dairy at the top right. Labels in English, Turkish, Portuguese, and Spanish.
 
 ## Slide 4: Rate the dinner
 

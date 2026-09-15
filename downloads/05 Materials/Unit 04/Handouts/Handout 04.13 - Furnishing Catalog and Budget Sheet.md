@@ -22,12 +22,12 @@ A dash in a column means that item is not sold that way. "None" under DIY means 
 |---|---|---|---|---|---|---|
 | 1 | Twin bed frame, metal or wood | 3 by 6.5 ft | $129 | $45 | $60 (a wood platform from two sheets of plywood and 2 by 4s) | Secondhand: check every bolt and slat. DIY platform is sturdy and low, good for a walker or wheelchair user at the right height. |
 | 2 | Full bed frame | 4.5 by 6.5 ft | $179 | $60 | $80 (platform) | Same checks as above. |
-| 3 | Twin mattress | 3 by 6.5 ft | $149 | dash | none | Never secondhand: bed bugs, dust mites, stains, no warranty. |
-| 4 | Full mattress | 4.5 by 6.5 ft | $229 | dash | none | Never secondhand. The Ahmed card's full bed already has one; do not buy it again. |
+| 3 | Twin mattress | 3 by 6.5 ft | $149 | - | none | Never secondhand: bed bugs, dust mites, stains, no warranty. |
+| 4 | Full mattress | 4.5 by 6.5 ft | $229 | - | none | Never secondhand. The Ahmed card's full bed already has one; do not buy it again. |
 | 5 | Bunk bed, twin over twin, with rails and ladder | 3.5 by 6.5 ft, 5.5 ft tall | $299 | $110 | none | Secondhand: the top rail must be there and the ladder must be solid. Do not build one. |
 | 6 | Crib, meets current safety standard | 2.5 by 4.5 ft | $189 | $70 (only if made after 2011 and the seller has the model number) | none | Older drop-side cribs are banned. Check the recall list. When in doubt, new. |
-| 7 | Crib mattress, firm | fits crib | $69 | dash | none | Never secondhand. Firm and tight-fitting for safe sleep. |
-| 8 | Mattress protector, waterproof | twin or full | $25 | dash | none | Cheap insurance for any mattress. |
+| 7 | Crib mattress, firm | fits crib | $69 | - | none | Never secondhand. Firm and tight-fitting for safe sleep. |
+| 8 | Mattress protector, waterproof | twin or full | $25 | - | none | Cheap insurance for any mattress. |
 | 9 | Bed risers or lowering blocks (set of 4) | adjusts bed height 3 to 5 in | $18 | $5 | $6 (wood blocks) | For the walker user (higher) or the wheelchair user (to 20 inches). |
 
 ### Seating
@@ -75,8 +75,8 @@ A dash in a column means that item is not sold that way. "None" under DIY means 
 | 33 | Table lamp | fits a nightstand | $39 | $10 | none | Check the cord for cracks on a secondhand lamp. Put the switch where the client can reach it from the bed. |
 | 34 | Floor lamp | 1 by 1 ft base | $59 | $15 | none | Cord along the wall, not across the path. |
 | 35 | Clip-on desk lamp, LED | clips to a desk or shelf | $24 | $8 | none | Mia's study corner: light that does not wake Luz. |
-| 36 | LED bulbs, pack of 4 | 9 watt, replaces 60 watt | $12 | dash | none | The green choice: 51 watts saved per bulb every hour it is on. |
-| 37 | Plug-in night lights, pair, with light sensor | plug into an outlet | $14 | dash | none | On the path from the bed to the door. Safety feature for the walker user, the baby's room, and the entry. |
+| 36 | LED bulbs, pack of 4 | 9 watt, replaces 60 watt | $12 | - | none | The green choice: 51 watts saved per bulb every hour it is on. |
+| 37 | Plug-in night lights, pair, with light sensor | plug into an outlet | $14 | - | none | On the path from the bed to the door. Safety feature for the walker user, the baby's room, and the entry. |
 
 ### Floor, window, walls, finish
 
@@ -84,7 +84,7 @@ A dash in a column means that item is not sold that way. "None" under DIY means 
 |---|---|---|---|---|---|---|
 | 38 | Area rug, 5 by 7 ft, low pile, with non-slip pad | 5 by 7 ft | $89 | $30 | $20 (carpet remnant bound with tape, plus a pad) | Walker or wheelchair user: low pile only, taped down, or no rug at all. Recycled-fiber rugs count as a green choice. |
 | 39 | Cordless blinds or curtains with a rod, no dangling cords | fits a 4-ft window | $49 | $12 | $18 (a tension rod and a pair of curtains, sewn in Unit 5) | Baby's room: cordless is the rule, not a want. |
-| 40 | Paint, 1 gallon, low-VOC, plus roller, tray, and tape | covers one bedroom | $58 | dash | none | Low-VOC is a green choice (fewer fumes). One gallon does most bedrooms. Secondhand paint: only a sealed, unopened can, and rarely. |
+| 40 | Paint, 1 gallon, low-VOC, plus roller, tray, and tape | covers one bedroom | $58 | - | none | Low-VOC is a green choice (fewer fumes). One gallon does most bedrooms. Secondhand paint: only a sealed, unopened can, and rarely. |
 
 Not in the catalog but free or nearly free: a plant from a cutting (green choice, $0 to $5); a family photo wall (frames secondhand, item 30 for the shelf); a mirror from a thrift store ($10 to $20, use item 30's line and write "mirror"); a rubber-backed entry mat ($15 new, write it in). Write any extra item on a blank line with a price you can defend.
 

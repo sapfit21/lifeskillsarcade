@@ -14,6 +14,7 @@ Notes: Take the planned and the actual from two students and write both on the b
 - In a kitchen it is called a **variance**.
 - Somebody has to explain it every week.
 - Today you explain ours. Then we eat the last course properly, at a set table, like it matters.
+
 ## Slide 3: First job: set 30 covers
 - Plate centered, about one inch from the edge.
 - **Fork LEFT.** Napkin under the fork or on the plate.

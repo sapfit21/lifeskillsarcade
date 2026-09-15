@@ -166,7 +166,7 @@ Notes: C wins calories and fat; D wins sodium, fiber, protein, and vitamins. The
 ## Slide 20: The ad
 
 - SunBurst Fruit Bites. "Made with REAL fruit. Fat free. Excellent source of vitamin C. The healthy snack for active kids."
-- Here is the back of the box. [Show the label and the ingredient list from the handout.]
+- Here is the back of the box: the label and the ingredient list from the handout.
 - Write a four-sentence critique: the claim, then three pieces of evidence from the label or ingredients that the claim hides.
 - Frame: "The ad says ___, but the label shows ___."
 Image: the ad as described on the handout: a smiling kid on a soccer field holding a pouch, strawberries and oranges across the package.

@@ -54,6 +54,7 @@ Notes: 11 minutes. The two that move most are the caterer and the baker. Let the
 - **Food Protection Manager** is the one many restaurants require of a supervisor.
 - **High school CTE programs can offer it.** You can walk out of high school with it.
 - It is the difference between an application that gets a call and one that does not.
+
 ## Slide 9: Would I like this?
 - Pick two cards: one you would consider, one you would not.
 - The part of the day I would like. The part I would not.

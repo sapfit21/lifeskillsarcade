@@ -135,9 +135,9 @@ Inside the building: the counselor runs peer mediation in many middle schools; t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a) and 4. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a) and 4. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 6. b), 6. c), and 6. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.4.3 and 13.4.4.
 - My own materials: the five-step decision model from Lesson 0.3 (name the choice, list options, weigh each against what matters, decide, look back) shapes "agree on one step" and the Day 2 debrief question; the I-message frame from Lesson 3.10.
 
@@ -148,4 +148,4 @@ Inside the building: the counselor runs peer mediation in many middle schools; t
 - The second common mistake: the "shared want" is really one person's want. The test is whether both people would say yes to it out loud.
 - Scenario 8 is a rung 5 card on purpose. It should never be role played. Its only job is the "who I would tell" line. If a triad draws it by mistake, swap it.
 - Rung 5 means anything physical, a threat, a weapon, or anything that scares you. Say those four out loud, every class. A student who reports something during this lesson is reported the way the school's policy says.
-- The five-step decision model from Unit 0 shows up in "agree on one step": name the choice, list options, weigh each, decide, look back. Grade 8 students notice this on their own; point it out for everyone else.
+- The five-step decision model from Unit 0 shows up in "agree on one step": name the choice, list options, weigh each against what matters, decide, look back. Grade 8 students notice this on their own; point it out for everyone else.

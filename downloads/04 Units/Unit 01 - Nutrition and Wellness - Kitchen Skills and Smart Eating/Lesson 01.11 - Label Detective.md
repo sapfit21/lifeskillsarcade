@@ -135,9 +135,9 @@ Inside the building: the math teacher. Percent daily value, multiplying by servi
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. e) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.2.4 and 3.5.6.
 - Label facts: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov), including the 5% and 20% DV rule and the daily values used on the 2020 label (sodium 2,300 mg; added sugars 50 g; dietary fiber 28 g; saturated fat 20 g). FDA's position on "natural": fda.gov, "Use of the Term Natural on Food Labeling."

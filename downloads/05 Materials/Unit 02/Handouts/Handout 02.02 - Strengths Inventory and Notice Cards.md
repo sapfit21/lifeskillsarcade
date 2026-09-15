@@ -135,7 +135,7 @@ There are no right answers on the inventory. Check for two things.
 
 **Grade 6 inventory (16 strengths).** Drop these eight for grade 6: "I check my work and catch my own mistakes," "I can focus on one thing for a long time," "I follow directions exactly when it counts," "I can get a group to agree and get moving," "I stay calm when other people panic," "I wait my turn and do not rush people," "I try the scary thing," "I finish what I start." Ask for a top two.
 
-**The twelve-statement sort on slide 4** (for the finger vote at the start of Day 1), with answers:
+**The twelve-statement sort on slides 4 and 5** (for the finger vote at the start of Day 1), with answers:
 
 | Statement | Answer |
 |---|---|

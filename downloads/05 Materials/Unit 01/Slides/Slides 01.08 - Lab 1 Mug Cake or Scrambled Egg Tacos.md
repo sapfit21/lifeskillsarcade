@@ -64,10 +64,10 @@ Image: eight cards fanned out with the role names.
 
 ## Slide 8: Station C, the sanitation routine
 
-- Hands: 20 seconds, soap, dry with paper.
-- Apron on. Hair tied back or in a cap.
-- Wipe the counter before, wipe it after.
-- Trash goes in the can, not on the counter.
+- Start: hair back, sleeves up, wash hands (20 seconds, soap, dry with paper), sanitize surfaces.
+- Apron on.
+- During: clean as you go. Trash goes in the can, not on the counter.
+- End: station check before dismissal.
 - Say your role's first prep task and touch the tool you will use.
 
 ## Slide 9: Allergy check
@@ -75,6 +75,7 @@ Image: eight cards fanned out with the role names.
 - Mug Cake: egg, milk, wheat.
 - Tacos: egg, milk, wheat (flour tortillas).
 - If you have a swap on the nurse's list, I already have it ready. Tell me if you think I missed one.
+
 ## Slide 10: Closure
 
 - Exit card, one sentence: "My role tomorrow is ___. My first job is ___. My safety rule is ___."

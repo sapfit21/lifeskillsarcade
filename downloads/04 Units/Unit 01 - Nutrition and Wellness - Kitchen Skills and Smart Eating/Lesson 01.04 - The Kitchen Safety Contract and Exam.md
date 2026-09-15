@@ -130,11 +130,11 @@ Inside the building: give the principal or the other teacher who uses the room a
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. a), e), and i). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.4.1.
-- for the pass-or-retake rule on the Kitchen Safety Exam.
+- `03 Course Design/03 Grading Plan.md` for the pass-or-retake rule on the Kitchen Safety Exam.
 - My own materials: the reset cue, the role cards, the station-of-seven layout, and my observation notes about the shared room shape the routine and the story.
 
 ## Teacher notes

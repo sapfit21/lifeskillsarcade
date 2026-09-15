@@ -44,7 +44,7 @@ The fix is always the same: ______________________________________________
 
 Ingredients: orange juice.
 
-**Product B: Sunny Orange Drink, 64 fl oz bottle.** Front says: "Made with real juice. Excellent source of vitamin C. Only 10 calories per ounce."
+**Product B: Sunny Orange Drink, 64 fl oz bottle.** Front says: "Made with real juice. Excellent source of vitamin C. Only 15 calories per ounce."
 
 | Nutrition Facts | |
 |---|---|
@@ -206,7 +206,7 @@ Grade 8 stretch: on the back of this page, design an honest Nutrition Facts labe
 5. "No sugar added" means no sugar was put in but the food may still have a lot of natural sugar (100% juice); "sugar free" means less than 0.5 g per serving; "reduced sugar" means at least 25% less than the regular version, which can still be a lot. Catch it with total sugars and added sugars.
 The fix: turn it over and read the Nutrition Facts and the ingredient list.
 
-**Page 2, Comparison 1.** Calories: A 110, B 120 (A). Total sugars: A 22 g, B 30 g (A). Added sugars: A 0 g (0%), B 28 g (56%) (A). Sodium: A 0 mg, B 25 mg (A). First ingredient: A orange juice, B water then high fructose corn syrup (A). Better choice: A. The trick: "made with real juice" (it is 10% juice), "excellent source of vitamin C" (added as ascorbic acid, not from fruit), "only 10 calories per ounce" (a made-up serving size to make the number look small). Whole container: 8 x 28 = 224 g added sugars, about 4.5 days' worth. Note for discussion: A still has 22 g of sugar per serving; juice is a "sometimes" drink and a serving is one cup, not the bottle.
+**Page 2, Comparison 1.** Calories: A 110, B 120 (A). Total sugars: A 22 g, B 30 g (A). Added sugars: A 0 g (0%), B 28 g (56%) (A). Sodium: A 0 mg, B 25 mg (A). First ingredient: A orange juice, B water then high fructose corn syrup (A). Better choice: A. The trick: "made with real juice" (it is 10% juice), "excellent source of vitamin C" (added as ascorbic acid, not from fruit), "only 15 calories per ounce" (a made-up serving size to make the number look small). Whole container: 8 x 28 = 224 g added sugars, about 4.5 days' worth. Note for discussion: A still has 22 g of sugar per serving; juice is a "sometimes" drink and a serving is one cup, not the bottle.
 
 **Page 3, Comparison 2.** Calories: C 130, D 160 (C). Total fat: C 7 g, D 10 g (C). Sodium: C 220 mg (10%), D 170 mg (7%) (D). Fiber: C less than 1 g, D 1 g (D, barely). Protein: C less than 1 g, D 2 g (D). Vitamins: C none, D vitamin C 10% and potassium 8% (D). Better choice: "neither is a health food" is the best answer; D wins more lines; C wins calories and fat. The trick: "made with real vegetables" (vegetable powders are the sixth to ninth ingredients, and the product has no vitamin A or C to show for it; the first three ingredients are starches), and "30% less fat" hides 30% more sodium. Whole bag: C 7 x 220 = 1,540 mg; D 8 x 170 = 1,360 mg.
 

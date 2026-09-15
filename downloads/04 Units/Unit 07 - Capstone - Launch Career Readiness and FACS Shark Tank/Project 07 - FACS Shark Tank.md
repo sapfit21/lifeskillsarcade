@@ -65,7 +65,7 @@ Examples of the connection sentence:
 
 ## What your team turns in
 
-Six things. Four go in the team folder and two happen in the room.
+Six things. Three go in the team folder, two go on the counter, and one happens live in the room.
 
 | # | Deliverable | Who owns it | Where it lands |
 |---|---|---|---|

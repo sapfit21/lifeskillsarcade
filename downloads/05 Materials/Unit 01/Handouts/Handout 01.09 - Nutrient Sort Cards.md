@@ -13,7 +13,7 @@ Each card has the food name and a one-line picture in words. Cards marked with a
 |---|---|---|
 | **1. Whole wheat bread** (a brown slice with seeds on the crust) | **2. Grilled chicken breast** (a plain cooked chicken piece on a plate) | **3. Olive oil** (a green glass bottle with a pour spout) |
 | **4. Orange** (a whole orange and a peeled half) | **5. Milk** (a glass of white milk next to a carton) | **6. Water** (a clear glass of water with ice) |
-| **7. White rice** (a bowl of cooked rice) | **8. Black beans** (a bowl of cooked dark beans) | **9. Avocado** (a green fruit cut in half with the pit) |
+| **7. White rice** (a bowl of cooked rice) | **8. Black beans** (a bowl of cooked dark beans) | **9. Avocado** (a green fruit cut in half with the pit) 8 |
 | **10. Broccoli** (green florets on a plate) | **11. Cheddar cheese** (an orange block with two slices cut) | **12. Watermelon** (a red wedge with seeds) 8 |
 | **13. Pasta** (a bowl of cooked spaghetti, no sauce) | **14. Eggs** (two eggs, one cracked open showing the yolk) | **15. Butter** (a yellow stick on a dish) |
 | **16. Carrots** (three orange carrots with green tops) | **17. Spinach** (a pile of dark green leaves) | **18. Cucumber** (a green cucumber with three slices) 8 |
@@ -132,7 +132,7 @@ Scoring the sort: a team sort is "got it" at 24 of 30 cards in the main pile or 
 |---|---|---|
 | Two year old | Fats and minerals (calcium, iron); also proteins | Fat for brain growth; calcium for bones and teeth that are still forming; iron for blood as the body grows fast; small stomach, so small meals often |
 | 14 year old athlete | Carbohydrates and water; also proteins and minerals (calcium, iron) | Carbs for energy at practice; water to replace sweat; protein to build muscle during a growth spurt; calcium for bones that are still hardening; iron for oxygen, especially for girls |
-| 78 year old | Proteins and minerals (calcium, vitamin D); also water and fiber (carbohydrates) | Protein to keep muscle; calcium and vitamin D to slow bone loss; fewer calories needed but the same or more of these; thirst signal weakens with age, so water on a schedule |
+| 78 year old | Proteins and minerals (calcium) with vitamin D; also water and fiber (carbohydrates) | Protein to keep muscle; calcium and vitamin D to slow bone loss; fewer calories needed but the same or more of these; thirst signal weakens with age, so water on a schedule |
 | Grade 8 stretch, pregnant adult | Minerals (iron, calcium) and vitamins (folate); also proteins | Iron for more blood; calcium for the baby's bones; folate for the baby's brain and spine; protein for growth |
 
 Do not mark down a student who picks water for the toddler or protein for the athlete if the reason uses a real job. The point is the reason, not the pair.

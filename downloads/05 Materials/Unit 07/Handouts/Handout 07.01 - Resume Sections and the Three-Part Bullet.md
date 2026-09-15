@@ -57,7 +57,7 @@ Read these. In each strong version, put a **W** over the work, an **E** over the
 | Designed a room. | Drew a scale floor plan of a 10 by 12 foot bedroom on graph paper, placed six pieces of furniture with 36-inch walkways, and stayed inside a $500 budget. |
 | Took a safety test. | Passed a 30-item kitchen safety and sanitation exam and worked seven labs with no safety stop. |
 
-### Now you fix four
+### Now you fix two of these four
 
 Rewrite two of these four into three-part form. Use something that actually happened to you. It has to be true.
 

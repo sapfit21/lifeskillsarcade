@@ -46,7 +46,7 @@ How lessons use this file: each lesson names its own Tier 3 words, and the hando
 | 32 | 6.7 | baking powder | A leavening that already has both parts it needs inside it, so it works with any liquid. | kabartma tozu | pó de bolo (pó royal) | polvo de hornear |
 | 33 | 6.7 | baking soda | A leavening that needs an acid in the recipe, like buttermilk, yogurt, or vinegar, to make it work. | karbonat | bicarbonato de sódio | bicarbonato de sodio |
 | 34 | 6.7 | variable | The one thing you change on purpose in an experiment. | değişken | variável | variable |
-| 35 | 6.7 | control | Everything you keep the same, so you know the change came from the variable. | kontrol (karşılaştırma grubu) | controle (grupo de comparação) | control (grupo de comparación) |
+| 35 | 6.7 | control | The batch you change nothing in, so you can compare every other batch to it. | kontrol (karşılaştırma grubu) | controle (grupo de comparação) | control (grupo de comparación) |
 | 36 | 6.7 | hypothesis | Your prediction, written down before you test it. | hipotez | hipótese | hipótesis |
 | 37 | 6.13 | yield | How many portions a recipe actually makes. | verim (kaç porsiyon çıkıyor) | rendimento (quantas porções) | rendimiento (cuántas porciones) |
 | 38 | 6.13 | scale (a recipe) | Multiply every ingredient so the recipe feeds more people. | ölçeklendirmek (tarifi büyütmek) | ajustar a receita (multiplicar) | escalar la receta (multiplicar) |

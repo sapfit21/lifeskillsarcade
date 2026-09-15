@@ -6,7 +6,7 @@ Slide outline for Lesson 7.11. Ten slides, one day. **Slide 3, the running order
 
 - Unit 7, Lesson 7.11, Topic 7.2
 - Ten teams. Sixty seconds each. Four judges
-- [the date]
+- Date: ______________
 Image: a plain title card, large type, no clip art. Something that would look right on a program.
 Notes: Room set before the bell: judge table facing the class, posters on the counter in running order, timer with a sound, audience in rows or a horseshoe. Judges arrive five minutes early and get the briefing, the packet, water, and three spoken instructions. Team folders back at the door with criteria 3, 4, and 5 scored.
 

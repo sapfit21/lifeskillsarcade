@@ -100,7 +100,7 @@ One sentence on the exit card: "Our class wastes about ___ pounds a year, and th
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
 | 1. Name the four places and an example of each | FSP 3. a); SUS 1. e) | Four boxes on the data sheet, Step 1 | Formative; data sheet checked for four places with a real example each |
-| 2. Calculate waste per person and scale it to a year | FSP 3. a); Std 3 PI B; CDOS 3a Basic Skills | The three calculations, Step 3 | Formative; work shown with correct units; scored complete, partial, or missing for daily work. Assessed summatively on the Food Systems Quiz, items 5 and 6 (waste math with numbers given) |
+| 2. Calculate waste per person and scale it to a year | FSP 3. a); Std 3 PI B; CDOS 3a Basic Skills | The three calculations, Step 3 | Formative; work shown with correct units; scored complete, partial, or missing for daily work. Assessed summatively on the Food Systems Quiz, items 7 to 9 (waste math with numbers given) |
 | 3. Write three specific changes | FSP 4. a); SUS 2. c); National FCS 8.5.13, 3.4.3 | The three changes and the class vote, Step 4 | Formative; each change names who, what, and when. The winning three go on the wall and get checked in Lesson 6.5 |
 
 ## Homework
@@ -113,9 +113,9 @@ Math: this is a real measurement, averaging, and scaling problem with the class'
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 3. a) and 4. a). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 3. a) and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 06, Sustainability, lines 1. e) and 2. c). Same folder. The Sustainability module's own Agricultural Education illustrative activity is a cafeteria food waste audit, which is where this lesson's shape comes from.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Basic Skills: "Students listen to and read the ideas of others and analyze what they hear and read; acquire and use information from a variety of sources; and apply a combination of mathematical operations to solve problems in oral or written form." Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.13 and 3.4.3.
 - National waste share figures on the slide are from the USDA and EPA public estimates, rounded.

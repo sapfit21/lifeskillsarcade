@@ -68,9 +68,9 @@ Debrief: collect the "went wrong" answers on the board. Most will be about time 
 | Day 1, 1. Direct instruction: what a station card has to have | Show a filled fallback card on the screen (the pasta one). Point at the seven parts: ingredients scaled for seven tasting portions with the package size and cost, eight to ten numbered steps, seven roles with a job per phase, a flowchart in five-minute blocks (prep 0 to 5, cook 5 to 25, plate and eat 25 to 32, clean 32 to 40), the constraints checklist (no knives, pre-cooked meat only, stovetop and oven, teacher drains and handles the oven), safety reminders, and "what does done look like." | Read the fallback card. Answer: "Which step needs the teacher?" | 6 min |
 | Day 1, 2. Learning activity: write the team station card | Teams write their card from the station dish on their plan. Scaling rule: the family plan feeds four full servings; the station makes seven tasting portions, which is about the same amount of food, so most quantities stay the same. The Materials Manager and Shopper total the station ingredients against $20 with a unit on every line. Circulate; check the constraints checklist first, the cost second, the steps third. | Write the card: ingredients and cost, steps, roles, flowchart, safety, done line. | 18 min |
 | Day 1, 3. Approval and shopping list | Sign each card that passes: constraints met, $20 or under, allergen check clear, steps doable in 20 minutes of cooking. A card that fails gets one specific fix and five minutes; if it still fails, the team takes the fallback card closest to its dish and marks on the plan why. Collect the approved cards; they are the shopping list. | Fix and resubmit, or choose a fallback. Assign the seven lab roles for Day 2 and write them on the card. | 7 min |
-| Day 1, closure | See Closure. | 4 min |
+| Day 1, closure | See Closure. | See Closure. | 4 min |
 | Day 2, do now (clock 0 to 2) | Students wash hands, put on aprons, and tie back hair as they enter (the routine from Labs 1 and 2). On the board: "Read your station card. Write the one step you are most likely to get wrong and what you will do about it." | Wash, apron, hair back, read, write one line on the back of the card. | 2 min |
-| Day 2, 4. Lab: prep (clock 2 to 5) | Say "hands empty, eyes here" and give the three reminders: the oven and the colander are mine; no knives exist today; the Safety Checker calls the two-hour rule at cleanup. Start the timers. | Station Manager reads the card aloud. Prep Lead sets out every ingredient and tool (mise en place). Safety Checker checks the fridge temperature and that every hand was washed. Plate Captain sets one place setting per person: plate, fork on the left, spoon on the right, napkin under the fork, cup above the spoon. | 3 min |
+| Day 2, 4. Lab: prep (clock 2 to 5) | Give the reset cue (lights, countdown, hands empty) and the three reminders: the oven and the colander are mine; no knives exist today; the Safety Checker calls the two-hour rule at cleanup. Start the timers. | Station Manager reads the card aloud. Prep Lead sets out every ingredient and tool (mise en place). Safety Checker checks the fridge temperature and that every hand was washed. Plate Captain sets one place setting per person: plate, fork on the left, spoon on the right, napkin under the fork, cup above the spoon. | 3 min |
 | Day 2, 5. Lab: cook (5 to 25) | Circulate between the three stations with the lab rubric on a clipboard. Drain pasta and open the oven when called. Ask the "what does done look like" question at each station once. | Cook Lead runs the stovetop or assembles for the oven. Prep Lead hands ingredients in order. Station Manager watches the flowchart and calls time. Clean Crew washes as they go. Safety Checker takes the temperature of any reheated meat (165 F) and watches for towels on burners and handles turned out. | 20 min |
 | Day 2, 6. Lab: plate and eat (25 to 32) | Say "plate." Check each plate for the family it was planned for: does it look like the menu card will say it does? Sit and eat with one station. | Plate Captain plates seven tasting portions. Everyone sits and eats at the set table. Presenter notes how it looks and tastes for the menu card tomorrow. | 7 min |
 | Day 2, 7. Lab: clean and station check (32 to 40) | Run the station check with the Station Manager at each station: surfaces sanitized, tools washed and put away, burners off and cool, sink empty, floor dry, leftovers in a labeled container in the fridge or in the trash (the Safety Checker says which and why). Sign the card. Teams fill the lab rubric self-assessment on the back of the card. | Clean Crew leads; everyone cleans. Safety Checker handles leftovers by the two-hour rule and labels the container with the date. Team fills the self-assessment and writes one change for next time. | 8 min |
@@ -96,7 +96,7 @@ Day 1: clipboard yes or no per team on "constraints checklist all checked," "sta
 ## Closure (Time: 4 min Day 1; folded into Step 7 Day 2)
 
 Day 1: exit card, 3 parts of your station card, 2 things the teacher checked before signing, 1 step you are nervous about. Two students read the nervous step aloud; those become the Day 2 reminders.
-Day 2: the self-assessment on the back of the station card (three objectives, 1 to 4 each) and one sentence: "If we cooked this again, we would ___." The Station Manager reads the sentence aloud as the team leaves.
+Day 2: the self-assessment on the back of the station card (three objectives plus the safety and sanitation row, 1 to 4 each) and one sentence: "If we cooked this again, we would ___." The Station Manager reads the sentence aloud as the team leaves.
 
 ## Differentiation and supports
 
@@ -112,7 +112,7 @@ Day 2: the self-assessment on the back of the station card (three objectives, 1 
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
 | 1. Write an approvable station card | N&W 1. d); HSW 4. c); CIR 3. f) | Station card, Day 1 Steps 2 and 3 | Formative; teacher sign off on the card (constraints, cost, steps); feeds Rubric 01 criterion 1 |
-| 2. Prepare, plate, serve, and clean in role | N&W 1. b), d), g), h); HSW 4. c), e); Std 1 PI A and B; National FCS 14.3.3; CDOS 3a Interpersonal Skills | Lab, Day 2 Steps 4 to 7 | Summative; lab rubric (three objectives, 1 to 4 each, 12 points, per the grading plan) and Rubric 01 criterion 3 (the cooked dish, safety, and teamwork) |
+| 2. Prepare, plate, serve, and clean in role | N&W 1. b), d), g), h); HSW 4. c), e); Std 1 PI A and B; National FCS 14.3.3; CDOS 3a Interpersonal Skills | Lab, Day 2 Steps 4 to 7 | Summative; lab rubric (three objectives plus a safety and sanitation row, 1 to 4 each, 16 points, per the grading plan) and Rubric 01 criterion 3 (the cooked dish, safety, and teamwork) |
 | 3. Self-assess and propose one change | CIR 3. f); CDOS 3a Interpersonal Skills | Self-assessment, Day 2 Step 7 | Formative; self-assessment compared to the teacher's lab rubric; the change sentence goes on the menu card if the team wants it |
 
 ## Homework
@@ -125,11 +125,11 @@ Math: cost per portion and scaling are ratio work. Science: heat, boiling, and t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 1. h). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 1. h). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standard 3a, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.3, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - USDA safe minimum internal temperature for reheated leftovers and poultry (165 F), FoodSafety.gov.
 - My own materials: the supermarket station cards, master flowchart, and menu options: the seven-student station, the constraints line, the "what does done look like" checklist, the teacher-drains-pasta rule, and the rotisserie chicken shredded with two forks. The role card structure (core roles plus expansion roles) and the PREP, COOK, PLATE and EAT, CLEAN timeline from my three FACS Cooking Lesson Packages. The Budget Meal Lab idea from my draft unit calendar.
 

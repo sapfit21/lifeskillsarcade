@@ -110,9 +110,9 @@ Inside the building: the guidance counselor, who uses the same 16 clusters on th
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 5. a). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 5. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 2. c) and 2. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.1.
 - The 16 national career clusters by their public names, as used in the National Career Clusters Framework (Advance CTE, careertech.org) that the NYS module refers to.
 - My own materials: my packet "Career Clusters Unlocked: Explore 16 Career Super-Groups" (Unit 2 Career Exploration, April 2026). The 16-cluster table with example jobs and the Yes, Maybe, No column are its Activity 1, rebuilt as a wall walk. The scramble puzzle is dropped.

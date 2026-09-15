@@ -120,10 +120,10 @@ English language arts: intent versus impact is the same lesson the ELA teacher r
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in.
-- NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 1. b) and 1. c). Text per.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 1. b) and 1. c). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 16.3.1, per, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 16.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - My own materials: my Spirit Week segment on what is and is not okay to say about what somebody is wearing, built after 80s Day with a colleague; and my dress-as-communication and identity writing from a graduate course on the meanings of dress. The course content itself stays in that course; only the idea is used here, in my own words. The "Dress the Part" packet's style-profile activity is the optional stretch in Part 3.
 - The first-impression timing claim (people form an impression in roughly one to two seconds) is widely reported in social psychology.
 

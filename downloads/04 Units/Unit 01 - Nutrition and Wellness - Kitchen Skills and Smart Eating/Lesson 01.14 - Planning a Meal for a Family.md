@@ -98,7 +98,7 @@ Exit card: 3 of the six jobs a family meal has to do, 2 things your team's dinne
 | 2. Plan one dinner that fits the card | N&W 1. e); N&W 3. c); Std 1 PI A; National FCS 14.3.1; CDOS 3a Managing Resources | Team plan, Step 3 | Formative; clipboard check (four groups, no rule broken, fits the time); grid collected as daily work |
 | 3. Compare two dinners and justify the better fit | N&W 3. c); FCL 4. c); Std 3 KI | Pair comparison, Step 4 | Formative; comparison sentence scored complete, partial, or missing |
 
-Objectives 2 and 3 are assessed summatively through the project plan (Rubric 01, criterion 1 and 2) and on the Unit 1 test (planning items).
+Objectives 2 and 3 are assessed summatively through the project plan (Rubric 01, criteria 1 and 2) and on the Unit 1 test (planning items).
 
 ## Homework
 
@@ -110,11 +110,11 @@ Health: the health teacher's MyPlate and food allergy lessons feed this one; FAC
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e) and 3. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e) and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standards 1 and 3, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standard 3a, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.1, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standards 1 and 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - My own materials: the "plan a nutritious meal for a family" day in my draft unit calendar and the family-of-four framing from my Feed a Family run of show.
 
 ## Teacher notes

@@ -78,7 +78,7 @@ Notes: The nervous steps become tomorrow's reminders.
 - The oven and the colander are mine. Call me.
 - No knives exist today.
 - The Safety Checker calls the two-hour rule at cleanup.
-Notes: "Hands empty, eyes here" before this slide.
+Notes: The reset cue (lights, countdown, hands empty) before this slide.
 
 ## Slide 13: The place setting
 - Plate in the middle.

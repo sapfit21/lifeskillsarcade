@@ -3,7 +3,7 @@
 **Unit:** Unit 5, Make It, Mend It, Wear It (Apparel and Textile Production and Design)
 **Given in:** Lesson 5.19 Day 2 (day 143), the last 20 minutes, after the 15-minute review game
 **Points:** 50, plus 2 bonus. Topic assessments category. One retake after a review, best score counts.
-**Covers:** Topic 5.1 What We Wear and Why (items 1 to 4), Topic 5.2 Hand Sewing Skills (items 5 to 10), Topic 5.3 Smart Apparel Consumers (items 11 to 15), Topic 5.4 Upcycle Challenge and sustainability (items 16 and 17), Topic 5.5 Careers (item 18), then one scenario (item 19) and one short written response (item 20)
+**Covers:** Topic 5.1 What We Wear and Why (items 1 to 4), Topic 5.2 Hand and Machine Sewing Skills (items 5 to 10), Topic 5.3 Smart Apparel Consumers (items 11 to 15), Topic 5.4 Upcycle Challenge and sustainability (items 16 and 17), Topic 5.5 Careers (item 18), then one scenario (item 19) and one short written response (item 20)
 **Items:** 20 in 20 minutes
 
 * * *
@@ -188,7 +188,7 @@ Exit line (on the back, not scored): The item I was surest about was number ___.
 
 Points per item are printed in the item. Accept any answer that is correct and specific even if it is not the one listed. A calculator is allowed on items 11 and 19b only.
 
-**Before you print this test:** items 2, 3, 4, 5, 6, 7, 9, and 10 check Topics 5.1 and 5.2, which are taught in Lessons 5.1 to 5.11 by the other half of this unit. Read those lessons and the Fibers and Care Quiz before printing, and adjust the wording of any item whose vocabulary differs (especially the four care symbols in item 3 and the tool list in item 5). Nothing in the key is wrong, but the words should match what the class heard.
+**Before you print this test:** items 2, 3, 4, 5, 6, 7, 9, and 10 check Topics 5.1 and 5.2, which are taught in Lessons 5.1 to 5.11. Read those lessons and the Fibers and Care Quiz before printing, and adjust the wording of any item whose vocabulary differs (especially the four care symbols in item 3 and the tool list in item 5). Nothing in the key is wrong, but the words should match what the class heard.
 
 | Item | Answer | Points | Standard line checked |
 |---|---|---|---|
@@ -200,7 +200,7 @@ Points per item are printed in the item. Accept any answer that is correct and s
 | 6 | Count-out: at the start of the period the Station Manager counts the needles and pins out of the tin, out loud, and writes the number on the station card (1 point). Count-in: at the end every needle and pin goes back in the tin, is counted out loud, and the number must match before anybody is dismissed (1 point). Accept any answer that has the count, the number written or matched, and the dismissal rule. | 2 | ATPD 2. b); HSW 4. c), 4. e) |
 | 7 | B, C, A, D in that order. Three quarters of a point each. | 3 | ATPD 2. c); National FCS 16.4.5 |
 | 8 | Backstitch (1 point). Reason: each stitch doubles back over the one before it, so it is the strongest of the taught stitches and it will not pull open when the case is full (1 point). Accept any reason that names strength or a seam that carries load. | 2 | ATPD 2. c); National FCS 16.4.5 |
-| 9 | Any two, 1 point each: enough passes through the holes (four to six) so no single thread carries the load; a shank, meaning a little slack or a spacer so the button sits above the fabric and the buttonhole has room; a knot on the wrong side that holds, with a trimmed tail; stitching through the same spot on the fabric each time rather than spreading out; wrapping the thread under the button to form the shank and knotting off there. | 3 | ATPD 2. c); National FCS 16.4.5 |
+| 9 | Any two, 1 point each: enough passes through the holes (four to six) so no single thread carries the load; a shank, meaning a little slack or a spacer so the button sits above the fabric and the buttonhole has room; a knot on the wrong side that holds, with a trimmed tail; stitching through the same spot on the fabric each time rather than spreading out; wrapping the thread under the button to form the shank and knotting off there. | 2 | ATPD 2. c); National FCS 16.4.5 |
 | 10 | S, P, H in that order (half point each, 1.5 total). The sentence: 1.5 points for naming a repair and a reason that would satisfy somebody depending on the garment. A strong answer names the patch, because a worn hole needs more time and the area around it is already weak, so a rush job will fail; accept naming the seam repair if the reason is about needing to test it before wearing it. Accept any defended answer. | 3 | ATPD 2. c), 2. d); PSI 3. a) a., d. |
 | 11 | a) 72 divided by 180 = $0.40 per wear; b) 20 divided by 4 = $5.00 per wear; c) the $20 shirt, because its cost per wear is more than twelve times higher, even though its price was lower. 1 point each, work shown on a and b. | 3 | ATPD 4. a); FCL 4. f); Std 3 PI C; CDOS 3a Basic Skills; National FCS 16.5.2 |
 | 12 | Advantage (1 point): lowest price for the quality, often heavier fabric and better construction than a new discount item, keeps a garment out of the waste stream, you can inspect it in your hands. Risk (1 point): one size only, sold as-is with no returns, may have a flaw, may be worn out where you cannot see it, no guarantee it is there tomorrow. | 2 | ATPD 4. b); FCL 4. g); National FCS 2.1.4 |

@@ -31,6 +31,8 @@ Four pages: (1) the plan guide, (2) the furniture cut-out sheet, (3) the traffic
 
 ### Blank grid (if graph paper runs out)
 
+Rule a grid of quarter-inch squares on plain paper with a ruler and use the same scale.
+
 Word bank: scale (ölçek / escala / escala), path (yol / caminho / camino), clear (açık / livre / libre), swing (kapı açılışı / abertura da porta / apertura de la puerta), turn (dönüş / giro / giro).
 
 * * *

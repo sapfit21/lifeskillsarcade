@@ -43,7 +43,7 @@ Tier 3 (FACS): interview, candidate, employer, STAR, situation, task, action, re
 - Lesson 7.2 resume drafts, returned at the door with the teacher's marks
 - Slides: `Slides 07.04 - How to Talk About Yourself in an Interview`
 - Two pretend job descriptions printed large and posted on the wall on opposite sides of the room: a pizza shop counter and prep job, and an animal shelter weekend volunteer job. Add a third if the room needs it: a summer camp helper. Students choose which one they are applying to by which wall they face.
-- Slides: `Slides 07.03` self-score sheets from yesterday, in the folders
+- Lesson 7.3 self-score sheets from yesterday, in the folders
 - Setup notes: write the anchor chart heading before class but leave it blank. It gets filled in Step 1 and it has to be in the students' words, not yours. Allergy check: none.
 
 ## Pre-assessment
@@ -99,7 +99,7 @@ Sort the cards into "got it" and "needs more." The "needs more" pile decides who
 
 ## Differentiation and supports
 
-- ELL: the three parts and the four STAR letters are on the handout with Turkish, Portuguese, and Spanish sentence starters from `Vocabulary 07.mdVocabulary 07.md`. A student may write the answer in the home language first, then translate with a partner. The spoken version may be delivered in English at a slower pace with the written card in hand.
+- ELL: the three parts and the four STAR letters are on the handout with Turkish, Portuguese, and Spanish sentence starters from `Vocabulary 07.md` ("My name is ___ and I am in grade ___." / "I am good at ___. I showed that when ___." / "I would be good at this job because ___." and for STAR, "The situation was ___. My job was ___. What I did was ___. What happened was ___."). Sal's original vocabulary cards for this lesson were translated into Turkish, Portuguese, and Spanish and those words are in `Vocabulary 07.md`. A student may write the answer in the home language first, then translate with a partner. The spoken version may be delivered in English at a slower pace with the written card in hand.
 - IEP and 504 (general): printed copies of the three-part frame and the STAR frame to keep at the desk permanently, not just today; extended time on Step 2 with the option to finish during Step 3; seating up front for students who need the anchor chart in view and away from the door for students who need fewer distractions; standing or a fidget tool allowed during Steps 1 and 4; the option to submit the answer typed, handwritten, or spoken to the teacher; a partial STAR planner with the Situation box pre-filled from a lab the teacher knows that student did well.
 - Grade 6 support: the three-part answer only. The STAR story is optional for grade 6 and may be reduced to two boxes, Situation and Action, with the Result given as "what happened at the end." Grade 6 students choose the pizza shop job, which is the most concrete of the three.
 - Grade 8 stretch: two STAR stories instead of one, and they have to come from two different units so the range shows. Grade 8 students also rewrite their three-part answer a second time for a different job and name the two sentences they had to change, which is the beginning of tailoring an answer to an audience.
@@ -128,9 +128,9 @@ Inside the building: the ELA teacher. NYS Next Generation ELA speaking and liste
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. a), 3. c), and 3. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. a); Theme Module 02, Communication and Interpersonal Relationships, line 3. a).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Basic Skills. Wording per.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.2 and 1.2.2.
-- My own materials: my lesson "How to Talk About Yourself in a Job Interview: Answering 'Tell Me About Yourself' with Confidence," taught to grade 8. The CEO hook, the anchor chart, the unstructured versus structured modeling, the three-part frame, the pizza shop and animal shelter scenarios, the STAR introduction, the 3-2-1 exit card, and the closing lines are his. Re-leveled here for grades 6 to 8 and rewritten for a real room; the original was demonstrated over video, which is why the original says students respond in the chat.
+- My own materials: my lesson "How to Talk About Yourself in a Job Interview: Answering 'Tell Me About Yourself' with Confidence," taught to grade 8. The CEO hook, the anchor chart, the unstructured versus structured modeling, the three-part frame, the pizza shop and animal shelter scenarios, the STAR introduction, the 3-2-1 exit card, and the closing lines are mine. Re-leveled here for grades 6 to 8 and rewritten for a real room; the original was demonstrated over video, which is why the original says students respond in the chat.
 - The Career and Community Opportunities illustrative activity in the state's Individual Growth and Life Readiness module names "preparing for a job interview" as an intended use of the personal-traits work, which is this lesson.
 
 ## Teacher notes

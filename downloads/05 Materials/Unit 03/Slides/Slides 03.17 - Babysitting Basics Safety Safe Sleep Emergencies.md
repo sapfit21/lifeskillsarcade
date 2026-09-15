@@ -79,11 +79,11 @@ Notes: The first three things a dispatcher asks: where you are, what happened, a
 ## Slide 9: The safety walk
 
 - You are babysitting a 2 year old named Eli, at his home, for the first time
-- Five rooms plus the yard, described on your handout
+- Four rooms plus the yard, described on your handout
 - Circle every hazard for a toddler. Write the fix in the table
 - A fix is something a babysitter can do right now: move it, close it, gate it, dump it, stay with him
 - There are at least twelve. 9 minutes
-Notes: Read the home aloud once before they start. Grade 6 and IEP/504 pairs do three rooms. Grade 8 does all five plus the yard. Clipboard: the bucket, the stairs, one choking hazard, one poison hazard, and every fix doable by a babysitter. "Tell the parents to renovate" is not a fix.
+Notes: Read the home aloud once before they start. Grade 6 and IEP/504 pairs do three rooms. Grade 8 does all four plus the yard. Clipboard: the bucket, the stairs, one choking hazard, one poison hazard, and every fix doable by a babysitter. "Tell the parents to renovate" is not a fix.
 
 ## Slide 10: Check your walk
 

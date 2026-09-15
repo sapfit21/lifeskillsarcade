@@ -26,6 +26,7 @@ Notes: One hazard from each team on the board. Then the story on the next slide.
 - The next class walked into a room that smelled and a counter they could not use
 - Nobody got hurt. Nobody could cook either.
 - Today we write the rules so that never happens to the class after us
+
 ## Slide 4: The sanitation routine
 
 - Start: hair back, sleeves up, wash hands, sanitize surfaces
@@ -73,7 +74,7 @@ Notes: Group duplicates on the board as you read. Vote by hand. Write the final 
 
 ## Slide 9: Our contract
 
-- [The final eight to ten rules, typed in after the vote]
+- The final eight to ten rules go here, typed in after the vote
 Notes: Read the contract aloud once. Students copy the final rules onto their own templates.
 
 ## Slide 10: Sign
@@ -108,7 +109,7 @@ Notes: Leave up while students enter. Whiteboards and markers on every team tabl
 - Put the six steps of the sanitation routine in order
 - Start: ___, ___, ___, ___. During: ___. End: ___.
 - Word bank (scrambled): clean as you go, wash hands, station check, sleeves up, sanitize surfaces, hair back
-Notes: Read the correct order from the poster as a class. Any order within Start is fine.
+Notes: Read the correct order from the poster as a class.
 
 ## Slide 14: Quiz show rules
 

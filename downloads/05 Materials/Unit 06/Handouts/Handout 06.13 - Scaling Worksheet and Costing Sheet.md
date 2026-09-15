@@ -363,16 +363,16 @@ One thing we would fix: ________________________________________
 | Option | Portions the plan makes | Clears 30? |
 |---|---|---|
 | A | 4 lb dry pasta at 2 oz dry per portion = **32 portions** | Yes, 2 spare |
-| B | 40 tortillas bought, but sauce covers 28 and cheese covers about 42, so the limit is the **pepperoni at 150 slices ÷ 5 = 30 portions** | Yes, exactly 30, zero spare. Flag this: no margin |
+| B | 40 tortillas bought, cheese covers about 32, and pepperoni covers 150 slices ÷ 5 = 30, but the sauce covers only 28 at 2 tablespoons each, so the limit is the **sauce at 28 portions** | No. Add 1 jar of pizza sauce ($1.69), which moves the limit to the pepperoni at **30 portions**, zero spare |
 | C | 40 tortillas bought; beans cover 28 at 3/16 cup each; cheese covers 28; salsa covers 28. Limit is the beans at **28 portions** | No. Add 1 can of beans for **37 portions** |
 | D | 3 loaves × 12 pieces = **36 pieces** | Yes, 6 spare |
-| E | 2 packs × 36 = 72 cookies ÷ 2 each = 36; topping covers 28; cups cover 50. Limit is the **topping at 28 portions** | No. Add 1 can for **42 portions** |
+| E | 2 packs × 36 = 72 cookies ÷ 2 each = 36; topping 3 cans × 2 cups = 6 cups ÷ 3/16 cup each = 32; cups cover 50. Limit is the **topping at 32 portions** | Yes, 2 spare |
 
-This is the most important table in the key. **Options C and E fail the yield check as the option cards are written, and Option B passes with zero margin.** That is on purpose. A station that adds the extra can of beans ($1.99, new total $21.41, over budget) now has a real problem to solve in Day 2 Step 3, and the answer is the salsa line or the tortilla line. Do not tell them; let the yield check find it.
+This is the most important table in the key. **Options B and C fail the yield check as the option cards are written, and Option E clears it with only 2 spare.** That is on purpose. A station that adds the extra can of beans ($1.99, new total $21.41, over budget) now has a real problem to solve in Day 2 Step 3, and the answer is the salsa line or the tortilla line. Do not tell them; let the yield check find it.
 
 ## Page 4: the costing sheet
 
-The station totals, if a team buys exactly what the option card says: A $18.31; B $21.32 with pepperoni, $16.33 without; C $19.42 (but fails the yield check; the fix costs money); D $18.93; E $18.94 (fails the yield check; the fix costs $2.99).
+The station totals, if a team buys exactly what the option card says: A $18.31; B $21.32 with pepperoni, $16.33 without (and fails the yield check on the sauce; the fix costs $1.69); C $19.42 (but fails the yield check; the fix costs money); D $18.93; E $18.94.
 
 Unit prices to the tenth of a cent for the most-used items, from the page 5 excerpt: spaghetti store brand $0.081/oz; marinara 24 oz store brand $0.116/oz; marinara 45 oz store brand $0.111/oz; marinara 24 oz name brand $0.166/oz; shredded mozzarella 8 oz store brand $0.249/oz; shredded mozzarella 12 oz name brand $0.291/oz; butter store brand $0.249/oz; butter name brand $0.374/oz; cookies 14.3 oz store brand $0.209/oz; cookies 19.1 oz name brand $0.345/oz; whipped topping store brand $2.99/can vs name brand $4.49/can.
 
@@ -391,4 +391,4 @@ My own supermarket order saved **$30.38 on a $150 order** with four swaps of exa
 
 ## Page 6: the peer check
 
-Sign the sheet only when all five boxes are initialed **and** you have redone the running total yourself on at least the last three lines. The signature is what lets a team move on to Lesson 6.14.
+Sign the sheet only when all five boxes are initialed **and** you have redone the running total yourself on at least the last three lines. The signature is what lets a team move on to the shopping list in Lesson 6.15.

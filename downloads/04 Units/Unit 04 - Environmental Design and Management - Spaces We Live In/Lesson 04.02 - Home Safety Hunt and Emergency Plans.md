@@ -116,10 +116,10 @@ Inside the building: the school nurse or the fire safety officer visits for five
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in. The fused wording of 1. b) is the state's; see, Part D.4.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`. The fused wording of 1. b) is the state's; see `02 Standards/STANDARDS CROSSWALK.md`, Part D.4.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 3. c), 3. e), and 4. g). Same folder.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.7 and 11.3.5, per.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.7 and 11.3.5, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - Detector placement and testing guidance follows the U.S. Fire Administration and NFPA public guidance (smoke alarms on every level and in every sleeping area, test monthly, replace at ten years; CO alarms near sleeping areas). Poison Control: 1-800-222-1222.
 - My own materials: Lesson 1.1 Hunt the Hazard is the pattern; this is the same hunt moved from the kitchen to the whole house.
 

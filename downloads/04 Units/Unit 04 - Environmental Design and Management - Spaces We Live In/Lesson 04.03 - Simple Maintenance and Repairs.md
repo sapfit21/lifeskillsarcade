@@ -79,8 +79,8 @@ Debrief: hand vote per job. Hook: hold up a plumber's invoice you made up for th
 |---|---|---|---|
 | 1. Station rules and rotation | Restate the five safety rules. Rotation: 4 minutes per station, rotate on the reset cue (lights, countdown, hands empty). Every student performs the task at least once at each station; the team coaches. Hand out safety glasses at Station 1. | Move to the first station with the handout open to the station cards. | 3 min |
 | 2. Practice: the five repair stations | Start the timer. Rotate every 4 minutes. Circulate with the clipboard check (see below). Station 1: drive a screw into a pilot hole until the head is flush, then remove it; choose the right driver for the head. Station 2: seat the plunger over the drain under water, push and pull straight up and down six times, feel the seal. Station 3: measure the five lines to the nearest eighth of an inch and the book and box in inches; write them. Station 4: level the pivoting bracket and mark the second hole; hang the frame and check with the level. Station 5: find the tripped breaker in the photo and say the reset in order (off, then on); check the lamp's bulb is out, read the max watts label, say the four steps, and screw in the new LED. | Perform each task, check it with the test on the card, initial the card. Coach teammates. | 20 min |
-| 3. Practice: the maintenance calendar | Teams stay at the last station. Show the task bank on the slide: monthly (test smoke and CO detectors, check the furnace filter, clean the range hood filter, clean the dryer lint trap after every load), seasonal (fall: gutters, furnace check, reverse ceiling fans, bring in hoses; winter: check for ice dams, salt the steps; spring: check the roof, test the AC, clean the gutters again; summer: check the deck, seal the driveway), yearly (new detector batteries, drain the water heater, check the fire extinguisher). Task: place every task in a month on the grid, Part 4, and write why three of them go where they go. | Fill the twelve-month grid; write three justifications. | 8 min |
-| 4. Share | Take the two placements teams disagree on most (usually the gutters and the detector batteries). Settle them on the board. | Report; correct their grid in another color. | 5 min |
+| 3. Practice: the maintenance calendar | Teams stay at the last station. Show the task bank on the slide: monthly (test smoke and CO detectors, check the furnace filter, clean the range hood filter, clean the dryer lint trap after every load), seasonal (fall: gutters, furnace check, reverse ceiling fans, bring in hoses; winter: check for ice dams, salt the steps; spring: check the roof, test the AC, clean the gutters again; summer: check the deck, seal the driveway), yearly (new detector batteries, drain the water heater, check the fire extinguisher). Task: place every task in a month on the grid, Part 4, and write why three of them go where they go. | Fill the twelve-month grid; write three justifications. | 6 min |
+| 4. Share | Take the two placements teams disagree on most (usually the gutters and the detector batteries). Settle them on the board. | Report; correct their grid in another color. | 2 min |
 
 ## Questions to ask
 
@@ -90,7 +90,7 @@ Monitor understanding:
 - Which plunger is for the toilet? How can you tell?
 
 Deepen learning:
-- The plumber's bill was $185 for a $8 part. Is that unfair, or is that what knowledge costs? When would you still call the plumber?
+- The plumber's bill was $185 for an $8 part. Is that unfair, or is that what knowledge costs? When would you still call the plumber?
 - The troubleshooting process says "validate" before you stop. What happens in a home when someone skips that step?
 - Which of the seven jobs is one you would still not do alone at fourteen? Why that one?
 
@@ -133,10 +133,10 @@ Inside the building: the custodian is the expert. A five-minute visit on Day 1 t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in.
-- NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 4. c) and 4. d); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines a. to f. Text per.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 4. c) and 4. d); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines a. to f. Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 11.3.5 and content standard 5.2, per.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 11.3.5 and content standard 5.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - Repair steps are standard homeowner guidance (U.S. Consumer Product Safety Commission and manufacturer instructions for breakers and detectors).
 
 ## Teacher notes

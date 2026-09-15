@@ -18,7 +18,7 @@
 - National FCS 3.0: 14.1.4 Examine how events and conditions, local to global, change what people eat.
 - National FCS 3.0: 2.5.1 Examine how resources get used when individuals, families, and communities choose among needs and wants.
 
-(The region being studied in FSP 2. a) and b) is our own: Long Island and New York State. Lesson 6.10 studies three other regions. National FCS 14.1.4 is quoted exactly as the source prints it, with no closing period.)
+(The region being studied in FSP 2. a) and b) is our own: Long Island and New York State. Lesson 6.10 studies three other regions.)
 
 ## Enduring understanding and essential question
 
@@ -63,7 +63,7 @@ Debrief: take five answers. Put a check next to the ones that are right for New 
 | 1. Direct instruction: what grows here and when | Show the New York seasonal chart on the slide, month by month, and name the growing season (roughly May to October outdoors, plus storage crops and greenhouse crops). Point out the three surprises: apples store until spring, potatoes and onions and cabbage store for months, and greenhouse greens and mushrooms run all year. Explain what has to travel and why (citrus, bananas, coffee, rice, most winter produce). | Fill in the chart on the handout: circle eight foods and write the season for each. Mark the three storage crops with an S. | 8 min |
 | 2. Guided discussion: food miles, markets, and the trade-offs | Put food miles in plain terms: the number of miles a food traveled to reach you, which stands in for the fuel, the trucks, and the days. Say the honest part: local is not automatically better, because a greenhouse tomato heated all winter can use more fuel than a truck from Florida. Introduce farmers markets, CSAs, and school gardens in one minute each. Then post the four trade-offs on the board: cost, taste, availability, jobs. | Take the four trade-offs into the handout's T-chart, writing one plus and one minus for local in each row. | 8 min |
 | 3. Learning activity: build a January meal and a July meal | Give the task: in pairs, build two meals using the chart, one for January and one for July, each with a protein, a grain, a vegetable, and a fruit. Rule: label every item local, state, national, or global. Second rule: the January meal has to be real food a family here could actually buy in January. Circulate with the clipboard checklist. | Build both meals on the plate page. Label all eight items. Count how many items in each meal are local. Write the one item that was hardest to place in January. | 11 min |
-| 4. Share and decide | Take three January meals out loud and ask the class to check the labels. Then the decision question: "Pick one food. Would you pay a dollar more for the local one? Use the four trade-offs." Take four answers, two yes and two no, and hold both as reasonable. | Two pairs read their January meal. Everyone writes the one-food decision and the four reasons on the handout. | 6 min |
+| 4. Share and decide | Take three January meals out loud and ask the class to check the labels. Then the decision question: "Pick one food. Would you pay a dollar more for the local one? Use the four trade-offs." Take four answers, two yes and two no, and hold both as reasonable. | Three pairs read their January meal. Everyone writes the one-food decision and the four reasons on the handout. | 6 min |
 
 ## Questions to ask
 
@@ -101,7 +101,7 @@ Clipboard checklist during Step 3: for each pair, yes or no on "eight items plac
 |---|---|---|---|
 | 1. Identify eight New York foods and their seasons | FSP 2. a); Std 1 PI A | Seasonal chart, Step 1 | Formative; handout checked for eight foods with correct seasons and three storage crops marked |
 | 2. Build a January and a July meal with source labels | FSP 2. b); FCL 4. g); National FCS 14.1.4 | Meal build, Step 3 | Formative; clipboard checklist; handout scored complete, partial, or missing for daily work |
-| 3. Weigh the four trade-offs and decide | FSP 4. b); SUS 2. h); National FCS 2.5.1; CDOS 3a Thinking Skills | T-chart and the pay-more decision, Steps 2 and 4 | Formative; the decision needs a reason in all four rows. Assessed summatively on the Food Systems Quiz, items 3, 4, and 12 |
+| 3. Weigh the four trade-offs and decide | FSP 4. b); SUS 2. h); National FCS 2.5.1; CDOS 3a Thinking Skills | T-chart and the pay-more decision, Steps 2 and 4 | Formative; the decision needs a reason in all four rows. Assessed summatively on the Food Systems Quiz, items 3 to 6 |
 
 ## Homework
 
@@ -113,9 +113,9 @@ Science: growing season, climate, and greenhouse energy use line up with the ear
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 2. a), 2. b), and 4. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 2. a), 2. b), and 4. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 06, Sustainability, line 2. h); Theme Module 03, Financial and Consumer Literacy, line 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Thinking Skills. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.1.4 and 2.5.1.
 - The seasonal chart on the handout is built from the general New York growing calendar.

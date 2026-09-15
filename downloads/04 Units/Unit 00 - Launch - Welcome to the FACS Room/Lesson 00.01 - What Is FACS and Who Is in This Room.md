@@ -55,7 +55,7 @@ Debrief: "Every day in this room starts like this. The board tells you what to d
 
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
-| 1. Direct instruction: the six modules as a year map | Hold up each object and name the module in plain words: Kitchen Skills and Smart Eating (the spoon); Me, My Goals, My Money (the coin); Growing Up, Getting Along (the sock); Spaces We Live In (the paint chip); Make It, Mend It, Wear It (the needle); From Farm to Table (the can). Give one thing students do in each: cook a real lab, run a stock market simulation, plan a babysitting kit, design a room, sew something they keep, trace a food from the farm to the plate. Say the year in one sentence: "Six units, one a marking period and a half, and the first cooking lab is on day 16." | Fill the year map on the handout: the six modules in order, one thing they expect to do in each, in their own words. | 8 min |
+| 1. Direct instruction: the six modules as a year map | Hold up each object and name the module in plain words: Kitchen Skills and Smart Eating (the spoon); Me, My Goals, My Money (the coin); Growing Up, Getting Along (the sock); Spaces We Live In (the paint chip); Make It, Mend It, Wear It (the needle); From Farm to Table (the can). Give one thing students do in each: cook a real lab, run a stock market simulation, plan a babysitting kit, design a room, sew something they keep, trace a food from the farm to the plate. Say the year in one sentence: "Six units, about one and a half a marking period, and the first cooking lab is on day 16." | Fill the year map on the handout: the six modules in order, one thing they expect to do in each, in their own words. | 8 min |
 | 2. Learning activity: what I already do | Point back to the board. "Every skill on this board is already in one of the six. Find yours." Show the home column on the handout: what I already do at home for this module. Model with one of the do now cards. | Write what they already do at home for each module (one or two words; "nothing yet" is allowed). Mark two modules where they already have a skill. | 6 min |
 | 3. Who is at this table | Give the table task: go around, say your name, your skill from the card, and one thing you can offer this table this year (I am calm, I am fast at math, I can translate, I am not afraid to talk first). Table recorder writes the four offers on the table card. | Introduce themselves in the frame. Recorder writes. | 6 min |
 | 4. Direct instruction: how I run this room | Three things, no more: "Kids do not learn from people they do not trust. So here is what you can trust: I will tell you the day before if anything hot or sharp is coming. The board will tell you what to do before you sit, every day. And when the lights blink and I count down, hands go empty and eyes come here; you will practice that tomorrow." Say that Monday starts with a quote on the board and one sentence about it. Say that nothing in the first five days is graded. | Listen. Write the three things on the handout under "what I can count on." | 5 min |
@@ -108,11 +108,11 @@ Inside the building: the ENL teacher, for the seat chart (who can pair with whom
 
 ## Sources
 
-- NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 1. c), and Theme Module 02, Communication and Interpersonal Relationships, line 6. f) (nyctecenter.org, June 2018). Copies in.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
-- NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
+- NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 1. c), and Theme Module 02, Communication and Interpersonal Relationships, line 6. f) (nyctecenter.org, June 2018). Copies in `02 Standards/NYS Module PDFs/`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS CDOS Standard 3a, Intermediate, Personal Qualities. Wording per the standards crosswalk, Part A.7.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 13.5.1.
-- My own materials: the do now routine, the reset cue, and the Weekly Quote Monday routine as described in my portfolio (section 2). The line "Kids do not learn from people they do not trust" is his.
+- My own materials: the do now routine, the reset cue, and the Weekly Quote Monday routine as described in my portfolio (section 2). The line "Kids do not learn from people they do not trust" is mine.
 
 ## Teacher notes
 

@@ -42,5 +42,5 @@ Notes for the student (what to keep, what to change next time; a reduced-scope s
 - A student who switched to the reduced-scope version is scored on the same five criteria for what they actually made. The switch is noted on the notes line. Scope is not a criterion; execution is.
 - Reduced-dexterity tools (self-threading needles, clips instead of pins, glue or hem tape on one of the two joins, felt instead of woven fabric, a pre-marked material) do not lower any score and are not written on the rubric.
 - The self-assessment row is filled by the student before the teacher scores, at the end of Lesson 5.18 Day 2. Honest self-assessment within one level of the teacher's score is one of the Exceeds conditions on criterion 5, which is on purpose.
-- A late project is accepted with a one-level drop on one criterion, never a zero, per.
+- A late project is accepted with a one-level drop on one criterion, never a zero, per `03 Course Design/03 Grading Plan.md`.
 - The rubric goes home with the item on day 143, after the Unit 5 Test. The self-assessment stays in the FACS folder in the room.

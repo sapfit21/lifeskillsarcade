@@ -97,7 +97,7 @@ The Unit 3 Test is the closure. The walk sheet is collected with the test. Tomor
 |---|---|---|---|
 | 1. Identify what each career does and the training | HDR 7. a); CCO 2. d); National FCS 7.1.1 | Step 2 | Formative; walk sheet checked for eight cards read (three ratings each) |
 | 2. Rate, select, and connect to a unit skill | HDR 7. b); CIR 7. c); CDOS 1; National FCS 1.2.1 | Step 2, pathway line | Formative; walk sheet pathway and skill lines, scored complete, partial, or missing |
-| 3. Apply the unit's content on the Unit 3 Test | HDR 1. a), b), c); 2. a), b); 3. a), e); 4. a), b), c); 5. a), b), c), f); 7. a), b) | Step 4 | Summative; `Assessment 03.2 - Unit 3 Test.md`, 50 points, topic assessments category |
+| 3. Apply the unit's content on the Unit 3 Test | HDR 1. a), b), c); 2. a), b); 3. a), e); 4. a), b), c); 5. a), b), c), f); 6. a), b) | Step 4 | Summative; `Assessment 03.2 - Unit 3 Test.md`, 50 points, topic assessments category |
 
 ## Homework
 
@@ -109,10 +109,10 @@ Inside the building: the school counselor and the social worker, if the building
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 8. a) and 8. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 8. a) and 8. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, line 2. d); Communication and Interpersonal Relationships, line 7. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
-- NYS CDOS Learning Standards, Intermediate, Standard 1. Wording per, section 3.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS CDOS Learning Standards, Intermediate, Standard 1. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 7.1.1.
 - Career card content (what each person does, typical education) from the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) and the NYS Education Department's licensing pages for teachers, nurses, social workers, and speech-language pathologists.
 - My own materials: the Careers Card Sort from Lesson 1.22 (`Handout 01.22 - Careers Card Sort.md`) set the card pattern; the 16 clusters from Lesson 2.21.

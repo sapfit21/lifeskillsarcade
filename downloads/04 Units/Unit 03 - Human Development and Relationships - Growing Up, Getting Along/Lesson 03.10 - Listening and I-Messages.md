@@ -111,9 +111,9 @@ Inside the building: the ELA teacher, who teaches speaking and listening standar
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. c) and 2. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. c) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 2. b), 2. c), and 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.2 and 13.3.3.
 - My own materials: the Draw/See/Hear game as written up in Lesson 0.2 (`Handout 00.02 - Draw See Hear Picture Cards and Room Map.md`); my Communication Styles packet for the assertive, passive, and aggressive vocabulary and the listening-as-communication idea, rewritten here without the personal branding frame.
 

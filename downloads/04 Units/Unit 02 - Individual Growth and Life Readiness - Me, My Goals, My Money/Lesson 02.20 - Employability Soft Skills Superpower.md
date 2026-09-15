@@ -89,7 +89,7 @@ Exit card, three lines: the skill I rated highest and my evidence; the skill I a
 - Grade 6 support: rate four skills (reliability, communication, teamwork, honesty), with evidence for two; the growth plan is two parts (where and what I will do).
 - Grade 8 stretch: add a seventh row for a skill the student names from the job ads (for example "attention to detail") and rate it; the growth plan names a measurable sign ("the Station Manager checks my station once, not three times"); one paragraph on which of the six skills matters most in the career from their top three (previews Lesson 2.21).
 - UDL checkpoint used: multiple means of representation (the six skills as words, pictures, and real job ads) and multiple means of action and expression (evidence can be written, dictated, or pointed to on a role card).
-- No-device alternative for the trading window: run the window block on paper, the same way Topic 2.4 does on a Wi-Fi-down day. Read the dispatch aloud, put the window's prices on the board from the paper price table (Days 10 to 12 for Round 2), and students record trades on `Handout 02.19 - Paper Ledger.md`; the trading partner checks the math and the Station Manager of each table hands the sheets in. The Round 2 journal line is written either way.
+- No-device alternative for the trading window: run the window block on paper, the same way Topic 2.4 does on a Wi-Fi-down day. Read the dispatch aloud, put the window's prices on the board from the paper price table (the Round 2 Day 1 to Day 3 columns), and students record trades on `Handout 02.19 - Paper Ledger.md`; the trading partner checks the math and the Station Manager of each table hands the sheets in. The Round 2 journal line is written either way.
 
 ## Assessment
 
@@ -111,9 +111,9 @@ Inside the building: the guidance counselor, who sees the same six skills on the
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. a). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 3. c) and 3. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.8.
 - My own materials: my packet "Soft Skills Superpower: The Skills Every Job Needs" (Unit 2 Career Exploration, April 2026). The self-rating table and the "companies hire for hard skills and fire for soft skills" line come from it. The twelve-skill list is cut to the six employers name most; the word search is dropped.

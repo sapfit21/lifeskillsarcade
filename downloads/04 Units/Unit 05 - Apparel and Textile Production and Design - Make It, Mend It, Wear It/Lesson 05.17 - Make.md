@@ -96,9 +96,9 @@ Day 1 total: 5 plus 5 plus 22 plus 5 plus 3 = 40 minutes.
 | 2. Build and finish | Slide 11 (the checklist and the clock). Same fixed loop. Same "Need help" order. At minute 10 say "if you are behind, switch to your reduced-scope version now, not at minute 20." At minute 18 say "start finishing: knots, trims, closure." Hand out the early-finisher options as students hit the checklist. | Finish the item. Test the closure with real contents. Run the checklist line by line and fix what fails. Early finishers start a second small item or move to the helper role. | 22 min |
 | 3. Finishing checklist self-check and the handoff to the gallery | Slide 12. Circulate with the clipboard and confirm the seven lines on each finished item, initialing the handout. For anything unfinished, write on the handout what remains and schedule it: the first ten minutes of Lesson 5.18 Day 1 are a finishing window for exactly this. Say what tomorrow is: display card, then the 45-second explanation. | Self-check all seven lines and initial. Fix one problem found by the check, not by the teacher. Put the finished item, the plan, the brief, and the mock-up in the bag. | 5 min |
 | Closure and count-in | Slide 13. Count-in, all three confirmed. | Count in. Write the closure line. | 3 min |
-| Buffer inside Step 2 | Two minutes of Step 2 are the stated buffer for the count that does not match, the shears that go missing, or the student whose closure fails at minute 20. | | (inside 22) |
+| Buffer | Two minutes are the stated buffer for the count that does not match, the shears that go missing, or the student whose closure fails at minute 20. | | 2 min |
 
-Day 2 total: 4 plus 4 plus 22 plus 5 plus 3 = 38, plus the 2-minute buffer inside Step 2 = 40 minutes.
+Day 2 total: 4 plus 4 plus 22 plus 5 plus 3 = 38, plus the 2-minute buffer = 40 minutes.
 
 ## The stuck protocol (posted at every station, restated Day 1 and Day 2)
 
@@ -167,7 +167,7 @@ Day 2, one line: "The hardest stitch on my item was ___. The part I am proudest 
 - Grade 6 support: the Easy paths only, the material pre-marked by the teacher, and a milestone of "cut, marked, pinned, and three inches of one seam stitched" on Day 1.
 - Grade 8 stretch: add one reinforcement at a stress point and be able to say why that spot carries the load; use a third stitch beyond the two required; or take the station-helper role and teach a stitch from the card to two other students, which is noted on the rubric's notes line as evidence for criterion 4.
 - UDL checkpoint used: multiple means of action and expression (the item can be built with needle and thread, with clips instead of pins, or with the teacher's hands guiding the student's, and the product is scored the same) and multiple means of engagement (a posted milestone, a visible clock, and a procedure for getting unstuck lower the cost of struggling in public).
-- No-machine alternative: the project is hand sewing throughout; no machine is used on any day. **Reduced-dexterity alternative, required on both of these days:** a self-threading (calyx eye) needle or a large-eye embroidery needle with heavier thread; a needle threader; binder clips instead of straight pins; a hoop, clamp, or a piece of tape to hold the fabric still so only one hand has to work; felt instead of woven fabric, because felt does not fray and needs no edge finishing; iron-on hem tape or fabric glue for one of the two required joins, with the second join hand stitched so the stitch objective is still met; and a longer running stitch on a larger-scale item, which is easier to control than small stitches on a small item. A student using these alternatives is scored on the same rubric with no note of the accommodation on the score, only on the notes line if it changes what was made.
+- No-machine alternative: every path can be built by hand, so a room without machines runs both days as written; where machines exist, they are open under the Lesson 5.10 rules and a machine seam counts as a taught join. **Reduced-dexterity alternative, required on both of these days:** a self-threading (calyx eye) needle or a large-eye embroidery needle with heavier thread; a needle threader; binder clips instead of straight pins; a hoop, clamp, or a piece of tape to hold the fabric still so only one hand has to work; felt instead of woven fabric, because felt does not fray and needs no edge finishing; iron-on hem tape or fabric glue for one of the two required joins, with the second join hand stitched so the stitch objective is still met; and a longer running stitch on a larger-scale item, which is easier to control than small stitches on a small item. A student using these alternatives is scored on the same rubric with no note of the accommodation on the score, only on the notes line if it changes what was made.
 
 ## Assessment
 
@@ -189,11 +189,11 @@ Career and technical connection: this is what an alterations tailor does all day
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Health, Safety, and Wellness 4. c) and 4. e); Problem Solving and Innovation 3. a) a., c., d. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
-- CDOS Standard 2 and Standard 3a Personal Qualities, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 16.4.5, per, section 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- CDOS Standard 2 and Standard 3a Personal Qualities, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - The four taught stitches, the stitch cards, the station count sheet, and the six-step count-out and count-in routine come from Topic 5.2 of this unit (Lessons 5.5 to 5.10).
 
 ## Teacher notes

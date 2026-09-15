@@ -185,7 +185,7 @@ Cut along the line and bring the bottom half back signed.
 
 Dear family,
 
-For the next six class days my students are turning a used piece of cloth into something useful, by hand, with a needle and thread. No sewing machine is used. We cover needle and pin safety every day, we count every needle and pin out at the start of the period and back in at the end, and nobody leaves the room until the counts match.
+For the next six class days my students are turning a used piece of cloth into something useful, by hand, with a needle and thread. No sewing machine is needed; every path can be built by hand. We cover needle and pin safety every day, we count every needle and pin out at the start of the period and back in at the end, and nobody leaves the room until the counts match.
 
 Your student does not need to bring anything from home. Our classroom has a bin of donated and scrap fabric, and every student can take what they need from it. That is the normal way to do this project and it earns full credit.
 

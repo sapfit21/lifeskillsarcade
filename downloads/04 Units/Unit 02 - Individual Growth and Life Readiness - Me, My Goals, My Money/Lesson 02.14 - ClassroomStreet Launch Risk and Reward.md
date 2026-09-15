@@ -62,13 +62,13 @@ Debrief: hands for jar, hands for bank, hands for the business. Then the hook: "
 | Day 1, 1. Direct instruction: saving vs investing, risk and reward | Slides 2 to 6. Define saving (money set aside where it is safe and you can get it back) and investing (buying something you expect to be worth more later, with no promise). Draw the risk ladder on the board: jar, savings account, government bond, company bond, real estate, big company stock, new company stock. Say the rule: "Higher up the ladder, more it can grow, more it can fall." Give one example of each end: a savings account that pays about 4 percent a year and never drops; a new company's stock that doubled in a year and then lost 80 percent. | Copy the risk ladder into the notes box on the Investor Journal cover. Answer the two check questions on slide 6. | 8 min |
 | Day 1, 2. Learning activity: Venture Risk Cards | Hand each pair the seven venture cards. Task: read each card, sort them on the desk from safest to riskiest, and write the risk word (no risk, low, medium, high) on the journal cover next to each ticker. Say clearly: the cards say what the venture does in the Golden Land; nobody learns what they "really are" until Day 10. Circulate with the clipboard check. Debrief in two minutes: put the class sort on the board. Most pairs get HNYP at the bottom and SPRK and CLDB at the top; argue about WLLW and MDOW, which is the point. | Sort the cards. Write the risk level for each ticker. One pair reads its order aloud; others agree or challenge with a line from a card. | 8 min |
 | Day 1, 3. Log in and first buys | Hand out login cards. Walk through slide 8: go to ClassroomStreet.com, choose the class period, type the merchant number, type the PIN. Show the trading floor on the projector: the ticker, the seven ventures with today's prices, the Buy and Sell buttons, the cash line, the total fortune line. Model one buy: 50 units of SEAL. Set the two rules for today: buy at least three different ventures, and keep at least AQ1,000 in cash. Advance to window 2 halfway through and point out that prices moved. Circulate; fix logins; do not tell anyone what to buy. | Log in. Make first buys across at least three ventures. Write the tickers and units on the journal cover. Watch what happens to total fortune when window 2 opens. | 14 min |
-| Day 1, closure | See Closure. | 6 min |
+| Day 1, closure | See Closure. | | 6 min |
 | Day 2, do now | On the board: "Open your portfolio. Write your total fortune at the top of Entry 2. Is it above or below AQ25,000? By how much?" | Log in, write the number, subtract. | 3 min |
 | Day 2, 4. Direct instruction: reading the portfolio screen and the ledger | Project one portfolio (yours, the teacher account). Name every number on slide 11: cash, the venture, units held, the price now, the value (units times price), total fortune (cash plus all values), and gain or loss (total fortune minus 25,000). Then open the ledger (slide 12): every buy and sell with the window, the price, and the units. Say why it matters: the ledger is proof. If you think the site is wrong, the ledger settles it. Show how to check one trade: units times price should equal the cash that left. | Follow on their own screens. Find one trade in their ledger and check it: units times price equals cash out. Write the check on Entry 2. | 8 min |
 | Day 2, 5. Diversification preview | Ask for hands: "More than half your money in one venture?" Count. "All seven?" Count. Draw two pies on the board: one with a huge slice, one cut evenly. Say only this: "On Day 5 we find out which pie survives a bad week. Today, look at your own pie." No lecture yet; Lesson 2.16 does it. | Sketch their own pie on Entry 2 (rough slices, labeled with tickers). | 5 min |
 | Day 2, 6. Trading window | Open the trading window: advance from window 3 to window 6, one click about every two and a half minutes, and read each dispatch headline aloud as it lands. Circulate with the clipboard check. Remind them: nobody has to trade; holding is a decision too. | Read the dispatches. Trade or hold. Note any trade on Entry 2 as it happens (ticker, buy or sell, units). | 10 min |
 | Day 2, 7. Investor Journal, Entry 2 | Teach the three prompts that every entry uses from today on: what I did, why I did it, what happened. Model one entry on the projector in three sentences. Set the rule: one entry per class day, three sentences minimum, the number for total fortune every time. | Write Entry 2 in full. Fill in anything missing on Entry 1 from Day 1. | 10 min |
-| Day 2, closure | See Closure. | 4 min |
+| Day 2, closure | See Closure. | | 4 min |
 
 Day 1 totals 40 minutes: 4 + 8 + 8 + 14 + 6. Day 2 totals 40 minutes: 3 + 8 + 5 + 10 + 10 + 4.
 
@@ -122,12 +122,12 @@ Math: the class math teacher can use the Day 2 gain or loss numbers as integer p
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 4. b) and 4. e). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 4. b) and 4. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. b) and 3. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - CDOS Intermediate Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 3.3.4.
-- My own materials: (Days 1 and 2), (the seven ventures, login steps, tips), (starting prices), all in. ClassroomStreet.com is the live version.
+- My own materials: my original ClassroomStreet plan (Days 1 and 2), the ClassroomStreet Student Guide (the seven ventures, login steps, tips), and my ClassroomStreet site notes (starting prices). ClassroomStreet.com is the live version.
 
 ## Teacher notes
 

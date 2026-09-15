@@ -109,9 +109,9 @@ Math: exponents as repeated multiplication and percent of a number; this table i
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. e). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. a) and 2. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.1 and 3.3.4.
 - FDIC insurance limit of $250,000 per depositor per bank (fdic.gov); NCUA is the equivalent for credit unions. Savings rates in 2026 are to be refreshed before teaching.
 - The table and the two savers numbers were computed for this lesson at 5 percent compounded yearly with the deposit at the start of each year; the teacher key shows the arithmetic.

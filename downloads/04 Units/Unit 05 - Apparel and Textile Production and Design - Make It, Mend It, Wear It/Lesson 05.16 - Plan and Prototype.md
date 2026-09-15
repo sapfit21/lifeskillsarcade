@@ -87,8 +87,6 @@ Hook: hold up a piece of fabric cut two inches too short and a finished pencil c
 
 Day total: 4 (the do now) plus 7 plus 12 plus 8 plus 6 plus 3 = 40 minutes.
 
-Total: 4 plus 7 plus 12 plus 8 plus 6 plus 3 = 40 minutes.
-
 ## Questions to ask
 
 Monitor understanding:
@@ -120,7 +118,7 @@ The count-in runs first; nobody writes until all three pin counts match. Then on
 - Grade 6 support: the plan sheet comes with the sketch outline already drawn for the five Easy paths, so the student fills measurements onto a given shape. Two measurements required instead of four. The mock-up is one fold, done with the teacher's model in view.
 - Grade 8 stretch: draw the plan to scale on quarter-inch graph paper at 1 square = 1 inch (this reuses the Unit 4 scale drawing skill directly), compute the total fabric area used and the area wasted, and write one sentence on how to cut differently to waste less. A stretch student may also write the order of work as a numbered flowchart with a decision point ("if the channel is too narrow, then ___").
 - UDL checkpoint used: multiple means of action and expression (a sketch, a full-size paper mock-up, and a spoken walkthrough at the approval table are three ways to show the same plan) and multiple means of representation (the rule stated, modeled on the board, and held in the hand as paper).
-- No-machine alternative: the whole project is hand sewing; no machine is used today or on any project day. Reduced-dexterity alternative for today: binder clips and paper clips instead of straight pins, a pre-marked material, spring-loaded scissors or the teacher cutting on the student's marked line while the student directs, and a hoop or clamp to hold the paper mock-up flat. None of these changes the rubric.
+- No-machine alternative: every path in this project can be built by hand; no machine is used today, and on the build days a machine seam counts as a taught join for any student whose plan names one. Reduced-dexterity alternative for today: binder clips and paper clips instead of straight pins, a pre-marked material, spring-loaded scissors or the teacher cutting on the student's marked line while the student directs, and a hoop or clamp to hold the paper mock-up flat. None of these changes the rubric.
 
 ## Assessment
 
@@ -142,10 +140,10 @@ Math: measurement in inches and fractions of an inch, perimeter, and the grade 8
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Problem Solving and Innovation 2. a) e. and f.; Health, Safety, and Wellness 4. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.3.3 and 16.4.5, per, section 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.3.3 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - The count-out and count-in routine and the four taught hand stitches and the machine seam come from Topic 5.2 of this unit (Lessons 5.5 to 5.10).
 
 ## Teacher notes

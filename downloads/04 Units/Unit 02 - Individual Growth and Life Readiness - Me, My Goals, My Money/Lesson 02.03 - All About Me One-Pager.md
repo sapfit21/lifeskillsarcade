@@ -45,7 +45,7 @@ Tier 3 (FACS): one-pager, rubric, "known for" statement (a one-sentence personal
 
 ## Pre-assessment
 
-The three sheets are the pre-assessment. On Day 1, while students fill the template, check that each has a top three, a top three, two letters, and two careers on paper from the earlier lessons. A student missing a sheet fills that part of the template from memory in Step 2 and the teacher accepts it; the point of the check is the one-pager, not the paperwork.
+The three sheets are the pre-assessment. On Day 1, while students fill the template, check that each has a top three values, a top three strengths, two letters, and two careers on paper from the earlier lessons. A student missing a sheet fills that part of the template from memory in Step 2 and the teacher accepts it; the point of the check is the one-pager, not the paperwork.
 
 ## Do now and hook (Time: Day 1, 4 min; Day 2, 3 min)
 
@@ -104,7 +104,7 @@ Day 2: after turn-in, a 3-2-1 on an index card: 3 things you learned about yours
 | 2. Compose the known-for sentence and lay out the page | IGLR 1. a) and b); CDOS 3a Personal Qualities; National FCS 1.2.1 | Day 1 Step 3; Day 2 Step 1 | Summative; "Clear" and "Connected" criteria of the mini rubric |
 | 3. Present in two minutes and give one specific piece of feedback | CIR 1. f); Std 3 PI E | Day 2 Steps 2 and 3 | Formative; peer rubric on page 3 checked for a specific, fixable comment; the teacher's clipboard note on whether the speaker filled two minutes |
 
-**This lesson is the Topic 2.1 formal check.** The product is the All About Me one-pager, scored by the teacher on the three-criterion rubric printed on page 3 of `Handout 02.03 - All About Me Template.md` (12 points; see the rubric there). The scoring happens during Day 2 Step 1 (clipboard) and after turn-in. The check goes in the grade book under the "Quizzes and topic checks" category of the grading plan. The partner's score is feedback, not the grade.
+**This lesson is the Topic 2.1 formal check.** The product is the All About Me one-pager, scored by the teacher on the three-criterion rubric printed on page 3 of `Handout 02.03 - All About Me Template.md` (12 points; see the rubric there). The scoring happens during Day 2 Step 1 (clipboard) and after turn-in. The check goes in the grade book under the "Topic assessments" category of the grading plan. The partner's score is feedback, not the grade.
 
 ## Homework
 
@@ -116,12 +116,12 @@ Inside the building: the ELA teacher, if the class is working on personal narrat
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a), 1. b), and 1. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a), 1. b), and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.1.
-- My own materials: the Your Mission Statement packet supplied the mission statement frame ("I want to use my [strengths] to [action] so that [impact]"), adapted here into the known-for sentence; the My Career Vision Board packet (`Unit_2_Career_Exploration`) supplied the idea of a single visual product closing the topic.
+- My own materials: the Your Mission Statement packet supplied the mission statement frame ("I want to use my [strengths] to [action] so that [impact]"), adapted here into the known-for sentence; the My Career Vision Board packet supplied the idea of a single visual product closing the topic.
 
 ## Teacher notes
 

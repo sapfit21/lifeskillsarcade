@@ -22,7 +22,7 @@ Marking periods of 45 days: MP1 days 1 to 45 (Unit 0, Unit 1, first 10 days of U
 
 1. Kitchen first. My own reflection: the first cooking lab is what won the class. Safety and sanitation come before any lab, so Unit 1 opens with the safety contract and reaches a first lab by day 9.
 2. Finance and careers second, before winter break. My strongest content and my own simulation, when the class already trusts me.
-3. Human development in the middle of the year, when peer dynamics in the room are visible and worth talking about.
+3. Human development in the middle of the year, when peer relationships in the room are visible and worth talking about.
 4. Design and apparel back to back: both use the elements and principles of design, so the second builds on the first.
 5. Food systems late, after students already have kitchen skills, so the labs can be bigger (four kitchens at once) and the thinking can go beyond the recipe.
 6. A capstone that shows your school what is different about this teacher: a resume, an interview, and a pitch.
@@ -122,11 +122,11 @@ Capstone. Modules: IGLR Employability and Career Pathways, plus the careers thre
 | Topic | Days | Lessons | Formal check |
 |---|---|---|---|
 | 7.1 Present Yourself | 5 | 7.1 The resume: the three-part bullet; 7.2 Build your resume; 7.3 ACT FAST: think on your feet; 7.4 How to talk about yourself in an interview (STAR); 7.5 Mock interviews with peer feedback | Resume and interview rubric |
-| 7.2 FACS Shark Tank | 8 | 7.6 What a business is: problem, customer, product, price; 7.7 Big Idea Factory: a product or service from any FACS module; 7.8 Know your customer and price it (price, cost, margin); 7.9 The elevator pitch; 7.10 Build the pitch and prototype (two days); 7.11 Shark Tank Showdown (two days); 7.12 Year reflection and portfolio | Pitch rubric; year reflection |
+| 7.2 FACS Shark Tank | 8 | 7.6 What a business is: problem, customer, product, price; 7.7 Big Idea Factory: a product or service from any FACS module; 7.8 Know your customer and price it (price, cost, margin); 7.9 The elevator pitch; 7.10 Build the pitch and prototype (two days); 7.11 Shark Tank Showdown; 7.12 Year reflection and portfolio | Pitch rubric; year reflection |
 
 ## Flex versions
 
-- 30 weeks daily (150 days): drop Unit 7 (fold the resume and STAR lessons into Unit 2 Topic 2.5, adding 3 days), cut Unit 1 to 26, Unit 2 to 26, Unit 3 to 22, Unit 4 to 21, Unit 5 to 24, Unit 6 to 21 by removing the marked flex lessons (listed in each unit plan). Total 5 + 26 + 26 + 22 + 21 + 24 + 21 + 5 (careers and STAR) = 150.
+- 30 weeks daily (150 days): drop Unit 7 (fold the resume and STAR lessons into Unit 2 Topic 2.5, adding 5 days), cut Unit 1 to 26, Unit 2 to 26, Unit 3 to 22, Unit 4 to 21, Unit 5 to 24, Unit 6 to 21 by removing the marked flex lessons (listed in each unit plan). Total 5 + 26 + 26 + 22 + 21 + 24 + 21 + 5 (careers and STAR) = 150.
 - One semester daily (90 days): Unit 0 (3), Unit 1 (20: safety, tools, one lab, labels, the $40 project), Unit 2 (20: who I am, money basics, a 10-day ClassroomStreet run), Unit 3 (12: lifespan, stress, communication, babysitting basics), Unit 4 (10: safety and conservation, color, a floor plan), Unit 5 (15: fibers and care, hand sewing, a small item), Unit 6 (10: where food comes from, one lab, a scaled shopping task). Every module still appears.
 - Every other day for a year (90 meetings): same as the semester plan, with the ClassroomStreet trading windows and the daily floor plan do now run as homework or on the off days.
 - Two-year spiral (if students take FACS in both grade 7 and grade 8): Year A = Units 0, 1, 2, 3; Year B = Units 4, 5, 6, 7, with Unit 1's safety exam repeated at the start of Year B.

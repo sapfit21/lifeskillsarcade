@@ -111,9 +111,9 @@ Inside the building: social studies, which teaches how governments and groups de
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. b). Copy in.
-- NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, line 1. e), and Theme Module 02, Communication and Interpersonal Relationships, line 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Interpersonal Skills and Thinking Skills. Wording per.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, line 1. e), and Theme Module 02, Communication and Interpersonal Relationships, line 1. e).
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Interpersonal Skills and Thinking Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.4 and 13.5.7.
 - My own materials: the plane crash decision simulation and "five steps to a good decision," as listed in my unit overview under Decision Making. This lesson writes the simulation fresh with its own scenario, its own ten items, and its own expert key and reasons. The rule of threes used in the key is common survival guidance, not taken from any one exercise.
 

@@ -16,7 +16,7 @@
 - National FCS 3.0: 11.4.3 Draw an interior space to scale using architectural symbols.
 - National FCS 3.0: 11.4.4 Place furniture with design principles, traffic flow, activity, and the room's architecture in mind.
 
-The task named a PSI sub-line on "sketching." No sub-line in PSI 2. a) says sketching; the drawing is the form that sub-lines d. and e. take here, so those are cited instead.
+No sub-line in PSI 2. a) says sketching; the drawing is the form that sub-lines d. and e. take here, so those are the lines cited.
 
 ## Enduring understanding and essential question
 
@@ -52,10 +52,10 @@ Yesterday's exit slips ("the one thing I am not sure how to fit") and the do-now
 
 ## Do now and hook (Time: 5 min each day)
 
-**Day 1 do now** (floor plan stack, day 6): On the board: "Here is a plan of a 12 by 14 room with the bed in the middle of the floor [draw it on the board or show slide 1]. Redraw it at 1/4 inch = 1 foot with the bed against a wall and a straight path from the door to the window." Two minutes to draw, one to compare with a neighbor.
+**Day 1 do now** (floor plan stack, sketch 6): On the board: "Here is a plan of a 12 by 14 room with the bed in the middle of the floor (draw it on the board or show slide 1). Redraw it at 1/4 inch = 1 foot with the bed against a wall and a straight path from the door to the window." Two minutes to draw, one to compare with a neighbor.
 Hook: walk through the 30-inch tape strip yourself, then carry a laundry basket through it, then ask a student to walk through with the borrowed walker. "Thirty inches is fine for you. It is not fine for Grandpa Okafor. Today every path in your plan gets measured."
 
-**Day 2 do now** (floor plan stack, day 7): "Sketch a 6 by 9 foot entry with the front door on a short wall. Add a bench and a wall of hooks. Shade the walking path from the front door to the inside doorway. Is the path 36 inches? Write yes or no and how you know." Two minutes to draw, one to check.
+**Day 2 do now** (floor plan stack, sketch 7): "Sketch a 6 by 9 foot entry with the front door on a short wall. Add a bench and a wall of hooks. Shade the walking path from the front door to the inside doorway. Is the path 36 inches? Write yes or no and how you know." Two minutes to draw, one to check.
 
 ## Procedure
 
@@ -127,10 +127,10 @@ Math: scale factors, unit conversion (feet to inches to squares), area in square
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) sub-lines d., e., h. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.3 and 11.4.4, per, section 4.11.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.3 and 11.4.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - Clearances: 2010 ADA Standards for Accessible Design (ada.gov), section 403.5.1 (36-inch clear width) and 304.3 (60-inch turning space). The 30-inch general path and the furniture dimensions on the cut-out sheet are common residential planning figures, rounded to the nearest half foot for cutting.
 - My own materials: (the floor plan idea used in Lesson 4.10; this lesson continues it at the project scale).
 

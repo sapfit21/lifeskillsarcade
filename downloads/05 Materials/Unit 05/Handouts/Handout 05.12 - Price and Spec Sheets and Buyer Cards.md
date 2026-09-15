@@ -2,7 +2,7 @@
 
 Name: ______________________ Date: __________ Station: ______
 
-Lesson 5.12, two days. Day 1 is pages 1 and 2. Day 2 is pages 3 to 5. Every price on this handout is a realistic 2026 figure written for class, to be refreshed before teaching, and not a real store's price today.
+Lesson 5.12, one day (day 132). Pages 1 and 2, labeled Day 1, are the lesson. Pages 3 to 5, labeled Day 2, are the eight-item task, which the lesson names as the grade 8 stretch and the extension for a longer period. Every price on this handout is a realistic 2026 figure written for class, to be refreshed before teaching, and not a real store's price today.
 
 Word bank: price, quality, shipping, return, size, seam, stitch, label
 Turkish: fiyat, kalite, kargo, iade, beden, dikiş yeri, dikiş, etiket
@@ -202,7 +202,7 @@ The eight items against the three buyers. Accept any correct screen with the lim
 
 Best answers, with the reasoning that earns full credit:
 - **Card 1:** item F ($8.00, 100% cotton, about 11 oz, 11 stitches per inch, size M, no returns needed because she can try it on in the shop) is the best value, and item C ($44.95) is the best answer for a buyer who wants a guarantee and a return policy. Both are defensible. A station that recommends A or H has not handled "two winters."
-- **Card 2:** item B for the two youngest ($19.99) plus item A for the 13-year-old ($12.99) totals $32.98 before tax, well under $60, all available today. Accept C for the 13-year-old only if the total stays under $60 (it does: $19.99 plus $44.95 = $64.94, which does not, so this is a good place to make them do the math). Any online item fails the Monday deadline.
+- **Card 2:** item B for the two youngest ($19.99) plus item A for the 13-year-old ($12.99) totals $32.98 before tax, well under $60, all available today. Accept C for the 13-year-old only if the total stays under $60 (it does not: $19.99 plus $44.95 = $64.94, so this is a good place to make them do the math). Any online item fails the Monday deadline.
 - **Card 3:** item H ($24.99 plus $4.99 shipping = $29.98) is the only item that is the right style, and it arrives in time. The defense has to handle the cracking print and the 14-day return window.
 
 The hard question for any station recommending G or H: "Your buyer needs it Monday. Your item ships in 12 to 20 days. Answer that."

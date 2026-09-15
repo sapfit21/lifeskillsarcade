@@ -3,7 +3,7 @@
 Lesson 2.15, two days. Day 1: slides 1 to 9. Day 2: slides 10 to 18.
 
 ## Slide 1: Do now (Day 1)
-- [Paste one full dispatch from window 7 here before class.]
+- Today's dispatch from window 7, shown in full.
 - Read it. Write: what happened, and which venture cares.
 Notes: 4 minutes. Cold call three for the venture. Then advance to window 7 live and watch the ticker.
 

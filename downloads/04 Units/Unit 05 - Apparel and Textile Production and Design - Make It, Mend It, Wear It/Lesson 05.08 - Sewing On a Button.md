@@ -1,7 +1,7 @@
 # Lesson 5.8: Sewing On a Button
 
 **Unit:** Unit 5, Make It, Mend It, Wear It (Apparel and Textile Production and Design)
-**Topic:** 5.2 Hand Sewing Skills
+**Topic:** 5.2 Hand and Machine Sewing Skills
 **Grade:** 6 to 8 (written at grade 7; see Differentiation for the grade 6 support and grade 8 stretch)
 **Days:** 1 class period of 40 minutes (day 124 of the year)
 **Room:** FACS lab, three sewing stations of about seven students (a no-station version is below)
@@ -136,10 +136,10 @@ Mathematics: the cost-saved calculation is multiplication and comparison and it 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 3. a); the community-agency repair idea comes from that module's own Career and Community Connections illustrative activity. Copy in.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Sustainability, line 3. c). Text per.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 3. a); the community-agency repair idea comes from that module's own Career and Community Connections illustrative activity. Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Sustainability, line 3. c). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 2.1.4, per.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 2.1.4, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - The button steps, including the toothpick shank method, are standard hand sewing practice. Written new for this course.
 
 ## Teacher notes

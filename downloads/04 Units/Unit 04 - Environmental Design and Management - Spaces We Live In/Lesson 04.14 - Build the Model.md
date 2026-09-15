@@ -47,7 +47,7 @@ Tier 3 (FACS): elevation, isometric, color scheme (monochromatic, complementary,
 - The plan, the Budget Sheet, and the client card in the project folder
 - Slides: `Slides 04.14 - Build the Model` (Day 1, Day 2, Day 3 marked)
 - A drying shelf or a corner of the counter labeled by period
-- Setup notes: pre-cut a few foam board bases for students who bring no box. Set up the glue gun station away from the traffic path with a heat-safe mat. Run the sanitation routine in reverse for a craft day: sleeves up, hair back, station check before dismissal. Allergy check: some students react to hot glue fumes or latex in foam; ask.
+- Setup notes: pre-cut a few foam board bases for students who bring no box. Set up the glue gun station away from the traffic path with a heat-safe mat. Run the sanitation routine trimmed for a craft day: hair back, sleeves up, station check before dismissal. Allergy check: some students react to hot glue fumes or latex in foam; ask.
 
 ## Pre-assessment
 
@@ -55,12 +55,12 @@ The Budget Sheet exit cards from Lesson 4.13 (anyone over budget fixes it in the
 
 ## Do now and hook (Time: 5 min each day)
 
-**Day 1 do now** (floor plan stack, day 9): "Draw your client's room as a box with the walls folded down flat (a net): the floor in the middle, four walls around it. Label which wall has the door and which has the window." Two minutes, one to compare.
-Hook: hold up a shoebox and a finished plan from a previous class (no name). "This is the same room. One you can read. One you can hold. By Friday yours is the one you can hold."
+**Day 1 do now** (floor plan stack, sketch 9): "Draw your client's room as a box with the walls folded down flat (a net): the floor in the middle, four walls around it. Label which wall has the door and which has the window." Two minutes, one to compare.
+Hook: hold up a shoebox and a finished plan from a previous class (no name). "This is the same room. One you can read. One you can hold. In three days yours is the one you can hold."
 
-**Day 2 do now** (stack, day 10): "Draw one wall of your room straight on (an elevation) at 1/2 inch = 1 foot: the floor line, the window, and the furniture that sits against that wall. Rooms are usually 8 feet high." Two minutes, one to compare.
+**Day 2 do now** (stack, sketch 10): "Draw one wall of your room straight on (an elevation) at 1/2 inch = 1 foot: the floor line, the window, and the furniture that sits against that wall. Rooms are usually 8 feet high." Two minutes, one to compare.
 
-**Day 3 do now** (stack, day 11): "Draw a plan of any room with a wheelchair turning circle in it: a circle 5 feet across. Where does it fit and what did you move to make room?" Two minutes, one to compare.
+**Day 3 do now** (stack, sketch 11): "Draw a plan of any room with a wheelchair turning circle in it: a circle 5 feet across. Where does it fit and what did you move to make room?" Two minutes, one to compare.
 
 ## Procedure
 
@@ -79,7 +79,7 @@ Closure Day 1 (2 min): thumbs check, "my walls and floor match my plan" (up), "o
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
 | 1. Demo: furniture from scrap and the color scheme | Slides 7 to 10. Show three pieces made in ninety seconds: a bed (a folded card box with a fabric scrap), a desk (a card rectangle on four toothpick or rolled-paper legs), a dresser (a stacked card block with drawn drawers). Every piece measured from the cut-out sheet dimensions at the model scale. Then color: pull the Lesson 4.8 color cards. The walls get the main color, one accent on the focal point (a headboard, a rug, a chair), and the scheme is named on the label. Say the rule: the color goes on before the furniture goes in. | Watch. Pull the color card and plan from the folder. | 7 min |
-| 2. Build: color, then furniture | Circulate. Hold every team to the plan: "Your plan has the bed on the window wall. Your model has it on the door wall. Which one is right?" Push on the principles: where is the focal point; is the room balanced; is that bed in proportion to the room? | Color the walls (paper, paint chips, marker, or fabric). Build every piece on the plan from card and scrap, to scale. Place the furniture where the plan says. Do not glue furniture until it matches the plan. | 25 min |
+| 2. Build: color, then furniture | Circulate. Hold every team to the plan: "Your plan has the bed on the window wall. Your model has it on the door wall. Which one is right?" Push on the principles: where is the focal point; is the room balanced; is that bed in proportion to the room? | Color the walls (paper, paint chips, marker, or fabric). Build every piece on the plan from card and scrap, to scale. Place the furniture where the plan says. Do not glue furniture until it matches the plan. | 23 min |
 | 3. Station check | Same as Day 1. | Clean, shelve. | 3 min |
 
 Closure Day 2 (2 min): exit card, "My color scheme is ___. The focal point is ___. Tomorrow I still need to make ___." Sort so you know which teams need the first ten minutes of Day 3 for furniture.
@@ -141,10 +141,10 @@ Art: the art teacher can lend the isometric grid lesson and the color mixing fro
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a), b), c), d). Copy in. The module's Problem Solving and Innovation illustrative activity (Tiny Houses) is the source of the tiny house path.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a), b), c), d). Copy in `02 Standards/NYS Module PDFs/`. The module's Problem Solving and Innovation illustrative activity (Tiny Houses) is the source of the tiny house path.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) f.; Theme Module, Sustainability, line 2. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.4 and 11.9.1, per, section 4.11. (The research file confirmed only 11.9.1 under 11.9; check the LEAD FCS PDF for others.)
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.4 and 11.9.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11. (The research file confirmed only 11.9.1 under 11.9; check the LEAD FCS PDF for others.)
 - My own materials: (the synthesis of elements, principles, color, and sustainability in one room); (the green choices used in Lesson 4.5 and on the GREEN label); (the color schemes from Lesson 4.8).
 
 ## Teacher notes
@@ -153,4 +153,4 @@ Art: the art teacher can lend the isometric grid lesson and the color mixing fro
 - Common mistake: furniture built to no scale (a bed the size of the room). Keep the cut-out sheet dimensions on the slide all three days and make students measure the model piece against the plan piece.
 - Common mistake: the model drifts from the plan because a piece "looked better" somewhere else. That is allowed, but the plan must change too; the rubric scores the match. Say it on Day 2.
 - Glue gun rule: one station, one adult, low-temperature guns only, no walking with a hot gun. Treat a burn as a burn (Lesson 1.3): cool water, tell the teacher.
-- Materials cost per model, target under $4: shoebox free; one 20 by 30 foam board sheet at about $3 to $4 makes two or three bases if boxes run short (so $1.50 or less per model); card stock about $0.30; glue sticks about $0.25 per model; scrap fabric and paint chips free (ask a fabric store for remnants and a paint department for old chip cards); masking tape and markers from the room stock. Budget about $2 to $3.50 per model. Add it to the unit plan's materials list.
+- Materials cost per model, target under $4: shoebox free; one 20 by 30 foam board sheet at about $3 to $4 makes two or three bases if boxes run short (so $1 to $2 per model); card stock about $0.30; glue sticks about $0.25 per model; scrap fabric and paint chips free (ask a fabric store for remnants and a paint department for old chip cards); masking tape and markers from the room stock. Budget about $2 to $3.50 per model. Add it to the unit plan's materials list.

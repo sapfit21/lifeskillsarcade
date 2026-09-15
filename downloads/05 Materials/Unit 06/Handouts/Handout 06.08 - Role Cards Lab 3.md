@@ -87,7 +87,7 @@ Every role, every phase: the six-step routine (hair back, sleeves up, wash hands
 | PREP (0 to 10) | Divide the measured cheese into 7 small portions, one per plate, so nobody takes all of it. | Portion salsa into the 7 small cups. If the dessert station is running, rinse the blueberries in the colander and set out the graham crackers. |
 | COOK (10 to 28) | Help the Station Manager wash and clear. Set the cheese portions beside the plates. | Build the graham cracker blueberry stacks on the far counter if the dessert station is running: cracker, whipped cream, a few berries, cracker, cream, berries, cracker, cream, berries. Three crackers per person. Otherwise help the Station Manager wash and clear. |
 | PLATE AND EAT (28 to 35) | Sprinkle cheese on each plate **while the pasta is still hot** so it melts. Eat. | Set a salsa cup at each plate. Bring the dessert stacks out last, after the quesadillas. Eat. |
-| CLEAN (35 to 40) | Zone: counters and supplies, with the Plate Builder. Wipe every counter. Put away the leftover cheese. | Zone: counters and supplies, with the Prep Cook. Wipe every counter. Put the whipped cream back in the fridge and the crackers back in the box. |
+| CLEAN (35 to 40) | Zone: counters and supplies. Wipe every counter. Put away the leftover cheese. | Zone: counters and supplies, with the Prep Cook. Wipe every counter. Put the whipped cream back in the fridge and the crackers back in the box. |
 
 **Why your role matters:** The topping is the last thing anyone sees and the first thing they taste. Cheese on cold pasta does nothing; cheese on hot pasta is the dish.
 **Tag-in note:** You follow the cooks down the line. If you are not here, the Second Cook adds the toppings and the dessert station does not run.
@@ -127,7 +127,7 @@ Every role, every phase: the six-step routine (hair back, sleeves up, wash hands
 | Zone | Roles | What "done" looks like |
 |---|---|---|
 | Heat: stove, pots, and skillets | Head Cook and Second Cook | Both burners off. Pot, saucepan, colander, or both skillets washed, dried, and in the drawer per the map. Stovetop wiped. |
-| Counters and supplies | Toppings Chief and Plate Builder (pasta) or Prep Cook (quesadillas) | Every counter wiped and sanitized. Leftovers covered and in the fridge or the trash. Nothing left out. |
+| Counters and supplies | Toppings Chief alone (pasta) or Toppings Chief and Prep Cook (quesadillas) | Every counter wiped and sanitized. Leftovers covered and in the fridge or the trash. Nothing left out. |
 | Dishes and sink | Prep Cook and Plate Builder (pasta) or Plate Builder alone (quesadillas) | Every bowl, cup, spoon, plate, fork, and butter knife washed, dried, and put away per the map. Sink rinsed and empty. |
 | Floor and trash | Helper Cook and Time Keeper (or Helper Cook alone) | Floor swept. Trash out, liner replaced. Fridge door closed. |
 

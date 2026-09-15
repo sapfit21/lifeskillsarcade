@@ -157,7 +157,7 @@ Signed by the Station Manager: ______________________
 | | | | **Total** | **$18.94** |
 
 **Quick instructions**
-1. Count out 4 cookies per person, 112 total.
+1. Count out 2 cookies per person, 56 total.
 2. Half of them into a gallon zip-lock bag. Squeeze the air out. Seal it tight.
 3. Crush with your hands, right through the bag, until the crumbs are small. No big chunks.
 4. Pour into a large bowl. Repeat with the rest.
@@ -240,7 +240,7 @@ Same 28 portions, same $20.00 station budget, same math, same flowchart, same st
 | Mayonnaise and mustard packets, napkins | | room | | $0 |
 | | | | **Total** | **$21.45** |
 
-**Over by $1.45.** Fix: drop to 1.5 lb of deli meat ($8.99) and add one 8 oz bag of shredded cheese ($1.99) for a total of **$19.46**. Cold items stay in a cooler with ice packs and go out at minute 5, not minute 0.
+**Over by $1.45.** Fix: drop to 1 lb of deli meat ($5.99) and add one 8 oz bag of shredded cheese ($1.99) for a total of **$17.45**. Cold items stay in a cooler with ice packs and go out at minute 5, not minute 0.
 
 ## OPTION N2: Snack Board
 
@@ -300,7 +300,7 @@ Same as Option E on page 3. $18.94 for 28. No heat, so it works in either versio
 
 **The critical path for each option**, which students will need again in Lesson 6.14: A the water boiling; B the oven reaching 400 degrees (about 8 minutes); C the beans warming through; D the oven reaching 375 degrees and the butter softening; E none, which is why it is the easiest, and the team should be able to say that out loud.
 
-**Option B's over-budget fix, three legal answers:** drop the pepperoni entirely and save $4.99 (total $16.33); swap to a store-brand pepperoni if the circular has one, which usually saves $1.00 to $2.00; or drop one bag of mozzarella from 3 to 2 and save $1.99 (total $19.33). All three clear $20.00. A team that says "we will just go over" has not answered the question.
+**Option B's over-budget fix, three legal answers:** drop the pepperoni entirely and save $4.99 (total $16.33); swap to a store-brand pepperoni if the circular has one, which has to save at least $1.32 to work; or drop one bag of mozzarella from 3 to 2 and save $1.99 (total $19.33). All three clear $20.00. A team that says "we will just go over" has not answered the question.
 
 **Allergens in each option:** A wheat, dairy. B wheat, dairy, and pork in the pepperoni. C wheat, dairy, soy possible in the tortillas. D wheat, dairy. E wheat, dairy, soy. Every single option contains wheat and dairy, which is worth saying to the class: if the allergy list has a wheat or dairy allergy on it, every station needs a substitution plan, not just one.
 

@@ -115,9 +115,9 @@ Inside the building: the school nurse already teaches handwashing for illness pr
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 2. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.4.1 and 14.4.5.
 - Handwashing steps, the 40 F to 140 F danger zone, and the two-hour rule follow the USDA Food Safety and Inspection Service and FoodSafety.gov public guidance ("Clean, Separate, Cook, Chill").
 - My own materials: the pre-cooked meat and eggs-only constraint from the supermarket menu documents decides which cross contamination examples are used.
@@ -128,4 +128,4 @@ Inside the building: the school nurse already teaches handwashing for illness pr
 - Common mistake: students think the danger zone is where food is safe because it has the word "zone" in it, like an end zone. Say it plainly twice: the danger zone is where bacteria are happy, so we keep food out of it, cold below 40 F or hot above 140 F.
 - Common mistake on the cards: the sandwich-in-the-backpack card splits every class. Let them argue, then give the rule: more than two hours in the zone, throw it out, unless it had an ice pack.
 - Glitter travels. Have the volunteer wash at the sink, not the counter, and wipe the spoon and bowl yourself. Choose a volunteer who will not mind being the "chicken" for a day; ask first.
-- The three sink pictures (wet and soap, scrub 20, dry and turn off with the towel) stay taped above the sink all year. Point at them at the start of every lab.
+- The six-picture handwashing strip (wet, soap, scrub 20, rinse, dry, turn off with the towel) stays taped above the sink all year. Point at it at the start of every lab.

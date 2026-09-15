@@ -1,6 +1,6 @@
 # Unit Plan Template (use for every unit)
 
-File name: `Unit NN - [Module] - [Topic].md` at the top of the unit folder. The unit folder also holds `Calendar NN.md`, every `Lesson NN.MM - [Title].md`, `Project NN - [Title].md`, `Rubric NN - [Title].md`, `Assessment NN.N - [Topic].md` files with answer keys, and `Vocabulary NN.md`. Slides and handouts live in.
+File name: `Unit NN - [Module] - [Topic].md` at the top of the unit folder. The unit folder also holds `Calendar NN.md`, every `Lesson NN.MM - [Title].md`, `Project NN - [Title].md`, `Rubric NN - [Title].md`, `Assessment NN.N - [Topic].md` files with answer keys, and `Vocabulary NN.md`. Slides and handouts live in `05 Materials/Unit NN/`.
 
 This follows a seven step unit planning method (identify content, organize and sequence, plan with the end in mind, knowledge and skills, objectives, timeline, lessons) with the pieces this project adds (standards lines, assessments, project and rubric, alternatives, connections). Written fresh.
 

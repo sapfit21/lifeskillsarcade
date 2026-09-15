@@ -55,7 +55,7 @@ Notes: two sentences each, stated as fact, no lecture. The last line is the one 
 
 ## Slide 7: Day 1. The journey of one sweatshirt
 
-- Seven cards. Put them in the order a sweatshirt could travel.
+- Eight cards. Put them in the order a sweatshirt could travel.
 - Then mark which cards are the end of the road.
 - WORN
 - DONATION BIN OR THRIFT SHOP

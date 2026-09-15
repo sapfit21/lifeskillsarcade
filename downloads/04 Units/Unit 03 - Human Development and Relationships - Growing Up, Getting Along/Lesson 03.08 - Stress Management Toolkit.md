@@ -17,7 +17,7 @@
 - CDOS Standard 3a Universal Foundation Skills: Personal Qualities
 - National FCS 3.0: 13.1.6 Show ways to manage stress at home, at work, and in the community.
 
-(The task asked for a 14.1.x competency. None of the five 14.1.x competencies in the 3.0 text names stress management; 14.1.1 is the closest and is already cited in Lesson 3.7. 13.1.6 is the confirmed stress management competency and is the one this lesson demonstrates.)
+(None of the five 14.1.x competencies in the 3.0 text names stress management; 14.1.1 is the closest and is already cited in Lesson 3.7. 13.1.6 is the confirmed stress management competency and is the one this lesson demonstrates.)
 
 ## Enduring understanding and essential question
 
@@ -98,9 +98,9 @@ Exit line on the bottom of the test sheet (turned in; the card is kept): 3 tools
 
 | Objective | Standards met | Learning task | Assessment (formative or summative; tool) |
 |---|---|---|---|
-| 1. Describe six tools and their steps | HDR 3. e); HSW 6. d) | Test sheet tool column, Step 1 and 2 | Formative; test sheet checked for six tools named; the steps for two tools return on the Unit 3 test |
+| 1. Describe six tools and their steps | HDR 3. e); HSW 6. d) | Test sheet tool column, Steps 1 and 2 | Formative; test sheet checked for six tools named; the steps for two tools return on the Unit 3 test |
 | 2. Test each tool, rate before and after, compare | HSW 6. d) and e); National FCS 13.1.6; CDOS 3a Personal Qualities | Six tool tests, Step 2; whiteboard number | Formative; clipboard checklist (rated, one word, tried or sat out with a reason) |
-| 3. Build a ranked toolkit card with a backup line | HDR 3. e); HSW 6. e); Std 2 KI | Toolkit card, Step 3 | Formative; card glanced for three tools, three situations, and a backup line (the student keeps it); the two tools on the card are the two tools required on the Stress Plan, the formal check for Topic 3.2, in Lesson 3.9 |
+| 3. Build a ranked toolkit card with a backup line | HDR 3. e); HSW 6. e); Std 2 KI | Toolkit card, Step 3 | Formative; card glanced for three tools, three situations, and a backup line (the student keeps it); two of the three tools on the card are the two tools required on the Stress Plan, the formal check for Topic 3.2, in Lesson 3.9 |
 
 ## Homework
 
@@ -112,9 +112,9 @@ Inside the building: the health teacher, if health teaches breathing or mindfuln
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 3. e). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 3. e). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 6. d) and 6. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 13.1.6.
 - Box breathing (four counts in, hold, out, hold) is a widely taught paced breathing pattern; the walk, list, music, talking, and sleep and food tools are the everyday coping strategies listed on the National Institute of Mental Health fact sheet on stress for teens ("I'm So Stressed Out," nimh.nih.gov).
 - My own materials: the sleep window from Lesson 2.6 and the self-talk swap from Lesson 3.5 are the two tools from earlier lessons that students may add to the card.

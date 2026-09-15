@@ -153,7 +153,7 @@ If the site is down, the Wi-Fi is down, or the class has no devices, the whole s
 
 **The leaderboard on paper.** The teacher (or two student clerks, by merchant number only) lists total fortune at the end of Day 8 on the board for the closing bell on Day 9.
 
-**Round 2 on paper.** Days 10 to 12 prices are in the price table. Same routine, ten minutes.
+**Round 2 on paper.** The three Round 2 days' prices are in the price table. Same routine, ten minutes.
 
 **What is lost and what is not.** Lost: the live ticker, the between-window suspense, and the site's own ledger export (the paper ledger is the export). Not lost: every decision, every number in the report, and every criterion on the rubric.
 
@@ -161,7 +161,7 @@ If the site is down, the Wi-Fi is down, or the class has no devices, the whole s
 
 # Teacher notes on the project
 
-- This is my Fortune Street simulation compressed from my 15-day plan (plus a Day 16 essay) to ten 40-minute lesson days and three ten-minute Round 2 windows. My Days 1 and 2 became Lesson 2.14; Day 3 became 2.15; Day 4 became 2.16; Days 5 and 6 (venture analysis and the pre-crisis audit) were folded into 2.15 Day 2 and 2.16; Days 7 and 8 became 2.17; Days 9, 10, and 11 became 2.18 (the Sharpe ratio idea in my Day 10 is cut; the grade 8 stretch keeps the "when you measure from" point); Day 12 (contrarian thinking) is cut; Days 13, 14, 15, and 16 became 2.19 and Round 2. Every one of his four rubric criteria is still on Rubric 02.
+- This is my Fortune Street simulation compressed from my 15-day plan (plus a Day 16 essay) to ten 40-minute lesson days and three ten-minute Round 2 windows. My Days 1 and 2 became Lesson 2.14; Day 3 became 2.15; Day 4 became 2.16; Days 5 and 6 (venture analysis and the pre-crisis audit) were folded into 2.15 Day 2 and 2.16; Days 7 and 8 became 2.17; Days 9, 10, and 11 became 2.18 (the Sharpe ratio idea in my Day 10 is cut; the grade 8 stretch keeps the "when you measure from" point); Day 12 (contrarian thinking) is cut; Days 13, 14, 15, and 16 became 2.19 and Round 2. Every one of my four rubric criteria is still on Rubric 02.
 - The reveal on Day 9 and the Round 2 windows on Days 11 to 13 are in that order because the scope and sequence places Topic 2.5 after Topic 2.4. Round 2 turns that constraint into a second experiment: does knowing what the ventures are change behavior? The Round 2 leaderboard on Day 13 answers it in front of the class.
 - The personal budget in part 7 copies from the summary lines table on page 3 of `Handout 02.09 - Budget Builder and Scenario Cards.md` (income, needs, savings, wants, total spending, balance), which uses the same six lines as the report template's revision table. The 2.9 budget is built from a scenario card, so the "Before" column is that card's person and the "After" column is the student's revision of it; the 2.9 handout already puts savings first, so the revision is a raise, a split, or a named place for the savings, not a first savings line.
 - Privacy: PIN cards, merchant numbers, no names on the site, no names on the leaderboard, the ledger export filed by number. The master list of who holds which number stays in the desk. A student who wants a trading-house name picks a fictional one.

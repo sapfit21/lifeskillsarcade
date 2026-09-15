@@ -1,7 +1,7 @@
 # Lesson 5.9: Repair Clinic, Hem, Seam, Patch
 
 **Unit:** Unit 5, Make It, Mend It, Wear It (Apparel and Textile Production and Design)
-**Topic:** 5.2 Hand Sewing Skills
+**Topic:** 5.2 Hand and Machine Sewing Skills
 **Grade:** 6 to 8 (written at grade 7; see Differentiation for the grade 6 support and grade 8 stretch)
 **Days:** 1 class period of 40 minutes (day 125 of the year)
 **Room:** FACS lab, three sewing stations of about seven students (a no-station version is below)
@@ -19,7 +19,7 @@ The Repair Clinic is the day the stitches become useful. Three stations, three r
 - National FCS 3.0: 16.4.5 Show the basic skills for making, altering, repairing, and recycling textiles and apparel.
 - National FCS 3.0: 16.5.2 Examine what it costs to construct, manufacture, distribute, alter, repair, or recycle textiles, fashion, and apparel.
 
-Note on the FCL citation: the task asked for an FCL line on the cost comparison. There is no FCL line that names repair against replacement. FCL 4. f), the decision-making model line, is the closest verbatim fit and is used, because repair or replace is a consumer decision run through a model; the cost comparison itself is carried by the state's own ATPD 4. a) and by National FCS 16.5.2. PSI 3. a) is added because diagnosing which repair a garment needs is literally the state's troubleshooting process, and this is the only lesson in the unit that uses it.
+Note on the FCL citation: the task asked for an FCL line on the cost comparison. There is no FCL line that names repair against replacement. FCL 4. f), the decision-making model line, is the closest verbatim fit and is used, because repair or replace is a consumer decision run through a model; the cost comparison itself is carried by the state's own ATPD 4. a) and by National FCS 16.5.2. PSI 3. a) is added because diagnosing which repair a garment needs is literally the state's troubleshooting process, and this is the first lesson in the unit that uses it.
 
 ## Enduring understanding and essential question
 
@@ -116,7 +116,7 @@ Out loud, station by station, one student per station holds up a finished repair
 ## Differentiation and supports
 
 - ELL: the three station cards are numbered picture steps with a picture described for each step, so a student can do the repair from the card alone; the diagnosis chart is a match, not writing. Word bank with Turkish, Portuguese, and Spanish for hem, seam, hole, patch, fix, cost, replace (see `Vocabulary 05.md`). The do now is photographs.
-- IEP and 504 (general): the split seam station is the easiest of the three and the one to steer a student toward if the period is going badly, because the old seam line does the guiding; pre-threaded, pre-knotted needles in the cushion; a garment can be clipped to a small clipboard or held in an embroidery hoop so it does not shift; extended time means a repair can be finished at the start of Lesson 5.10 while pattern pieces are being cut; a student may report the diagnosis orally. No student is required to bring anything from home, and nobody is asked whether they brought something.
+- IEP and 504 (general): the split seam station is the easiest of the three and the one to steer a student toward if the period is going badly, because the old seam line does the guiding; pre-threaded, pre-knotted needles in the cushion; a garment can be clipped to a small clipboard or held in an embroidery hoop so it does not shift; extended time means a repair can be finished at a side table during Lesson 5.11's work blocks or at a lunch period; a student may report the diagnosis orally. No student is required to bring anything from home, and nobody is asked whether they brought something.
 - Grade 6 support: the split seam station with the seam line already pinned, and one case on the decision sheet instead of two.
 - Grade 8 stretch: complete all three repairs, and then price the same three repairs at a local tailor or dry cleaner and compare their prices to the materials cost, computing what the labor is worth per hour. That is the real cost comparison behind ATPD 4. a) and it sets up Lesson 5.13.
 - UDL checkpoint used: multiple means of action and expression (three different repairs, student choice of which two, and the visible-or-hidden choice inside the patch station) and multiple means of engagement (an item from home is the highest-interest version of the task and it is optional).
@@ -140,10 +140,10 @@ Mathematics: the repair-or-replace sheet is unit cost and a break-even compariso
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 4. a); the community-agency repair-and-donate idea comes from that module's Career and Community Connections illustrative activity. Copy in.
-- NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. f); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines c. and d. Text per.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 4. a); the community-agency repair-and-donate idea comes from that module's Career and Community Connections illustrative activity. Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. f); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines c. and d. Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.5.2, per, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.5.2, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - The five-step decision model is the course's own, introduced in Unit 0: name the choice, list options, weigh each against what matters, decide, look back.
 - Hem stitch, seam repair, patching, and visible mending are standard practice. Written new for this course.
 

@@ -31,7 +31,7 @@ Answer: shape is flat, two-dimensional (a square window, a round mirror); form i
 ## Category 2: Principles of design
 
 **P1 (1 point).** Name three principles of design.
-Answer: any three of balance, proportion (scale), emphasis (focal point), rhythm, unity (harmony), variety.
+Answer: any three of balance, proportion (scale), emphasis (focal point), rhythm, unity (harmony), contrast.
 
 **P2 (1 point).** What is a focal point?
 Answer: the first thing the eye goes to in a room; the center of attention.

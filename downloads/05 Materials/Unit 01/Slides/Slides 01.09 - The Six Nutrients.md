@@ -12,7 +12,7 @@ Notes: Cold call three students, write their foods in a column on the board. Do 
 
 ## Slide 2: You already know some of this
 
-- On the pre-assessment, of of you named at least five nutrients.
+- On the pre-assessment, ___ of ___ of you named at least five nutrients.
 - So today we skip what you know.
 - We get to what your body DOES with each one.
 - And why your little cousin and your grandmother do not eat like you.

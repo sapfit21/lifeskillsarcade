@@ -3,7 +3,7 @@
 Lesson 2.17, two days. Day 1: slides 1 to 9. Day 2: slides 10 to 19. Set the market to window 25 before Day 1 so the crisis dispatch is the first thing on the screen.
 
 ## Slide 1: Do now (Day 1)
-- [The crisis dispatch, full text, pasted here from window 25. The ticker is visible under it.]
+- The crisis dispatch from window 25, in full, with the ticker under it.
 - Read it. Look at your total fortune.
 - Write one word for how you feel and one thing you want to do right now.
 - Do not trade yet.
@@ -43,7 +43,7 @@ Image: five icons in a row: a question mark, a list, a scale, a check mark, a mi
 - The teacher account: 70 percent in Sparkstone. Down 22 percent since the bell.
 - Name the choice: what to do with my Sparkstone.
 - Weigh: if it keeps falling / if it recovers / how I feel next week / does it fit my pie.
-- Decide: [teacher fills live]. One reason with a number.
+- Decide: filled in live on the board. One reason with a number.
 Notes: Model calmly. Students then fill their own grid. 10 minutes total for the step.
 
 ## Slide 8: Trading window
@@ -78,11 +78,13 @@ Notes: 6 minutes. Write the counts and a few numbers on the board. Do not declar
 - The big stock index fell about half over a year and a half.
 - It took about four years to get back to where it was.
 Image: a simple line graph falling from late 2007 to early 2009 and climbing back by 2013, no numbers on the axis except the years.
+
 ## Slide 13: A real crash, 2020
 - A virus closed most of the world in about a month.
 - The same index fell about a third in about five weeks.
 - It got back to where it was in about five months.
 Image: a line graph with a sharp V in early 2020.
+
 ## Slide 14: What held, both times
 - Government bonds. Savings accounts.
 - That is Crown Seal Notes and the Honeypot with the names changed.

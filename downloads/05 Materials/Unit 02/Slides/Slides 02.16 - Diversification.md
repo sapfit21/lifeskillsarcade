@@ -41,6 +41,7 @@ Image: a pie with one slice grown too big, an arrow, and the same pie trimmed ba
 - Portfolio C: mixed across six ventures.
 - Shock 1: a crash. Shock 2: a boom. Compute all three, both times. Rank them twice.
 - Pairs, calculators. 12 minutes.
+
 ## Slide 7: Debrief: the crash
 - A: 15,000. Lost 10,000.
 - B: 25,000. Lost nothing.

@@ -1,6 +1,6 @@
 # Slides 05.12: Comparing the Same Item Across Stores, Secondhand, and Online
 
-Lesson 5.12, two days (days 131 and 132). Slides 1 to 12 are Day 1. Slides 13 to 18 are Day 2. All prices to be refreshed before teaching.
+Lesson 5.12, one day (day 132). Slides 1 to 12, labeled Day 1, are the lesson. Slides 13 to 18, labeled Day 2, are the eight-item poster task, which the lesson names as the grade 8 stretch and the extension for a longer period. All prices to be refreshed before teaching.
 
 * * *
 

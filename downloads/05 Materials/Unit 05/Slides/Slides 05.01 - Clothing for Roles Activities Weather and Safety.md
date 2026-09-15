@@ -5,7 +5,7 @@ Slide outline for Lesson 5.1, one day, twelve slides. The real objects on the fr
 ## Slide 1: Make It, Mend It, Wear It
 
 - Unit 5 starts today
-- Four weeks: what we wear and why, hand sewing, smart shopping, and one upcycle project
+- Six weeks: what we wear and why, hand sewing, smart shopping, and one upcycle project
 - Nobody touches a needle for four more days
 - Today: what clothing has to do
 Image: a split picture, one side a folded stack of everyday clothes, the other side a sewing kit with a needle, pins, and thread.

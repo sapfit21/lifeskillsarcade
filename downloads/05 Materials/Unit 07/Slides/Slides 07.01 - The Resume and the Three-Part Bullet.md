@@ -1,6 +1,6 @@
 # Slides 7.1: The Resume and the Three-Part Bullet
 
-Slide outline for Lesson 7.1. Twelve slides, one day. Slides 6 and 7 (the weak-and-strong table and the three parts) become the reference slides for Lesson 7.2's drafting period, so keep them.
+Slide outline for Lesson 7.1. Twelve slides, one day. Slides 7 and 8 (the three parts and the weak-and-strong table) become the reference slides for Lesson 7.2's drafting period, so keep them.
 
 ## Slide 1: The Resume and the Three-Part Bullet
 

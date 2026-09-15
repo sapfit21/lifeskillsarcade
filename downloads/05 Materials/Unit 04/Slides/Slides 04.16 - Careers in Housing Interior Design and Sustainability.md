@@ -24,7 +24,7 @@ Notes: Do not give the thirteen away yet. Add each one to the board column as it
 - Interior designer: plans the layout, the furniture, the color, the light, the finishes
 - Sustainability consultant: picks the low-VOC paint and the LED lighting plan, files the rebate paperwork
 - Landscape designer: the ramp at the right slope, the handrail, a clear path outside
-Image: a chain of five linked icons: a drafting pen, a paint chip fan, a leaf on a blueprint, a tree and a path.
+Image: a chain of four linked icons: a drafting pen, a paint chip fan, a leaf on a blueprint, a tree and a path.
 Notes: Students fill the Project Chain sheet as you go. Say out loud what the interior designer did: exactly what they did in Project 04, for pay.
 
 ## Slide 4: The chain, part two: on site
@@ -103,7 +103,7 @@ Notes: Four students share a career and their evidence. Push anyone who says "it
 - What will a house designed in 2045 have that yours does not? What will it not need any more?
 - Every prediction on this board is somebody's job in ten years
 
-Notes: four minutes. Facts are stated as a direction, not a figure, so nothing on this slide goes stale. Take three predictions out loud and push each one to name its fact and its technology. Block the gadget answer with one question: "What has to change about the room for that to work?" This is where NYS EDM 2. e) is taught, and it is taught nowhere else in Unit 4, so it does not get cut for time.
+Notes: Four minutes. Facts are stated as a direction, not a figure, so nothing on this slide goes stale. Take three predictions out loud and push each one to name its fact and its technology. Block the gadget answer with one question: "What has to change about the room for that to work?" This is where NYS EDM 2. e) is taught, and it is taught nowhere else in Unit 4, so it does not get cut for time.
 Image: two small line drawings side by side, the same room in plan view, one labeled "now" with a chimney and a narrow doorway, one labeled "2045" with a no-step entrance, a wide doorway, and a small mechanical closet.
 
 ## Slide 13: The bridge

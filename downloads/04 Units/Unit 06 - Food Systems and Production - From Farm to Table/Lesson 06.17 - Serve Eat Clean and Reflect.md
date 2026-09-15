@@ -18,7 +18,7 @@
 - NYS FACS Learning Standard 1 (Intermediate), Key Idea: Students will use an understanding of the elements of good nutrition to plan appropriate diets for themselves and others. They will know and use the appropriate tools and technologies for safe and healthy food preparation.; Performance Indicator: Students understand the relationships among diet, health, and physical activities; evaluate their own eating patterns; and use appropriate technology and resources to make food selections and prepare simple, nutritious meals.
 - CDOS Standard 3a Universal Foundation Skills: Interpersonal Skills. Students demonstrate the ability to work with others, present facts that support arguments, listen to dissenting points of view, and reach a shared decision.
 - National FCS 3.0: 14.3.3 Show the ability to select, store, prepare, and serve food that is nourishing and looks good on the plate.
-- National FCS 3.0: 8.5.12 Plate, garnish, and present food to a professional standard. (Confirmed in the 3.0 text in, Area 8; cited in the crosswalk's N&W 1. h) row.)
+- National FCS 3.0: 8.5.12 Plate, garnish, and present food to a professional standard. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8; cited in the crosswalk's N&W 1. h) row.)
 - National FCS 3.0: 8.5.13 Build sustainability into food work, from menu planning and buying through preparation, service, storage, recycling, and waste. (Confirmed in the 3.0 text; cited in the crosswalk's FSP 4. a) row.)
 
 ## Enduring understanding and essential question
@@ -68,7 +68,7 @@ Debrief: take the planned number and the actual number from two students and wri
 
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
-| 1. Set the room: 30 covers | Put the Lesson 6.11 place setting diagram on the screen. Assign one station per table area. Give the two rules again: the fork on the left, the spoon on the right, the napkin under the fork or on the plate, the cup above and to the right, everything one inch from the edge. Walk the tables once and ask the "why" question at three settings. | Set 30 covers by the diagram. One student per table checks every cover against the diagram and fixes what is wrong. Answer the why question: the fork is on the left because most people hold the fork in the left hand while cutting, and the cup is on the right because most people reach with the right. | 7 min |
+| 1. Set the room: 30 covers | Put the Lesson 6.11 place setting diagram on the screen. Assign one station per table area. Give the rules again: the fork on the left, the spoon on the right, the napkin under the fork or on the plate, the cup above and to the right, everything one inch from the edge. Walk the tables once and ask the "why" question at three settings. | Set 30 covers by the diagram. One student per table checks every cover against the diagram and fixes what is wrong. Answer the why question: the fork is on the left because most people hold the fork in the left hand while cutting, and the cup is on the right because most people reach with the right. | 7 min |
 | 2. Plate and serve, others first | Read the allergen box for the final course aloud yourself, or have the Station Manager who wrote it do it. Then state the serving order out loud: guests first, then teammates, then yourself. Stand at the serving table. Score the serving on the clipboard. | Plate Builders plate the final course. Servers carry to the tables. Everyone waits until every cover is served before anyone eats. The host at each table says one sentence to start the meal, in the form taught in Lesson 6.11. | 6 min |
 | 3. Eat together, and the table question | Sit and eat. Ask one question at each table and listen without correcting: "What is one thing about this meal that you would tell somebody at home?" | Eat. Answer at the table. Pass the serving dishes rather than reaching. | 6 min |
 | 4. Clean by zones and the waste count | Call the reset cue. Assign the four zones by station: (1) tables and covers, (2) sink and dishes, (3) surfaces, stove, and oven area, (4) floor, trash, recycling, and the waste count. Zone 4 weighs or measures the food thrown away and writes the number next to the Lesson 6.3 waste audit number still posted. Walk the four station checks and sign each sheet. | Clean the assigned zone. Return every tool to its labeled place. Zone 4 counts the waste and posts the number. Bring the station check sheet for a signature. | 7 min |
@@ -133,12 +133,12 @@ Inside the building: the cafeteria manager again, and this time with a number. F
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a) and 5. d). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a) and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness, lines 1. g) and 1. i). Same folder.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, line 6. f); Theme Module 04, Health, Safety, and Wellness, line 4. e); Theme Module 06, Sustainability, line 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
-- CDOS Intermediate Standard 3a, Interpersonal Skills, per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.12, 8.5.13, and 14.3.3, per.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
+- CDOS Intermediate Standard 3a, Interpersonal Skills, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.12, 8.5.13, and 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
 - The 165 F reheating temperature and the two-hour rule are the USDA Food Safety and Inspection Service figures used all year.
 - My own materials: the place setting and food sharing content comes from Lesson 6.11 in this unit; the four-zone clean up and the station check are from (the 45 to 50 minute CLEAN UP row: "Wash pot + utensils, Wipe stove + counter, Sweep floor, Empty trash, Return supplies") and the "what does done look like" checklists in.
 

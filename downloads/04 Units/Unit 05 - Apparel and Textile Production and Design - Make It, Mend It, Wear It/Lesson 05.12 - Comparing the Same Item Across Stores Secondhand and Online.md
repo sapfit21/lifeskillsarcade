@@ -92,7 +92,7 @@ Clipboard checklist during Step 2: for each student, a yes or no on "counted sti
 ## Differentiation and supports
 
 - ELL: the four vendor types are on the wall with a picture each (a big-box aisle, a mall storefront, a thrift rack, a phone screen with a listing); the handout's inspection table is a checkbox grid so a student can record a result without writing a sentence; the Turkish, Portuguese, and Spanish words for price, quality, shipping, return, and size are on the handout word bank and in `Vocabulary 05.md`; sentence frames on the poster template: "We recommend item ___ for ___ because ___." and "Item ___ lost because ___."
-- IEP and 504 (general): work in a station of about seven so no one records alone; the eight-item sheet is also printed as four items for any student who needs a shorter field, with a note that the reduced set is still scored the same way; extended time to finish the inspection table in the first five minutes of Day 2; a calculator for every student on Day 2, not just one per pair; a student who does not speak in the defense may point to the line on the poster while a station partner reads it.
+- IEP and 504 (general): work in a station of about seven so no one records alone; the eight-item sheet is also printed as four items for any student who needs a shorter field, with a note that the reduced set is still scored the same way; extended time to finish the inspection table in the first five minutes of Lesson 5.13; a calculator for every student, not just one per pair; a student who does not speak in the defense may point to the line on the poster while a station partner reads it.
 - Grade 6 support: the buyer choice runs on garments A and C only, and the defense needs the item, the total, and one quality reason.
 - Grade 8 stretch: run the buyer choice on the eight-item price and spec sheet in the handout instead of the four garments, compute cost per wear for two finalists (this previews Lesson 5.13), and answer one extra line: "If your buyer could wait three weeks, does the answer change? Show the math."
 - UDL checkpoint used: multiple means of representation (the garment in hand, the slide photo, and the spec sheet all say the same thing three ways) and multiple means of action and expression (a poster, a spoken defense, or pointing while a partner reads all count as the defense).
@@ -118,16 +118,16 @@ Math: the landed cost and the price comparison are unit rate and percent work, t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. e), 1. f), 4. a), 4. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. e), 1. f), 4. a), 4. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Financial and Consumer Literacy, lines 4. f) and 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and Standard 2 PI on clothing selection. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.5.2 and 2.1.4, per, sections 4.2 and 4.16.
--, Part B.3 (ATPD rows) and Part E.3 (the Standard 2 and Standard 3 note).
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and Standard 2 PI on clothing selection. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.5.2 and 2.1.4, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.16.
+- `02 Standards/STANDARDS CROSSWALK.md`, Part B.3 (ATPD rows) and Part E.3 (the Standard 2 and Standard 3 note).
 - Prices and specifications on `Handout 05.12` are realistic 2026 Long Island figures written for this lesson, every one to be refreshed before teaching.
 
 ## Teacher notes
 
-- This lesson ran two days before the 2026-09-14 revision; the second day was the eight-item poster task and a spoken defense. The machine block in Topic 5.2 took that day (D19), which the unit had already named as the first day to cut. The written five-line defense keeps every standards line; the eight-item sheet stays in the handout as the grade 8 stretch, and a 45-minute period or a double gets the spoken defense back. The archived two-day version is in beside the other pre-revision files. Never cut Step 3; the hidden costs are the part students have never been taught.
+- This lesson ran two days before the 2026-09-14 revision; the second day was the eight-item poster task and a spoken defense. The machine block in Topic 5.2 took that day (D19), which the unit had already named as the first day to cut. The written five-line defense keeps every standards line; the eight-item sheet stays in the handout as the grade 8 stretch, and a 45-minute period or a double gets the spoken defense back. The archived two-day version is kept beside the other pre-revision files. Never cut Step 3; the hidden costs are the part students have never been taught.
 - Common mistake: students count the stitches on the outside topstitching instead of the seam that holds the garment together. Show both on garment A and name the difference before the rotation starts.
 - Second common mistake: students treat the lowest tag price as the answer for every buyer. The buyer cards exist to break that. If a station recommends the cheapest item for the two-winter buyer, ask them to say out loud how many winters a seven-ounce fleece survives being washed weekly.
 - The secondhand garment does the most teaching in this lesson. Pick one that is genuinely good: heavy cotton, tight stitching, one small flaw. The lesson lands when students realize the best-made sweatshirt on the table was also the cheapest and that the flaw is the reason.

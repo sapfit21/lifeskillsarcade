@@ -123,7 +123,7 @@ Day 2: the closing round in Step 4 is the closure. Collect every comparison page
 |---|---|---|---|
 | 1. Name the five factors with an example each | FSP 2. b); National FCS 14.1.4 | Five factors page, Day 1 Step 1; exit card | Formative; exit card sorted; the factor must be named, not described as "culture" |
 | 2. Research one dish and complete the card | FSP 2. a); CDOS 3a Managing Information; National FCS 14.1.2 | Research card, Day 1 Step 3; presentation, Day 2 Step 1 | Formative; card scored complete, partial, or missing for daily work, with the source line required. The ninety-second presentation is checked against the four card boxes |
-| 3. Compare three versions and explain why they differ | FSP 2. b); CIR 6. d) and f); N&W 1. i); Std 1 PI A and PI C; National FCS 6.2.4 | Comparison page, Day 2 Step 2; the questions asked in Step 1 | Formative; the comparison must name two of the five factors. Assessed summatively on the Cooking Methods Check, item 12, and again on the Unit 6 test |
+| 3. Compare three versions and explain why they differ | FSP 2. b); CIR 6. d) and f); N&W 1. i); Std 1 PI A and PI C; National FCS 6.2.4 | Comparison page, Day 2 Step 2; the questions asked in Step 1 | Formative; the comparison must name two of the five factors. Assessed summatively on the Unit 6 test |
 
 ## Homework
 
@@ -135,10 +135,10 @@ Social studies: the spice trade, the Columbian exchange, and migration patterns 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness, line 1. i). Same folder. Cited because no FSP line names cultural food practices; see the note in the Standards block.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 6. d) and 6. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Information. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.1.2, 14.1.4, and 6.2.4.
 - The FSP module's own Career and Community Connections illustrative activity, Community Food Festivals, is the source of this lesson's shape.

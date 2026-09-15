@@ -6,7 +6,7 @@
 **Days:** 2 class periods of 40 minutes (days 104 and 105 of the year)
 **Room:** classroom or FACS lab, flat tables, a wall with a door and at least one window to measure
 
-Day note: the unit calendar and the unit plan place this lesson on days 104 and 105, with the Design Vocabulary Check in the last 12 minutes of Day 2 and Lesson 4.11 fixed on day 106. The writing task that produced this file said days 106 to 107. Days 104 and 105 are correct. This is the lesson Lesson 4.12 depends on: everything Lesson 4.12 Day 1 assumes a student already knows (the symbols, the door swing, the scale, the zones) is taught here, and the daily floor plan do now that runs through Lesson 4.14 starts here.
+Day note: the unit calendar and the unit plan place this lesson on days 104 and 105, with the Design Vocabulary Check in the last 12 minutes of Day 2 and Lesson 4.11 fixed on day 106. This is the lesson Lesson 4.12 depends on: everything Lesson 4.12 Day 1 assumes a student already knows (the symbols, the door swing, the scale, the zones) is taught here, and the daily floor plan do now that runs through Lesson 4.14 starts here.
 
 ## Standards
 
@@ -21,7 +21,7 @@ Day note: the unit calendar and the unit plan place this lesson on days 104 and 
 - National FCS 3.0: 11.4.2 Judge floor plans for efficiency and safety: zones, traffic patterns, storage, and the electrical, plumbing, ventilation, and heating systems.
 - National FCS 3.0: 11.2.4 Design housing, interiors, and furnishings around how people behave, move, and measure.
 
-Note on the theme line: the crosswalk's EDM 2. b) row offers CTE PSI 2. Design Process (Proactive) a) f., "Developing and constructing a prototype or model of the selected design." Nothing is built today, and that line is cited where it belongs, on Lesson 4.14. PSI 2. b), the practice line, and sub-lines d. and h. are what this lesson actually does, so those are cited instead. Note on the National FCS lines: all three are confirmed word for word in, section 4.11. Note on the NYS FACS performance indicator: the crosswalk assigns Standard 2, the key idea, and PI B to all five EDM 2 lines, so PI B is quoted above.
+Note on the theme line: the crosswalk's EDM 2. b) row offers CTE PSI 2. Design Process (Proactive) a) f., "Developing and constructing a prototype or model of the selected design." Nothing is built today, and that line is cited where it belongs, on Lesson 4.14. PSI 2. b), the practice line, and sub-lines d. and h. are what this lesson actually does, so those are cited instead. Note on the National FCS lines: all three are confirmed word for word in `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11. Note on the NYS FACS performance indicator: the crosswalk assigns Standard 2, the key idea, and PI B to all five EDM 2 lines, so PI B is quoted above.
 
 ## Enduring understanding and essential question
 
@@ -42,7 +42,7 @@ Tier 3 (FACS): floor plan, symbol, door swing, scale (1/4 inch = 1 foot), zone (
 
 ## Materials and setup
 
-- Handout, one per student (four parts, printed double sided): `Handout 04.10 - Floor Plan Symbols Graph Paper Guide and Furniture Cut-Outs.md`
+- Handout, one per student (five parts, printed double sided): `Handout 04.10 - Floor Plan Symbols Graph Paper Guide and Furniture Cut-Outs.md`
 - Quarter-inch graph paper: five sheets per student across the two days (one for sketch 1, one for the classroom plan with sketch 2 on its back, one for sketch 3, one for the bedroom plan, one for sketch 4) plus spares. That keeps the unit's total at about 14 sheets per student for the whole project: five here, seven for sketches 5 to 11, two for the project plan
 - Rulers marked in quarter inches, one per student
 - Pencils with erasers, one per student. This lesson is pencil only. No pens.
@@ -146,10 +146,10 @@ Math: this is ratio and scale drawing, the grade 7 standard, done on a real room
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a), 2. b), and 2. c). Copy in.
-- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) sub-lines d. and h., and line 2. b). Text per.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a), 2. b), and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) sub-lines d. and h., and line 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.3, 11.4.2, and 11.2.4, per, section 4.11.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.3, 11.4.2, and 11.2.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
 - Clearances: the 2010 ADA Standards for Accessible Design (ada.gov), section 403.5.1 (36-inch clear width) and section 304.3 (60-inch turning space). The 30-inch general path and the furniture dimensions on the cut-out sheet are common residential planning figures, not code lines, and the handout says so.
 - My own materials: (the floor plan idea and the scale drawing of your own bedroom) and my other interior design packets. The classroom measuring task, the eleven-symbol legend, the zones, and the daily sketch stack are new.
 

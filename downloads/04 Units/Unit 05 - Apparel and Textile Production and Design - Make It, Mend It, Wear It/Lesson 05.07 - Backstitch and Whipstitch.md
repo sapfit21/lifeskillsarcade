@@ -1,12 +1,12 @@
 # Lesson 5.7: Backstitch and Whipstitch
 
 **Unit:** Unit 5, Make It, Mend It, Wear It (Apparel and Textile Production and Design)
-**Topic:** 5.2 Hand Sewing Skills
+**Topic:** 5.2 Hand and Machine Sewing Skills
 **Grade:** 6 to 8 (written at grade 7; see Differentiation for the grade 6 support and grade 8 stretch)
 **Days:** 1 class period of 40 minutes (day 123 of the year)
 **Room:** FACS lab, three sewing stations of about seven students (a no-station version is below)
 
-Two stitches today, and the reason for both is the same: a running stitch is not strong enough to hold a seam that a person is going to wear, wash, and pull on. The backstitch is the strong seam. The whipstitch joins two edges. Between the two of them a student can build the pouch in Lesson 5.10 and fix a split seam in Lesson 5.9.
+Two stitches today, and the reason for both is the same: a running stitch is not strong enough to hold a seam that a person is going to wear, wash, and pull on. The backstitch is the strong seam. The whipstitch joins two edges. Between the two of them a student can build the pouch in Lesson 5.11 and fix a split seam in Lesson 5.9.
 
 ## Standards
 
@@ -99,7 +99,7 @@ Deepen learning:
 
 ## Check for understanding
 
-Clipboard with four boxes per student, checked during Steps 2 and 3: backstitch goes back into the last hole (the one thing that makes it a backstitch), two inches of backstitch done, whipstitch goes over the edge through both layers, two inches of whipstitch done. The backstitch box is the gate for Lesson 5.10, because the pouch seams are backstitched. Any student missing it gets three minutes at my table at the start of Lesson 5.8 with the chant and my hands next to theirs, not on theirs.
+Clipboard with four boxes per student, checked during Steps 2 and 3: backstitch goes back into the last hole (the one thing that makes it a backstitch), two inches of backstitch done, whipstitch goes over the edge through both layers, two inches of whipstitch done. The backstitch box is the gate for Lesson 5.11, because the pouch seams are backstitched. Any student missing it gets three minutes at my table at the start of Lesson 5.8 with the chant and my hands next to theirs, not on theirs.
 
 ## Closure (Time: 4 min, inside Step 4)
 
@@ -107,7 +107,7 @@ Exit card, three lines: (1) why a running stitch is not strong enough for a seam
 
 ## Differentiation and supports
 
-- ELL: both stitches are demonstrated twice, large then small, before words matter. The handout is a numbered step card with a picture described for each step, so the sheet alone is enough. The backstitch chant, "back into the last hole, forward one," is six words and works in any accent. Word bank with Turkish, Portuguese, and Spanish for seam, strong, edge, join, back, over (see `Vocabulary 05.md`).
+- ELL: both stitches are demonstrated twice, large then small, before words matter. The handout is a numbered step card with a picture described for each step, so the sheet alone is enough. The backstitch chant, "back into the last hole, forward one," is seven words and works in any accent. Word bank with Turkish, Portuguese, and Spanish for seam, strong, edge, join, back, over (see `Vocabulary 05.md`).
 - IEP and 504 (general): pre-threaded, pre-knotted needles in the cushion, taken without asking; a student who cannot manage the backstitch's return-to-the-hole precision does the whipstitch first, where the edge guides the needle, and comes back to the backstitch with the printed dotted seam line as the guide; printed step cards at every station; extended time means the whipstitch can be finished in the first minutes of Lesson 5.8; a student may prove Objective 1 orally instead of on the handout.
 - Grade 6 support: the backstitch is sewn on the printed dotted seam line where the dots mark exactly where the needle goes down and comes up, so the pattern is a matter of hitting marks. One inch of each stitch is enough today.
 - Grade 8 stretch: sew the backstitch, then turn the cloth over and evaluate the back, then sew a second seam with a smaller stitch length and compare strength by pulling both; write two sentences on what stitch length does to strength and to speed. That is a real tradeoff and it is the kind of judgment the Exceeds column of the sampler check is looking for.
@@ -132,10 +132,10 @@ Technology and engineering: the running stitch versus backstitch comparison is a
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Problem Solving and Innovation, line 2. b). Text per.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Problem Solving and Innovation, line 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.2.7, per, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.2.7, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
 - Backstitch and whipstitch step sequences are standard hand sewing technique. Written new for this course.
 
 ## Teacher notes

@@ -99,7 +99,7 @@ Open your Lesson 2.1 sort sheet. Look at your top three values.
 
 Would career 1 let me keep my top three values? Circle: Yes / Probably / No. Which value might it fight, and why? ______________________________________________________
 
-Grade 8 stretch: for each career, write which of the 16 career clusters it belongs to (slide 9) and what education it needs after high school: none, a certificate, a two-year degree, a four-year degree, or more.
+Grade 8 stretch: for each career, write which of the 16 career clusters it belongs to (slide 19) and what education it needs after high school: none, a certificate, a two-year degree, a four-year degree, or more.
 
 ## Exit card
 

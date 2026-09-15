@@ -53,7 +53,7 @@ Image: a bar split into three colored blocks, 50, 30, 20.
 Notes: Put three students' numbers on the board.
 
 ## Slide 9: What you found
-- [three students' weekly small-want totals, times 4]
+- Three students' weekly small-want totals, times 4
 - Nobody feels a $3 snack. Everybody feels $144 a year.
 Notes: Fill in live.
 

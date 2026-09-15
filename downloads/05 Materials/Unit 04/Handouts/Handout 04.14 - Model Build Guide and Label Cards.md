@@ -65,7 +65,7 @@ Picture 7: a card bed with a fabric blanket next to the plan showing the same be
 **Day 3, Step 8. The labels.** Fill the three cards on page 3 and glue them to the inside wall or the rim:
 - GREEN: one green choice from Lesson 4.5 and why it matters for this client.
 - SAFE: one safety feature from Lesson 4.2 and why it matters for this client.
-- WHY: two sentences. Sentence one: the biggest design choice and the client need it serves. Sentence two: the principle of design it uses (balance, focal point, rhythm, proportion, emphasis, unity).
+- WHY: two sentences. Sentence one: the biggest design choice and the client need it serves. Sentence two: the principle of design it uses (balance, focal point, rhythm, proportion, unity, contrast).
 
 **Day 3, Step 9. The client card** goes on the outside of the box, front wall. **The scale** is on the rim. **Your names** on masking tape on the bottom.
 
@@ -103,7 +103,7 @@ Frame: "This is ___. It is safe because the client ___."
 
 The biggest design choice in this room is ______________________________, and it serves the client's need for ______________________________.
 
-It uses the principle of ______________________ (balance / focal point / rhythm / proportion / emphasis / unity) because ______________________________.
+It uses the principle of ______________________ (balance / focal point / rhythm / proportion / unity / contrast) because ______________________________.
 
 ### ACCESSIBLE (grade 8 stretch, optional)
 

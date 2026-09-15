@@ -74,8 +74,6 @@ Hook: hold up a jeans leg from the bin. "This is trash right now. In three class
 
 Day total: 4 (the do now) plus 6 plus 10 plus 5 plus 10 plus 5 = 40 minutes.
 
-Total: 4 plus 6 plus 10 plus 5 plus 10 plus 5 = 40 minutes.
-
 ## The sourcing plan (read aloud in the closure)
 
 Three ways to get your material, and nobody is stuck:
@@ -115,7 +113,7 @@ One line on the bottom of the brief: "My item starts as ___ and becomes ___ for 
 - Grade 6 support: choose from the five Easy paths only, and the brief's steps are given as three printed steps to put in order rather than written from scratch. The material is chosen from the pre-sorted pile, not the whole bin.
 - Grade 8 stretch: design a path that is not on the menu, with the teacher's approval, and write it up with the same four fields plus a sketch with measurements. Also answer one extra line on the brief: "What is the one measurement that, if I get it wrong, ruins this?" A stretch student may also write a two-line cost comparison, the cost of making it against the price of buying it, which is ATPD 4. a) directly.
 - UDL checkpoint used: multiple means of engagement (ten paths at two difficulty levels, plus a design-your-own option, so every student has a real choice) and multiple means of action and expression (the brief as writing, as a labeled drawing, or dictated to the teacher).
-- No-machine alternative: this whole project is hand sewing. Nothing in the ten paths needs a machine at any point. If machines exist in the room and a student asks, the answer is that the machine is the optional extension in Lesson 5.11 and the project is scored on hand stitches.
+- No-machine alternative: every path in this project can be built by hand. Nothing in the ten paths needs a machine at any point. If machines exist in the room, they are open on the build days under the Lesson 5.10 rules, and a machine seam counts as one of the two taught joins, as constraint 3 says.
 
 ## Assessment
 
@@ -137,10 +135,10 @@ Science and technology education: the design process in this lesson is the same 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. d) and 4. a). Copy in.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. d) and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Problem Solving and Innovation 2. a) a. to d.; Sustainability 1. e). Same folder. The Sustainability module's Family and Consumer Sciences illustrative activity names a recycle, upcycle, or repurposing project and gives recycling t-shirts into reusable shopping bags as its example, which is path 1 on the idea menu.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 2.2.3, per, sections 4.2 and 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 2.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.16.
 - `Project 05 - Upcycle Challenge.md` and `Rubric 05 - Upcycle Challenge.md` (same folder).
 
 ## Teacher notes

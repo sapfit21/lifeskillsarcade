@@ -139,13 +139,13 @@ Counseling and career education: the self-check and the pathway sort are the sam
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 5. a) and 5. b). Copy in.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 5. a) and 5. b). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Modules: Career and Community Opportunities 2. a) and 4. a); Sustainability 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, PI on abilities and interests as guides to career choice. Wording per, section 2.
-- CDOS Standard 1 (Intermediate), verbatim per, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.1.1, 16.1.2, 16.1.3, and 1.2.1, per, sections 4.1 and 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, PI on abilities and interests as guides to career choice. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- CDOS Standard 1 (Intermediate), verbatim per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.1.1, 16.1.2, 16.1.3, and 1.2.1, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.1 and 4.16.
 - Job descriptions on the career cards are written for this lesson in plain language.
-- (retake rule and category weights).
+- `03 Course Design/03 Grading Plan.md` (retake rule and category weights).
 
 ## Teacher notes
 

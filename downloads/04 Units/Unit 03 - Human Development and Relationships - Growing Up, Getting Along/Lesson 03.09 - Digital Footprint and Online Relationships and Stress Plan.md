@@ -20,7 +20,7 @@
 - National FCS 3.0: 13.3.6 Examine how technology changes communication at home, at work, and in the community.
 - National FCS 3.0: 13.1.4 Examine what makes relationships healthy and what makes them unhealthy.
 
-(The task asked for a CIR 5. line on digital or online communication. The Peer Relationships topic has none; CIR 1. b) is the theme's only line that names digital communication and is cited as the task allowed. HSW 5. e) is the "who to tell" line. Both National FCS numbers are confirmed in the 3.0 text.)
+(The CIR 5. Peer Relationships topic has no line on digital or online communication; CIR 1. b) is the theme's only line that names digital communication and is cited instead. HSW 5. e) is the "who to tell" line. Both National FCS numbers are confirmed in the 3.0 text.)
 
 ## Enduring understanding and essential question
 
@@ -125,16 +125,16 @@ Inside the building: the technology coordinator, who owns the school's acceptabl
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 2. d), 3. e), and 4. a). Copy in.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 2. d), 3. e), and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 1. b); Theme Module, Health, Safety, and Wellness, line 5. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.6 and 13.1.4.
 - My own materials: the "digital footprint detective" packet (from my personal branding packets) supplies the definition, the "deleting removes your copy, not theirs" point, the two-applicants story, and the footprint audit; the "online you vs the real you" packet supplies the privacy boundary idea. Both are rewritten here without the branding language; the fictional students are new.
-- Grading pattern: (topic assessments, one retake).
+- Grading pattern: `03 Course Design/03 Grading Plan.md` (topic assessments, one retake).
 
 ## Teacher notes
 
 - The Stress Plan needs its full 10 minutes. If the period runs short, cut Step 2 to four scenarios and Step 3 to the tell list only. Never cut the plan.
 - Common mistake: a student writes a real person's name in the "person to talk to" line. Hand it back to change to a role before scoring; the plan goes in a folder that other people may see.
-- The online friend red flags will produce a question you did not plan for. Answer the general version, then say "and that specific one goes to [the counselor] today, with me if you want." Then go.
+- The online friend red flags will produce a question you did not plan for. Answer the general version, then say "and that specific one goes to the counselor today, with me if you want." Then go.
 - The phone boundary is the line students resist most and remember longest. Ask in Lesson 3.10's do now whether it held.

@@ -14,7 +14,7 @@
 - CTE CIR 1. Communication f) Demonstrate personal development of communication skills through practice of these skills in a variety of classroom applications
 - CTE HSW 3. Personal Safety c) Summarize common causes of intentional and unintentional injury and describe associated prevention strategies
 - NYS FACS Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.; PI: Students demonstrate the principles of safe and healthy childcare.
-- CDOS 3a Universal Foundation Skills: Thinking Skills; Interpersonal Skills; Managing Resources
+- CDOS 3a Universal Foundation Skills: Thinking Skills; Interpersonal Skills; Managing Resources; Managing Information
 - National FCS 3.0: 12.1.1 Examine physical, emotional, social, moral, and cognitive development.
 
 * * *

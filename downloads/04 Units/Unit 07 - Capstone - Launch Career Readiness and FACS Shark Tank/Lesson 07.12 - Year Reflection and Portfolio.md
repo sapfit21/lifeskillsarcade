@@ -118,7 +118,7 @@ The closing round is the closure and it is the end of the course. One sentence e
 
 - ELL: the twelve checklist items and the four reflection prompts are printed in Turkish, Portuguese, and Spanish on the handout, from `Vocabulary 07.md`, and **the reflection may be written entirely in the home language**, with one sentence in English on the front of the folder. That is a deliberate choice: the reflection's purpose is the thinking, not the English, and the resume in the same folder is already in English. Sentence frames in all four languages for all four prompts ("In September I could not ___. Now I can ___." / "The hardest thing was ___ because ___." / "I am proudest of ___ because ___." / "I will use ___ in ___ when I ___.").
 - IEP and 504 (general): the checklist is a checkbox list, so assembling the folder requires no writing; a student may dictate the twelve proof lines and the four reflection answers to the teacher or to a partner who writes; the reflection may be answered in two prompts instead of four, with prompts 1 and 4 required; the counter piles are sorted by unit so no student has to search a crate; extended time at lunch on the last day for any student who wants to finish, with the room open; the closing round allows a pass with no explanation and no return required.
-- Grade 6 support: eight checklist items instead of twelve (the resume, the three-part answer, the pitch materials, and one artifact from four units of their choosing) and two reflection prompts, 1 and 4. Grade 6 proof lines may be a phrase rather than a sentence.
+- Grade 6 support: eight checklist items instead of twelve (the resume, the three-part answer, the pitch materials, the numbers page, and one artifact from four units of their choosing) and two reflection prompts, 1 and 4. Grade 6 proof lines may be a phrase rather than a sentence.
 - Grade 8 stretch: the fifth prompt; a one-paragraph cover letter drafted to a real local place that hires at 14 to 16, using the resume already in the folder; and a written answer to a sixth question, which is the career plan line the state asks for: name one career you would try, one you ruled out this year, and the first thing after eighth grade that gets you closer to the first one. That last piece is where CCO 4. d) lands honestly at this age.
 - UDL checkpoints used: multiple means of action and expression (the portfolio can be assembled by checking boxes, the proof lines and reflection can be written, typed, dictated, or written in a home language) and multiple means of engagement (the student chooses which artifact represents each unit, which makes the folder theirs rather than a teacher's inventory).
 - No-presentation accommodation: the closing round allows a pass with no explanation. A student may hand the teacher a sentence on a card and the teacher reads it without a name, or not at all. Nobody is required to speak on the last day of school.
@@ -145,10 +145,10 @@ Inside the building: the school counselor, who should get a copy of the portfoli
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 1. c), 2. d), 3. d), and 5. a).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 4. b) and 4. d); Theme Module 05, Problem Solving and Innovation, line 2. a) i.
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 1. Wording per.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 1. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 3.1.5 and 1.1.6.
 - My own materials: the Career Readiness portfolio is the summative assessment named in my own interview lesson, where the revised "tell me about yourself" answer "becomes part of the unit-end Career Readiness portfolio, which is the unit's summative assessment." This lesson builds the folder that lesson promised.
-- The course's own grading plan: "There is no separate final exam; the capstone project and the year reflection serve as the final."
+- The course's own grading plan (`03 Course Design/03 Grading Plan.md`): "There is no separate final exam; the capstone project and the year reflection serve as the final."
 
 ## Teacher notes
 

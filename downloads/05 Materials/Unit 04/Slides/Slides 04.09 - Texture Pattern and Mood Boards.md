@@ -84,7 +84,7 @@ Notes: Combination 4, everything shiny, is the one that splits a class. Let the 
 - Draw a card from the cup. It gives you a room and a mood.
 - Four pieces on your board. Four. Not nine.
 - One for color, one for texture, one for pattern, one object cut from a magazine
-- Plan the four in the Part 3 grid in pencil first, then cut and glue
+- Plan the four in the Part 4 grid in pencil first, then cut and glue
 - Room and mood at the top. One sentence at the bottom.
 - "For a ___ room I chose ___ because it feels ___ and the ___ pattern keeps it ___"
 Image: a finished half-sheet board with four pieces and a sentence at the bottom.

@@ -158,7 +158,7 @@ Unused letters in item 6: E (iron on low heat), F (do not dry clean).
 | 21 to 24 | Solid on fibers and care | Nothing. Give the grade 8 stretch on the retake day instead of a retake. |
 | 16 to 20 | Solid on one part, shaky on the other | Two minutes at the elbow during Lesson 5.5's do now on whichever part fell short. |
 | 11 to 15 | The symbols did not stick | Retake after a review. The review is the symbol chart plus the basket sort again, five minutes at the start of Lesson 5.6. |
-| 10 and under | Needs a different route | Retake given orally, one on one, during the Lesson 5.10 build days, using real garments and real tags instead of paper. |
+| 10 and under | Needs a different route | Retake given orally, one on one, during the Lesson 5.11 build days, using real garments and real tags instead of paper. |
 
 ## Retake rule
 

@@ -64,6 +64,7 @@ Notes: These are the PSI Design Process lines. Name them; the same four steps sh
 - Your kit builds that one thing. Not four things. One
 - Write the area and the one thing on the plan
 Image: the ages and stages grid from the handout, ages 2 to 6 down the side, four areas across.
+
 ## Slide 8: One that fits, one that does not
 
 - Sorting by color fits a 3 year old: naming colors, matching one to one
@@ -115,6 +116,7 @@ Notes: Take three. Hand back signed plans as students write.
 - Tape and glue. No staples
 - You may change the plan. Write the change on the plan
 - Build first, card second
+
 ## Slide 14: What finished looks like
 
 - One example of each of the five kit types

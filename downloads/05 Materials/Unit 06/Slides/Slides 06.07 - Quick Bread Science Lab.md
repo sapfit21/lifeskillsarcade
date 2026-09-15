@@ -67,6 +67,7 @@ Notes: Run all four in order and call the result out loud each time. Then ask th
 - **Dependent variable:** what we measure. Height, crumb, taste
 - **Constants:** flour, sugar, salt, milk, oil, egg, batter per liner, oven temperature, bake time, same oven, same shelf
 - The control batch is the ruler. Without it, the other three mean nothing
+
 ## Slide 9: Predict
 
 - One prediction per batch

@@ -60,7 +60,7 @@ Debrief: 12,500 versus 22,500. Then the hook: hold up the basket with all twelve
 | 2. Learning activity: Three Portfolios and a Shock | Hand out the handout. Three portfolios, AQ25,000 each: A is all high risk (SPRK and CLDB), B is all safe (HNYP and SEAL), C is mixed across six ventures. Shock 1: high risk ventures fall 40 percent, medium ventures fall 10 percent, safe ventures hold. Students compute each portfolio's value and loss. Then Shock 2, a boom: high risk ventures rise 50 percent, medium 10 percent, safe hold. Compute again. Debrief with the two rankings on the board: A wins the boom and loses the crash; B never moves; C is in the middle both times. Ask the essential question. | Work in pairs with a calculator. Fill the two tables. Rank the portfolios twice. Answer the two questions at the bottom: which portfolio would you want on a bad week, and which on a good week. | 12 min |
 | 3. Trading window: my own pie | Say: "Sketch your pie from your holdings screen. If one slice is bigger than half, decide: rebalance, or hold and say why." Advance windows 19 to 24, one click about every 90 seconds. Circulate; ask at the desk what the biggest slice is. Do not warn about tomorrow. | Sketch the pie on Entry 5. Rebalance or hold. Note any trades. | 10 min |
 | 4. Investor Journal, Entry 5 | Prompt: what I did, why (use the word rebalance or hold), what happened, plus: my biggest slice is ___ percent and I am comfortable or not comfortable with that because ___. | Write Entry 5 with total fortune. | 4 min |
-| Closure | See Closure. | 4 min |
+| Closure | See Closure. | | 4 min |
 
 Totals 40 minutes: 3 + 7 + 12 + 10 + 4 + 4.
 
@@ -113,8 +113,8 @@ Math: percent of a quantity (grade 6 and 7 ratios and proportions) is the whole 
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, line 4. e).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 2. c).
-- NYS FACS Standard 3, Intermediate; CDOS 3a Thinking Skills; National FCS 3.0 competency 3.3.4, all per.
-- My own materials: (Day 4, Portfolio Diversification, and its warm-up question, which is the do now here); (the tip "Don't put all your Florins in one venture").
+- NYS FACS Standard 3, Intermediate; CDOS 3a Thinking Skills; National FCS 3.0 competency 3.3.4, all per `02 Standards/STANDARDS CROSSWALK.md`.
+- My own materials: my original ClassroomStreet plan (Day 4, Portfolio Diversification, and its warm-up question, which is the do now here); the ClassroomStreet Student Guide (the tip "Don't put all your Florins in one venture").
 
 ## Teacher notes
 

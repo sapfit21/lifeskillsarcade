@@ -60,7 +60,7 @@ Debrief: 26.60 a unit, 2,660 on 100 units. The percent is 2,660 divided by 3,120
 | 2. Learning activity: Return Math | Hand out the handout. Part A: the formula, one worked example, four practice problems (two gains, two losses). Part B: my own return: starting value 25,000, total fortune now from the screen, percent return computed by hand and checked on the calculator. Part C: the safe portfolio and the risky portfolio over the same eight days at the peak, the bottom, and today, with a mixed portfolio for comparison; compute all nine returns and answer the two questions. Circulate; the common error is dividing by the ending value. | Work Part A alone, Part B alone from their own screen, Part C in pairs. Circle the portfolio they would rather have held and write why. | 12 min |
 | 3. Trading window: rebalance | Advance windows 33 to 40, one click about every 75 seconds; the dispatches turn positive. Say once: "If your pie changed shape in the crisis, this is the window to fix it. If you are buying low, write which venture and what you expect on Entry 8 first." Circulate. | Rebalance, buy low, or hold. Record trades on Entry 8. | 10 min |
 | 4. Investor Journal, Entry 8 | Prompt: what I did, why, what happened, plus: my percent return so far is ___ (from Part B), and the venture that hurt me most fell ___ percent across the crisis. | Write Entry 8 with total fortune and the two percents. | 6 min |
-| Closure | See Closure. | 4 min |
+| Closure | See Closure. | | 4 min |
 
 Totals 40 minutes: 3 + 5 + 12 + 10 + 6 + 4.
 
@@ -113,8 +113,8 @@ Math: percent change is a grade 7 standard (ratios and proportional relationship
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, line 4. e).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. c) and 2. f).
-- NYS FACS Standard 3, Intermediate; CDOS 3a Basic Skills; National FCS 3.0 competency 3.3.4, all per.
-- My own materials: (Day 9, Recovery and Buy-Low Opportunities; Day 10, return calculations; Day 11, rebalancing; and the standards note "Return calculations involve percentage change: (Final Value minus Initial Value) / Initial Value"); (starting prices used in the handout).
+- NYS FACS Standard 3, Intermediate; CDOS 3a Basic Skills; National FCS 3.0 competency 3.3.4, all per `02 Standards/STANDARDS CROSSWALK.md`.
+- My own materials: my original ClassroomStreet plan (Day 9, Recovery and Buy-Low Opportunities; Day 10, return calculations; Day 11, rebalancing; and the standards note "Return calculations involve percentage change: (Final Value minus Initial Value) / Initial Value"); my ClassroomStreet site notes (starting prices used in the handout).
 
 ## Teacher notes
 

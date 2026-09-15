@@ -50,7 +50,7 @@ The do now (a sketch from memory) shows how well students know their own plan. T
 
 ## Do now and hook (Time: 5 min)
 
-Floor plan do now (stack, day 8): "Sketch your client's room from memory. No looking. Two minutes. Then open your plan and compare. Write one thing you forgot." One minute to compare. Sheets go in the stack.
+Floor plan do now (stack, sketch 8): "Sketch your client's room from memory. No looking. Two minutes. Then open your plan and compare. Write one thing you forgot." One minute to compare. Sheets go in the stack.
 
 Hook (slide 2): show the same item three ways. A 4-foot desk: new in a box, $149; the same desk secondhand from a marketplace listing, $40; a DIY version (a door blank on two file cabinets), $35 in parts. "Same job. Three prices. Your client has $400 for the whole room. Which desk, and what does that decision buy you somewhere else?"
 
@@ -59,7 +59,7 @@ Hook (slide 2): show the same item three ways. A 4-foot desk: new in a box, $149
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
 | 1. Direct instruction: the budget, the tax, the three columns | Slides 3 to 6. The budget comes from the client card: $400 for a room refresh, $1,500 for the tiny house interior. Say what a refresh means: the walls and the floor are there; the money buys furniture, storage, light, paint, and finish. Show the catalog format: item number, item, size, new price, secondhand price, DIY price and what DIY means for that item, and a quality note. Show the tax: in New York, furnishings and building supplies are taxed; food is not (from Unit 1). The rate here is 8.625 percent. Subtotal times 1.08625 equals the total, or subtotal times 0.08625 equals the tax. Work one line on the board: twin bed frame, secondhand, $60; tax $5.18; total $65.18. Say the story from business: "A budget is not a limit on your ideas. It is the order you buy them in." | Copy the tax math line. Fill the header of the Budget Sheet: client, budget, tax rate. | 8 min |
-| 2. Learning activity: price the plan | Slide 7. Release. Every piece of furniture on the plan is a line on the Budget Sheet: item number, which column (new, secondhand, DIY), price. Needs first, wants after. Keep a running subtotal. Circulate with the clipboard. Push on the column choice: "Why new for the mattress and secondhand for the dresser?" (The catalog's quality note says mattresses and crib mattresses are not sold secondhand; safety and hygiene.) | Price every piece from the plan. Running subtotal after each line. Stop and re-decide when the subtotal passes 80 percent of the budget with needs still on the list. | 14 min |
+| 2. Learning activity: price the plan | Slide 7. Release. Every piece of furniture on the plan is a line on the Budget Sheet: item number, which column (new, secondhand, DIY), price. Needs first, wants after. Keep a running subtotal. Circulate with the clipboard. Push on the column choice: "Why new for the mattress and secondhand for the dresser?" (The catalog's quality note says mattresses and crib mattresses are not sold secondhand; safety and hygiene.) | Price every piece from the plan. Running subtotal after each line. Stop and re-decide when the subtotal passes 80 percent of the budget with needs still on the list. | 11 min |
 | 3. The tax and the trade-off | Slide 8. Call time. Everyone computes the tax and the total. Over budget? The trade-off box: cross out a want, switch a column, or remove a piece from the plan (and the plan changes too). Under budget with money left? Add a want, or write the leftover as the client's cushion. Model the five-step decision model on one team's hardest choice: name the choice (armchair new at $189 or secondhand at $45), list options, weigh each against what matters to the client (Grandpa needs arms and a firm seat; a secondhand chair must be checked for that), decide, look back. | Compute tax and total. Revise until the total is at or under budget. Write three justifications on the sheet: one new, one secondhand, one DIY or free, each with the reason tied to the client's need. | 10 min |
 | 4. Share | Slide 9. Two teams report: the total, the biggest single line, and the hardest trade-off. Class question: was the trade-off a want or a need? Preview Lesson 4.14: the model is built from scrap because that is the DIY column made real. | Report or listen. Sign the Budget Sheet total. | 3 min |
 
@@ -110,10 +110,10 @@ Math: percent, multiplying by a decimal, running totals; this is the same tax ma
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 3. a) and 3. b). Copy in. The module's Financial and Consumer Literacy illustrative activity (renting versus buying furniture) is the source of the "what does cheaper cost" question.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 3. a) and 3. b). Copy in `02 Standards/NYS Module PDFs/`. The module's Financial and Consumer Literacy illustrative activity (renting versus buying furniture) is the source of the "what does cheaper cost" question.
 - NYS Middle Level CTE Theme Module, Financial and Consumer Literacy, lines 4. c) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.1 and 2.1.5, per, sections 4.2 and 4.11.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.1 and 2.1.5, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.11.
 - Sales tax: New York State Department of Taxation and Finance, Publication 718 (sales and use tax rates by jurisdiction).
 - My own materials: the $40 grocery project's pricing routine (Unit 1, Lessons 1.18 and 1.19) and the "budget" vocabulary entry from. Catalog prices are realistic 2026 figures for Long Island and are every one to be refreshed before teaching.
 

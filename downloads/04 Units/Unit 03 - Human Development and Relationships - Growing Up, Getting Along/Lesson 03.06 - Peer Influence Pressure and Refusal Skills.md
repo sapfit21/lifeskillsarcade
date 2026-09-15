@@ -20,7 +20,7 @@
 - National FCS 3.0: 13.2.5 Explain how personal standards and behavior affect relationships with others.
 - National FCS 3.0: 12.2.2 Examine how social, economic, and technological forces shape individual growth and development.
 
-(The task asked for a 13.x competency on peer relationships or refusal. None in the 3.0 text says "peer" or "refusal"; 13.2.5 on personal standards and behaviors is the closest confirmed line and is what asserting a choice is. 12.2.2 carries the family, peers, and media comparison.)
+(No 13.x competency in the 3.0 text says "peer" or "refusal"; 13.2.5 on personal standards and behaviors is the closest confirmed line and is what asserting a choice is. 12.2.2 carries the family, peers, and media comparison.)
 
 ## Enduring understanding and essential question
 
@@ -127,9 +127,9 @@ Inside the building: the health teacher, who owns the substance and sexual press
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in. Line 3. a) is quoted with the state's typo.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in `02 Standards/NYS Module PDFs/`. Line 3. a) is quoted with the state's typo.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 5. d) and 5. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.2.5 and 12.2.2.
 - My own materials: my tiered Peer Pressure objectives from my planning notes, rewritten into the three-objective format above; the five-step decision model from Unit 0.
 

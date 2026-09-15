@@ -58,7 +58,7 @@ Sentence starter: "I think ___ is number ___ because ___."
 
 Directions: Copy the expert ranking into the Expert column as I reveal it. Then, for each item, find the difference between where you put it and where the expert put it. (If you put the matches at 4 and the expert put them at 1, the difference is 3. Ignore the minus sign.) Do this for the Alone column and the Team column. Add up each column.
 
-An easier way: go item by item. Find item A in your Alone column and in the Expert column. Subtract the two rank numbers. Write the difference next to item A's row in the Expert column. Do all ten. Add.
+An easier way: go item by item. Find item A in your Alone column and in the Expert column. Subtract the two rank numbers. Write the difference in the Alone difference column on the row where you wrote A. Do all ten. Add.
 
 My alone total: ______   My team total: ______   The best alone total at my table: ______
 

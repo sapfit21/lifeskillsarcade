@@ -12,7 +12,7 @@ Notes: Hands up for yes, for no. Write four of the "facts" on the board without 
 
 ## Slide 2: Watch
 
-- [The video plays here. 60 to 90 seconds. Captions on.]
+- The video plays here. 60 to 90 seconds. Captions on.
 Notes: Say nothing when it ends. Wait five seconds. "Is it true? You have no idea. Neither do I, yet. Let's find out how you would know."
 
 ## Slide 3: Question 1, who wrote it?

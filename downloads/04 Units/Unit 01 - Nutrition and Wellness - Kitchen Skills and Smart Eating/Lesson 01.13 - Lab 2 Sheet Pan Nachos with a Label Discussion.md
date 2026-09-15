@@ -136,16 +136,17 @@ Day 2: clean up and station check (minutes 36 to 40). Sanitation Lead runs the l
 | 2. Prepare and serve nachos safely in a team, station passes the end check | N&W 1. b), d), g); HSW 4. c), e); Std 1 PI B; CDOS 3a Interpersonal Skills; National FCS 14.3.3 | The lab, Day 2 Steps 1 to 5 and closure | Summative; Lab 2 rubric, row 2, scored on the clipboard during the lab |
 | 3. Compute the sodium in one serving and judge the snack with evidence | N&W 2. a); FCL 4. f); Std 1 PI A; National FCS 14.2.4 | Nacho Label Math, Day 1 Step 3; label discussion, Day 2 Step 3 | Summative; Lab 2 rubric, row 3, scored from the handout and the Day 2 discussion |
 
-**Lab 2 rubric** (the lab rubric pattern from the grading plan: three objectives, each 1 to 4, 12 points; counts in Labs and Projects)
+**Lab 2 rubric** (the lab rubric pattern from the grading plan: three objectives plus a safety and sanitation row, each 1 to 4, 16 points; counts in Labs and Projects)
 
 | Criterion | Not Yet 1 | Approaching 2 | Meets 3 | Exceeds 4 |
 |---|---|---|---|---|
 | 1. Role and oven rules | Could not state own role's steps or an oven rule; needed the card read aloud | Stated the role's steps out of order or one oven rule | Stated own role's steps in order and both oven rules | Stated own role and a teammate's role, both oven rules, and why each rule exists |
 | 2. Safe teamwork and a clean station | Skipped role tasks, or a safety or sanitation step was missed (hands, hair, hot pan, sink), or the station failed the end check | Did most role tasks; one reminder on safety or sanitation; station passed the check late | Did every role task, kept every safety and sanitation step, station passed the end check on time | Did every role task, helped another role without being asked, station passed the check early with the counter and sink spotless |
 | 3. Label math and judgment | Table incomplete or the per-person number missing | Table complete but one computation wrong, or the judgment has no number | Table complete, per-person number within range, judgment states often or sometimes with the number | All of Meets plus a swap that cuts the sodium, with the new number computed |
-| **Total** | | | | **/12** |
+| 4. Safety and sanitation (every lab, same row all year) | A safety violation: hands not washed, hair loose over food, bare hand on a hot pan, a student at the oven, food dropped and served, or a station left dirty after the check | Hands, hair, and apron done, but one reminder needed during the lab (a towel near the oven, reaching over a pan, a wet floor left) | Washed hands at the start; hair and apron done; mitts and trivet used for every hot pan; station passed the check the first time | Meets, and called out a hazard for the team before the teacher saw it, or fixed one at another station without being asked |
+| **Total** | | | | **/16** |
 
-How to use: score row 2 on the clipboard during Day 2; score rows 1 and 3 from the Day 1 exit line and the handout after class. Write one line in the notes box for the next lab (what this student should try next). A safety violation is a 1 on row 2 and a zero for that lab's participation, per the grading plan, and a conversation.
+How to use: score rows 2 and 4 on the clipboard during Day 2; score rows 1 and 3 from the Day 1 exit line and the handout after class. Write one line in the notes box for the next lab (what this student should try next). A safety violation is a 1 on row 4 and a zero for that lab's participation, per the grading plan, and a conversation.
 
 ## Homework
 
@@ -157,13 +158,13 @@ Inside the building: the math teacher (the same ratio work as Lesson 1.11, now w
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 2. a). Copy in.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 2. a). Copy in `02 Standards/NYS Module PDFs/`.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 03, Financial and Consumer Literacy, line 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
 - CDOS Standard 3a, Interpersonal Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 14.2.4.
 - Sodium daily value (2,300 mg) and the 5 and 20 rule: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov). Rinsing canned beans removes about 41 percent of the sodium: Duyff, Jones, and Mount, "Sodium reduction in canned beans after draining, rinsing," Journal of Culinary Science and Technology, 2011.
-- My own materials: my Sheet Pan Nachos with Salsa Bar teacher sheet ( the 40-minute flowchart, ingredient amounts per station, prep notes, the zero-knife policy, and the "Nutrition Facts discussion while it bakes" idea). Rewritten here for three stations of seven with the teacher on oven duty. The label numbers on the handouts are typical values for store brand products and must be replaced with the numbers on the packages you actually buy.
+- My own materials: my Sheet Pan Nachos with Salsa Bar teacher sheet (the 40-minute flowchart, ingredient amounts per station, prep notes, the zero-knife policy, and the "Nutrition Facts discussion while it bakes" idea). Rewritten here for three stations of seven with the teacher on oven duty. The label numbers on the handouts are typical values for store brand products and must be replaced with the numbers on the packages you actually buy.
 
 ## Teacher notes
 
