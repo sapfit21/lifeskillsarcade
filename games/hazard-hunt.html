@@ -66,6 +66,9 @@
       <path d="M0 0H44V44" fill="none" stroke="#B9CBD6" stroke-width="2"/>
     </pattern>
   </defs>
+  <!-- The drawn kitchen. When the generated art in games/art/ exists, the script
+       hides this group and shows hhArt instead; the hit regions never move. -->
+  <g id="hhDrawn">
   <!-- wall and floor -->
   <rect x="0" y="0" width="880" height="340" fill="#FFF6DC"/>
   <rect x="0" y="340" width="880" height="180" fill="url(#hhTile)"/>
@@ -211,6 +214,24 @@
     <path d="M700 384 h60 l-6 84 h-48 z" fill="#C7D3DA" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
     <rect x="694" y="376" width="72" height="10" rx="3" fill="#111"/>
   </g>
+  </g>
+  <!-- The art layer: one wide scene plus one transparent piece per hazard, each
+       piece sized to its hit region below. Hidden until the files exist. -->
+  <g id="hhArt" style="display:none">
+    <image id="hhArtScene" href="art/hazard-hunt-scene.webp" x="0" y="0" width="880" height="520" preserveAspectRatio="none"/>
+    <image data-art="pot" href="art/hazard-hunt-pot.webp" x="252" y="222" width="100" height="86"/>
+    <image data-art="mitt" href="art/hazard-hunt-mitt.webp" x="90" y="142" width="64" height="94"/>
+    <image data-art="knife" href="art/hazard-hunt-knife.webp" x="160" y="188" width="46" height="72"/>
+    <image data-art="cabinet" href="art/hazard-hunt-cabinet.webp" x="386" y="26" width="120" height="142"/>
+    <image data-art="wet" href="art/hazard-hunt-wet.webp" x="126" y="404" width="150" height="56"/>
+    <image data-art="bag" href="art/hazard-hunt-bag.webp" x="550" y="392" width="102" height="86"/>
+    <image data-art="towel" href="art/hazard-hunt-towel.webp" x="452" y="282" width="60" height="62"/>
+    <image data-art="cord" href="art/hazard-hunt-cord.webp" x="438" y="198" width="164" height="72"/>
+    <image data-art="mixer" href="art/hazard-hunt-mixer.webp" x="8" y="180" width="72" height="72"/>
+    <image data-art="chicken" href="art/hazard-hunt-chicken.webp" x="608" y="198" width="160" height="66"/>
+    <image data-art="spray" href="art/hazard-hunt-spray.webp" x="206" y="180" width="42" height="74"/>
+    <image data-art="milk" href="art/hazard-hunt-milk.webp" x="764" y="180" width="52" height="74"/>
+  </g>
   <!-- hit regions: generous, invisible, drawn last so they sit on top -->
   <g id="hhHits" fill="transparent" stroke="none">
     <rect data-hz="pot" x="252" y="222" width="100" height="86"/>
@@ -322,8 +343,10 @@
     Object.keys(HAZARDS).forEach(function (k) {
       var g = document.getElementById("hz-" + k);
       var hit = hits.querySelector('[data-hz="' + k + '"]');
+      var art = document.querySelector('#hhArt [data-art="' + k + '"]');
       var on = active.indexOf(k) !== -1;
       if (g) { g.style.display = on ? "" : "none"; }
+      if (art) { art.style.display = on ? "" : "none"; }
       if (hit) { hit.style.display = on ? "" : "none"; }
     });
     marks.innerHTML = "";
@@ -474,6 +497,16 @@
   function shuffle(a) {
     for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
   }
+  // Art swap: if the generated scene exists beside the page, use it and hide the drawing.
+  (function () {
+    var probe = new Image();
+    probe.onload = function () {
+      document.getElementById("hhDrawn").style.display = "none";
+      document.getElementById("hhArt").style.display = "";
+      svg.setAttribute("aria-label", "An illustrated kitchen with planted hazards (generated art)");
+    };
+    probe.src = "art/hazard-hunt-scene.webp";
+  }());
   svg.addEventListener("click", tapScene);
   document.getElementById("hhGo").addEventListener("click", startHunt);
   document.getElementById("hhAgain").addEventListener("click", function () {
