@@ -109,12 +109,12 @@ Math: percent of a whole and multi-step subtraction with decimals; the math teac
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. a). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 1. c) and 1. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 3.3.1.
 - Social Security and Medicare rates (6.2 percent and 1.45 percent of gross for the employee) are the federal FICA rates; New York minimum wage of $17.00 for Long Island in 2026 per the NYS Department of Labor.
-- Sal's own materials: the Paycheck Detective activity in the Salary Secrets packet (Brentwood South, 2026, `Lesson Dups/Unit_2_Career_Exploration/education_teachingwork_salary_secrets_2026_04.docx`) and the first-paycheck story in the Taxes packet (`Unit_4_Financial_Literacy/education_teachingwork_taxes_where_does_the_money_go_2026_04.docx`). The stub was rebuilt with 2026 Long Island numbers and Medicare added as its own line.
+- My own materials: the Paycheck Detective activity in the Salary Secrets packet and the first-paycheck story in the Taxes packet. The stub was rebuilt with 2026 Long Island numbers and Medicare added as its own line.
 
 ## Teacher notes
 

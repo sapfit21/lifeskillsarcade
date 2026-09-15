@@ -110,12 +110,12 @@ Health: the health teacher's MyPlate and food allergy lessons feed this one; FAC
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e) and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e) and 3. c). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standards 1 and 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: the "plan a nutritious meal for a family" day in his FNES 563 draft unit calendar (`FNES 563/06 Drafts/DRAFT - Group Work - Nutrition and Wellness Unit (Map, Outline, Calendar) - v1.md`) and the family-of-four framing from his Feed a Family run of show.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standards 1 and 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.1, per.
+- My own materials: the "plan a nutritious meal for a family" day in my draft unit calendar and the family-of-four framing from my Feed a Family run of show.
 
 ## Teacher notes
 

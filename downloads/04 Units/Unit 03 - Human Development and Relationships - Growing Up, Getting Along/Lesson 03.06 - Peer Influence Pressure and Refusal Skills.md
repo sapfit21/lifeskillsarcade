@@ -34,7 +34,7 @@ By the end of this lesson, students will be able to:
 2. (Mid) Analyze a peer pressure scenario with the five-step decision model, compare how family, peers, and media would each push the decision, and demonstrate the four refusal steps in a short role play.
 3. (High) Design and perform a short skit that models an effective refusal, and evaluate a classmate's skit against the four steps with a reason for the rating.
 
-(These are Sal's tiered Peer Pressure objectives from his FNES 538 notes, combined into the three-objective lesson format: his low level "define, identify examples, list consequences," his moderate level "analyze scenarios, demonstrate refusal strategies, classify direct and indirect," and his high level "evaluate best responses, design a skit modeling resistance strategies." His third high-level objective, a peer advice guide, is the grade 8 stretch.)
+(These are my tiered Peer Pressure objectives from my planning notes, combined into the three-objective lesson format: my low level "define, identify examples, list consequences," my moderate level "analyze scenarios, demonstrate refusal strategies, classify direct and indirect," and my high level "evaluate best responses, design a skit modeling resistance strategies." My third high-level objective, a peer advice guide, is the grade 8 stretch.)
 
 ## Vocabulary
 
@@ -105,7 +105,7 @@ Day 1: 3-2-1 on the bottom of the planner: 3 kinds of peer pressure with one exa
 - ELL: the four refusal steps have a picture cue each (a hand up, a speech bubble, an arrow, a door); the scenario cards are short and read aloud once by a teammate; word bank on the handout for peer, pressure, no, reason, and walk away in Turkish, Portuguese, and Spanish; sentence starters for the skit: "No thanks, I ___." "How about we ___ instead?" A student may perform a refusal line in their first language with a teammate saying it in English.
 - IEP and 504 (general): a student who does not want to perform is the team's director or the narrator who reads the card; six scenario cards instead of ten; the feedback slip is check boxes plus one line; a student who needs a fixed script uses the slide script word for word.
 - Grade 6 support: six cards; the three-push grid has a word bank for each column; the skit uses two steps.
-- Grade 8 stretch: Sal's third high-level objective: after the skits, draft a one-page peer advice guide, "What to say when," with the four steps, three of the class's best lines, and one line on how to be the friend who applies positive pressure. The best guides go on the room wall.
+- Grade 8 stretch: my third high-level objective: after the skits, draft a one-page peer advice guide, "What to say when," with the four steps, three of the class's best lines, and one line on how to be the friend who applies positive pressure. The best guides go on the room wall.
 - UDL checkpoint used: multiple means of action and expression (perform, direct, narrate, or write) and multiple means of engagement (team skits with a class feedback loop; scenarios are fictional so nobody is exposed).
 - No-kitchen or no-machine alternative: not needed.
 
@@ -127,11 +127,11 @@ Inside the building: the health teacher, who owns the substance and sexual press
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in `02 Standards/NYS Module PDFs/`. Line 3. a) is quoted with the state's typo.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in. Line 3. a) is quoted with the state's typo.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 5. d) and 5. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.2.5 and 12.2.2.
-- Sal's own materials: the tiered Peer Pressure objectives from `FNES538_notes_NextWeek-NutritionLabels-Tiered_2026-03.docx` (Queens College, March 2026), rewritten into the three-objective format above; the five-step decision model from Unit 0.
+- My own materials: my tiered Peer Pressure objectives from my planning notes, rewritten into the three-objective format above; the five-step decision model from Unit 0.
 
 ## Teacher notes
 

@@ -229,9 +229,9 @@ Do now: 24 oz for $2.79 = **$0.116 per ounce**; 45 oz for $4.99 = **$0.111 per o
 
 Other unit prices from the excerpt: shredded mozzarella 8 oz store brand $0.249/oz versus 12 oz name brand $0.291/oz; cookies 14.3 oz store brand $0.209/oz versus 19.1 oz name brand $0.345/oz; butter store brand $0.249/oz versus name brand $0.374/oz.
 
-## Sal's real numbers, for the Day 2 slide
+## My real numbers, for the Day 2 slide
 
-His King Kullen order came in at **$147.84 against a $150 budget** for 112 students across four periods and four kitchens, after four store-brand swaps that saved **$30.38**: cookies $14.40, whipped topping $6.00, butter $5.99 (two packs cut to one), and cups $3.99 (two packs cut to one). His six-menu document came in between **$152.90 and $177.42 against $200** for 165 students. Show both. Coming in $39 under budget is a professional result, and students should hear that from a teacher who actually did it.
+My supermarket order came in at **$147.84 against a $150 budget** for 112 students across four periods and four kitchens, after four store-brand swaps that saved **$30.38**: cookies $14.40, whipped topping $6.00, butter $5.99 (two packs cut to one), and cups $3.99 (two packs cut to one). My six-menu document came in between **$152.90 and $177.42 against $200** for 165 students. Show both. Coming in $39 under budget is a professional result, and students should hear that from a teacher who actually did it.
 
 ## What to do with money left over
 

@@ -4,17 +4,17 @@
 **Length:** 28 class periods of 40 minutes (days 116 to 143 of the year; days 116 to 135 sit in marking period 3, days 136 to 143 in marking period 4)
 **CTE themes carried:** Sustainability (primary); Financial and Consumer Literacy; Problem Solving and Innovation; Health, Safety, and Wellness; Communication and Interpersonal Relationships; Career and Community Opportunities
 **Unit project:** Upcycle Challenge, scored with `Rubric 05 - Upcycle Challenge.md`
-**Companion files in this folder:** `Calendar 05.md`, `Vocabulary 05.md`, Lessons 5.1 to 5.19, `Project 05 - Upcycle Challenge.md`, `Rubric 05 - Upcycle Challenge.md`, `Assessment 05.1 - Fibers and Care Quiz.md` (given inside Lesson 5.4 Day 2), `Assessment 05.2 - Stitch Sampler Performance Check.md` (given inside Lesson 5.11 Day 2), `Assessment 05.3 - Unit 5 Test.md` (given inside Lesson 5.19 Day 2). The hand-sewn item rubric lives inside `Lesson 05.10`. Handouts and slide outlines are in `05 Materials/Unit 05/`.
+**Companion files in this folder:** `Calendar 05.md`, `Vocabulary 05.md`, Lessons 5.1 to 5.19, `Project 05 - Upcycle Challenge.md`, `Rubric 05 - Upcycle Challenge.md`, `Assessment 05.1 - Fibers and Care Quiz.md` (given inside Lesson 5.4 Day 2), `Assessment 05.2 - Stitch Sampler Performance Check.md` (given inside Lesson 5.11 Day 2), `Assessment 05.3 - Unit 5 Test.md` (given inside Lesson 5.19 Day 2). The hand-sewn item rubric lives inside `Lesson 05.10`. Handouts and slide outlines are in.
 
 Reconciliation note: this plan was written to the scope and sequence and then reconciled to all nineteen lessons, the project, the rubric, and all three assessments as they landed in the folder. Where a lesson page and this plan disagree, the lesson page wins; the calendar and this plan follow the lessons' day counts, handout names, and check slots.
 
-## 1. Why this unit (rationale, in Sal's voice)
+## 1. Why this unit
 
-I took a course at Queens College called The Meanings of Dress, and the thing I wrote about was dress as communication and identity: that clothing says something to other people whether or not you meant it to. Then Spirit Week happened at Brentwood. After 80s Day the hallway comments got mean, and a colleague and I stopped the lesson we had planned and built a class segment on what is and is not okay to say about what somebody is wearing. That segment is Lesson 5.2 in this unit, and it is the reason the unit opens with what clothing communicates instead of with a needle.
+I took a graduate course called The Meanings of Dress, and the thing I wrote about was dress as communication and identity: that clothing says something to other people whether or not you meant it to. Then Spirit Week happened. After 80s Day the hallway comments got mean, and a colleague and I stopped the lesson we had planned and built a class segment on what is and is not okay to say about what somebody is wearing. That segment is Lesson 5.2 in this unit, and it is the reason the unit opens with what clothing communicates instead of with a needle.
 
 The consumer half of this unit I can teach cold. I have a business background, I priced a whole cooking project off a real supermarket circular with my students, and cost per wear is the same move as unit price: divide the money by the thing you actually get. Lesson 5.13 is division, and Lesson 5.12 is a hoodie on a table with four price tags and four vendor types, and those two days are the ones I would show a principal first.
 
-Here is what I am honest about. I had not taught sewing before I built this unit. I observed a colleague's sewing labs at Brentwood South and I analyzed one of them for a course, so I have watched a room of twelve-year-olds hold needles, but I had never run it myself. So the hand sewing progression in Topic 5.2 is written step by step, one skill a day, with a demonstration rig for the back row, the six needle rules, and a count-out and count-in routine that runs every single day tools are out. It is written that way so it can be taught from the page, and taught well, by me in my first year of it and by whoever follows me.
+Here is what I am honest about. I had not taught sewing before I built this unit. I observed a colleague's sewing labs and I analyzed one of them for a course, so I have watched a room of twelve-year-olds hold needles, but I had never run it myself. So the hand sewing progression in Topic 5.2 is written step by step, one skill a day, with a demonstration rig for the back row, the six needle rules, and a count-out and count-in routine that runs every single day tools are out. It is written that way so it can be taught from the page, and taught well, by me in my first year of it and by whoever follows me.
 
 The claim the unit makes is small and it is specific. A student who leaves this class can sew a button back on, fix a hem, judge whether a garment is worth the money, and say what a piece of clothing communicates without insulting anybody. Four things. Every one of them is checkable, and every one of them is useful the week after the unit ends.
 
@@ -300,7 +300,7 @@ The PI letters are NYLearns codes; the NYSED print document lists the indicators
 
 Standard 3b (Career Majors) exists only at Commencement. A grade 6 to 8 course cites 1, 2, and 3a only, which is what all twelve state modules do. The ATPD module PDF prints "Standards 3a" instead of "Standard 3a"; cite "CDOS 3a" (crosswalk D.4).
 
-### National FCS 3.0 (LEAD FCS Education, 2018 to 2028; text verbatim from the 3.0 compilation as quoted in `02 Standards/STANDARDS SOURCES - web research.md`)
+### National FCS 3.0 (LEAD FCS Education, 2018 to 2028; text verbatim from the 3.0 compilation as quoted in)
 
 The ATPD module's own Standards Addressed block names Area 16 at the content-standard level only (16.1, 16.2, 16.4) plus 2.1.4. Numbers marked (block) are printed in the ATPD block; numbers marked (ext) are confirmed verbatim in the 3.0 text but not printed in the module block. All twenty competencies below were checked against section 4.16 (and 4.1, 4.2) of the web research file.
 
@@ -348,7 +348,7 @@ CRP 2 is printed "Apply appropriate and academic and technical skills" in the AT
 
 ### The coverage note, updated for the machine revision (D19)
 
-**Since the 2026-09-14 revision, ATPD 2. c) is met in full, hand and machine.** The room has machines for most of the class at once (D19), Lesson 5.10 teaches the machine as three days of parts, safety, threading, and paper drills, and Lesson 5.11 constructs a real machine-sewn bag. The hand half of 2. c) is met nine lessons deep, and the machine half is now demonstrated, not diagrammed. **The honest note now runs the other way:** if this program lands in a room with no working machines, the archived hand-sewn build in `00 _admin/_archive/2026-09-14 Unit 5 pre-machine revision/` replaces Lessons 5.10 and 5.11, the machine half of 2. c) drops back to taught-from-the-diagram, and the website's Unit 5 page must say so. The machine parts, rules, and threading path are still taught from `Handout 05.10 - Machine Parts and Threading Guide.md` in that fallback, so 2. a) and 2. b) hold either way.
+**Since the 2026-09-14 revision, ATPD 2. c) is met in full, hand and machine.** The room has machines for most of the class at once (D19), Lesson 5.10 teaches the machine as three days of parts, safety, threading, and paper drills, and Lesson 5.11 constructs a real machine-sewn bag. The hand half of 2. c) is met nine lessons deep, and the machine half is now demonstrated, not diagrammed. **The honest note now runs the other way:** if this program lands in a room with no working machines, the archived hand-sewn build in replaces Lessons 5.10 and 5.11, the machine half of 2. c) drops back to taught-from-the-diagram, and the website's Unit 5 page must say so. The machine parts, rules, and threading path are still taught from `Handout 05.10 - Machine Parts and Threading Guide.md` in that fallback, so 2. a) and 2. b) hold either way.
 
 ## 8. Project
 
@@ -446,7 +446,7 @@ CRP 2 is printed "Apply appropriate and academic and technical skills" in the AT
 1. **Four sample hooded sweatshirts for Lesson 5.12**, one per vendor type: a thin discount-store fleece, a mall brand, a heavy secondhand, and one that arrived in an online order with its shipping bag and packing slip (the packing slip is the part that matters; black out the name, address, and order number). Ask staff, the lost and found with permission, or a thrift run.
 2. **Four inspection garments for Lesson 5.13**, labeled 1 to 4, at least one clearly well made and one clearly not: a heavy cotton sweatshirt with double-needle seams and bar tacks, a thin promotional T-shirt with a cracking graphic, a pair of jeans with a flat felled seam and a shank button, and a fast-fashion blouse with a loose button and a fraying serged seam. Two of these can be the Lesson 5.12 sweatshirts, which is why the four sweatshirts are worth keeping in the bin all year; they come back again in the Unit 5 review game.
 
-**Handouts (in `05 Materials/Unit 05/`, as the lessons name them):**
+**Handouts (in, as the lessons name them):**
 - Topic 5.1: `Handout 05.01 - Match the Clothing to the Situation.md`; `Handout 05.02 - What Clothing Says and the Class Agreement.md`; `Handout 05.03 - Fiber Test Station Record.md`; `Handout 05.04 - Care Symbol Guide and Laundry Sequence.md`; `Handout 05.04 - Stain Station Record.md`
 - Topic 5.2: `Handout 05.05 - Tool Kit Guide and Count Sheet.md` (the station count sheet, used on all twelve sewing days; the machine close-down routine is printed there and in `Handout 05.10`, its two canonical places); `Handout 05.06 - Practice Cloth Guide.md`; `Handout 05.07 - Backstitch and Whipstitch Steps.md`; `Handout 05.08 - Button Steps and Portfolio Card.md`; `Handout 05.09 - Repair Clinic Station Cards.md`; `Handout 05.10 - Machine Parts and Threading Guide.md` (with the drill sheets and the threading license); `Handout 05.11 - Bag and Pouch Pattern Cut Guide and Seam Quality Checklist.md`; `Handout 05.11 - Sampler Card.md`
 - Topic 5.3: `Handout 05.12 - Price and Spec Sheets and Buyer Cards.md`; `Handout 05.13 - Cost Per Wear Worksheet and Quality Inspection Checklist.md`; `Handout 05.14 - Fast Fashion Facts and Consumer Comparison Task.md`
@@ -455,7 +455,7 @@ CRP 2 is printed "Apply appropriate and academic and technical skills" in the AT
 
 **Slides:** one outline per lesson, `Slides 05.01` through `Slides 05.19`, in the same folder. The site build renders every outline as an HTML deck.
 
-**No-machine fallback for the whole unit:** if the machines fail the pre-unit test, the archived hand build in `00 _admin/_archive/2026-09-14 Unit 5 pre-machine revision/` replaces Lessons 5.10 and 5.11 wholesale, the sampler runs at six rows instead of seven, and the coverage note in Section 7 applies. Decide before day 116 and tell the class on day 121 so nobody spends a week hoping for machines. The reduced-dexterity kit is required equipment either way.
+**No-machine fallback for the whole unit:** if the machines fail the pre-unit test, the archived hand build in replaces Lessons 5.10 and 5.11 wholesale, the sampler runs at six rows instead of seven, and the coverage note in Section 7 applies. Decide before day 116 and tell the class on day 121 so nobody spends a week hoping for machines. The reduced-dexterity kit is required equipment either way.
 
 ## 11. Health and other-department coordination
 

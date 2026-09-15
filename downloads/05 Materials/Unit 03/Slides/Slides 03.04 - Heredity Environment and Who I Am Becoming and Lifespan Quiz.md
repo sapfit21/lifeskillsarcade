@@ -1,6 +1,6 @@
 # Slides 3.4: Heredity, Environment, and Who I Am Becoming, and the Lifespan Stages Quiz
 
-Slide outline for Lesson 3.4, two days. Slides 1 to 12 are Day 1. Slides 13 to 22 are Day 2: the Lifespan Lightning review game and the quiz. The influences map is private; slide 8 says so and Sal says so twice.
+Slide outline for Lesson 3.4, two days. Slides 1 to 12 are Day 1. Slides 13 to 22 are Day 2: the Lifespan Lightning review game and the quiz. The influences map is private; slide 8 says so and I say so twice.
 
 ## Slide 1: Heredity, Environment, and Who I Am Becoming
 

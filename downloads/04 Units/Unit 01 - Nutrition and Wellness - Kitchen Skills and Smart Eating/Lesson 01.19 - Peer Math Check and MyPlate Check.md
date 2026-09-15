@@ -111,12 +111,12 @@ Math: the peer check is the same "check your partner's work" routine the math te
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e) and 3. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e) and 3. b). Copy in.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 2. c) and 6. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: the peer math check and MyPlate energy check from his Feed a Family run of show (Drive, `FeedingAFamily_RunOfShow_Aug06.docx`), and his note that checkpoints during planning are what keep a team from reaching the pitch with a broken budget.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.1, per.
+- My own materials: the peer math check and MyPlate energy check from my Feed a Family run of show, and my note that checkpoints during planning are what keep a team from reaching the pitch with a broken budget.
 
 ## Teacher notes
 

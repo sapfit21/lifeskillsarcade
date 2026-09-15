@@ -131,22 +131,22 @@ Math: cost per serving from the receipt, and the flowchart is a real scheduling 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 5. d). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Resources. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3, 8.5.7, and 14.4.2.
 - `Rubric 01 - Lab Rubric.md` and `Handout 01.08 - Lab Reflection.md`, reused unchanged.
-- Sal's own materials: `education_teaching_facs_lesson2_cheesypastamarinara_2026_03.docx` (Education/TeachingWork/LessonPlans). His package supplied the four-phase workflow, the Gantt chart by role, the critical path analysis, the eight role cards with tag-in notes, the clean-up zone assignments, the King Kullen shopping list with budget swaps, the "what could go wrong" boxes, the teacher facilitation notes, and the reflection worksheet. Rebuilt here for a station of seven, with the standards table replaced by correct citations and the no-bake pudding dessert held for the no-kitchen option and for the Feed the Class project.
+- My own materials:. My package supplied the four-phase workflow, the Gantt chart by role, the critical path analysis, the eight role cards with tag-in notes, the clean-up zone assignments, the supermarket shopping list with budget swaps, the "what could go wrong" boxes, the teacher facilitation notes, and the reflection worksheet. Rebuilt here for a station of seven, with the standards table replaced by correct citations and the no-bake pudding dessert held for the no-kitchen option and for the Feed the Class project.
 
 ## Teacher notes
 
 - The pot goes on the burner by minute 3 or the period does not work. That is the only sentence you need to repeat during prep.
 - Fill to three quarters. A full pot is heavy, slow, and it boils over. Two students carry it, not one.
 - I drain. Every time, all year. Say it while you do it so the room hears the rule and the reason: steam burns deeper than water.
-- Sal's own "what could go wrong" notes, kept because they are right: pasta stuck in a clump means it was not stirred right after it went in, so stir immediately and again every two to three minutes; mushy pasta means it was overcooked, so set the timer for one minute less than the box and taste; sauce on anything above low will scorch on the bottom and taste burnt through the whole pan.
+- My own "what could go wrong" notes, kept because they are right: pasta stuck in a clump means it was not stirred right after it went in, so stir immediately and again every two to three minutes; mushy pasta means it was overcooked, so set the timer for one minute less than the box and taste; sauce on anything above low will scorch on the bottom and taste burnt through the whole pan.
 - Common mistake: the Head Cook adds pasta to water that is not boiling yet. Small bubbles at the bottom are not a boil. Show the class one rolling boil at the front before the lab if you have a spare minute in Lesson 6.7.
-- Sal's package included a no-bake chocolate pudding dessert running in parallel. It is dropped from this lab on purpose, to keep one dish and one clock and to keep the critical path visible, which is the point of the day. The pudding fits as a dessert station in the Feed the Class project (Lesson 6.16) or as the grade 8 second dish in the no-kitchen version.
+- My package included a no-bake chocolate pudding dessert running in parallel. It is dropped from this lab on purpose, to keep one dish and one clock and to keep the critical path visible, which is the point of the day. The pudding fits as a dessert station in the Feed the Class project (Lesson 6.16) or as the grade 8 second dish in the no-kitchen version.
 - The Time Keeper role is written for eight students. At seven, the Station Manager keeps time, and the card says so.
 - Per-station cost estimate (store brand, Long Island supermarket; every price to be refreshed from the current circular before teaching):
 

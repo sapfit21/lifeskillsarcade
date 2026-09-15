@@ -100,28 +100,15 @@ and the sidebar drop out, and the content prints on letter paper with sensible
 margins. Tables and lesson sections are kept from breaking across pages where
 that is possible.
 
-## The notes to me, in square brackets
+## Square brackets
 
-The source markdown carries notes to the teacher in square brackets. There are
-three forms:
-
-- `[Sal: ...]`, a reminder to me, such as `[Sal: school email]`.
-- `[update ...]` and the bare `[update]`, a price or a figure to refresh before
-  I teach the lesson. The price itself is never inside the note, so the number
-  still prints and only the reminder drops out.
-- `[check ...]`, a source, a date or a translation to verify, such as
-  `[check with a native speaker before printing]`.
-
-None of the three is curriculum. On screen they show in a tinted box so I can
-find them and act on them. In print they are hidden, so they do not appear when
-a page is printed and they do not appear in the PDFs in `07 Exports`. A bullet,
-a paragraph or a table cell that was nothing but a note comes out empty on the
-printed page. The full list of the notes for a unit is in the last section of
-that unit's plan, `14. What Sal should replace`, which is on the unit page.
-
-Square brackets that are curriculum stay plain and do print: the fill-in blanks
+Square brackets in the source are curriculum and they print: the fill-in blanks
 on a handout, the checkbox boxes, the drawing boxes, the labels in a diagram,
-and the slot words in a sentence frame a student completes.
+and the slot words in a sentence frame a student completes. The markdown once
+carried teacher notes in brackets (`[Sal: ...]`, `[update ...]`, `[check ...]`);
+those were all taken out on 2026-09-15 and are listed in
+`00 _admin/TEACHER NOTES LEDGER.md`. The build still knows the pattern and would
+tint any such note on screen and hide it in print, as a guard, but none exist.
 
 ## No student data
 

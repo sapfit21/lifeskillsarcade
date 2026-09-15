@@ -116,13 +116,13 @@ Inside the building: the school counselor, whose grade 8 planning conference use
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 1. e); Career and Community Opportunities, line 4. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
 - NYS CDOS Standard 3a, Intermediate, Thinking Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 2.1.2.
 - The five-step decision model (name the choice, list options, weigh each against what matters, decide, look back) is this course's own wording, introduced in Unit 0 and used in every unit.
-- Sal's own materials: the airplane-crash decision-making simulation described in `01 Source Analysis/Brentwood Work and Simulations.md` is the origin of the "weigh each against what matters" step as students already know it from Unit 0; the Your Mission Statement packet's Activity 2 ("my action, how it shows my mission, when I'll do it") supplied the dated-step habit on the ladder.
+- My own materials: the airplane-crash decision-making simulation described in is the origin of the "weigh each against what matters" step as students already know it from Unit 0; the Your Mission Statement packet's Activity 2 ("my action, how it shows my mission, when I'll do it") supplied the dated-step habit on the ladder.
 
 ## Teacher notes
 

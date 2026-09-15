@@ -174,7 +174,7 @@ ________________________________________________________________________
 
 **Total: 40 points.** A grade 6 version omits items 19 and 20 and is scored out of 28.
 
-Standard lines are cited from `02 Standards/STANDARDS CROSSWALK.md` Part B.6 and the verbatim extract. Items that check content taught in Topics 6.1 and 6.2 name the FSP module line; the lesson that teaches each line is in the unit plan's Section 7 table.
+Standard lines are cited from Part B.6 and the verbatim extract. Items that check content taught in Topics 6.1 and 6.2 name the FSP module line; the lesson that teaches each line is in the unit plan's Section 7 table.
 
 ## Part A. Matching (6 points, 1 each)
 

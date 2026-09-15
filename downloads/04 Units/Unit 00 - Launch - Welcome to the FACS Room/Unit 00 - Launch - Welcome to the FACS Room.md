@@ -4,9 +4,9 @@
 **Length:** 5 class periods of 40 minutes (days 1 to 5 of the year; marking period 1)
 **CTE themes carried:** Communication and Interpersonal Relationships (primary); Problem Solving and Innovation; Health, Safety, and Wellness
 **Unit project:** none. The unit ends in three signed pieces of paper instead: a team norms contract, the Room and Lab Agreement, and the Unit 1 pre-assessment. There is no rubric; nothing in this unit is graded except participation.
-**Companion files in this folder:** `Calendar 00.md`, `Vocabulary 00.md`, Lessons 0.1 to 0.5, `Assessment 00.1 - Unit 1 Pre-Assessment.md`. Slides and handouts are in `05 Materials/Unit 00/`.
+**Companion files in this folder:** `Calendar 00.md`, `Vocabulary 00.md`, Lessons 0.1 to 0.5, `Assessment 00.1 - Unit 1 Pre-Assessment.md`. Slides and handouts are in.
 
-## 1. Why this unit (rationale, in Sal's voice)
+## 1. Why this unit
 
 Kids do not learn from people they do not trust. So before anyone touches a stove, a needle, or a budget, I spend five days on the room, the routines, and each other. Students learn where things are, what the reset cue means, how a role card works, and how this class makes a decision when people disagree. They play a listening game, they argue over a survival list, they measure rice in silence, and they write their own team rules. On Friday they read and sign an agreement they helped shape, and they take a short pre-assessment so I know what Unit 1 can skip. None of it is graded. All of it is the reason the first cooking lab on day 16 runs without a fight.
 
@@ -107,7 +107,7 @@ CDOS (Intermediate):
 - CDOS 3a Universal Foundation Skills: Basic Skills (Students listen to and read the ideas of others and analyze what they hear and read...) : Lesson 0.2
 - CDOS 3a Universal Foundation Skills: Personal Qualities (Students demonstrate an understanding of the relationship between individuals and society and interact with others in a positive manner.) : Lessons 0.1, 0.5
 
-National FCS 3.0 (all confirmed in `02 Standards/STANDARDS SOURCES - web research.md`):
+National FCS 3.0 (all confirmed in):
 - 1.2.4 Demonstrate teamwork skills in school, community and workplace settings and with diverse populations. : Lessons 0.3, 0.4
 - 1.2.7 Analyze factors that contribute to maintaining safe and healthy school, work and community environments. : Lesson 0.5
 - 13.3.2 Demonstrate verbal and nonverbal behaviors and attitudes that contribute to effective communication. : Lesson 0.2
@@ -138,7 +138,7 @@ None. Unit 0 has no project and no rubric. The three products that end the unit 
 
 **Equipment (already in the room):** per table of four: a dry measuring cup set, a liquid measuring cup, a set of measuring spoons, six paper cups, a tray. Shared: a timer on the screen, the gram scale if the room has one (optional in Unit 0), the printed role cards from `Handout 01.08 - Role Cards Lab 1.md` for the day 2 demonstration, the Safety Data Sheet binder, the first aid kit, and the fire extinguisher (pointed to, not used).
 
-**Handouts (in `05 Materials/Unit 00/`):** `Handout 00.01 - Course Map and Hope Card.md`; `Handout 00.02 - Draw See Hear Picture Cards and Room Map.md`; `Handout 00.03 - Survival Ranking Sheet.md`; `Handout 00.04 - Team Norms Contract.md`; `Handout 00.05 - Room and Lab Agreement.md`.
+**Handouts (in):** `Handout 00.01 - Course Map and Hope Card.md`; `Handout 00.02 - Draw See Hear Picture Cards and Room Map.md`; `Handout 00.03 - Survival Ranking Sheet.md`; `Handout 00.04 - Team Norms Contract.md`; `Handout 00.05 - Room and Lab Agreement.md`.
 
 **Slides:** `Slides 00.01` through `Slides 00.05`, one outline per lesson, in the same folder. The site renders each as a deck.
 

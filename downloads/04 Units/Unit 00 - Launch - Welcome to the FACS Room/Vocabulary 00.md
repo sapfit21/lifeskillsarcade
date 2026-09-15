@@ -60,4 +60,4 @@ For the wall poster. English first; keep the English on the poster.
 | Day 5 rewrite | Change "___" to "___" because ___. | "___" yerine "___" yazalım çünkü ___. | Mude "___" para "___" porque ___. | Cambia "___" por "___" porque ___. |
 
 - Unit 1's vocabulary list (`Vocabulary 01.md`) uses the same translations for hazard and sanitation; keep them matching if one is corrected.
-- The Spanish column is new in this unit because Sal's sections may include Spanish speakers; at Brentwood the translations were Turkish and Portuguese only.
+- The Spanish column is here because many rooms include Spanish speakers; the Turkish and Portuguese columns came first.

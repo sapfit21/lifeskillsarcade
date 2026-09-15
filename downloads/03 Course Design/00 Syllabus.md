@@ -3,13 +3,11 @@
 ## Course Syllabus
 
 **Teacher:** Salvatore Prevosto
-**School:** [school name]
-**Room:** [room number], the FACS lab
-**Contact:** [school email]
+**Room:** the FACS room
+**Contact:** salvatoreprevosto@gmail.com (see the About page on the course website)
 **Course length:** Full year, every day, one 40-minute period
 **Credit:** This course counts toward the New York State middle level requirement of 1 3/4 units of career and technical education (Commissioner's Regulation 100.4). It covers what districts used to call Home and Career Skills, and more.
 
-Draft of 2026-09-11.
 
 ## What this class is
 

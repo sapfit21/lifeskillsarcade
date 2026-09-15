@@ -114,13 +114,13 @@ Science: browning and evaporation are chemistry and physics, and the science tea
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. b), and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. b), and 2. d). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module 05, Problem Solving and Innovation, line 1. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicator A. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Technology. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.2 and 8.5.14.
 - Unit 1, Lesson 1.5, for the tool names used in Step 1.
-- Sal's own constraints, applied here: no knives beyond butter knives and kitchen shears, no frying, the teacher handles the oven door and drains anything hot.
+- My own constraints, applied here: no knives beyond butter knives and kitchen shears, no frying, the teacher handles the oven door and drains anything hot.
 
 ## Teacher notes
 

@@ -43,7 +43,7 @@ Tier 3 (FACS): market crash, panic selling, sell, hold, buy, loss aversion (grad
 - Four corner signs: SOLD SOME, SOLD EVERYTHING, HELD, BOUGHT MORE (for Day 2)
 - Slides: `Slides 02.17 - The Crisis and Panic Selling`
 - Exit cards
-- Setup notes: before class on Day 1, use Jump to Window to set the market to window 25, the first crisis window, so the crisis dispatch is the first thing students see when they log in. Do not tell them the day before. In Sal's simulation the crisis runs windows 25 to 32: Sparkstone and Cloudberry fall 15 to 25 percent per window, Iron Vault and Crown Seal barely move, Honeypot does not move, Willowbrook dips and recovers, Meadowgold drops 5 to 10 percent. Have the class list ready for the clipboard check on emotion words. Tell the health teacher this is the week the stress lesson happens, so the words match.
+- Setup notes: before class on Day 1, use Jump to Window to set the market to window 25, the first crisis window, so the crisis dispatch is the first thing students see when they log in. Do not tell them the day before. In the simulation the crisis runs windows 25 to 32: Sparkstone and Cloudberry fall 15 to 25 percent per window, Iron Vault and Crown Seal barely move, Honeypot does not move, Willowbrook dips and recovers, Meadowgold drops 5 to 10 percent. Have the class list ready for the clipboard check on emotion words. Tell the health teacher this is the week the stress lesson happens, so the words match.
 
 ## Pre-assessment
 
@@ -123,9 +123,9 @@ Health: the stress signs and the "stop, breathe, name the choice" step are the h
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 2. d) and 4. e).
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, line 1. e); Theme Module 04, Health, Safety, and Wellness, line 6. c).
-- NYS FACS Standard 3, Intermediate; CDOS 3a Thinking Skills; National FCS 3.0 competency 2.1.2, all per `02 Standards/STANDARDS CROSSWALK.md`.
+- NYS FACS Standard 3, Intermediate; CDOS 3a Thinking Skills; National FCS 3.0 competency 2.1.2, all per.
 - The five-step decision model from Unit 0: name the choice, list options, weigh each against what matters, decide, look back.
-- Sal's own materials: `Fortune_Street_Lesson_Plan.docx` (Days 7 and 8, the crisis and holding strategy, and the warm-up "Your friend sold everything. You held. Who made the better choice?"); `Fortune_Street_How_To_Guide.docx` section 7 (managing the crisis, "Don't warn students ahead of time"); `FortuneStreet/README.md` (the crisis price rules by venture).
+- My own materials: (Days 7 and 8, the crisis and holding strategy, and the warm-up "Your friend sold everything. You held. Who made the better choice?"); section 7 (managing the crisis, "Don't warn students ahead of time"); (the crisis price rules by venture).
 - The 2008 and 2020 figures are rounded from widely reported values for the S&P 500 index (a fall of about 57 percent from October 2007 to March 2009, recovered by 2013; a fall of about 34 percent from February 19 to March 23, 2020, recovered by August 2020).
 
 ## Teacher notes

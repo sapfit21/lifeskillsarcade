@@ -21,7 +21,7 @@
 - National FCS 3.0: 14.4.1 Examine the conditions and habits that keep food safe to eat.
 - National FCS 3.0: 14.4.2 Examine safety and sanitation practice.
 - National FCS 3.0: 14.3.3 Show the ability to select, store, prepare, and serve food that is nourishing and looks good on the plate.
-- National FCS 3.0: 8.2.7 Show safe food handling and preparation that keeps hazardous foods from cross contaminating others. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8; cited in the crosswalk's FSP 2. e) row.)
+- National FCS 3.0: 8.2.7 Show safe food handling and preparation that keeps hazardous foods from cross contaminating others. (Confirmed in the 3.0 text in, Area 8; cited in the crosswalk's FSP 2. e) row.)
 
 ## Enduring understanding and essential question
 
@@ -54,7 +54,7 @@ Tier 3 (FACS): mise en place, hold time, portion, plate up, danger zone, station
 - Slides: `Slides 06.16 - Cook Day` (outline in 05 Materials; the site renders it as a deck; the running clock stays on screen both days)
 - Setup notes, and these are not optional: portion each station's bin the morning of. Fill the pots with hot tap water, cover them, and put them on the burners before the bell. Turn the burners on and preheat the oven at the reset cue of the previous period. Put the running clock on the screen at 0. Post the allergy list. Set 30 plates on the serving table yourself on Day 1; the service station does it on Day 2.
 
-**Cost:** the food cost for both days is the approved consolidated list, about $80 for a class of 28 ($20 per station), from Lesson 6.15. Paper goods about $8 if the room does not already have them. Both figures are Long Island supermarket prices from Sal's verified King Kullen lists, to be refreshed from the current circular before teaching.
+**Cost:** the food cost for both days is the approved consolidated list, about $80 for a class of 28 ($20 per station), from Lesson 6.15. Paper goods about $8 if the room does not already have them. Both figures are Long Island supermarket prices from my verified supermarket lists, to be refreshed from the current circular before teaching.
 
 ## Pre-assessment
 
@@ -209,13 +209,13 @@ Inside the building: the custodian and the building engineer. FACS gives them ad
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 2. e). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), 1. e), and 2. e). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standards 2 and 3a, Personal Qualities, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.2.7, 14.3.3, 14.4.1, and 14.4.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standards 2 and 3a, Personal Qualities, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.2.7, 14.3.3, 14.4.1, and 14.4.2, per.
 - The 165 F reheating temperature for previously cooked foods and the two-hour rule for leftovers are the USDA Food Safety and Inspection Service figures used all year in this course (Unit 1 Lessons 1.2 and 1.17).
-- Sal's own materials: `education_teaching_facs_kingkullen_masterflowchart_2026_03.pdf` (four kitchens in five-minute blocks with a support duty column and the teacher notes on always supervising the draining of pasta because of the steam, checking the oven bread yourself, and letting no student touch knives or oven doors) is the source of the teacher duty list and the two required teacher points. `education_teaching_facs_kingkullen_stationcards_2026_03.pdf` supplies the station card format and the safety reminder wording.
+- My own materials: (four kitchens in five-minute blocks with a support duty column and the teacher notes on always supervising the draining of pasta because of the steam, checking the oven bread yourself, and letting no student touch knives or oven doors) is the source of the teacher duty list and the two required teacher points. supplies the station card format and the safety reminder wording.
 
 ## Teacher notes
 

@@ -113,13 +113,13 @@ Math: percent change is a grade 7 standard (ratios and proportional relationship
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, line 4. e).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. c) and 2. f).
-- NYS FACS Standard 3, Intermediate; CDOS 3a Basic Skills; National FCS 3.0 competency 3.3.4, all per `02 Standards/STANDARDS CROSSWALK.md`.
-- Sal's own materials: `Fortune_Street_Lesson_Plan.docx` (Day 9, Recovery and Buy-Low Opportunities; Day 10, return calculations; Day 11, rebalancing; and the standards note "Return calculations involve percentage change: (Final Value minus Initial Value) / Initial Value"); `FortuneStreet/README.md` (starting prices used in the handout).
+- NYS FACS Standard 3, Intermediate; CDOS 3a Basic Skills; National FCS 3.0 competency 3.3.4, all per.
+- My own materials: (Day 9, Recovery and Buy-Low Opportunities; Day 10, return calculations; Day 11, rebalancing; and the standards note "Return calculations involve percentage change: (Final Value minus Initial Value) / Initial Value"); (starting prices used in the handout).
 
 ## Teacher notes
 
 - If the period runs short, cut Part C to the safe and risky columns only and skip the mixed one. Never cut Part B; every student needs their own percent return for the report tomorrow.
-- Sal's original Day 10 taught risk-adjusted return (the Sharpe ratio idea). It is cut here for time and grade level; the grade 8 stretch (recovery return vs return from start) carries the idea that when you measure from matters.
+- My original Day 10 taught risk-adjusted return (the Sharpe ratio idea). It is cut here for time and grade level; the grade 8 stretch (recovery return vs return from start) carries the idea that when you measure from matters.
 - Common mistake: dividing by the ending value. The handout prints "start" on the bottom in bold; say it three times anyway.
 - Common mistake: a student with a negative return thinks they "failed." Point at Part C: the class's best possible risky portfolio is also negative today. The report scores the reasoning, not the rank.
 - Tomorrow is the closing bell. Freeze the market at window 40 at the end of this period; do not advance before Lesson 2.19.

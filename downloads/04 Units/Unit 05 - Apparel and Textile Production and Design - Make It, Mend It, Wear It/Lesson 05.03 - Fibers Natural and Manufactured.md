@@ -129,10 +129,10 @@ Science: the burn test is a materials science demonstration, and the science tea
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. a) and 3. a). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. a); Theme Module, Sustainability, line 2. e). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. a) and 3. a). Copy in.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. a); Theme Module, Sustainability, line 2. e). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.1, 16.2.2, and 16.2.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.1, 16.2.2, and 16.2.4, per, section 4.16.
 - Burn test results (flame behavior, odor, and residue for cotton, wool, and polyester) are the standard identification results published in textile science references and in cooperative extension fiber identification guides.
 - Fire response wording is carried over verbatim from `Lesson 01.03 - Fire, Burns, Cuts, and What To Do.md` so students hear the same rules in the same words.
 

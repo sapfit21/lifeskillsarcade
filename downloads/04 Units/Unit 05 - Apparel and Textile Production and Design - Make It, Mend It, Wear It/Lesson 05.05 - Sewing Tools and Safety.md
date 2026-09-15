@@ -8,7 +8,7 @@
 
 This is the sewing unit's version of Lesson 1.1 and Lesson 1.4 put together, and it is held to the same standard as the kitchen. Nobody sews until this period is done. The one thing that makes a sewing room safe is not a poster, it is the count: every needle and pin that comes out of the kit gets counted out and counted back in, every single day, before anyone leaves the station. That routine starts today and it never stops.
 
-I have not taught a sewing lab before. I observed a colleague's sewing labs at Brentwood South and analyzed one for a Queens College course, and the thing I took away is that the tool discipline has to be set on day one or it never gets set. So this lesson is written tight on purpose, for me and for any teacher who picks it up.
+I have not taught a sewing lab before. I observed a colleague's sewing labs and analyzed one for a graduate course, and the thing I took away is that the tool discipline has to be set on day one or it never gets set. So this lesson is written tight on purpose, for me and for any teacher who picks it up.
 
 ## Standards
 
@@ -145,12 +145,12 @@ Technology and shop: if the building has a technology or makerspace teacher, the
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 1.2.7, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 1.2.7, per.
 - The safety and dismissal structure mirrors `Lesson 01.04 - The Kitchen Safety Contract and Exam.md` and the station check in the six-step sanitation routine, so students meet one standard in two rooms.
-- Sal's own materials: the SEYS 552 fieldwork analysis of a colleague's sewing lesson at Brentwood South. The observation informed the decision to front-load tool discipline; none of the colleague's materials are reproduced here, and the lesson is written new.
+- My own materials: my fieldwork analysis of a colleague's sewing lesson. The observation informed the decision to front-load tool discipline; none of the colleague's materials are reproduced here, and the lesson is written new.
 
 ## Teacher notes
 

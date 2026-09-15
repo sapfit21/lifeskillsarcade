@@ -149,9 +149,9 @@ Inside the building: this is the lesson that connects FACS to the rest of the sc
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. c), 3. d), and 5. b).
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 1. f) and 6. f); Theme Module 05, Problem Solving and Innovation, line 1. e).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.8 and 13.3.2.
-- Sal's own materials: his Brentwood business packet "Shark Tank Showdown," which supplies the 60-second pitch structure, the investor ask, and the judging frame. Rewritten here with the teacher side it lacked: the panel logistics, the judge briefing, the timing math, the audience scoring sheet that keeps every student working, and the award categories.
+- My own materials: my business packet "Shark Tank Showdown," which supplies the 60-second pitch structure, the investor ask, and the judging frame. Rewritten here with the teacher side it lacked: the panel logistics, the judge briefing, the timing math, the audience scoring sheet that keeps every student working, and the award categories.
 - The Problem Solving and Innovation illustrative activity in the state's Individual Growth and Life Readiness module ends with groups pitching "to a panel representing potential investors" and "classmates and investors vote on which entrepreneurs to back." The audience scoring sheet and the two sets of award votes are that line, written as a procedure.
 
 ## Teacher notes

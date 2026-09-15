@@ -6,7 +6,7 @@ Unit 7, the capstone. The unit's 45 Tier 3 words across the two topics, with a o
 
 Words that appear in more than one sense are marked. "Ask" here is a noun and it means the thing you are requesting, not the verb. "Deck" here means a set of presentation panels, not a deck of cards or a wooden deck. "Task" here means the T in STAR, the job you were given, and it is also an ordinary English word students already know. "Action" here means the A in STAR, the thing you personally did.
 
-Fifteen of these words came out of Sal's own interview lesson at Brentwood, where the vocabulary cards were already translated into Turkish, Portuguese, and Spanish for his students.
+Fifteen of these words came out of my own interview lesson, where the vocabulary cards were already translated into Turkish, Portuguese, and Spanish for my students.
 
 How lessons use this file: each lesson names its own Tier 3 words, and the handout for that lesson carries a word bank pulled from this table in the three languages. The site's Materials page prints this table as picture-ready cards. There is no unit test in this unit, so the card is allowed on every task, every day, including the interview in Lesson 7.5 and the pitch on pitch day. A student holding a vocabulary card while pitching is not a problem; a student who cannot say the word at all is.
 

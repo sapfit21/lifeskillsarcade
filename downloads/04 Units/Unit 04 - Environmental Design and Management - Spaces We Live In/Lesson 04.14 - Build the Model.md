@@ -141,11 +141,11 @@ Art: the art teacher can lend the isometric grid lesson and the color mixing fro
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a), b), c), d). Copy in `02 Standards/NYS Module PDFs/`. The module's Problem Solving and Innovation illustrative activity (Tiny Houses) is the source of the tiny house path.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. a), b), c), d). Copy in. The module's Problem Solving and Innovation illustrative activity (Tiny Houses) is the source of the tiny house path.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) f.; Theme Module, Sustainability, line 2. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.4 and 11.9.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11. (The research file confirmed only 11.9.1 under 11.9; check the LEAD FCS PDF for others.)
-- Sal's own materials: `education_teachingwork_dream_home_challenge_2026_04.docx` (the synthesis of elements, principles, color, and sustainability in one room); `education_teachingwork_sustainable_style_2026_04.docx` (the green choices used in Lesson 4.5 and on the GREEN label); `education_teachingwork_color_me_impressed_2026_04.docx` (the color schemes from Lesson 4.8).
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.4 and 11.9.1, per, section 4.11. (The research file confirmed only 11.9.1 under 11.9; check the LEAD FCS PDF for others.)
+- My own materials: (the synthesis of elements, principles, color, and sustainability in one room); (the green choices used in Lesson 4.5 and on the GREEN label); (the color schemes from Lesson 4.8).
 
 ## Teacher notes
 

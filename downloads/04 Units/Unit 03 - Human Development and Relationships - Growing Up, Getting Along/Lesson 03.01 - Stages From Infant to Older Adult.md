@@ -40,7 +40,7 @@ Tier 3 (FACS): lifespan, infancy, early childhood, middle childhood, adolescence
 - `Handout 03.01 - Lifespan Timeline Sort Cards.md`: one set of 21 cards per team of three or four, cut and clipped before class, plus one sort sheet per student
 - Seven stage headers on card stock (one per stage, with the age range) for the board timeline, and magnets or tape
 - Slides: `Slides 03.01 - Stages From Infant to Older Adult`
-- The ClassroomStreet Round 2 standings by merchant number, on the board or the first slide, and the two or three "sentence to my future self" lines from Investor Journal Entry 10 that Sal chose to read aloud (chosen with permission, no names)
+- The ClassroomStreet Round 2 standings by merchant number, on the board or the first slide, and the two or three "sentence to my future self" lines from Investor Journal Entry 10 that I chose to read aloud (chosen with permission, no names)
 - Timer visible to the class
 - Setup notes: cut the card sets the day before; they get used again in the review game in Lesson 3.4 and one card returns on the quiz. Post the Round 2 standings before students walk in so the close runs on time. No food, no allergy check.
 
@@ -112,12 +112,12 @@ Inside the building: the health teacher gets a copy of the seven-stage board lis
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a) and 1. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a) and 1. b). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. a); Theme Module, Career and Community Opportunities, line 5. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 12.1.1.
 - The stage names and age ranges are the ones used in most middle school FACS texts (infancy, early childhood, middle childhood, adolescence, young, middle, and older adulthood).
-- Sal's own materials: Unit 2 Calendar 02, day 66 note on the Round 2 close and the Entry 10 read-aloud.
+- My own materials: Unit 2 Calendar 02, day 66 note on the Round 2 close and the Entry 10 read-aloud.
 
 ## Teacher notes
 

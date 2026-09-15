@@ -1,6 +1,6 @@
 # Slides 3.8: Stress Management Toolkit
 
-Slide outline for Lesson 3.8. Twelve slides. Slides 4 to 9 are one per tool, each with the steps as numbered pictures and the time; the timer runs on the slide. Sal picks the instrumental track for slide 7 (no lyrics). The tool names should match the health teacher's if health teaches the same ones.
+Slide outline for Lesson 3.8. Twelve slides. Slides 4 to 9 are one per tool, each with the steps as numbered pictures and the time; the timer runs on the slide. I pick the instrumental track for slide 7 (no lyrics). The tool names should match the health teacher's if health teaches the same ones.
 
 ## Slide 1: Stress Management Toolkit
 

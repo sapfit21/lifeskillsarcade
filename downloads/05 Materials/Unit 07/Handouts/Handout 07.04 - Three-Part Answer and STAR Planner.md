@@ -200,4 +200,4 @@ Two of three yeses is ready for the mock interview tomorrow without a pre-confer
 
 **Grade 8:** two STAR stories from two different units, plus the three-part answer rewritten for a second job with the two changed sentences named.
 
-**Note on the closing lines.** The lesson ends with Sal's own closing about having sat on both sides of the interview table. That is spoken, not written on the handout, and it is the reason students come back willing to be interviewed the next day.
+**Note on the closing lines.** The lesson ends with my own closing about having sat on both sides of the interview table. That is spoken, not written on the handout, and it is the reason students come back willing to be interviewed the next day.

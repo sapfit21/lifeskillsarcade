@@ -111,12 +111,12 @@ Inside the building: the guidance counselor, who sees the same six skills on the
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. a). Copy in.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 3. c) and 3. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.8.
-- Sal's own materials: the Brentwood packet "Soft Skills Superpower: The Skills Every Job Needs" (Unit 2 Career Exploration, April 2026). The self-rating table and the "companies hire for hard skills and fire for soft skills" line come from it. The twelve-skill list is cut to the six employers name most; the word search is dropped.
+- My own materials: my packet "Soft Skills Superpower: The Skills Every Job Needs" (Unit 2 Career Exploration, April 2026). The self-rating table and the "companies hire for hard skills and fire for soft skills" line come from it. The twelve-skill list is cut to the six employers name most; the word search is dropped.
 
 ## Teacher notes
 

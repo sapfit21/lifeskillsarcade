@@ -189,11 +189,11 @@ Career and technical connection: this is what an alterations tailor does all day
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in.
 - NYS Middle Level CTE Theme Modules: Health, Safety, and Wellness 4. c) and 4. e); Problem Solving and Innovation 3. a) a., c., d. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- CDOS Standard 2 and Standard 3a Personal Qualities, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- CDOS Standard 2 and Standard 3a Personal Qualities, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.1 and 16.4.5, per, section 4.16.
 - The four taught stitches, the stitch cards, the station count sheet, and the six-step count-out and count-in routine come from Topic 5.2 of this unit (Lessons 5.5 to 5.10).
 
 ## Teacher notes

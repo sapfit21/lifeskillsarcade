@@ -1,6 +1,6 @@
 # Slides 3.7: Stress: What It Is, and My Stress Map
 
-Slide outline for Lesson 3.7. Eleven slides. Slide 10 carries the who-to-ask list; Sal fills in the counselor's name, the nurse's room, and the help line your school approves before this runs. The map is private; slide 6 says so and Sal says so twice.
+Slide outline for Lesson 3.7. Eleven slides. Slide 10 carries the who-to-ask list; I fill in the counselor's name, the nurse's room, and the help line the school approves before this runs. The map is private; slide 6 says so and I say so twice.
 
 ## Slide 1: Stress: What It Is, and My Stress Map
 

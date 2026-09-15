@@ -103,7 +103,7 @@ Day 2: the self-assessment on the back of the station card (three objectives, 1 
 - ELL: the station card template has an icon per section and a filled example (the fallback card) to copy from; the seven role cards have a picture and a one-line job; the flowchart is visual; the place setting is a diagram on the slide; sentence starter for the change line: "Next time we would ___ because ___"; the words stir, boil, drain, plate, sanitize, and leftovers are on the unit vocabulary card in Turkish, Portuguese, and Spanish.
 - IEP and 504 (general): choice of role (Prep Lead, Plate Captain, and Clean Crew have clear physical tasks and no time pressure at the stove); the card template has the flowchart blocks pre-drawn; a student who cannot stand at a burner is the Safety and Sanitation Checker with the thermometer and the clipboard; extended time on the card by finishing during the Lesson 1.19 revision window; a written lab alternative (a recipe analysis of the team's card) for any student absent on Day 2, per the grading plan.
 - Grade 6 support: the team takes a fallback card and edits it (changes two ingredients or two steps to match its plan) instead of writing a card from blank; the flowchart is filled in as a class.
-- Grade 8 stretch: the card includes a cost per tasting portion and a cost per full serving, a sales tax line for the non-food items, and a critical path (the one chain of steps that cannot slip without the dish being late), which is the Gantt idea from Sal's lesson packages.
+- Grade 8 stretch: the card includes a cost per tasting portion and a cost per full serving, a sales tax line for the non-food items, and a critical path (the one chain of steps that cannot slip without the dish being late), which is the Gantt idea from my lesson packages.
 - UDL checkpoint used: multiple means of action and expression (seven roles, each a different way to do the lab well) and multiple means of representation (the card as text, as a flowchart, and as a filled example).
 - No-kitchen or no-machine alternative: the team builds its plated dinner from the food cards (the Unit 1 food card set, one card per ingredient with a picture and a price) on a paper plate template, arranged by MyPlate section, with the costed plan beside it. Then the team assembles a no-cook component for real: a salad (bagged greens, canned beans, shredded cheese, bottled dressing, no knives) or a cold wrap (tortilla, pre-cooked deli chicken or beans, cheese, salsa) using the same roles, the same flowchart, the same place setting, and the same clean and station check. Cost per station for the no-cook version is about $12. Rubric 01 criterion 3 is scored on the no-cook assembly.
 
@@ -125,13 +125,13 @@ Math: cost per portion and scaling are ratio work. Science: heat, boiling, and t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 1. h). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 1. h). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.3, per.
 - USDA safe minimum internal temperature for reheated leftovers and poultry (165 F), FoodSafety.gov.
-- Sal's own materials: the King Kullen station cards, master flowchart, and menu options (`Education/TeachingWork/LessonPlans/education_teaching_facs_kingkullen_*_2026_03.pdf`): the seven-student station, the constraints line, the "what does done look like" checklist, the teacher-drains-pasta rule, and the rotisserie chicken shredded with two forks. The role card structure (core roles plus expansion roles) and the PREP, COOK, PLATE and EAT, CLEAN timeline from his three FACS Cooking Lesson Packages. The Budget Meal Lab idea from his FNES 563 draft unit calendar.
+- My own materials: the supermarket station cards, master flowchart, and menu options: the seven-student station, the constraints line, the "what does done look like" checklist, the teacher-drains-pasta rule, and the rotisserie chicken shredded with two forks. The role card structure (core roles plus expansion roles) and the PREP, COOK, PLATE and EAT, CLEAN timeline from my three FACS Cooking Lesson Packages. The Budget Meal Lab idea from my draft unit calendar.
 
 ## Teacher notes
 

@@ -1,6 +1,6 @@
 # Slides 3.9: Digital Footprint, Online Relationships, and the Stress Plan
 
-Slide outline for Lesson 3.9. Twelve slides. Slide 8 carries the who-to-tell list; Sal fills in names and rooms and checks the list against the school's technology policy. Slide 11 shows the two example stressors from the Lesson 3.7 exit strips; Sal fills those in the morning of the lesson. The Stress Plan runs in the last 10 minutes.
+Slide outline for Lesson 3.9. Twelve slides. Slide 8 carries the who-to-tell list; I fill in names and rooms and check the list against the school's technology policy. Slide 11 shows the two example stressors from the Lesson 3.7 exit strips; I fill those in the morning of the lesson. The Stress Plan runs in the last 10 minutes.
 
 ## Slide 1: Digital Footprint, Online Relationships, and the Stress Plan
 

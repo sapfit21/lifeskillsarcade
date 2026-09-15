@@ -110,14 +110,14 @@ Inside the building: the health teacher, who covers sleep in the health curricul
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 2. d). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 1. c) and 1. f). Same folder. (The Financial and Consumer Literacy theme module has no line on managing time; checked against the verbatim extract.)
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator C. Wording per, section 2.
 - NYS CDOS Standard 3a, Intermediate, Managing Resources. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 2.1.1. (2.1.4 in 3.0 is a clothing competency and is not cited.)
 - Sleep ranges: American Academy of Sleep Medicine consensus recommendations (Paruthi et al., 2016), as published by the CDC on its "How Much Sleep Do I Need?" page: ages 6 to 12, 9 to 12 hours per 24 hours; ages 13 to 18, 8 to 10 hours per 24 hours.
 - The four boxes (urgent and important) are a public, widely used prioritizing frame; no single source is quoted.
-- Sal's own materials: ClassroomStreet's budgeting idea (a fixed amount, categories, and a total that must balance) is the model for the 24-hour audit; the audit is a budget with hours instead of dollars, and Topic 2.3 says so when the money budget arrives.
+- My own materials: ClassroomStreet's budgeting idea (a fixed amount, categories, and a total that must balance) is the model for the 24-hour audit; the audit is a budget with hours instead of dollars, and Topic 2.3 says so when the money budget arrives.
 
 ## Teacher notes
 

@@ -116,11 +116,11 @@ English language arts: the sixty-second pitch is a persuasive speech with a clai
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. c) and 3. a). Copy in `02 Standards/NYS Module PDFs/`. The module's Problem Solving and Innovation illustrative activity (a gallery walk to critique tiny house designs, naming elements admired and proposing alternatives) is the source of the gallery walk and the two stars and a step slip.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. c) and 3. a). Copy in. The module's Problem Solving and Innovation illustrative activity (a gallery walk to critique tiny house designs, naming elements admired and proposing alternatives) is the source of the gallery walk and the two stars and a step slip.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.4 and 11.6.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
-- Sal's own materials: the sixty-second pitch and gallery routine from the $40 project (Unit 1, Lesson 1.21) and the "design statement" and "personal reflection" prompts in `education_teachingwork_dream_home_challenge_2026_04.docx`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.4 and 11.6.5, per, section 4.11.
+- My own materials: the sixty-second pitch and gallery routine from the $40 project (Unit 1, Lesson 1.21) and the "design statement" and "personal reflection" prompts in.
 
 ## Teacher notes
 

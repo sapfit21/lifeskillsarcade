@@ -18,7 +18,7 @@
 - NYS FACS Learning Standard 1 (Intermediate), Key Idea: Students will use an understanding of the elements of good nutrition to plan appropriate diets for themselves and others. They will know and use the appropriate tools and technologies for safe and healthy food preparation.; Performance Indicator: Students understand the relationships among diet, health, and physical activities; evaluate their own eating patterns; and use appropriate technology and resources to make food selections and prepare simple, nutritious meals.
 - CDOS Standard 3a Universal Foundation Skills: Interpersonal Skills. Students demonstrate the ability to work with others, present facts that support arguments, listen to dissenting points of view, and reach a shared decision.
 - National FCS 3.0: 14.3.3 Show the ability to select, store, prepare, and serve food that is nourishing and looks good on the plate.
-- National FCS 3.0: 8.5.12 Plate, garnish, and present food to a professional standard. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8; cited in the crosswalk's N&W 1. h) row.)
+- National FCS 3.0: 8.5.12 Plate, garnish, and present food to a professional standard. (Confirmed in the 3.0 text in, Area 8; cited in the crosswalk's N&W 1. h) row.)
 - National FCS 3.0: 8.5.13 Build sustainability into food work, from menu planning and buying through preparation, service, storage, recycling, and waste. (Confirmed in the 3.0 text; cited in the crosswalk's FSP 4. a) row.)
 
 ## Enduring understanding and essential question
@@ -133,14 +133,14 @@ Inside the building: the cafeteria manager again, and this time with a number. F
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a) and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a) and 5. d). Copy in.
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness, lines 1. g) and 1. i). Same folder.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, line 6. f); Theme Module 04, Health, Safety, and Wellness, line 4. e); Theme Module 06, Sustainability, line 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, Interpersonal Skills, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.12, 8.5.13, and 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, Interpersonal Skills, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.12, 8.5.13, and 14.3.3, per.
 - The 165 F reheating temperature and the two-hour rule are the USDA Food Safety and Inspection Service figures used all year.
-- Sal's own materials: the place setting and food sharing content comes from Lesson 6.11 in this unit; the four-zone clean up and the station check are from `education_teaching_facs_kingkullen_masterflowchart_2026_03.pdf` (the 45 to 50 minute CLEAN UP row: "Wash pot + utensils, Wipe stove + counter, Sweep floor, Empty trash, Return supplies") and the "what does done look like" checklists in `education_teaching_facs_kingkullen_stationcards_2026_03.pdf`.
+- My own materials: the place setting and food sharing content comes from Lesson 6.11 in this unit; the four-zone clean up and the station check are from (the 45 to 50 minute CLEAN UP row: "Wash pot + utensils, Wipe stove + counter, Sweep floor, Empty trash, Return supplies") and the "what does done look like" checklists in.
 
 ## Teacher notes
 

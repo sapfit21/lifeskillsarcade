@@ -25,7 +25,7 @@ Notes: Take one step from each of four students and write them in a column. Then
 | 32 to 36 | Eat |
 | 36 to 40 | Clean and check |
 
-Notes: This is Sal's flowchart from his May 2026 recipe sheet, rewritten for three stations of seven with the teacher at the oven.
+Notes: This is my flowchart from my May 2026 recipe sheet, rewritten for three stations of seven with the teacher at the oven.
 
 ## Slide 3: Seven roles
 

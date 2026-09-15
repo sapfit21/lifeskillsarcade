@@ -1,6 +1,6 @@
 # Slides 3.5: Self-Concept, Self-Image, and the Filtered Life
 
-Slide outline for Lesson 3.5. Twelve slides. Slides 6 and 7 are the photo pair; they are described in words here. If Sal wants a real pair on screen, he photographs an object (a mug, a beach with no people) and edits it. No slide shows a person's body, and nothing on these slides mentions weight or dieting; body image is health class.
+Slide outline for Lesson 3.5. Twelve slides. Slides 6 and 7 are the photo pair; they are described in words here. If I want a real pair on screen, I photograph an object (a mug, a beach with no people) and edits it. No slide shows a person's body, and nothing on these slides mentions weight or dieting; body image is health class.
 
 ## Slide 1: Self-Concept, Self-Image, and the Filtered Life
 

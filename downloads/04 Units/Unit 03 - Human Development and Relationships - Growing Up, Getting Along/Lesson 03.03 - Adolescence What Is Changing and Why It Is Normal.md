@@ -112,12 +112,12 @@ Inside the building: the health teacher gets the exit card questions (no names) 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. b) and 3. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. b) and 3. d). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 12.1.1 and 12.1.3.
 - The brain content (prefrontal cortex maturing into the mid 20s, reward sensitivity higher in adolescence, later sleep timing) is the general account given in the National Institute of Mental Health's "The Teen Brain: 7 Things to Know" fact sheet (nimh.nih.gov) and the American Academy of Sleep Medicine sleep ranges as published by the CDC.
-- Sal's own materials: the infant brain development concept map (FNES 782) supplies the "connections get built, used ones stay, and the wrapping that speeds signals finishes last, in the front" framing, rewritten at grade 7.
+- My own materials: the infant brain development concept map from my graduate coursework supplies the "connections get built, used ones stay, and the wrapping that speeds signals finishes last, in the front" framing, rewritten at grade 7.
 
 ## Teacher notes
 

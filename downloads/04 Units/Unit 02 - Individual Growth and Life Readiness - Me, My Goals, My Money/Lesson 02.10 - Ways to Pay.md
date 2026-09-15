@@ -110,12 +110,12 @@ Math: subtraction with decimals across ten steps; the register is a good "find t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 4. c) and 4. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 4. c) and 4. d). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 5. a) and 4. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 2.4.3.
 - Fee figures (overdraft about $35, out-of-network ATM about $3 plus the other bank's fee, wire $15 to $30) are typical published fees at large banks in 2026; to be refreshed before teaching.
-- Sal's own materials: Sal taught check writing and mailing a letter at Brentwood South; this lesson keeps the check and adds the register and the seven-way comparison.
+- My own materials: I taught check writing and mailing a letter in my classroom; this lesson keeps the check and adds the register and the seven-way comparison.
 
 ## Teacher notes
 

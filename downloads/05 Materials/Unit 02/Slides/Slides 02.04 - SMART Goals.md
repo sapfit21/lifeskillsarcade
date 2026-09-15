@@ -1,6 +1,6 @@
 # Slides 2.4: SMART Goals
 
-Slide outline for Lesson 2.4. Twelve slides. Slide 4 needs one SMART goal and one stretch goal of Sal's own.
+Slide outline for Lesson 2.4. Twelve slides. Slide 4 needs one SMART goal and one stretch goal of my own.
 
 ## Slide 1: SMART Goals
 

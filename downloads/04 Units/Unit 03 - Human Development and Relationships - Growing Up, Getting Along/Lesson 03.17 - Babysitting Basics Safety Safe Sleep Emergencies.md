@@ -113,13 +113,13 @@ Inside the building: the school nurse, who can take Step 1's safe sleep demonstr
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 1. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 1. c). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 3. c), 3. e), and 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PIs on childcare and a safe and healthy home. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PIs on childcare and a safe and healthy home. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 15.2.1 and 15.2.4.
 - Safe sleep guidance: the American Academy of Pediatrics safe sleep recommendations (back to sleep, firm flat surface, nothing in the sleep space) and the NICHD Safe to Sleep campaign. Choking hazards and the small-parts test: the U.S. Consumer Product Safety Commission's small parts guidance (the toilet paper tube is the common home stand-in for the small parts cylinder). Poison control: 1-800-222-1222.
 - American Red Cross Babysitting Basics course information (redcross.org).
-- Sal's own materials: his FNES 782 infant care work exists only as a description; this lesson is written fresh.
+- My own materials: my graduate infant care work informed it; this lesson is written fresh.
 
 ## Teacher notes
 

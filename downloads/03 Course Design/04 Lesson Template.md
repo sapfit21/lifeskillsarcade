@@ -1,8 +1,8 @@
 # Lesson Template (use for every lesson, all year)
 
-File name: `Lesson NN.MM - [Title].md` inside the unit folder. One file per lesson even when the lesson runs more than one day. Every block below appears in every lesson, in this order. Write in plain English, short sentences. Student-facing text at a middle school reading level. No em dashes, en dashes, or double hyphens. Placeholders for Sal in [brackets].
+File name: `Lesson NN.MM - [Title].md` inside the unit folder. One file per lesson even when the lesson runs more than one day. Every block below appears in every lesson, in this order. Write in plain English, short sentences. Student-facing text at a middle school reading level. No em dashes, en dashes, or double hyphens.
 
-The order matches the Queens College Lesson Framework Sal already writes in (planning, instruction, assessment), so the site version and a version he hands in look the same. If the IDEAL Framework arrives, the blocks get relabeled, not rewritten.
+The order matches the lesson framework I already write in (planning, instruction, assessment). If the IDEAL Framework arrives, the blocks get relabeled, not rewritten.
 
 * * *
 

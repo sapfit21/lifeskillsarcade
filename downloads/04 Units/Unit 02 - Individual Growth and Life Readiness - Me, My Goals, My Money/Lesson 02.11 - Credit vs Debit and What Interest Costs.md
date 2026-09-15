@@ -110,12 +110,12 @@ Math: percent as a decimal, the formula I = P x r x t, and a three-step iteratio
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. f). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. f). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 5. b) and 5. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 3.3.3 and 3.3.8.
 - Rates used (5, 15, 24, and 29 percent) are typical published APRs for a good auto loan, a credit union card, a bank card, and a store card in 2026; to be refreshed before teaching. The minimum payment table was computed for this lesson at 2 percent a month with a fixed $25 payment.
-- Sal's own materials: the Credit and Debt Decoded packet (Brentwood South, 2026, `Lesson Dups/Unit_4_Financial_Literacy/education_teachingwork_credit_and_debt_decoded_2026_04.docx`) supplied the definitions, the interest impact calculator, and the responsible borrowing questions; the cautionary tale in that packet used a 20 percent monthly rate, which was changed here to a 24 percent yearly rate so the math matches real cards.
+- My own materials: the Credit and Debt Decoded packet supplied the definitions, the interest impact calculator, and the responsible borrowing questions; the cautionary tale in that packet used a 20 percent monthly rate, which was changed here to a 24 percent yearly rate so the math matches real cards.
 
 ## Teacher notes
 

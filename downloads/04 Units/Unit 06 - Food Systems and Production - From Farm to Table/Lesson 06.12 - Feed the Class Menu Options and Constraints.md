@@ -17,7 +17,7 @@
 - NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students are able to budget their time and money.
 - CDOS Standard 3a Universal Foundation Skills: Managing Resources. Students understand the material, human, and financial resources needed to accomplish tasks and activities.
 - National FCS 3.0: 2.1.3 Examine the decisions behind providing food that is safe and nourishing for individuals and families.
-- National FCS 3.0: 8.4.2 Use menu-planning principles to build and adjust menus. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8. It is not printed in the FSP module's own Standards Addressed block, so it is cited as a secondary competency.)
+- National FCS 3.0: 8.4.2 Use menu-planning principles to build and adjust menus. (Confirmed in the 3.0 text in, Area 8. It is not printed in the FSP module's own Standards Addressed block, so it is cited as a secondary competency.)
 
 ## Enduring understanding and essential question
 
@@ -125,12 +125,12 @@ Math: the cost per person division and the scale factor in Lesson 6.13 are ratio
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. c), 5. a), 5. b), and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. c), 5. a), 5. b), and 5. c). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c); Theme Module 05, Problem Solving and Innovation, line 2. a) c. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, Managing Resources, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 8.4.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: `education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf` (six costed menus for 165 students across six periods and three kitchens on a $200 budget, with the standing constraints "No knives, No frying, Pre-cooked meat only, Stovetop plus oven"). The five option cards in `Handout 06.12` are rescaled from his six for one class of 28 at four stations. Prices are his verified King Kullen prices from the week of March 20 to 26, 2026, to be refreshed from the current circular before teaching.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, Managing Resources, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 8.4.2, per.
+- My own materials: (six costed menus for 165 students across six periods and three kitchens on a $200 budget, with the standing constraints "No knives, No frying, Pre-cooked meat only, Stovetop plus oven"). The five option cards in `Handout 06.12` are rescaled from my six for one class of 28 at four stations. Prices are my verified supermarket prices from the week of March 20 to 26, 2026, to be refreshed from the current circular before teaching.
 
 ## Teacher notes
 

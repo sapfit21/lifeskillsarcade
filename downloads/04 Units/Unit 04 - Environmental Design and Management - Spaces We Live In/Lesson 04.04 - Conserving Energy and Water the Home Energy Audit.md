@@ -129,12 +129,12 @@ Math: unit conversions (Wh to kWh), percent (the thermostat setback), and paybac
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. d) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module, Sustainability, lines 1. e), 3. d), and 3. e). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. d) and 2. d). Copy in.
+- NYS Middle Level CTE Theme Module, Sustainability, lines 1. e), 3. d), and 3. e). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 3.4.3 and 2.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 3.4.3 and 2.2.3, per.
 - Energy and water shares are rounded from U.S. Energy Information Administration residential energy consumption data and the U.S. EPA WaterSense residential water use breakdown; the drip figure is rounded from the USGS drip calculator; the thermostat setback rule of thumb is from the U.S. Department of Energy. All are rounded for grade 7 math and marked "about."
-- Sal's own materials: the "Sustainable Style" Brentwood packet supplied the "free fix first" idea; the ClassroomStreet utility expense line is where students see the bill again in Unit 2.
+- My own materials: my "Sustainable Style" packet supplied the "free fix first" idea; the ClassroomStreet utility expense line is where students see the bill again in Unit 2.
 
 ## Teacher notes
 

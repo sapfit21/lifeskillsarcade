@@ -1,6 +1,6 @@
 # Slides 7.4: How to Talk About Yourself in an Interview
 
-Slide outline for Lesson 7.4. Thirteen slides, one day. Slides 1, 2, and 4 are the sequence from Sal's own version of this lesson and they stay in that order. Slides 6 and 10 stay up for the rest of the unit if you can leave them projected or printed; the three-part frame and STAR are used again in Lessons 7.5, 7.9, and 7.11.
+Slide outline for Lesson 7.4. Thirteen slides, one day. Slides 1, 2, and 4 are the sequence from my own version of this lesson and they stay in that order. Slides 6 and 10 stay up for the rest of the unit if you can leave them projected or printed; the three-part frame and STAR are used again in Lessons 7.5, 7.9, and 7.11.
 
 ## Slide 1: You are the CEO of a million-dollar company
 
@@ -8,7 +8,7 @@ Slide outline for Lesson 7.4. Thirteen slides, one day. Slides 1, 2, and 4 are t
 - What qualities, skills, or traits must that person have?
 - Write for two minutes
 Image: a single empty chair on one side of a plain table.
-Notes: This is the do now and the hook at once. It is Sal's own opening and it works because it flips the student from applicant to decider. Cold call eight students fast and write every repeated word on the anchor chart.
+Notes: This is the do now and the hook at once. It is my own opening and it works because it flips the student from applicant to decider. Cold call eight students fast and write every repeated word on the anchor chart.
 
 ## Slide 2: What makes one candidate stand out from another?
 

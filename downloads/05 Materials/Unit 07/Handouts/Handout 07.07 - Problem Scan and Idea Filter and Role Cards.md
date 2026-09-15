@@ -259,4 +259,4 @@ If two people want the same role, the one who has **not** had that kind of job b
 
 **Scoring:** the problem scan and the filter sheet are scored complete, partial, or missing for daily work. **The signed gate section is not a grade, it is a gate:** no signed sheet, no next step, and the team gets a three-minute conference at the start of Lesson 7.8 with a narrowed version of their own idea.
 
-**Note:** these role cards are written fresh. Sal's own team formation and role decision sheets, which used the same three C-suite titles, were not available in the source folder.
+**Note:** these role cards are written fresh. They follow my own team formation and role decision sheets, which used the same three C-suite titles.

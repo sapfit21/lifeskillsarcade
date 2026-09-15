@@ -261,7 +261,7 @@ Do **not** accept: "work faster," "hope it cooks quicker," frying it, using a kn
 - A "done looks like" check that is not visible ("it tastes good"). Replace with "the cheese is bubbling and the edges are brown."
 - No minute written for the teacher call. The teacher needs that number to plan the period.
 
-## The four "done looks like" checks, as models from Sal's own cards
+## The four "done looks like" checks, as models from my own cards
 
 Spaghetti: pasta is cooked (soft, not crunchy); sauce is mixed evenly into the pasta; parmesan is sprinkled on top; station is wiped down and the pot is rinsed.
 

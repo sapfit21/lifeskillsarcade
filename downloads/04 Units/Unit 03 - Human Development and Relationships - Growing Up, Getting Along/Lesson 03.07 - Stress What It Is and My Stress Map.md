@@ -113,12 +113,12 @@ Inside the building: the counselor and nurse are named on slide 10 and get a cop
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 3. d) and 3. e). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 3. d) and 3. e). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 6. a), 6. c), and 5. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.1.6 and 14.1.1.
 - The good stress and bad stress framing and the body signals list follow the general account on the National Institute of Mental Health fact sheet on stress for teens ("I'm So Stressed Out," nimh.nih.gov).
-- Sal's own materials: the sleep window from Lesson 2.6 is referenced as the first thing that shortens under stress.
+- My own materials: the sleep window from Lesson 2.6 is referenced as the first thing that shortens under stress.
 
 ## Teacher notes
 

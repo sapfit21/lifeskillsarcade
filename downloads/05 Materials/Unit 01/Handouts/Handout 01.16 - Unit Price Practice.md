@@ -76,7 +76,7 @@ Part A: 1. $0.081 per oz. 2. $0.095 per oz. 3. $0.311 per oz. 4. $0.149 per oz. 
 
 Part B: 1. $0.095 vs $0.084; the 45 oz jar. 2. $0.124 vs $0.081; store brand. 3. $0.311 vs $0.250; the 2 lb bag (then ask: can the family use 2 lb of cheese before it molds? That is Part D's question).
 
-Part C: most grocery food is not taxed; non-food items, candy, soda, and prepared hot food are taxed; about 8.625 percent in Suffolk and Nassau counties. Taxed: foil, soda, paper plates, candy bar. Not taxed: rice, bread. Foil tax: $3.49 times 0.08625 = $0.30 (rounded). Total $3.79.
+Part C: most grocery food is not taxed; non-food items, candy, soda, and prepared hot food are taxed; about 8.625 percent on Long Island. Taxed: foil, soda, paper plates, candy bar. Not taxed: rice, bread. Foil tax: $3.49 times 0.08625 = $0.30 (rounded). Total $3.79.
 
 Part D: 10 lb bag: $0.599 per lb. 3 lb bag: $0.997 per lb. Cheaper per pound: the 10 lb bag. The family should buy the 3 lb bag: they use about 4 lb a month, the potatoes will sprout or rot in a warm cabinet before they use 10 lb, and the waste costs more than the savings. Accept the 10 lb bag only with a fix (a cool, dark place to store them and a plan to use them within three weeks).
 

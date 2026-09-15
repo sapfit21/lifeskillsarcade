@@ -28,7 +28,7 @@ Notes: Copy the two lines into the journal notes box.
 - The seasons move Willowbrook.
 - The Honeypot ignores the news.
 Image: four small icons: a storm cloud, a compass, a crown, a leaf; and a honey jar with earmuffs.
-Notes: From Sal's Merchant's Handbook.
+Notes: From the ClassroomStreet Merchant's Handbook.
 
 ## Slide 5: Part A: match the news to the price
 - Eight news cards. Eight price changes, shuffled.

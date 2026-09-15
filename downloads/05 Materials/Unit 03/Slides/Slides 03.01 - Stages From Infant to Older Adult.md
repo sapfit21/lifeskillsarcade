@@ -1,6 +1,6 @@
 # Slides 3.1: Stages From Infant to Older Adult
 
-Slide outline for Lesson 3.1. Eleven slides. Slide 1 is the ClassroomStreet Round 2 close and belongs to Unit 2; it runs for 10 minutes before the lesson starts. Sal fills in the standings before class.
+Slide outline for Lesson 3.1. Eleven slides. Slide 1 is the ClassroomStreet Round 2 close and belongs to Unit 2; it runs for 10 minutes before the lesson starts. I fill in the standings before class.
 
 ## Slide 1: ClassroomStreet Round 2: final standings
 

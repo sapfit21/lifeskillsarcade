@@ -77,7 +77,7 @@ Hazards found: ______ Water hazards found: ______ Stairs: ______ Choking: ______
 
 Fill this out with the parent before they leave, every time.
 
-**The family's information (fictional):** The Okafor family. 47 Maple Street, Apartment 2B, Brentwood, NY 11717. Cross street: Third Avenue. Parent: Dana Okafor, cell 631-555-0147. Backup: Uncle Ray Okafor, 631-555-0192. Child: Eli, age 2, no allergies, no medicine tonight. First aid kit: hall closet, top shelf. Parents will be at a restaurant on Main Street, back by 9:30 p.m.
+**The family's information (fictional):** The Okafor family. 47 Maple Street, Apartment 2B, Harbor Hills, NY 11700. Cross street: Third Avenue. Parent: Dana Okafor, cell 631-555-0147. Backup: Uncle Ray Okafor, 631-555-0192. Child: Eli, age 2, no allergies, no medicine tonight. First aid kit: hall closet, top shelf. Parents will be at a restaurant on Main Street, back by 9:30 p.m.
 
 | Line | Fill in |
 |---|---|

@@ -37,7 +37,7 @@ By the end of this lesson, students will be able to:
 2. (Mid: apply and analyze) Given two food labels, compare calories, added sugars, and sodium to decide which is the better choice, and calculate the total calories and sodium eaten if the whole package is eaten.
 3. (High: evaluate) Given a food advertisement and the product's Nutrition Facts label, critique the advertisement using at least three pieces of evidence from the label.
 
-(These are Sal's tiered objectives from his Nutrition Labels planning notes, rewritten to the lesson template. His other High objective, design a mock Nutrition Facts label for a healthy snack, is the grade 8 stretch on Day 2.)
+(These are my tiered objectives from my Nutrition Labels planning notes, rewritten to the lesson template. My other High objective, design a mock Nutrition Facts label for a healthy snack, is the grade 8 stretch on Day 2.)
 
 ## Vocabulary
 
@@ -111,7 +111,7 @@ Day 2, exit ticket: one product from today, the trick on its front, and the one 
 - ELL: the label diagram on the handout is labeled in English with a word bank in Turkish, Portuguese, and Spanish (see `Vocabulary 01.md`); the poster label stays on the screen both days; sentence frame for the critique: "The ad says ___, but the label shows ___." Pair each ELL student with a partner who can point to the line on the package.
 - IEP and 504 (general): the hunt table asks for three packages instead of five on request; calculators for every computation; the critique can be spoken to the teacher and recorded in three bullet points instead of four sentences; a student who cannot rotate stations gets five packages brought to the seat.
 - Grade 6 support: Day 1, record five facts per package (skip added sugars and fiber) and answer four hunt questions; Day 2, do comparison 1 only, then the critique with two pieces of evidence.
-- Grade 8 stretch: Day 1, also compute the percent daily value for a nutrient that the package gives only in grams (fiber: grams divided by 28, times 100). Day 2, after the critique, design an honest mock Nutrition Facts label for a snack that could truthfully say "made with real fruit" (this is Sal's third High objective).
+- Grade 8 stretch: Day 1, also compute the percent daily value for a nutrient that the package gives only in grams (fiber: grams divided by 28, times 100). Day 2, after the critique, design an honest mock Nutrition Facts label for a snack that could truthfully say "made with real fruit" (this is my third High objective).
 - UDL checkpoint used: multiple means of representation (the poster label, real packages in hand, and the same data written out on the handout) and multiple means of action and expression (evidence can be shown by pointing, computing, or writing).
 - No-kitchen or no-machine alternative: not needed; no cooking. If real packages cannot be collected, the Scavenger Hunt handout includes five written-out labels on its last page for each station to use instead.
 
@@ -135,13 +135,13 @@ Inside the building: the math teacher. Percent daily value, multiplying by servi
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. a) and 2. c). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. e) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - CDOS Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.2.4 and 3.5.6.
 - Label facts: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov), including the 5% and 20% DV rule and the daily values used on the 2020 label (sodium 2,300 mg; added sugars 50 g; dietary fiber 28 g; saturated fat 20 g). FDA's position on "natural": fda.gov, "Use of the Term Natural on Food Labeling."
-- Sal's own materials: `FNES538_notes_NextWeek-NutritionLabels-Tiered_2026-03.docx` (his tiered Bloom's objectives for a Nutrition Labels lesson) supplied the three objectives and the grade 8 stretch.
+- My own materials: my tiered Bloom's objectives for a Nutrition Labels lesson supplied the three objectives and the grade 8 stretch.
 
 ## Teacher notes
 

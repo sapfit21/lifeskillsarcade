@@ -88,7 +88,7 @@ Exit card on the bottom of the handout: 3 milestones with their age range, 2 thi
 - ELL: the demo is physical and needs almost no language; the chart columns have picture cues (an arm, a lightbulb, a heart, two figures); word bank on the handout for baby, child, caregiver, safe, and grow in Turkish, Portuguese, and Spanish; sentence starter for Part 3: "A ___ year old can ___, so the caregiver should ___."
 - IEP and 504 (general): the milestone strips can be matched by drawing a line instead of cutting; the demo sheet before and after boxes have a choice of two answers to circle; Part 3 can be two ages instead of three; extended time on Part 3 into the next do now.
 - Grade 6 support: the chart has four blank cells instead of eight; Part 3 asks for one age (2 years).
-- Grade 8 stretch: add the two-column note on slide 12, "What the brain is doing": connections between brain cells are built fastest in the first three years, the brain keeps the connections that get used and trims the ones that do not, and talking, holding, sleep, and food are what feed that. Write two sentences on what that means for a caregiver of a 1-year-old. (This is the middle school version of the infant brain development material from Sal's FNES 782 work.)
+- Grade 8 stretch: add the two-column note on slide 12, "What the brain is doing": connections between brain cells are built fastest in the first three years, the brain keeps the connections that get used and trims the ones that do not, and talking, holding, sleep, and food are what feed that. Write two sentences on what that means for a caregiver of a 1-year-old. (This is the middle school version of the infant brain development material from my graduate coursework.)
 - UDL checkpoint used: multiple means of representation (a live demo, a timeline slide, a chart with picture cues) and multiple means of engagement (the "why should you care" wall lets students connect the idea to their own lives without sharing anything personal).
 - No-kitchen or no-machine alternative: not needed; a plastic egg and a napkin work anywhere.
 
@@ -110,11 +110,11 @@ Inside the building: the health teacher, if the grade 6 health course covers chi
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 3. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, first performance indicator. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, first performance indicator. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 12.1.2 and 15.2.1.
-- Sal's own materials: `ObjectPermanence_Presentation.pptx` (FNES 782, Google Drive): the silhouette hook, the egg under the napkin demo, the before and after 8 months contrast, the four-step timeline, the myth busting, and the "why should you care" slide are his and are rewritten here. The fictional case in that deck was adapted from a professor's course materials and is not reused; the child in this lesson's slides is new and fictional. His infant brain development concept map (FNES 782, Google Drive) supplies the grade 8 stretch, rewritten at a middle school level.
+- My own materials: (from my graduate coursework): the silhouette hook, the egg under the napkin demo, the before and after 8 months contrast, the four-step timeline, the myth busting, and the "why should you care" slide are mine and are rewritten here. The fictional case in that deck was adapted from a professor's course materials and is not reused; the child in this lesson's slides is new and fictional. His infant brain development concept map supplies the grade 8 stretch, rewritten at a middle school level.
 - Milestone ranges follow the CDC "Learn the Signs. Act Early." developmental milestone checklists (cdc.gov/ncbddd/actearly), which were revised in 2022 to list the age by which most children (75 percent) reach a milestone.
 
 ## Teacher notes

@@ -122,9 +122,9 @@ Inside the building: the school counselor, who can take one triad for the period
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. b), 3. c), and 3. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. d); Theme Module 02, Communication and Interpersonal Relationships, line 2. c).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Interpersonal Skills. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.2 and 13.3.3.
-- Sal's own materials: the STAR interview lesson and its peer feedback step (FNES 538, April 2026), and the ACT FAST drill's four observed traits, which are the four trait rows on the feedback sheet.
+- My own materials: my STAR interview lesson and its peer feedback step, and the ACT FAST drill's four observed traits, which are the four trait rows on the feedback sheet.
 - The Communication and Interpersonal Relationships illustrative activity in the state's Individual Growth and Life Readiness module has students "work in pairs to practice effective communication skills," including "role playing active/reflective listening," before interviewing an adult. The triad structure here is that activity with a third role added so the listening gets written down.
 
 ## Teacher notes

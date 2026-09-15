@@ -117,10 +117,10 @@ Inside the building: the ELA teacher, on persuasion and audience, and the drama 
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. c) and 5. b).
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 1. f) and 3. b).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Managing Information. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Managing Information. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.2 and 1.2.6.
-- Sal's own materials: his Brentwood business packets "The Elevator Pitch" (the hook, problem, solution, and call to action structure with timings, the delivery notes on tone and body language, and the five-times practice log) and "Shark Tank Showdown" (the 60-second pitch script broken into hook, problem, solution, market and numbers, and ask, with the timings in seconds). The six-part structure here is those two packets combined, with "who it is for" pulled forward from the customer work and "the money" tied to the Lesson 7.8 numbers page so the pitch cannot be delivered without real numbers behind it.
-- Sal's own background: he has pitched in business development at Oracle and designed and built ClassroomStreet.com himself. The model pitch in Step 1 should be one of his own.
+- My own materials: my business packets "The Elevator Pitch" (the hook, problem, solution, and call to action structure with timings, the delivery notes on tone and body language, and the five-times practice log) and "Shark Tank Showdown" (the 60-second pitch script broken into hook, problem, solution, market and numbers, and ask, with the timings in seconds). The six-part structure here is those two packets combined, with "who it is for" pulled forward from the customer work and "the money" tied to the Lesson 7.8 numbers page so the pitch cannot be delivered without real numbers behind it.
+- My own background: I have pitched in business development and I designed and built ClassroomStreet.com myself. The model pitch in Step 1 should be one of my own.
 
 ## Teacher notes
 

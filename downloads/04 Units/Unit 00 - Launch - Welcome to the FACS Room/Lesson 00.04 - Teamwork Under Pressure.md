@@ -112,11 +112,11 @@ Inside the building: the PE teacher, who writes team rules with every class in S
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 3. b) and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 3. b) and 3. c). Copy in.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, line 3. f), and Theme Module 01, Career and Community Opportunities, line 3. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Interpersonal Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Interpersonal Skills. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.4 and 13.5.1.
-- Sal's own materials: the Silent Measurement Challenge (Brentwood, written out in full in `Lesson 01.06 - Measuring and the Silent Measurement Challenge.md`); this lesson is the water-and-rice preview of it. Role cards from `Handout 01.08 - Role Cards Lab 1.md`. Team norms and role cards as described in `01 Source Analysis/Brentwood Work and Simulations.md`.
+- My own materials: the Silent Measurement Challenge (written out in full in `Lesson 01.06 - Measuring and the Silent Measurement Challenge.md`); this lesson is the water-and-rice preview of it. Role cards from `Handout 01.08 - Role Cards Lab 1.md`. Team norms and role cards as described in.
 
 ## Teacher notes
 

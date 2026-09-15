@@ -120,13 +120,13 @@ Inside the building: the school counselor, who may run the O*NET Interest Profil
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, lines 2. d) and 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
 - NYS CDOS Standard 1, Intermediate. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 13.2.1.
 - The six interest types (realistic, investigative, artistic, social, enterprising, conventional) are John Holland's RIASEC categories, public descriptors used by the U.S. Department of Labor's O*NET Interest Profiler (onetonline.org). The 30 quiz items in `Handout 02.02 - Interest Quiz.md` were written new for this course and are not taken from any published instrument.
-- Sal's own materials: the Holland Code Decoder packet (`Lesson Dups/Unit_2_Career_Exploration/education_teachingwork_the_holland_code_decoder_2026_04.docx`) supplied the yes-count-by-column scoring idea and the top-letters-to-careers step; the What Do You Want to Be packet (same folder) supplied the interest-to-careers matching table and the "clues" framing; the Soft Skills Superpower packet supplied the rate-yourself inventory pattern. All rewritten here with new items, the trait vs strength vs interest distinction, the notice cards, and the values check added.
+- My own materials: the Holland Code Decoder packet supplied the yes-count-by-column scoring idea and the top-letters-to-careers step; the What Do You Want to Be packet (same folder) supplied the interest-to-careers matching table and the "clues" framing; the Soft Skills Superpower packet supplied the rate-yourself inventory pattern. All rewritten here with new items, the trait vs strength vs interest distinction, the notice cards, and the values check added.
 
 ## Teacher notes
 

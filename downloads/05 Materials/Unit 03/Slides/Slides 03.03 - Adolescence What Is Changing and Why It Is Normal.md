@@ -1,6 +1,6 @@
 # Slides 3.3: Adolescence: What Is Changing and Why It Is Normal
 
-Slide outline for Lesson 3.3. Twelve slides. Nothing on these slides is about puberty or reproductive health; those are health class. Every "you" is general. Slide 9 carries the "tell an adult" list; Sal fills in the counselor's name and room.
+Slide outline for Lesson 3.3. Twelve slides. Nothing on these slides is about puberty or reproductive health; those are health class. Every "you" is general. Slide 9 carries the "tell an adult" list; I fill in the counselor's name and room.
 
 ## Slide 1: Adolescence: What Is Changing and Why It Is Normal
 

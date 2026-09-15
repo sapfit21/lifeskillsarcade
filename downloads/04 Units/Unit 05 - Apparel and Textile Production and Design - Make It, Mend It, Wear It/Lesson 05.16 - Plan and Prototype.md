@@ -142,10 +142,10 @@ Math: measurement in inches and fractions of an inch, perimeter, and the grade 8
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b), 2. c), 2. d). Copy in.
 - NYS Middle Level CTE Theme Modules: Problem Solving and Innovation 2. a) e. and f.; Health, Safety, and Wellness 4. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.3.3 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.3.3 and 16.4.5, per, section 4.16.
 - The count-out and count-in routine and the four taught hand stitches and the machine seam come from Topic 5.2 of this unit (Lessons 5.5 to 5.10).
 
 ## Teacher notes

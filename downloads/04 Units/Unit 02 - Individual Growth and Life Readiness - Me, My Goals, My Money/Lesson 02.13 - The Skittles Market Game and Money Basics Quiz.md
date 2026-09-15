@@ -118,12 +118,12 @@ Social studies: the game is a small economy; the social studies teacher can use 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. c). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 5. a) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.2 and 2.5.1.
 - Skittles allergen statement: check the current package and the manufacturer's site each year; the setup note reflects the original US product in 2026.
-- Sal's own materials: The Skittles Market Game, original design, full lesson in `FPM_Interview_2026-08/02_Curriculum/Prevosto_FACS_Curriculum_FullYear.docx` (a 55-minute grade 9 to 12 version with a 20-minute open floor and a 20-minute debrief). This version cuts it to 22 minutes, adds the three fee structures and the House Banker role, and moves the "Find the Game" assignment to the optional homework and the quiz scenario. The transaction-tax extension in his Island game notes is the seed of the fee rounds.
+- My own materials: The Skittles Market Game, my original design (a 55-minute grade 9 to 12 version with a 20-minute open floor and a 20-minute debrief). This version cuts it to 22 minutes, adds the three fee structures and the House Banker role, and moves the "Find the Game" assignment to the optional homework and the quiz scenario. The transaction-tax extension in his Island game notes is the seed of the fee rounds.
 
 ## Teacher notes
 

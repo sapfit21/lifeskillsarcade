@@ -108,11 +108,11 @@ Inside the building: the ENL teacher, for the seat chart (who can pair with whom
 
 ## Sources
 
-- NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 1. c), and Theme Module 02, Communication and Interpersonal Relationships, line 6. f) (nyctecenter.org, June 2018). Copies in `02 Standards/NYS Module PDFs/`.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 1. c), and Theme Module 02, Communication and Interpersonal Relationships, line 6. f) (nyctecenter.org, June 2018). Copies in.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 13.5.1.
-- Sal's own materials: the do now routine, the reset cue, and the Weekly Quote Monday routine as described in his Brentwood portfolio (`01 Source Analysis/Brentwood Work and Simulations.md`, section 2). The line "Kids do not learn from people they do not trust" is his.
+- My own materials: the do now routine, the reset cue, and the Weekly Quote Monday routine as described in my portfolio (section 2). The line "Kids do not learn from people they do not trust" is his.
 
 ## Teacher notes
 

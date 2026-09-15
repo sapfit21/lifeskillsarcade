@@ -60,7 +60,7 @@ Debrief: most students will pick the $1.29 box because the number is smaller. As
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
 | 1. Direct instruction: unit price and the shelf tag | Write the rule: unit price = price divided by quantity. Do the two sauce jars on the board: $2.29 divided by 24 = $0.095 per oz; $3.79 divided by 45 = $0.084 per oz. Show a real shelf tag photo and point to the small unit price the store already prints. Rule two: the unit has to match (oz to oz, lb to lb) before you compare. Show 1 lb = 16 oz. | Copy the rule and the two sauce answers on the handout. Answer: "Which jar wins per ounce?" | 7 min |
-| 2. Direct instruction: brand, bulk, and tax | Three quick comparisons with real packages: store brand vs name brand (usually same factory, different label, 20 to 40 percent less); small vs bulk (bulk usually wins per ounce, but only if you can use it and store it); a food item vs a non-food item at the register (in New York most grocery food is not taxed; paper plates, foil, cups, soap, and candy or soda are taxed, about 8.625 percent in Suffolk and Nassau). | Predict the winner before each reveal with a thumb up for store brand or bulk. Write the tax rule in the box on the handout. | 6 min |
+| 2. Direct instruction: brand, bulk, and tax | Three quick comparisons with real packages: store brand vs name brand (usually same factory, different label, 20 to 40 percent less); small vs bulk (bulk usually wins per ounce, but only if you can use it and store it); a food item vs a non-food item at the register (in New York most grocery food is not taxed; paper plates, foil, cups, soap, and candy or soda are taxed, about 8.625 percent on Long Island). | Predict the winner before each reveal with a thumb up for store brand or bulk. Write the tax rule in the box on the handout. | 6 min |
 | 3. Practice: Unit Price Practice sheet | Pairs work through the handout: six unit price calculations from circular items, three "which is the better buy" pairs, and one bulk trap (a 10 lb bag of potatoes for a family that eats potatoes once a month). Circulate; check the unit conversions first. Peer checkers from the do now help pairs that are stuck. | Calculate, compare, circle the better buy, and write the bulk trap answer. | 12 min |
 | 4. Debrief: when cheaper is not better | Take answers to the bulk trap. Build the list on the board: cheaper per unit is the wrong buy when it will spoil first, when there is no room to store it, when the family will not eat that much, when a food rule or allergy rules it out, or when you cannot afford the bigger total today even though it is cheaper per ounce. That last one is the hardest and the most real. | Copy the list. Add one of their own from home. | 6 min |
 
@@ -113,13 +113,13 @@ Math: this is ratio and unit rate, which is in the grade 6 and 7 math standards;
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 3. b) and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 3. b) and 3. c). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. b) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 2.5.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 2.5.1, per.
 - New York State sales tax treatment of food: most food for home use is exempt; prepared food, candy, soda, and non-food items are taxable.
-- Sal's own materials: the King Kullen shopping list with store-brand swaps (`Education/TeachingWork/LessonPlans/education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf`), the "NYS sales tax note" in his three cooking lesson packages, and the unit price day in his FNES 563 draft unit calendar.
+- My own materials: the supermarket shopping list with store-brand swaps, the "NYS sales tax note" in my three cooking lesson packages, and the unit price day in my draft unit calendar.
 
 ## Teacher notes
 

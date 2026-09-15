@@ -8,7 +8,7 @@
 
 This is the build. Every hand skill from Lessons 5.6 to 5.9 and every machine skill from Lesson 5.10 goes into one object a student made and keeps: a drawstring bag in woven cotton, cut to a pattern, seamed on the machine, turned right side out, with a working drawstring channel. It is a real construction piece, not a craft: it has a seam allowance, a right side and a wrong side, a turn, and a closure that has to actually close. It is not the unit project; the Upcycle Challenge in Topic 5.4 is. This is Topic 5.2's product, and together with the Stitch Sampler Performance Check on Day 3 it is the topic's formal check.
 
-The hand path stays, in full: a student at the hand station builds the felt pouch from the same handout, hand-backstitched, on the same three days and the same rubric. The hand path is where a student goes when their machine is down and the spares are full, when the reduced-dexterity alternative fits better, or when they choose it; it is a legitimate build, not a lesser one. The archived all-hand version of this lesson is in `00 _admin/_archive/2026-09-14 Unit 5 pre-machine revision/` for a room with no machines at all.
+The hand path stays, in full: a student at the hand station builds the felt pouch from the same handout, hand-backstitched, on the same three days and the same rubric. The hand path is where a student goes when their machine is down and the spares are full, when the reduced-dexterity alternative fits better, or when they choose it; it is a legitimate build, not a lesser one. The archived all-hand version of this lesson is in for a room with no machines at all.
 
 The machine management layer runs all three days and is already routine from Lesson 5.10: assigned numbered machines, the threading buddy system, the machine doctor tag, and the close-down routine at the end of every period. For Day 1 only, I pre-thread every machine before class, because the first fabric day spends its minutes sewing, not threading. From Day 2 on, licensed threaders thread their own machines and buddies cover the rest.
 
@@ -135,7 +135,7 @@ Day 1 and Day 2 close with the count and the machine close-down routine. Day 3's
 - Grade 6 support: pre-cut rectangle, pre-marked seam lines and channel line, and the channel fold pressed by me before they pin it; on the sampler, the machine box may be the Day 1 seam if the scrap ran out of time.
 - Grade 8 stretch: a lined bag, a boxed bottom corner, or a bag drafted to hold a named object and tested against it, which is PSI 2. a) g. done for real; on the machine, a pivoted square patch pocket sewn to the front before the side seams, which uses the Day 3 drill on fabric.
 - UDL checkpoint used: multiple means of action and expression (machine path or hand path, pedal or hand wheel, written or spoken self-check) and multiple means of engagement (the bag is the student's own, in their fabric, holding a thing they named on Day 1).
-- No-machine alternative: the archived hand-sewn build (felt pouch or hand-backstitched drawstring bag) in `00 _admin/_archive/2026-09-14 Unit 5 pre-machine revision/` replaces this lesson wholesale, and the sampler card runs with five boxes instead of six; the unit still meets every hand line of ATPD 2, and the site's standards note says the machine demonstration half of 2. c) is not met, which is the honest version. Reduced-dexterity alternative: hand wheel driving; pre-threaded machines all three days; a buddy pulls pins; the felt pouch path with pre-cut pieces, a whipstitch, and a pre-made loop, scored on the same rubric.
+- No-machine alternative: the archived hand-sewn build (felt pouch or hand-backstitched drawstring bag) in replaces this lesson wholesale, and the sampler card runs with five boxes instead of six; the unit still meets every hand line of ATPD 2, and the site's standards note says the machine demonstration half of 2. c) is not met, which is the honest version. Reduced-dexterity alternative: hand wheel driving; pre-threaded machines all three days; a buddy pulls pins; the felt pouch path with pre-cut pieces, a whipstitch, and a pre-made loop, scored on the same rubric.
 
 ## Assessment
 
@@ -173,11 +173,11 @@ Mathematics: quarter-inch seam allowance, pattern as scale drawing, and the chan
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a), 2. b), and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) with sub-lines b., f., and g.; Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. i). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a), 2. b), and 2. c). Copy in.
+- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) with sub-lines b., f., and g.; Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. i). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
 - CDOS Standards 2 and 3a, Intermediate, per the crosswalk, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.7, 16.4.1, and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.7, 16.4.1, and 16.4.5, per, section 4.16.
 - The rubric follows the pattern of `Rubric 01 - Lab Rubric.md`, extended from four rows to five for a three-day build. The bag pattern and construction order are standard beginner machine sewing; written new for this course.
 
 ## Teacher notes

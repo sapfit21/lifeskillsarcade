@@ -85,7 +85,7 @@ Exit card, three lines: my top three clusters; one job from a poster I did not k
 
 ## Differentiation and supports
 
-- ELL: every poster has one picture per job (described in the handout so Sal can add an image or draw an icon); the cluster names are printed in Turkish, Portuguese, and Spanish on the match sheet (see `Vocabulary 02.md`, to be verified by a native speaker); the Yes, Maybe, No columns use a check, a question mark, and an X as well as the words; sentence starter for Step 4: "I chose ___ because I like ___."
+- ELL: every poster has one picture per job (described in the handout so I can add an image or draw an icon); the cluster names are printed in Turkish, Portuguese, and Spanish on the match sheet (see `Vocabulary 02.md`, to be verified by a native speaker); the Yes, Maybe, No columns use a check, a question mark, and an X as well as the words; sentence starter for Step 4: "I chose ___ because I like ___."
 - IEP and 504 (general): the walk can be done seated with the 16 posters as a packet; a student who tires can mark eight clusters and skip the rest with no penalty; extended time by finishing the top three as tomorrow's do now; a partner may read the poster aloud.
 - Grade 6 support: mark only the eight FACS-related posters plus any four others the student chooses; the top three sentences use the sentence starter.
 - Grade 8 stretch: for each of the top three, name one job from the poster and one job not on the poster that belongs in the cluster; write two sentences on which cluster the student's quiz got wrong and why the quiz might have missed it.
@@ -110,12 +110,12 @@ Inside the building: the guidance counselor, who uses the same 16 clusters on th
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 5. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 5. a). Copy in.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 2. c) and 2. d). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.1.
 - The 16 national career clusters by their public names, as used in the National Career Clusters Framework (Advance CTE, careertech.org) that the NYS module refers to.
-- Sal's own materials: the Brentwood packet "Career Clusters Unlocked: Explore 16 Career Super-Groups" (Unit 2 Career Exploration, April 2026). The 16-cluster table with example jobs and the Yes, Maybe, No column are its Activity 1, rebuilt as a wall walk. The scramble puzzle is dropped.
+- My own materials: my packet "Career Clusters Unlocked: Explore 16 Career Super-Groups" (Unit 2 Career Exploration, April 2026). The 16-cluster table with example jobs and the Yes, Maybe, No column are its Activity 1, rebuilt as a wall walk. The scramble puzzle is dropped.
 
 ## Teacher notes
 

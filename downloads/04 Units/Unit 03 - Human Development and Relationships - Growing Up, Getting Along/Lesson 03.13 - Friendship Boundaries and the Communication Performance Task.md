@@ -130,11 +130,11 @@ Inside the building: the health teacher and the counselor. The ELA teacher could
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a), 4. c), and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a), 4. c), and 3. c). Copy in.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 5. e) and 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.3 and 13.4.4.
-- Sal's own materials: the refusal-skills skits from Lesson 3.6 and the peer pressure tiered objectives in his FNES 538 notes (`FNES538_notes_NextWeek-NutritionLabels-Tiered_2026-03.docx`), which asked students to demonstrate refusal strategies in a short role play and to evaluate the best response; the I-message frame from Lesson 3.10 and the five steps from Lesson 3.11.
+- My own materials: the refusal-skills skits from Lesson 3.6 and my peer pressure tiered objectives, which asked students to demonstrate refusal strategies in a short role play and to evaluate the best response; the I-message frame from Lesson 3.10 and the five steps from Lesson 3.11.
 
 ## Teacher notes
 

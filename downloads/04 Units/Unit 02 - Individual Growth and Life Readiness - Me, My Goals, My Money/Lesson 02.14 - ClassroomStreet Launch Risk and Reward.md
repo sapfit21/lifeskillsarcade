@@ -122,12 +122,12 @@ Math: the class math teacher can use the Day 2 gain or loss numbers as integer p
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 4. b) and 4. e). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 4. b) and 4. e). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. b) and 3. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
 - CDOS Intermediate Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 3.3.4.
-- Sal's own materials: `Fortune_Street_Lesson_Plan.docx` (Days 1 and 2), `Fortune_Street_Student_Guide.docx` (the seven ventures, login steps, tips), `FortuneStreet/README.md` (starting prices), all in `Education/TeachingWork/Projects/Financial Concept Lesson Plan/Files Needed for Simulation/`. ClassroomStreet.com is the live version.
+- My own materials: (Days 1 and 2), (the seven ventures, login steps, tips), (starting prices), all in. ClassroomStreet.com is the live version.
 
 ## Teacher notes
 
@@ -135,4 +135,4 @@ Math: the class math teacher can use the Day 2 gain or loss numbers as integer p
 - The login is the whole risk on Day 1. Have a printed backup of every card and a second copy of the class list of merchant numbers in your desk. A student who mistypes the PIN three times gets a reset from the Command Bridge Merchants tab, not a new number.
 - Common mistake: students spend all 25,000 in the first two minutes on one venture because it "sounds cool." The cash rule (keep AQ1,000) and the three-venture rule stop the worst of it without taking the choice away. Do not fix the rest; that portfolio is a lesson on Day 5.
 - Common mistake: students read a price drop as "I lost money." Say it on Day 2 and again on Day 6: you have not lost anything until you sell. The ledger is where that becomes visible.
-- Sal's Desktop files disagree on the starting purse (25,000 Florins in the lesson plan and student guide, AQ10,000 in the README) and on the currency name. This unit uses AQ25,000 everywhere.
+- This unit uses AQ25,000 everywhere.

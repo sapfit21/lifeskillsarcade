@@ -137,7 +137,7 @@ Notes: Flip to this at minute 10 if a station is behind.
 - Cream is fat and water. Beating it traps air in the fat. That is whipped cream.
 - Eggs are protein. Heat makes the protein set. Too much heat makes it tight and rubbery.
 Image: three small drawings: bubbles in batter, air in cream, an egg protein tightening.
-Notes: From Sal's mug cake sheet, science connection.
+Notes: From my mug cake sheet, science connection.
 
 ## Slide 19: Minute 35, clean
 

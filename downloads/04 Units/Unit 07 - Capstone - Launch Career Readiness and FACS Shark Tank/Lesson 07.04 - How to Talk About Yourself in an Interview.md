@@ -48,7 +48,7 @@ Tier 3 (FACS): interview, candidate, employer, STAR, situation, task, action, re
 
 ## Pre-assessment
 
-Four questions asked out loud in the first 90 seconds, taken from Sal's own version of this lesson: if you owned a million-dollar company, what would you look for in the person you hire; what makes someone a strong candidate; what makes one candidate stand out from another; what do you personally have right now that would make somebody want to hire you. The fourth question is the diagnostic. Count how many students can name one thing about themselves without hedging. That number is the gap this lesson closes.
+Four questions asked out loud in the first 90 seconds, taken from my own version of this lesson: if you owned a million-dollar company, what would you look for in the person you hire; what makes someone a strong candidate; what makes one candidate stand out from another; what do you personally have right now that would make somebody want to hire you. The fourth question is the diagnostic. Count how many students can name one thing about themselves without hedging. That number is the gap this lesson closes.
 
 ## Do now and hook (Time: 5 min)
 
@@ -91,15 +91,15 @@ Clipboard checklist during Steps 2 and 4, one line per student, three columns: "
 
 ## Closure (Time: 4 min)
 
-3-2-1 exit card, which is Sal's own closure for this lesson and it stays: **3** qualities you have that make you a strong candidate; **2** interview questions you could answer right now; **1** question you still have, or one interview situation you want to practice tomorrow. Pull three or four volunteers to read one line off the card standing up.
+3-2-1 exit card, which is my own closure for this lesson and it stays: **3** qualities you have that make you a strong candidate; **2** interview questions you could answer right now; **1** question you still have, or one interview situation you want to practice tomorrow. Pull three or four volunteers to read one line off the card standing up.
 
-Then the closing line, in Sal's voice, said the same way every year: "I have sat on both sides of the interview table. I have been the one sweating in the chair and I have been the one doing the hiring. What makes somebody sound confident in an interview is not the right words. It is that they practiced. The way you talk about yourself is a skill, not a personality trait. Anyone can learn it, and the best part is that it is yours. Same as everything else in this room. You work at it, it gets better."
+Then the closing line, in my own voice, said the same way every year: "I have sat on both sides of the interview table. I have been the one sweating in the chair and I have been the one doing the hiring. What makes somebody sound confident in an interview is not the right words. It is that they practiced. The way you talk about yourself is a skill, not a personality trait. Anyone can learn it, and the best part is that it is yours. Same as everything else in this room. You work at it, it gets better."
 
 Sort the cards into "got it" and "needs more." The "needs more" pile decides who gets a teacher observer in tomorrow's triads.
 
 ## Differentiation and supports
 
-- ELL: the three parts and the four STAR letters are on the handout with Turkish, Portuguese, and Spanish sentence starters from `Vocabulary 07.md` ("My name is ___ and I am in grade ___." / "I am good at ___. I showed that when ___." / "I would be good at this job because ___." and for STAR, "The situation was ___. My job was ___. What I did was ___. What happened was ___."). Sal's original vocabulary cards for this lesson were translated into Turkish, Portuguese, and Spanish and those words are in `Vocabulary 07.md`. A student may write the answer in the home language first, then translate with a partner. The spoken version may be delivered in English at a slower pace with the written card in hand.
+- ELL: the three parts and the four STAR letters are on the handout with Turkish, Portuguese, and Spanish sentence starters from `Vocabulary 07.mdVocabulary 07.md`. A student may write the answer in the home language first, then translate with a partner. The spoken version may be delivered in English at a slower pace with the written card in hand.
 - IEP and 504 (general): printed copies of the three-part frame and the STAR frame to keep at the desk permanently, not just today; extended time on Step 2 with the option to finish during Step 3; seating up front for students who need the anchor chart in view and away from the door for students who need fewer distractions; standing or a fidget tool allowed during Steps 1 and 4; the option to submit the answer typed, handwritten, or spoken to the teacher; a partial STAR planner with the Situation box pre-filled from a lab the teacher knows that student did well.
 - Grade 6 support: the three-part answer only. The STAR story is optional for grade 6 and may be reduced to two boxes, Situation and Action, with the Result given as "what happened at the end." Grade 6 students choose the pizza shop job, which is the most concrete of the three.
 - Grade 8 stretch: two STAR stories instead of one, and they have to come from two different units so the range shows. Grade 8 students also rewrite their three-part answer a second time for a different job and name the two sentences they had to change, which is the beginning of tailoring an answer to an audience.
@@ -128,18 +128,18 @@ Inside the building: the ELA teacher. NYS Next Generation ELA speaking and liste
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. a), 3. c), and 3. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. a); Theme Module 02, Communication and Interpersonal Relationships, line 3. a).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Basic Skills. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.2 and 1.2.2.
-- Sal's own materials: his lesson "How to Talk About Yourself in a Job Interview: Answering 'Tell Me About Yourself' with Confidence," taught at Brentwood South to grade 8 and submitted at Queens College in April 2026 (FNES 538). The CEO hook, the anchor chart, the unstructured versus structured modeling, the three-part frame, the pizza shop and animal shelter scenarios, the STAR introduction, the 3-2-1 exit card, and the closing lines are his. Re-leveled here for grades 6 to 8 and rewritten for a real room; the original was demonstrated over video, which is why the original says students respond in the chat.
+- My own materials: my lesson "How to Talk About Yourself in a Job Interview: Answering 'Tell Me About Yourself' with Confidence," taught to grade 8. The CEO hook, the anchor chart, the unstructured versus structured modeling, the three-part frame, the pizza shop and animal shelter scenarios, the STAR introduction, the 3-2-1 exit card, and the closing lines are his. Re-leveled here for grades 6 to 8 and rewritten for a real room; the original was demonstrated over video, which is why the original says students respond in the chat.
 - The Career and Community Opportunities illustrative activity in the state's Individual Growth and Life Readiness module names "preparing for a job interview" as an intended use of the personal-traits work, which is this lesson.
 
 ## Teacher notes
 
 - The two-answer model in Step 1 is the moment the lesson turns. Do the bad answer badly and commit to it. Ramble. Look at the ceiling. Talk about where you were born. Students laugh, and then they hear the good one and the difference is obvious without a word of explanation.
-- Sal's original design note holds: the three-part frame is the floor and every student walks out with it; STAR is the ceiling for the students who are ready. Do not stop the class to accommodate either end, and do not make STAR feel like the real version and the three-part frame feel like the easy version.
+- My original design note holds: the three-part frame is the floor and every student walks out with it; STAR is the ceiling for the students who are ready. Do not stop the class to accommodate either end, and do not make STAR feel like the real version and the three-part frame feel like the easy version.
 - The anchor chart has to be in students' words. If a student says "not lazy," write "not lazy." You can add "reliable" next to it.
 - Common mistake: part two becomes a list of adjectives. Fix it by asking for the proof, every time: "Where can I see that?" The FACS folder is on the desk for exactly this reason.
 - Second common mistake: the STAR Result box says "it was good." Push once: "What actually happened? A number, a time, or what somebody said."
-- Sal's closing lines are the emotional end of the lesson and they are the reason students come back willing to be interviewed the next day. Say them. Do not read them.
+- My closing lines are the emotional end of the lesson and they are the reason students come back willing to be interviewed the next day. Say them. Do not read them.
 - The pretend jobs work best when they are places students have actually been.
 - Keep the handouts. The three-part answer and the STAR outline are both scored tomorrow and both go in the portfolio on the last day.

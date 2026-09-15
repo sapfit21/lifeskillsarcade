@@ -113,9 +113,9 @@ Social studies: the banana path is a geography and trade lesson already; the soc
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 3. a) and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 3. a) and 4. a). Copy in.
 - NYS Middle Level CTE Theme Module 06, Sustainability, line 2. h); Theme Module 01, Career and Community Opportunities, line 1. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Systems: "Students understand the process of evaluating and modifying systems within an organization." Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.4.3 and 14.3.4.
 - The time and cost numbers on the path cards are estimates built for teaching, rounded to whole days and whole cents, and the handout says so on the card face.

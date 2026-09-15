@@ -19,7 +19,7 @@ Day note: the unit calendar and the unit plan place this lesson on day 103, betw
 - National FCS 3.0: 11.2.3 Examine how design elements and principles shape how a space looks and how it works.
 - National FCS 3.0: 11.3.1 Examine product information for floor and wall coverings, textiles, window treatments, furniture, lighting, and kitchen and bath fixtures and equipment.
 
-Note on the NYS FACS performance indicator: the crosswalk's EDM 2. c) row assigns Standard 2, the key idea, and PI B, so PI B is quoted above. PI B is the closest of the three Standard 2 indicators; a mood board is a step in managing a home's look and feel, not a safety skill, so the fit is to the key idea's last sentence more than to the indicator. Note on the National FCS lines: the writing task asked for an 11.4.x competency. No 11.4 line fits this lesson. Every 11.4 competency is about construction documents, floor plans, and space planning, which is Lesson 4.10's work; 11.4.3 and 11.4.2 are cited there. The closest verbatim line for choosing and reading swatches is 11.3.1, so that is cited instead. All three National FCS lines are confirmed word for word in `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
+Note on the NYS FACS performance indicator: the crosswalk's EDM 2. c) row assigns Standard 2, the key idea, and PI B, so PI B is quoted above. PI B is the closest of the three Standard 2 indicators; a mood board is a step in managing a home's look and feel, not a safety skill, so the fit is to the key idea's last sentence more than to the indicator. Note on the National FCS lines: the writing task asked for an 11.4.x competency. No 11.4 line fits this lesson. Every 11.4 competency is about construction documents, floor plans, and space planning, which is Lesson 4.10's work; 11.4.3 and 11.4.2 are cited there. The closest verbatim line for choosing and reading swatches is 11.3.1, so that is cited instead. All three National FCS lines are confirmed word for word in, section 4.11.
 
 ## Enduring understanding and essential question
 
@@ -127,11 +127,11 @@ Art: the art teacher teaches texture as an element and often teaches rubbings an
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 2. c). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) sub-lines b. and d., and 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 2. c). Copy in.
+- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) sub-lines b. and d., and 2. b). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1, 11.2.3, and 11.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
-- Sal's own materials: the Brentwood interior design packets in `Lesson Dups/Unit_1_Interior_Design`, including the "Mood Maker" packet, are the seed of the board and the room and mood pairing. The four-piece limit, the three-part layering rule, and the judging table are new.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1, 11.2.3, and 11.3.1, per, section 4.11.
+- My own materials: my interior design packets, including the "Mood Maker" packet, are the seed of the board and the room and mood pairing. The four-piece limit, the three-part layering rule, and the judging table are new.
 
 ## Teacher notes
 

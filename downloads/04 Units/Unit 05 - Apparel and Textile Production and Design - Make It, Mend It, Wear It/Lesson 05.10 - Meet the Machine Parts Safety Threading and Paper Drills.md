@@ -132,7 +132,7 @@ Each day closes with the close-down routine run on every machine, out loud, plus
 - Grade 6 support: the threading drill is done in two halves, top thread on one pass and bobbin on a second pass, each verified separately; the drill sheets get a slower target and a second straight-line sheet before the curve.
 - Grade 8 stretch: thread the machine from nothing using only the manual, then teach the threading to one other student, which is the best test of knowing a procedure; on Day 3, a second square half the size, where every side is shorter and every pivot comes faster.
 - UDL checkpoint used: multiple means of representation (diagram, live demonstration, numbered picture steps, the machine's own manual) and multiple means of action and expression (pedal or hand wheel, written or spoken rules, the license earned on any of three days).
-- No-machine alternative: if the machines are not usable, these three days compress to one day of parts and rules taught from the diagram and the slides (the honest sentence out loud: I cannot teach you to run a machine we do not have, but you will meet one in high school or a job, and you will know what every part does), and Lessons 5.10 and 5.11 revert to the archived hand-sewn build; the archived lesson is in `00 _admin/_archive/2026-09-14 Unit 5 pre-machine revision/`. Reduced-dexterity alternative: hand wheel driving, pre-wound bobbins, a buddy who pulls the bobbin loop up, and the paper drills done with the paper taped in place.
+- No-machine alternative: if the machines are not usable, these three days compress to one day of parts and rules taught from the diagram and the slides (the honest sentence out loud: I cannot teach you to run a machine we do not have, but you will meet one in high school or a job, and you will know what every part does), and Lessons 5.10 and 5.11 revert to the archived hand-sewn build; the archived lesson is in. Reduced-dexterity alternative: hand wheel driving, pre-wound bobbins, a buddy who pulls the bobbin loop up, and the paper drills done with the paper taped in place.
 
 ## Assessment
 
@@ -154,11 +154,11 @@ Technology and engineering: a sewing machine is a cam, a linkage, and a feed mec
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. i). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. a) and 2. b). Copy in.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. i). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
 - CDOS Standard 3a, Technology and Personal Qualities, Intermediate, per the crosswalk, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 16.4.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 16.4.1, per, section 4.16.
 - Machine part names, threading order, and the paper-drill technique are standard beginner sewing instruction; every machine's own manual is the authority for that machine and is cited on the handout as such. Written new for this course.
 
 ## Teacher notes

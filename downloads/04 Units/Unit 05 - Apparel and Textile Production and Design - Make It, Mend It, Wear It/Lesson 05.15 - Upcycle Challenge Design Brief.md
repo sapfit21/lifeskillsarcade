@@ -137,10 +137,10 @@ Science and technology education: the design process in this lesson is the same 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. d) and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. d) and 4. a). Copy in.
 - NYS Middle Level CTE Theme Modules: Problem Solving and Innovation 2. a) a. to d.; Sustainability 1. e). Same folder. The Sustainability module's Family and Consumer Sciences illustrative activity names a recycle, upcycle, or repurposing project and gives recycling t-shirts into reusable shopping bags as its example, which is path 1 on the idea menu.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 2.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 2.2.3, per, sections 4.2 and 4.16.
 - `Project 05 - Upcycle Challenge.md` and `Rubric 05 - Upcycle Challenge.md` (same folder).
 
 ## Teacher notes

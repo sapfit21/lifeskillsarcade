@@ -127,9 +127,9 @@ Science: seed germination, decomposition, and the water cycle all sit in this le
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. a), 4. c), and 4. e). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. a), 4. c), and 4. e). Copy in.
 - NYS Middle Level CTE Theme Module 06, Sustainability, line 1. a); Theme Module 05, Problem Solving and Innovation, line 2. a) f. Same folder. The Sustainability module's FACS illustrative activity on product lifecycles and the FSP module's Classroom Herb Garden activity are both behind this lesson's shape.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Systems. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.13, 2.2.3, and 14.5.1.
 - Unit 4, Lessons 4.11 to 4.15, for the design process language used on Day 2. The eight words are the state's own from PSI 2. a).

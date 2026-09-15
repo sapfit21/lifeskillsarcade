@@ -118,9 +118,9 @@ Inside the building: the library media specialist, who teaches source evaluation
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 2. c) and 2. d). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. e); Theme Module 05, Problem Solving and Innovation, line 4. b) b. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - CDOS Standard 3a, Managing Information. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.1.2 and 14.2.4.
 - Credible source guidance: Academy of Nutrition and Dietetics, eatright.org, "What is a Registered Dietitian Nutritionist"; MedlinePlus, "Evaluating Health Information" (medlineplus.gov).

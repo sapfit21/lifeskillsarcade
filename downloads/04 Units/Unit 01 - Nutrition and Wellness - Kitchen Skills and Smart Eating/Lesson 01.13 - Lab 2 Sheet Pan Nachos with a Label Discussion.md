@@ -157,13 +157,13 @@ Inside the building: the math teacher (the same ratio work as Lesson 1.11, now w
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 2. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. b), 1. d), 1. g), and 2. a). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 03, Financial and Consumer Literacy, line 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - CDOS Standard 3a, Interpersonal Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 14.2.4.
 - Sodium daily value (2,300 mg) and the 5 and 20 rule: U.S. Food and Drug Administration, "How to Understand and Use the Nutrition Facts Label" (fda.gov). Rinsing canned beans removes about 41 percent of the sodium: Duyff, Jones, and Mount, "Sodium reduction in canned beans after draining, rinsing," Journal of Culinary Science and Technology, 2011.
-- Sal's own materials: `education_teachingwork_8th_grade_nachos_recipe_sheet_2026_05.docx` (his Sheet Pan Nachos with Salsa Bar teacher sheet: the 40-minute flowchart, ingredient amounts per station, prep notes, the zero-knife policy, and the "Nutrition Facts discussion while it bakes" idea). Rewritten here for three stations of seven with the teacher on oven duty. The label numbers on the handouts are typical values for store brand products and must be replaced with the numbers on the packages you actually buy.
+- My own materials: my Sheet Pan Nachos with Salsa Bar teacher sheet ( the 40-minute flowchart, ingredient amounts per station, prep notes, the zero-knife policy, and the "Nutrition Facts discussion while it bakes" idea). Rewritten here for three stations of seven with the teacher on oven duty. The label numbers on the handouts are typical values for store brand products and must be replaced with the numbers on the packages you actually buy.
 
 ## Teacher notes
 
@@ -172,6 +172,6 @@ Inside the building: the math teacher (the same ratio work as Lesson 1.11, now w
 - Per-station cost, estimated at Long Island supermarket store brand prices, September 2026: chips 13 oz $3.99; cheese 8 oz $3.49 (half used; buy one bag for two stations, $1.75); black beans $1.29 (half used; one can for two stations, $0.65); corn $1.19; salsa 16 oz $3.29 shared by three stations, $1.10; sour cream 16 oz $2.49 shared, $0.83; foil, about $0.30. About $9.80 per station buying shared items across the class, or about $12.20 if every station gets its own cheese bag and bean can. Optional olives and lettuce add about $1.35 per station. A class of three stations runs about $30 to $41, well under the $20 per station line.
 - Common mistake: a pan with the chips piled in a mound, so the middle stays cold and the cheese never reaches the bottom. Say "one layer, you should see foil between some chips" at Step 1.
 - Second common mistake: the Prep Cook rinses the corn too and it goes watery, or does not rinse the beans and the pan tastes of the can. Beans: drain and rinse. Corn: drain only. It is on the station card twice.
-- The teacher at the oven is not a suggestion in this version. Sal's original sheet had students rotate mitts and pull their own pans; with three stations of seven and grade 6 in the room, the teacher pulls.
+- The teacher at the oven is not a suggestion in this version. My original sheet had students rotate mitts and pull their own pans; with three stations of seven and grade 6 in the room, the teacher pulls.
 - The label discussion during the bake is the part that makes this a nutrition lesson and not just a snack. Do not skip it to "let them relax." Ten minutes is enough for the number, the swap question, and the beans surprise.
 - Keep the four empty packages. They are the Label Reading Quiz review set and one of the stations in Lesson 1.16 (unit price).

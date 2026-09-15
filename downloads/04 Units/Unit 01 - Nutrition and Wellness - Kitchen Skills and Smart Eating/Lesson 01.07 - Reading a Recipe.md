@@ -107,12 +107,12 @@ ELA: a recipe is a procedural text, the same genre as a science lab procedure or
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. d). Copy in.
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, line 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - CDOS Intermediate Standard 3a, Basic Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.3.3.
-- Sal's own materials: the Mug Cake with Hand-Whipped Cream teacher recipe sheet (`recipe_sheets_2026-05/education_teachingwork_6th_grade_mug_cake_recipe_sheet_2026_05.docx`) and the Scrambled Egg Tacos lesson package (`education_teaching_facs_lesson3_scrambledeggtacos_2026_03.docx`), both in Education/TeachingWork/LessonPlans. The "What Could Go Wrong" box on his recipe cards is the model for Step 4.
+- My own materials: the Mug Cake with Hand-Whipped Cream teacher recipe sheet and the Scrambled Egg Tacos lesson package. The "What Could Go Wrong" box on my recipe cards is the model for Step 4.
 
 ## Teacher notes
 

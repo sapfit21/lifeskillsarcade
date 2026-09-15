@@ -6,7 +6,7 @@
 **Days:** 1 class period of 40 minutes (day 116 of the year)
 **Room:** Either. No kitchen, no sewing stations needed today.
 
-This is the first day of the apparel unit. Nobody touches a needle for four more days. The point of Topic 5.1 is that clothing is a decision, and the decision has four parts: protect the body, fit the activity, fit the setting, and say something about the person. Today covers the first three. Lesson 5.2 covers the fourth. My Brentwood "Dress the Part" packet is the source of the five-situations task; the outfits activity from that packet becomes `Handout 05.01`, re-leveled for grades 6 to 8 and tied to state lines.
+This is the first day of the apparel unit. Nobody touches a needle for four more days. The point of Topic 5.1 is that clothing is a decision, and the decision has four parts: protect the body, fit the activity, fit the setting, and say something about the person. Today covers the first three. Lesson 5.2 covers the fourth. My "Dress the Part" packet is the source of the five-situations task; the outfits activity from that packet becomes `Handout 05.01`, re-leveled for grades 6 to 8 and tied to state lines.
 
 ## Standards
 
@@ -118,11 +118,11 @@ Physical education and health: the PE teacher already enforces footwear and can 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. a) and 1. b). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. d); Theme Module 01, Career and Community Opportunities, line 1. c). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. a) and 1. b). Copy in.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. d); Theme Module 01, Career and Community Opportunities, line 1. c). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), content standard 16.2 and competency 2.1.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
-- Sal's own materials: the Brentwood "Dress the Part" packet (workbook 5.9), specifically its second activity, outfits for five situations. Re-leveled here for grades 6 to 8 and retied to ATPD 1. b). The packet's style-profile activity moves to Lesson 5.2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), content standard 16.2 and competency 2.1.4, per, section 4.16.
+- My own materials: my "Dress the Part" packet, specifically its second activity, outfits for five situations. Re-leveled here for grades 6 to 8 and retied to ATPD 1. b). The packet's style-profile activity moves to Lesson 5.2.
 - This school's own student dress code, quoted from the student handbook for Step 4.
 
 ## Teacher notes

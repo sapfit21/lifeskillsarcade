@@ -1,6 +1,6 @@
 # Slides 2.6: Time and Energy as Resources
 
-Slide outline for Lesson 2.6. Twelve slides. Slide 5 is a sample audit; Sal's own works better than a fictional one if he is willing. Slide 8 carries the sleep numbers; confirm them against the current CDC page before teaching.
+Slide outline for Lesson 2.6. Twelve slides. Slide 5 is a sample audit; My own works better than a fictional one. Slide 8 carries the sleep numbers; confirm them against the current CDC page before teaching.
 
 ## Slide 1: Time and Energy as Resources
 

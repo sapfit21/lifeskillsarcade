@@ -17,7 +17,7 @@
 - CDOS Standard 2 Integrated Learning: Students will demonstrate how academic knowledge and skills are applied in the workplace and other settings.
 - CDOS Standard 3a Universal Foundation Skills: Basic Skills. Students listen to and read the ideas of others and analyze what they hear and read; acquire and use information from a variety of sources; and apply a combination of mathematical operations to solve problems in oral or written form.
 - National FCS 3.0: 8.5.3 Show portion control and correct scaling and measuring. (Confirmed in the 3.0 text; cited in the crosswalk's FSP 1. d) row.)
-- National FCS 3.0: 8.4.7 Use measurement, portion control, conversions, food costing, menu terms, and pricing when planning a menu. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8; not printed in the FSP block, so it is a secondary citation.)
+- National FCS 3.0: 8.4.7 Use measurement, portion control, conversions, food costing, menu terms, and pricing when planning a menu. (Confirmed in the 3.0 text in, Area 8; not printed in the FSP block, so it is a secondary citation.)
 - National FCS 3.0: 2.1.3 Examine the decisions behind providing food that is safe and nourishing for individuals and families.
 
 ## Enduring understanding and essential question
@@ -145,12 +145,12 @@ Math: this is ratio, unit rate, and unit conversion doing real work. The scale f
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 5. a), and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 5. a), and 5. c). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. f) and 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standards 2 and 3a, Basic Skills, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3, 8.4.7, and 8.5.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: `education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf` (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list and the savings per swap) is the model for the swap log. `education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf` supplies the base prices. All prices to be refreshed from the current circular before teaching.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standards 2 and 3a, Basic Skills, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3, 8.4.7, and 8.5.3, per.
+- My own materials: (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list and the savings per swap) is the model for the swap log. supplies the base prices. All prices to be refreshed from the current circular before teaching.
 
 ## Teacher notes
 

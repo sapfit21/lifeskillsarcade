@@ -149,12 +149,12 @@ Inside the building: an elementary school or a pre-K in the same building or dis
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. c) and 1. d), and the Illustrative Activities "Activities for Afterschool Program" and "Prototype Toys," which this project adapts. Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. c) and 1. d), and the Illustrative Activities "Activities for Afterschool Program" and "Prototype Toys," which this project adapts. Copy in.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) a., b., f., and g.; Communication and Interpersonal Relationships, line 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PI "Students demonstrate the principles of safe and healthy childcare." Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PI "Students demonstrate the principles of safe and healthy childcare." Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 12.1.1 and 15.2.1; content standard 4.3.
 - The small parts rule (anything that fits through a toilet paper tube is a choking hazard for a child under 3) per the U.S. Consumer Product Safety Commission small parts guidance, as in Lesson 3.17.
-- Sal's own materials: the design-and-test project shape follows his Feed a Family of Four project (plan, check, build, present, self-assess) from Project 01.
+- My own materials: the design-and-test project shape follows my Feed a Family of Four project (plan, check, build, present, self-assess) from Project 01.
 
 ## Teacher notes
 

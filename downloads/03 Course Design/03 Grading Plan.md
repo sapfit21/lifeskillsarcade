@@ -1,6 +1,5 @@
 # Grading Plan
 
-Draft of 2026-09-11.
 
 ## Categories and weights
 
@@ -13,7 +12,7 @@ Draft of 2026-09-11.
 
 ## Rubrics
 
-- Lab rubric (used for every lab lesson): the three lesson objectives, each scored Not Yet (1), Approaching (2), Meets (3), Exceeds (4), 16 points total (a fourth row scores safety and sanitation), with a notes box for the next class. Pattern from Sal's Color in the Home rubric.
+- Lab rubric (used for every lab lesson): the three lesson objectives, each scored Not Yet (1), Approaching (2), Meets (3), Exceeds (4), 16 points total (a fourth row scores safety and sanitation), with a notes box for the next class. Pattern from my Color in the Home rubric.
 - Project rubrics (one per unit): four to five criteria, four levels each, with the descriptors written as what a student actually did, not adjectives. Total 16 or 20 points.
 - The Kitchen Safety Exam is pass or retake. Nobody cooks until they pass. Retakes are allowed as many times as needed.
 

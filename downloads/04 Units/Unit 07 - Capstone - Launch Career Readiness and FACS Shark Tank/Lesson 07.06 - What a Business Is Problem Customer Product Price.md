@@ -120,10 +120,10 @@ Inside the building: math. Revenue minus cost equals profit is a two-step expres
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 5. b) and 4. b).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 1. a); Theme Module 03, Financial and Consumer Literacy, line 4. a).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 2. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 2. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 3.1.2, 2.5.1, and 2.5.2.
-- Sal's own materials: his Brentwood business packet "So You Want to Start a Business?", which supplies the entrepreneur, business, product, service, customer, profit, revenue, and expense definitions and the risk and opportunity framing. Rewritten here with a teacher side the packet did not have and with the problem-first order, which is the change: the packet starts with the idea, this lesson starts with the problem.
-- Sal's own background: Penn State BS in Corporate Innovation and Entrepreneurship, Penn State MBA, business development at Oracle, a financial services license, and seasonal bar and hotel management. The four questions are how he was taught to look at a business and they are the reason this unit exists.
+- My own materials: my business packet "So You Want to Start a Business?", which supplies the entrepreneur, business, product, service, customer, profit, revenue, and expense definitions and the risk and opportunity framing. Rewritten here with a teacher side the packet did not have and with the problem-first order, which is the change: the packet starts with the idea, this lesson starts with the problem.
+- My own background: a BS in Corporate Innovation and Entrepreneurship, an MBA, business development at a software company, a financial services license, and seasonal bar and hotel management. The four questions are how I was taught to look at a business and they are the reason this unit exists.
 
 ## Teacher notes
 

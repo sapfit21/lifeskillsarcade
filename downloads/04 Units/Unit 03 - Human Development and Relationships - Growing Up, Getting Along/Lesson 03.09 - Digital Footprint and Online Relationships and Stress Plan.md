@@ -125,12 +125,12 @@ Inside the building: the technology coordinator, who owns the school's acceptabl
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 2. d), 3. e), and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 2. d), 3. e), and 4. a). Copy in.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 1. b); Theme Module, Health, Safety, and Wellness, line 5. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.6 and 13.1.4.
-- Sal's own materials: the "digital footprint detective" packet (Brentwood, Unit 5 Personal Branding, April 2026) supplies the definition, the "deleting removes your copy, not theirs" point, the two-applicants story, and the footprint audit; the "online you vs the real you" packet supplies the privacy boundary idea. Both are rewritten here without the branding language; the fictional students are new.
-- Grading pattern: `03 Course Design/03 Grading Plan.md` (topic assessments, one retake).
+- My own materials: the "digital footprint detective" packet (from my personal branding packets) supplies the definition, the "deleting removes your copy, not theirs" point, the two-applicants story, and the footprint audit; the "online you vs the real you" packet supplies the privacy boundary idea. Both are rewritten here without the branding language; the fictional students are new.
+- Grading pattern: (topic assessments, one retake).
 
 ## Teacher notes
 

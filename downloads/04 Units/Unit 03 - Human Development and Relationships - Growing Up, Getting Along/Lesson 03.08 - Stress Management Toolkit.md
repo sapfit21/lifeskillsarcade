@@ -112,12 +112,12 @@ Inside the building: the health teacher, if health teaches breathing or mindfuln
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 3. e). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), line 3. e). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 6. d) and 6. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 13.1.6.
 - Box breathing (four counts in, hold, out, hold) is a widely taught paced breathing pattern; the walk, list, music, talking, and sleep and food tools are the everyday coping strategies listed on the National Institute of Mental Health fact sheet on stress for teens ("I'm So Stressed Out," nimh.nih.gov).
-- Sal's own materials: the sleep window from Lesson 2.6 and the self-talk swap from Lesson 3.5 are the two tools from earlier lessons that students may add to the card.
+- My own materials: the sleep window from Lesson 2.6 and the self-talk swap from Lesson 3.5 are the two tools from earlier lessons that students may add to the card.
 
 ## Teacher notes
 

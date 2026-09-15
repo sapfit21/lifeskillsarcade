@@ -55,7 +55,7 @@ Debrief: cold call three students for the venture. Then the hook: advance to win
 
 | Step | Teacher will | Students will | Time |
 |---|---|---|---|
-| Day 1, 1. Direct instruction: supply and demand in one slide | Slide 3, one picture: a venture has a fixed number of units for sale. Lots of buyers and few sellers, the price goes up. Lots of sellers and few buyers, the price goes down. That is all. Then the four dispatch families from Sal's Student Guide (slide 4): weather moves Meadowgold; exploration news moves Sparkstone and Cloudberry; royal decrees move Crown Seal and Iron Vault; the seasons move Willowbrook. Honeypot ignores the news. | Copy the two-line rule and the four families into the journal notes box. | 6 min |
+| Day 1, 1. Direct instruction: supply and demand in one slide | Slide 3, one picture: a venture has a fixed number of units for sale. Lots of buyers and few sellers, the price goes up. Lots of sellers and few buyers, the price goes down. That is all. Then the four dispatch families from the ClassroomStreet Student Guide (slide 4): weather moves Meadowgold; exploration news moves Sparkstone and Cloudberry; royal decrees move Crown Seal and Iron Vault; the seasons move Willowbrook. Honeypot ignores the news. | Copy the two-line rule and the four families into the journal notes box. | 6 min |
 | Day 1, 2. Learning activity: News Card and Price Change, Part A | Pairs get the handout. Part A: eight news cards and eight price changes, shuffled. Match each card to the change it caused and write the cause and effect sentence: "___ happened, so more people wanted to ___, so the price went ___." Circulate with the clipboard check. Debrief two matches, one easy and the one most pairs missed. | Match, write eight sentences, check with a neighboring pair. | 10 min |
 | Day 1, 3. Trading window | Advance windows 8 to 12, one click about every two minutes. Read every headline aloud as it lands. Ask before each click: "Who does this dispatch affect?" Circulate. | Read each dispatch. Predict the direction before the click. Trade or hold. Note trades on Entry 3 as they happen. | 10 min |
 | Day 1, 4. Investor Journal, Entry 3 | Set the prompt: what I did, why (name the dispatch), what happened. Add today's extra line: one prediction I made and whether it came true. | Write Entry 3 with total fortune. | 6 min |
@@ -119,8 +119,8 @@ ELA: the three tests are the same source evaluation the ELA teacher uses for res
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, line 4. e).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 2. c); Theme Module 05, Problem Solving and Innovation, line 4. b) b.
-- NYS FACS Standard 3, Intermediate; CDOS 3a Managing Information; National FCS 3.0 competency 3.3.4, all per `02 Standards/STANDARDS CROSSWALK.md`.
-- Sal's own materials: `Fortune_Street_Lesson_Plan.docx` (Day 3, Reading Market Dispatches); `Fortune_Street_Student_Guide.docx` (the four dispatch families); `FortuneStreet/README.md` (the dispatch data structure, 180 pre-written dispatches).
+- NYS FACS Standard 3, Intermediate; CDOS 3a Managing Information; National FCS 3.0 competency 3.3.4, all per.
+- My own materials: (Day 3, Reading Market Dispatches); (the four dispatch families); (the dispatch data structure, 180 pre-written dispatches).
 
 ## Teacher notes
 

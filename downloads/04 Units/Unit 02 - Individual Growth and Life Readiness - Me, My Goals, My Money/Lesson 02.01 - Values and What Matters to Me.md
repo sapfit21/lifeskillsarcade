@@ -111,12 +111,12 @@ Inside the building: the school counselor uses values sorts in advisory or in hi
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a) and 2. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a) and 2. a). Copy in.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, line 3. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 2.1.2.
-- Sal's own materials: the Core Values Compass packet (`Lesson Dups/Unit_5_Personal_Branding/education_teachingwork_core_values_compass_2026_04.docx`) supplied the 24-value list and the top five, then top three sort. Rewritten here with definitions on every card, the three-pile step, the money, time, friends columns, and the values vs standards step added.
+- My own materials: the Core Values Compass packet supplied the 24-value list and the top five, then top three sort. Rewritten here with definitions on every card, the three-pile step, the money, time, friends columns, and the values vs standards step added.
 
 ## Teacher notes
 

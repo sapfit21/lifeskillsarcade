@@ -110,12 +110,12 @@ Math: percent, multiplying by a decimal, running totals; this is the same tax ma
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 3. a) and 3. b). Copy in `02 Standards/NYS Module PDFs/`. The module's Financial and Consumer Literacy illustrative activity (renting versus buying furniture) is the source of the "what does cheaper cost" question.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 3. a) and 3. b). Copy in. The module's Financial and Consumer Literacy illustrative activity (renting versus buying furniture) is the source of the "what does cheaper cost" question.
 - NYS Middle Level CTE Theme Module, Financial and Consumer Literacy, lines 4. c) and 4. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.1 and 2.1.5, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.11.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.6.1 and 2.1.5, per, sections 4.2 and 4.11.
 - Sales tax: New York State Department of Taxation and Finance, Publication 718 (sales and use tax rates by jurisdiction).
-- Sal's own materials: the $40 grocery project's pricing routine (Unit 1, Lessons 1.18 and 1.19) and the "budget" vocabulary entry from `education_teachingwork_dream_home_challenge_2026_04.docx`. Catalog prices are realistic 2026 figures for Long Island and are every one to be refreshed before teaching.
+- My own materials: the $40 grocery project's pricing routine (Unit 1, Lessons 1.18 and 1.19) and the "budget" vocabulary entry from. Catalog prices are realistic 2026 figures for Long Island and are every one to be refreshed before teaching.
 
 ## Teacher notes
 

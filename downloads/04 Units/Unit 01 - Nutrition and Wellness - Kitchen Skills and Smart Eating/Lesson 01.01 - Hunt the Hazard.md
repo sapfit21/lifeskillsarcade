@@ -109,11 +109,11 @@ Inside the building: the school nurse or the custodian visits for five minutes d
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. a) and 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 14.4.1.
-- Sal's own materials: the zero-knife policy and station constraints from his King Kullen menu documents (Education/TeachingWork/LessonPlans) shape the planted hazards.
+- My own materials: the zero-knife policy and station constraints from my lab menu documents shape the planted hazards.
 
 ## Teacher notes
 

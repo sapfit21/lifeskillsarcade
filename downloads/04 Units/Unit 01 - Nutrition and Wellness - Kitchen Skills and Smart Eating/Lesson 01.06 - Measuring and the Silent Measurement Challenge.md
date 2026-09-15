@@ -117,12 +117,12 @@ Math: fractions on the number line, adding fractions with unlike denominators (3
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. c). Copy in.
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, line 1. e); Theme Module 02, Communication and Interpersonal Relationships, line 1. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - CDOS Intermediate Standard 3a, Basic Skills. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 8.5.3.
-- Sal's own materials: the Silent Measurement Challenge, as described in his FACS Games write up and Queens College portfolio (see `01 Source Analysis/Brentwood Work and Simulations.md`). No original file exists; this lesson writes it out for the first time.
+- My own materials: the Silent Measurement Challenge, as described in my FACS Games write up and certification portfolio (see). No original file exists; this lesson writes it out for the first time.
 - Gram targets: water 1 c = 237 g; flour, spooned and leveled, about 120 to 125 g per cup; granulated sugar 200 g per cup; table salt about 6 g per tsp; vegetable oil about 14 g per Tbsp.
 
 ## Teacher notes

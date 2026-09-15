@@ -133,10 +133,10 @@ Inside the building: the custodian is the expert. A five-minute visit on Day 1 t
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 4. c) and 4. d); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines a. to f. Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in.
+- NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, lines 4. c) and 4. d); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines a. to f. Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 11.3.5 and content standard 5.2, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 11.3.5 and content standard 5.2, per.
 - Repair steps are standard homeowner guidance (U.S. Consumer Product Safety Commission and manufacturer instructions for breakers and detectors).
 
 ## Teacher notes

@@ -113,9 +113,9 @@ Math: this is a real measurement, averaging, and scaling problem with the class'
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 3. a) and 4. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 3. a) and 4. a). Copy in.
 - NYS Middle Level CTE Theme Module 06, Sustainability, lines 1. e) and 2. c). Same folder. The Sustainability module's own Agricultural Education illustrative activity is a cafeteria food waste audit, which is where this lesson's shape comes from.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator B. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Basic Skills: "Students listen to and read the ideas of others and analyze what they hear and read; acquire and use information from a variety of sources; and apply a combination of mathematical operations to solve problems in oral or written form." Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.13 and 3.4.3.
 - National waste share figures on the slide are from the USDA and EPA public estimates, rounded.

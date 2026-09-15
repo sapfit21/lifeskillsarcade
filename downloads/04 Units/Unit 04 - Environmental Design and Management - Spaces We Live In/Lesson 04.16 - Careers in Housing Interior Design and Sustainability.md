@@ -114,15 +114,15 @@ Guidance or the school counselor: the self-check feeds the NYS Career Plan that 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 4. a), b), c) and the Career and Community Opportunities illustrative activity (research versus guest speaker). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 4. a), b), c) and the Career and Community Opportunities illustrative activity (research versus guest speaker). Copy in.
 - NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management, line 2. e), which Step 4 teaches. Same file.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, lines 1. d), 2. a), and 4. b). Same folder.
 - Demographic facts on slide 12: U.S. Census Bureau, population projections by age and the historical series on average household size (census.gov). Both are stated on the slide as a direction, not as a figure, so nothing on the slide goes stale.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- CDOS Standard 1, Intermediate, per `02 Standards/STANDARDS CROSSWALK.md`, A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.1.1 and 1.2.1, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.1 and 4.11.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, section 2.
+- CDOS Standard 1, Intermediate, per, A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.1.1 and 1.2.1, per, sections 4.1 and 4.11.
 - Pay ranges and education paths: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook (bls.gov/ooh), entries for architects, interior designers, construction managers, electricians, plumbers, heating and air conditioning mechanics and installers, real estate brokers and sales agents, property managers, construction and building inspectors, landscape architects, woodworkers. Energy auditor and sustainability consultant figures are estimates from job listings; all are to be refreshed before teaching on the cards.
-- Sal's own materials: `education_teachingwork_design_through_the_decades_2026_04.docx` and `education_teachingwork_sustainable_style_2026_04.docx` (the designer and sustainability roles named in those packets).
+- My own materials: and (the designer and sustainability roles named in those packets).
 
 ## Teacher notes
 

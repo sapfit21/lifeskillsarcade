@@ -136,10 +136,10 @@ Mathematics: the cost-saved calculation is multiplication and comparison and it 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 3. a); the community-agency repair idea comes from that module's own Career and Community Connections illustrative activity. Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Sustainability, line 3. c). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 3. a); the community-agency repair idea comes from that module's own Career and Community Connections illustrative activity. Copy in.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Sustainability, line 3. c). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 2.1.4, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 2.1.4, per.
 - The button steps, including the toothpick shank method, are standard hand sewing practice. Written new for this course.
 
 ## Teacher notes

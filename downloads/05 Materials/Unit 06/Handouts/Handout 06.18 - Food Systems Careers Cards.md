@@ -208,8 +208,8 @@ Circle every job on the career cards that exists within about 25 miles of this s
 | **Food distribution warehouses and trucking**, moving product from the regional markets and ports out to stores across the Island | Logistics coordinator; processing technician |
 | **Restaurants, delis, bagel shops, pizzerias, and bakeries in every town**, plus heavy seasonal catering on the East End and the beaches | Chef or line cook; baker; caterer; food photographer |
 | **Hospitals, nursing homes, and school districts**, each with a food service operation and, in most cases, a dietitian | Registered dietitian; chef or line cook; food safety inspector |
-| **The Suffolk County and Nassau County health departments**, which inspect every food business | Food safety inspector |
-| **Cornell Cooperative Extension of Suffolk County**, which runs agriculture, marine, and nutrition programs and works with schools | Food scientist; registered dietitian; farmer or grower; agricultural engineer |
+| **The county health department**, which inspects every food business | Food safety inspector |
+| **Cornell Cooperative Extension**, which runs agriculture, marine, and nutrition programs and works with schools | Food scientist; registered dietitian; farmer or grower; agricultural engineer |
 | **Food pantries and food rescue organizations** across both counties | Logistics coordinator; caterer; registered dietitian |
 
 **Two jobs near here I did not know existed:** ______________________ and ______________________

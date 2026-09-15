@@ -21,7 +21,7 @@
 
 - National FCS 3.0: 14.1.5 Examine laws and regulations that touch nutrition and wellness.
 
-Note on FSP 3. b). Step 4 is where it is taught: SNAP, WIC, and school meals are policy, not charity, and the step says who runs each one and what it does and does not solve. The state's line ends with "in various regions and countries," and Step 4 is United States programs only. Lesson 6.2 (local, seasonal, global) and Lesson 6.10 (one dish, three cultures) carry the other-countries half of the module's topic 3. If Sal wants the line fully met inside this period, the one-minute addition is to name one other country's program next to SNAP; the teacher notes say which. Four National FCS competencies instead of the usual one or two, because 14.1.5 is the competency the crosswalk pairs with FSP 3. b) and it is printed in the FSP module's own block.
+Note on FSP 3. b). Step 4 is where it is taught: SNAP, WIC, and school meals are policy, not charity, and the step says who runs each one and what it does and does not solve. The state's line ends with "in various regions and countries," and Step 4 is United States programs only. Lesson 6.2 (local, seasonal, global) and Lesson 6.10 (one dish, three cultures) carry the other-countries half of the module's topic 3. If I want the line fully met inside this period, the one-minute addition is to name one other country's program next to SNAP; the teacher notes say which. Four National FCS competencies instead of the usual one or two, because 14.1.5 is the competency the crosswalk pairs with FSP 3. b) and it is printed in the FSP module's own block.
 
 ## How this lesson is handled
 
@@ -123,9 +123,9 @@ Social studies: this is a geography and civics lesson as much as a FACS lesson, 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. d), 3. b), 3. c), and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 4. d), 3. b), 3. c), and 5. c). Copy in.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 5. b); Theme Module 03, Financial and Consumer Literacy, line 4. g). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator A. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, Performance Indicator A. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Thinking Skills. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.4 and 14.1.3.
 - The neighborhood, the distances, and the two price lists on the handout are constructed for teaching. The prices are written to feel like a real Long Island supermarket and a real corner store, and the handout says so on its face.

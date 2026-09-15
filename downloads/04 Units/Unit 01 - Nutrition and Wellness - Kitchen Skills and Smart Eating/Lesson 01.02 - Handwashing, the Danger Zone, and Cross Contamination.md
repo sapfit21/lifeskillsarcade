@@ -115,12 +115,12 @@ Inside the building: the school nurse already teaches handwashing for illness pr
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 2. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.4.1 and 14.4.5.
 - Handwashing steps, the 40 F to 140 F danger zone, and the two-hour rule follow the USDA Food Safety and Inspection Service and FoodSafety.gov public guidance ("Clean, Separate, Cook, Chill").
-- Sal's own materials: the pre-cooked meat and eggs-only constraint from the King Kullen menu documents (Education/TeachingWork/LessonPlans) decides which cross contamination examples are used.
+- My own materials: the pre-cooked meat and eggs-only constraint from the supermarket menu documents decides which cross contamination examples are used.
 
 ## Teacher notes
 

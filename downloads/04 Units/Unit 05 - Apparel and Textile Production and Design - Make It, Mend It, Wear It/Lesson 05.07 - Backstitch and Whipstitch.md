@@ -132,10 +132,10 @@ Technology and engineering: the running stitch versus backstitch comparison is a
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Problem Solving and Innovation, line 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in.
+- NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. c); Theme Module, Problem Solving and Innovation, line 2. b). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.2.7, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.2.7, per, section 4.16.
 - Backstitch and whipstitch step sequences are standard hand sewing technique. Written new for this course.
 
 ## Teacher notes

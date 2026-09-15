@@ -78,7 +78,7 @@ Starting price today: AQ72.00
 
 * * *
 
-Starting prices are the Fortune Street starting values from Sal's README.
+Starting prices are the Fortune Street starting values from the ClassroomStreet setup files.
 
 ## Teacher key
 
@@ -96,4 +96,4 @@ Do not hand this out. The "what it really is" column is the Lesson 2.19 reveal. 
 
 Accept any student order that has HNYP, SEAL, and IRON in the bottom three and SPRK and CLDB in the top two. Whether Sparkstone or Cloudberry is riskiest is a fair argument: Cloudberry is younger and less known (riskier by most measures); Sparkstone swings harder in the simulation's price path.
 
-In the crisis (windows 25 to 32 in Sal's schedule), SPRK and CLDB fall 15 to 25 percent a window, IRON and SEAL barely move, HNYP does not move, WLLW dips and recovers quickly, MDOW drops 5 to 10 percent. That is the whole risk ladder in one week.
+In the crisis (windows 25 to 32 in the simulation's schedule), SPRK and CLDB fall 15 to 25 percent a window, IRON and SEAL barely move, HNYP does not move, WLLW dips and recovers quickly, MDOW drops 5 to 10 percent. That is the whole risk ladder in one week.

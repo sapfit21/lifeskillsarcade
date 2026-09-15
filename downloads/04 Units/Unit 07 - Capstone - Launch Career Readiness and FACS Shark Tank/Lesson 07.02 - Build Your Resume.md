@@ -118,9 +118,9 @@ Inside the building: the ELA teacher and the school counselor, as in Lesson 7.1.
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. d) and 2. d).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. d); Theme Module 02, Communication and Interpersonal Relationships, line 3. e).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Universal Foundation Skills, Managing Information. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Universal Foundation Skills, Managing Information. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.2 and 3.1.5.
-- Sal's own materials: the resume process he ran one on one with 87 or more students at Brentwood South, and the three-part bullet formula from the Smeal MBA interview guide.
+- My own materials: the resume process I ran one on one with 87 or more students, and the three-part bullet formula from my MBA interview guide.
 
 ## Teacher notes
 

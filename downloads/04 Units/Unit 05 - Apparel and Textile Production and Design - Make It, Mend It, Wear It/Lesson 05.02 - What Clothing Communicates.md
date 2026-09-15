@@ -6,7 +6,7 @@
 **Days:** 1 class period of 40 minutes (day 117 of the year)
 **Room:** Either. Desks in a circle or a U if the room allows it.
 
-This is the lesson I care most about in this unit. It comes out of two places: a Queens College course on the meanings of dress, where I wrote about clothing as communication and identity, and a real week at Brentwood South. After an 80s Day during Spirit Week, a colleague and I stopped the planned lesson and built a segment on what is and is not okay to say about what somebody is wearing, because the comments in the hallway had gotten mean. That segment is the heart of this period. The class writes the agreement, not me.
+This is the lesson I care most about in this unit. It comes out of two places: a graduate course on the meanings of dress, where I wrote about clothing as communication and identity, and a real week in my own school. After an 80s Day during Spirit Week, a colleague and I stopped the planned lesson and built a segment on what is and is not okay to say about what somebody is wearing, because the comments in the hallway had gotten mean. That segment is the heart of this period. The class writes the agreement, not me.
 
 One hard rule for today, stated to students at the start and enforced all period: we talk about clothing in general, in pictures, and in scenarios. Nobody's own clothes are the example. No student is asked to explain, defend, or justify what they have on. If a student volunteers their own outfit, I turn it back to the general question.
 
@@ -120,11 +120,11 @@ English language arts: intent versus impact is the same lesson the ELA teacher r
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 1. b) and 1. c). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. b) and 1. c). Copy in.
+- NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 1. b) and 1. c). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 16.3.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
-- Sal's own materials: the Brentwood Spirit Week segment on what is and is not okay to say about what somebody is wearing, built after 80s Day with a colleague; and the dress-as-communication and identity writing from FNES 727, The Meanings of Dress (Queens College, summer 2026). The FNES 727 course content itself stays in that course; only the idea is used here, in my own words. The "Dress the Part" packet's style-profile activity is the optional stretch in Part 3.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 16.3.1, per, section 4.16.
+- My own materials: my Spirit Week segment on what is and is not okay to say about what somebody is wearing, built after 80s Day with a colleague; and my dress-as-communication and identity writing from a graduate course on the meanings of dress. The course content itself stays in that course; only the idea is used here, in my own words. The "Dress the Part" packet's style-profile activity is the optional stretch in Part 3.
 - The first-impression timing claim (people form an impression in roughly one to two seconds) is widely reported in social psychology.
 
 ## Teacher notes

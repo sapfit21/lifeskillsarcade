@@ -119,12 +119,12 @@ Inside the building: the school nurse or custodian visits for five minutes durin
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. b). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c), d), f), g), and h). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.4.1 and 1.2.7.
 - Burn first aid (cool running water, no ice) and grease fire response (lid, no water) follow public guidance from the American Red Cross and the U.S. Fire Administration. PASS is the standard extinguisher sequence taught by the National Fire Protection Association.
-- Sal's own materials: the zero-knife policy, no frying, pre-cooked meat only, teacher drains pasta and handles the oven door, from the King Kullen menu documents and Brentwood lab constraints (Education/TeachingWork/LessonPlans).
+- My own materials: the zero-knife policy, no frying, pre-cooked meat only, teacher drains pasta and handles the oven door, from the supermarket menu documents and my lab constraints.
 
 ## Teacher notes
 

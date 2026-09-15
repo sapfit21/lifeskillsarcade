@@ -113,11 +113,11 @@ Math: the scale and percent items are the same skills the math teacher tests; a 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b), 1. d), 2. c), 3. a), 4. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 1. b), 1. d), 2. c), 3. a), 4. a). Copy in.
 - NYS Middle Level CTE Theme Modules: Health, Safety, and Wellness 3. c); Sustainability 3. e); Financial and Consumer Literacy 4. c); Problem Solving and Innovation 2. a) h. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.6.1, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
-- `03 Course Design/03 Grading Plan.md` (retake rule).
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.6.1, per, section 4.11.
+- (retake rule).
 
 ## Teacher notes
 

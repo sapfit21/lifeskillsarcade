@@ -109,11 +109,11 @@ Art: the art teacher teaches the same elements with a slightly different list (v
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 2. c). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) h. and 2. b). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), line 2. c). Copy in.
+- NYS Middle Level CTE Theme Module, Problem Solving and Innovation, lines 2. a) h. and 2. b). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.2.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: the "Your Room, Your Rules" Brentwood packet (Unit_1_Interior_Design) supplied the eight-element list, the Design Element Detective table, and the rearrange-your-room sketch; the teacher side, the described room, and the effect column are new here.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.2.1 and 11.2.3, per.
+- My own materials: my "Your Room, Your Rules" packet supplied the eight-element list, the Design Element Detective table, and the rearrange-your-room sketch; the teacher side, the described room, and the effect column are new here.
 
 ## Teacher notes
 

@@ -122,11 +122,11 @@ Inside the building: science, if the grade 7 life science course covers genes an
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a), 1. b), 2. a), and 3. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 1. a), 1. b), 2. a), and 3. d). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. a); Theme Module, Communication and Interpersonal Relationships, line 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 12.2.1.
-- Sal's own materials: the influences map borrows the "circle of people and places" idea from his Unit 2 All About Me one-pager (Lesson 2.3) so students recognize the shape.
+- My own materials: the influences map borrows the "circle of people and places" idea from my Unit 2 All About Me one-pager (Lesson 2.3) so students recognize the shape.
 
 ## Teacher notes
 

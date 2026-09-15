@@ -127,12 +127,12 @@ Math: scale factors, unit conversion (feet to inches to squares), area in square
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 04, Environmental Design and Management (nyctecenter.org, June 2018), lines 2. b) and 2. c). Copy in.
 - NYS Middle Level CTE Theme Module, Problem Solving and Innovation, line 2. a) sub-lines d., e., h. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.3 and 11.4.4, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.11.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 11.4.3 and 11.4.4, per, section 4.11.
 - Clearances: 2010 ADA Standards for Accessible Design (ada.gov), section 403.5.1 (36-inch clear width) and 304.3 (60-inch turning space). The 30-inch general path and the furniture dimensions on the cut-out sheet are common residential planning figures, rounded to the nearest half foot for cutting.
-- Sal's own materials: `Lesson Dups/Unit_1_Interior_Design/education_teachingwork_floor_plan_frenzy_2026_04.docx` (the floor plan idea used in Lesson 4.10; this lesson continues it at the project scale).
+- My own materials: (the floor plan idea used in Lesson 4.10; this lesson continues it at the project scale).
 
 ## Teacher notes
 

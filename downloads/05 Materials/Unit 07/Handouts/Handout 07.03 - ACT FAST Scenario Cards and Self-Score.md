@@ -229,6 +229,6 @@ ____________________________________________________________________
 
 **Cards to pull before class:** read the deck and set aside any card that would land badly in your room this year. Card 19 (the teammate who did not do their part) can be pointed at a real student by accident if there has been a recent group conflict; card 23 (the business losing money) can sting a student whose family business is struggling; card 10 (late to work) can land on a student with attendance problems. Pull two or three, not ten.
 
-**Timing, from Sal's own reflection on this drill:** keep the scenario rounds tight, six minutes each, and give the reveal real time. If you are behind at minute 12, cut Round 2 to four speakers rather than shorten the reveal.
+**Timing, from my own reflection on this drill:** keep the scenario rounds tight, six minutes each, and give the reveal real time. If you are behind at minute 12, cut Round 2 to four speakers rather than shorten the reveal.
 
 **Scoring:** the self-score sheet is scored complete, partial, or missing for daily work. It is not a grade on the four traits. The same four traits are scored by a peer in Lesson 7.5 and by an adult judge in Lesson 7.11, and students keep this sheet in the FACS folder so they can compare all three.

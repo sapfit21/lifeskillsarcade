@@ -116,10 +116,10 @@ Careers: a front-of-house job in a restaurant is exactly this content, and the o
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. h) and 1. i). Copy in `02 Standards/NYS Module PDFs/`. Cited because the FSP module has no table setting or serving line; see the note in the Standards block.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. h) and 1. i). Copy in. Cited because the FSP module has no table setting or serving line; see the note in the Standards block.
 - NYS Middle Level CTE FACS Content Module 06, Food Systems and Production, line 2. d). Same folder.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 6. d) and 6. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and C. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Personal Qualities. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3, 8.5.12, and 6.2.4.
 - Lesson 6.10's class agreement on food talk, which this lesson's food sharing agreement extends from talk to serving.

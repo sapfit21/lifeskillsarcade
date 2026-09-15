@@ -131,13 +131,13 @@ Science: this is the science teacher's lesson with food in it. Send them the lab
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 1. e), and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. d), 1. e), and 2. d). Copy in.
 - NYS Middle Level CTE Theme Module 05, Problem Solving and Innovation, lines 1. a) and 1. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Thinking Skills. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 8.5.10 and 9.5.6.
-- Unit 1, Lesson 1.8, for the science connection on baking powder that Sal's own mug cake recipe sheet already carried, and `Rubric 01 - Lab Rubric.md` for scoring.
-- Sal's own materials: the four-phase workflow, the role card structure, and the clean-up zones come from his King Kullen lesson packages (Education/TeachingWork/LessonPlans), rewritten for a station of seven.
+- Unit 1, Lesson 1.8, for the science connection on baking powder that my own mug cake recipe sheet already carried, and `Rubric 01 - Lab Rubric.md` for scoring.
+- My own materials: the four-phase workflow, the role card structure, and the clean-up zones come from my lab lesson packages, rewritten for a station of seven.
 
 ## Teacher notes
 

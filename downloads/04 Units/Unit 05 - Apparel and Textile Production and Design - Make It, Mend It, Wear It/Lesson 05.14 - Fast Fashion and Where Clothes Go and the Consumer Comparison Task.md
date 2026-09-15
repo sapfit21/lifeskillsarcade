@@ -139,14 +139,14 @@ Science: the water and landfill content is the same material the grade 7 or 8 sc
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. d), 4. b), 4. c), 4. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. d), 4. b), 4. c), 4. d). Copy in.
 - NYS Middle Level CTE Theme Module, Financial and Consumer Literacy, line 4. c). Same folder. This is the theme line the crosswalk pairs with ATPD 4. c), and it is the budget box on Day 2.
 - NYS Middle Level CTE Theme Module, Sustainability, lines 1. f), 2. e), 2. j). Same folder. The Sustainability module's own Family and Consumer Sciences illustrative activity is a product lifecycle study ending in a recycle, upcycle, or repurposing project, which is exactly Topic 5.4.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.6, 2.2.1, and 2.6.2, per `02 Standards/STANDARDS SOURCES - web research.md`, sections 4.2 and 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.6, 2.2.1, and 2.6.2, per, sections 4.2 and 4.16.
 - Textile waste figures: US Environmental Protection Agency, Facts and Figures about Materials, Waste and Recycling, textiles, 2018 data (published 2020), https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/textiles-material-specific-data.
 - Water-use estimate for one pair of jeans and the decline in the number of times a garment is worn: both are widely cited estimates whose sources and methods differ. The handout prints them with the source and a check note rather than as settled facts.
-- `03 Course Design/03 Grading Plan.md` (topic assessment weight and retake rule).
+- (topic assessment weight and retake rule).
 
 ## Teacher notes
 

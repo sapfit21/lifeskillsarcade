@@ -144,17 +144,17 @@ None. The unit is done. Unit 7 starts the next day with the resume, and the self
 
 ## Connections
 
-Inside the building: the school counselor. FACS gives the counselor thirteen food-chain careers with education paths and a completed student self-check for the file, plus the Unit 2 interest code to read next to it; the counselor gives FACS the NYS Career Zone login routine, your school's high school course sheet, and whether any CTE certificate, including ServSafe, is available in the building or through a BOCES program. Community: four partners, any one of which turns a card into a person, for ten minutes in person or on video. A supermarket manager (the buyer and store manager cards). A Cornell Cooperative Extension of Suffolk County educator (the farmer, the agricultural engineer, and the food safety cards). A local farm or farmers market vendor on the North Fork or at the nearest market (the grower cards). A caterer or restaurant owner (the chef, line cook, and owner cards).
+Inside the building: the school counselor. FACS gives the counselor thirteen food-chain careers with education paths and a completed student self-check for the file, plus the Unit 2 interest code to read next to it; the counselor gives FACS the NYS Career Zone login routine, your school's high school course sheet, and whether any CTE certificate, including ServSafe, is available in the building or through a BOCES program. Community: four partners, any one of which turns a card into a person, for ten minutes in person or on video. A supermarket manager (the buyer and store manager cards). A Cornell Cooperative Extension educator (the farmer, the agricultural engineer, and the food safety cards). A local farm or farmers market vendor on the North Fork or at the nearest market (the grower cards). A caterer or restaurant owner (the chef, line cook, and owner cards).
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 6. a), 6. b), and 6. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 6. a), 6. b), and 6. c). Copy in.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 4. a) and 7. c); Theme Module 06, Sustainability, line 4. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 1, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1, 8.1.1, 8.1.3, and 9.1.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 1, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1, 8.1.1, 8.1.3, and 9.1.3, per.
 - Pay ranges and job outlook lines on the career cards are to be refreshed before teaching and should be filled from the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) and New York State Department of Labor wage data for the Long Island region. The registered dietitian credential requires a graduate degree to sit for the exam as of 2024; confirm with the Commission on Dietetic Registration. ServSafe is administered through the National Restaurant Association's training arm; confirm the current levels, exam fee, and proctoring rules at servsafe.com. Registered apprenticeship information for New York comes from the NYS Department of Labor apprenticeship office.
-- Sal's own materials: the careers-day structure follows Lesson 1.22 in this course, and the Long Island jobs page draws on his own King Kullen price research (King Kullen is a Long Island chain and is widely credited as the first American supermarket, opened in Queens in 1930, which is a one-line hook worth using) and his hotel food and beverage work on Fire Island.
+- My own materials: the careers-day structure follows Lesson 1.22 in this course, and the Long Island jobs page draws on my own supermarket price research (King Kullen, a Long Island chain, is widely credited as the first American supermarket, opened in Queens in 1930, which is a one-line hook worth using) and my hotel food and beverage work.
 
 ## Teacher notes
 

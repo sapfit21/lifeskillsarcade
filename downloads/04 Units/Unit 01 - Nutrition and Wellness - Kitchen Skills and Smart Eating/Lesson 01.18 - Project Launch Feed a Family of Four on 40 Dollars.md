@@ -122,21 +122,21 @@ None. Optional: ask the person who shops at home what they would cook for four o
 
 ## Connections
 
-Math: the running total and the unit column are the same skills the math teacher grades under ratios and decimals; share the plan sheet so the math class can check a team's arithmetic as a warm up. Music and PE: in Sal's SEYS 536 version, music supplied the jingle and PE checked whether the meal fuels an active day. Both are optional partners for Lesson 1.21.
+Math: the running total and the unit column are the same skills the math teacher grades under ratios and decimals; share the plan sheet so the math class can check a team's arithmetic as a warm up. Music and PE: in my earlier version, music supplied the jingle and PE checked whether the meal fuels an active day. Both are optional partners for Lesson 1.21.
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e), 3. a), 3. b), and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 1. e), 3. a), 3. b), and 3. c). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. c); Theme Module 05, Problem Solving and Innovation, lines 1. e) and 2. a) c. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.1 and 14.3.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: the Feed a Family of Four on $40 run of show (Drive, `FeedingAFamily_RunOfShow_Aug06.docx`, summarized in `01 Source Analysis/Drive Inventory.md`, section 2a): the $12 vs $38 hook, the $40 cap, team planning with flyers, and his own improvement note to add checkpoints during planning so no team reaches the pitch with a broken budget. The King Kullen menu options and constraints (`Education/TeachingWork/LessonPlans/education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf`).
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.1 and 14.3.3, per.
+- My own materials: the Feed a Family of Four on $40 run of show: the $12 vs $38 hook, the $40 cap, team planning with flyers, and my own improvement note to add checkpoints during planning so no team reaches the pitch with a broken budget. The King Kullen menu options and constraints.
 
 ## Teacher notes
 
 - If Day 1 runs short, cut the plan to four dishes and pick the station dish at the start of Day 2. If Day 2 runs short, skip Step 6 and let the totals be the Lesson 1.19 do now.
-- Sal's own note from the SEYS 536 version: add checkpoints during planning so no team reaches the jingle with a broken budget. That is why Day 2 has a teacher sign off and Lesson 1.19 is a whole day of checking. Do not skip the sign off.
+- My own note from the earlier version: add checkpoints during planning so no team reaches the jingle with a broken budget. That is why Day 2 has a teacher sign off and Lesson 1.19 is a whole day of checking. Do not skip the sign off.
 - Common mistake: teams price the amount the recipe needs instead of the package they have to buy. Say the rule early: you pay for the jar, not the spoonful.
 - Second common mistake: the station dish does not fit the constraints (a stir fry that needs knives, a raw chicken dish). Check the circled dish on Day 1 before anyone prices it. The three fallback dishes in Lesson 1.20 are there for a team whose dish cannot work.
 - Water is a free drink and a real one. A team that "saves" $3 by not buying soda has made a nutrition decision and a budget decision at once. Say so.

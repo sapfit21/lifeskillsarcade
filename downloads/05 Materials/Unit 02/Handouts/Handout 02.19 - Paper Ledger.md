@@ -81,7 +81,7 @@ My Round 2 closing fortune: AQ __________
 
 ## Teacher key: the price table and the dispatch script
 
-Do not hand this page to students. Post the day's prices on the board at the start of the trading window and read the dispatch aloud twice, once fast and once slow. The prices below are an example path built from the Fortune Street starting prices in Sal's README; they match the example numbers in `Handout 02.18 - Return Math.md`, so the safe, risky, and mixed portfolios there can be checked against this table.
+Do not hand this page to students. Post the day's prices on the board at the start of the trading window and read the dispatch aloud twice, once fast and once slow. The prices below are an example path built from the Fortune Street starting prices in the ClassroomStreet setup files; they match the example numbers in `Handout 02.18 - Return Math.md`, so the safe, risky, and mixed portfolios there can be checked against this table.
 
 ### The price table (AQ per unit)
 

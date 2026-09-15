@@ -109,13 +109,13 @@ Guidance: the counselor's career interest inventory and this self-check cover th
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 4. a) and 4. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), lines 4. a) and 4. b). Copy in.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 2. a) and 3. a). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 1, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 9.1.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 1, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 9.1.1, per.
 - Pay ranges on the career cards are to be refreshed before teaching and should be filled from the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) and the New York State Department of Labor wage data for the Long Island region. Education requirements for the registered dietitian credential come from the Commission on Dietetic Registration (a graduate degree has been required to sit for the exam since 2024).
-- Sal's own materials: the careers day placement from the scope and sequence and his resume workshop experience at Brentwood (87 students), which is the model for Units 2 and 7.
+- My own materials: the careers day placement from the scope and sequence and my resume workshop experience (87 students), which is the model for Units 2 and 7.
 
 ## Teacher notes
 

@@ -140,10 +140,10 @@ Mathematics: the repair-or-replace sheet is unit cost and a break-even compariso
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 4. a); the community-agency repair-and-donate idea comes from that module's Career and Community Connections illustrative activity. Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. f); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines c. and d. Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 2. c) and 4. a); the community-agency repair-and-donate idea comes from that module's Career and Community Connections illustrative activity. Copy in.
+- NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 4. f); Theme Module, Problem Solving and Innovation, line 3. a) with sub-lines c. and d. Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.5.2, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.4.5 and 16.5.2, per, section 4.16.
 - The five-step decision model is the course's own, introduced in Unit 0: name the choice, list options, weigh each against what matters, decide, look back.
 - Hem stitch, seam repair, patching, and visible mending are standard practice. Written new for this course.
 

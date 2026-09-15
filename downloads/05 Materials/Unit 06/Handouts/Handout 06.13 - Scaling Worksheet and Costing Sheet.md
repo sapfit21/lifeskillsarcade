@@ -387,7 +387,7 @@ Unit prices to the tenth of a cent for the most-used items, from the page 5 exce
 | Name-brand whipped topping $4.49 | Store brand $2.99 | $1.50 | $4.50 on 3 cans |
 | Two 24 oz marinara jars $5.58 | One 45 oz jar $4.99 | $0.59 for 3 oz less | Legal only if the yield check still clears |
 
-Sal's own King Kullen order saved **$30.38 on a $150 order** with four swaps of exactly this kind: name-brand cookies to store brand ($14.40), name-brand whipped topping to store brand ($6.00), butter from two packs to one ($5.99), and cups from two packs to one ($3.99). Put those four real numbers on the Day 2 slide.
+My own supermarket order saved **$30.38 on a $150 order** with four swaps of exactly this kind: name-brand cookies to store brand ($14.40), name-brand whipped topping to store brand ($6.00), butter from two packs to one ($5.99), and cups from two packs to one ($3.99). Put those four real numbers on the Day 2 slide.
 
 ## Page 6: the peer check
 

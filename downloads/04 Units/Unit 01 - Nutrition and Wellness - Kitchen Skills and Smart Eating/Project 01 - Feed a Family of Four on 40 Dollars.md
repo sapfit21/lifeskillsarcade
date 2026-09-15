@@ -93,7 +93,7 @@ Lab roles (Lesson 1.20 Day 2): Station Manager, Prep Lead, Cook Lead, Plate Capt
 
 ## Supports
 
-- **Sentence starters** (the Turkish, Portuguese, and Spanish lines are to be verified by a native speaker and Sal has translated versions of some of these already):
+- **Sentence starters** (the Turkish, Portuguese, and Spanish lines are to be verified by a native speaker and I have translated versions of some of these already):
 
 | English | Turkish | Portuguese | Spanish |
 |---|---|---|---|
@@ -120,7 +120,7 @@ The project counts in the labs and projects category (40 percent of the marking 
 
 # Teacher notes on the project
 
-- This is Sal's Feed a Family of Four on $40 from Brentwood and SEYS 536, spread across a 40-minute schedule with the checkpoints he said it needed. His original had the $12 vs $38 hook, the unit price and MyPlate mini lesson, the ingredient relay, team planning with flyers and the $40 cap, a peer math check, a pitch and jingle, a class vote, and an exit reflection. All of those are here except the ingredient relay, which is a MyPlate activity and belongs in Topic 1.3 (Lesson 1.10) rather than the project launch.
+- This is my Feed a Family of Four on $40, spread across a 40-minute schedule with the checkpoints it needed. My original had the $12 vs $38 hook, the unit price and MyPlate mini lesson, the ingredient relay, team planning with flyers and the $40 cap, a peer math check, a pitch and jingle, a class vote, and an exit reflection. All of those are here except the ingredient relay, which is a MyPlate activity and belongs in Topic 1.3 (Lesson 1.10) rather than the project launch.
 - Three families, three teams per class, one family per team. Two classes planning for the same family is fine; two teams in one class is not, because the vote becomes a taste contest.
 - The $40 plan is for four full servings at home; the $20 station card is seven tasting portions of one dish. They are two different numbers on purpose. Students who confuse them are told: the $40 is the family's money; the $20 is mine.
 - Budget for the unit plan: $20 per station, three stations per period, times the number of periods, plus about $8 per team for the fresh tasting item in Lesson 1.21 if leftovers cannot be used. Fallback dishes cost $11.05 to $17.64 per station.

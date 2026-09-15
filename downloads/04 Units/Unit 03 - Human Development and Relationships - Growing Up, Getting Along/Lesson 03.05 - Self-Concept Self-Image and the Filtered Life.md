@@ -44,11 +44,11 @@ Tier 3 (FACS): self-concept, self-image, self-esteem, self-talk, filter, first i
 ## Materials and setup
 
 - `Handout 03.05 - Self-Talk Swap.md`, one per student
-- Slides: `Slides 03.05 - Self-Concept Self-Image and the Filtered Life` (slide 6 and 7 are the photo pair, described in words on the outline; Sal may use a real pair of his own hand or a mug, never a student and never a body)
+- Slides: `Slides 03.05 - Self-Concept Self-Image and the Filtered Life` (slide 6 and 7 are the photo pair, described in words on the outline; I may use a real pair of my own hand or a mug, never a student and never a body)
 - The influences map from Lesson 3.4, in the FACS folder
 - Index cards, one per student, for the closure
 - Timer visible to the class
-- Setup notes: none beyond the slides. If Sal wants a real edited pair on screen, photograph an object (a coffee mug on a desk) and run it through a filter: brighten, blur the background, smooth the surface, crop. The lesson never edits a person.
+- Setup notes: none beyond the slides. If I want a real edited pair on screen, I photograph an object (a coffee mug on a desk) and run it through a filter: brighten, blur the background, smooth the surface, crop. The lesson never edits a person.
 
 ## Pre-assessment
 
@@ -116,11 +116,11 @@ Inside the building: the health teacher owns body image, eating, and anything me
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 2. a), 2. b), 2. c), and 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 2. a), 2. b), 2. c), and 2. d). Copy in.
 - NYS Middle Level CTE Theme Module, Health, Safety, and Wellness, line 5. a); Theme Module, Communication and Interpersonal Relationships, line 5. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.2.3 and 12.2.2.
-- Sal's own materials: the "online you vs the real you" packet (Brentwood, Unit 5 Personal Branding, April 2026) supplies the filtered-life framing, the highlight reel vs real life contrast, and the "keep some privacy, post what is real" resolution; the first impressions lab packet from the same unit supplies the two-character interview and the four channels. Both are rewritten here without the branding language, and the fictional characters are new.
+- My own materials: the "online you vs the real you" packet (from my personal branding packets) supplies the filtered-life framing, the highlight reel vs real life contrast, and the "keep some privacy, post what is real" resolution; the first impressions lab packet from the same unit supplies the two-character interview and the four channels. Both are rewritten here without the branding language, and the fictional characters are new.
 
 ## Teacher notes
 

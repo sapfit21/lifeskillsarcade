@@ -118,13 +118,13 @@ Inside the building: the drama or music teacher, if your school has one. What th
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 3. a) and 3. c).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, line 3. c); Theme Module 02, Communication and Interpersonal Relationships, line 1. f).
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Personal Qualities. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 3a, Personal Qualities. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.8 and 13.3.2.
-- Sal's own materials: the ACT FAST rapid-fire interview drill he built and taught, including his own reflection on it, which said to keep the scenario rounds tight and give more time to the teaching reveal. That is why Step 3 is 12 minutes and Rounds 1 and 2 are 6 each.
+- My own materials: the ACT FAST rapid-fire interview drill I built and taught, including my own reflection on it, which said to keep the scenario rounds tight and give more time to the teaching reveal. That is why Step 3 is 12 minutes and Rounds 1 and 2 are 6 each.
 
 ## Teacher notes
 
-- Sal's own reflection on this drill is the design note for the lesson: the rounds are fun and they run away with the period if you let them. Keep Rounds 1 and 2 to six minutes each with no commentary. The reveal is the lesson. If you are behind at minute 12, cut Round 2 to four speakers rather than shorten Step 3.
+- My own reflection on this drill is the design note for the lesson: the rounds are fun and they run away with the period if you let them. Keep Rounds 1 and 2 to six minutes each with no commentary. The reveal is the lesson. If you are behind at minute 12, cut Round 2 to four speakers rather than shorten Step 3.
 - Do not give feedback between answers in Rounds 1 and 2. The moment you praise one answer, every student after it starts performing for you instead of thinking, and the reveal stops working because they think the answer was the point.
 - The clap-for-everyone rule matters. Say it once at the start and enforce it on the first answer.
 - Count how many students freeze completely. If it is more than three, add 10 seconds to the thinking time in Round 2 and say why out loud: "I am giving you more time because more time is what real interviews give you when you ask for a second."

@@ -110,11 +110,11 @@ Inside the building: the custodian, for a two-minute stop on the tour at the bre
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 3. c). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 4. a), and Theme Module 02, Communication and Interpersonal Relationships, line 2. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Basic Skills. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, and NYS CDOS Standard 3a, Intermediate, Basic Skills. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.3.2 and 13.3.3.
-- Sal's own materials: the Draw/See/Hear communication game and the reset cue ("lights, countdown, hands empty"), as described in his Brentwood portfolio (`01 Source Analysis/Brentwood Work and Simulations.md`). No original Draw/See/Hear file is on the Desktop; this lesson writes it out for the first time. Role cards from `Handout 01.08 - Role Cards Lab 1.md`.
+- My own materials: the Draw/See/Hear communication game and the reset cue ("lights, countdown, hands empty"), as described in my portfolio. This lesson writes it out in full for the first time. Role cards from `Handout 01.08 - Role Cards Lab 1.md`.
 
 ## Teacher notes
 

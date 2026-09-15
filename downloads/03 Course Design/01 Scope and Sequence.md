@@ -1,6 +1,6 @@
 # Scope and Sequence: Family and Consumer Sciences, Grades 6 to 8
 
-Full year, daily, 40-minute periods, 180 instructional days. Draft of 2026-09-11, built on the working assumptions in `00 _admin/DECISIONS.md`.
+Full year, daily, 40-minute periods, 180 instructional days. The sequence and day counts can change; everything downstream is built so a unit can move or shrink without rewriting the others.
 
 ## The year at a glance
 
@@ -20,8 +20,8 @@ Marking periods of 45 days: MP1 days 1 to 45 (Unit 0, Unit 1, first 10 days of U
 
 ## Why this order
 
-1. Kitchen first. Sal's own reflection: the first cooking lab is what won the class. Safety and sanitation come before any lab, so Unit 1 opens with the safety contract and reaches a first lab by day 9.
-2. Finance and careers second, before winter break. His strongest content and his own simulation, when the class already trusts him.
+1. Kitchen first. My own reflection: the first cooking lab is what won the class. Safety and sanitation come before any lab, so Unit 1 opens with the safety contract and reaches a first lab by day 9.
+2. Finance and careers second, before winter break. My strongest content and my own simulation, when the class already trusts me.
 3. Human development in the middle of the year, when peer dynamics in the room are visible and worth talking about.
 4. Design and apparel back to back: both use the elements and principles of design, so the second builds on the first.
 5. Food systems late, after students already have kitchen skills, so the labs can be bigger (four kitchens at once) and the thinking can go beyond the recipe.

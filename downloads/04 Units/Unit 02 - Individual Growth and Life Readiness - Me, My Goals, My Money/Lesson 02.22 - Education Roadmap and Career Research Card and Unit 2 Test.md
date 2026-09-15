@@ -115,12 +115,12 @@ Inside the building: the guidance counselor, who issues working papers to studen
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 5. a) and 3. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 5. a) and 3. d). Copy in.
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 4. a) and 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand, and NYS CDOS Standard 1, Intermediate. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 1.1.6.
 - Career research sources students use: the New York State career exploration site the guidance office recommends, and the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh). Pay figures on the handout example are to be refreshed before teaching and dated.
-- Sal's own materials: the Brentwood packet "Education Roadmap: Paths to Your Dream Career" (Unit 2 Career Exploration, April 2026). The pathways table (duration, example careers, who pays) and Activity 2 (choose a career, name its path, plan a first step) are rebuilt as the six-paths table and the research card. The logic puzzle is dropped.
+- My own materials: my packet "Education Roadmap: Paths to Your Dream Career" (Unit 2 Career Exploration, April 2026). The pathways table (duration, example careers, who pays) and Activity 2 (choose a career, name its path, plan a first step) are rebuilt as the six-paths table and the research card. The logic puzzle is dropped.
 
 ## Teacher notes
 

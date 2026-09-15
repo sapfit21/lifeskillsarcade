@@ -133,22 +133,22 @@ Math: throughput is a rate problem (items per minute), and cost per quesadilla i
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. e), 2. c), and 2. e). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. e), 2. c), and 2. e). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, lines 4. c) and 4. e); Theme Module 02, Communication and Interpersonal Relationships, line 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate, FACS strand, Performance Indicators A and B. Wording per, section 2.
 - CDOS Intermediate Standard 3a Universal Foundation Skills, Managing Resources. Same file, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.5.7.
 - `Rubric 01 - Lab Rubric.md` and `Handout 01.08 - Lab Reflection.md`, reused unchanged.
-- Sal's own materials: `education_teaching_facs_lesson1_blackbeanquesadillas_2026_03.docx` (Education/TeachingWork/LessonPlans). His package supplied the recipe, the butter-knife-only rule, the shopping list with budget swaps, the "what could go wrong" boxes, the four-phase workflow, the Gantt chart, the eight role cards, the clean-up zones, the graham cracker blueberry stack dessert, and the teacher notes. Rebuilt here for a station of seven with correct standards citations.
+- My own materials:. My package supplied the recipe, the butter-knife-only rule, the shopping list with budget swaps, the "what could go wrong" boxes, the four-phase workflow, the Gantt chart, the eight role cards, the clean-up zones, the graham cracker blueberry stack dessert, and the teacher notes. Rebuilt here for a station of seven with correct standards citations.
 
 ## Teacher notes
 
 - Open the cans before class. There is no ten-minute prep that survives a can opener in seven pairs of hands.
 - Rinse the beans until the water runs clear. Unrinsed canned beans taste like the can, and students will tell you the dish is bad when the beans were the problem.
-- Medium heat, and say it while they turn the knob. Sal's own note from his package holds: if the tortilla is burning before the cheese melts, the heat is too high, and if the cheese will not melt, it is too low and needs thirty more seconds a side, not more flame.
+- Medium heat, and say it while they turn the knob. My own note from my package holds: if the tortilla is burning before the cheese melts, the heat is too high, and if the cheese will not melt, it is too low and needs thirty more seconds a side, not more flame.
 - The butter knife does the spreading and the plate does the cutting. Nothing is cut in a hot skillet, ever. Say it once at the start of plate and eat.
 - The empty skillet is the whole lesson. When you see one sitting on heat with nothing in it, ask whose job the next tortilla was rather than fixing it yourself.
-- Sal's package included the graham cracker blueberry stacks running in parallel. Keep them as an optional dessert station: it gives two students a real job away from the heat and it is the only thing in the lab a student with a dairy or wheat allergy can run start to finish with a substituted ingredient.
+- My package included the graham cracker blueberry stacks running in parallel. Keep them as an optional dessert station: it gives two students a real job away from the heat and it is the only thing in the lab a student with a dairy or wheat allergy can run start to finish with a substituted ingredient.
 - If the period is under 35 minutes, cut to four large quesadillas on one skillet per station and skip the dessert.
 - Per-station cost estimate (store brand, Long Island supermarket; every price to be refreshed from the current circular before teaching):
 
@@ -165,4 +165,4 @@ Math: throughput is a rate problem (items per minute), and cost per quesadilla i
 | Class of four stations, main dish only | | about $52 | about $41 with swaps |
 | No-kitchen Rolled Wraps | per station of seven | about $13 | Tortillas $2.49, beans $1.98, cheese $5.98, salsa $2.49, lettuce $1.99, minus the spray |
 
-- The dessert is what pushes this lab over $20 at full prices. Sal's own package flagged the same thing. Either run the swaps or drop the dessert to a shared class platter instead of a station each, which is about $8 for the whole room.
+- The dessert is what pushes this lab over $20 at full prices. My own package flagged the same thing. Either run the swaps or drop the dessert to a shared class platter instead of a station each, which is about $8 for the whole room.

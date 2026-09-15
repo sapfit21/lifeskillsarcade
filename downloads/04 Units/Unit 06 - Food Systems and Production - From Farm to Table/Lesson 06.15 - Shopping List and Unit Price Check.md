@@ -17,7 +17,7 @@
 - CDOS Standard 3a Universal Foundation Skills: Managing Resources. Students understand the material, human, and financial resources needed to accomplish tasks and activities.
 - CDOS Standard 3a Universal Foundation Skills: Basic Skills. Students listen to and read the ideas of others and analyze what they hear and read; acquire and use information from a variety of sources; and apply a combination of mathematical operations to solve problems in oral or written form.
 - National FCS 3.0: 2.1.3 Examine the decisions behind providing food that is safe and nourishing for individuals and families.
-- National FCS 3.0: 8.6.1 Use sound purchasing, receiving, and storage practice in a food service operation. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8; not printed in the FSP block, so it is a secondary citation.)
+- National FCS 3.0: 8.6.1 Use sound purchasing, receiving, and storage practice in a food service operation. (Confirmed in the 3.0 text in, Area 8; not printed in the FSP block, so it is a secondary citation.)
 
 ## Enduring understanding and essential question
 
@@ -143,13 +143,13 @@ Inside the building: the cafeteria manager. FACS gives them a class that has rea
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 5. a) and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 5. a) and 5. c). Copy in.
 - NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness, line 3. a). Same folder.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 4. g) and 4. i). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, Managing Resources and Basic Skills, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 8.6.1, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: `education_teaching_facs_kingkullen_shoppinglist_2026_03.pdf` (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list, the savings per swap, and the note that prices were verified on shopkingkullen.com for the week of March 20 to 26, 2026). That document is the model for the consolidated list, the swap column, and the store-brand rule. All prices to be refreshed from the current circular before teaching.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, Managing Resources and Basic Skills, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.3 and 8.6.1, per.
+- My own materials: (eleven items for 112 students across four periods and four kitchens on a $150 budget, with the store-brand swap list, the savings per swap, and the note that prices were verified on the store's own site for the week of March 20 to 26, 2026). That document is the model for the consolidated list, the swap column, and the store-brand rule. All prices to be refreshed from the current circular before teaching.
 
 ## Teacher notes
 

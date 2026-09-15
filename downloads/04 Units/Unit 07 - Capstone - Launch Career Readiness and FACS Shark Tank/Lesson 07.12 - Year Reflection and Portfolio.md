@@ -145,10 +145,10 @@ Inside the building: the school counselor, who should get a copy of the portfoli
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, lines 1. c), 2. d), 3. d), and 5. a).
 - NYS Middle Level CTE Theme Module 01, Career and Community Opportunities, lines 4. b) and 4. d); Theme Module 05, Problem Solving and Innovation, line 2. a) i.
-- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 1. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for FACS (1996), Standard 3, Intermediate. NYS CDOS Standard 1. Wording per.
 - National Standards for FCS Education 3.0 (LEAD FCS Education, 2018), competencies 3.1.5 and 1.1.6.
-- Sal's own materials: the Career Readiness portfolio is the summative assessment named in his own FNES 538 interview lesson, where the revised "tell me about yourself" answer "becomes part of the unit-end Career Readiness portfolio, which is the unit's summative assessment." This lesson builds the folder that lesson promised.
-- The course's own grading plan (`03 Course Design/03 Grading Plan.md`): "There is no separate final exam; the capstone project and the year reflection serve as the final."
+- My own materials: the Career Readiness portfolio is the summative assessment named in my own interview lesson, where the revised "tell me about yourself" answer "becomes part of the unit-end Career Readiness portfolio, which is the unit's summative assessment." This lesson builds the folder that lesson promised.
+- The course's own grading plan: "There is no separate final exam; the capstone project and the year reflection serve as the final."
 
 ## Teacher notes
 

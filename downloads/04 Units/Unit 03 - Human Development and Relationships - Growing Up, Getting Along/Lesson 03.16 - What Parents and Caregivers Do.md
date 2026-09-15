@@ -114,12 +114,12 @@ Inside the building: the school nurse for the health job and the after-hours nur
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 7. a), 7. b), 7. c), and 5. f). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 7. a), 7. b), 7. c), and 5. f). Copy in.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, lines 1. a) and 5. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PI "Students demonstrate the principles of safe and healthy childcare." Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand, PI "Students demonstrate the principles of safe and healthy childcare." Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 15.1.2 and 15.3.1.
 - 211 New York (211nys.org) and the USDA WIC program (fns.usda.gov/wic) for what each service does.
-- Sal's own materials: his FNES 782 work on infant care and a parent workshop exists only as a description in the source analysis; this lesson is written fresh.
+- My own materials: my graduate work on infant care and a parent workshop informed it; this lesson is written fresh.
 
 ## Teacher notes
 

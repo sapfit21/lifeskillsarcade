@@ -158,10 +158,10 @@ Math: the cost math in Day 2 Step 3 is unit cost and percent change, which the m
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in `02 Standards/NYS Module PDFs/`.
-- NYS Middle Level CTE Theme Module, Sustainability, line 1. e); Theme Module 03, Financial and Consumer Literacy, line 4. h). Text per `02 Standards/NYS ML CTE FACS Modules - verbatim extract of all twelve.md`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 3. a), 3. b), and 3. c). Copy in.
+- NYS Middle Level CTE Theme Module, Sustainability, line 1. e); Theme Module 03, Financial and Consumer Literacy, line 4. h). Text per.
 - NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, Key Idea and PI C. Wording per the crosswalk, Part A.6.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.3, 16.2.5, and 16.4.3, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.3, 16.2.5, and 16.4.3, per, section 4.16.
 - Care symbol meanings follow the ASTM care symbol system used on United States care labels; the labeling requirement itself is the Federal Trade Commission's Care Labeling Rule, 16 CFR Part 423.
 - The stain comparison design is built from the Sustainability module's own illustrative activity for this content module, "Stain Removal Comparison," which asks students to compare commercial and home-prepared stain removal and to consider the environmental cost of discarding textiles.
 

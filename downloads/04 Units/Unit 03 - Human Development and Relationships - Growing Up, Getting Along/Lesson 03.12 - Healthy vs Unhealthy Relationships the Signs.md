@@ -110,9 +110,9 @@ Inside the building: the counselor visits (Step 4). This is also where FACS and 
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a) and 4. b), and the Illustrative Activity "Healthy and Unhealthy Relationships," which lists respect, boundaries, accountability, integrity, compromise, problem-solving, and generosity as healthy signs and criticism, contempt, defensiveness, stonewalling, and dishonesty as unhealthy ones. This lesson uses simpler words for the same ideas. Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 4. a) and 4. b), and the Illustrative Activity "Healthy and Unhealthy Relationships," which lists respect, boundaries, accountability, integrity, compromise, problem-solving, and generosity as healthy signs and criticism, contempt, defensiveness, stonewalling, and dishonesty as unhealthy ones. This lesson uses simpler words for the same ideas. Copy in.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 4. e) and 5. d); Health, Safety, and Wellness, line 5. e). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 13.1.4 and 13.1.5.
 
 ## Teacher notes

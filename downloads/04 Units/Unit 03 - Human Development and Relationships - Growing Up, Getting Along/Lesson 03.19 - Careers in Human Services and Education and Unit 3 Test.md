@@ -109,13 +109,13 @@ Inside the building: the school counselor and the social worker, if the building
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 8. a) and 8. b). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 8. a) and 8. b). Copy in.
 - NYS Middle Level CTE Theme Module, Career and Community Opportunities, line 2. d); Communication and Interpersonal Relationships, line 7. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- NYS CDOS Learning Standards, Intermediate, Standard 1. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 3.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- NYS CDOS Learning Standards, Intermediate, Standard 1. Wording per, section 3.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 1.2.1 and 7.1.1.
 - Career card content (what each person does, typical education) from the U.S. Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) and the NYS Education Department's licensing pages for teachers, nurses, social workers, and speech-language pathologists.
-- Sal's own materials: the Careers Card Sort from Lesson 1.22 (`Handout 01.22 - Careers Card Sort.md`) set the card pattern; the 16 clusters from Lesson 2.21.
+- My own materials: the Careers Card Sort from Lesson 1.22 (`Handout 01.22 - Careers Card Sort.md`) set the card pattern; the 16 clusters from Lesson 2.21.
 
 ## Teacher notes
 

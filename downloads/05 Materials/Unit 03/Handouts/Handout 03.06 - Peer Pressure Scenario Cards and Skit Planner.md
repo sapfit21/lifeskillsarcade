@@ -180,6 +180,6 @@ Grade 8 stretch: on a separate page, draft a one-page peer advice guide, "What t
 
 **Part 3:** 1 negative, direct. 2 negative, direct. 3 negative, direct (the tag makes it direct). 4 positive, direct. 5 negative, indirect. 6 negative, direct. 7 positive, direct. 8 negative, direct. 9 negative, indirect. 10 negative, direct. Outcomes: accept any two specific results (a zero on the homework for both; a call home; the classmate sees the chat; you get the part; the person is alone at lunch for a month; a fall and a trip to the nurse; a better science grade; the video spreads and an adult gets involved; a fight at home about money; a parent finds out and trust is gone). "Bad things" is not specific.
 
-**Part 4:** the model uses whichever step Sal picks; the hardest to say out loud is usually step 1 with no apology, or step 4.
+**Part 4:** the model uses whichever step the teacher picks; the hardest to say out loud is usually step 1 with no apology, or step 4.
 
 **Feedback slips:** a skit is "got it" when the audience checked at least two steps and named a strongest line.

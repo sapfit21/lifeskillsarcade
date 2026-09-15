@@ -114,13 +114,13 @@ Science: food spoilage is bacteria growing in the danger zone; the science teach
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. f). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 05, Nutrition and Wellness (nyctecenter.org, June 2018), line 1. f). Copy in.
 - NYS Middle Level CTE Theme Module 04, Health, Safety, and Wellness, line 2. b); Theme Module 06, Sustainability, lines 2. h) and 2. j). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.2.6, per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 1, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 14.3.3 and 8.2.6, per.
 - Refrigerator and freezer temperatures, the two-hour rule, and leftover timing follow the USDA Food Safety and Inspection Service consumer guidance (FoodSafety.gov, "Cold Food Storage Chart" and "Leftovers and Food Safety").
-- Sal's own materials: the leftovers plan and "already in your classroom" pantry check in his King Kullen menu options (`Education/TeachingWork/LessonPlans/education_teaching_facs_kingkullen_8thgrademenuoptions_2026_03.pdf`).
+- My own materials: the leftovers plan and "already in your classroom" pantry check in my supermarket menu options.
 
 ## Teacher notes
 

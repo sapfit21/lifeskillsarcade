@@ -113,8 +113,8 @@ Math: percent of a quantity (grade 6 and 7 ratios and proportions) is the whole 
 
 - NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness, line 4. e).
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, line 2. c).
-- NYS FACS Standard 3, Intermediate; CDOS 3a Thinking Skills; National FCS 3.0 competency 3.3.4, all per `02 Standards/STANDARDS CROSSWALK.md`.
-- Sal's own materials: `Fortune_Street_Lesson_Plan.docx` (Day 4, Portfolio Diversification, and its warm-up question, which is the do now here); `Fortune_Street_Student_Guide.docx` (the tip "Don't put all your Florins in one venture").
+- NYS FACS Standard 3, Intermediate; CDOS 3a Thinking Skills; National FCS 3.0 competency 3.3.4, all per.
+- My own materials: (Day 4, Portfolio Diversification, and its warm-up question, which is the do now here); (the tip "Don't put all your Florins in one venture").
 
 ## Teacher notes
 

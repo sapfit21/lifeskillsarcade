@@ -109,13 +109,13 @@ Math: exponents as repeated multiplication and percent of a number; this table i
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. e). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), line 4. e). Copy in.
 - NYS Middle Level CTE Theme Module 03, Financial and Consumer Literacy, lines 2. a) and 2. c). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS SOURCES - web research.md`.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.6.1 and 3.3.4.
 - FDIC insurance limit of $250,000 per depositor per bank (fdic.gov); NCUA is the equivalent for credit unions. Savings rates in 2026 are to be refreshed before teaching.
 - The table and the two savers numbers were computed for this lesson at 5 percent compounded yearly with the deposit at the start of each year; the teacher key shows the arithmetic.
-- Sal's own materials: The Magic of Compound Interest packet (Brentwood South, 2026, `Lesson Dups/Unit_4_Financial_Literacy/education_teachingwork_the_magic_of_compound_interest_2026_04.docx`) supplied the year-by-year table format and the early saver versus late saver story; the story was rebuilt with new names and ages and the table moved from a one-time $100 to $20 a week so it matches the budget from Lesson 2.9. The Savings Challenge packet in the same folder is the source for "pay yourself first."
+- My own materials: The Magic of Compound Interest packet supplied the year-by-year table format and the early saver versus late saver story; the story was rebuilt with new names and ages and the table moved from a one-time $100 to $20 a week so it matches the budget from Lesson 2.9. The Savings Challenge packet in the same folder is the source for "pay yourself first."
 
 ## Teacher notes
 

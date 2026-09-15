@@ -25,7 +25,7 @@
 
 ## Objectives
 
-These are Sal's own tiered objectives for Types of Families, from his FNES 538 notes, rewritten in the course template.
+These are my own tiered objectives for Types of Families, from my planning notes, rewritten in the course template.
 
 By the end of this lesson, students will be able to:
 1. (Low) Given a set of short family scenarios, identify the family structure each one shows (nuclear, single parent, blended, extended, adoptive, foster, grandparents raising, guardian, and others) and define the key family vocabulary.
@@ -112,11 +112,11 @@ Inside the building: the social studies teacher covers families in other culture
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 5. a), 5. b), and 5. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 02, Human Development and Relationships (nyctecenter.org, June 2018), lines 5. a), 5. b), and 5. c). Copy in.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, lines 4. a) and 4. b). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 6.1.1 and 6.1.6.
-- Sal's own materials: the Types of Families tiered objectives (Low, Moderate, High) in `FNES538_notes_NextWeek-NutritionLabels-Tiered_2026-03.docx` are the source of the three objectives above, including the High objective to defend that no one family structure is better than another using examples.
+- My own materials: my Types of Families tiered objectives (Low, Moderate, High) are the source of the three objectives above, including the High objective to defend that no one family structure is better than another using examples.
 
 ## Teacher notes
 

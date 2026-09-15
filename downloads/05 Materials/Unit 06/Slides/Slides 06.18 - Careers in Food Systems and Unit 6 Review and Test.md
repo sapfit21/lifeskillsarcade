@@ -68,7 +68,7 @@ Notes: 11 minutes. The two that move most are the caterer and the baker. Let the
 - Food distribution warehouses and trucking across the Island
 - Restaurants, delis, bakeries, and heavy seasonal catering on the East End
 - Hospitals, nursing homes, and school districts, each with a food service operation and usually a dietitian
-- The Suffolk and Nassau county health departments. Cornell Cooperative Extension of Suffolk County
+- The county health department. Cornell Cooperative Extension
 Notes: Circle every job on the cards that exists within about 25 miles.
 
 ## Slide 11: The closing question

@@ -149,10 +149,10 @@ English language arts: the 45-second explanation is a short informative presenta
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. c), 2. c), 2. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. c), 2. c), 2. d). Copy in.
 - NYS Middle Level CTE Theme Modules: Communication and Interpersonal Relationships 1. f) and 2. c); Problem Solving and Innovation 2. a) g. and i. Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 16.4.5, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 2, Intermediate, FACS strand. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.5 and 16.4.5, per, section 4.16.
 - `Rubric 05 - Upcycle Challenge.md` and `Project 05 - Upcycle Challenge.md` (same folder).
 - The two stars and a step feedback format is a common classroom peer-feedback structure, not a standard.
 

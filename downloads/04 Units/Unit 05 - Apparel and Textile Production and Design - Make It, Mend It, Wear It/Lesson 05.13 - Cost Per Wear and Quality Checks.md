@@ -126,10 +126,10 @@ Math: division, unit rate, and estimation with a real unit. The grade 7 math sta
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. d), 3. a), 4. a). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 03, Apparel and Textile Production and Design (nyctecenter.org, June 2018), lines 1. d), 3. a), 4. a). Copy in.
 - NYS Middle Level CTE Theme Modules: Financial and Consumer Literacy 4. f); Sustainability 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, and Standard 2 PI on clothing selection. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.7 and 16.5.2, per `02 Standards/STANDARDS SOURCES - web research.md`, section 4.16.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, and Standard 2 PI on clothing selection. Wording per, section 2.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 16.2.7 and 16.5.2, per, section 4.16.
 - Cost per wear is a common consumer-education calculation, not a standard; the three worked figures on the handout are written for this lesson and to be refreshed before teaching.
 - Seam and stitch terms (single-needle, double-needle, flat felled, serged, bar tack, stitches per inch) are standard sewing construction vocabulary taught in Topic 5.2.
 

@@ -116,12 +116,12 @@ Inside the building: the ELA teacher, if the class is working on personal narrat
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a), 1. b), and 1. c). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 01, Individual Growth and Life Readiness (nyctecenter.org, June 2018), lines 1. a), 1. b), and 1. c). Copy in.
 - NYS Middle Level CTE Theme Module, Communication and Interpersonal Relationships, line 1. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per `02 Standards/STANDARDS SOURCES - web research.md`, section 2.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate, FACS strand. Wording per, section 2.
 - NYS CDOS Standard 3a, Intermediate, Personal Qualities. Same file.
 - National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competency 1.2.1.
-- Sal's own materials: the Your Mission Statement packet (`Lesson Dups/Unit_5_Personal_Branding/education_teachingwork_your_mission_statement_2026_04.docx`) supplied the mission statement frame ("I want to use my [strengths] to [action] so that [impact]"), adapted here into the known-for sentence; the My Career Vision Board packet (`Unit_2_Career_Exploration`) supplied the idea of a single visual product closing the topic.
+- My own materials: the Your Mission Statement packet supplied the mission statement frame ("I want to use my [strengths] to [action] so that [impact]"), adapted here into the known-for sentence; the My Career Vision Board packet (`Unit_2_Career_Exploration`) supplied the idea of a single visual product closing the topic.
 
 ## Teacher notes
 

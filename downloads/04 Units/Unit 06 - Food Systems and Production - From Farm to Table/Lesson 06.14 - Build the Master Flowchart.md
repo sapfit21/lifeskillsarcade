@@ -17,7 +17,7 @@
 - CDOS Standard 3a Universal Foundation Skills: Managing Resources. Students understand the material, human, and financial resources needed to accomplish tasks and activities.
 - CDOS Standard 3a Universal Foundation Skills: Managing Information. Students select and communicate information in an appropriate format (e.g., oral, written, graphic, pictorial, multimedia).
 - National FCS 3.0: 2.1.1 Use time management, organization, and step-by-step process skills to rank tasks and reach goals.
-- National FCS 3.0: 8.4.3 Work out the food, equipment, and supplies a menu needs. (Confirmed in the 3.0 text in `02 Standards/STANDARDS SOURCES - web research.md`, Area 8; not printed in the FSP block, so it is a secondary citation.)
+- National FCS 3.0: 8.4.3 Work out the food, equipment, and supplies a menu needs. (Confirmed in the 3.0 text in, Area 8; not printed in the FSP block, so it is a secondary citation.)
 
 ## Enduring understanding and essential question
 
@@ -126,18 +126,18 @@ Inside the building: the technology or engineering teacher, if the school has on
 
 ## Sources
 
-- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), and 5. d). Copy in `02 Standards/NYS Module PDFs/`.
+- NYS Middle Level CTE FACS Content Module 06, Food Systems and Production (nyctecenter.org, June 2018), lines 1. a), 1. c), and 5. d). Copy in.
 - NYS Middle Level CTE Theme Module 02, Communication and Interpersonal Relationships, lines 3. e) and 3. f). Same folder.
-- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per `02 Standards/STANDARDS CROSSWALK.md`, Part A.6.
-- CDOS Intermediate Standard 3a, Managing Resources and Managing Information, per `02 Standards/STANDARDS CROSSWALK.md`, Part A.7.
-- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 8.4.3, per `02 Standards/STANDARDS SOURCES - web research.md`.
-- Sal's own materials: `education_teaching_facs_kingkullen_masterflowchart_2026_03.pdf` (one page, four kitchens, five-minute blocks from setup through clean up, with a support duty column and the note that it is substitute-teacher friendly) is the exact model for the class master grid and the eight blocks. `education_teaching_facs_kingkullen_stationcards_2026_03.pdf` (one card per kitchen for seven students: ingredients, ten numbered steps, safety reminders, and a "what does done look like" checklist) is the exact model for the station card template.
+- NYS Learning Standards for Health, Physical Education, and Family and Consumer Sciences (1996), Standard 3, Intermediate. Wording per, Part A.6.
+- CDOS Intermediate Standard 3a, Managing Resources and Managing Information, per, Part A.7.
+- National Standards for Family and Consumer Sciences Education 3.0 (LEAD FCS Education, 2018), competencies 2.1.1 and 8.4.3, per.
+- My own materials: (one page, four kitchens, five-minute blocks from setup through clean up, with a support duty column and the note that it is substitute-teacher friendly) is the exact model for the class master grid and the eight blocks. (one card per kitchen for seven students: ingredients, ten numbered steps, safety reminders, and a "what does done look like" checklist) is the exact model for the station card template.
 
 ## Teacher notes
 
 - This is the lesson that decides whether cook day works. If you have to give one lesson in this topic more time, give it this one.
-- Sal's own flowchart is for a 50-minute period. This one is eight blocks in 40 minutes, which means the cook window is roughly minutes 10 to 28 and the eat window is minutes 28 to 34. Say those numbers out loud; teams plan to fill time they do not have.
+- My own flowchart is for a 50-minute period. This one is eight blocks in 40 minutes, which means the cook window is roughly minutes 10 to 28 and the eat window is minutes 28 to 34. Say those numbers out loud; teams plan to fill time they do not have.
 - Common mistake: teams put setup in block one and then leave blocks two and three almost empty, because they think of the recipe as a list, not a clock. The fix is the question "what is your Prep Cook doing right now," asked at every station twice.
-- Second common mistake: a station card step that is three actions in one sentence ("boil the water, add the pasta, and set the timer"). One action per numbered step. Sal's own cards do this correctly; show step 4 of his spaghetti card as the model.
+- Second common mistake: a station card step that is three actions in one sentence ("boil the water, add the pasta, and set the timer"). One action per numbered step. My own cards do this correctly; show step 4 of my spaghetti card as the model.
 - The read-across in Step 5 finds the oven collision every year. Do not fix it for them at Step 2; let it show up on the grid so the class sees why a master flowchart exists.
 - Laminate or sleeve the four station cards. They get splashed on cook day. Keep a photocopy in the folder because the sleeved one will not come back clean.
