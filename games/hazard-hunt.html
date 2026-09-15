@@ -219,33 +219,33 @@
        piece sized to its hit region below. Hidden until the files exist. -->
   <g id="hhArt" style="display:none">
     <image id="hhArtScene" data-href="art/hazard-hunt-scene.webp" x="0" y="0" width="880" height="520" preserveAspectRatio="none"/>
-    <image data-art="pot" data-href="art/hazard-hunt-pot.webp" x="252" y="222" width="100" height="86"/>
-    <image data-art="mitt" data-href="art/hazard-hunt-mitt.webp" x="90" y="142" width="64" height="94"/>
-    <image data-art="knife" data-href="art/hazard-hunt-knife.webp" x="160" y="188" width="46" height="72"/>
+    <image data-art="pot" data-href="art/hazard-hunt-pot.webp" x="322" y="168" width="118" height="100"/>
+    <image data-art="mitt" data-href="art/hazard-hunt-mitt.webp" x="214" y="58" width="74" height="98"/>
+    <image data-art="knife" data-href="art/hazard-hunt-knife.webp" x="105" y="188" width="95" height="72"/>
     <image data-art="cabinet" data-href="art/hazard-hunt-cabinet.webp" x="386" y="26" width="120" height="142"/>
-    <image data-art="wet" data-href="art/hazard-hunt-wet.webp" x="126" y="404" width="150" height="56"/>
-    <image data-art="bag" data-href="art/hazard-hunt-bag.webp" x="550" y="392" width="102" height="86"/>
-    <image data-art="towel" data-href="art/hazard-hunt-towel.webp" x="452" y="282" width="60" height="62"/>
-    <image data-art="cord" data-href="art/hazard-hunt-cord.webp" x="438" y="198" width="164" height="72"/>
-    <image data-art="mixer" data-href="art/hazard-hunt-mixer.webp" x="8" y="180" width="72" height="72"/>
-    <image data-art="chicken" data-href="art/hazard-hunt-chicken.webp" x="608" y="198" width="160" height="66"/>
-    <image data-art="spray" data-href="art/hazard-hunt-spray.webp" x="206" y="180" width="42" height="74"/>
-    <image data-art="milk" data-href="art/hazard-hunt-milk.webp" x="764" y="180" width="52" height="74"/>
+    <image data-art="wet" data-href="art/hazard-hunt-wet.webp" x="128" y="376" width="155" height="95"/>
+    <image data-art="bag" data-href="art/hazard-hunt-bag.webp" x="536" y="372" width="115" height="115"/>
+    <image data-art="towel" data-href="art/hazard-hunt-towel.webp" x="400" y="258" width="95" height="95"/>
+    <image data-art="cord" data-href="art/hazard-hunt-cord.webp" x="440" y="160" width="125" height="90"/>
+    <image data-art="mixer" data-href="art/hazard-hunt-mixer.webp" x="14" y="160" width="100" height="95"/>
+    <image data-art="chicken" data-href="art/hazard-hunt-chicken.webp" x="612" y="172" width="125" height="84"/>
+    <image data-art="spray" data-href="art/hazard-hunt-spray.webp" x="212" y="166" width="62" height="88"/>
+    <image data-art="milk" data-href="art/hazard-hunt-milk.webp" x="686" y="160" width="62" height="90"/>
   </g>
   <!-- hit regions: generous, invisible, drawn last so they sit on top -->
   <g id="hhHits" fill="transparent" stroke="none">
-    <rect data-hz="pot" x="252" y="222" width="100" height="86"/>
-    <rect data-hz="mitt" x="90" y="142" width="64" height="94"/>
-    <rect data-hz="knife" x="160" y="188" width="46" height="72"/>
+    <rect data-hz="pot" x="322" y="168" width="118" height="100"/>
+    <rect data-hz="mitt" x="214" y="58" width="74" height="98"/>
+    <rect data-hz="knife" x="105" y="188" width="95" height="72"/>
     <rect data-hz="cabinet" x="386" y="26" width="120" height="142"/>
-    <rect data-hz="wet" x="126" y="404" width="150" height="56"/>
-    <rect data-hz="bag" x="550" y="392" width="102" height="86"/>
-    <rect data-hz="towel" x="452" y="282" width="60" height="62"/>
-    <rect data-hz="cord" x="438" y="198" width="164" height="72"/>
-    <rect data-hz="mixer" x="8" y="180" width="72" height="72"/>
-    <rect data-hz="chicken" x="608" y="198" width="160" height="66"/>
-    <rect data-hz="spray" x="206" y="180" width="42" height="74"/>
-    <rect data-hz="milk" x="764" y="180" width="52" height="74"/>
+    <rect data-hz="wet" x="128" y="376" width="155" height="95"/>
+    <rect data-hz="bag" x="536" y="372" width="115" height="115"/>
+    <rect data-hz="towel" x="400" y="258" width="95" height="95"/>
+    <rect data-hz="cord" x="440" y="160" width="125" height="90"/>
+    <rect data-hz="mixer" x="14" y="160" width="100" height="95"/>
+    <rect data-hz="chicken" x="612" y="172" width="125" height="84"/>
+    <rect data-hz="spray" x="212" y="166" width="62" height="88"/>
+    <rect data-hz="milk" x="686" y="160" width="62" height="90"/>
   </g>
   <g id="hhMarks"></g>
 </svg>
@@ -499,7 +499,7 @@
   }
   // Art swap. build_site.py sets HAS_ART to 1 when _tools/games/art holds the
   // scene, so a page without art never asks the server for image files.
-  var HAS_ART = 0;
+  var HAS_ART = 1;
   if (HAS_ART === 1) {
     var arts = document.querySelectorAll("#hhArt image");
     for (var ai = 0; ai < arts.length; ai++) { arts[ai].setAttribute("href", arts[ai].getAttribute("data-href")); }
