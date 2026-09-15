@@ -8,7 +8,7 @@
 
 ## Standards
 
-- NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces b) Plan ways of maintaining Identify common safety hazards found in living spaces and describe ways to minimize risks to individuals, families, and household members (state typo; two phrases fused in the PDF); d) Investigate ways to conserve natural resources in family, school, work, and community settings
+- NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces b) Identify common safety hazards found in living spaces and describe ways to minimize risks to individuals, families, and household members (state typo; two phrases fused in the PDF); d) Investigate ways to conserve natural resources in family, school, work, and community settings
 - NYS module line: NYS EDM 2. Environment and Interior Design c) Incorporate the elements and principles of design into a design plan
 - NYS module line: NYS EDM 3. Consumer Resources and Finance a) Construct a budget for implementation of a floor plan design
 - CTE theme line: CTE HSW 3. Personal Safety c) Summarize common causes of intentional and unintentional injury and describe associated prevention strategies

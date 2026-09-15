@@ -8,7 +8,7 @@
 
 ## Standards
 
-- NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces b) Plan ways of maintaining Identify common safety hazards found in living spaces and describe ways to minimize risks to individuals, families, and household members
+- NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces b) Identify common safety hazards found in living spaces and describe ways to minimize risks to individuals, families, and household members
 - NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces c) Formulate a safety plan for home, work, and community settings
 - CTE theme line: CTE HSW 3. Personal Safety c) Summarize common causes of intentional and unintentional injury and describe associated prevention strategies
 - CTE theme line: CTE HSW 3. Personal Safety e) Develop safety plans and practice emergency responses
@@ -18,7 +18,7 @@
 - National FCS 3.0: 1.2.7 Examine what keeps school, work, and community settings safe and healthy.
 - National FCS 3.0: 11.3.5 Examine how housing, interiors, and furnishings affect public health, safety, and welfare.
 
-Note on EDM 1. b): the line is quoted exactly as the state printed it. Two phrases are fused in the 2018 PDF ("Plan ways of maintaining" runs straight into "Identify common safety hazards"). See the crosswalk, Part D.4. This lesson teaches the second phrase; Lesson 4.3 teaches the first.
+Note on EDM 1. b): quoted from the NYSED 2023 copy of the module. The June 2018 PDF fused two phrases ("Plan ways of maintaining" ran straight into "Identify common safety hazards"); the 2023 reformat prints the line cleanly and the build follows it (crosswalk Part E.5). This lesson teaches the hazards half of the line; Lesson 4.3 teaches minimizing risk through maintenance.
 
 Note on the National FCS lines: the task suggested 5.6.x. In the 3.0 text, 5.6 is "Demonstrate laundering processes aligned with industry standards and regulations," and Area 5 is confirmed only at the content-standard level, so it does not fit. 1.2.7 and 11.3.5 are the confirmed lines from the crosswalk row for EDM 1. b).
 

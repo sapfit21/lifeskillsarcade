@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hazard Hunt, Life Skills Arcade</title>
+<meta name="description" content="Twelve hazards are planted in a kitchen. Find them before the clock runs out, then sort them into the six hazard families.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15">
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- Hazard Hunt. Reviews Lesson 1.1, Hunt the Hazard. Built 2026-09-15.
+     Everything on this page is static: no sound, no storage, no network. -->
+<div class="game" id="hazardHunt">
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>This game reviews <a href="../lesson-01-01.html">Lesson 1.1, Hunt the Hazard</a>: the six hazard families (burns, cuts, falls, fire, electrical, food contamination), what could happen, and the one action that prevents it. Use it as the do now before Lesson 1.2, as the review before the Kitchen Safety Exam in Lesson 1.4, or on the board with the class calling out taps. The 8 hazard setting is the grade 6 support from the lesson; 12 is the full hunt. Nothing is saved when the page closes.</p>
+</div>
+
+<h1 class="game-title">Hazard <span class="alt2">Hunt</span></h1>
+<p class="game-lede">There are hazards planted in this kitchen. Tap each one before the clock runs out. Look, do not touch: a tap on something safe costs you 3 seconds.</p>
+
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Found</span><span class="val" id="hhFound">0 of 12</span></div>
+  <div class="stat timer" id="hhTimerBox"><span class="lab">Seconds</span><span class="val" id="hhTimer">90</span></div>
+  <div class="stat"><span class="lab">Score</span><span class="val" id="hhScore">0</span></div>
+</div>
+<div class="sr-live" aria-live="polite" id="hhLive"></div>
+
+<div class="scene" id="hhScene">
+<svg viewBox="0 0 880 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An illustrated kitchen with planted hazards" id="hhSvg">
+  <defs>
+    <pattern id="hhTile" width="44" height="44" patternUnits="userSpaceOnUse">
+      <rect width="44" height="44" fill="#DDE9F0"/>
+      <path d="M0 0H44V44" fill="none" stroke="#B9CBD6" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <!-- wall and floor -->
+  <rect x="0" y="0" width="880" height="340" fill="#FFF6DC"/>
+  <rect x="0" y="340" width="880" height="180" fill="url(#hhTile)"/>
+  <rect x="0" y="336" width="880" height="6" fill="#111"/>
+  <!-- backsplash band -->
+  <rect x="0" y="200" width="880" height="50" fill="#F3E7C2"/>
+  <!-- window -->
+  <rect x="24" y="34" width="150" height="104" rx="6" fill="#8FD6F0" stroke="#111" stroke-width="3"/>
+  <path d="M99 34V138M24 86H174" stroke="#111" stroke-width="3"/>
+  <circle cx="60" cy="62" r="12" fill="#FFD23F" stroke="#111" stroke-width="3"/>
+  <!-- upper cabinets 230..550 -->
+  <rect x="230" y="30" width="320" height="112" fill="#FFD23F" stroke="#111" stroke-width="3"/>
+  <path d="M310 30V142M390 30V142M470 30V142" stroke="#111" stroke-width="3"/>
+  <circle cx="300" cy="90" r="4" fill="#111"/><circle cx="320" cy="90" r="4" fill="#111"/><circle cx="380" cy="90" r="4" fill="#111"/><circle cx="480" cy="90" r="4" fill="#111"/><circle cx="540" cy="90" r="4" fill="#111"/>
+  <!-- open cabinet door at head height: interior visible, door edge swung out -->
+  <g id="hz-cabinet">
+    <rect x="392" y="32" width="76" height="108" fill="#C9A227"/>
+    <path d="M392 68H468M392 104H468" stroke="#111" stroke-width="3"/>
+    <rect x="404" y="48" width="18" height="18" rx="3" fill="#7FD44C" stroke="#111" stroke-width="2"/>
+    <rect x="430" y="82" width="26" height="20" rx="3" fill="#FF5A4D" stroke="#111" stroke-width="2"/>
+    <polygon points="468,32 500,52 500,164 468,140" fill="#FFD23F" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="492" cy="110" r="4" fill="#111"/>
+  </g>
+  <!-- oven mitt with a hole, hanging on a hook -->
+  <g id="hz-mitt">
+    <circle cx="122" cy="150" r="5" fill="#111"/>
+    <path d="M104 156 h34 v46 q0 20 -17 20 q-17 0 -17 -20 z" fill="#FF5A4D" stroke="#111" stroke-width="3"/>
+    <path d="M104 180 q-16 6 -14 20 q4 12 18 8" fill="#FF5A4D" stroke="#111" stroke-width="3"/>
+    <ellipse cx="124" cy="196" rx="8" ry="6" fill="#FFF6DC" stroke="#111" stroke-width="2"/>
+    <path d="M118 192l12 8M130 192l-12 8" stroke="#111" stroke-width="1.5"/>
+  </g>
+  <!-- fire extinguisher and first aid kit (safe) -->
+  <g id="safe-ext">
+    <rect x="582" y="62" width="26" height="62" rx="8" fill="#FF5A4D" stroke="#111" stroke-width="3"/>
+    <rect x="589" y="48" width="12" height="16" fill="#111"/>
+    <path d="M601 54 q18 0 18 18" fill="none" stroke="#111" stroke-width="3"/>
+  </g>
+  <g id="safe-aid">
+    <rect x="640" y="56" width="62" height="46" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+    <rect x="665" y="64" width="12" height="30" fill="#FF5A4D"/><rect x="656" y="73" width="30" height="12" fill="#FF5A4D"/>
+  </g>
+  <!-- clock (safe) -->
+  <circle cx="750" cy="130" r="20" fill="#fff" stroke="#111" stroke-width="3"/>
+  <path d="M750 130V116M750 130l10 6" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  <!-- fridge 810..875 -->
+  <rect x="808" y="70" width="66" height="270" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <path d="M808 160H874" stroke="#111" stroke-width="3"/>
+  <rect x="860" y="110" width="6" height="30" rx="3" fill="#111"/><rect x="860" y="180" width="6" height="50" rx="3" fill="#111"/>
+  <!-- counter and base cabinets -->
+  <rect x="0" y="250" width="800" height="18" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="0" y="268" width="800" height="72" fill="#7FD44C" stroke="#111" stroke-width="3"/>
+  <path d="M60 268V340M215 268V340M295 268V340M520 268V340M660 268V340" stroke="#111" stroke-width="3"/>
+  <circle cx="30" cy="300" r="4" fill="#111"/><circle cx="130" cy="300" r="4" fill="#111"/><circle cx="255" cy="300" r="4" fill="#111"/><circle cx="590" cy="300" r="4" fill="#111"/><circle cx="730" cy="300" r="4" fill="#111"/>
+  <!-- stand mixer with a frayed cord -->
+  <g id="hz-mixer">
+    <rect x="16" y="222" width="40" height="28" rx="4" fill="#fff" stroke="#111" stroke-width="3"/>
+    <path d="M22 222 v-24 q0 -10 10 -10 h22 q10 0 10 10 v6 h-20" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M36 204 v18" stroke="#111" stroke-width="3"/>
+    <path d="M56 236 q14 -2 14 -14 q0 -10 -6 -20" fill="none" stroke="#111" stroke-width="3"/>
+    <path d="M64 208l-6 -6M67 214l-8 -4M62 220l-7 2" stroke="#FF5A4D" stroke-width="3" stroke-linecap="round"/>
+    <rect x="60" y="188" width="14" height="14" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
+  </g>
+  <!-- sink 70..200 -->
+  <rect x="72" y="238" width="128" height="30" rx="6" fill="#C7D3DA" stroke="#111" stroke-width="3"/>
+  <path d="M136 238 v-22 q0 -14 14 -14 q14 0 14 14" fill="none" stroke="#111" stroke-width="3"/>
+  <circle cx="92" cy="252" r="9" fill="#fff" stroke="#111" stroke-width="2"/><circle cx="110" cy="246" r="7" fill="#fff" stroke="#111" stroke-width="2"/><circle cx="124" cy="256" r="8" fill="#fff" stroke="#111" stroke-width="2"/><circle cx="146" cy="250" r="7" fill="#fff" stroke="#111" stroke-width="2"/><circle cx="162" cy="256" r="9" fill="#fff" stroke="#111" stroke-width="2"/>
+  <!-- knife under the suds, handle sticking out -->
+  <g id="hz-knife">
+    <path d="M172 250 l14 -34" stroke="#C7D3DA" stroke-width="6" stroke-linecap="round"/>
+    <path d="M186 216 l8 -20" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+    <path d="M171 252 l6 -14" stroke="#111" stroke-width="2"/>
+  </g>
+  <!-- spray bottles: unlabeled (hazard) and dish soap (safe) -->
+  <g id="hz-spray">
+    <path d="M214 250 v-40 q0 -8 8 -8 h10 q8 0 8 8 v40 z" fill="#fff" stroke="#111" stroke-width="3"/>
+    <path d="M222 202 v-10 h8 l10 -4 v10 l-10 -2" fill="#FF5A4D" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g id="safe-soap">
+    <path d="M250 250 v-42 q0 -8 8 -8 h14 q8 0 8 8 v42 z" fill="#7FD44C" stroke="#111" stroke-width="3"/>
+    <rect x="254" y="214" width="22" height="22" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="265" y="229" font-size="9" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle" fill="#111">SOAP</text>
+    <path d="M262 200 v-6 h6 v6" fill="none" stroke="#111" stroke-width="2.5"/>
+  </g>
+  <!-- stove 300..515 -->
+  <rect x="300" y="242" width="215" height="26" fill="#E6E6E6" stroke="#111" stroke-width="3"/>
+  <rect x="300" y="268" width="215" height="72" fill="#D2D2D2" stroke="#111" stroke-width="3"/>
+  <rect x="312" y="300" width="191" height="30" rx="4" fill="#5A5A5A" stroke="#111" stroke-width="3"/>
+  <rect x="318" y="284" width="179" height="6" rx="3" fill="#111"/>
+  <circle cx="330" cy="330" r="1" fill="none"/>
+  <!-- left burner: pot with the handle out over the edge -->
+  <ellipse cx="350" cy="255" rx="34" ry="8" fill="#555" stroke="#111" stroke-width="3"/>
+  <g id="hz-pot">
+    <path d="M320 232 h60 l-6 26 h-48 z" fill="#8FD6F0" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="350" cy="232" rx="30" ry="6" fill="#B8E6F7" stroke="#111" stroke-width="3"/>
+    <path d="M322 246 L262 296" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+    <path d="M322 246 L262 296" stroke="#8FD6F0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- right burner: flame on, toaster cord draped across it -->
+  <ellipse cx="465" cy="255" rx="34" ry="8" fill="#555" stroke="#111" stroke-width="3"/>
+  <g id="hz-cord">
+    <path d="M445 254 q6 -22 12 -6 q4 -18 10 -4 q6 -18 12 2 q2 -12 8 2" fill="#FF8A2A" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M451 254 q5 -12 8 -2 q3 -10 8 0 q4 -10 8 0" fill="#FFD23F" stroke="none"/>
+    <path d="M540 236 q-30 6 -60 24 q-30 6 -50 -10 q-6 -10 6 -24 h14" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <rect x="440" y="204" width="16" height="18" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <circle cx="445" cy="210" r="1.5" fill="#111"/><circle cx="451" cy="210" r="1.5" fill="#111"/>
+    <rect x="536" y="210" width="60" height="40" rx="6" fill="#C7D3DA" stroke="#111" stroke-width="3"/>
+    <rect x="546" y="204" width="16" height="8" fill="#111"/><rect x="570" y="204" width="16" height="8" fill="#111"/>
+  </g>
+  <!-- dish towel hanging from the oven handle, right next to the flame -->
+  <g id="hz-towel">
+    <path d="M462 288 h40 l-4 52 h-32 z" fill="#FFD23F" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M470 300 h24M471 314 h22M472 328 h20" stroke="#FF5A4D" stroke-width="3"/>
+  </g>
+  <!-- cutting board with raw chicken touching bread -->
+  <g id="hz-chicken">
+    <rect x="612" y="236" width="150" height="24" rx="5" fill="#C9A227" stroke="#111" stroke-width="3"/>
+    <path d="M626 236 q-6 -30 30 -32 q28 0 34 20 q4 14 -10 14 h-50 z" fill="#F7B6C4" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M654 208 q10 -14 22 -10" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <path d="M690 238 q0 -28 28 -28 h18 q28 0 28 28 z" fill="#E8B76B" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M700 226 q8 -6 14 0M716 220 q8 -6 14 0M732 226 q8 -6 14 0" fill="none" stroke="#111" stroke-width="2"/>
+  </g>
+  <!-- milk carton left out, open -->
+  <g id="hz-milk">
+    <path d="M770 250 v-40 l14 -14 h14 l14 14 v40 z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M784 196 l-6 -12 h30 l-4 12" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="776" y="220" width="30" height="16" fill="#8FD6F0" stroke="#111" stroke-width="2"/>
+    <text x="791" y="232" font-size="9" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle" fill="#111">MILK</text>
+  </g>
+  <!-- floor: wet towel and backpack (hazards), trash can (safe) -->
+  <g id="hz-wet">
+    <ellipse cx="200" cy="432" rx="70" ry="16" fill="#8FD6F0" stroke="#111" stroke-width="2"/>
+    <path d="M150 420 l22 -10 l24 8 l28 -10 l22 12 l-6 20 l-30 6 l-30 -6 l-32 2 z" fill="#FF5A4D" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M166 426 l60 -4" stroke="#111" stroke-width="2"/>
+  </g>
+  <g id="hz-bag">
+    <path d="M560 470 q-10 -70 40 -70 q50 0 40 70 z" fill="#7FD44C" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M574 470 v-34 q26 -10 52 0 v34" fill="#FFD23F" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M582 410 q18 -20 36 0" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g id="safe-trash">
+    <path d="M700 384 h60 l-6 84 h-48 z" fill="#C7D3DA" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="694" y="376" width="72" height="10" rx="3" fill="#111"/>
+  </g>
+  <!-- hit regions: generous, invisible, drawn last so they sit on top -->
+  <g id="hhHits" fill="transparent" stroke="none">
+    <rect data-hz="pot" x="252" y="222" width="100" height="86"/>
+    <rect data-hz="mitt" x="90" y="142" width="64" height="94"/>
+    <rect data-hz="knife" x="160" y="188" width="46" height="72"/>
+    <rect data-hz="cabinet" x="386" y="26" width="120" height="142"/>
+    <rect data-hz="wet" x="126" y="404" width="150" height="56"/>
+    <rect data-hz="bag" x="550" y="392" width="102" height="86"/>
+    <rect data-hz="towel" x="452" y="282" width="60" height="62"/>
+    <rect data-hz="cord" x="438" y="198" width="164" height="72"/>
+    <rect data-hz="mixer" x="8" y="180" width="72" height="72"/>
+    <rect data-hz="chicken" x="608" y="198" width="160" height="66"/>
+    <rect data-hz="spray" x="206" y="180" width="42" height="74"/>
+    <rect data-hz="milk" x="764" y="180" width="52" height="74"/>
+  </g>
+  <g id="hhMarks"></g>
+</svg>
+</div>
+
+<p class="scene-hint">Swipe the kitchen sideways to see all of it.</p>
+<div class="feedback" id="hhCard" aria-live="polite"></div>
+
+<div class="panel" id="hhStart">
+  <h2>How to play</h2>
+  <p>Tap every hazard you can find. Each one is worth 10 points. A tap on something safe costs 3 seconds. Find them all and the seconds you have left are added to your score. Then Round 2: sort what you found into the six hazard families.</p>
+  <div class="opts">
+    <label for="hhCount">Hazards</label>
+    <select id="hhCount"><option value="12">12 (full hunt)</option><option value="8">8 (the lesson's eight)</option></select>
+    <label for="hhSecs">Seconds</label>
+    <select id="hhSecs"><option value="90">90</option><option value="60">60</option><option value="120">120</option></select>
+  </div>
+  <p><button class="gbtn go" id="hhGo" type="button">Start the hunt</button></p>
+</div>
+
+<div class="panel" id="hhRound2" hidden>
+  <h2>Round 2: name the family</h2>
+  <p>You have 30 seconds. For each hazard you found, tap its family. 5 points each.</p>
+  <p class="big" id="hhR2Item"></p>
+  <div class="choice-row" id="hhFamilies"></div>
+</div>
+
+<div class="panel" id="hhEnd" hidden>
+  <h2>Hunt over</h2>
+  <p class="big" id="hhFinal"></p>
+  <p id="hhSummary"></p>
+  <div id="hhMissedWrap"><p><b>The ones nobody found:</b></p><ul class="miss-list" id="hhMissed"></ul></div>
+  <p><button class="gbtn go" id="hhAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var HAZARDS = {
+    pot:     {name: "Pot handle turned out over the edge", family: "Burns", fix: "Turn every handle in, toward the back of the stove.", core: true},
+    wet:     {name: "Wet towel on the floor", family: "Falls", fix: "Pick it up. Wipe the floor. Hang the towel.", core: true},
+    knife:   {name: "Knife hiding under the suds in the sink", family: "Cuts", fix: "Never leave a knife in the sink. Wash it right away and put it back.", core: true},
+    cord:    {name: "Toaster cord draped across the burner", family: "Electrical", fix: "Cords stay away from heat and water. Unplug and reroute.", core: true},
+    chicken: {name: "Raw chicken touching the bread", family: "Food contamination", fix: "Raw meat gets its own board. Keep it away from ready-to-eat food.", core: true},
+    cabinet: {name: "Cabinet door open at head height", family: "Cuts", fix: "Close doors and drawers as you go.", core: true},
+    spray:   {name: "Spray bottle with no label", family: "Food contamination", fix: "Every bottle gets a label. Unknown liquid gets set aside for the teacher.", core: true},
+    mitt:    {name: "Oven mitt with a hole in it", family: "Burns", fix: "Replace a torn mitt. Heat goes straight through the hole.", core: true},
+    bag:     {name: "Backpack in the walkway", family: "Falls", fix: "Bags go under the table or on the hook, never on the floor of the lab.", core: false},
+    towel:   {name: "Dish towel hanging beside the flame", family: "Fire", fix: "Towels, paper, and sleeves stay away from the burner.", core: false},
+    mixer:   {name: "Frayed cord on the mixer", family: "Electrical", fix: "A frayed cord does not get used. Tag it and tell the teacher.", core: false},
+    milk:    {name: "Milk left out on the counter, open", family: "Food contamination", fix: "Cold food goes back in the fridge. Two hours out is the limit.", core: false}
+  };
+  var FAMILIES = ["Burns", "Cuts", "Falls", "Fire", "Electrical", "Food contamination"];
+
+  var svg = document.getElementById("hhSvg");
+  var hits = document.getElementById("hhHits");
+  var marks = document.getElementById("hhMarks");
+  var card = document.getElementById("hhCard");
+  var foundEl = document.getElementById("hhFound");
+  var timerEl = document.getElementById("hhTimer");
+  var timerBox = document.getElementById("hhTimerBox");
+  var scoreEl = document.getElementById("hhScore");
+  var live = document.getElementById("hhLive");
+  var startP = document.getElementById("hhStart");
+  var r2P = document.getElementById("hhRound2");
+  var endP = document.getElementById("hhEnd");
+
+  var active = [];      // hazard ids in play
+  var found = [];       // hazard ids found, in order
+  var score = 0;
+  var secs = 0;
+  var tick = null;
+  var running = false;
+  var r2queue = [];
+  var r2correct = 0;
+  var r2tick = null;
+  var r2secs = 0;
+  var cardTimer = null;
+
+  function setCard(text, cls) {
+    card.textContent = text;
+    card.className = "feedback" + (cls ? " " + cls : "");
+    clearTimeout(cardTimer);
+    cardTimer = setTimeout(function () { card.textContent = ""; card.className = "feedback"; }, 3200);
+  }
+  function hud() {
+    foundEl.textContent = found.length + " of " + active.length;
+    timerEl.textContent = secs;
+    scoreEl.textContent = score;
+    timerBox.className = "stat timer" + (secs <= 10 ? " low" : "");
+  }
+  function setScene(count) {
+    active = Object.keys(HAZARDS).filter(function (k) { return count === 12 || HAZARDS[k].core; });
+    Object.keys(HAZARDS).forEach(function (k) {
+      var g = document.getElementById("hz-" + k);
+      var hit = hits.querySelector('[data-hz="' + k + '"]');
+      var on = active.indexOf(k) !== -1;
+      if (g) { g.style.display = on ? "" : "none"; }
+      if (hit) { hit.style.display = on ? "" : "none"; }
+    });
+    marks.innerHTML = "";
+  }
+  function mark(id) {
+    var r = hits.querySelector('[data-hz="' + id + '"]');
+    if (!r) { return; }
+    var x = +r.getAttribute("x"), y = +r.getAttribute("y"), w = +r.getAttribute("width"), h = +r.getAttribute("height");
+    var ns = "http://www.w3.org/2000/svg";
+    var e = document.createElementNS(ns, "ellipse");
+    e.setAttribute("cx", x + w / 2); e.setAttribute("cy", y + h / 2);
+    e.setAttribute("rx", w / 2 + 6); e.setAttribute("ry", h / 2 + 6);
+    e.setAttribute("fill", "none"); e.setAttribute("stroke", "#FF5A4D"); e.setAttribute("stroke-width", "6");
+    marks.appendChild(e);
+    var t = document.createElementNS(ns, "text");
+    t.setAttribute("x", x + w / 2); t.setAttribute("y", y - 6);
+    t.setAttribute("text-anchor", "middle"); t.setAttribute("font-size", "22"); t.setAttribute("font-weight", "900");
+    t.setAttribute("font-family", "Arial,sans-serif"); t.setAttribute("fill", "#111");
+    t.textContent = String(found.length);
+    marks.appendChild(t);
+  }
+  function endHunt(all) {
+    running = false;
+    clearInterval(tick);
+    if (all) {
+      score += secs;
+      setCard("All " + active.length + " found. " + secs + " seconds left, added to your score.", "good");
+    } else {
+      setCard("Time. You found " + found.length + " of " + active.length + ".", "");
+    }
+    hud();
+    setTimeout(startRound2, 1400);
+  }
+  function tapScene(evt) {
+    if (!running) { return; }
+    var target = evt.target;
+    var id = target.getAttribute && target.getAttribute("data-hz");
+    if (!id) {
+      secs = Math.max(0, secs - 3);
+      setCard("That one is safe. Minus 3 seconds.", "bad");
+      hud();
+      if (secs === 0) { endHunt(false); }
+      return;
+    }
+    if (found.indexOf(id) !== -1) {
+      setCard("Already found that one.", "");
+      return;
+    }
+    found.push(id);
+    score += 10;
+    mark(id);
+    var hz = HAZARDS[id];
+    setCard(hz.name + ". Family: " + hz.family + ". Fix: " + hz.fix, "good");
+    live.textContent = "Found " + found.length + " of " + active.length + ": " + hz.name;
+    hud();
+    if (found.length === active.length) { endHunt(true); }
+  }
+  function startHunt() {
+    var count = parseInt(document.getElementById("hhCount").value, 10);
+    secs = parseInt(document.getElementById("hhSecs").value, 10);
+    setScene(count);
+    found = []; score = 0; running = true;
+    startP.hidden = true; r2P.hidden = true; endP.hidden = true;
+    card.textContent = ""; card.className = "feedback";
+    hud();
+    clearInterval(tick);
+    tick = setInterval(function () {
+      secs -= 1;
+      if (secs <= 0) { secs = 0; hud(); endHunt(false); return; }
+      hud();
+    }, 1000);
+    document.getElementById("hhScene").scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  // Round 2
+  function startRound2() {
+    if (!found.length) { finish(); return; }
+    r2queue = found.slice();
+    shuffle(r2queue);
+    r2correct = 0;
+    r2secs = 30;
+    r2P.hidden = false;
+    timerBox.querySelector(".lab").textContent = "Round 2";
+    var fam = document.getElementById("hhFamilies");
+    fam.innerHTML = "";
+    FAMILIES.forEach(function (f) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "gbtn"; b.textContent = f; b.setAttribute("data-fam", f);
+      b.addEventListener("click", function () { answerR2(f, b); });
+      fam.appendChild(b);
+    });
+    showR2();
+    secs = r2secs; hud();
+    clearInterval(r2tick);
+    r2tick = setInterval(function () {
+      r2secs -= 1; secs = r2secs; hud();
+      if (r2secs <= 0) { clearInterval(r2tick); finish(); }
+    }, 1000);
+    r2P.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  var r2lock = false;
+  function showR2() {
+    var id = r2queue[0];
+    document.getElementById("hhR2Item").textContent = HAZARDS[id].name;
+  }
+  function answerR2(fam, btn) {
+    if (r2lock || !r2queue.length) { return; }
+    var id = r2queue[0];
+    var right = HAZARDS[id].family === fam;
+    r2lock = true;
+    if (right) { score += 5; r2correct += 1; btn.classList.add("right"); setCard("Yes. " + HAZARDS[id].name + " is " + fam.toLowerCase() + ".", "good"); }
+    else {
+      btn.classList.add("wrong");
+      var rb = document.querySelector('#hhFamilies [data-fam="' + HAZARDS[id].family + '"]');
+      if (rb) { rb.classList.add("right"); }
+      setCard("No. " + HAZARDS[id].name + " is " + HAZARDS[id].family.toLowerCase() + ".", "bad");
+    }
+    hud();
+    setTimeout(function () {
+      var bs = document.querySelectorAll("#hhFamilies .gbtn");
+      for (var i = 0; i < bs.length; i++) { bs[i].classList.remove("right", "wrong"); }
+      r2queue.shift();
+      r2lock = false;
+      if (!r2queue.length) { clearInterval(r2tick); finish(); } else { showR2(); }
+    }, 900);
+  }
+  function finish() {
+    r2P.hidden = true;
+    endP.hidden = false;
+    timerBox.querySelector(".lab").textContent = "Seconds";
+    document.getElementById("hhFinal").textContent = score + " points";
+    var s = "You found " + found.length + " of " + active.length + " hazards";
+    if (found.length) { s += " and named the right family for " + r2correct + " of " + found.length + "."; } else { s += "."; }
+    document.getElementById("hhSummary").textContent = s;
+    var missed = active.filter(function (k) { return found.indexOf(k) === -1; });
+    var ul = document.getElementById("hhMissed");
+    ul.innerHTML = "";
+    document.getElementById("hhMissedWrap").hidden = !missed.length;
+    missed.forEach(function (k) {
+      var li = document.createElement("li");
+      var b = document.createElement("b"); b.textContent = HAZARDS[k].name + ". ";
+      li.appendChild(b);
+      li.appendChild(document.createTextNode(HAZARDS[k].family + ". " + HAZARDS[k].fix));
+      ul.appendChild(li);
+      mark(k);
+    });
+    endP.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+  }
+  svg.addEventListener("click", tapScene);
+  document.getElementById("hhGo").addEventListener("click", startHunt);
+  document.getElementById("hhAgain").addEventListener("click", function () {
+    endP.hidden = true; startP.hidden = false; marks.innerHTML = "";
+    setScene(12); found = []; score = 0; secs = 90; hud();
+    startP.scrollIntoView({behavior: "smooth", block: "start"});
+  });
+  setScene(12); hud();
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-15. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

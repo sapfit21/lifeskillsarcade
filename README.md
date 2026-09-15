@@ -7,6 +7,9 @@ database, no login, nothing to install.
 
 Double click `index.html`. It opens in your browser and every link works.
 
+The `games` folder holds the review games. Each one is a single page with its
+script inside it; they run offline and save nothing.
+
 You can also drag `index.html` onto a browser window. If you move this folder,
 move the whole folder. The pages link to each other by relative path, so they
 only work when they stay together.

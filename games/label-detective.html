@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Label Detective, Life Skills Arcade</title>
+<meta name="description" content="Read a Nutrition Facts label and answer fast: the facts, the 5 and 20 rule, the whole-bag math, and the trick on the front.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-15">
+<link rel="stylesheet" href="games.css?v=2026-09-15">
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- Label Detective. Reviews Lesson 1.11, Label Detective. Built 2026-09-15.
+     Six made-up products, no real brands. No sound, no storage, no network. -->
+<div class="game" id="labelDetective">
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>This game reviews <a href="../lesson-01-11.html">Lesson 1.11, Label Detective</a>: reading the Nutrition Facts panel, the 5 and 20 rule, whole-container math, and the five front-of-package tricks. Twelve questions a game, four from each level, drawn from a pool of about forty, so two students rarely get the same game. Use it as the warm-up before the Label Reading Quiz (Assessment 1.3) or on the board with the class voting. Every product is made up; the numbers are internally consistent, so a student can argue an answer from the label. Nothing is saved when the page closes.</p>
+</div>
+
+<h1 class="game-title">Label <span class="alt">Detective</span></h1>
+<p class="game-lede">The front of the package is an ad. The back is the evidence. Read the label, answer fast. 20 seconds a question.</p>
+
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Question</span><span class="val" id="ldQ">0 of 12</span></div>
+  <div class="stat timer" id="ldTimerBox"><span class="lab">Seconds</span><span class="val" id="ldTimer">20</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" id="ldStreak">0</span></div>
+  <div class="stat"><span class="lab">Score</span><span class="val" id="ldScore">0</span></div>
+</div>
+<div class="sr-live" aria-live="polite" id="ldLive"></div>
+
+<div class="panel" id="ldStart">
+  <h2>How to play</h2>
+  <p>A label appears with what the front of the package claims. Tap the right answer. 10 points each, plus 5 for every third correct answer in a row. A miss costs nothing but shows you the line that had the answer. Three levels: read the label, do the math, spot the trick.</p>
+  <p><button class="gbtn go" id="ldGo" type="button">Start</button></p>
+</div>
+
+<div class="ld-play" id="ldPlay" hidden>
+  <div class="ld-grid">
+    <div class="ld-labelwrap">
+      <div class="ld-front" id="ldFront"></div>
+      <div class="nf" id="ldLabel"></div>
+    </div>
+    <div class="ld-qwrap">
+      <p class="ld-level" id="ldLevel"></p>
+      <p class="ld-question" id="ldQuestion"></p>
+      <div id="ldAnswers"></div>
+      <div class="feedback" id="ldFeed"></div>
+      <p><button class="gbtn tiny alt" id="ldNext" type="button" hidden>Next</button></p>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="ldEnd" hidden>
+  <h2>Case closed</h2>
+  <p class="big" id="ldFinal"></p>
+  <p><span class="rank" id="ldRank"></span></p>
+  <p id="ldSummary"></p>
+  <div id="ldMissWrap"><p><b>Look again at these:</b></p><ul class="miss-list" id="ldMissed"></ul></div>
+  <p><button class="gbtn go" id="ldAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+.ld-grid{display:grid;grid-template-columns:minmax(0,17rem) minmax(0,1fr);gap:1.2rem;align-items:start}
+@media (max-width:700px){.ld-grid{grid-template-columns:minmax(0,1fr)}}
+.ld-front{background:var(--brand-yellow);border:2.5px solid var(--outline);border-radius:10px 10px 0 0;
+  padding:.5rem .7rem;font-family:var(--display);font-size:1.1rem;line-height:1.2;text-align:center}
+.ld-front small{display:block;font:700 .66rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2);margin-bottom:.15rem}
+.nf{background:#fff;border:2.5px solid var(--outline);border-top:0;border-radius:0 0 10px 10px;padding:.5rem .6rem .6rem;
+  font-family:Helvetica,Arial,sans-serif;color:#000;font-size:.86rem;line-height:1.25}
+.nf .nf-title{font-weight:900;font-size:1.5rem;line-height:1;letter-spacing:-.02em;border-bottom:1px solid #000;padding-bottom:.2rem}
+.nf .nf-serv{border-bottom:8px solid #000;padding:.2rem 0 .25rem}
+.nf .nf-serv .sps{font-size:.8rem}
+.nf .nf-serv .ss{display:flex;justify-content:space-between;font-weight:700}
+.nf .nf-cal{border-bottom:4px solid #000;padding:.2rem 0}
+.nf .nf-cal .c1{font-size:.72rem;font-weight:700}
+.nf .nf-cal .c2{display:flex;justify-content:space-between;align-items:baseline}
+.nf .nf-cal .c2 b{font-size:1.15rem}
+.nf .nf-cal .c2 .kcal{font-size:1.8rem;font-weight:900;line-height:1}
+.nf .dv{text-align:right;font-size:.7rem;font-weight:700;border-bottom:1px solid #000;padding:.15rem 0}
+.nf .row{display:flex;justify-content:space-between;border-bottom:1px solid #000;padding:.12rem 0}
+.nf .row.sub{padding-left:.9rem}
+.nf .row.sub2{padding-left:1.8rem}
+.nf .row b{font-weight:700}
+.nf .row.thick{border-bottom:8px solid #000}
+.nf .row.hit{background:var(--brand-yellow);outline:3px solid var(--brand-red);outline-offset:-1px}
+.nf .ingr{font-size:.72rem;margin-top:.35rem;line-height:1.3}
+.nf .ingr.hit{background:var(--brand-yellow);outline:3px solid var(--brand-red)}
+.nf .fine{font-size:.62rem;margin-top:.3rem;color:#333}
+.ld-level{font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2);margin:0 0 .3rem}
+.ld-question{font-size:1.15rem;font-weight:600;margin:0 0 .6rem;line-height:1.35}
+</style>
+
+<script>
+(function () {
+  "use strict";
+  // Six made-up products. Every number is consistent with the others on its label,
+  // so whole-container math and percent daily values check out by hand.
+  var P = {
+    cereal: {name: "Sunny Crunch cereal", front: "Made with whole grain", ss: "1 cup (40g)", spc: 8, cal: 150,
+      rows: [["fat", "Total Fat", "1.5g", "2%"], ["satfat", "Saturated Fat", "0g", "0%", "sub"], ["sodium", "Sodium", "210mg", "9%"],
+             ["carb", "Total Carbohydrate", "34g", "12%"], ["fiber", "Dietary Fiber", "3g", "11%", "sub"], ["sugars", "Total Sugars", "12g", "", "sub"],
+             ["added", "Includes 11g Added Sugars", "", "22%", "sub2"], ["protein", "Protein", "2g", "", "thick"]],
+      ingr: "Ingredients: whole grain oats, sugar, corn syrup, rice flour, salt, honey, natural flavor, vitamins and minerals."},
+    chips: {name: "Zip Chips", front: "Gluten free", ss: "1 oz (28g, about 15 chips)", spc: 8, cal: 160,
+      rows: [["fat", "Total Fat", "10g", "13%"], ["satfat", "Saturated Fat", "1.5g", "8%", "sub"], ["sodium", "Sodium", "170mg", "7%"],
+             ["carb", "Total Carbohydrate", "15g", "5%"], ["fiber", "Dietary Fiber", "1g", "4%", "sub"], ["sugars", "Total Sugars", "0g", "", "sub"],
+             ["added", "Includes 0g Added Sugars", "", "0%", "sub2"], ["protein", "Protein", "2g", "", "thick"]],
+      ingr: "Ingredients: potatoes, vegetable oil (sunflower, corn), salt."},
+    drink: {name: "Berry Blast drink", front: "Made with real fruit juice", ss: "8 fl oz (240mL)", spc: 2.5, cal: 110,
+      rows: [["fat", "Total Fat", "0g", "0%"], ["sodium", "Sodium", "15mg", "1%"],
+             ["carb", "Total Carbohydrate", "28g", "10%"], ["fiber", "Dietary Fiber", "0g", "0%", "sub"], ["sugars", "Total Sugars", "27g", "", "sub"],
+             ["added", "Includes 27g Added Sugars", "", "54%", "sub2"], ["protein", "Protein", "0g", "", "thick"]],
+      ingr: "Ingredients: water, high fructose corn syrup, grape juice concentrate (2%), citric acid, natural and artificial flavors, red 40."},
+    bar: {name: "Oat Squares bar", front: "Natural", ss: "1 bar (42g)", spc: 1, cal: 190,
+      rows: [["fat", "Total Fat", "7g", "9%"], ["satfat", "Saturated Fat", "1g", "5%", "sub"], ["sodium", "Sodium", "95mg", "4%"],
+             ["carb", "Total Carbohydrate", "29g", "11%"], ["fiber", "Dietary Fiber", "4g", "14%", "sub"], ["sugars", "Total Sugars", "10g", "", "sub"],
+             ["added", "Includes 9g Added Sugars", "", "18%", "sub2"], ["protein", "Protein", "4g", "", "thick"]],
+      ingr: "Ingredients: whole rolled oats, brown rice syrup, almonds, cane sugar, sunflower oil, sea salt."},
+    soup: {name: "Tomato soup (can)", front: "Low fat", ss: "1/2 cup condensed (120mL)", spc: 2.5, cal: 90,
+      rows: [["fat", "Total Fat", "0.5g", "1%"], ["sodium", "Sodium", "690mg", "30%"],
+             ["carb", "Total Carbohydrate", "20g", "7%"], ["fiber", "Dietary Fiber", "1g", "4%", "sub"], ["sugars", "Total Sugars", "10g", "", "sub"],
+             ["added", "Includes 8g Added Sugars", "", "16%", "sub2"], ["protein", "Protein", "2g", "", "thick"]],
+      ingr: "Ingredients: tomato puree (water, tomato paste), water, sugar, wheat flour, salt, vegetable oil, citric acid, natural flavor."},
+    twists: {name: "Veggie Twists", front: "Made with real vegetables", ss: "1 oz (28g, about 38 pieces)", spc: 6, cal: 130,
+      rows: [["fat", "Total Fat", "7g", "9%"], ["satfat", "Saturated Fat", "0.5g", "3%", "sub"], ["sodium", "Sodium", "220mg", "10%"],
+             ["carb", "Total Carbohydrate", "17g", "6%"], ["fiber", "Dietary Fiber", "less than 1g", "2%", "sub"], ["sugars", "Total Sugars", "0g", "", "sub"],
+             ["added", "Includes 0g Added Sugars", "", "0%", "sub2"], ["protein", "Protein", "1g", "", "thick"]],
+      ingr: "Ingredients: potato starch, potato flour, corn starch, sunflower oil, spinach powder, tomato paste, salt."}
+  };
+
+  // Questions. p = product, q = question, a = answers (first is correct; shuffled on screen),
+  // line = the label line to highlight on a miss, why = one line for the miss.
+  var L1 = [
+    {p: "cereal", q: "What is the serving size?", a: ["1 cup (40g)", "1 box", "2 cups", "1/2 cup"], line: "ss", why: "The serving size is the amount every number on the label describes."},
+    {p: "cereal", q: "How many servings are in the box?", a: ["8", "1", "4", "12"], line: "spc", why: "Servings per container sits right under the serving size."},
+    {p: "cereal", q: "How many calories in one serving?", a: ["150", "40", "210", "340"], line: "cal", why: "Calories are big and bold on purpose."},
+    {p: "chips", q: "How much sodium is in one serving?", a: ["170mg", "10g", "160mg", "28g"], line: "sodium", why: "Sodium has its own line, in milligrams."},
+    {p: "chips", q: "About how many chips make one serving?", a: ["About 15", "The whole bag", "About 50", "About 5"], line: "ss", why: "The serving size line says it in chips as well as grams."},
+    {p: "drink", q: "How many servings are in the bottle?", a: ["2.5", "1", "8", "2"], line: "spc", why: "One bottle is two and a half servings, not one."},
+    {p: "drink", q: "How many grams of added sugars in one serving?", a: ["27g", "28g", "0g", "110g"], line: "added", why: "Added sugars is indented under Total Sugars."},
+    {p: "bar", q: "How many grams of fiber in one bar?", a: ["4g", "29g", "1g", "14g"], line: "fiber", why: "Dietary Fiber is indented under Total Carbohydrate."},
+    {p: "bar", q: "How many servings are in the package?", a: ["1", "2", "4", "42"], line: "spc", why: "One bar, one serving. That makes the math easy for once."},
+    {p: "soup", q: "How many calories in one serving?", a: ["90", "690", "225", "120"], line: "cal", why: "Calories are on the bold line, per serving."},
+    {p: "soup", q: "What is the percent daily value for sodium in one serving?", a: ["30%", "3%", "16%", "7%"], line: "sodium", why: "The percent daily value is the number on the right of the sodium line."},
+    {p: "twists", q: "How much protein is in one serving?", a: ["1g", "7g", "17g", "13g"], line: "protein", why: "Protein is the last line before the fine print."},
+    {p: "twists", q: "How many servings are in the bag?", a: ["6", "1", "38", "28"], line: "spc", why: "Six servings per bag."},
+    {p: "cereal", q: "What is the percent daily value for fiber in one serving?", a: ["11%", "3%", "22%", "12%"], line: "fiber", why: "Read across the fiber line to the right column."}
+  ];
+  var L2 = [
+    {p: "soup", q: "Sodium is 30% DV in one serving. Using the 5 and 20 rule, that is:", a: ["High (20% or more)", "Low (5% or less)", "In between", "Not enough to tell"], line: "sodium", why: "20% or more is high. 30% is high, and sodium is on the get-less list."},
+    {p: "drink", q: "Sodium is 1% DV in one serving. Using the 5 and 20 rule, that is:", a: ["Low (5% or less)", "High (20% or more)", "In between", "Not on the label"], line: "sodium", why: "5% or less is low. Low is good on the get-less list, but keep reading the label."},
+    {p: "cereal", q: "Fiber is 11% DV. Using the 5 and 20 rule, that is:", a: ["In between", "Low (5% or less)", "High (20% or more)", "Bad"], line: "fiber", why: "Between 5 and 20 is in the middle. It counts, it is not a lot."},
+    {p: "drink", q: "Added sugars are 54% DV in one serving. That is:", a: ["High, more than half a day's worth in one glass", "Low", "In between", "Fine because it is fruit"], line: "added", why: "54% of a whole day's added sugar in 8 ounces. High by any rule."},
+    {p: "chips", q: "You eat the whole bag (8 servings). Total calories?", a: ["1,280", "160", "800", "1,600"], line: "cal", why: "160 calories times 8 servings is 1,280."},
+    {p: "chips", q: "You eat the whole bag (8 servings). Total sodium?", a: ["1,360mg", "170mg", "680mg", "1,700mg"], line: "sodium", why: "170mg times 8 is 1,360mg."},
+    {p: "drink", q: "You drink the whole bottle (2.5 servings). Total added sugars?", a: ["67.5g", "27g", "54g", "270g"], line: "added", why: "27g times 2.5 is 67.5g. The small bottle was 2.5 servings all along."},
+    {p: "drink", q: "You drink the whole bottle (2.5 servings). Total calories?", a: ["275", "110", "220", "550"], line: "cal", why: "110 times 2.5 is 275."},
+    {p: "soup", q: "You eat the whole can (2.5 servings). Total sodium?", a: ["1,725mg", "690mg", "1,380mg", "300mg"], line: "sodium", why: "690mg times 2.5 is 1,725mg, most of a day's worth."},
+    {p: "twists", q: "You eat the whole bag (6 servings). Total calories?", a: ["780", "130", "600", "1,300"], line: "cal", why: "130 times 6 is 780."},
+    {p: "cereal", q: "You eat 2 cups (2 servings). Added sugars?", a: ["22g", "11g", "12g", "34g"], line: "added", why: "11g times 2 is 22g."},
+    {p: "bar", q: "Which is the better fiber choice: Oat Squares (4g) or Zip Chips (1g)?", a: ["Oat Squares", "Zip Chips", "They are the same", "Neither has fiber"], line: "fiber", why: "More fiber is the goal. 4g beats 1g."},
+    {p: "twists", q: "Sodium is 10% DV per serving. What is it if you eat the whole bag (6 servings)?", a: ["60%", "10%", "16%", "100%"], line: "sodium", why: "10% times 6 is 60% of a day's sodium from one bag."},
+    {p: "bar", q: "Added sugars are 18% DV. Using the 5 and 20 rule, that is:", a: ["In between, close to high", "Low", "Zero", "High"], line: "added", why: "18 is under 20, so it is in between, but just barely."}
+  ];
+  var L3 = [
+    {p: "drink", q: "The front says 'Made with real fruit juice.' Which line on the back catches it?", a: ["The ingredient list: high fructose corn syrup comes before the juice, and the juice is 2%", "Sodium 15mg", "Total Fat 0g", "Serving size 8 fl oz"], line: "ingr", why: "Ingredients are listed by weight. Corn syrup is second; grape juice is 2%."},
+    {p: "drink", q: "What is the trick on the Berry Blast front?", a: ["A true claim that is beside the point: there is some juice, and 27g of added sugar", "The serving size game", "A fake ingredient", "There is no trick"], line: "added", why: "'Made with real fruit' is true and it hides 27g of added sugars per serving."},
+    {p: "bar", q: "The front says 'Natural.' What does that word guarantee on the label?", a: ["Nothing. The FDA has never formally defined it for most foods", "Low sugar", "High fiber", "Organic"], line: "added", why: "'Natural' is not a defined claim. Turn it over: 9g added sugars."},
+    {p: "twists", q: "The front says 'Made with real vegetables.' Which line shows this is not a serving of vegetables?", a: ["Dietary Fiber less than 1g", "Total Fat 7g", "Calories 130", "Protein 1g"], line: "fiber", why: "Real vegetables bring fiber. Less than 1g says the vegetable is a powder for color."},
+    {p: "twists", q: "Look at the ingredient list. What is Veggie Twists mostly made of?", a: ["Potato starch and corn starch", "Spinach", "Tomatoes", "Whole grain"], line: "ingr", why: "The first ingredients are starches. Spinach powder is fifth."},
+    {p: "soup", q: "The front says 'Low fat.' True, but which line is the real problem?", a: ["Sodium 690mg, 30% DV per serving", "Total Fat 0.5g", "Protein 2g", "Calories 90"], line: "sodium", why: "Low fat is true. It points you away from 30% of a day's sodium in half a cup."},
+    {p: "cereal", q: "The front says 'Made with whole grain.' Which line should you check before you believe it is healthy?", a: ["Added sugars 11g, 22% DV", "Total Fat 1.5g", "Protein 2g", "Serving size"], line: "added", why: "Whole grain is real. So is 11g of added sugar per cup, more than a fifth of a day."},
+    {p: "cereal", q: "Sunny Crunch: which ingredient comes second by weight?", a: ["Sugar", "Whole grain oats", "Salt", "Honey"], line: "ingr", why: "Ingredients go in order by weight. Sugar is second, corn syrup third."},
+    {p: "chips", q: "The front says 'Gluten free.' What is the trick?", a: ["A true claim that is beside the point: potato chips never had gluten", "The chips contain wheat", "The serving size is wrong", "There is no fat"], line: "ingr", why: "Potatoes, oil, salt. No gluten was ever there. The claim sounds healthy and changes nothing."},
+    {p: "drink", q: "The bottle looks like one drink. What is the serving size trick?", a: ["It is 2.5 servings, so every number on the label is less than half the bottle", "There is no trick", "The bottle is 1 serving", "It is 8 servings"], line: "spc", why: "2.5 servings per container. Multiply everything by 2.5 if you drink the bottle."},
+    {p: "bar", q: "Which is the honest way to describe Oat Squares?", a: ["A decent snack with 4g fiber and 9g added sugar; 'natural' tells you nothing", "Junk food", "A health food because it says natural", "Sugar free"], line: "fiber", why: "Read both lines. Good fiber, real added sugar, and a front-of-package word that means nothing."},
+    {p: "soup", q: "The can is 2.5 servings. Why would a company set a serving at half a cup?", a: ["Smaller serving, smaller numbers on the label", "Because nobody eats more", "It is a government rule for soup", "To make the can lighter"], line: "spc", why: "The serving size game: a small serving makes 690mg sodium look like the whole story."},
+    {p: "twists", q: "Green package, a leaf, the word veggie. Which trick is that?", a: ["The health halo", "The serving size game", "No sugar added", "Multigrain"], line: "ingr", why: "A health halo is a look that says healthy before you read a single number."},
+    {p: "cereal", q: "'Multigrain' and 'whole grain' are:", a: ["Different: multigrain just means more than one grain, refined or not", "The same thing", "Both government-checked health claims", "Both sugar claims"], line: "ingr", why: "Whole grain is a real thing to look for in the ingredient list. Multigrain is a front-of-package word."}
+  ];
+
+  var pool, idx, score, streak, best, secs, tick, locked, missed, current;
+  var elQ = document.getElementById("ldQ"), elT = document.getElementById("ldTimer"), elTB = document.getElementById("ldTimerBox");
+  var elS = document.getElementById("ldStreak"), elSc = document.getElementById("ldScore"), live = document.getElementById("ldLive");
+  var feed = document.getElementById("ldFeed"), nextBtn = document.getElementById("ldNext");
+
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function pick(list, n) { return shuffle(list.slice()).slice(0, n); }
+  function hud() {
+    elQ.textContent = Math.min(idx + 1, pool.length) + " of " + pool.length;
+    elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
+    elTB.className = "stat timer" + (secs <= 5 ? " low" : "");
+  }
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  function renderLabel(p) {
+    var h = '<div class="nf-title">Nutrition Facts</div>';
+    h += '<div class="nf-serv"><div class="sps" data-line="spc">' + esc(p.spc) + ' serving' + (p.spc === 1 ? '' : 's') + ' per container</div>';
+    h += '<div class="ss" data-line="ss"><span>Serving size</span><span>' + esc(p.ss) + '</span></div></div>';
+    h += '<div class="nf-cal" data-line="cal"><div class="c1">Amount per serving</div><div class="c2"><b>Calories</b><span class="kcal">' + esc(p.cal) + '</span></div></div>';
+    h += '<div class="dv">% Daily Value*</div>';
+    p.rows.forEach(function (r) {
+      var cls = "row" + (r[4] ? " " + r[4] : "");
+      var isSub = r[4] === "sub" || r[4] === "sub2";
+      h += '<div class="' + cls + '" data-line="' + r[0] + '"><span>' + (isSub ? '' : '<b>') + esc(r[1]) + (isSub ? '' : '</b>') + (r[2] ? ' ' + esc(r[2]) : '') + '</span><span><b>' + esc(r[3]) + '</b></span></div>';
+    });
+    h += '<div class="ingr" data-line="ingr">' + esc(p.ingr) + '</div>';
+    h += '<div class="fine">*The % Daily Value tells you how much a nutrient in a serving contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.</div>';
+    document.getElementById("ldLabel").innerHTML = h;
+    document.getElementById("ldFront").innerHTML = '<small>' + esc(p.name) + '. The front of the package says:</small>"' + esc(p.front) + '"';
+  }
+  function show() {
+    locked = false;
+    current = pool[idx];
+    var p = P[current.p];
+    renderLabel(p);
+    document.getElementById("ldLevel").textContent = "Level " + current.level + ": " + ["", "read the label", "do the math", "spot the trick"][current.level];
+    document.getElementById("ldQuestion").textContent = current.q;
+    var box = document.getElementById("ldAnswers");
+    box.innerHTML = "";
+    var answers = current.a.map(function (t, i) { return {t: t, ok: i === 0}; });
+    shuffle(answers);
+    answers.forEach(function (an) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "gbtn wide"; b.textContent = an.t;
+      b.addEventListener("click", function () { answer(an.ok, b); });
+      box.appendChild(b);
+    });
+    feed.textContent = ""; feed.className = "feedback";
+    nextBtn.hidden = true;
+    secs = 20; hud();
+    clearInterval(tick);
+    tick = setInterval(function () {
+      secs -= 1; hud();
+      if (secs <= 0) { clearInterval(tick); answer(false, null, true); }
+    }, 1000);
+    live.textContent = "Question " + (idx + 1) + ": " + current.q;
+  }
+  function answer(ok, btn, timedOut) {
+    if (locked) { return; }
+    locked = true;
+    clearInterval(tick);
+    var bs = document.querySelectorAll("#ldAnswers .gbtn");
+    for (var i = 0; i < bs.length; i++) {
+      if (bs[i].textContent === current.a[0]) { bs[i].classList.add("right"); } else { bs[i].classList.add("dim"); }
+    }
+    if (ok) {
+      score += 10; streak += 1; if (streak > best) { best = streak; }
+      var bonus = "";
+      if (streak % 3 === 0) { score += 5; bonus = " Streak bonus, plus 5."; }
+      feed.textContent = "Correct." + bonus;
+      feed.className = "feedback good";
+    } else {
+      streak = 0;
+      if (btn) { btn.classList.add("wrong"); }
+      feed.textContent = (timedOut ? "Time. " : "Not that one. ") + "The answer is: " + current.a[0] + ". " + current.why;
+      feed.className = "feedback bad";
+      var line = document.querySelector('#ldLabel [data-line="' + current.line + '"]');
+      if (line) { line.classList.add("hit"); }
+      missed.push(current);
+    }
+    hud();
+    nextBtn.hidden = false;
+    nextBtn.focus();
+  }
+  function next() {
+    idx += 1;
+    if (idx >= pool.length) { finish(); return; }
+    show();
+    document.getElementById("ldPlay").scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function start() {
+    pool = [];
+    pick(L1, 4).forEach(function (q) { q.level = 1; pool.push(q); });
+    pick(L2, 4).forEach(function (q) { q.level = 2; pool.push(q); });
+    pick(L3, 4).forEach(function (q) { q.level = 3; pool.push(q); });
+    idx = 0; score = 0; streak = 0; best = 0; missed = [];
+    document.getElementById("ldStart").hidden = true;
+    document.getElementById("ldEnd").hidden = true;
+    document.getElementById("ldPlay").hidden = false;
+    show();
+    document.getElementById("ldPlay").scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  function finish() {
+    document.getElementById("ldPlay").hidden = true;
+    var end = document.getElementById("ldEnd");
+    end.hidden = false;
+    document.getElementById("ldFinal").textContent = score + " points";
+    var rank = score >= 110 ? "Chief Inspector" : score >= 60 ? "Detective" : "Rookie";
+    document.getElementById("ldRank").textContent = rank;
+    document.getElementById("ldSummary").textContent = (pool.length - missed.length) + " of " + pool.length + " correct. Best streak: " + best + ".";
+    var ul = document.getElementById("ldMissed"); ul.innerHTML = "";
+    document.getElementById("ldMissWrap").hidden = !missed.length;
+    missed.forEach(function (m) {
+      var li = document.createElement("li");
+      var b = document.createElement("b"); b.textContent = P[m.p].name + ": " + m.q + " ";
+      li.appendChild(b); li.appendChild(document.createTextNode(m.a[0] + ". " + m.why));
+      ul.appendChild(li);
+    });
+    end.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  document.getElementById("ldGo").addEventListener("click", start);
+  document.getElementById("ldAgain").addEventListener("click", start);
+  nextBtn.addEventListener("click", next);
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-15. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

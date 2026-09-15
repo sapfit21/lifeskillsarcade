@@ -8,7 +8,7 @@
 
 ## Standards
 
-- NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces b) Plan ways of maintaining Identify common safety hazards found in living spaces and describe ways to minimize risks to individuals, families, and household members
+- NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces b) Identify common safety hazards found in living spaces and describe ways to minimize risks to individuals, families, and household members
 - NYS module line: NYS EDM 1. Healthy, Safe, Sustainable Living Spaces c) Formulate a safety plan for home, work, and community settings
 - CTE theme line: CTE HSW 4. Classroom and Workplace Safety c) Apply safety practices when using tools, machines, and equipment
 - CTE theme line: CTE HSW 4. Classroom and Workplace Safety d) Wear appropriate protective clothing and gear when using tools, machines, and equipment
@@ -18,7 +18,7 @@
 - National FCS 3.0: 11.3.5 Examine how housing, interiors, and furnishings affect public health, safety, and welfare.
 - National FCS 3.0: 5.2 Demonstrate planning, organizing, and maintaining an efficient operation of residential or commercial facilities. (content standard; Area 5 is confirmed only at the content-standard level in the web research file)
 
-Note on EDM 1. b): quoted exactly as the state printed it, with two phrases fused ("Plan ways of maintaining" runs into "Identify common safety hazards"). This lesson teaches the first phrase, maintaining. Note on the National FCS lines: the task suggested 5.6.x; in 3.0, 5.6 is laundering, so 5.2 (maintaining a residential facility) and 11.3.5 are cited instead.
+Note on EDM 1. b): quoted from the NYSED 2023 copy, which prints the line cleanly (the June 2018 PDF had fused "Plan ways of maintaining" into it; crosswalk Part E.5). This lesson teaches the second half of the line: maintenance and repair are how a household minimizes the risks Lesson 4.2 identified. Note on the National FCS lines: the task suggested 5.6.x; in 3.0, 5.6 is laundering, so 5.2 (maintaining a residential facility) and 11.3.5 are cited instead.
 
 ## Enduring understanding and essential question
 
