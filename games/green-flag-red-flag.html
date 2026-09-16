@@ -71,11 +71,11 @@
   <div class="feedback" id="grFeed"></div>
   <div class="gr-flags">
     <button class="gr-flag green" type="button" id="grGreen">
-      <svg viewBox="0 0 60 60" aria-hidden="true"><path d="M14 54V8" stroke="#111" stroke-width="4" stroke-linecap="round"/><path d="M16 10 h32 l-8 10 8 10 h-32 z" fill="#7FD44C" stroke="#111" stroke-width="3" stroke-linejoin="round"/></svg>
+      <img class="piece" src="art/flag-green.webp" alt="" loading="lazy">
       <span>Green flag</span>
     </button>
     <button class="gr-flag red" type="button" id="grRed">
-      <svg viewBox="0 0 60 60" aria-hidden="true"><path d="M14 54V8" stroke="#111" stroke-width="4" stroke-linecap="round"/><path d="M16 10 h32 l-8 10 8 10 h-32 z" fill="#FF5A4D" stroke="#111" stroke-width="3" stroke-linejoin="round"/></svg>
+      <img class="piece" src="art/flag-red.webp" alt="" loading="lazy">
       <span>Red flag</span>
     </button>
   </div>
@@ -107,6 +107,7 @@
 .gr-flag{display:flex;flex-direction:column;align-items:center;gap:.2rem;background:#fff;border:2.5px solid var(--outline);border-radius:14px;
   padding:.7rem .5rem .8rem;cursor:pointer;font:700 1.1rem/1.2 var(--sans);color:var(--ink);box-shadow:4px 4px 0 var(--outline);min-height:44px}
 .gr-flag svg{width:64px;height:64px}
+.gr-flag .piece{width:64px;height:64px;object-fit:contain}
 .gr-flag:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
 .gr-flag.hit{background:var(--brand-green)}
 .gr-flag.miss{background:#FFD9D6}
