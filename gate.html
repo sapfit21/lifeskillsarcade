@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teacher only, Life Skills Arcade</title>
+<meta name="description" content="Family and Consumer Sciences, Grades 6 to 8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css?v=2026-09-21">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="syllabus.html">Syllabus</a></li>
+<li><a href="scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="index.html#units">Units</a></li>
+<li><a href="lessons.html">Lessons</a></li>
+<li><a href="materials.html">Materials</a></li>
+<li><a href="student-handouts.html">Students</a></li>
+<li><a href="games/index.html">Games</a></li>
+<li><a href="standards.html">Standards</a></li>
+<li><a href="grading.html">Grading</a></li>
+<li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+
+<div class="page-head">
+<p class="kicker">Teacher only</p>
+<h1>This file is behind the teacher sign in</h1>
+<p class="lede" id="gateDoc">The file you asked for is a test or an answer key.</p>
+</div>
+<article class="doc">
+<p>Two kinds of file stay off the open site: the tests and quizzes, and the
+answer key section of each handout. Everything else is open. Lessons, unit
+plans, projects, rubrics, slide outlines, vocabulary and the handouts
+themselves need no sign in.</p>
+<p>If you teach this course, sign in and the file is there. If you teach
+somewhere else and want it, write to me and I will send it.</p>
+<p class="actions"><a class="dl" href="index.html#units">Units</a>
+<a class="dl" href="student-handouts.html">Student handouts</a>
+<a class="dl" href="lessons.html">Lessons</a>
+<a class="dl" href="about.html">Contact me</a></p>
+</article>
+<script>
+(function(){
+  var name = new URLSearchParams(window.location.search).get("doc");
+  if (name) {
+    document.getElementById("gateDoc").textContent =
+      "You asked for " + name + ". It is teacher only.";
+  }
+})();
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="js/site.js"></script>
+</body>
+</html>

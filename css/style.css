@@ -171,6 +171,8 @@ a.dl,.matlink{display:inline-block;font-size:.84rem;padding:.3rem .6rem;border-r
   background:var(--surface-2);border:1px solid var(--line);color:var(--ink-2);
   text-decoration:none}
 a.dl:hover,.matlink:hover{border-color:var(--accent-line);color:var(--accent)}
+a.dl.gated{border-style:dashed;color:var(--ink-3)}
+.gated-note{margin-top:1.2rem;padding:.7rem .9rem;border:1px dashed var(--line);border-radius:8px;font-size:.92rem;color:var(--ink-3)}
 
 /* ---------- home ---------- */
 .hero{margin:1rem 0 2.6rem;padding-bottom:2rem;border-bottom:2px solid var(--accent-line)}
