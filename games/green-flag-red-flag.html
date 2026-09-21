@@ -40,234 +40,149 @@
 </header>
 <main id="main" class="plain">
 
-<!-- Green Flag, Red Flag. Reviews Lesson 3.12 (the eleven signs) and Lesson 3.6 (the four refusal steps). Built 2026-09-15.
-     Everything on this page is static: no sound, no storage, no network. No card is about a real person. -->
-<div class="game" id="greenRed">
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="GreenFlagRedFlag">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
 <div class="teacher-note">
 <strong>Teacher note</strong>
-<p>This game reviews <a href="../lesson-03-12.html">Lesson 3.12, Healthy vs Unhealthy Relationships: the Signs</a> and <a href="../lesson-03-06.html">Lesson 3.6, Peer Influence, Pressure, and Refusal Skills</a>. Round 1 uses the lesson's own card sort (Handout 3.12): a situation appears, and the player has 3 seconds to tap green flag (a sign of a relationship that is good for you) or red flag (a sign of one that is not). Every red flag names its sign: control, put-downs, isolation, pressure, or fear. The two "depends" cards from the handout are left out on purpose. Round 2 is the four refusal steps from Lesson 3.6, scrambled, tapped into order. Use it as the do now before Lesson 3.13 or as review before the Unit 3 test. Every card is a role, never a person in the room. Nothing is saved when the page closes.</p>
+<p>Reviews <a href="../lesson-03-12.html">Lesson 3.12</a>, <a href="../lesson-03-06.html">Lesson 3.6</a>. This game reviews Lesson 3.12, Healthy vs Unhealthy Relationships: the Signs and Lesson 3.6, Peer Influence, Pressure, and Refusal Skills. Every red flag names its sign: control, put-downs, isolation, pressure, or fear. The two &quot;depends&quot; cards from the handout are left out on purpose. Round 2 is the four refusal steps from Lesson 3.6, scrambled, tapped into order. Use it as the do now before Lesson 3.13 or as review before the Unit 3 test. Every card is a role, never a person in the room. Nothing is saved when the page closes.</p>
 </div>
 
-<div class="game-head"><img class="title-art" src="art/green-flag-red-flag-title.webp" alt=""><h1 class="game-title">Green Flag, <span class="alt2">Red Flag</span></h1></div>
-<p class="game-lede">A friend, a teammate, a cousin, a person in a group chat. Is what they do a green flag or a red flag? You have 3 seconds. Then, the four steps for saying no.</p>
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/green-flag-red-flag-title.webp" alt=""><h1 class="game-title">Green <span class="alt2">Flag, Red Flag</span></h1></div>
+<p class="game-lede">A friend, a teammate, a cousin, a person in a group chat. Is what they do a green flag or a red flag? Then, the four steps for saying no.</p>
 
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
 <div class="hud" aria-hidden="true">
-  <div class="stat"><span class="lab">Card</span><span class="val" id="grCard">0 of 12</span></div>
-  <div class="stat timer" id="grTimerBox"><span class="lab">Seconds</span><span class="val" id="grTimer">3</span></div>
-  <div class="stat"><span class="lab">Streak</span><span class="val" id="grStreak">0</span></div>
-  <div class="stat score"><span class="lab">Score</span><span class="val" id="grScore">0</span></div>
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
 </div>
-<div class="sr-live" aria-live="polite" id="grLive"></div>
 
-<div class="panel" id="grStart">
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
   <h2>How to play</h2>
-  <p>Round 1: twelve cards, 3 seconds each. Green flag or red flag? 10 points a right call, and every three in a row adds 5. A red flag you miss shows you the sign. Round 2: the four refusal steps, scrambled. Tap them into order, 10 points each, and the seconds you have left are added to your score.</p>
-  <p>Remember the rule from the lesson: one bad day is not a sign; a pattern is. Fear is a tell-an-adult sign the first time, on its own.</p>
-  <p><button class="gbtn go" id="grGo" type="button">Start</button></p>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Remember the rule from the lesson: one bad day is not a sign; a pattern is. Fear is a tell-an-adult sign the first time, on its own.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
 </div>
 
-<div class="gr-play" id="grPlay" hidden>
-  <div class="gr-situation" id="grSit"><span class="sr-tasklab">They...</span><span class="gr-text" id="grText"></span></div>
-  <div class="feedback" id="grFeed"></div>
-  <div class="gr-flags">
-    <button class="gr-flag green" type="button" id="grGreen">
-      <img class="piece" src="art/flag-green.webp" alt="" loading="lazy">
-      <span>Green flag</span>
-    </button>
-    <button class="gr-flag red" type="button" id="grRed">
-      <img class="piece" src="art/flag-red.webp" alt="" loading="lazy">
-      <span>Red flag</span>
-    </button>
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
   </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
 </div>
 
-<div class="gr-play" id="grSteps" hidden>
-  <div class="gr-situation"><span class="sr-tasklab">Round 2: the four refusal steps</span><span class="gr-text">Someone keeps pushing. Tap the four steps in the order the lesson teaches them.</span></div>
-  <div class="feedback" id="grFeed2"></div>
-  <ol class="sr-slots gr-slots" id="grSlots"></ol>
-  <div class="sr-cards gr-cards" id="grCards"></div>
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="flag-green"><img class="piece" src="art/flag-green.webp" alt="" loading="lazy"></span>
+<span data-key="flag-red"><img class="piece" src="art/flag-red.webp" alt="" loading="lazy"></span>
 </div>
 
-<div class="panel end" id="grEnd" hidden>
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
   <h2>Done</h2>
-  <p class="big" id="grFinal"></p>
-  <p id="grSummary"></p>
-  <div id="grMissWrap"><p><b>Look at these again:</b></p><ul class="miss-list" id="grMissed"></ul></div>
-  <p class="gr-adult"><b>If a card felt close to home:</b> tell a trusted adult in your building. The counselor is one. It is not trouble.</p>
-  <p><button class="gbtn go" id="grAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>If a card felt close to home: tell a trusted adult in your building. The counselor is one. It is not trouble.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
 
 <style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
 .sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
-.gr-situation{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
-  box-shadow:5px 5px 0 var(--outline);min-height:6.5rem}
-.gr-text{display:block;font-size:1.3rem;font-weight:600;line-height:1.35;margin-top:.25rem}
-.gr-flags{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;margin:.6rem 0}
-.gr-flag{display:flex;flex-direction:column;align-items:center;gap:.2rem;background:#fff;border:2.5px solid var(--outline);border-radius:14px;
-  padding:.7rem .5rem .8rem;cursor:pointer;font:700 1.1rem/1.2 var(--sans);color:var(--ink);box-shadow:4px 4px 0 var(--outline);min-height:44px}
-.gr-flag svg{width:64px;height:64px}
-.gr-flag .piece{width:64px;height:64px;object-fit:contain}
-.gr-flag:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
-.gr-flag.hit{background:var(--brand-green)}
-.gr-flag.miss{background:#FFD9D6}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
   position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
 .sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
 .sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
 .sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
 .sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
   background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
 .sr-card.wrong{background:var(--brand-red);color:#fff}
 .sr-card[hidden]{display:none}
-.gr-adult{background:var(--brand-yellow);border:2px solid var(--outline);border-radius:10px;padding:.6rem .8rem;font-size:.95rem}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
 </style>
 
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="GreenFlagRedFlag-data">{"schema": "1.0", "slug": "green-flag-red-flag", "title": "Green Flag, Red Flag", "unit": 3, "lessons": ["3.12", "3.6"], "handouts": ["Handout 3.12"], "standards": [], "source_file": "hand built 2026-09-15, converted to engine data 2026-09-21", "mechanic_note": "choice: a situation appears, tap Green flag or Red flag (12 dealt from 22), every card names its sign; then an order: the four refusal steps, scrambled, tapped into order.", "lede": "A friend, a teammate, a cousin, a person in a group chat. Is what they do a green flag or a red flag? Then, the four steps for saying no.", "teacher_note": "This game reviews Lesson 3.12, Healthy vs Unhealthy Relationships: the Signs and Lesson 3.6, Peer Influence, Pressure, and Refusal Skills. Every red flag names its sign: control, put-downs, isolation, pressure, or fear. The two \"depends\" cards from the handout are left out on purpose. Round 2 is the four refusal steps from Lesson 3.6, scrambled, tapped into order. Use it as the do now before Lesson 3.13 or as review before the Unit 3 test. Every card is a role, never a person in the room. Nothing is saved when the page closes.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": false, "note": ""}, "art": {"title": {"file": "green-flag-red-flag-title.webp", "line": "Two pennant flags on black poles crossed in an X, one green and one red, both waving."}, "scene": [], "cards": [], "buttons": [{"file": "flag-green.webp", "line": "A green pennant flag on a black pole, waving to the right."}, {"file": "flag-red.webp", "line": "A red pennant flag on a black pole, waving to the right."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 12 cards dealt from 22, two bins", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "take": 12, "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "green", "label": "Green flag", "picture": "flag-green.webp"}, {"id": "red", "label": "Red flag", "picture": "flag-red.webp"}]}, "items": [{"id": "card-01", "prompt": "They listen when you say no and do not push again.", "answer": ["Green flag"], "feedback": "Green flag: respect.", "tags": {"sign": "respect"}}, {"id": "card-02", "prompt": "They tell you what to wear so you \"look right.\"", "answer": ["Red flag"], "feedback": "Red flag: control.", "tags": {"sign": "control"}}, {"id": "card-03", "prompt": "They have other friends and are fine that you do too.", "answer": ["Green flag"], "feedback": "Green flag: separate identities.", "tags": {"sign": "separate identities"}}, {"id": "card-04", "prompt": "They make jokes about you in front of others, and the jokes only go one way.", "answer": ["Red flag"], "feedback": "Red flag: put-downs.", "tags": {"sign": "put-downs"}}, {"id": "card-05", "prompt": "They show up when things are hard, not only when it is fun.", "answer": ["Green flag"], "feedback": "Green flag: support.", "tags": {"sign": "support"}}, {"id": "card-06", "prompt": "They get upset when you spend time with your family or your other friends.", "answer": ["Red flag"], "feedback": "Red flag: isolation.", "tags": {"sign": "isolation"}}, {"id": "card-07", "prompt": "They ask for your phone password \"so we can trust each other.\"", "answer": ["Red flag"], "feedback": "Red flag: control.", "tags": {"sign": "control"}}, {"id": "card-08", "prompt": "They tell you the truth even when it is awkward.", "answer": ["Green flag"], "feedback": "Green flag: honesty.", "tags": {"sign": "honesty"}}, {"id": "card-09", "prompt": "They make you careful about what you say around them because of how they react.", "answer": ["Red flag"], "feedback": "Red flag: fear.", "tags": {"sign": "fear"}}, {"id": "card-10", "prompt": "They apologize and make it right when they mess up.", "answer": ["Green flag"], "feedback": "Green flag: fairness and honesty.", "tags": {"sign": "fairness and honesty"}}, {"id": "card-11", "prompt": "They keep asking after you said no, and say \"you would if you were a real friend.\"", "answer": ["Red flag"], "feedback": "Red flag: pressure.", "tags": {"sign": "pressure"}}, {"id": "card-12", "prompt": "They leave it always your turn to pay, apologize, or give in.", "answer": ["Red flag"], "feedback": "Red flag: fairness missing.", "tags": {"sign": "fairness missing"}}, {"id": "card-13", "prompt": "They disagree with you sometimes and say so without insulting you.", "answer": ["Green flag"], "feedback": "Green flag: respect and honesty.", "tags": {"sign": "respect and honesty"}}, {"id": "card-14", "prompt": "They check your phone \"as a joke\" when you are not looking.", "answer": ["Red flag"], "feedback": "Red flag: control.", "tags": {"sign": "control"}}, {"id": "card-15", "prompt": "They cheer for you when you win, even when they lost.", "answer": ["Green flag"], "feedback": "Green flag: support.", "tags": {"sign": "support"}}, {"id": "card-16", "prompt": "They screenshot what you wrote in the group chat and send it to someone outside the chat.", "answer": ["Red flag"], "feedback": "Red flag: put-downs and trust broken.", "tags": {"sign": "put-downs and trust broken"}}, {"id": "card-17", "prompt": "They make you afraid of what will happen if you tell them something they will not like.", "answer": ["Red flag"], "feedback": "Red flag: fear.", "tags": {"sign": "fear"}}, {"id": "card-18", "prompt": "They borrow your things and always bring them back.", "answer": ["Green flag"], "feedback": "Green flag: trust.", "tags": {"sign": "trust"}}, {"id": "card-19", "prompt": "They say \"nobody else likes you, you only have me.\"", "answer": ["Red flag"], "feedback": "Red flag: isolation.", "tags": {"sign": "isolation"}}, {"id": "card-20", "prompt": "They forgot your birthday once, felt bad, and made it up to you.", "answer": ["Green flag"], "feedback": "Green flag: honesty and fairness.", "tags": {"sign": "honesty and fairness"}}, {"id": "card-21", "prompt": "They want to know where you are and who you are with, every hour, and get angry if you do not answer.", "answer": ["Red flag"], "feedback": "Red flag: control.", "tags": {"sign": "control"}}, {"id": "card-22", "prompt": "They tell you when they think you are making a mistake, then support you either way.", "answer": ["Green flag"], "feedback": "Green flag: honesty and support.", "tags": {"sign": "honesty and support"}}]}], "option_sets": [{"label": "flags", "list": [{"id": "green", "label": "Green flag", "picture": "flag-green.webp"}, {"id": "red", "label": "Red flag", "picture": "flag-red.webp"}]}]}, {"n": 2, "note": "Round 2: the four refusal steps in order", "seconds_per_item": 10, "engines": ["order"], "steps": [{"kind": "order", "label": "round2", "title": "Round 2: the four refusal steps", "prompt": "Someone keeps pushing. Tap the four steps in the order the lesson teaches them.", "feedback": "You do not need all four; two is often enough.", "cards": [{"id": "step-1", "prompt": "Say no clearly", "rank": 1}, {"id": "step-2", "prompt": "Give a reason", "rank": 2}, {"id": "step-3", "prompt": "Offer an alternative", "rank": 3}, {"id": "step-4", "prompt": "Walk away", "rank": 4}]}]}], "study": ["If a card felt close to home: tell a trusted adult in your building. The counselor is one. It is not trouble."], "rule_lines": ["Remember the rule from the lesson: one bad day is not a sign; a pattern is. Fear is a tell-an-adult sign the first time, on its own."], "reference": {}, "_unmapped": {}}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
 <script>
 (function () {
   "use strict";
-  // The cards from Handout 3.12, minus the two "depends" cards. sign is the lesson's word for a red flag.
-  var CARDS = [
-    {t: "Listen when you say no and do not push again.", g: true, sign: "respect"},
-    {t: "Tell you what to wear so you \"look right.\"", g: false, sign: "control"},
-    {t: "Have other friends and are fine that you do too.", g: true, sign: "separate identities"},
-    {t: "Make jokes about you in front of others, and the jokes only go one way.", g: false, sign: "put-downs"},
-    {t: "Show up when things are hard, not only when it is fun.", g: true, sign: "support"},
-    {t: "Get upset when you spend time with your family or your other friends.", g: false, sign: "isolation"},
-    {t: "Ask for your phone password \"so we can trust each other.\"", g: false, sign: "control"},
-    {t: "Tell you the truth even when it is awkward.", g: true, sign: "honesty"},
-    {t: "Make you careful about what you say around them because of how they react.", g: false, sign: "fear"},
-    {t: "Apologize and make it right when they mess up.", g: true, sign: "fairness and honesty"},
-    {t: "Keep asking after you said no, and say \"you would if you were a real friend.\"", g: false, sign: "pressure"},
-    {t: "Leave it always your turn to pay, apologize, or give in.", g: false, sign: "fairness missing"},
-    {t: "Disagree with you sometimes and say so without insulting you.", g: true, sign: "respect and honesty"},
-    {t: "Check your phone \"as a joke\" when you are not looking.", g: false, sign: "control"},
-    {t: "Cheer for you when you win, even when they lost.", g: true, sign: "support"},
-    {t: "Screenshot what you wrote in the group chat and send it to someone outside the chat.", g: false, sign: "put-downs and trust broken"},
-    {t: "Make you afraid of what will happen if you tell them something they will not like.", g: false, sign: "fear"},
-    {t: "Borrow your things and always bring them back.", g: true, sign: "trust"},
-    {t: "Say \"nobody else likes you, you only have me.\"", g: false, sign: "isolation"},
-    {t: "Forgot your birthday once, felt bad, and made it up to you.", g: true, sign: "honesty and fairness"},
-    {t: "Want to know where you are and who you are with, every hour, and get angry if you do not answer.", g: false, sign: "control"},
-    {t: "Tell you when they think you are making a mistake, then support you either way.", g: true, sign: "honesty and support"}
-  ];
-  var STEPS = ["Say no clearly", "Give a reason", "Offer an alternative", "Walk away"];
-  var N = 12, FLAG_SECS = 3, STEP_SECS = 30;
-
-  var startP = document.getElementById("grStart"), playP = document.getElementById("grPlay"), stepsP = document.getElementById("grSteps"), endP = document.getElementById("grEnd");
-  var elCard = document.getElementById("grCard"), elT = document.getElementById("grTimer"), elTB = document.getElementById("grTimerBox");
-  var elS = document.getElementById("grStreak"), elSc = document.getElementById("grScore"), live = document.getElementById("grLive");
-  var feed = document.getElementById("grFeed"), feed2 = document.getElementById("grFeed2"), feedTimer;
-  var gBtn = document.getElementById("grGreen"), rBtn = document.getElementById("grRed");
-  var deck, di, score, streak, right, secs, tick, locked, missed, next, tenths;
-
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function hud() {
-    elCard.textContent = Math.min(di + 1, N) + " of " + N; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
-    elTB.className = "stat timer" + (secs <= 1 ? " low" : "");
-  }
-  function say(el, text, cls) {
-    el.textContent = text; el.className = "feedback" + (cls ? " " + cls : "");
-    clearTimeout(feedTimer);
-    feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 2400);
-  }
-  function stopClock() { clearInterval(tick); tick = null; }
-  function startClock(n, onOut) {
-    stopClock(); secs = n; hud();
-    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
-  }
-  function bonus() { score += 10; streak += 1; if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; } return ""; }
-
-  function showCard() {
-    var c = deck[di]; locked = false;
-    document.getElementById("grText").textContent = c.t;
-    gBtn.className = "gr-flag green"; rBtn.className = "gr-flag red";
-    live.textContent = "Card " + (di + 1) + ": they " + c.t;
-    startClock(FLAG_SECS, function () { flag(null); });
-  }
-  function flag(green) {
-    if (locked) { return; }
-    locked = true; stopClock();
-    var c = deck[di], ok = green === c.g;
-    if (ok) {
-      right += 1; (c.g ? gBtn : rBtn).classList.add("hit");
-      say(feed, (c.g ? "Green flag: " : "Red flag: ") + c.sign + "." + bonus(), "good");
-    } else {
-      streak = 0;
-      if (green !== null) { (green ? gBtn : rBtn).classList.add("miss"); }
-      (c.g ? gBtn : rBtn).classList.add("hit");
-      say(feed, (green === null ? "Time. " : "No. ") + (c.g ? "That is a green flag: " : "That is a red flag: ") + c.sign + ".", "bad");
-      missed.push((c.g ? "Green flag (" : "Red flag (") + c.sign + "): they " + c.t.charAt(0).toLowerCase() + c.t.slice(1));
-    }
-    hud();
-    setTimeout(function () { di += 1; if (di >= N) { startSteps(); } else { showCard(); } }, 1300);
-  }
-
-  function startSteps() {
-    playP.hidden = true; stepsP.hidden = false; next = 0; locked = false;
-    var slots = document.getElementById("grSlots"), cards = document.getElementById("grCards");
-    slots.innerHTML = ""; cards.innerHTML = "";
-    STEPS.forEach(function () { var li = document.createElement("li"); li.textContent = " "; slots.appendChild(li); });
-    shuffle(STEPS.map(function (_, i) { return i; })).forEach(function (i) {
-      var b = document.createElement("button"); b.type = "button"; b.className = "sr-card"; b.textContent = STEPS[i];
-      b.addEventListener("click", function () { tapStep(i, b); });
-      cards.appendChild(b);
-    });
-    elCard.textContent = "Steps";
-    live.textContent = "Round 2: tap the four refusal steps in order.";
-    startClock(STEP_SECS, function () { endSteps(false); });
-    stepsP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function fill(i, cls) { var li = document.getElementById("grSlots").children[i]; li.textContent = STEPS[i]; li.className = cls; }
-  function tapStep(i, b) {
-    if (locked || !tick) { return; }
-    if (i === next) {
-      b.hidden = true; fill(i, "filled"); next += 1;
-      say(feed2, "Yes. Step " + next + ": " + STEPS[i] + "." + bonus(), "good");
-      hud();
-      if (next === STEPS.length) { endSteps(true); }
-    } else {
-      streak = 0; secs = Math.max(0, secs - 2);
-      b.classList.add("wrong"); setTimeout(function () { b.classList.remove("wrong"); }, 500);
-      say(feed2, "Not that one yet. Minus 2 seconds.", "bad"); hud();
-      if (secs === 0) { stopClock(); endSteps(false); }
-    }
-  }
-  function endSteps(done) {
-    stopClock(); locked = true;
-    if (done) { score += secs; say(feed2, "All four. " + secs + " seconds left, added to your score.", "good"); }
-    else {
-      say(feed2, "Time. Here is the order.", "");
-      for (var i = next; i < STEPS.length; i++) { fill(i, "shown"); }
-      missed.push("The four refusal steps, in order: " + STEPS.join(", ") + ". You do not need all four; two is often enough.");
-      var bs = document.querySelectorAll("#grCards .sr-card"); for (var k = 0; k < bs.length; k++) { bs[k].hidden = true; }
-    }
-    hud();
-    setTimeout(finish, done ? 1400 : 3000);
-  }
-  function finish() {
-    stepsP.hidden = true; endP.hidden = false;
-    document.getElementById("grFinal").textContent = score + " points";
-    if (window.LSA && LSA.report) { LSA.report({game: "green-flag-red-flag", lesson: "3.12", score: score, max: 0, rounds: 2}); }
-    document.getElementById("grSummary").textContent = right + " of " + N + " flags right." + (right === N ? " Every sign, every time." : "");
-    var ul = document.getElementById("grMissed"); ul.innerHTML = "";
-    document.getElementById("grMissWrap").hidden = !missed.length;
-    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
-    endP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function begin() {
-    deck = shuffle(CARDS.slice()).slice(0, N); di = 0; score = 0; streak = 0; right = 0; missed = [];
-    startP.hidden = true; endP.hidden = true; stepsP.hidden = true; playP.hidden = false;
-    hud(); showCard();
-    playP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  gBtn.addEventListener("click", function () { flag(true); });
-  rBtn.addEventListener("click", function () { flag(false); });
-  document.getElementById("grGo").addEventListener("click", begin);
-  document.getElementById("grAgain").addEventListener("click", begin);
-  di = 0; score = 0; streak = 0; secs = FLAG_SECS; hud();
+  var root = document.getElementById("GreenFlagRedFlag");
+  var node = document.getElementById("GreenFlagRedFlag-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
 }());
 </script>
 

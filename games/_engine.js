@@ -39,6 +39,13 @@
 
   /* The How to play paragraph. One rule for every game in the arcade, so the
      start panel says the same true thing everywhere. Student facing. */
+  /* Step kinds the engine does not play itself (grid, cart, and any hand
+     built round) register here: LSAEngine.register(kind, function (ctx, step, done)).
+     The plugin draws into ctx.box, uses ctx.award, ctx.miss, ctx.say and
+     ctx.startClock, and calls done(ok) when the step is over. The chrome,
+     the clock rule, the score and the report stay with the engine. */
+  var PLUGINS = {};
+
   var HOW_TO_PLAY = "Every card gets its own clock: 10 seconds, plus one more second for "
     + "every three words on the card and its choices. No card is shorter than 12 seconds "
     + "or longer than 35. A right answer is always worth 10 points, however long you take. "
@@ -294,7 +301,7 @@
     rounds.forEach(function (r, ri) {
       var steps = list(r.steps);
       steps.forEach(function (s, si) {
-        if (s.kind === "choice" || s.kind === "order" || s.kind === "scene") {
+        if (s.kind === "choice" || s.kind === "order" || s.kind === "scene" || PLUGINS[s.kind]) {
           plan.push({round: r, step: s, ri: ri, last: si === steps.length - 1});
         } else {
           skipped.push(s.kind);
@@ -309,6 +316,8 @@
       plan.forEach(function (p) {
         var n = p.step.kind === "order" ? list(p.step.cards).length
               : p.step.kind === "scene" ? list(p.step.targets).length
+              : PLUGINS[p.step.kind] ? (p.step.max_taps != null ? p.step.max_taps
+                  : list(p.step.items || p.step.pieces).length)
               : list(p.step.items).filter(keepItem).length;
         if (p.step.take && p.step.take > 0 && p.step.take < n) { n = p.step.take; }
         maxPoints += n * perCorrect;
@@ -467,6 +476,7 @@
       if (slotsEl) { slotsEl.hidden = true; }
       if (cardsEl) { cardsEl.hidden = true; }
       if (sceneEl) { sceneEl.hidden = true; }
+      if (customEl) { customEl.hidden = true; }
       if (!deck.length) { nextStep(false); return; }
       /* an item that carries its own option set or count comes first in the
          deal, so a step that switches sets partway plays its first set
@@ -625,6 +635,7 @@
       locked = false;
       if (optsEl) { optsEl.hidden = true; }
       if (sceneEl) { sceneEl.hidden = true; }
+      if (customEl) { customEl.hidden = true; }
       if (slotsEl) { slotsEl.hidden = false; slotsEl.textContent = ""; }
       if (cardsEl) { cardsEl.hidden = false; cardsEl.textContent = ""; }
       if (lab) { lab.textContent = step.title || ("Round " + round.n); }
@@ -769,6 +780,7 @@
       if (optsEl) { optsEl.hidden = true; }
       if (slotsEl) { slotsEl.hidden = true; }
       if (cardsEl) { cardsEl.hidden = true; }
+      if (customEl) { customEl.hidden = true; }
       if (!sceneEl || !img || !targets.length || !(step.scene || {}).width) {
         /* no picture on this device, or nothing measured: the step cannot be
            played by tapping. It is skipped and named on the end panel. */
@@ -802,7 +814,7 @@
         var rect = wrap.getBoundingClientRect();
         var px = (ev.clientX - rect.left) / rect.width * sc.W;
         var py = (ev.clientY - rect.top) / rect.height * sc.H;
-        var t = hitTarget(px, py, sc.targets) || hitTarget(px, py, sc.decoys);
+        var t = hitTarget(px, py, sc.targets.concat(sc.decoys));
         sceneTap(t, {x: px, y: py});
       });
       locked = false;
@@ -853,7 +865,7 @@
           var isDecoy = t && sc.decoys.indexOf(t) >= 0;
           line = (at == null && !t ? "Time. " : (isDecoy ? "Not that one. " : (t ? "No. " : "Nothing there. ")))
                + (want.feedback || String(want.prompt || want.id) + ".");
-          if (isDecoy && t.feedback) { line += " " + t.feedback; }
+          if (isDecoy && (t.feedback || t.prompt)) { line += " " + (t.feedback || t.prompt); }
           missed.push(String(want.prompt || want.id) + ": " + (want.feedback || want.id));
           say(line, "bad");
         }
@@ -869,8 +881,9 @@
       /* find_all */
       if (!t) { say("Nothing there. Keep looking.", ""); return; }
       if (sc.decoys.indexOf(t) >= 0) {
-        say(t.feedback || "That one is fine.", "");
-        announce(t.feedback || "That one is fine.");
+        var why = t.feedback || t.prompt || "That one is fine.";
+        say(why, "");
+        announce(why);
         return;
       }
       if (sc.found[t.id]) { say("Already found.", ""); return; }
@@ -904,6 +917,76 @@
       advTimer = setTimeout(function () { nextStep(done); }, done ? o.advance_ms + 300 : o.advance_ms * 3);
     }
 
+    /*  a plugin step */
+    var customEl = pick(root, "custom");
+    function startPlugin(p) {
+      var step = p.step, round = p.round;
+      if (optsEl) { optsEl.hidden = true; }
+      if (slotsEl) { slotsEl.hidden = true; }
+      if (cardsEl) { cardsEl.hidden = true; }
+      if (sceneEl) { sceneEl.hidden = true; }
+      if (!customEl) { skipped.push(step.kind); nextStep(false); return; }
+      customEl.hidden = false;
+      customEl.textContent = "";
+      customEl.className = "lsa-custom lsa-custom-" + step.kind;
+      locked = false;
+      if (lab) { lab.textContent = step.title || ("Round " + round.n); }
+      drawPrompt({prompt: step.prompt || ""}, "");
+      var finished = false;
+      var ctx = {
+        box: customEl, root: root, data: data, round: round, step: step, o: o,
+        el: el, list: list, shuffle: shuffle, norm: norm, words: words, clamp: clamp,
+        artFor: artFor, say: say, announce: announce, hud: hud,
+        prompt: function (text) { drawPrompt({prompt: text}, ""); },
+        label: function (text) { if (lab) { lab.textContent = text; } },
+        /* a right tap: full points plus the speed bonus and the streak */
+        award: function (points) {
+          var tail = award(points);
+          var ri = p.ri;
+          rightBy[ri] = (rightBy[ri] || 0) + 1;
+          totalBy[ri] = (totalBy[ri] || 0) + 1;
+          hud();
+          return tail;
+        },
+        /* a wrong tap: the streak ends, nothing else is lost; text goes to the study list */
+        miss: function (text) {
+          streak = 0;
+          totalBy[p.ri] = (totalBy[p.ri] || 0) + 1;
+          if (text) { missed.push(String(text)); }
+          hud();
+        },
+        /* points with no bonus and no count, for a partial result like a cart total */
+        add: function (points) { score += points || 0; hud(); },
+        startClock: function (n, onOut) { startClock(n, onOut); },
+        stopClock: stopClock,
+        secs: function () { return secs; },
+        clockFor: function (wordsOnScreen) {
+          return clamp(Math.round(o.base_seconds + (wordsOnScreen || 0) / o.words_per_second),
+                       o.min_seconds, o.max_seconds);
+        },
+        keepItem: keepItem,
+        isLocked: function () { return locked; },
+        lock: function (v) { locked = v !== false; },
+        done: function (ok) {
+          if (finished) { return; }
+          finished = true;
+          stopClock();
+          advTimer = setTimeout(function () {
+            customEl.hidden = true;
+            nextStep(!!ok);
+          }, o.advance_ms);
+        }
+      };
+      try {
+        PLUGINS[step.kind](ctx, step, ctx.done);
+      } catch (e) {
+        /* a broken plugin must not strand the game */
+        say("This round could not load.", "bad");
+        skipped.push(step.kind);
+        ctx.done(false);
+      }
+    }
+
     /*  moving through */
 
     function nextStep(lastWasRight) {
@@ -918,6 +1001,7 @@
       if (playP) { playP.hidden = false; }
       if (p.step.kind === "order") { startOrder(p); }
       else if (p.step.kind === "scene") { startScene(p); }
+      else if (PLUGINS[p.step.kind]) { startPlugin(p); }
       else { startChoice(p); }
       if (playP && playP.scrollIntoView) { playP.scrollIntoView({behavior: "smooth", block: "start"}); }
     }
@@ -1012,5 +1096,9 @@
     };
   }
 
-  window.LSAEngine = {start: start, version: "1.1", howToPlay: HOW_TO_PLAY, words: words};
+  window.LSAEngine = {
+    start: start, version: "1.2", howToPlay: HOW_TO_PLAY, words: words,
+    register: function (kind, fn) { PLUGINS[kind] = fn; },
+    plugins: PLUGINS
+  };
 }());

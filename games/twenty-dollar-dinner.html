@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twenty Dollar Dinner, Life Skills Arcade</title>
+<meta name="description" content="Item cards with prices from Fresh Foods Supermarket. Tap items into your cart, watch the total, and press CHECK to pass the rules. Then do it again at Corner Mart with the same rules and the same twenty dollars.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="TwentyDollarDinner">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-06-04.html">Lesson 6.4</a>. Reviews Lesson 6.4, the twenty dollar comparison from Handout 06.04 Part 3 and the two definitions from Part 1, and it is assessed on the Food Systems Quiz item 7. Play it after the lesson, not before, and keep the three rules from the top of the lesson: the start panel says the neighborhood is made up and nobody is being described, nothing in the game asks about a player's own house, and the tone is a problem to solve. Round 1 usually passes on the first try; round 2 is the point, because the only vegetable at Corner Mart is a can of corn and the check tells the player so. The two sample carts in the teacher key are printed in the end panel. Do not ask for scores out loud on this one; it is a tap game about a neighborhood on paper, and it stays that way.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/twenty-dollar-dinner-title.webp" alt=""><h1 class="game-title">Twenty <span class="alt2">Dollar Dinner</span></h1></div>
+<p class="game-lede">Item cards with prices from Fresh Foods Supermarket. Tap items into your cart, watch the total, and press CHECK to pass the rules. Then do it again at Corner Mart with the same rules and the same twenty dollars.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Everything in this handout is made up for class. The neighborhood is not a real place. Nobody is being described here. You are shopping for one dinner for a family of four. You have $20.</li><li>The tags are game rules built from the lesson's meal parts (a protein, a grain, a vegetable, a fruit, from Lesson 6.2 and the key's sample carts). The item names, sizes, and prices are the handout's exactly.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="twenty-dollar-dinner-chicken-thighs"><img class="piece" src="art/twenty-dollar-dinner-chicken-thighs.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-ground-turkey"><img class="piece" src="art/twenty-dollar-dinner-ground-turkey.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-dry-black-beans"><img class="piece" src="art/twenty-dollar-dinner-dry-black-beans.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-canned-black-beans"><img class="piece" src="art/twenty-dollar-dinner-canned-black-beans.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-rice"><img class="piece" src="art/twenty-dollar-dinner-rice.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-pasta"><img class="piece" src="art/twenty-dollar-dinner-pasta.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-pasta-sauce"><img class="piece" src="art/twenty-dollar-dinner-pasta-sauce.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-potatoes"><img class="piece" src="art/twenty-dollar-dinner-potatoes.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-onions"><img class="piece" src="art/twenty-dollar-dinner-onions.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-carrots"><img class="piece" src="art/twenty-dollar-dinner-carrots.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-broccoli"><img class="piece" src="art/twenty-dollar-dinner-broccoli.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-frozen-vegetables"><img class="piece" src="art/twenty-dollar-dinner-frozen-vegetables.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-bananas"><img class="piece" src="art/twenty-dollar-dinner-bananas.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-apples"><img class="piece" src="art/twenty-dollar-dinner-apples.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-milk-gallon"><img class="piece" src="art/twenty-dollar-dinner-milk-gallon.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-eggs-dozen"><img class="piece" src="art/twenty-dollar-dinner-eggs-dozen.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-shredded-cheese"><img class="piece" src="art/twenty-dollar-dinner-shredded-cheese.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-bread"><img class="piece" src="art/twenty-dollar-dinner-bread.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-tortillas"><img class="piece" src="art/twenty-dollar-dinner-tortillas.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-frozen-pizza"><img class="piece" src="art/twenty-dollar-dinner-frozen-pizza.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-canned-soup"><img class="piece" src="art/twenty-dollar-dinner-canned-soup.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-canned-corn"><img class="piece" src="art/twenty-dollar-dinner-canned-corn.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-white-bread"><img class="piece" src="art/twenty-dollar-dinner-white-bread.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-milk-quart"><img class="piece" src="art/twenty-dollar-dinner-milk-quart.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-eggs-six"><img class="piece" src="art/twenty-dollar-dinner-eggs-six.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-sliced-cheese"><img class="piece" src="art/twenty-dollar-dinner-sliced-cheese.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-hot-dogs"><img class="piece" src="art/twenty-dollar-dinner-hot-dogs.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-ramen"><img class="piece" src="art/twenty-dollar-dinner-ramen.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-chips"><img class="piece" src="art/twenty-dollar-dinner-chips.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-soda"><img class="piece" src="art/twenty-dollar-dinner-soda.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-candy-bar"><img class="piece" src="art/twenty-dollar-dinner-candy-bar.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-one-banana"><img class="piece" src="art/twenty-dollar-dinner-one-banana.webp" alt="" loading="lazy"></span>
+<span data-key="twenty-dollar-dinner-cart"><img class="piece" src="art/twenty-dollar-dinner-cart.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Two families have the same twenty dollars. Why does one of them eat better than the other?</li><li>Having enough food is not only about money. It is also about distance, transportation, time, and what the nearest store actually stocks.</li><li>The five community responses: food pantries, SNAP and WIC, community gardens, mobile markets, and school meals.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="TwentyDollarDinner-data">{"schema": "1.0", "slug": "twenty-dollar-dinner", "title": "Twenty Dollar Dinner", "unit": 6, "lessons": ["6.4"], "handouts": ["Handout 06.04 - Neighborhood Map and Price Comparison"], "standards": ["NYS FSP 4. Future of Food in a Global Society d) Identify the consequences of food scarcity and hunger on society", "NYS FSP 5. Consumer Resources and Finance c) Apply consumer skills to selecting and purchasing of food items", "CTE CCO 5. Community Needs Assessment b) Research community resources available to support individuals and families", "CTE FCL 4. Buying Goods and Services g) Compare local, national, and global resources for obtaining goods and services", "National FCS 3.0: 14.3.4 Judge policies and practices that affect food security, sustainability, food integrity, and family nutrition.", "National FCS 3.0: 14.1.3 Look into how government, the economy, and technology shape food choices and practices."], "source_file": "u6.json", "mechanic_note": "build with rules: the price list from the handout is laid out as item cards with the price on each; tap items into the cart and a running total shows; press CHECK to pass the rules. Round 1 is Fresh Foods Supermarket, round 2 is Corner Mart with the same rules and the same twenty dollars. Five fast questions close the game", "teacher_note": "Reviews Lesson 6.4, the twenty dollar comparison from Handout 06.04 Part 3 and the two definitions from Part 1, and it is assessed on the Food Systems Quiz item 7. Play it after the lesson, not before, and keep the three rules from the top of the lesson: the start panel says the neighborhood is made up and nobody is being described, nothing in the game asks about a player's own house, and the tone is a problem to solve. Round 1 usually passes on the first try; round 2 is the point, because the only vegetable at Corner Mart is a can of corn and the check tells the player so. The two sample carts in the teacher key are printed in the end panel. Do not ask for scores out loud on this one; it is a tap game about a neighborhood on paper, and it stays that way.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": null, "bank_seconds": true, "note": "50 for a cart that passes all the rules, 10 more for every rule passed with a fruit in the cart, 10 per closing question, 5 bonus on every third correct in a row; a failed check names the rule it missed in the handout's words and lets the player fix the cart; seconds left bank when a cart passes"}, "art": {"title": {"file": "twenty-dollar-dinner-title.png", "line": "A red shopping basket holding green broccoli, a yellow banana, and a white egg carton, black outline."}, "scene": [], "cards": [{"file": "twenty-dollar-dinner-chicken-thighs.png", "line": "A white foam tray of cream chicken thighs under clear wrap, black outline."}, {"file": "twenty-dollar-dinner-ground-turkey.png", "line": "A white tray of light pink ground turkey under clear wrap, black outline."}, {"file": "twenty-dollar-dinner-dry-black-beans.png", "line": "A clear bag of dry black beans with a red label band, no text, black outline."}, {"file": "twenty-dollar-dinner-canned-black-beans.png", "line": "A light gray can with a black label band, no text, black outline."}, {"file": "twenty-dollar-dinner-rice.png", "line": "A clear bag of white rice with a sky blue label band, no text, black outline."}, {"file": "twenty-dollar-dinner-pasta.png", "line": "A sky blue box of dry pasta with yellow strands in the window, no text, black outline."}, {"file": "twenty-dollar-dinner-pasta-sauce.png", "line": "A glass jar of red sauce with a light gray lid, no text, black outline."}, {"file": "twenty-dollar-dinner-potatoes.png", "line": "A cream mesh bag of brown potatoes, black outline."}, {"file": "twenty-dollar-dinner-onions.png", "line": "A yellow mesh bag of yellow onions, black outline."}, {"file": "twenty-dollar-dinner-carrots.png", "line": "A clear bag of red-orange carrots with green tops, black outline."}, {"file": "twenty-dollar-dinner-broccoli.png", "line": "One head of green broccoli, black outline."}, {"file": "twenty-dollar-dinner-frozen-vegetables.png", "line": "A sky blue frozen bag with green peas and yellow corn showing, no text, black outline."}, {"file": "twenty-dollar-dinner-bananas.png", "line": "A bunch of three yellow bananas, black outline."}, {"file": "twenty-dollar-dinner-apples.png", "line": "A clear bag of red apples, black outline."}, {"file": "twenty-dollar-dinner-milk-gallon.png", "line": "A white gallon milk jug with a red cap, no text, black outline."}, {"file": "twenty-dollar-dinner-eggs-dozen.png", "line": "An open cream carton of twelve white eggs, black outline."}, {"file": "twenty-dollar-dinner-shredded-cheese.png", "line": "A clear bag of yellow shredded cheese with a green label band, no text, black outline."}, {"file": "twenty-dollar-dinner-bread.png", "line": "A loaf of sliced bread in a clear bag with a red twist tie, black outline."}, {"file": "twenty-dollar-dinner-tortillas.png", "line": "A clear package of a stack of cream flour tortillas, black outline."}, {"file": "twenty-dollar-dinner-frozen-pizza.png", "line": "A flat red box with a round yellow pizza picture on the front, no text, black outline."}, {"file": "twenty-dollar-dinner-canned-soup.png", "line": "A light gray can with a red label band, no text, black outline."}, {"file": "twenty-dollar-dinner-canned-corn.png", "line": "A light gray can with a yellow label band, no text, black outline."}, {"file": "twenty-dollar-dinner-white-bread.png", "line": "A loaf of white sliced bread in a clear bag with a sky blue twist tie, black outline."}, {"file": "twenty-dollar-dinner-milk-quart.png", "line": "A small white quart milk carton with a sky blue top, no text, black outline."}, {"file": "twenty-dollar-dinner-eggs-six.png", "line": "An open cream carton of six white eggs, black outline."}, {"file": "twenty-dollar-dinner-sliced-cheese.png", "line": "A clear package of six square yellow cheese slices, black outline."}, {"file": "twenty-dollar-dinner-hot-dogs.png", "line": "A clear package of eight red hot dogs, black outline."}, {"file": "twenty-dollar-dinner-ramen.png", "line": "Three square cream ramen packs stacked, with a red band, no text, black outline."}, {"file": "twenty-dollar-dinner-chips.png", "line": "A large yellow chip bag, puffed, no text, black outline."}, {"file": "twenty-dollar-dinner-soda.png", "line": "A two liter clear bottle of dark soda with a red cap, no text, black outline."}, {"file": "twenty-dollar-dinner-candy-bar.png", "line": "One candy bar in a red wrapper, no text, black outline."}, {"file": "twenty-dollar-dinner-one-banana.png", "line": "One single yellow banana, black outline."}], "buttons": [{"file": "twenty-dollar-dinner-cart.png", "line": "A light gray shopping cart, empty, with black wheels, black outline."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: Fresh Foods Supermarket, 19 items, 90 seconds to build a dinner for a family of four and pass the check", "seconds_per_item": 90, "engines": ["cart", "choice"], "steps": [{"kind": "cart", "store": "Fresh Foods Supermarket (1.4 miles from Home C)", "budget": 20.0, "rules": [{"id": "budget", "text": "Both carts have to total twenty dollars or less", "check": "total at or under 20.00"}, {"id": "protein", "text": "Both carts have to feed four people one dinner: at least one protein", "check": "at least one item tagged protein"}, {"id": "vegetable", "text": "At least one vegetable", "check": "at least one item tagged vegetable"}, {"id": "grain", "text": "At least one grain or starch", "check": "at least one item tagged grain"}], "items": [{"id": "chicken-thighs", "prompt": "Chicken thighs", "answer": ["chicken-thighs"], "price": 4.98, "size": "2 lb pack", "food_tags": ["protein"]}, {"id": "ground-turkey", "prompt": "Ground turkey", "answer": ["ground-turkey"], "price": 4.49, "size": "1 lb", "food_tags": ["protein"]}, {"id": "dry-black-beans", "prompt": "Dry black beans", "answer": ["dry-black-beans"], "price": 1.49, "size": "1 lb bag", "food_tags": ["protein"]}, {"id": "canned-black-beans", "prompt": "Canned black beans", "answer": ["canned-black-beans"], "price": 0.99, "size": "15 oz", "food_tags": ["protein"]}, {"id": "rice", "prompt": "Rice", "answer": ["rice"], "price": 2.29, "size": "2 lb bag", "food_tags": ["grain"]}, {"id": "pasta", "prompt": "Pasta", "answer": ["pasta"], "price": 1.29, "size": "1 lb box", "food_tags": ["grain"]}, {"id": "pasta-sauce", "prompt": "Pasta sauce", "answer": ["pasta-sauce"], "price": 2.49, "size": "24 oz jar", "food_tags": []}, {"id": "potatoes", "prompt": "Potatoes", "answer": ["potatoes"], "price": 3.99, "size": "5 lb bag", "food_tags": ["grain", "vegetable"]}, {"id": "onions", "prompt": "Onions", "answer": ["onions"], "price": 2.99, "size": "3 lb bag", "food_tags": ["vegetable"]}, {"id": "carrots", "prompt": "Carrots", "answer": ["carrots"], "price": 1.99, "size": "2 lb bag", "food_tags": ["vegetable"]}, {"id": "broccoli", "prompt": "Broccoli", "answer": ["broccoli"], "price": 1.99, "size": "1 head", "food_tags": ["vegetable"]}, {"id": "frozen-vegetables", "prompt": "Frozen mixed vegetables", "answer": ["frozen-vegetables"], "price": 1.29, "size": "12 oz", "food_tags": ["vegetable"]}, {"id": "bananas", "prompt": "Bananas", "answer": ["bananas"], "price": 0.69, "size": "1 lb (about 3)", "food_tags": ["fruit"]}, {"id": "apples", "prompt": "Apples", "answer": ["apples"], "price": 3.99, "size": "3 lb bag", "food_tags": ["fruit"]}, {"id": "milk-gallon", "prompt": "Milk", "answer": ["milk-gallon"], "price": 3.99, "size": "1 gallon", "food_tags": ["protein"]}, {"id": "eggs-dozen", "prompt": "Eggs", "answer": ["eggs-dozen"], "price": 3.49, "size": "1 dozen", "food_tags": ["protein"]}, {"id": "shredded-cheese", "prompt": "Shredded cheese", "answer": ["shredded-cheese"], "price": 2.99, "size": "8 oz", "food_tags": ["protein"]}, {"id": "bread", "prompt": "Bread", "answer": ["bread"], "price": 2.49, "size": "1 loaf", "food_tags": ["grain"]}, {"id": "tortillas", "prompt": "Tortillas", "answer": ["tortillas"], "price": 2.49, "size": "10 count", "food_tags": ["grain"]}], "max_taps": 4}, {"kind": "choice", "label": "closing_questions", "items": [{"id": "c-desert", "prompt": "A food desert is", "answer": ["a neighborhood where getting to a full grocery store is hard because of distance, transportation, or both"], "choices": ["a neighborhood where getting to a full grocery store is hard because of distance, transportation, or both", "a place with no food at all", "a neighborhood with no restaurants"], "feedback": "Do not accept \"a place with no food.\" In the neighborhood you mapped there is a store on almost every corner, and it is still hard to put a decent dinner on the table."}, {"id": "c-insecurity", "prompt": "Food insecurity means", "answer": ["not having reliable access to enough affordable food"], "choices": ["not having reliable access to enough affordable food", "not liking the food that is available", "living more than a mile from a store"], "feedback": "Food insecurity is not having reliable access to enough affordable food."}, {"id": "c-causes", "prompt": "Which of these is one of the four things that create a food desert?", "answer": ["Selection (what the store actually stocks)"], "choices": ["Selection (what the store actually stocks)", "The weather", "How many people live there"], "feedback": "The four causes: distance, transportation, price, and selection."}, {"id": "c-missing", "prompt": "The item that was not available at all at Corner Mart", "answer": ["Fresh vegetables and fresh meat"], "choices": ["Fresh vegetables and fresh meat", "Milk and eggs", "Bread and pasta"], "feedback": "The supermarket cart buys roughly two to three times the food weight and includes fresh produce and a real protein."}, {"id": "c-easier", "prompt": "What would make the trip easier? Name one change to the neighborhood, not to the family.", "answer": ["A mobile market on Pine Street"], "choices": ["A mobile market on Pine Street", "The family should get a car", "The family should shop less often"], "feedback": "Good answers: a bus every twenty minutes, a sidewalk on Route 9, a mobile market on Pine Street, a grocery delivery that accepts SNAP. The causes are about the neighborhood, not the household."}], "options": {"source": "per_item", "style": "choices", "count": 3}}]}, {"n": 2, "note": "Round 2: Corner Mart, 17 items, 90 seconds, same rules, then 5 questions at 8 seconds each", "seconds_per_item": 90, "engines": ["cart"], "steps": [{"kind": "cart", "store": "Corner Mart (0.2 miles from Home C, open 24 hours)", "budget": 20.0, "rules": [{"id": "budget", "text": "Both carts have to total twenty dollars or less", "check": "total at or under 20.00"}, {"id": "protein", "text": "Both carts have to feed four people one dinner: at least one protein", "check": "at least one item tagged protein"}, {"id": "vegetable", "text": "At least one vegetable", "check": "at least one item tagged vegetable"}, {"id": "grain", "text": "At least one grain or starch", "check": "at least one item tagged grain"}], "items": [{"id": "cm-canned-black-beans", "prompt": "Canned black beans", "answer": ["cm-canned-black-beans"], "price": 1.89, "size": "15 oz", "food_tags": ["protein"]}, {"id": "cm-rice", "prompt": "Rice", "answer": ["cm-rice"], "price": 2.79, "size": "14 oz box", "food_tags": ["grain"]}, {"id": "cm-pasta", "prompt": "Pasta", "answer": ["cm-pasta"], "price": 2.49, "size": "1 lb box", "food_tags": ["grain"]}, {"id": "cm-pasta-sauce", "prompt": "Pasta sauce", "answer": ["cm-pasta-sauce"], "price": 3.49, "size": "16 oz jar", "food_tags": []}, {"id": "cm-frozen-pizza", "prompt": "Frozen pizza", "answer": ["cm-frozen-pizza"], "price": 6.99, "size": "1", "food_tags": ["grain"]}, {"id": "cm-canned-soup", "prompt": "Canned soup", "answer": ["cm-canned-soup"], "price": 2.29, "size": "10.5 oz", "food_tags": []}, {"id": "cm-canned-corn", "prompt": "Canned corn", "answer": ["cm-canned-corn"], "price": 1.79, "size": "15 oz", "food_tags": ["vegetable"]}, {"id": "cm-white-bread", "prompt": "White bread", "answer": ["cm-white-bread"], "price": 3.49, "size": "1 loaf", "food_tags": ["grain"]}, {"id": "cm-milk-quart", "prompt": "Milk", "answer": ["cm-milk-quart"], "price": 2.79, "size": "1 quart", "food_tags": ["protein"]}, {"id": "cm-eggs-six", "prompt": "Eggs", "answer": ["cm-eggs-six"], "price": 3.29, "size": "6 count", "food_tags": ["protein"]}, {"id": "cm-sliced-cheese", "prompt": "Sliced cheese", "answer": ["cm-sliced-cheese"], "price": 2.99, "size": "6 slices", "food_tags": ["protein"]}, {"id": "cm-hot-dogs", "prompt": "Hot dogs", "answer": ["cm-hot-dogs"], "price": 4.49, "size": "8 count", "food_tags": ["protein"]}, {"id": "cm-ramen", "prompt": "Ramen noodle packs", "answer": ["cm-ramen"], "price": 1.5, "size": "3 packs", "food_tags": ["grain"]}, {"id": "cm-chips", "prompt": "Chips", "answer": ["cm-chips"], "price": 4.29, "size": "1 large bag", "food_tags": []}, {"id": "cm-soda", "prompt": "Soda", "answer": ["cm-soda"], "price": 3.19, "size": "2 liter", "food_tags": []}, {"id": "cm-candy-bar", "prompt": "Candy bar", "answer": ["cm-candy-bar"], "price": 2.29, "size": "1", "food_tags": []}, {"id": "cm-one-banana", "prompt": "Fresh fruit: 1 banana", "answer": ["cm-one-banana"], "price": 0.99, "size": "1", "food_tags": ["fruit"]}], "max_taps": 4}]}], "study": ["Two families have the same twenty dollars. Why does one of them eat better than the other?", "Having enough food is not only about money. It is also about distance, transportation, time, and what the nearest store actually stocks.", "The five community responses: food pantries, SNAP and WIC, community gardens, mobile markets, and school meals."], "rule_lines": ["Everything in this handout is made up for class. The neighborhood is not a real place. Nobody is being described here. You are shopping for one dinner for a family of four. You have $20.", "The tags are game rules built from the lesson's meal parts (a protein, a grain, a vegetable, a fruit, from Lesson 6.2 and the key's sample carts). The item names, sizes, and prices are the handout's exactly."], "reference": {"round1.sample_pass": "chicken thighs $4.98, rice $2.29, carrots $1.99, broccoli $1.99, potatoes $3.99, bananas $0.69, eggs $3.49 equals $19.42, which is a real dinner with leftovers and breakfast the next day", "round2.not_sold": ["Fresh vegetables: not sold here", "Fresh meat: not sold here"], "round2.sample_pass": "pasta $2.49, pasta sauce $3.49, canned corn $1.79, sliced cheese $2.99, white bread $3.49, milk quart $2.79 equals $17.04. It feeds four once, with no vegetables beyond a can of corn and no fresh anything"}, "_unmapped": {}, "plugins": ["cart"], "repaired": true, "lede": "Item cards with prices from Fresh Foods Supermarket. Tap items into your cart, watch the total, and press CHECK to pass the rules. Then do it again at Corner Mart with the same rules and the same twenty dollars."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+<script src="plugins/cart.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("TwentyDollarDinner");
+  var node = document.getElementById("TwentyDollarDinner-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

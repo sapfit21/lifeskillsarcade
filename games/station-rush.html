@@ -40,83 +40,115 @@
 </header>
 <main id="main" class="plain">
 
-<!-- Station Rush. Reviews Lessons 0.2 and 1.2 (with the routine from 1.4 and the role cards from Lab 1). Built 2026-09-15.
-     Everything on this page is static: no sound, no storage, no network. -->
-<div class="game" id="stationRush">
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="StationRush">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
 <div class="teacher-note">
 <strong>Teacher note</strong>
-<p>This game reviews the routines from <a href="../lesson-00-02.html">Lesson 0.2, How This Room Works</a> and <a href="../lesson-01-02.html">Lesson 1.2, Handwashing, the Danger Zone, and Cross Contamination</a>, in the exact words the class hears all year: the six-step sanitation routine (taught for the exam in <a href="../lesson-01-04.html">Lesson 1.4</a>), the six handwashing steps, and the eight lab roles from Handout 1.8 in the order they turn on. Round 4, Whose job is it, asks who does what at a station. Use it as the do now on any lab day, or on the board with the class calling out the next card. Nothing is saved when the page closes.</p>
+<p>Reviews <a href="../lesson-00-02.html">Lesson 0.2</a>, <a href="../lesson-01-02.html">Lesson 1.2</a>, <a href="../lesson-01-04.html">Lesson 1.4</a>. This game reviews the routines from Lesson 0.2, How This Room Works and Lesson 1.2, Handwashing, the Danger Zone, and Cross Contamination, in the exact words the class hears all year: the six-step sanitation routine (taught for the exam in Lesson 1.4), the six handwashing steps, and the eight lab roles from Handout 1.8 in the order they turn on. Round 4, Whose job is it, asks who does what at a station. Use it as the do now on any lab day, or on the board with the class calling out the next card. Nothing is saved when the page closes.</p>
 </div>
 
+<!-- 2. Title and lede. The second word takes the accent style. -->
 <div class="game-head"><img class="title-art" src="art/station-rush-title.webp" alt=""><h1 class="game-title">Station <span class="alt2">Rush</span></h1></div>
 <p class="game-lede">The cards are shuffled. Tap them into the right order before the clock runs out. Three order rounds, then a lightning round: whose job is it?</p>
 
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
 <div class="hud" aria-hidden="true">
-  <div class="stat"><span class="lab">Round</span><span class="val" id="srRound">1 of 4</span></div>
-  <div class="stat timer" id="srTimerBox"><span class="lab">Seconds</span><span class="val" id="srTimer">40</span></div>
-  <div class="stat"><span class="lab">Streak</span><span class="val" id="srStreak">0</span></div>
-  <div class="stat score"><span class="lab">Score</span><span class="val" id="srScore">0</span></div>
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
 </div>
-<div class="sr-live" aria-live="polite" id="srLive"></div>
 
-<div class="panel" id="srStart">
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
   <h2>How to play</h2>
-  <p>Each card you place in the right spot is 10 points. Three right in a row adds a 5 point bonus. A wrong tap costs 2 seconds and resets your streak. When the clock runs out, the round ends and the right order shows. Round 4 is lightning: eight seconds a question.</p>
-  <p><button class="gbtn go" id="srGo" type="button">Start</button></p>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
 </div>
 
-<div class="sr-play" id="srPlay" hidden>
-  <div class="sr-task"><span class="sr-tasklab" id="srTaskLab">Round 1</span><span class="sr-tasktext" id="srTaskText"></span></div>
-  <div class="feedback" id="srFeed"></div>
-  <ol class="sr-slots" id="srSlots" aria-label="The order so far"></ol>
-  <div class="sr-cards" id="srCards"></div>
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
 </div>
 
-<div class="sr-play" id="srQuiz" hidden>
-  <div class="sr-task"><span class="sr-tasklab" id="srQLab">Round 4: whose job is it?</span><span class="sr-tasktext" id="srQText"></span></div>
-  <div class="feedback" id="srQFeed"></div>
-  <div class="choice-row" id="srQChoices"></div>
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="station-rush-hair-back"><img class="piece" src="art/station-rush-hair-back.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-sleeves-up"><img class="piece" src="art/station-rush-sleeves-up.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-wash-hands"><img class="piece" src="art/station-rush-wash-hands.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-sanitize"><img class="piece" src="art/station-rush-sanitize.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-clean-as-you-go"><img class="piece" src="art/station-rush-clean-as-you-go.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-station-check"><img class="piece" src="art/station-rush-station-check.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-manager"><img class="piece" src="art/station-rush-role-manager.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-head-cook"><img class="piece" src="art/station-rush-role-head-cook.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-second-cook"><img class="piece" src="art/station-rush-role-second-cook.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-prep-cook"><img class="piece" src="art/station-rush-role-prep-cook.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-helper"><img class="piece" src="art/station-rush-role-helper.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-toppings"><img class="piece" src="art/station-rush-role-toppings.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-plate-builder"><img class="piece" src="art/station-rush-role-plate-builder.webp" alt="" loading="lazy"></span>
+<span data-key="station-rush-role-time-keeper"><img class="piece" src="art/station-rush-role-time-keeper.webp" alt="" loading="lazy"></span>
 </div>
 
-<div class="art-bank" id="srArt" hidden>
-<span data-key="Hair back"><img class="piece" src="art/station-rush-hair-back.webp" alt="" loading="lazy"></span>
-<span data-key="Sleeves up"><img class="piece" src="art/station-rush-sleeves-up.webp" alt="" loading="lazy"></span>
-<span data-key="Wash hands"><img class="piece" src="art/station-rush-wash-hands.webp" alt="" loading="lazy"></span>
-<span data-key="Sanitize surfaces"><img class="piece" src="art/station-rush-sanitize.webp" alt="" loading="lazy"></span>
-<span data-key="Clean as you go"><img class="piece" src="art/station-rush-clean-as-you-go.webp" alt="" loading="lazy"></span>
-<span data-key="Station check before dismissal"><img class="piece" src="art/station-rush-station-check.webp" alt="" loading="lazy"></span>
-<span data-key="Station Manager"><img class="piece" src="art/station-rush-role-manager.webp" alt="" loading="lazy"></span>
-<span data-key="Head Cook"><img class="piece" src="art/station-rush-role-head-cook.webp" alt="" loading="lazy"></span>
-<span data-key="Second Cook"><img class="piece" src="art/station-rush-role-second-cook.webp" alt="" loading="lazy"></span>
-<span data-key="Prep Cook"><img class="piece" src="art/station-rush-role-prep-cook.webp" alt="" loading="lazy"></span>
-<span data-key="Helper Cook"><img class="piece" src="art/station-rush-role-helper.webp" alt="" loading="lazy"></span>
-<span data-key="Toppings Chief"><img class="piece" src="art/station-rush-role-toppings.webp" alt="" loading="lazy"></span>
-<span data-key="Plate Builder"><img class="piece" src="art/station-rush-role-plate-builder.webp" alt="" loading="lazy"></span>
-<span data-key="Time Keeper"><img class="piece" src="art/station-rush-role-time-keeper.webp" alt="" loading="lazy"></span>
-</div>
-<div class="panel end" id="srEnd" hidden>
-  <h2>Station check</h2>
-  <p class="big" id="srFinal"></p>
-  <p id="srSummary"></p>
-  <div id="srMissWrap"><p><b>The ones to study:</b></p><ul class="miss-list" id="srMissed"></ul></div>
-  <p><button class="gbtn go" id="srAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
 
 <style>
+/* The engine's own layout. Everything else comes from games.css. */
 .sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
-  box-shadow:5px 5px 0 var(--outline)}
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
 .sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
 .sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
 @media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
   position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
 .sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
 .sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
 .sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
-.sr-slots li .tag{display:block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2);margin-top:.15rem}
 .sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
 @media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
   background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
@@ -124,212 +156,45 @@
 .sr-card.wrong{background:var(--brand-red);color:#fff}
 .sr-card[hidden]{display:none}
 .sr-card.has-art{display:flex;align-items:center;gap:.55rem}
-.sr-card .piece,.sr-slots li .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
-.sr-slots li .piece{position:absolute;right:.4rem;top:.3rem;width:2.2rem;height:2.2rem}
-.sr-slots li.has-art{padding-right:3rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
 </style>
 
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="StationRush-data">{"schema": "1.0", "slug": "station-rush", "title": "Station Rush", "unit": 0, "lessons": ["0.2", "1.2", "1.4"], "handouts": ["Handout 1.8"], "standards": [], "source_file": "hand built 2026-09-15, converted to engine data 2026-09-21", "mechanic_note": "order: the six sanitation steps, the six handwashing steps and the eight lab roles, each set shuffled and tapped into order; then a choice: a job appears, tap the role that does it (12 dealt from 20).", "lede": "The cards are shuffled. Tap them into the right order before the clock runs out. Three order rounds, then a lightning round: whose job is it?", "teacher_note": "This game reviews the routines from Lesson 0.2, How This Room Works and Lesson 1.2, Handwashing, the Danger Zone, and Cross Contamination, in the exact words the class hears all year: the six-step sanitation routine (taught for the exam in Lesson 1.4), the six handwashing steps, and the eight lab roles from Handout 1.8 in the order they turn on. Round 4, Whose job is it, asks who does what at a station. Use it as the do now on any lab day, or on the board with the class calling out the next card. Nothing is saved when the page closes.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": false, "note": ""}, "art": {"title": {"file": "station-rush-title.webp", "line": "A red kitchen timer with a black dial and no numbers, ringing, with three short black motion lines on each side."}, "scene": [], "cards": [{"file": "station-rush-hair-back.webp", "line": "A yellow hair tie holding back a ponytail of black hair, seen from behind, no face."}, {"file": "station-rush-sleeves-up.webp", "line": "A single plain flat forearm and hand, held up on its own with nothing else in the picture, wearing a sky blue long sleeve that is pushed up to the elbow. No body, no face, no objects."}, {"file": "station-rush-wash-hands.webp", "line": "Two plain flat hands under a running faucet with white soap bubbles."}, {"file": "station-rush-sanitize.webp", "line": "A white spray bottle with a green trigger next to a folded cream cloth on a counter."}, {"file": "station-rush-clean-as-you-go.webp", "line": "A green dish tub with a sponge and white bubbles, a clean white plate leaning against it."}, {"file": "station-rush-station-check.webp", "line": "A white clipboard with a green check mark on it, a pencil clipped to the top. No writing."}, {"file": "station-rush-role-manager.webp", "line": "A white clipboard with a red timer beside it."}, {"file": "station-rush-role-head-cook.webp", "line": "A tall white chef's hat."}, {"file": "station-rush-role-second-cook.webp", "line": "A gray skillet with a black handle and a wooden spoon."}, {"file": "station-rush-role-prep-cook.webp", "line": "A set of nested measuring cups in sky blue with a leveled spoon of flour."}, {"file": "station-rush-role-helper.webp", "line": "A clear glass liquid measuring cup with a red fill line, no markings."}, {"file": "station-rush-role-toppings.webp", "line": "A small yellow bowl of shredded cheese with a spoon."}, {"file": "station-rush-role-plate-builder.webp", "line": "Two white plates in a row with a fork on each."}, {"file": "station-rush-role-time-keeper.webp", "line": "A red kitchen timer with a black dial, no numbers."}], "buttons": [], "bins": [{"file": "station-rush-role-manager.webp", "line": "A white clipboard with a red timer beside it."}, {"file": "station-rush-role-head-cook.webp", "line": "A tall white chef's hat."}, {"file": "station-rush-role-second-cook.webp", "line": "A gray skillet with a black handle and a wooden spoon."}, {"file": "station-rush-role-prep-cook.webp", "line": "A set of nested measuring cups in sky blue with a leveled spoon of flour."}, {"file": "station-rush-role-helper.webp", "line": "A clear glass liquid measuring cup with a red fill line, no markings."}, {"file": "station-rush-role-toppings.webp", "line": "A small yellow bowl of shredded cheese with a spoon."}, {"file": "station-rush-role-plate-builder.webp", "line": "Two white plates in a row with a fork on each."}, {"file": "station-rush-role-time-keeper.webp", "line": "A red kitchen timer with a black dial, no numbers."}], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: the sanitation routine (6 cards in order), then handwashing (6 cards in order)", "seconds_per_item": 10, "engines": ["order"], "steps": [{"kind": "order", "label": "round1.sanitation", "title": "The sanitation routine", "prompt": "Every lab starts and ends the same way. Tap the six steps in order.", "feedback": null, "cards": [{"id": "hair-back", "prompt": "Hair back", "rank": 1, "picture": "station-rush-hair-back.webp", "feedback": "Start", "tags": {"tag": "Start"}}, {"id": "sleeves-up", "prompt": "Sleeves up", "rank": 2, "picture": "station-rush-sleeves-up.webp", "feedback": "Start", "tags": {"tag": "Start"}}, {"id": "wash-hands", "prompt": "Wash hands", "rank": 3, "picture": "station-rush-wash-hands.webp", "feedback": "Start", "tags": {"tag": "Start"}}, {"id": "sanitize-surfaces", "prompt": "Sanitize surfaces", "rank": 4, "picture": "station-rush-sanitize.webp", "feedback": "Start", "tags": {"tag": "Start"}}, {"id": "clean-as-you-go", "prompt": "Clean as you go", "rank": 5, "picture": "station-rush-clean-as-you-go.webp", "feedback": "During", "tags": {"tag": "During"}}, {"id": "station-check-before-dismissal", "prompt": "Station check before dismissal", "rank": 6, "picture": "station-rush-station-check.webp", "feedback": "End", "tags": {"tag": "End"}}]}, {"kind": "order", "label": "round1.handwashing", "title": "Handwashing", "prompt": "Twenty seconds of scrubbing. Tap the six steps in order.", "feedback": null, "cards": [{"id": "wet", "prompt": "Wet", "rank": 1}, {"id": "soap", "prompt": "Soap", "rank": 2}, {"id": "scrub-20-seconds", "prompt": "Scrub 20 seconds", "rank": 3, "feedback": "backs, between fingers, under nails", "tags": {"tag": "backs, between fingers, under nails"}}, {"id": "rinse", "prompt": "Rinse", "rank": 4}, {"id": "dry-with-a-paper-towel", "prompt": "Dry with a paper towel", "rank": 5}, {"id": "turn-the-faucet-off-with-the-towel", "prompt": "Turn the faucet off with the towel", "rank": 6}]}]}, {"n": 2, "note": "Round 2: the eight lab roles in the order they turn on, then whose job is it: 12 jobs dealt from 20, eight role bins", "seconds_per_item": 10, "engines": ["order", "choice"], "steps": [{"kind": "order", "label": "round2.roles", "title": "The lab roles", "prompt": "Four core roles run at every station. The rest turn on as the team grows. Tap the eight roles in the order they turn on.", "feedback": null, "cards": [{"id": "station-manager", "prompt": "Station Manager", "rank": 1, "picture": "station-rush-role-manager.webp", "feedback": "Core", "tags": {"tag": "Core"}}, {"id": "head-cook", "prompt": "Head Cook", "rank": 2, "picture": "station-rush-role-head-cook.webp", "feedback": "Core", "tags": {"tag": "Core"}}, {"id": "second-cook", "prompt": "Second Cook", "rank": 3, "picture": "station-rush-role-second-cook.webp", "feedback": "Core", "tags": {"tag": "Core"}}, {"id": "prep-cook", "prompt": "Prep Cook", "rank": 4, "picture": "station-rush-role-prep-cook.webp", "feedback": "Core", "tags": {"tag": "Core"}}, {"id": "helper-cook", "prompt": "Helper Cook", "rank": 5, "picture": "station-rush-role-helper.webp", "feedback": "Turns on at 5", "tags": {"tag": "Turns on at 5"}}, {"id": "toppings-chief", "prompt": "Toppings Chief", "rank": 6, "picture": "station-rush-role-toppings.webp", "feedback": "Turns on at 6", "tags": {"tag": "Turns on at 6"}}, {"id": "plate-builder", "prompt": "Plate Builder", "rank": 7, "picture": "station-rush-role-plate-builder.webp", "feedback": "Turns on at 7", "tags": {"tag": "Turns on at 7"}}, {"id": "time-keeper", "prompt": "Time Keeper", "rank": 8, "picture": "station-rush-role-time-keeper.webp", "feedback": "Turns on at 8", "tags": {"tag": "Turns on at 8"}}]}, {"kind": "choice", "label": "round2.jobs", "title": "Whose job is it?", "take": 12, "options": {"source": "fixed", "style": "bins", "count": 8, "list": [{"id": "Station Manager", "label": "Station Manager", "picture": "station-rush-role-manager.webp"}, {"id": "Head Cook", "label": "Head Cook", "picture": "station-rush-role-head-cook.webp"}, {"id": "Second Cook", "label": "Second Cook", "picture": "station-rush-role-second-cook.webp"}, {"id": "Prep Cook", "label": "Prep Cook", "picture": "station-rush-role-prep-cook.webp"}, {"id": "Helper Cook", "label": "Helper Cook", "picture": "station-rush-role-helper.webp"}, {"id": "Toppings Chief", "label": "Toppings Chief", "picture": "station-rush-role-toppings.webp"}, {"id": "Plate Builder", "label": "Plate Builder", "picture": "station-rush-role-plate-builder.webp"}, {"id": "Time Keeper", "label": "Time Keeper", "picture": "station-rush-role-time-keeper.webp"}]}, "items": [{"id": "job-01", "prompt": "Reads the whole station card out loud to the team before anyone starts.", "answer": ["Head Cook"]}, {"id": "job-02", "prompt": "Walks the station check at the end and reports \"done\" to the teacher.", "answer": ["Station Manager"]}, {"id": "job-03", "prompt": "Measures the dry ingredients and levels every spoon.", "answer": ["Prep Cook"]}, {"id": "job-04", "prompt": "Keeps the count while every teammate takes a 30-second turn at the whisk.", "answer": ["Second Cook"]}, {"id": "job-05", "prompt": "Measures the wet ingredients, reading the cup at eye level.", "answer": ["Helper Cook"]}, {"id": "job-06", "prompt": "Spoons whipped cream onto each bowl and sprinkles the chips.", "answer": ["Toppings Chief"]}, {"id": "job-07", "prompt": "Splits each cake into two bowls so everybody gets a fair share.", "answer": ["Plate Builder"]}, {"id": "job-08", "prompt": "Calls the time every five minutes and gives the two-minute warning.", "answer": ["Time Keeper"]}, {"id": "job-09", "prompt": "Pours the eggs into skillet 1 at minute 12 and takes them off while they still look a little wet.", "answer": ["Head Cook"]}, {"id": "job-10", "prompt": "Cooks the frozen peppers and onions in skillet 2, stirring every minute.", "answer": ["Second Cook"]}, {"id": "job-11", "prompt": "Stacks 8 tortillas on a plate under a damp paper towel.", "answer": ["Prep Cook"]}, {"id": "job-12", "prompt": "Clears the trash the moment it appears and keeps the sink clear.", "answer": ["Station Manager"]}, {"id": "job-13", "prompt": "Sweeps the floor and replaces the trash liner.", "answer": ["Helper Cook", "Time Keeper"]}, {"id": "job-14", "prompt": "At a station of seven, this role also keeps time.", "answer": ["Station Manager"]}, {"id": "job-15", "prompt": "Sets the timer to 40 minutes and announces each phase out loud.", "answer": ["Time Keeper"]}, {"id": "job-16", "prompt": "Measures 1 cup of shredded cheese and sets it at the end of the assembly line.", "answer": ["Toppings Chief"]}, {"id": "job-17", "prompt": "Holds each tortilla open while the cooks fill it.", "answer": ["Plate Builder"]}, {"id": "job-18", "prompt": "Runs the heat. The eggs are rubber or silk depending on this role watching the clock.", "answer": ["Head Cook"]}, {"id": "job-19", "prompt": "Cracks the eggs with the Head Cook: one cracks, the other checks for shell.", "answer": ["Helper Cook"]}, {"id": "job-20", "prompt": "Wipes the microwave inside and out and washes the four mugs.", "answer": ["Head Cook"]}]}], "option_sets": [{"label": "roles", "list": [{"id": "Station Manager", "label": "Station Manager", "picture": "station-rush-role-manager.webp"}, {"id": "Head Cook", "label": "Head Cook", "picture": "station-rush-role-head-cook.webp"}, {"id": "Second Cook", "label": "Second Cook", "picture": "station-rush-role-second-cook.webp"}, {"id": "Prep Cook", "label": "Prep Cook", "picture": "station-rush-role-prep-cook.webp"}, {"id": "Helper Cook", "label": "Helper Cook", "picture": "station-rush-role-helper.webp"}, {"id": "Toppings Chief", "label": "Toppings Chief", "picture": "station-rush-role-toppings.webp"}, {"id": "Plate Builder", "label": "Plate Builder", "picture": "station-rush-role-plate-builder.webp"}, {"id": "Time Keeper", "label": "Time Keeper", "picture": "station-rush-role-time-keeper.webp"}]}]}], "study": [], "rule_lines": [], "reference": {}, "_unmapped": {}}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
 <script>
 (function () {
   "use strict";
-  // The three order rounds. The wording is the canonical routine wording (D10) and the role card titles from Handout 1.8.
-  var ROUNDS = [
-    {lab: "Round 1: the sanitation routine", text: "Every lab starts and ends the same way. Tap the six steps in order.",
-     items: [
-       {t: "Hair back", tag: "Start"}, {t: "Sleeves up", tag: "Start"}, {t: "Wash hands", tag: "Start"}, {t: "Sanitize surfaces", tag: "Start"},
-       {t: "Clean as you go", tag: "During"}, {t: "Station check before dismissal", tag: "End"}]},
-    {lab: "Round 2: handwashing", text: "Twenty seconds of scrubbing. Tap the six steps in order.",
-     items: [
-       {t: "Wet", tag: ""}, {t: "Soap", tag: ""}, {t: "Scrub 20 seconds", tag: "backs, between fingers, under nails"},
-       {t: "Rinse", tag: ""}, {t: "Dry with a paper towel", tag: ""}, {t: "Turn the faucet off with the towel", tag: ""}]},
-    {lab: "Round 3: the lab roles", text: "Four core roles run at every station. The rest turn on as the team grows. Tap the eight roles in the order they turn on.",
-     items: [
-       {t: "Station Manager", tag: "Core"}, {t: "Head Cook", tag: "Core"}, {t: "Second Cook", tag: "Core"}, {t: "Prep Cook", tag: "Core"},
-       {t: "Helper Cook", tag: "Turns on at 5"}, {t: "Toppings Chief", tag: "Turns on at 6"}, {t: "Plate Builder", tag: "Turns on at 7"}, {t: "Time Keeper", tag: "Turns on at 8"}]}
-  ];
-  var ROLES = ["Station Manager", "Head Cook", "Second Cook", "Prep Cook", "Helper Cook", "Toppings Chief", "Plate Builder", "Time Keeper"];
-  // Round 4 pool. ok lists every role the card gives the job to. From Handout 1.8, Role Cards Lab 1.
-  var JOBS = [
-    {q: "Reads the whole station card out loud to the team before anyone starts.", ok: ["Head Cook"]},
-    {q: "Walks the station check at the end and reports \"done\" to the teacher.", ok: ["Station Manager"]},
-    {q: "Measures the dry ingredients and levels every spoon.", ok: ["Prep Cook"]},
-    {q: "Keeps the count while every teammate takes a 30-second turn at the whisk.", ok: ["Second Cook"]},
-    {q: "Measures the wet ingredients, reading the cup at eye level.", ok: ["Helper Cook"]},
-    {q: "Spoons whipped cream onto each bowl and sprinkles the chips.", ok: ["Toppings Chief"]},
-    {q: "Splits each cake into two bowls so everybody gets a fair share.", ok: ["Plate Builder"]},
-    {q: "Calls the time every five minutes and gives the two-minute warning.", ok: ["Time Keeper"]},
-    {q: "Pours the eggs into skillet 1 at minute 12 and takes them off while they still look a little wet.", ok: ["Head Cook"]},
-    {q: "Cooks the frozen peppers and onions in skillet 2, stirring every minute.", ok: ["Second Cook"]},
-    {q: "Stacks 8 tortillas on a plate under a damp paper towel.", ok: ["Prep Cook"]},
-    {q: "Clears the trash the moment it appears and keeps the sink clear.", ok: ["Station Manager"]},
-    {q: "Sweeps the floor and replaces the trash liner.", ok: ["Helper Cook", "Time Keeper"]},
-    {q: "At a station of seven, this role also keeps time.", ok: ["Station Manager"]},
-    {q: "Sets the timer to 40 minutes and announces each phase out loud.", ok: ["Time Keeper"]},
-    {q: "Measures 1 cup of shredded cheese and sets it at the end of the assembly line.", ok: ["Toppings Chief"]},
-    {q: "Holds each tortilla open while the cooks fill it.", ok: ["Plate Builder"]},
-    {q: "Runs the heat. The eggs are rubber or silk depending on this role watching the clock.", ok: ["Head Cook"]},
-    {q: "Cracks the eggs with the Head Cook: one cracks, the other checks for shell.", ok: ["Helper Cook"]},
-    {q: "Wipes the microwave inside and out and washes the four mugs.", ok: ["Head Cook"]}
-  ];
-  var QUIZ_N = 12, QUIZ_SECS = 8, ROUND_SECS = 40;
-
-  var startP = document.getElementById("srStart"), playP = document.getElementById("srPlay"), quizP = document.getElementById("srQuiz"), endP = document.getElementById("srEnd");
-  var elRound = document.getElementById("srRound"), elT = document.getElementById("srTimer"), elTB = document.getElementById("srTimerBox");
-  var elS = document.getElementById("srStreak"), elSc = document.getElementById("srScore"), live = document.getElementById("srLive");
-  var feed = document.getElementById("srFeed"), qfeed = document.getElementById("srQFeed");
-  var slots = document.getElementById("srSlots"), cardsEl = document.getElementById("srCards");
-
-  var score, streak, secs, tick, round, next, placed, missed, locked, quiz, qi, qcorrect, feedTimer;
-
-  // card pictures: a hidden bank in the page holds one image per card that has art (build_site.py fills it in)
-  function art(key) { var im = document.querySelector('#srArt [data-key="' + key.replace(/"/g, '') + '"] img'); return im ? im.cloneNode(true) : null; }
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function hud() {
-    elRound.textContent = (round + 1) + " of 4"; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
-    elTB.className = "stat timer" + (secs <= 5 ? " low" : "");
-  }
-  function say(el, text, cls) {
-    el.textContent = text; el.className = "feedback" + (cls ? " " + cls : "");
-    clearTimeout(feedTimer);
-    feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 2600);
-  }
-  function stopClock() { clearInterval(tick); tick = null; }
-  function startClock(n, onOut) {
-    stopClock(); secs = n; hud();
-    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
-  }
-  function scoreHit() {
-    score += 10; streak += 1;
-    if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; }
-    return "";
-  }
-
-  // ---- order rounds ----
-  function startRound(r) {
-    round = r; next = 0; placed = []; locked = false;
-    var R = ROUNDS[r];
-    document.getElementById("srTaskLab").textContent = R.lab;
-    document.getElementById("srTaskText").textContent = R.text;
-    slots.innerHTML = "";
-    R.items.forEach(function () { var li = document.createElement("li"); li.textContent = " "; slots.appendChild(li); });
-    cardsEl.innerHTML = "";
-    var order = shuffle(R.items.map(function (_, i) { return i; }));
-    order.forEach(function (i) {
-      var b = document.createElement("button");
-      b.type = "button"; b.className = "sr-card"; b.setAttribute("data-i", i);
-      var a = art(R.items[i].t); if (a) { b.appendChild(a); b.classList.add("has-art"); }
-      var sp = document.createElement("span"); sp.textContent = R.items[i].t; b.appendChild(sp);
-      b.addEventListener("click", function () { tapCard(i, b); });
-      cardsEl.appendChild(b);
-    });
-    playP.hidden = false; quizP.hidden = true;
-    live.textContent = R.lab + ". " + R.text;
-    startClock(ROUND_SECS, function () { endRound(false); });
-    playP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function fillSlot(i, cls) {
-    var R = ROUNDS[round], li = slots.children[i];
-    li.textContent = R.items[i].t; li.className = cls;
-    var a = art(R.items[i].t); if (a) { li.appendChild(a); li.classList.add("has-art"); }
-    if (R.items[i].tag) { var s = document.createElement("span"); s.className = "tag"; s.textContent = R.items[i].tag; li.appendChild(s); }
-  }
-  function tapCard(i, b) {
-    if (locked || !tick) { return; }
-    if (i === next) {
-      b.hidden = true; fillSlot(i, "filled"); next += 1;
-      var extra = scoreHit();
-      say(feed, "Yes. Step " + next + ": " + ROUNDS[round].items[i].t + "." + extra, "good");
-      live.textContent = "Placed " + ROUNDS[round].items[i].t + " at " + next;
-      hud();
-      if (next === ROUNDS[round].items.length) { endRound(true); }
-    } else {
-      streak = 0; secs = Math.max(0, secs - 2);
-      b.classList.add("wrong"); setTimeout(function () { b.classList.remove("wrong"); }, 500);
-      say(feed, "Not yet. That is not step " + (next + 1) + ". Minus 2 seconds.", "bad");
-      hud();
-      if (secs === 0) { stopClock(); endRound(false); }
-    }
-  }
-  function endRound(done) {
-    stopClock(); locked = true;
-    var R = ROUNDS[round];
-    if (done) {
-      score += secs;
-      say(feed, "All " + R.items.length + " in order. " + secs + " seconds left, added to your score.", "good");
-    } else {
-      say(feed, "Time. Here is the right order.", "");
-      for (var i = next; i < R.items.length; i++) { fillSlot(i, "shown"); missed.push(R.lab.replace(/^Round \d: /, "") + ": " + R.items.slice(next).map(function (x) { return x.t; }).join(", ")); break; }
-      var bs = cardsEl.querySelectorAll(".sr-card"); for (var k = 0; k < bs.length; k++) { bs[k].hidden = true; }
-    }
-    hud();
-    setTimeout(function () { if (round + 1 < ROUNDS.length) { startRound(round + 1); } else { startQuiz(); } }, done ? 1400 : 3200);
-  }
-
-  // ---- round 4: whose job is it ----
-  function startQuiz() {
-    round = 3; qi = 0; qcorrect = 0; locked = false;
-    quiz = shuffle(JOBS.slice()).slice(0, QUIZ_N);
-    playP.hidden = true; quizP.hidden = false;
-    var row = document.getElementById("srQChoices"); row.innerHTML = "";
-    ROLES.forEach(function (r) {
-      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.setAttribute("data-role", r);
-      var a = art(r); if (a) { b.appendChild(a); }
-      var sp = document.createElement("span"); sp.textContent = r; b.appendChild(sp);
-      b.addEventListener("click", function () { answer(r, b); });
-      row.appendChild(b);
-    });
-    hud();
-    showQ();
-    quizP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function showQ() {
-    var q = quiz[qi];
-    document.getElementById("srQLab").textContent = "Round 4: whose job is it? " + (qi + 1) + " of " + QUIZ_N;
-    document.getElementById("srQText").textContent = q.q;
-    live.textContent = "Question " + (qi + 1) + ": " + q.q;
-    locked = false;
-    startClock(QUIZ_SECS, function () { answer(null, null); });
-  }
-  function answer(role, btn) {
-    if (locked) { return; }
-    locked = true; stopClock();
-    var q = quiz[qi], right = role && q.ok.indexOf(role) !== -1;
-    var bs = document.querySelectorAll("#srQChoices .gbtn");
-    for (var i = 0; i < bs.length; i++) { if (q.ok.indexOf(bs[i].getAttribute("data-role")) !== -1) { bs[i].classList.add("right"); } }
-    if (right) { qcorrect += 1; var extra = scoreHit(); say(qfeed, "Yes. " + q.ok.join(" or ") + "." + extra, "good"); }
-    else {
-      streak = 0; if (btn) { btn.classList.add("wrong"); }
-      say(qfeed, (role ? "No. " : "Time. ") + "That is the " + q.ok.join(" or the ") + ".", "bad");
-      missed.push("Whose job: " + q.q + " (" + q.ok.join(" or ") + ")");
-    }
-    hud();
-    setTimeout(function () {
-      for (var k = 0; k < bs.length; k++) { bs[k].classList.remove("right", "wrong"); }
-      qi += 1;
-      if (qi >= QUIZ_N) { finish(); } else { showQ(); }
-    }, 1100);
-  }
-
-  function finish() {
-    stopClock();
-    playP.hidden = true; quizP.hidden = true; endP.hidden = false;
-    document.getElementById("srFinal").textContent = score + " points";
-    if (window.LSA && LSA.report) { LSA.report({game: "station-rush", lesson: "1.2", score: score, max: 0, rounds: 4}); }
-    document.getElementById("srSummary").textContent = "Whose job: " + qcorrect + " of " + QUIZ_N + " right. " +
-      (missed.length ? "" : "Every card in order, every job to the right role. The station passes.");
-    var ul = document.getElementById("srMissed"); ul.innerHTML = "";
-    document.getElementById("srMissWrap").hidden = !missed.length;
-    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
-    endP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function begin() {
-    score = 0; streak = 0; missed = [];
-    startP.hidden = true; endP.hidden = true;
-    startRound(0);
-  }
-  document.getElementById("srGo").addEventListener("click", begin);
-  document.getElementById("srAgain").addEventListener("click", begin);
-  secs = ROUND_SECS; score = 0; streak = 0; round = 0; hud();
+  var root = document.getElementById("StationRush");
+  var node = document.getElementById("StationRush-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
 }());
 </script>
 

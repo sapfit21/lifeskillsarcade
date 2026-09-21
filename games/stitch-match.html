@@ -40,200 +40,151 @@
 </header>
 <main id="main" class="plain">
 
-<!-- Stitch Match. Reviews Lessons 5.6 to 5.9, the hand sewing block. Built 2026-09-15.
-     No sound, no storage, no network. -->
-<div class="game" id="stitchMatch">
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="StitchMatch">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
 <div class="teacher-note">
 <strong>Teacher note</strong>
-<p>This game reviews the hand sewing block, <a href="../lesson-05-06.html">Lesson 5.6</a> to <a href="../lesson-05-09.html">Lesson 5.9</a>: which stitch does which job. Running stitch bastes, gathers, and decorates. Backstitch holds a seam that takes stress. Whipstitch joins two edges and finishes them. Hem stitch holds a fold and stays hidden on the front. Use it as the do now on a sewing day, or as the warm-up before the Stitch Sampler Performance Check in Lesson 5.11. A job that two stitches can do (a patch, for one) accepts both. Nothing is saved when the page closes.</p>
+<p>Reviews <a href="../lesson-05-06.html">Lesson 5.6</a>, <a href="../lesson-05-09.html">Lesson 5.9</a>. This game reviews the hand sewing block, Lesson 5.6 to Lesson 5.9: which stitch does which job. Running stitch bastes, gathers, and decorates. Backstitch holds a seam that takes stress. Whipstitch joins two edges and finishes them. Hem stitch holds a fold and stays hidden on the front. Use it as the do now on a sewing day, or as the warm-up before the Stitch Sampler Performance Check in Lesson 5.11. A job that two stitches can do (a patch, for one) accepts both. Nothing is saved when the page closes.</p>
 </div>
 
+<!-- 2. Title and lede. The second word takes the accent style. -->
 <div class="game-head"><img class="title-art" src="art/stitch-match-title.webp" alt=""><h1 class="game-title">Stitch <span class="alt2">Match</span></h1></div>
-<p class="game-lede">A job appears. Tap the stitch that does it. 60 seconds, as many as you can. Different stitches do different jobs, and picking the wrong one is why things come apart.</p>
+<p class="game-lede">A job appears. Tap the stitch that does it. Different stitches do different jobs, and picking the wrong one is why things come apart.</p>
 
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
 <div class="hud" aria-hidden="true">
-  <div class="stat"><span class="lab">Matched</span><span class="val" id="smDone">0</span></div>
-  <div class="stat timer" id="smTimerBox"><span class="lab">Seconds</span><span class="val" id="smTimer">60</span></div>
-  <div class="stat"><span class="lab">Streak</span><span class="val" id="smStreak">0</span></div>
-  <div class="stat score"><span class="lab">Score</span><span class="val" id="smScore">0</span></div>
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
 </div>
-<div class="sr-live" aria-live="polite" id="smLive"></div>
 
-<div class="panel" id="smStart">
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
   <h2>How to play</h2>
-  <p>10 points a match. Get 5 in a row and the next one counts double. A miss shows the right stitch and why, and that job comes back later. Study the four cards first if you want; they stay on screen the whole game.</p>
-  <p><button class="gbtn go" id="smGo" type="button">Start</button></p>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
 </div>
 
-<div class="sm-play" id="smPlay">
-  <div class="sm-job" id="smJob"><span class="sm-joblab">The job</span><span class="sm-jobtext" id="smJobText">Press Start</span></div>
-  <div class="feedback" id="smFeed"></div>
-  <div class="sm-cards" id="smCards">
-    <button class="sm-card" type="button" data-stitch="running">
-      <svg viewBox="0 0 120 44" aria-hidden="true"><rect x="2" y="2" width="116" height="40" rx="6" fill="#FFF6DC" stroke="#111" stroke-width="2"/><path d="M12 22h14M36 22h14M60 22h14M84 22h14" stroke="#FF5A4D" stroke-width="5" stroke-linecap="round"/><path d="M26 22q5 6 10 0M50 22q5 6 10 0M74 22q5 6 10 0" stroke="#FF5A4D" stroke-width="2" stroke-dasharray="2 3" fill="none"/></svg>
-      <span class="sm-name">Running stitch</span><span class="sm-sub">over, under, over, under</span>
-    </button>
-    <button class="sm-card" type="button" data-stitch="backstitch">
-      <svg viewBox="0 0 120 44" aria-hidden="true"><rect x="2" y="2" width="116" height="40" rx="6" fill="#FFF6DC" stroke="#111" stroke-width="2"/><path d="M12 22h96" stroke="#7FD44C" stroke-width="5" stroke-linecap="round"/><path d="M26 22v-6M40 22v-6M54 22v-6M68 22v-6M82 22v-6M96 22v-6" stroke="#111" stroke-width="2"/><path d="M26 22q7 8 14 0q7 8 14 0q7 8 14 0q7 8 14 0q7 8 14 0" stroke="#7FD44C" stroke-width="2" fill="none" stroke-dasharray="2 3"/></svg>
-      <span class="sm-name">Backstitch</span><span class="sm-sub">doubles back, no gaps</span>
-    </button>
-    <button class="sm-card" type="button" data-stitch="whipstitch">
-      <svg viewBox="0 0 120 44" aria-hidden="true"><rect x="2" y="2" width="116" height="40" rx="6" fill="#FFF6DC" stroke="#111" stroke-width="2"/><rect x="10" y="14" width="100" height="10" fill="#8FD6F0" stroke="#111" stroke-width="1.5"/><rect x="10" y="24" width="100" height="10" fill="#B8E6F7" stroke="#111" stroke-width="1.5"/><path d="M18 34l10-22M32 34l10-22M46 34l10-22M60 34l10-22M74 34l10-22M88 34l10-22" stroke="#FFD23F" stroke-width="4" stroke-linecap="round"/><path d="M18 34l10-22M32 34l10-22M46 34l10-22M60 34l10-22M74 34l10-22M88 34l10-22" stroke="#111" stroke-width="1" stroke-linecap="round" opacity=".5"/></svg>
-      <span class="sm-name">Whipstitch</span><span class="sm-sub">over the edge, through both layers</span>
-    </button>
-    <button class="sm-card" type="button" data-stitch="hem">
-      <svg viewBox="0 0 120 44" aria-hidden="true"><rect x="2" y="2" width="116" height="40" rx="6" fill="#FFF6DC" stroke="#111" stroke-width="2"/><rect x="10" y="8" width="100" height="28" fill="#8FD6F0" stroke="#111" stroke-width="1.5"/><rect x="10" y="22" width="100" height="14" fill="#B8E6F7" stroke="#111" stroke-width="1.5"/><path d="M20 22l12-4M40 22l12-4M60 22l12-4M80 22l12-4" stroke="#FF5A4D" stroke-width="3" stroke-linecap="round"/><circle cx="32" cy="18" r="1.5" fill="#111"/><circle cx="52" cy="18" r="1.5" fill="#111"/><circle cx="72" cy="18" r="1.5" fill="#111"/><circle cx="92" cy="18" r="1.5" fill="#111"/></svg>
-      <span class="sm-name">Hem stitch</span><span class="sm-sub">catches a thread, hides on the front</span>
-    </button>
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
   </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
 </div>
 
-<div class="panel end" id="smEnd" hidden>
-  <h2>Time</h2>
-  <p class="big" id="smFinal"></p>
-  <p id="smSummary"></p>
-  <div id="smMissWrap"><p><b>The jobs you missed:</b></p><ul class="miss-list" id="smMissed"></ul></div>
-  <p><button class="gbtn go" id="smAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="stitch-match-running"><img class="piece" src="art/stitch-match-running.webp" alt="" loading="lazy"></span>
+<span data-key="stitch-match-backstitch"><img class="piece" src="art/stitch-match-backstitch.webp" alt="" loading="lazy"></span>
+<span data-key="stitch-match-whipstitch"><img class="piece" src="art/stitch-match-whipstitch.webp" alt="" loading="lazy"></span>
+<span data-key="stitch-match-hem"><img class="piece" src="art/stitch-match-hem.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
 
 <style>
-.sm-job{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
-  box-shadow:5px 5px 0 var(--outline);min-height:6rem}
-.sm-joblab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
-.sm-jobtext{display:block;font-size:1.35rem;font-weight:600;line-height:1.35;margin-top:.25rem}
-.sm-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;margin:.8rem 0}
-@media (min-width:700px){.sm-cards{grid-template-columns:repeat(4,minmax(0,1fr))}}
-.sm-card{
-  display:flex;flex-direction:column;align-items:stretch;gap:.3rem;background:#fff;border:2.5px solid var(--outline);
-  border-radius:12px;padding:.6rem .6rem .7rem;cursor:pointer;text-align:left;font:inherit;color:var(--ink);
-  box-shadow:3px 3px 0 var(--outline);min-height:44px;
-}
-.sm-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
-.sm-card svg{width:100%;height:auto;display:block}
-.sm-name{font-family:var(--display);font-size:1.15rem;line-height:1.1}
-.sm-sub{font-size:.8rem;color:var(--ink-2);line-height:1.25}
-.sm-card.right{background:var(--brand-green)}
-.sm-card.wrong{background:#FFD9D6}
-.sm-card[disabled]{cursor:default}
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
 </style>
 
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="StitchMatch-data">{"schema": "1.0", "slug": "stitch-match", "title": "Stitch Match", "unit": 5, "lessons": ["5.6", "5.9"], "handouts": [], "standards": [], "source_file": "hand built 2026-09-15 (stitch-match.html), rewritten as engine data 2026-09-21", "mechanic_note": "sort: a sewing job appears; tap the stitch that does it from four cards that stay on screen (running stitch, backstitch, whipstitch, hem stitch). A job two stitches can do accepts both. The 22 jobs play as two rounds of 11.", "teacher_note": "This game reviews the hand sewing block, Lesson 5.6 to Lesson 5.9: which stitch does which job. Running stitch bastes, gathers, and decorates. Backstitch holds a seam that takes stress. Whipstitch joins two edges and finishes them. Hem stitch holds a fold and stays hidden on the front. Use it as the do now on a sewing day, or as the warm-up before the Stitch Sampler Performance Check in Lesson 5.11. A job that two stitches can do (a patch, for one) accepts both. Nothing is saved when the page closes.", "lede": "A job appears. Tap the stitch that does it. Different stitches do different jobs, and picking the wrong one is why things come apart.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": false, "note": ""}, "art": {"title": {"file": "stitch-match-title.webp"}, "scene": [], "cards": [], "buttons": [], "bins": [{"file": "stitch-match-running.webp", "line": "Running stitch: over, under, over, under"}, {"file": "stitch-match-backstitch.webp", "line": "Backstitch: doubles back, no gaps"}, {"file": "stitch-match-whipstitch.webp", "line": "Whipstitch: over the edge, through both layers"}, {"file": "stitch-match-hem.webp", "line": "Hem stitch: catches a thread, hides on the front"}], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 11 jobs, four stitch bins", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "running", "label": "Running stitch", "sub": "over, under, over, under", "picture": "stitch-match-running.webp"}, {"id": "backstitch", "label": "Backstitch", "sub": "doubles back, no gaps", "picture": "stitch-match-backstitch.webp"}, {"id": "whipstitch", "label": "Whipstitch", "sub": "over the edge, through both layers", "picture": "stitch-match-whipstitch.webp"}, {"id": "hem", "label": "Hem stitch", "sub": "catches a thread, hides on the front", "picture": "stitch-match-hem.webp"}]}, "items": [{"id": "job-01", "prompt": "The shoulder seam of a bag that will carry books", "answer": ["Backstitch"], "feedback": "A seam that takes stress needs thread across every part of the line. The backstitch has no gaps."}, {"id": "job-02", "prompt": "Closing the last two inches of a stuffed pouch from the outside", "answer": ["Whipstitch"], "feedback": "Two edges to join, sewn from the outside: that is the whipstitch's job."}, {"id": "job-03", "prompt": "Holding two pieces together just long enough to sew the real seam", "answer": ["Running stitch"], "feedback": "Basting is temporary. The running stitch is fast and pulls out easily."}, {"id": "job-04", "prompt": "A fallen hem that should not show on the front", "answer": ["Hem stitch"], "feedback": "The hem stitch catches one or two threads of the outer fabric, so almost nothing shows."}, {"id": "job-05", "prompt": "A patch behind a hole, stitched around the hole's edge from the front", "answer": ["Whipstitch", "Hem stitch"], "feedback": "A hidden patch is whipstitched or hem stitched around the edge of the hole. Both are right."}, {"id": "job-06", "prompt": "Gathering fabric to make a ruffle", "answer": ["Running stitch"], "feedback": "Pull the thread of a running stitch and the fabric gathers. That is what the gaps are for."}, {"id": "job-07", "prompt": "A split seam on a pair of pants", "answer": ["Backstitch"], "feedback": "Turn it inside out and backstitch along the old seam line, overlapping the old stitching on both sides."}, {"id": "job-08", "prompt": "Joining two felt edges to build a pouch by hand", "answer": ["Whipstitch"], "feedback": "Whipstitch goes over the edge through both layers, so the two edges meet with no daylight."}, {"id": "job-09", "prompt": "Rows of bright thread across a visible mend", "answer": ["Running stitch"], "feedback": "A visible mend is decoration on purpose. Rows of running stitch in bright floss."}, {"id": "job-10", "prompt": "A quick decorative line on a practice cloth", "answer": ["Running stitch"], "feedback": "The running stitch is a drawing on cloth."}, {"id": "job-11", "prompt": "Finishing a raw edge so it stops fraying", "answer": ["Whipstitch"], "feedback": "Whipstitch wraps the edge, which holds the loose threads down."}]}], "option_sets": [{"label": "bins", "list": [{"id": "running", "label": "Running stitch", "sub": "over, under, over, under", "picture": "stitch-match-running.webp"}, {"id": "backstitch", "label": "Backstitch", "sub": "doubles back, no gaps", "picture": "stitch-match-backstitch.webp"}, {"id": "whipstitch", "label": "Whipstitch", "sub": "over the edge, through both layers", "picture": "stitch-match-whipstitch.webp"}, {"id": "hem", "label": "Hem stitch", "sub": "catches a thread, hides on the front", "picture": "stitch-match-hem.webp"}]}]}, {"n": 2, "note": "Round 2: 11 jobs, the same four stitch bins", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "running", "label": "Running stitch", "sub": "over, under, over, under", "picture": "stitch-match-running.webp"}, {"id": "backstitch", "label": "Backstitch", "sub": "doubles back, no gaps", "picture": "stitch-match-backstitch.webp"}, {"id": "whipstitch", "label": "Whipstitch", "sub": "over the edge, through both layers", "picture": "stitch-match-whipstitch.webp"}, {"id": "hem", "label": "Hem stitch", "sub": "catches a thread, hides on the front", "picture": "stitch-match-hem.webp"}]}, "items": [{"id": "job-12", "prompt": "Anywhere a machine straight stitch would go, if there were a machine", "answer": ["Backstitch"], "feedback": "The backstitch is the hand version of the machine seam: solid line, no gaps."}, {"id": "job-13", "prompt": "A seam that will be washed, worn, and pulled on", "answer": ["Backstitch"], "feedback": "A running stitch has gaps where nothing is holding. The backstitch holds."}, {"id": "job-14", "prompt": "The bottom of a skirt, catching only a thread or two of the outer fabric", "answer": ["Hem stitch"], "feedback": "That is the hem stitch, and catching as little as you can is what keeps it invisible."}, {"id": "job-15", "prompt": "Closing a gap in the side of a stuffed toy", "answer": ["Whipstitch"], "feedback": "Two edges, sewn from the outside, closed tight: whipstitch."}, {"id": "job-16", "prompt": "The side seam of the drawstring bag on the hand path", "answer": ["Backstitch"], "feedback": "The bag gets pulled on every day. The hand path seam is a backstitch."}, {"id": "job-17", "prompt": "Marking a line you will sew over properly later", "answer": ["Running stitch"], "feedback": "A running stitch marks and bastes. It is not meant to stay."}, {"id": "job-18", "prompt": "Sewing two pieces together with the strongest hand stitch you know", "answer": ["Backstitch"], "feedback": "The backstitch doubles back on itself, so the top reads as one solid line."}, {"id": "job-19", "prompt": "Pants that came unstitched at the bottom, and you do not want the repair to show", "answer": ["Hem stitch"], "feedback": "Fold the edge back to the crease, pin it, and hem stitch it. Nothing shows on the front."}, {"id": "job-20", "prompt": "A test run to check your stitch length before you sew for real", "answer": ["Running stitch"], "feedback": "Running stitch is the fastest stitch there is. Test on scrap, then sew."}, {"id": "job-21", "prompt": "Attaching a felt shape to the front of a bag along its edge", "answer": ["Whipstitch", "Hem stitch"], "feedback": "Stitch around the edge of the shape. Whipstitch or hem stitch both hold it down."}, {"id": "job-22", "prompt": "A visible mend where the repair is part of the design", "answer": ["Running stitch"], "feedback": "A visible mend is a repair you are not hiding. Rows of running stitch across the patch."}]}], "option_sets": [{"label": "bins", "list": [{"id": "running", "label": "Running stitch", "sub": "over, under, over, under", "picture": "stitch-match-running.webp"}, {"id": "backstitch", "label": "Backstitch", "sub": "doubles back, no gaps", "picture": "stitch-match-backstitch.webp"}, {"id": "whipstitch", "label": "Whipstitch", "sub": "over the edge, through both layers", "picture": "stitch-match-whipstitch.webp"}, {"id": "hem", "label": "Hem stitch", "sub": "catches a thread, hides on the front", "picture": "stitch-match-hem.webp"}]}]}], "study": [], "rule_lines": [], "reference": {}, "_unmapped": {}}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
 <script>
 (function () {
   "use strict";
-  var NAMES = {running: "Running stitch", backstitch: "Backstitch", whipstitch: "Whipstitch", hem: "Hem stitch"};
-  // ok lists every stitch that does the job. why is the one-line reason from the lessons.
-  var JOBS = [
-    {j: "The shoulder seam of a bag that will carry books", ok: ["backstitch"], why: "A seam that takes stress needs thread across every part of the line. The backstitch has no gaps."},
-    {j: "Closing the last two inches of a stuffed pouch from the outside", ok: ["whipstitch"], why: "Two edges to join, sewn from the outside: that is the whipstitch's job."},
-    {j: "Holding two pieces together just long enough to sew the real seam", ok: ["running"], why: "Basting is temporary. The running stitch is fast and pulls out easily."},
-    {j: "A fallen hem that should not show on the front", ok: ["hem"], why: "The hem stitch catches one or two threads of the outer fabric, so almost nothing shows."},
-    {j: "A patch behind a hole, stitched around the hole's edge from the front", ok: ["whipstitch", "hem"], why: "A hidden patch is whipstitched or hem stitched around the edge of the hole. Both are right."},
-    {j: "Gathering fabric to make a ruffle", ok: ["running"], why: "Pull the thread of a running stitch and the fabric gathers. That is what the gaps are for."},
-    {j: "A split seam on a pair of pants", ok: ["backstitch"], why: "Turn it inside out and backstitch along the old seam line, overlapping the old stitching on both sides."},
-    {j: "Joining two felt edges to build a pouch by hand", ok: ["whipstitch"], why: "Whipstitch goes over the edge through both layers, so the two edges meet with no daylight."},
-    {j: "Rows of bright thread across a visible mend", ok: ["running"], why: "A visible mend is decoration on purpose. Rows of running stitch in bright floss."},
-    {j: "A quick decorative line on a practice cloth", ok: ["running"], why: "The running stitch is a drawing on cloth."},
-    {j: "Finishing a raw edge so it stops fraying", ok: ["whipstitch"], why: "Whipstitch wraps the edge, which holds the loose threads down."},
-    {j: "Anywhere a machine straight stitch would go, if there were a machine", ok: ["backstitch"], why: "The backstitch is the hand version of the machine seam: solid line, no gaps."},
-    {j: "A seam that will be washed, worn, and pulled on", ok: ["backstitch"], why: "A running stitch has gaps where nothing is holding. The backstitch holds."},
-    {j: "The bottom of a skirt, catching only a thread or two of the outer fabric", ok: ["hem"], why: "That is the hem stitch, and catching as little as you can is what keeps it invisible."},
-    {j: "Closing a gap in the side of a stuffed toy", ok: ["whipstitch"], why: "Two edges, sewn from the outside, closed tight: whipstitch."},
-    {j: "The side seam of the drawstring bag on the hand path", ok: ["backstitch"], why: "The bag gets pulled on every day. The hand path seam is a backstitch."},
-    {j: "Marking a line you will sew over properly later", ok: ["running"], why: "A running stitch marks and bastes. It is not meant to stay."},
-    {j: "Sewing two pieces together with the strongest hand stitch you know", ok: ["backstitch"], why: "The backstitch doubles back on itself, so the top reads as one solid line."},
-    {j: "Pants that came unstitched at the bottom, and you do not want the repair to show", ok: ["hem"], why: "Fold the edge back to the crease, pin it, and hem stitch it. Nothing shows on the front."},
-    {j: "A test run to check your stitch length before you sew for real", ok: ["running"], why: "Running stitch is the fastest stitch there is. Test on scrap, then sew."},
-    {j: "Attaching a felt shape to the front of a bag along its edge", ok: ["whipstitch", "hem"], why: "Stitch around the edge of the shape. Whipstitch or hem stitch both hold it down."},
-    {j: "A visible mend where the repair is part of the design", ok: ["running"], why: "A visible mend is a repair you are not hiding. Rows of running stitch across the patch."}
-  ];
-
-  var deck, current, score, streak, best, done, secs, tick, locked, missed, running;
-  var cards = document.querySelectorAll("#smCards .sm-card");
-  var feed = document.getElementById("smFeed");
-  var elDone = document.getElementById("smDone"), elT = document.getElementById("smTimer"), elTB = document.getElementById("smTimerBox");
-  var elS = document.getElementById("smStreak"), elSc = document.getElementById("smScore"), live = document.getElementById("smLive");
-
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function hud() {
-    elDone.textContent = done; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
-    elTB.className = "stat timer" + (secs <= 10 ? " low" : "");
-  }
-  function clearCards() { for (var i = 0; i < cards.length; i++) { cards[i].classList.remove("right", "wrong"); } }
-  function next() {
-    if (!deck.length) { deck = shuffle(JOBS.slice()); }
-    current = deck.shift();
-    document.getElementById("smJobText").textContent = current.j;
-    live.textContent = "Job: " + current.j;
-    clearCards();
-    locked = false;
-  }
-  function answer(stitch, card) {
-    if (!running || locked) { return; }
-    locked = true;
-    var ok = current.ok.indexOf(stitch) !== -1;
-    if (ok) {
-      var pts = streak >= 5 ? 20 : 10;
-      score += pts; streak += 1; done += 1; if (streak > best) { best = streak; }
-      card.classList.add("right");
-      feed.textContent = NAMES[stitch] + ". Plus " + pts + "." + (streak === 5 ? " Five in a row: the next one counts double." : "");
-      feed.className = "feedback good";
-      hud();
-      setTimeout(function () { feed.textContent = ""; feed.className = "feedback"; if (running) { next(); } }, 550);
-    } else {
-      streak = 0;
-      card.classList.add("wrong");
-      for (var i = 0; i < cards.length; i++) { if (current.ok.indexOf(cards[i].getAttribute("data-stitch")) !== -1) { cards[i].classList.add("right"); } }
-      var names = current.ok.map(function (k) { return NAMES[k]; }).join(" or ");
-      feed.textContent = "Not that one. " + names + ". " + current.why;
-      feed.className = "feedback bad";
-      missed.push(current);
-      deck.splice(Math.min(3, deck.length), 0, current);
-      hud();
-      setTimeout(function () { feed.textContent = ""; feed.className = "feedback"; if (running) { next(); } }, 2400);
-    }
-  }
-  function start() {
-    deck = shuffle(JOBS.slice());
-    score = 0; streak = 0; best = 0; done = 0; secs = 60; missed = []; running = true;
-    document.getElementById("smStart").hidden = true;
-    document.getElementById("smEnd").hidden = true;
-    feed.textContent = ""; feed.className = "feedback";
-    hud(); next();
-    clearInterval(tick);
-    tick = setInterval(function () {
-      secs -= 1; hud();
-      if (secs <= 0) { clearInterval(tick); finish(); }
-    }, 1000);
-    document.querySelector("#stitchMatch .hud").scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function finish() {
-    running = false; locked = true;
-    clearCards();
-    document.getElementById("smJobText").textContent = "Time. Scroll down for your score.";
-    var end = document.getElementById("smEnd");
-    end.hidden = false;
-    document.getElementById("smFinal").textContent = score + " points";
-    if (window.LSA && LSA.report) { LSA.report({game: "stitch-match", lesson: "5.6", score: score, max: 0, rounds: 1}); }
-    document.getElementById("smSummary").textContent = done + " matched in 60 seconds. Best streak: " + best + ".";
-    var seen = {}; var uniq = missed.filter(function (m) { if (seen[m.j]) { return false; } seen[m.j] = true; return true; });
-    var ul = document.getElementById("smMissed"); ul.innerHTML = "";
-    document.getElementById("smMissWrap").hidden = !uniq.length;
-    uniq.forEach(function (m) {
-      var li = document.createElement("li");
-      var b = document.createElement("b"); b.textContent = m.j + ": ";
-      li.appendChild(b);
-      li.appendChild(document.createTextNode(m.ok.map(function (k) { return NAMES[k]; }).join(" or ") + ". " + m.why));
-      ul.appendChild(li);
-    });
-    end.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  for (var i = 0; i < cards.length; i++) {
-    (function (c) { c.addEventListener("click", function () { answer(c.getAttribute("data-stitch"), c); }); }(cards[i]));
-  }
-  document.getElementById("smGo").addEventListener("click", start);
-  document.getElementById("smAgain").addEventListener("click", start);
-  hud();
+  var root = document.getElementById("StitchMatch");
+  var node = document.getElementById("StitchMatch-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
 }());
 </script>
 

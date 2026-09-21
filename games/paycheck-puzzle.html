@@ -40,326 +40,151 @@
 </header>
 <main id="main" class="plain">
 
-<!-- Paycheck Puzzle. Reviews Lessons 2.7 to 2.9: needs and wants, the pay stub, the budget. Built 2026-09-15.
-     Everything on this page is static: no sound, no storage, no network. Every stub is random and made up. -->
-<div class="game" id="paycheckPuzzle">
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="PaycheckPuzzle">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
 <div class="teacher-note">
 <strong>Teacher note</strong>
-<p>This game reviews <a href="../lesson-02-07.html">Lesson 2.7, Needs vs Wants Showdown</a>, <a href="../lesson-02-08.html">Lesson 2.8, Paycheck Detective</a>, and <a href="../lesson-02-09.html">Lesson 2.9, Budget Like a Boss</a>. Round 1 is a random pay stub at $17.00 an hour with the four deductions from the lesson (federal income tax, New York State income tax, Social Security at 6.2 percent, Medicare at 1.45 percent): three quick reads of gross, deductions, and net. Round 2 is the month: two of those paychecks, savings taken first at 20 percent, then ten expense cards sorted with the lesson's test ("Do I need this to be safe, healthy, and able to do school or work?"). Needs get paid. Wants are a choice, and buying one you cannot afford ends the month in the red. Prices are the Long Island 2026 prices from the handouts. Nothing is saved when the page closes.</p>
+<p>Reviews <a href="../lesson-02-07.html">Lesson 2.7</a>, <a href="../lesson-02-08.html">Lesson 2.8</a>, <a href="../lesson-02-09.html">Lesson 2.9</a>. This game reviews Lesson 2.7, Needs vs Wants Showdown, Lesson 2.8, Paycheck Detective, and Lesson 2.9, Budget Like a Boss. Round 1 is a random pay stub at $17.00 an hour with the four deductions from the lesson (federal income tax, New York State income tax, Social Security at 6.2 percent, Medicare at 1.45 percent): three quick reads of gross, deductions, and net. Round 2 is the month: two of those paychecks, savings taken first at 20 percent, then ten expense cards sorted with the lesson's test (&quot;Do I need this to be safe, healthy, and able to do school or work?&quot;). Needs get paid. Wants are a choice, and buying one you cannot afford ends the month in the red. Prices are the Long Island 2026 prices from the handouts. Nothing is saved when the page closes.</p>
 </div>
 
+<!-- 2. Title and lede. The second word takes the accent style. -->
 <div class="game-head"><img class="title-art" src="art/paycheck-puzzle-title.webp" alt=""><h1 class="game-title">Paycheck <span class="alt2">Puzzle</span></h1></div>
 <p class="game-lede">Read the stub. Find the number you budget with. Then get through the month in the black.</p>
 
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
 <div class="hud" aria-hidden="true">
-  <div class="stat"><span class="lab">Round</span><span class="val" id="ppRound">1 of 2</span></div>
-  <div class="stat timer" id="ppTimerBox"><span class="lab">Seconds</span><span class="val" id="ppTimer">20</span></div>
-  <div class="stat"><span class="lab">Balance</span><span class="val" id="ppBal">$0</span></div>
-  <div class="stat score"><span class="lab">Score</span><span class="val" id="ppScore">0</span></div>
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
 </div>
-<div class="sr-live" aria-live="polite" id="ppLive"></div>
 
-<div class="panel" id="ppStart">
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
   <h2>How to play</h2>
-  <p>Round 1: three questions about the stub, 20 seconds each, 10 points a right answer, 5 extra if you get all three. Round 2: sort ten expense cards into Need or Want, 10 points each. Needs are paid for you. For a want, you choose: buy it or skip it. End the month with money left and every 5 dollars left banks as a point. Go into the red and the month is over.</p>
-  <p><button class="gbtn go" id="ppGo" type="button">New paycheck</button></p>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Round 1: three questions about the stub. Every stub is random and made up.</li><li>Round 2: sort ten expense cards into Need or Want, 10 points each. Needs are paid for you. For a want, you choose: buy it or skip it. End the month with money left and every 5 dollars left banks as a point. Go into the red and the month is over.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
 </div>
 
-<div id="ppStubWrap" hidden>
-<div class="pp-stubart"><img class="piece" src="art/paycheck-stub.webp" alt="" loading="lazy"></div>
-<div class="pp-stub" id="ppStub" aria-label="Pay stub"></div>
-</div>
-
-<div class="pp-play" id="ppQuiz" hidden>
-  <div class="sr-task"><span class="sr-tasklab" id="ppQLab">Round 1: read the stub</span><span class="sr-tasktext" id="ppQText"></span></div>
-  <div class="feedback" id="ppQFeed"></div>
-  <div class="choice-row" id="ppQChoices"></div>
-</div>
-
-<div class="pp-play" id="ppMonth" hidden>
-  <div class="sr-task"><img class="piece" src="art/paycheck-piggy-bank.webp" alt="" loading="lazy"><span class="sr-tasklab" id="ppMLab">Round 2: the month</span><span class="sr-tasktext" id="ppMText"></span></div>
-  <div class="pp-card" id="ppCard">
-    <span class="pp-price" id="ppPrice"></span>
-    <span class="pp-item" id="ppItem"></span>
-    <span class="pp-note" id="ppNote"></span>
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
   </div>
-  <div class="feedback" id="ppMFeed"></div>
-  <div class="choice-row" id="ppSort">
-    <button class="gbtn" type="button" data-sort="need"><img class="piece" src="art/paycheck-wallet.webp" alt="" loading="lazy"><span>Need</span></button>
-    <button class="gbtn" type="button" data-sort="want"><img class="piece" src="art/paycheck-cart.webp" alt="" loading="lazy"><span>Want</span></button>
-  </div>
-  <div class="choice-row" id="ppBuy" hidden>
-    <button class="gbtn go" type="button" data-buy="yes">Buy it</button>
-    <button class="gbtn alt" type="button" data-buy="no">Skip it</button>
-  </div>
-  <p class="pp-ledger" id="ppLedger"></p>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
 </div>
 
-<div class="panel end" id="ppEnd" hidden>
-  <h2 id="ppEndHead">Month over</h2>
-  <p class="big" id="ppFinal"></p>
-  <p id="ppSummary"></p>
-  <div id="ppMissWrap"><p><b>Sort these again:</b></p><ul class="miss-list" id="ppMissed"></ul></div>
-  <p><button class="gbtn go" id="ppAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="paycheck-stub"><img class="piece" src="art/paycheck-stub.webp" alt="" loading="lazy"></span>
+<span data-key="paycheck-wallet"><img class="piece" src="art/paycheck-wallet.webp" alt="" loading="lazy"></span>
+<span data-key="paycheck-cart"><img class="piece" src="art/paycheck-cart.webp" alt="" loading="lazy"></span>
+<span data-key="paycheck-piggy-bank"><img class="piece" src="art/paycheck-piggy-bank.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
 
 <style>
-.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;box-shadow:5px 5px 0 var(--outline)}
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
 .sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
 .sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
-.pp-stub{background:#fff;border:2.5px solid var(--outline);border-radius:12px;padding:.8rem 1rem;margin:.4rem 0 .8rem;
-  box-shadow:4px 4px 0 var(--outline);font-family:"Courier New",Courier,monospace;font-size:.92rem;line-height:1.5}
-#ppMonth .sr-task .piece{float:right;width:3.2rem;height:3.2rem;object-fit:contain;margin:0 0 .2rem .5rem}
-#ppSort .gbtn .piece{display:inline-block;width:2.2rem;height:2.2rem;vertical-align:middle;margin:0 .4rem 0 0}
-.pp-stubart{text-align:center;margin:.2rem 0 -.3rem}.pp-stubart .piece{width:4.5rem;height:4.5rem;object-fit:contain}
-.pp-stub h3{font:700 .8rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;margin:0 0 .4rem;color:var(--ink-2)}
-.pp-stub table{width:100%;border-collapse:collapse;margin:.2rem 0 .5rem}
-.pp-stub td{padding:.15rem 0;border-bottom:1px dotted var(--outline);vertical-align:top}
-.pp-stub td:last-child{text-align:right;white-space:nowrap}
-.pp-stub tr.total td{font-weight:700;border-bottom:2px solid var(--outline)}
-.pp-stub tr.net td{font-weight:700;background:var(--brand-yellow)}
-.pp-card{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:1rem 1rem 1.1rem;margin:.5rem 0;box-shadow:5px 5px 0 var(--outline);
-  display:flex;flex-direction:column;gap:.2rem}
-.pp-price{font-family:var(--display);font-size:2.2rem;line-height:1;color:var(--brand-red);-webkit-text-stroke:1px var(--outline);paint-order:stroke fill}
-.pp-item{font-size:1.25rem;font-weight:700;line-height:1.3}
-.pp-note{font-size:.9rem;color:var(--ink-2)}
-.pp-ledger{font-size:.9rem;color:var(--ink-2);margin:.5rem 0 0}
-.pp-card.need{background:#E4F6D6}.pp-card.want{background:#FFF1C2}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
 </style>
 
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="PaycheckPuzzle-data">{"schema": "1.0", "slug": "paycheck-puzzle", "title": "Paycheck Puzzle", "unit": 2, "lessons": ["2.7", "2.8", "2.9"], "handouts": [], "standards": [], "source_file": "hand built 2026-09-15 (paycheck-puzzle.html), rebuilt on the engine 2026-09-21", "lede": "Read the stub. Find the number you budget with. Then get through the month in the black.", "mechanic_note": "Round 1: a pay stub and three reads: gross, deductions, net. Round 2: the month: two paychecks, savings first, ten expense cards sorted Need or Want, needs paid, wants bought or skipped, ending in the black banks points.", "teacher_note": "This game reviews Lesson 2.7, Needs vs Wants Showdown, Lesson 2.8, Paycheck Detective, and Lesson 2.9, Budget Like a Boss. Round 1 is a random pay stub at $17.00 an hour with the four deductions from the lesson (federal income tax, New York State income tax, Social Security at 6.2 percent, Medicare at 1.45 percent): three quick reads of gross, deductions, and net. Round 2 is the month: two of those paychecks, savings taken first at 20 percent, then ten expense cards sorted with the lesson's test (\"Do I need this to be safe, healthy, and able to do school or work?\"). Needs get paid. Wants are a choice, and buying one you cannot afford ends the month in the red. Prices are the Long Island 2026 prices from the handouts. Nothing is saved when the page closes.", "plugins": ["month"], "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": false, "note": ""}, "art": {"title": {"file": "paycheck-puzzle-title.png"}, "scene": [], "cards": [{"file": "paycheck-stub.png"}], "buttons": [{"file": "paycheck-wallet.png"}, {"file": "paycheck-cart.png"}], "bins": [], "badges": [{"file": "paycheck-piggy-bank.png"}]}, "rounds": [{"n": 1, "note": "Round 1: read the stub, three questions, one stub dealt from six for each", "seconds_per_item": 20, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.gross", "title": "Read the stub: gross pay", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 4}, "items": [{"id": "stub-12-gross", "prompt": "What is the gross pay, the amount earned before anything came out?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 12.00 hours at $17.00: $204.00", "GROSS PAY: $204.00", "Federal income tax: $12.24", "New York State income tax: $6.12", "Social Security (6.2 percent): $12.65", "Medicare (1.45 percent): $2.96", "TOTAL DEDUCTIONS: $33.97", "NET PAY (what you keep): $170.03"], "picture": "paycheck-stub.png", "answer": ["$204.00"], "choices": ["$236.00", "$172.00", "$204.00", "$220.00"], "feedback": "It is $204.00. Look at the stub.", "feedback_extra": ["Gross pay is the top number, before any deduction comes out."]}, {"id": "stub-16-gross", "prompt": "What is the gross pay, the amount earned before anything came out?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 16.00 hours at $17.00: $272.00", "GROSS PAY: $272.00", "Federal income tax: $16.32", "New York State income tax: $8.16", "Social Security (6.2 percent): $16.86", "Medicare (1.45 percent): $3.94", "TOTAL DEDUCTIONS: $45.28", "NET PAY (what you keep): $226.72"], "picture": "paycheck-stub.png", "answer": ["$272.00"], "choices": ["$338.00", "$316.00", "$360.00", "$272.00"], "feedback": "It is $272.00. Look at the stub.", "feedback_extra": ["Gross pay is the top number, before any deduction comes out."]}, {"id": "stub-20-gross", "prompt": "What is the gross pay, the amount earned before anything came out?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 20.00 hours at $17.00: $340.00", "GROSS PAY: $340.00", "Federal income tax: $20.40", "New York State income tax: $10.20", "Social Security (6.2 percent): $21.08", "Medicare (1.45 percent): $4.93", "TOTAL DEDUCTIONS: $56.61", "NET PAY (what you keep): $283.39"], "picture": "paycheck-stub.png", "answer": ["$340.00"], "choices": ["$340.00", "$232.00", "$286.00", "$448.00"], "feedback": "It is $340.00. Look at the stub.", "feedback_extra": ["Gross pay is the top number, before any deduction comes out."]}, {"id": "stub-22-gross", "prompt": "What is the gross pay, the amount earned before anything came out?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 22.00 hours at $17.00: $374.00", "GROSS PAY: $374.00", "Federal income tax: $22.44", "New York State income tax: $11.22", "Social Security (6.2 percent): $23.19", "Medicare (1.45 percent): $5.42", "TOTAL DEDUCTIONS: $62.27", "NET PAY (what you keep): $311.73"], "picture": "paycheck-stub.png", "answer": ["$374.00"], "choices": ["$254.00", "$434.00", "$494.00", "$374.00"], "feedback": "It is $374.00. Look at the stub.", "feedback_extra": ["Gross pay is the top number, before any deduction comes out."]}, {"id": "stub-26-gross", "prompt": "What is the gross pay, the amount earned before anything came out?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 26.00 hours at $17.00: $442.00", "GROSS PAY: $442.00", "Federal income tax: $26.52", "New York State income tax: $13.26", "Social Security (6.2 percent): $27.40", "Medicare (1.45 percent): $6.41", "TOTAL DEDUCTIONS: $73.59", "NET PAY (what you keep): $368.41"], "picture": "paycheck-stub.png", "answer": ["$442.00"], "choices": ["$407.00", "$477.00", "$442.00", "$547.00"], "feedback": "It is $442.00. Look at the stub.", "feedback_extra": ["Gross pay is the top number, before any deduction comes out."]}, {"id": "stub-30-gross", "prompt": "What is the gross pay, the amount earned before anything came out?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 30.00 hours at $17.00: $510.00", "GROSS PAY: $510.00", "Federal income tax: $30.60", "New York State income tax: $15.30", "Social Security (6.2 percent): $31.62", "Medicare (1.45 percent): $7.40", "TOTAL DEDUCTIONS: $84.92", "NET PAY (what you keep): $425.08"], "picture": "paycheck-stub.png", "answer": ["$510.00"], "choices": ["$469.00", "$674.00", "$510.00", "$428.00"], "feedback": "It is $510.00. Look at the stub.", "feedback_extra": ["Gross pay is the top number, before any deduction comes out."]}]}, {"kind": "choice", "label": "round1.deductions", "title": "Read the stub: deductions", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 4}, "items": [{"id": "stub-12-deductions", "prompt": "How much came out in deductions, all four lines together?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 12.00 hours at $17.00: $204.00", "GROSS PAY: $204.00", "Federal income tax: $12.24", "New York State income tax: $6.12", "Social Security (6.2 percent): $12.65", "Medicare (1.45 percent): $2.96", "TOTAL DEDUCTIONS: $33.97", "NET PAY (what you keep): $170.03"], "picture": "paycheck-stub.png", "answer": ["$33.97"], "choices": ["$33.97", "$43.97", "$23.97", "$28.97"], "feedback": "It is $33.97. Look at the stub.", "feedback_extra": ["Total deductions is the four lines added together."]}, {"id": "stub-16-deductions", "prompt": "How much came out in deductions, all four lines together?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 16.00 hours at $17.00: $272.00", "GROSS PAY: $272.00", "Federal income tax: $16.32", "New York State income tax: $8.16", "Social Security (6.2 percent): $16.86", "Medicare (1.45 percent): $3.94", "TOTAL DEDUCTIONS: $45.28", "NET PAY (what you keep): $226.72"], "picture": "paycheck-stub.png", "answer": ["$45.28"], "choices": ["$35.28", "$45.28", "$50.28", "$55.28"], "feedback": "It is $45.28. Look at the stub.", "feedback_extra": ["Total deductions is the four lines added together."]}, {"id": "stub-20-deductions", "prompt": "How much came out in deductions, all four lines together?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 20.00 hours at $17.00: $340.00", "GROSS PAY: $340.00", "Federal income tax: $20.40", "New York State income tax: $10.20", "Social Security (6.2 percent): $21.08", "Medicare (1.45 percent): $4.93", "TOTAL DEDUCTIONS: $56.61", "NET PAY (what you keep): $283.39"], "picture": "paycheck-stub.png", "answer": ["$56.61"], "choices": ["$71.61", "$56.61", "$76.61", "$41.61"], "feedback": "It is $56.61. Look at the stub.", "feedback_extra": ["Total deductions is the four lines added together."]}, {"id": "stub-22-deductions", "prompt": "How much came out in deductions, all four lines together?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 22.00 hours at $17.00: $374.00", "GROSS PAY: $374.00", "Federal income tax: $22.44", "New York State income tax: $11.22", "Social Security (6.2 percent): $23.19", "Medicare (1.45 percent): $5.42", "TOTAL DEDUCTIONS: $62.27", "NET PAY (what you keep): $311.73"], "picture": "paycheck-stub.png", "answer": ["$62.27"], "choices": ["$82.27", "$77.27", "$62.27", "$42.27"], "feedback": "It is $62.27. Look at the stub.", "feedback_extra": ["Total deductions is the four lines added together."]}, {"id": "stub-26-deductions", "prompt": "How much came out in deductions, all four lines together?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 26.00 hours at $17.00: $442.00", "GROSS PAY: $442.00", "Federal income tax: $26.52", "New York State income tax: $13.26", "Social Security (6.2 percent): $27.40", "Medicare (1.45 percent): $6.41", "TOTAL DEDUCTIONS: $73.59", "NET PAY (what you keep): $368.41"], "picture": "paycheck-stub.png", "answer": ["$73.59"], "choices": ["$73.59", "$91.59", "$85.59", "$79.59"], "feedback": "It is $73.59. Look at the stub.", "feedback_extra": ["Total deductions is the four lines added together."]}, {"id": "stub-30-deductions", "prompt": "How much came out in deductions, all four lines together?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 30.00 hours at $17.00: $510.00", "GROSS PAY: $510.00", "Federal income tax: $30.60", "New York State income tax: $15.30", "Social Security (6.2 percent): $31.62", "Medicare (1.45 percent): $7.40", "TOTAL DEDUCTIONS: $84.92", "NET PAY (what you keep): $425.08"], "picture": "paycheck-stub.png", "answer": ["$84.92"], "choices": ["$91.92", "$98.92", "$84.92", "$63.92"], "feedback": "It is $84.92. Look at the stub.", "feedback_extra": ["Total deductions is the four lines added together."]}]}, {"kind": "choice", "label": "round1.net", "title": "Read the stub: net pay", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 4}, "items": [{"id": "stub-12-net", "prompt": "What is the net pay, the number you budget with?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 12.00 hours at $17.00: $204.00", "GROSS PAY: $204.00", "Federal income tax: $12.24", "New York State income tax: $6.12", "Social Security (6.2 percent): $12.65", "Medicare (1.45 percent): $2.96", "TOTAL DEDUCTIONS: $33.97", "NET PAY (what you keep): $170.03"], "picture": "paycheck-stub.png", "answer": ["$170.03"], "choices": ["$226.03", "$156.03", "$170.03", "$212.03"], "feedback": "It is $170.03. Look at the stub.", "feedback_extra": ["Net pay is what you keep. It is the number you budget with."]}, {"id": "stub-16-net", "prompt": "What is the net pay, the number you budget with?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 16.00 hours at $17.00: $272.00", "GROSS PAY: $272.00", "Federal income tax: $16.32", "New York State income tax: $8.16", "Social Security (6.2 percent): $16.86", "Medicare (1.45 percent): $3.94", "TOTAL DEDUCTIONS: $45.28", "NET PAY (what you keep): $226.72"], "picture": "paycheck-stub.png", "answer": ["$226.72"], "choices": ["$226.72", "$154.72", "$298.72", "$190.72"], "feedback": "It is $226.72. Look at the stub.", "feedback_extra": ["Net pay is what you keep. It is the number you budget with."]}, {"id": "stub-20-net", "prompt": "What is the net pay, the number you budget with?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 20.00 hours at $17.00: $340.00", "GROSS PAY: $340.00", "Federal income tax: $20.40", "New York State income tax: $10.20", "Social Security (6.2 percent): $21.08", "Medicare (1.45 percent): $4.93", "TOTAL DEDUCTIONS: $56.61", "NET PAY (what you keep): $283.39"], "picture": "paycheck-stub.png", "answer": ["$283.39"], "choices": ["$283.39", "$375.39", "$352.39", "$329.39"], "feedback": "It is $283.39. Look at the stub.", "feedback_extra": ["Net pay is what you keep. It is the number you budget with."]}, {"id": "stub-22-net", "prompt": "What is the net pay, the number you budget with?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 22.00 hours at $17.00: $374.00", "GROSS PAY: $374.00", "Federal income tax: $22.44", "New York State income tax: $11.22", "Social Security (6.2 percent): $23.19", "Medicare (1.45 percent): $5.42", "TOTAL DEDUCTIONS: $62.27", "NET PAY (what you keep): $311.73"], "picture": "paycheck-stub.png", "answer": ["$311.73"], "choices": ["$386.73", "$211.73", "$336.73", "$311.73"], "feedback": "It is $311.73. Look at the stub.", "feedback_extra": ["Net pay is what you keep. It is the number you budget with."]}, {"id": "stub-26-net", "prompt": "What is the net pay, the number you budget with?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 26.00 hours at $17.00: $442.00", "GROSS PAY: $442.00", "Federal income tax: $26.52", "New York State income tax: $13.26", "Social Security (6.2 percent): $27.40", "Medicare (1.45 percent): $6.41", "TOTAL DEDUCTIONS: $73.59", "NET PAY (what you keep): $368.41"], "picture": "paycheck-stub.png", "answer": ["$368.41"], "choices": ["$455.41", "$484.41", "$426.41", "$368.41"], "feedback": "It is $368.41. Look at the stub.", "feedback_extra": ["Net pay is what you keep. It is the number you budget with."]}, {"id": "stub-30-net", "prompt": "What is the net pay, the number you budget with?", "prompt_extra": ["Earnings statement, two weeks. Made up for class.", "Regular pay, 30.00 hours at $17.00: $510.00", "GROSS PAY: $510.00", "Federal income tax: $30.60", "New York State income tax: $15.30", "Social Security (6.2 percent): $31.62", "Medicare (1.45 percent): $7.40", "TOTAL DEDUCTIONS: $84.92", "NET PAY (what you keep): $425.08"], "picture": "paycheck-stub.png", "answer": ["$425.08"], "choices": ["$425.08", "$561.08", "$527.08", "$391.08"], "feedback": "It is $425.08. Look at the stub.", "feedback_extra": ["Net pay is what you keep. It is the number you budget with."]}]}]}, {"n": 2, "note": "Round 2: the month, ten expense cards dealt from eighteen, four needs and six wants", "seconds_per_item": 20, "engines": ["month"], "steps": [{"kind": "month", "label": "round2.month", "title": "Round 2: the month", "max_taps": 10, "rate": 17.0, "savings_share": 0.2, "needs": 4, "wants": 6, "stubs": [{"id": "stub-12", "hours": 12, "gross": 204.0, "ded": 33.97, "net": 170.03}, {"id": "stub-16", "hours": 16, "gross": 272.0, "ded": 45.28, "net": 226.72}, {"id": "stub-20", "hours": 20, "gross": 340.0, "ded": 56.61, "net": 283.39}, {"id": "stub-22", "hours": 22, "gross": 374.0, "ded": 62.27, "net": 311.73}, {"id": "stub-26", "hours": 26, "gross": 442.0, "ded": 73.59, "net": 368.41}, {"id": "stub-30", "hours": 30, "gross": 510.0, "ded": 84.92, "net": 425.08}], "options": {"source": "fixed", "style": "buttons", "count": 2, "list": [{"id": "need", "label": "Need", "picture": "paycheck-wallet.png"}, {"id": "want", "label": "Want", "picture": "paycheck-cart.png"}]}, "buy": {"source": "fixed", "style": "buttons", "count": 2, "list": [{"id": "yes", "label": "Buy it"}, {"id": "no", "label": "Skip it"}]}, "items": [{"id": "card-01", "prompt": "Monthly bus pass", "price": 60, "answer": ["need"], "feedback": "No bus pass, no way to school or work. A need."}, {"id": "card-02", "prompt": "School lunch account refill", "price": 35, "answer": ["need"], "feedback": "Lunch every day keeps you healthy and able to do school. A need."}, {"id": "card-03", "prompt": "Winter coat (yours ripped and it is November)", "price": 60, "answer": ["need"], "feedback": "One winter coat keeps you safe and healthy. A need. A third one would be a want."}, {"id": "card-04", "prompt": "Notebooks and pens for school", "price": 8, "answer": ["need"], "feedback": "You cannot do school without them. A need."}, {"id": "card-05", "prompt": "Cold medicine", "price": 10, "answer": ["need"], "feedback": "Health. A need."}, {"id": "card-06", "prompt": "Non-slip shoes the bagel shop requires", "price": 40, "answer": ["need"], "feedback": "The job requires them, so you cannot work without them. A need."}, {"id": "card-07", "prompt": "Pizza slices with friends, four Fridays", "price": 16, "answer": ["want"], "feedback": "Fun and friends. A want."}, {"id": "card-08", "prompt": "Bubble tea, twice", "price": 14, "answer": ["want"], "feedback": "A want. Small wants add up to the twelve dollars nobody can remember."}, {"id": "card-09", "prompt": "A game skin", "price": 10, "answer": ["want"], "feedback": "A want."}, {"id": "card-10", "prompt": "A game on release day", "price": 70, "answer": ["want"], "feedback": "A want. It will cost less in three months."}, {"id": "card-11", "prompt": "Movie ticket", "price": 17, "answer": ["want"], "feedback": "A want."}, {"id": "card-12", "prompt": "Streaming subscription", "price": 12, "answer": ["want"], "feedback": "A want, even though it comes out every month until you cancel it."}, {"id": "card-13", "prompt": "Food out with friends", "price": 80, "answer": ["want"], "feedback": "Eating out is a want. Eating is the need, and lunch is already covered."}, {"id": "card-14", "prompt": "New sneakers (your old ones are fine)", "price": 90, "answer": ["want"], "feedback": "A second pair that works is a want."}, {"id": "card-15", "prompt": "Concert ticket", "price": 120, "answer": ["want"], "feedback": "A want. This is what a savings goal is for."}, {"id": "card-16", "prompt": "Skin care and hair products beyond the basics", "price": 40, "answer": ["want"], "feedback": "The extras are a want."}, {"id": "card-17", "prompt": "Birthday gift for a friend", "price": 20, "answer": ["want"], "feedback": "A kind want. Still a want."}, {"id": "card-18", "prompt": "Ride share instead of the bus", "price": 15, "answer": ["want"], "feedback": "The bus pass is already paid. The ride share is a want."}]}]}], "study": [], "rule_lines": ["Round 1: three questions about the stub. Every stub is random and made up.", "Round 2: sort ten expense cards into Need or Want, 10 points each. Needs are paid for you. For a want, you choose: buy it or skip it. End the month with money left and every 5 dollars left banks as a point. Go into the red and the month is over."], "reference": {}, "_unmapped": {}}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+<script src="plugins/month.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
 <script>
 (function () {
   "use strict";
-  var RATE = 17.00;
-  // The expense pool. need is the lesson's test: safe, healthy, and able to do school or work. why is the one-line reason.
-  var POOL = [
-    {item: "Monthly bus pass", price: 60, need: true, why: "No bus pass, no way to school or work. A need."},
-    {item: "School lunch account refill", price: 35, need: true, why: "Lunch every day keeps you healthy and able to do school. A need."},
-    {item: "Winter coat (yours ripped and it is November)", price: 60, need: true, why: "One winter coat keeps you safe and healthy. A need. A third one would be a want."},
-    {item: "Notebooks and pens for school", price: 8, need: true, why: "You cannot do school without them. A need."},
-    {item: "Cold medicine", price: 10, need: true, why: "Health. A need."},
-    {item: "Non-slip shoes the bagel shop requires", price: 40, need: true, why: "The job requires them, so you cannot work without them. A need."},
-    {item: "Pizza slices with friends, four Fridays", price: 16, need: false, why: "Fun and friends. A want."},
-    {item: "Bubble tea, twice", price: 14, need: false, why: "A want. Small wants add up to the twelve dollars nobody can remember."},
-    {item: "A game skin", price: 10, need: false, why: "A want."},
-    {item: "A game on release day", price: 70, need: false, why: "A want. It will cost less in three months."},
-    {item: "Movie ticket", price: 17, need: false, why: "A want."},
-    {item: "Streaming subscription", price: 12, need: false, why: "A want, even though it comes out every month until you cancel it."},
-    {item: "Food out with friends", price: 80, need: false, why: "Eating out is a want. Eating is the need, and lunch is already covered."},
-    {item: "New sneakers (your old ones are fine)", price: 90, need: false, why: "A second pair that works is a want."},
-    {item: "Concert ticket", price: 120, need: false, why: "A want. This is what a savings goal is for."},
-    {item: "Skin care and hair products beyond the basics", price: 40, need: false, why: "The extras are a want."},
-    {item: "Birthday gift for a friend", price: 20, need: false, why: "A kind want. Still a want."},
-    {item: "Ride share instead of the bus", price: 15, need: false, why: "The bus pass is already paid. The ride share is a want."}
-  ];
-  var startP = document.getElementById("ppStart"), stubWrap = document.getElementById("ppStubWrap"), quizP = document.getElementById("ppQuiz");
-  var monthP = document.getElementById("ppMonth"), endP = document.getElementById("ppEnd");
-  var elRound = document.getElementById("ppRound"), elT = document.getElementById("ppTimer"), elTB = document.getElementById("ppTimerBox");
-  var elBal = document.getElementById("ppBal"), elSc = document.getElementById("ppScore"), live = document.getElementById("ppLive");
-  var qfeed = document.getElementById("ppQFeed"), mfeed = document.getElementById("ppMFeed"), feedTimer;
-
-  var stub, score, secs, tick, round, qs, qi, qright, balance, deck, di, sortRight, missed, spent, locked, current, redCard, savings, monthNet;
-
-  function money(n) { return "$" + n.toFixed(2); }
-  function money0(n) { return "$" + Math.round(n); }
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function hud() {
-    elRound.textContent = round + " of 2"; elT.textContent = secs; elSc.textContent = score;
-    elBal.textContent = round === 2 ? money0(balance) : "$0";
-    elTB.className = "stat timer" + (secs <= 5 && tick ? " low" : "");
-  }
-  function say(el, text, cls) {
-    el.textContent = text; el.className = "feedback" + (cls ? " " + cls : "");
-    clearTimeout(feedTimer);
-    feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 3200);
-  }
-  function stopClock() { clearInterval(tick); tick = null; }
-  function startClock(n, onOut) {
-    stopClock(); secs = n; hud();
-    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
-  }
-
-  // ---- the stub ----
-  function makeStub() {
-    var hours = 12 + 2 * Math.floor(Math.random() * 10);        // 12 to 30 hours in two weeks
-    var gross = hours * RATE;
-    var ss = Math.round(gross * 0.062 * 100) / 100;
-    var med = Math.round(gross * 0.0145 * 100) / 100;
-    var fed = Math.round(gross * 0.06 * 100) / 100;
-    var nys = Math.round(gross * 0.03 * 100) / 100;
-    var ded = Math.round((ss + med + fed + nys) * 100) / 100;
-    return {hours: hours, gross: gross, ss: ss, med: med, fed: fed, nys: nys, ded: ded, net: Math.round((gross - ded) * 100) / 100};
-  }
-  function renderStub(s) {
-    var rows = [
-      ["Regular pay, " + s.hours.toFixed(2) + " hours at " + money(RATE), money(s.gross)],
-      ["GROSS PAY", money(s.gross), "total"],
-      ["Federal income tax", money(s.fed)],
-      ["New York State income tax", money(s.nys)],
-      ["Social Security (6.2 percent)", money(s.ss)],
-      ["Medicare (1.45 percent)", money(s.med)],
-      ["TOTAL DEDUCTIONS", money(s.ded), "total"],
-      ["NET PAY (what you keep)", money(s.net), "net"]
-    ];
-    var h = "<h3>Earnings statement, two weeks. Made up for class.</h3><table>";
-    rows.forEach(function (r) { h += '<tr class="' + (r[2] || "") + '"><td>' + r[0] + "</td><td>" + r[1] + "</td></tr>"; });
-    document.getElementById("ppStub").innerHTML = h + "</table>";
-  }
-  function near(v, kind) {
-    // three wrong answers near the right one, all different
-    var out = [v], tries = 0;
-    while (out.length < 4 && tries < 40) {
-      tries += 1;
-      var d = (Math.floor(Math.random() * 4) + 1) * (kind === "pct" ? 2 : Math.max(5, Math.round(v * 0.08)));
-      var c = Math.round((v + (Math.random() < 0.5 ? -d : d)) * 100) / 100;
-      if (c > 0 && out.indexOf(c) === -1 && Math.abs(c - v) > 0.5) { out.push(c); }
-    }
-    return shuffle(out);
-  }
-  function makeQuestions(s) {
-    var pool = [
-      {q: "What is the gross pay, the amount earned before anything came out?", a: money(s.gross), opts: near(s.gross).map(money)},
-      {q: "How much came out in deductions, all four lines together?", a: money(s.ded), opts: near(s.ded).map(money)},
-      {q: "What is the net pay, the number you budget with?", a: money(s.net), opts: near(s.net).map(money)},
-      {q: "Which deduction is the largest?", a: "Social Security", opts: shuffle(["Federal income tax", "New York State income tax", "Social Security", "Medicare"])},
-      {q: "About what percent of the gross came out? (deductions divided by gross)", a: Math.round(s.ded / s.gross * 100) + " percent", opts: near(Math.round(s.ded / s.gross * 100), "pct").map(function (p) { return Math.round(p) + " percent"; })},
-      {q: "Two of these paychecks in a month. What is the net for the month?", a: money(s.net * 2), opts: near(Math.round(s.net * 2 * 100) / 100).map(money)}
-    ];
-    var picks = shuffle(pool).slice(0, 3);
-    // the net question is always in, because it is the number the month runs on
-    if (!picks.some(function (p) { return p === pool[2]; })) { picks[2] = pool[2]; }
-    return picks;
-  }
-  function askQ() {
-    var q = qs[qi]; locked = false;
-    document.getElementById("ppQLab").textContent = "Round 1: read the stub, " + (qi + 1) + " of 3";
-    document.getElementById("ppQText").textContent = q.q;
-    var row = document.getElementById("ppQChoices"); row.innerHTML = "";
-    q.opts.forEach(function (o) {
-      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.textContent = o;
-      b.addEventListener("click", function () { answerQ(o, b); });
-      row.appendChild(b);
-    });
-    live.textContent = q.q;
-    startClock(20, function () { answerQ(null, null); });
-  }
-  function answerQ(o, b) {
-    if (locked) { return; }
-    locked = true; stopClock();
-    var q = qs[qi], right = o === q.a;
-    var bs = document.querySelectorAll("#ppQChoices .gbtn");
-    for (var i = 0; i < bs.length; i++) { if (bs[i].textContent === q.a) { bs[i].classList.add("right"); } }
-    if (right) { score += 10; qright += 1; say(qfeed, "Yes. " + q.a + ".", "good"); }
-    else { if (b) { b.classList.add("wrong"); } say(qfeed, (o ? "No. " : "Time. ") + "It is " + q.a + ". Look at the stub.", "bad"); }
-    hud();
-    setTimeout(function () {
-      qi += 1;
-      if (qi >= 3) { if (qright === 3) { score += 5; } startMonth(); } else { askQ(); }
-    }, 1500);
-  }
-
-  // ---- the month ----
-  function startMonth() {
-    round = 2; quizP.hidden = true; monthP.hidden = false;
-    monthNet = Math.round(stub.net * 2 * 100) / 100;
-    savings = Math.round(monthNet * 0.2);
-    balance = Math.round(monthNet - savings);
-    spent = []; sortRight = 0; redCard = null;
-    var needs = shuffle(POOL.filter(function (c) { return c.need; })).slice(0, 4);
-    var wants = shuffle(POOL.filter(function (c) { return !c.need; })).slice(0, 6);
-    deck = shuffle(needs.concat(wants)); di = 0;
-    document.getElementById("ppMText").textContent = "Two paychecks this month: " + money(monthNet) + " net. Savings first, 20 percent: " + money0(savings) + " put away. " + money0(balance) + " left for the month. Sort each card, then decide.";
-    hud();
-    showCard();
-    monthP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function showCard() {
-    current = deck[di]; locked = false;
-    var card = document.getElementById("ppCard"); card.className = "pp-card";
-    document.getElementById("ppPrice").textContent = money0(current.price);
-    document.getElementById("ppItem").textContent = current.item;
-    document.getElementById("ppNote").textContent = "Card " + (di + 1) + " of " + deck.length + ". Need or want?";
-    document.getElementById("ppSort").hidden = false; document.getElementById("ppBuy").hidden = true;
-    document.getElementById("ppLedger").textContent = "Balance " + money0(balance) + ". Bought so far: " + (spent.length ? spent.join(", ") : "nothing yet") + ".";
-    live.textContent = current.item + ", " + money0(current.price) + ". Need or want?";
-  }
-  function sortCard(choice) {
-    if (locked) { return; }
-    var right = (choice === "need") === current.need;
-    var card = document.getElementById("ppCard"); card.className = "pp-card " + (current.need ? "need" : "want");
-    if (right) { score += 10; sortRight += 1; say(mfeed, "Yes. " + current.why, "good"); }
-    else { say(mfeed, "No. " + current.why, "bad"); missed.push(current.item + ": " + (current.need ? "need" : "want")); }
-    hud();
-    document.getElementById("ppSort").hidden = true;
-    if (current.need) {
-      locked = true;
-      balance -= current.price; spent.push(current.item);
-      document.getElementById("ppNote").textContent = "A need gets paid. Minus " + money0(current.price) + ".";
-      hud();
-      setTimeout(function () { if (balance < 0) { endMonth("need"); } else { nextCard(); } }, 1600);
-    } else {
-      document.getElementById("ppNote").textContent = "A want is a choice. Balance " + money0(balance) + ". Buy it or skip it?";
-      document.getElementById("ppBuy").hidden = false;
-    }
-  }
-  function buyCard(yes) {
-    if (locked) { return; }
-    locked = true;
-    document.getElementById("ppBuy").hidden = true;
-    if (yes) {
-      balance -= current.price; spent.push(current.item);
-      if (balance < 0) { redCard = current; hud(); endMonth("want"); return; }
-      document.getElementById("ppNote").textContent = "Bought. Minus " + money0(current.price) + ". Balance " + money0(balance) + ".";
-    } else {
-      document.getElementById("ppNote").textContent = "Skipped. Balance stays at " + money0(balance) + ".";
-    }
-    hud();
-    setTimeout(nextCard, 1000);
-  }
-  function nextCard() {
-    di += 1;
-    if (di >= deck.length) { endMonth("done"); } else { showCard(); }
-  }
-  function endMonth(how) {
-    stopClock(); monthP.hidden = true; endP.hidden = false;
-    var head = document.getElementById("ppEndHead"), sum;
-    if (how === "want") {
-      head.textContent = "In the red";
-      sum = "The " + redCard.item.toLowerCase() + " at " + money0(redCard.price) + " put you " + money0(-balance) + " under. That is the want that did it. Nothing banks this month. Sorting: " + sortRight + " of " + deck.length + " right.";
-    } else if (how === "need") {
-      head.textContent = "In the red";
-      sum = "A need came up and the money was gone: " + current.item.toLowerCase() + " at " + money0(current.price) + ". The wants bought before it (" + spent.slice(0, -1).join(", ") + ") are what did it. Nothing banks this month. Sorting: " + sortRight + " of " + deck.length + " right.";
-    } else {
-      head.textContent = "In the black";
-      var bank = Math.round(balance / 5);
-      score += bank;
-      sum = "Month over with " + money0(balance) + " left, on top of the " + money0(savings) + " you saved first. That banks " + bank + " points (one per 5 dollars). Sorting: " + sortRight + " of " + deck.length + " right.";
-    }
-    document.getElementById("ppFinal").textContent = score + " points";
-    if (window.LSA && LSA.report) { LSA.report({game: "paycheck-puzzle", lesson: "2.8", score: score, max: 0, rounds: 2}); }
-    document.getElementById("ppSummary").textContent = sum;
-    var ul = document.getElementById("ppMissed"); ul.innerHTML = "";
-    document.getElementById("ppMissWrap").hidden = !missed.length;
-    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
-    hud();
-    endP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-
-  function begin() {
-    score = 0; round = 1; qi = 0; qright = 0; missed = []; balance = 0;
-    stub = makeStub(); renderStub(stub); qs = makeQuestions(stub);
-    startP.hidden = true; endP.hidden = true; stubWrap.hidden = false; quizP.hidden = false; monthP.hidden = true;
-    hud(); askQ();
-    stubWrap.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  var sortBtns = document.querySelectorAll("#ppSort .gbtn");
-  for (var i = 0; i < sortBtns.length; i++) { (function (b) { b.addEventListener("click", function () { sortCard(b.getAttribute("data-sort")); }); }(sortBtns[i])); }
-  var buyBtns = document.querySelectorAll("#ppBuy .gbtn");
-  for (var k = 0; k < buyBtns.length; k++) { (function (b) { b.addEventListener("click", function () { buyCard(b.getAttribute("data-buy") === "yes"); }); }(buyBtns[k])); }
-  document.getElementById("ppGo").addEventListener("click", begin);
-  document.getElementById("ppAgain").addEventListener("click", begin);
-  score = 0; round = 1; secs = 20; balance = 0; hud();
+  var root = document.getElementById("PaycheckPuzzle");
+  var node = document.getElementById("PaycheckPuzzle-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
 }());
 </script>
 

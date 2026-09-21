@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waste Watch, Life Skills Arcade</title>
+<meta name="description" content="A cutaway of the Marchetti-Oyelaran apartment appears. Tap everything wasting energy or water. Then the twelve fixes from the ranking table appear, and you sort each into free or costs money.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="WasteWatch">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-04-04.html">Lesson 4.4</a>. Reviews Lesson 4.4 Day 2: the described-home audit and the twelve-fix ranking. Use it as the do now for Lesson 4.5 before the Greener Room Swap, or as a review before the two conservation items on the Home Safety and Conservation Quiz. About two and a half minutes. The end panel carries the phantom load, conservation, and efficiency definitions and the bulb math. Round 1 is a spot the waste on one picture of the Marchetti-Oyelaran apartment with 15 wastes and four decoys; Round 2 sorts the twelve fixes into free or costs money.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/waste-watch-title.webp" alt=""><h1 class="game-title">Waste <span class="alt2">Watch</span></h1></div>
+<p class="game-lede">A cutaway of the Marchetti-Oyelaran apartment appears. Tap everything wasting energy or water. Then the twelve fixes from the ranking table appear, and you sort each into free or costs money.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Tap everything that is wasting energy or water.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="waste-watch-scene"><img class="piece" src="art/waste-watch-scene.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Phantom load: power a device draws while off or in standby.</li><li>Conservation: using less of a resource on purpose so it lasts. Efficiency: getting the same result with less.</li><li>Watt-hours are pennies. Kilowatt-hours are dollars. 60 x 5 x 365 = 109,500 Wh = 109.5 kWh = $27.38 a year.</li><li>One drip per second is about 5 gallons a day; 1,825 gallons a year, about 30 bathtubs.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="WasteWatch-data">{"schema": "1.0", "slug": "waste-watch", "title": "Waste Watch", "unit": 4, "lessons": ["4.4"], "handouts": ["Handout 04.04 - Home Energy Audit Checklist and Sample Bill"], "standards": ["NYS EDM 1. Healthy, Safe, Sustainable Living Spaces d) Investigate ways to conserve natural resources in family, school, work, and community settings", "CTE SUS 3. Energy Conservation d) Define \"conservation\" as it applies to energy", "CTE SUS 3. Energy Conservation e) List and describe methods for energy conservation in the home, workplace, and community", "National FCS 3.0: 3.4.3 Try out different ways to save energy and cut waste."], "source_file": "u4.json", "mechanic_note": "spot-the-thing then sort: Round 1, a baked cutaway of the Marchetti-Oyelaran apartment with the wastes drawn in; tap everything that is wasting energy or water; Round 2, the twelve fixes from the ranking table sort into two bins, free or costs money", "teacher_note": "Reviews Lesson 4.4 Day 2: the described-home audit and the twelve-fix ranking. Use it as the do now for Lesson 4.5 before the Greener Room Swap, or as a review before the two conservation items on the Home Safety and Conservation Quiz. About two and a half minutes. The end panel carries the phantom load, conservation, and efficiency definitions and the bulb math. Round 1 is a spot the waste on one picture of the Marchetti-Oyelaran apartment with 15 wastes and four decoys; Round 2 sorts the twelve fixes into free or costs money.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per waste found and 10 per fix sorted right, 5 bonus on every third in a row, a wrong tap on a decoy costs 5 and shows the checklist line; a miss shows the fix in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "waste-watch-title.png", "line": "An old round light bulb, lit, with yellow glass and a light gray screw base, black outline."}, "scene": [{"file": "waste-watch-scene.png", "line": "A 1536 by 1024 cutaway of a two-bedroom apartment in four rooms with no people and no faces: top left the living room with a TV glowing sky blue, a small dog asleep on a cream couch pushed against a light gray radiator, a cable box and game console with tiny green standby lights under the TV, three lamps with round yellow bulbs lit, and a window with snow outside holding a white air conditioner with a red towel stuffed around it; top right the kitchen with a white refrigerator whose bottom door seal is torn and a sheet of paper sliding out, an open dishwasher half full, a faucet with a single drop falling, a microwave with a glowing green clock, a range hood with its light on yellow, and a green plant on the sill; bottom left the bathroom with a shower running with steam from an old light gray showerhead and a toilet with wavy water lines showing it running; bottom right two bedrooms, one with an outlet holding two phone chargers and a laptop charger with nothing attached, a red space heater glowing beside a window cracked open, and one empty bedroom with the door closed and a lamp lit yellow over an empty bed and a second lamp switched off; flat sticker style, black outlines, palette of sky blue, red, green, yellow, white, cream, light gray.", "width": null, "height": null}], "cards": [], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 15 wastes in one picture, 75 seconds", "seconds_per_item": 75, "engines": ["scene"], "steps": [{"kind": "scene", "scene": {"file": "waste-watch-scene.png", "width": 1536, "height": 1024, "alt": "A cutaway of a four room apartment with fifteen wastes drawn in."}, "mode": "find_all", "targets": [{"id": "tv-on-for-the-dog", "prompt": "The TV is on all day for the dog.", "answer": ["tv on for the dog"], "boxes": [[40, 215, 160, 135]], "feedback": "Fix (free or $20 strip), cable box and console, and the TV for the dog", "tags": {"checklist": "Phantom 2"}}, {"id": "cable-box-and-console-on-standby", "prompt": "A cable box and a game console are on standby under it.", "answer": ["cable box and console on standby"], "boxes": [[30, 350, 180, 90]], "feedback": "Fix (free or $20 strip), cable box and console", "tags": {"checklist": "Phantom 2"}}, {"id": "three-old-round-bulbs", "prompt": "Three lamps have the old round bulbs that get hot.", "answer": ["three old round bulbs"], "boxes": [[205, 155, 60, 65], [652, 148, 62, 65], [595, 230, 60, 60]], "feedback": "Fix ($), ten old bulbs", "tags": {"checklist": "Lights 2"}}, {"id": "window-ac-in-january", "prompt": "A window air conditioner is still in the window in January with a towel stuffed around it.", "answer": ["window ac in january"], "boxes": [[400, 175, 140, 80]], "feedback": "Fix ($), the AC in the window in January; take it out or seal it, weatherstrip", "tags": {"checklist": "Heat 4"}}, {"id": "couch-on-the-radiator", "prompt": "The couch sits in front of the radiator.", "answer": ["couch on the radiator"], "boxes": [[255, 258, 120, 145]], "feedback": "Fix (free), the couch on the radiator", "tags": {"checklist": "Heat 3"}}, {"id": "torn-fridge-seal", "prompt": "The refrigerator door has a torn seal at the bottom; a sheet of paper slides out.", "answer": ["torn fridge seal"], "boxes": [[850, 380, 165, 95]], "feedback": "Fix ($), the torn seal (a new gasket is about $50, a new fridge is the landlord's)", "tags": {"checklist": "Appliance 1"}}, {"id": "half-full-dishwasher", "prompt": "The dishwasher is run every night, half full.", "answer": ["half-full dishwasher"], "boxes": [[1185, 340, 132, 145]], "feedback": "Fix (free), the half-full dishwasher", "tags": {"checklist": "Appliance 2"}}, {"id": "dripping-faucet", "prompt": "The faucet drips about once a second.", "answer": ["dripping faucet"], "boxes": [[1090, 255, 75, 60]], "feedback": "Fix ($2), the drip", "tags": {"checklist": "Water 1"}}, {"id": "microwave-clock", "prompt": "The microwave clock is on.", "answer": ["microwave clock"], "boxes": [[1200, 165, 165, 85]], "feedback": "a phantom load: a device that draws power while off", "tags": {"checklist": "Phantom 2"}}, {"id": "range-hood-light", "prompt": "The range hood light is on all day.", "answer": ["range hood light"], "boxes": [[1372, 145, 140, 115]], "feedback": "Fix (free), the bedroom lamp and the range hood light", "tags": {"checklist": "Lights 1"}}, {"id": "long-showers-old-showerhead", "prompt": "The shower runs about 15 minutes per person, three people a day. The showerhead is the original from when the building was built.", "answer": ["long showers old showerhead"], "boxes": [[85, 545, 160, 230]], "feedback": "Cut showers from 15 minutes to 8 (three people), saves $150; a low-flow showerhead ($15) saves $70", "tags": {"checklist": "Water"}}, {"id": "running-toilet", "prompt": "The toilet runs for a minute after each flush, then stops.", "answer": ["running toilet"], "boxes": [[240, 690, 105, 175]], "feedback": "Fix (free to $8), the toilet runs a minute, check the flapper", "tags": {"checklist": "Water 2"}}, {"id": "chargers-with-nothing-attached", "prompt": "Two phone chargers and a laptop charger stay plugged in with nothing attached.", "answer": ["chargers with nothing attached"], "boxes": [[540, 735, 125, 160]], "feedback": "Fix (free), three chargers", "tags": {"checklist": "Phantom 1"}}, {"id": "space-heater-with-the-window-cracked", "prompt": "A space heater runs in the child's room all night with the window cracked open for fresh air.", "answer": ["space heater with the window cracked"], "boxes": [[655, 700, 100, 135], [690, 545, 105, 155]], "feedback": "Fix (free), the child's window open with the heater on", "tags": {"checklist": "Heat 2"}}, {"id": "lamp-on-in-the-empty-bedroom", "prompt": "A lamp with an old bulb is on in the empty adult bedroom while everyone is in the living room.", "answer": ["lamp on in the empty bedroom"], "boxes": [[1150, 645, 70, 90]], "feedback": "Fix (free), the bedroom lamp and the range hood light", "tags": {"checklist": "Lights 1"}}], "decoys": [{"id": "the-dog", "prompt": "The dog is not a waste. The TV left on for the dog is.", "answer": ["the dog"], "boxes": [[410, 300, 110, 60]]}, {"id": "a-plant-on-the-sill", "prompt": "A plant is not a waste.", "answer": ["a plant on the sill"], "boxes": [[1036, 200, 70, 65]]}, {"id": "closed-bedroom-door", "prompt": "A closed door is not a waste.", "answer": ["closed bedroom door"], "boxes": [[1035, 555, 95, 340]]}, {"id": "a-switched-off-lamp", "prompt": "A lamp that is off is not a waste.", "answer": ["a switched-off lamp"], "boxes": [[1440, 650, 60, 95]]}, {"id": "child-room-lamp", "prompt": "The lamp in the child's room", "boxes": [[905, 640, 70, 90]], "feedback": "That lamp is on in a room that is in use. The waste in that room is the space heater running with the window cracked open."}], "title": "Find every waste", "prompt": "Find every waste in the apartment. Tap each one."}]}, {"n": 2, "note": "Round 2: 12 fixes into 2 bins, 6 seconds each", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_2_items", "items": [{"id": "turn-off-lights-in-empty-rooms", "prompt": "Turn off lights in empty rooms", "answer": ["Free"], "feedback": "Cost $0. Saves about $20 a year."}, {"id": "power-strip", "prompt": "Unplug the chargers and put the TV, cable box, and console on a power strip you switch off", "answer": ["Costs money"], "feedback": "Cost $20 (strip). Saves about $50 a year. Payback 0.4 years."}, {"id": "led-swap", "prompt": "Swap the ten old bulbs for LEDs", "answer": ["Costs money"], "feedback": "Cost $30. Saves about $230 a year. Payback 0.13 years, about 7 weeks. Ranked first."}, {"id": "thermostat-setback", "prompt": "Set the thermostat back 7 degrees at night (in a home that pays for heat)", "answer": ["Free"], "feedback": "Cost $0. Saves about $125 a year. This family does not pay for heat, so it saves the landlord, not them."}, {"id": "shorter-showers", "prompt": "Cut showers from 15 minutes to 8 (three people)", "answer": ["Free"], "feedback": "Cost $0. Saves about $150 a year. Ranked second."}, {"id": "faucet-washer", "prompt": "Fix the dripping faucet (a new washer)", "answer": ["Costs money"], "feedback": "Cost $2. Saves about $15 a year. Payback 0.13 years."}, {"id": "low-flow-showerhead", "prompt": "Low-flow showerhead", "answer": ["Costs money"], "feedback": "Cost $15. Saves about $70 a year. Payback 0.2 years."}, {"id": "cold-laundry", "prompt": "Wash laundry in cold water", "answer": ["Free"], "feedback": "Cost $0. Saves about $60 a year."}, {"id": "weatherstrip", "prompt": "Weatherstrip the drafty window and door", "answer": ["Costs money"], "feedback": "Cost $25. Saves about $80 a year. Payback 0.3 years."}, {"id": "dishwasher-full", "prompt": "Run the dishwasher only when full", "answer": ["Free"], "feedback": "Cost $0. Saves about $30 a year."}, {"id": "programmable-thermostat", "prompt": "Programmable thermostat", "answer": ["Costs money"], "feedback": "Cost $80. Saves about $150 a year. Crossed out: it costs more than $50, and the landlord pays for heat."}, {"id": "new-refrigerator", "prompt": "New refrigerator with a good seal", "answer": ["Costs money"], "feedback": "Cost $900. Saves about $90 a year. Crossed out: it costs more than $50."}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "free", "label": "Free"}, {"id": "costs-money", "label": "Costs money"}]}}], "option_sets": [{"label": "round_2_bins", "list": [{"id": "free", "label": "Free"}, {"id": "costs-money", "label": "Costs money"}]}]}], "study": ["Phantom load: power a device draws while off or in standby.", "Conservation: using less of a resource on purpose so it lasts. Efficiency: getting the same result with less.", "Watt-hours are pennies. Kilowatt-hours are dollars. 60 x 5 x 365 = 109,500 Wh = 109.5 kWh = $27.38 a year.", "One drip per second is about 5 gallons a day; 1,825 gallons a year, about 30 bathtubs."], "rule_lines": ["Tap everything that is wasting energy or water."], "reference": {}, "_unmapped": {}, "repaired": true, "lede": "A cutaway of the Marchetti-Oyelaran apartment appears. Tap everything wasting energy or water. Then the twelve fixes from the ranking table appear, and you sort each into free or costs money."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("WasteWatch");
+  var node = document.getElementById("WasteWatch-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

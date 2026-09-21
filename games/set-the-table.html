@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set the Table, Life Skills Arcade</title>
+<meta name="description" content="Tap a piece, then tap its cell on the place setting grid around the plate. Press CHECK and every piece in the right spot lights green. Then build the formal setting and answer the outside-in questions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="SetTheTable">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-06-11.html">Lesson 6.11</a>. Reviews Lesson 6.11, the basic and formal place setting from Handout 06.11 Parts 2 and 3, the three other ways to serve from Part 4, and the hosting basics from Part 5. Play it the day before Lesson 6.17, when students set 30 covers for real, and before the Cooking Methods Check, which has a place setting item. Round 1 is the basic setting and the four why questions; the why is the part that separates copying the picture from knowing the reason. Round 2 adds the formal pieces and the outside-in rule, which is the grade 8 stretch, so a grade 6 class can stop after round 1. The hosting questions use the four systems as four systems, not as exotic, and the feedback lines are the teacher key's. Room Designer is a different grid; this one is a table.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/set-the-table-title.webp" alt=""><h1 class="game-title">Set <span class="alt2">the Table</span></h1></div>
+<p class="game-lede">Tap a piece, then tap its cell on the place setting grid around the plate. Press CHECK and every piece in the right spot lights green. Then build the formal setting and answer the outside-in questions.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="set-the-table-plate"><img class="piece" src="art/set-the-table-plate.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-fork"><img class="piece" src="art/set-the-table-fork.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-knife"><img class="piece" src="art/set-the-table-knife.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-spoon"><img class="piece" src="art/set-the-table-spoon.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-cup"><img class="piece" src="art/set-the-table-cup.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-napkin"><img class="piece" src="art/set-the-table-napkin.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-salad-fork"><img class="piece" src="art/set-the-table-salad-fork.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-dinner-fork"><img class="piece" src="art/set-the-table-dinner-fork.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-teaspoon"><img class="piece" src="art/set-the-table-teaspoon.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-soup-spoon"><img class="piece" src="art/set-the-table-soup-spoon.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-dessert-spoon"><img class="piece" src="art/set-the-table-dessert-spoon.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-bread-plate"><img class="piece" src="art/set-the-table-bread-plate.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-water-glass"><img class="piece" src="art/set-the-table-water-glass.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-other-glass"><img class="piece" src="art/set-the-table-other-glass.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-platter"><img class="piece" src="art/set-the-table-platter.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-chopsticks"><img class="piece" src="art/set-the-table-chopsticks.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-right-hand"><img class="piece" src="art/set-the-table-right-hand.webp" alt="" loading="lazy"></span>
+<span data-key="set-the-table-bento"><img class="piece" src="art/set-the-table-bento.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>A place setting is not a rule somebody made up to trap you. It is an order that follows how a meal actually happens, outside in, one course at a time.</li><li>Every culture has a system, and every system exists so people get fed fairly.</li><li>Our room: butter knives only, and only if the menu needs one.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="SetTheTable-data">{"schema": "1.0", "slug": "set-the-table", "title": "Set the Table", "unit": 6, "lessons": ["6.11"], "handouts": ["Handout 06.11 - Place Setting Diagram and Sharing Agreement", "Handout 06.17 - Serve and Clean Zones and Project Reflection"], "standards": ["NYS N&W 1. Culinary Management h) Demonstrate appropriate table setting", "NYS N&W 1. Culinary Management i) Practice food sharing behaviors that show consideration for other cultures and promote social acceptance", "NYS FSP 2. Food Preparation d) Demonstrate the skills and techniques common to food preparation of the region", "CTE CIR 6. Conflict Prevention and Management f) Contribute to a classroom environment that encourages respect for the ideas, perspectives, and contributions of all", "National FCS 3.0: 14.3.3 Show the ability to select, store, prepare, and serve food that is nourishing and looks good on the plate.", "National FCS 3.0: 8.5.12 Plate, garnish, and present food to a professional standard."], "source_file": "u6.json", "mechanic_note": "build with rules: tap a piece, then tap a cell on the place setting grid; the plate is fixed in the center; press CHECK and every piece in the right cell lights green, wrong cells show the right spot; then four fast questions. Round 2 is the formal setting on a wider grid plus the outside-in and hosting questions", "teacher_note": "Reviews Lesson 6.11, the basic and formal place setting from Handout 06.11 Parts 2 and 3, the three other ways to serve from Part 4, and the hosting basics from Part 5. Play it the day before Lesson 6.17, when students set 30 covers for real, and before the Cooking Methods Check, which has a place setting item. Round 1 is the basic setting and the four why questions; the why is the part that separates copying the picture from knowing the reason. Round 2 adds the formal pieces and the outside-in rule, which is the grade 8 stretch, so a grade 6 class can stop after round 1. The hosting questions use the four systems as four systems, not as exotic, and the feedback lines are the teacher key's. Room Designer is a different grid; this one is a table.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": null, "bank_seconds": true, "note": "10 per piece in the right cell on CHECK, 10 per correct question, 5 bonus on every third correct in a row, a wrong cell shows the right one with the handout's why line; seconds left bank when a build passes"}, "art": {"title": {"file": "set-the-table-title.png", "line": "A white dinner plate with a light gray fork on its left and a light gray knife on its right, black outline."}, "scene": [], "cards": [{"file": "set-the-table-plate.png", "line": "A round white dinner plate with a sky blue rim, black outline."}, {"file": "set-the-table-fork.png", "line": "One light gray dinner fork, upright, black outline."}, {"file": "set-the-table-knife.png", "line": "One light gray dinner knife, upright, with the blade edge on the left, black outline."}, {"file": "set-the-table-spoon.png", "line": "One light gray soup spoon, upright, black outline."}, {"file": "set-the-table-cup.png", "line": "A white cup with a sky blue band, black outline."}, {"file": "set-the-table-napkin.png", "line": "A folded cream cloth napkin in a rectangle, black outline."}, {"file": "set-the-table-salad-fork.png", "line": "One short light gray salad fork, upright, black outline."}, {"file": "set-the-table-dinner-fork.png", "line": "One long light gray dinner fork, upright, black outline."}, {"file": "set-the-table-teaspoon.png", "line": "One small light gray teaspoon, upright, black outline."}, {"file": "set-the-table-soup-spoon.png", "line": "One large round-bowled light gray soup spoon, upright, black outline."}, {"file": "set-the-table-dessert-spoon.png", "line": "One light gray dessert spoon lying sideways, black outline."}, {"file": "set-the-table-bread-plate.png", "line": "A small white plate with a short light gray butter knife laid across it, black outline."}, {"file": "set-the-table-water-glass.png", "line": "A tall clear glass of sky blue water, black outline."}, {"file": "set-the-table-other-glass.png", "line": "A shorter clear empty glass with a light gray stem, black outline."}, {"file": "set-the-table-platter.png", "line": "A large white oval platter with a light gray serving spoon and four small white plates around it, black outline."}, {"file": "set-the-table-chopsticks.png", "line": "A pair of light brown chopsticks resting on a small cream rest beside a white bowl, black outline."}, {"file": "set-the-table-right-hand.png", "line": "A white bowl of water with a folded cream towel beside a round flatbread, black outline."}, {"file": "set-the-table-bento.png", "line": "A stacked light gray tiffin carrier with three round tins and a handle, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: the basic setting, 6 pieces on a 5 by 3 grid, 45 seconds to place and check, then 4 questions at 8 seconds each", "seconds_per_item": 45, "engines": ["choice", "grid"], "steps": [{"kind": "grid", "rows": 3, "columns": 5, "check_rule": "every piece in its cell; the napkin passes in column 1 or under the fork in column 2", "rule_text": null, "fixed": [{"id": "0", "prompt": "Plate: center, about an inch from the edge of the table", "row": 2, "col": 3, "piece": "plate"}], "pieces": [{"id": "fork", "prompt": "Fork", "answer": ["fork"], "row": 2, "col": 2, "feedback": "Left of the plate. Most people hold the fork in the left hand while cutting"}, {"id": "napkin", "prompt": "Napkin", "answer": ["napkin"], "row": 2, "col": 1, "also_cells": [{"row": 2, "col": 2, "note": "folded under the fork"}], "feedback": "Left of the fork, or folded under it. Left side, out of the way of the knife hand"}, {"id": "knife", "prompt": "Knife, blade turned in toward the plate", "answer": ["knife"], "row": 2, "col": 4, "feedback": "Right of the plate, blade turned in toward the plate. Safer for the person sitting there, and it is the courtesy"}, {"id": "spoon", "prompt": "Spoon", "answer": ["spoon"], "row": 2, "col": 5, "feedback": "Right of the knife. It is used after the knife in most meals"}, {"id": "cup", "prompt": "Cup", "answer": ["cup"], "row": 1, "col": 4, "feedback": "Above the knife, on the right. Above the hand that reaches for it"}]}, {"kind": "choice", "label": "round1_questions", "items": [{"id": "q-fork-side", "prompt": "Which side does the fork go on, and why?", "answer": ["Left. Most people hold the fork in the left hand while cutting"], "choices": ["Left. Most people hold the fork in the left hand while cutting", "Right. Most people are right handed", "Above the plate. It is used last"], "feedback": "Fork on the left of the plate. Most people hold the fork in the left hand while cutting."}, {"id": "q-blade", "prompt": "Why does the blade of the knife face in toward the plate?", "answer": ["It is safer for the person sitting there, and it is the courtesy"], "choices": ["It is safer for the person sitting there, and it is the courtesy", "It looks neater in a photo", "So the spoon has room"], "feedback": "Safer for the person sitting there, and it is the courtesy. Do not accept the blade turned outward."}, {"id": "q-cup", "prompt": "Where does the cup go?", "answer": ["Above the knife, on the right"], "choices": ["Above the knife, on the right", "Above the fork, on the left", "In the center, in front of the plate"], "feedback": "Cup or glass above the knife, on the right. Above the hand that reaches for it."}, {"id": "q-spoon", "prompt": "Where does the spoon go?", "answer": ["Right of the knife"], "choices": ["Right of the knife", "Left of the fork", "Between the plate and the knife"], "feedback": "Spoon to the right of the knife. It is used after the knife in most meals."}], "options": {"source": "per_item", "style": "choices", "count": 3}}]}, {"n": 2, "note": "Round 2: the formal setting, 10 pieces on a 7 by 3 grid, 60 seconds, then 10 questions at 8 seconds each", "seconds_per_item": 60, "engines": ["choice", "grid"], "steps": [{"kind": "grid", "rows": 3, "columns": 7, "check_rule": "every piece in its cell", "rule_text": "The outside-in rule: you use the utensils in the order the courses arrive, working from the outside toward the plate.", "fixed": [{"id": "0", "prompt": "Plate: center", "row": 2, "col": 4, "piece": "plate"}], "pieces": [{"id": "napkin", "prompt": "Napkin", "answer": ["napkin"], "row": 2, "col": 1, "feedback": "Farthest left"}, {"id": "salad-fork", "prompt": "Salad fork", "answer": ["salad-fork"], "row": 2, "col": 2, "feedback": "The salad fork sits outside the dinner fork"}, {"id": "dinner-fork", "prompt": "Dinner fork", "answer": ["dinner-fork"], "row": 2, "col": 3, "feedback": "Inside, closest to the plate, on the left"}, {"id": "knife", "prompt": "Knife, blade in", "answer": ["knife"], "row": 2, "col": 5, "feedback": "Right of the plate, blade in"}, {"id": "teaspoon", "prompt": "Teaspoon", "answer": ["teaspoon"], "row": 2, "col": 6, "feedback": "Right of the knife"}, {"id": "soup-spoon", "prompt": "Soup spoon", "answer": ["soup-spoon"], "row": 2, "col": 7, "feedback": "The soup spoon sits outside the teaspoon. Farthest right, because soup comes first"}, {"id": "dessert-spoon", "prompt": "Dessert spoon", "answer": ["dessert-spoon"], "row": 1, "col": 4, "feedback": "Above the plate"}, {"id": "bread-plate", "prompt": "Bread plate with a small butter knife across it", "answer": ["bread-plate"], "row": 1, "col": 2, "feedback": "Bread plate upper left with a small butter knife laid across it"}, {"id": "water-glass", "prompt": "Water glass", "answer": ["water-glass"], "row": 1, "col": 5, "feedback": "Water glass above the knife"}, {"id": "other-glass", "prompt": "Other glass", "answer": ["other-glass"], "row": 1, "col": 6, "feedback": "A second glass above the knife, set in the order they are used, closest to the hand first"}]}, {"kind": "choice", "label": "round2_questions", "items": [{"id": "q-soup", "prompt": "You are served soup, then salad, then a main dish. Which spoon do you reach for first?", "answer": ["The soup spoon, farthest right"], "choices": ["The soup spoon, farthest right", "The teaspoon, next to the knife", "The dessert spoon, above the plate"], "feedback": "The outside-in rule: you use the utensils in the order the courses arrive, working from the outside toward the plate. Soup spoon first, farthest right."}, {"id": "q-salad", "prompt": "Salad comes next. Which fork?", "answer": ["The salad fork, farthest left"], "choices": ["The salad fork, farthest left", "The dinner fork, closest to the plate", "Either one"], "feedback": "The salad fork sits outside the dinner fork. If you do not know which fork to use, start at the outside and work in."}, {"id": "q-dessert", "prompt": "Where is the dessert spoon or fork?", "answer": ["Above the plate"], "choices": ["Above the plate", "Farthest right", "On the bread plate"], "feedback": "Dessert spoon above the plate."}, {"id": "q-useless", "prompt": "Most families own three pieces of flatware per person, not six. Does that make the formal setting useless?", "answer": ["No. Knowing the outside-in rule means you never have to guess at a banquet, a wedding, or an interview lunch"], "choices": ["No. Knowing the outside-in rule means you never have to guess at a banquet, a wedding, or an interview lunch", "Yes. Nobody uses it anymore", "Yes. Only restaurants need it"], "feedback": "The rule is there to make the guest comfortable, not to catch them out."}, {"id": "h-platter", "prompt": "Shared platter. Which hosting practice does it use?", "answer": ["Guests and elders are served first. Nobody takes the last piece without offering it"], "choices": ["Guests and elders are served first. Nobody takes the last piece without offering it", "The pair rests on a rest, never standing up in the food", "The box is packed for balance and variety, and it is returned clean", "The host offers first and waits until guests have begun"], "feedback": "One large dish in the middle. Everyone serves themselves onto a small plate, or the host serves each person. Use the serving spoon, not your own."}, {"id": "h-chopsticks", "prompt": "Chopsticks. Which hosting practice does it use?", "answer": ["The pair rests on a rest, never standing up in the food"], "choices": ["Guests and elders are served first. Nobody takes the last piece without offering it", "The pair rests on a rest, never standing up in the food", "The box is packed for balance and variety, and it is returned clean", "The host offers first and waits until guests have begun"], "feedback": "They rest on a rest or across the bowl, never standing up in the food. Do not spear food and do not point with them. Take from the shared dish to your bowl before eating."}, {"id": "h-right-hand", "prompt": "Right hand. Which hosting practice does it use?", "answer": ["The host offers first and waits until guests have begun"], "choices": ["Guests and elders are served first. Nobody takes the last piece without offering it", "The pair rests on a rest, never standing up in the food", "The box is packed for balance and variety, and it is returned clean", "The host offers first and waits until guests have begun"], "feedback": "In many cultures food is eaten with the fingers of the right hand, often with bread as the scoop. Hands are washed at the table before and after."}, {"id": "h-bento", "prompt": "Bento or tiffin box. Which hosting practice does it use?", "answer": ["The box is packed for balance and variety, and it is returned clean"], "choices": ["Guests and elders are served first. Nobody takes the last piece without offering it", "The pair rests on a rest, never standing up in the food", "The box is packed for balance and variety, and it is returned clean", "The host offers first and waits until guests have begun"], "feedback": "Food in separate compartments, or stacked metal tins carried from home or delivered. Food is portioned before the meal, not during."}, {"id": "h-common", "prompt": "What do all four systems have in common?", "answer": ["Every one of them has a rule about who gets served first, and about how much of the shared food is yours"], "choices": ["Every one of them has a rule about who gets served first, and about how much of the shared food is yours", "Every one of them uses a fork on the left", "Every one of them needs six pieces of flatware"], "feedback": "Every system exists so that people get fed fairly and nobody has to guess."}, {"id": "h-basics", "prompt": "Which of these is one of the three hosting basics that cross every system?", "answer": ["Wait until everyone has food before you start"], "choices": ["Wait until everyone has food before you start", "Serve yourself first so the host can relax", "Pass in both directions at once"], "feedback": "The three: serve others before yourself; pass in one direction and pass to the person who asked; wait until everyone has food before you start."}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}], "study": ["A place setting is not a rule somebody made up to trap you. It is an order that follows how a meal actually happens, outside in, one course at a time.", "Every culture has a system, and every system exists so people get fed fairly.", "Our room: butter knives only, and only if the menu needs one."], "rule_lines": [], "reference": {}, "_unmapped": {}, "plugins": ["grid"], "repaired": true, "lede": "Tap a piece, then tap its cell on the place setting grid around the plate. Press CHECK and every piece in the right spot lights green. Then build the formal setting and answer the outside-in questions."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+<script src="plugins/grid.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("SetTheTable");
+  var node = document.getElementById("SetTheTable-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

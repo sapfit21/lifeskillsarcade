@@ -40,231 +40,173 @@
 </header>
 <main id="main" class="plain">
 
-<!-- Fiber Detective. Reviews Lesson 5.3 (fibers, natural and manufactured) and Lesson 5.4 (care labels). Built 2026-09-15.
-     Everything on this page is static: no sound, no storage, no network. -->
-<div class="game" id="fiberDetective">
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="FiberDetective">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
 <div class="teacher-note">
 <strong>Teacher note</strong>
-<p>This game reviews <a href="../lesson-05-03.html">Lesson 5.3, Fibers: Natural and Manufactured</a> and <a href="../lesson-05-04.html">Lesson 5.4, Care Labels and Laundry</a>. Round 1: a fiber name or a clue from the lesson's table appears; tap natural or manufactured, then tap which of the eight fibers it is (cotton, wool, silk, linen, polyester, nylon, rayon, spandex). Round 2: a care symbol appears, drawn the way it is printed on a tag; tap what it means. Only the symbol families the lesson teaches (wash, bleach, dry, iron, professional care, with the dots, bars, and X marks). Use it as the do now before the Fibers and Care Quiz in Lesson 5.4 Day 2. Nothing is saved when the page closes.</p>
+<p>Reviews <a href="../lesson-05-03.html">Lesson 5.3</a>, <a href="../lesson-05-04.html">Lesson 5.4</a>. This game reviews Lesson 5.3, Fibers: Natural and Manufactured and Lesson 5.4, Care Labels and Laundry. Round 1: a fiber name or a clue from the lesson's table appears; tap natural or manufactured, then tap which of the eight fibers it is (cotton, wool, silk, linen, polyester, nylon, rayon, spandex). Round 2: a care symbol appears, drawn the way it is printed on a tag; tap what it means. Only the symbol families the lesson teaches (wash, bleach, dry, iron, professional care, with the dots, bars, and X marks). Use it as the do now before the Fibers and Care Quiz in Lesson 5.4 Day 2. Nothing is saved when the page closes.</p>
 </div>
 
+<!-- 2. Title and lede. The second word takes the accent style. -->
 <div class="game-head"><img class="title-art" src="art/fiber-detective-title.webp" alt=""><h1 class="game-title">Fiber <span class="alt2">Detective</span></h1></div>
 <p class="game-lede">Round 1: a fiber or a clue. Natural or manufactured? Then which one? Round 2: read the tag. What does the symbol mean?</p>
 
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
 <div class="hud" aria-hidden="true">
-  <div class="stat"><span class="lab">Question</span><span class="val" id="fdQ">0 of 10</span></div>
-  <div class="stat timer" id="fdTimerBox"><span class="lab">Seconds</span><span class="val" id="fdTimer">15</span></div>
-  <div class="stat"><span class="lab">Streak</span><span class="val" id="fdStreak">0</span></div>
-  <div class="stat score"><span class="lab">Score</span><span class="val" id="fdScore">0</span></div>
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
 </div>
-<div class="sr-live" aria-live="polite" id="fdLive"></div>
 
-<div class="panel" id="fdStart">
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
   <h2>How to play</h2>
-  <p>Round 1 has ten clues, 15 seconds each. The family (natural or manufactured) is 5 points and the fiber is 10. Round 2 has eight care symbols, 15 seconds each, 10 points a symbol. Three in a row adds 5. A miss shows you the answer and why.</p>
-  <p><button class="gbtn go" id="fdGo" type="button">Start</button></p>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
 </div>
 
-<div class="fd-play" id="fdPlay" hidden>
-  <div class="gr-situation" id="fdCard"><span class="sr-tasklab" id="fdLab">The clue</span><span class="gr-text" id="fdText"></span><div class="fd-symbol" id="fdSymbol" hidden></div></div>
-  <div class="feedback" id="fdFeed"></div>
-  <div class="choice-row" id="fdChoices"></div>
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
 </div>
 
-<div class="art-bank" id="fdArt" hidden>
-<span data-key="Cotton"><img class="piece" src="art/fiber-cotton.webp" alt="" loading="lazy"></span>
-<span data-key="Wool"><img class="piece" src="art/fiber-wool.webp" alt="" loading="lazy"></span>
-<span data-key="Silk"><img class="piece" src="art/fiber-silk.webp" alt="" loading="lazy"></span>
-<span data-key="Linen"><img class="piece" src="art/fiber-linen.webp" alt="" loading="lazy"></span>
-<span data-key="Polyester"><img class="piece" src="art/fiber-polyester.webp" alt="" loading="lazy"></span>
-<span data-key="Nylon"><img class="piece" src="art/fiber-nylon.webp" alt="" loading="lazy"></span>
-<span data-key="Rayon"><img class="piece" src="art/fiber-rayon.webp" alt="" loading="lazy"></span>
-<span data-key="Spandex"><img class="piece" src="art/fiber-spandex.webp" alt="" loading="lazy"></span>
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="fiber-detective-wash-cold"><img class="piece" src="art/fiber-detective-wash-cold.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-wash-warm"><img class="piece" src="art/fiber-detective-wash-warm.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-wash-hot"><img class="piece" src="art/fiber-detective-wash-hot.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-permanent-press-cycle"><img class="piece" src="art/fiber-detective-permanent-press-cycle.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-delicate-cycle"><img class="piece" src="art/fiber-detective-delicate-cycle.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-hand-wash-only"><img class="piece" src="art/fiber-detective-hand-wash-only.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-do-not-wash-in-water"><img class="piece" src="art/fiber-detective-do-not-wash-in-water.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-any-bleach-is-fine"><img class="piece" src="art/fiber-detective-any-bleach-is-fine.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-non-chlorine-bleach-only"><img class="piece" src="art/fiber-detective-non-chlorine-bleach-only.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-no-bleach"><img class="piece" src="art/fiber-detective-no-bleach.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-tumble-dry"><img class="piece" src="art/fiber-detective-tumble-dry.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-tumble-dry-low-heat"><img class="piece" src="art/fiber-detective-tumble-dry-low-heat.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-line-dry"><img class="piece" src="art/fiber-detective-line-dry.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-do-not-tumble-dry"><img class="piece" src="art/fiber-detective-do-not-tumble-dry.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-iron-medium-heat"><img class="piece" src="art/fiber-detective-iron-medium-heat.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-do-not-iron"><img class="piece" src="art/fiber-detective-do-not-iron.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-professional-care-dry-clean"><img class="piece" src="art/fiber-detective-professional-care-dry-clean.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-detective-do-not-dry-clean"><img class="piece" src="art/fiber-detective-do-not-dry-clean.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-cotton"><img class="piece" src="art/fiber-cotton.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-wool"><img class="piece" src="art/fiber-wool.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-silk"><img class="piece" src="art/fiber-silk.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-linen"><img class="piece" src="art/fiber-linen.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-polyester"><img class="piece" src="art/fiber-polyester.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-nylon"><img class="piece" src="art/fiber-nylon.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-rayon"><img class="piece" src="art/fiber-rayon.webp" alt="" loading="lazy"></span>
+<span data-key="fiber-spandex"><img class="piece" src="art/fiber-spandex.webp" alt="" loading="lazy"></span>
 </div>
-<div class="panel end" id="fdEnd" hidden>
-  <h2>Case closed</h2>
-  <p class="big" id="fdFinal"></p>
-  <p id="fdSummary"></p>
-  <div id="fdMissWrap"><p><b>Look at these again:</b></p><ul class="miss-list" id="fdMissed"></ul></div>
-  <p><button class="gbtn go" id="fdAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The fiber decides the care, and the care decides how long the garment lasts.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
 
 <style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
 .sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
-.gr-situation{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;box-shadow:5px 5px 0 var(--outline);min-height:6.5rem}
-.gr-text{display:block;font-size:1.3rem;font-weight:600;line-height:1.35;margin-top:.25rem}
-.fd-symbol{margin:.5rem auto 0;width:150px;max-width:60%}
-.fd-symbol svg{width:100%;height:auto;display:block}
-#fdChoices .gbtn{flex:1 1 40%}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
 </style>
 
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="FiberDetective-data">{"schema": "1.0", "slug": "fiber-detective", "title": "Fiber Detective", "unit": 5, "lessons": ["5.3", "5.4"], "handouts": [], "standards": [], "source_file": "hand built 2026-09-15 (fiber-detective.html), rewritten as engine data 2026-09-21", "mechanic_note": "two tap: a fiber name or a clue appears; tap Natural or Manufactured, then tap which of the eight fibers it is. Ten cards are dealt from the pool of eight names and nineteen clues. Then a care symbol appears; tap what it means from four choices drawn from the other symbols' meanings. Eight symbols are dealt from eighteen.", "teacher_note": "This game reviews Lesson 5.3, Fibers: Natural and Manufactured and Lesson 5.4, Care Labels and Laundry. Round 1: a fiber name or a clue from the lesson's table appears; tap natural or manufactured, then tap which of the eight fibers it is (cotton, wool, silk, linen, polyester, nylon, rayon, spandex). Round 2: a care symbol appears, drawn the way it is printed on a tag; tap what it means. Only the symbol families the lesson teaches (wash, bleach, dry, iron, professional care, with the dots, bars, and X marks). Use it as the do now before the Fibers and Care Quiz in Lesson 5.4 Day 2. Nothing is saved when the page closes.", "lede": "Round 1: a fiber or a clue. Natural or manufactured? Then which one? Round 2: read the tag. What does the symbol mean?", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": false, "note": ""}, "art": {"title": {"file": "fiber-detective-title.webp"}, "scene": [], "cards": [{"file": "fiber-detective-wash-cold.webp", "line": "A washtub with one dot inside."}, {"file": "fiber-detective-wash-warm.webp", "line": "A washtub with two dots inside."}, {"file": "fiber-detective-wash-hot.webp", "line": "A washtub with three dots inside."}, {"file": "fiber-detective-permanent-press-cycle.webp", "line": "A washtub with one bar under it."}, {"file": "fiber-detective-delicate-cycle.webp", "line": "A washtub with two bars under it."}, {"file": "fiber-detective-hand-wash-only.webp", "line": "A washtub with a hand in it."}, {"file": "fiber-detective-do-not-wash-in-water.webp", "line": "A washtub with an X over it."}, {"file": "fiber-detective-any-bleach-is-fine.webp", "line": "An empty triangle."}, {"file": "fiber-detective-non-chlorine-bleach-only.webp", "line": "A triangle with diagonal lines inside."}, {"file": "fiber-detective-no-bleach.webp", "line": "A triangle with an X over it."}, {"file": "fiber-detective-tumble-dry.webp", "line": "A square with a circle inside."}, {"file": "fiber-detective-tumble-dry-low-heat.webp", "line": "A square with a circle inside and one dot in the circle."}, {"file": "fiber-detective-line-dry.webp", "line": "A square with a line inside."}, {"file": "fiber-detective-do-not-tumble-dry.webp", "line": "A square with a circle inside and an X over it."}, {"file": "fiber-detective-iron-medium-heat.webp", "line": "An iron with two dots on it."}, {"file": "fiber-detective-do-not-iron.webp", "line": "An iron with an X over it."}, {"file": "fiber-detective-professional-care-dry-clean.webp", "line": "A circle with the letter P inside."}, {"file": "fiber-detective-do-not-dry-clean.webp", "line": "A circle with an X over it."}], "buttons": [{"file": "fiber-cotton.webp"}, {"file": "fiber-wool.webp"}, {"file": "fiber-silk.webp"}, {"file": "fiber-linen.webp"}, {"file": "fiber-polyester.webp"}, {"file": "fiber-nylon.webp"}, {"file": "fiber-rayon.webp"}, {"file": "fiber-spandex.webp"}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 10 cards dealt from 27 (8 fiber names and 19 clues). Tap Natural or Manufactured, then tap the fiber.", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "take": 10, "options": {"source": "fixed", "style": "buttons", "count": 2, "list": [{"id": "natural", "label": "Natural"}, {"id": "manufactured", "label": "Manufactured"}], "answer_key": "family", "second_tap": {"style": "buttons", "count": 8, "list": "round1.fibers", "answer_key": "fiber", "prompt": "Which fiber?"}}, "items": [{"id": "cotton-name", "prompt": "Cotton", "answer": ["Cotton"], "answer_parts": {"family": "Natural", "fiber": "Cotton"}, "feedback": "Soft, absorbent, breathable. Wrinkles, shrinks, and is slow to dry.", "tags": {"kind": "name", "family": "natural", "source": "a plant"}}, {"id": "cotton-clue-1", "prompt": "Soft, absorbent, breathable. Wrinkles, shrinks, and is slow to dry.", "answer": ["Cotton"], "answer_parts": {"family": "Natural", "fiber": "Cotton"}, "feedback": "Soft, absorbent, breathable. Wrinkles, shrinks, and is slow to dry.", "tags": {"kind": "clue", "family": "natural", "source": "a plant"}}, {"id": "cotton-clue-2", "prompt": "Comes from a plant. The T-shirt fiber.", "answer": ["Cotton"], "answer_parts": {"family": "Natural", "fiber": "Cotton"}, "feedback": "Soft, absorbent, breathable. Wrinkles, shrinks, and is slow to dry.", "tags": {"kind": "clue", "family": "natural", "source": "a plant"}}, {"id": "cotton-clue-3", "prompt": "Catches fast in the burn test, smells like burning paper, leaves a soft gray ash.", "answer": ["Cotton"], "answer_parts": {"family": "Natural", "fiber": "Cotton"}, "feedback": "Soft, absorbent, breathable. Wrinkles, shrinks, and is slow to dry.", "tags": {"kind": "clue", "family": "natural", "source": "a plant"}}, {"id": "wool-name", "prompt": "Wool", "answer": ["Wool"], "answer_parts": {"family": "Natural", "fiber": "Wool"}, "feedback": "Warm even when damp. Springs back. Itchy to some people. Shrinks and felts in hot water.", "tags": {"kind": "name", "family": "natural", "source": "an animal"}}, {"id": "wool-clue-1", "prompt": "Warm even when damp. Springs back. Itchy to some people. Shrinks and felts in hot water.", "answer": ["Wool"], "answer_parts": {"family": "Natural", "fiber": "Wool"}, "feedback": "Warm even when damp. Springs back. Itchy to some people. Shrinks and felts in hot water.", "tags": {"kind": "clue", "family": "natural", "source": "an animal"}}, {"id": "wool-clue-2", "prompt": "Made from a haircut.", "answer": ["Wool"], "answer_parts": {"family": "Natural", "fiber": "Wool"}, "feedback": "Warm even when damp. Springs back. Itchy to some people. Shrinks and felts in hot water.", "tags": {"kind": "clue", "family": "natural", "source": "an animal"}}, {"id": "wool-clue-3", "prompt": "Curls away from the flame, smells like burning hair, leaves a black bead you can crush.", "answer": ["Wool"], "answer_parts": {"family": "Natural", "fiber": "Wool"}, "feedback": "Warm even when damp. Springs back. Itchy to some people. Shrinks and felts in hot water.", "tags": {"kind": "clue", "family": "natural", "source": "an animal"}}, {"id": "silk-name", "prompt": "Silk", "answer": ["Silk"], "answer_parts": {"family": "Natural", "fiber": "Silk"}, "feedback": "Strong and smooth, expensive, marks with water. Hand wash.", "tags": {"kind": "name", "family": "natural", "source": "an insect"}}, {"id": "silk-clue-1", "prompt": "Strong and smooth, expensive, marks with water. Hand wash.", "answer": ["Silk"], "answer_parts": {"family": "Natural", "fiber": "Silk"}, "feedback": "Strong and smooth, expensive, marks with water. Hand wash.", "tags": {"kind": "clue", "family": "natural", "source": "an insect"}}, {"id": "silk-clue-2", "prompt": "Comes from an insect.", "answer": ["Silk"], "answer_parts": {"family": "Natural", "fiber": "Silk"}, "feedback": "Strong and smooth, expensive, marks with water. Hand wash.", "tags": {"kind": "clue", "family": "natural", "source": "an insect"}}, {"id": "linen-name", "prompt": "Linen", "answer": ["Linen"], "answer_parts": {"family": "Natural", "fiber": "Linen"}, "feedback": "The coolest fiber in the heat. Wrinkles the most. Gets softer with age.", "tags": {"kind": "name", "family": "natural", "source": "a plant"}}, {"id": "linen-clue-1", "prompt": "The coolest fiber in the heat. Wrinkles the most. Gets softer with age.", "answer": ["Linen"], "answer_parts": {"family": "Natural", "fiber": "Linen"}, "feedback": "The coolest fiber in the heat. Wrinkles the most. Gets softer with age.", "tags": {"kind": "clue", "family": "natural", "source": "a plant"}}, {"id": "linen-clue-2", "prompt": "A plant fiber that wrinkles more than cotton.", "answer": ["Linen"], "answer_parts": {"family": "Natural", "fiber": "Linen"}, "feedback": "The coolest fiber in the heat. Wrinkles the most. Gets softer with age.", "tags": {"kind": "clue", "family": "natural", "source": "a plant"}}, {"id": "polyester-name", "prompt": "Polyester", "answer": ["Polyester"], "answer_parts": {"family": "Manufactured", "fiber": "Polyester"}, "feedback": "Strong, holds its shape, dries fast, cheap. Does not breathe, holds odor, melts.", "tags": {"kind": "name", "family": "manufactured", "source": "a factory"}}, {"id": "polyester-clue-1", "prompt": "Strong, holds its shape, dries fast, cheap. Does not breathe, holds odor, melts.", "answer": ["Polyester"], "answer_parts": {"family": "Manufactured", "fiber": "Polyester"}, "feedback": "Strong, holds its shape, dries fast, cheap. Does not breathe, holds odor, melts.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "polyester-clue-2", "prompt": "Made from a plastic bottle. A fleece jacket.", "answer": ["Polyester"], "answer_parts": {"family": "Manufactured", "fiber": "Polyester"}, "feedback": "Strong, holds its shape, dries fast, cheap. Does not breathe, holds odor, melts.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "polyester-clue-3", "prompt": "Does not burn in the burn test. It melts, drips, and leaves a hard bead you cannot crush.", "answer": ["Polyester"], "answer_parts": {"family": "Manufactured", "fiber": "Polyester"}, "feedback": "Strong, holds its shape, dries fast, cheap. Does not breathe, holds odor, melts.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "nylon-name", "prompt": "Nylon", "answer": ["Nylon"], "answer_parts": {"family": "Manufactured", "fiber": "Nylon"}, "feedback": "Very strong and slick. Windbreakers and tights. Melts.", "tags": {"kind": "name", "family": "manufactured", "source": "a factory"}}, {"id": "nylon-clue-1", "prompt": "Very strong and slick. Windbreakers and tights. Melts.", "answer": ["Nylon"], "answer_parts": {"family": "Manufactured", "fiber": "Nylon"}, "feedback": "Very strong and slick. Windbreakers and tights. Melts.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "nylon-clue-2", "prompt": "The windbreaker fiber.", "answer": ["Nylon"], "answer_parts": {"family": "Manufactured", "fiber": "Nylon"}, "feedback": "Very strong and slick. Windbreakers and tights. Melts.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "rayon-name", "prompt": "Rayon", "answer": ["Rayon"], "answer_parts": {"family": "Manufactured", "fiber": "Rayon"}, "feedback": "Starts as wood pulp and gets made into fiber in a factory. Drapes like silk. Weak when wet.", "tags": {"kind": "name", "family": "manufactured", "source": "a factory"}}, {"id": "rayon-clue-1", "prompt": "Starts as wood pulp and gets made into fiber in a factory. Drapes like silk. Weak when wet.", "answer": ["Rayon"], "answer_parts": {"family": "Manufactured", "fiber": "Rayon"}, "feedback": "Starts as wood pulp and gets made into fiber in a factory. Drapes like silk. Weak when wet.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "rayon-clue-2", "prompt": "The tricky one: it starts as wood pulp, but it is made in a factory.", "answer": ["Rayon"], "answer_parts": {"family": "Manufactured", "fiber": "Rayon"}, "feedback": "Starts as wood pulp and gets made into fiber in a factory. Drapes like silk. Weak when wet.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "spandex-name", "prompt": "Spandex", "answer": ["Spandex"], "answer_parts": {"family": "Manufactured", "fiber": "Spandex"}, "feedback": "Stretches and recovers. Always blended. Ruined by heat.", "tags": {"kind": "name", "family": "manufactured", "source": "a factory"}}, {"id": "spandex-clue-1", "prompt": "Stretches and recovers. Always blended. Ruined by heat.", "answer": ["Spandex"], "answer_parts": {"family": "Manufactured", "fiber": "Spandex"}, "feedback": "Stretches and recovers. Always blended. Ruined by heat.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}, {"id": "spandex-clue-2", "prompt": "The stretch in leggings. A hot dryer breaks it and the knees go baggy.", "answer": ["Spandex"], "answer_parts": {"family": "Manufactured", "fiber": "Spandex"}, "feedback": "Stretches and recovers. Always blended. Ruined by heat.", "tags": {"kind": "clue", "family": "manufactured", "source": "a factory"}}]}], "option_sets": [{"label": "round1.family", "list": [{"id": "natural", "label": "Natural"}, {"id": "manufactured", "label": "Manufactured"}]}, {"label": "round1.fibers", "list": [{"id": "cotton", "label": "Cotton", "picture": "fiber-cotton.webp"}, {"id": "wool", "label": "Wool", "picture": "fiber-wool.webp"}, {"id": "silk", "label": "Silk", "picture": "fiber-silk.webp"}, {"id": "linen", "label": "Linen", "picture": "fiber-linen.webp"}, {"id": "polyester", "label": "Polyester", "picture": "fiber-polyester.webp"}, {"id": "nylon", "label": "Nylon", "picture": "fiber-nylon.webp"}, {"id": "rayon", "label": "Rayon", "picture": "fiber-rayon.webp"}, {"id": "spandex", "label": "Spandex", "picture": "fiber-spandex.webp"}]}]}, {"n": 2, "note": "Round 2: 8 care symbols dealt from 18, four choices each drawn from the other symbols' meanings", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "title": "What does the symbol mean?", "take": 8, "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}, "items": [{"id": "wash-cold", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-wash-cold.webp", "picture_alt": "A washtub with one dot inside.", "answer": ["Wash cold"], "feedback": "The washtub is washing. One dot is cold."}, {"id": "wash-warm", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-wash-warm.webp", "picture_alt": "A washtub with two dots inside.", "answer": ["Wash warm"], "feedback": "The washtub is washing. Two dots is warm."}, {"id": "wash-hot", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-wash-hot.webp", "picture_alt": "A washtub with three dots inside.", "answer": ["Wash hot"], "feedback": "The washtub is washing. Three dots is hot."}, {"id": "permanent-press-cycle", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-permanent-press-cycle.webp", "picture_alt": "A washtub with one bar under it.", "answer": ["Permanent press cycle"], "feedback": "One bar under the tub means be gentle: permanent press."}, {"id": "delicate-cycle", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-delicate-cycle.webp", "picture_alt": "A washtub with two bars under it.", "answer": ["Delicate cycle"], "feedback": "Two bars under the tub means delicate."}, {"id": "hand-wash-only", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-hand-wash-only.webp", "picture_alt": "A washtub with a hand in it.", "answer": ["Hand wash only"], "feedback": "A hand in the tub means hand wash only."}, {"id": "do-not-wash-in-water", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-do-not-wash-in-water.webp", "picture_alt": "A washtub with an X over it.", "answer": ["Do not wash in water"], "feedback": "An X over the tub means do not wash in water at all."}, {"id": "any-bleach-is-fine", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-any-bleach-is-fine.webp", "picture_alt": "An empty triangle.", "answer": ["Any bleach is fine"], "feedback": "The triangle is bleach. Empty means any bleach."}, {"id": "non-chlorine-bleach-only", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-non-chlorine-bleach-only.webp", "picture_alt": "A triangle with diagonal lines inside.", "answer": ["Non-chlorine bleach only"], "feedback": "Diagonal lines inside the triangle mean non-chlorine bleach only."}, {"id": "no-bleach", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-no-bleach.webp", "picture_alt": "A triangle with an X over it.", "answer": ["No bleach"], "feedback": "An X over the triangle means no bleach."}, {"id": "tumble-dry", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-tumble-dry.webp", "picture_alt": "A square with a circle inside.", "answer": ["Tumble dry"], "feedback": "The square is drying. A circle inside means tumble dry."}, {"id": "tumble-dry-low-heat", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-tumble-dry-low-heat.webp", "picture_alt": "A square with a circle inside and one dot in the circle.", "answer": ["Tumble dry, low heat"], "feedback": "The dots inside the circle are heat. One dot is low."}, {"id": "line-dry", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-line-dry.webp", "picture_alt": "A square with a line inside.", "answer": ["Line dry"], "feedback": "A line inside the square means line dry (hang it)."}, {"id": "do-not-tumble-dry", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-do-not-tumble-dry.webp", "picture_alt": "A square with a circle inside and an X over it.", "answer": ["Do not tumble dry"], "feedback": "An X over the square means do not tumble dry."}, {"id": "iron-medium-heat", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-iron-medium-heat.webp", "picture_alt": "An iron with two dots on it.", "answer": ["Iron, medium heat"], "feedback": "The iron is ironing. The dots are heat. Two dots is medium."}, {"id": "do-not-iron", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-do-not-iron.webp", "picture_alt": "An iron with an X over it.", "answer": ["Do not iron"], "feedback": "An X over the iron means do not iron."}, {"id": "professional-care-dry-clean", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-professional-care-dry-clean.webp", "picture_alt": "A circle with the letter P inside.", "answer": ["Professional care (dry clean)"], "feedback": "The circle is professional care. A letter inside names the cleaning solvent."}, {"id": "do-not-dry-clean", "prompt": "A care symbol. What does it mean?", "picture": "fiber-detective-do-not-dry-clean.webp", "picture_alt": "A circle with an X over it.", "answer": ["Do not dry clean"], "feedback": "An X over the circle means do not dry clean."}]}]}], "study": ["The fiber decides the care, and the care decides how long the garment lasts."], "rule_lines": [], "reference": {}, "_unmapped": {}}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
 <script>
 (function () {
   "use strict";
-  // card pictures: a hidden bank in the page holds one image per card that has art (build_site.py fills it in, D52)
-  function art(key) { var im = document.querySelector('#fdArt [data-key="' + String(key).replace(/"/g, '') + '"] img'); return im ? im.cloneNode(true) : null; }
-  var FIBERS = [
-    {n: "Cotton", nat: true, src: "a plant", clues: ["Soft, absorbent, breathable. Wrinkles, shrinks, and is slow to dry.", "Comes from a plant. The T-shirt fiber.", "Catches fast in the burn test, smells like burning paper, leaves a soft gray ash."]},
-    {n: "Wool", nat: true, src: "an animal", clues: ["Warm even when damp. Springs back. Itchy to some people. Shrinks and felts in hot water.", "Made from a haircut.", "Curls away from the flame, smells like burning hair, leaves a black bead you can crush."]},
-    {n: "Silk", nat: true, src: "an insect", clues: ["Strong and smooth, expensive, marks with water. Hand wash.", "Comes from an insect."]},
-    {n: "Linen", nat: true, src: "a plant", clues: ["The coolest fiber in the heat. Wrinkles the most. Gets softer with age.", "A plant fiber that wrinkles more than cotton."]},
-    {n: "Polyester", nat: false, src: "a factory", clues: ["Strong, holds its shape, dries fast, cheap. Does not breathe, holds odor, melts.", "Made from a plastic bottle. A fleece jacket.", "Does not burn in the burn test. It melts, drips, and leaves a hard bead you cannot crush."]},
-    {n: "Nylon", nat: false, src: "a factory", clues: ["Very strong and slick. Windbreakers and tights. Melts.", "The windbreaker fiber."]},
-    {n: "Rayon", nat: false, src: "a factory", clues: ["Starts as wood pulp and gets made into fiber in a factory. Drapes like silk. Weak when wet.", "The tricky one: it starts as wood pulp, but it is made in a factory."]},
-    {n: "Spandex", nat: false, src: "a factory", clues: ["Stretches and recovers. Always blended. Ruined by heat.", "The stretch in leggings. A hot dryer breaks it and the knees go baggy."]}
-  ];
-  // Care symbols, drawn the way the tag prints them. The lesson's five families with dots, bars, and X marks.
-  var S = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true"';
-  var TUB = '<path d="M14 34 q18 -10 36 0 q18 -10 36 0 l-8 44 h-56 z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/>';
-  var X = '<path d="M16 16 L84 84 M84 16 L16 84" stroke="#111" stroke-width="6" stroke-linecap="round"/>';
-  function dots(n, y) { var s = "", xs = {1: [50], 2: [40, 60], 3: [34, 50, 66]}[n]; xs.forEach(function (x) { s += '<circle cx="' + x + '" cy="' + y + '" r="5" fill="#111"/>'; }); return s; }
-  var SYMBOLS = [
-    {svg: TUB + dots(1, 56), a: "Wash cold", fam: "The washtub is washing. One dot is cold."},
-    {svg: TUB + dots(2, 56), a: "Wash warm", fam: "The washtub is washing. Two dots is warm."},
-    {svg: TUB + dots(3, 56), a: "Wash hot", fam: "The washtub is washing. Three dots is hot."},
-    {svg: TUB + '<path d="M22 86 H78" stroke="#111" stroke-width="5"/>', a: "Permanent press cycle", fam: "One bar under the tub means be gentle: permanent press."},
-    {svg: TUB + '<path d="M22 86 H78 M22 94 H78" stroke="#111" stroke-width="5"/>', a: "Delicate cycle", fam: "Two bars under the tub means delicate."},
-    {svg: TUB + '<path d="M44 30 v-14 q0 -5 5 -5 q5 0 5 5 v14 M54 22 q0 -5 5 -5 q5 0 5 5 v10" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>', a: "Hand wash only", fam: "A hand in the tub means hand wash only."},
-    {svg: TUB + X, a: "Do not wash in water", fam: "An X over the tub means do not wash in water at all."},
-    {svg: '<path d="M50 14 L88 82 H12 Z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/>', a: "Any bleach is fine", fam: "The triangle is bleach. Empty means any bleach."},
-    {svg: '<path d="M50 14 L88 82 H12 Z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/><path d="M40 78 L62 40 M50 78 L70 44 M60 78 L76 52" stroke="#111" stroke-width="4"/>', a: "Non-chlorine bleach only", fam: "Diagonal lines inside the triangle mean non-chlorine bleach only."},
-    {svg: '<path d="M50 14 L88 82 H12 Z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/>' + X, a: "No bleach", fam: "An X over the triangle means no bleach."},
-    {svg: '<rect x="16" y="16" width="68" height="68" fill="#fff" stroke="#111" stroke-width="5"/><circle cx="50" cy="50" r="26" fill="none" stroke="#111" stroke-width="5"/>', a: "Tumble dry", fam: "The square is drying. A circle inside means tumble dry."},
-    {svg: '<rect x="16" y="16" width="68" height="68" fill="#fff" stroke="#111" stroke-width="5"/><circle cx="50" cy="50" r="26" fill="none" stroke="#111" stroke-width="5"/>' + dots(1, 50), a: "Tumble dry, low heat", fam: "The dots inside the circle are heat. One dot is low."},
-    {svg: '<rect x="16" y="16" width="68" height="68" fill="#fff" stroke="#111" stroke-width="5"/><path d="M50 22 V78" stroke="#111" stroke-width="5"/>', a: "Line dry", fam: "A line inside the square means line dry (hang it)."},
-    {svg: '<rect x="16" y="16" width="68" height="68" fill="#fff" stroke="#111" stroke-width="5"/><circle cx="50" cy="50" r="26" fill="none" stroke="#111" stroke-width="5"/>' + X, a: "Do not tumble dry", fam: "An X over the square means do not tumble dry."},
-    {svg: '<path d="M22 72 q0 -30 30 -30 h34 v30 z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/><path d="M40 42 v-8 h40" fill="none" stroke="#111" stroke-width="5"/>' + dots(2, 60), a: "Iron, medium heat", fam: "The iron is ironing. The dots are heat. Two dots is medium."},
-    {svg: '<path d="M22 72 q0 -30 30 -30 h34 v30 z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/><path d="M40 42 v-8 h40" fill="none" stroke="#111" stroke-width="5"/>' + X, a: "Do not iron", fam: "An X over the iron means do not iron."},
-    {svg: '<circle cx="50" cy="50" r="36" fill="#fff" stroke="#111" stroke-width="5"/><text x="50" y="62" font-size="34" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle" fill="#111">P</text>', a: "Professional care (dry clean)", fam: "The circle is professional care. A letter inside names the cleaning solvent."},
-    {svg: '<circle cx="50" cy="50" r="36" fill="#fff" stroke="#111" stroke-width="5"/>' + X, a: "Do not dry clean", fam: "An X over the circle means do not dry clean."}
-  ];
-  var R1_N = 10, R2_N = 8, SECS = 15;
-
-  var startP = document.getElementById("fdStart"), playP = document.getElementById("fdPlay"), endP = document.getElementById("fdEnd");
-  var elQ = document.getElementById("fdQ"), elT = document.getElementById("fdTimer"), elTB = document.getElementById("fdTimerBox");
-  var elS = document.getElementById("fdStreak"), elSc = document.getElementById("fdScore"), live = document.getElementById("fdLive");
-  var feed = document.getElementById("fdFeed"), feedTimer, choices = document.getElementById("fdChoices");
-  var r1, r2, i1, i2, stage, score, streak, secs, tick, locked, missed, right1, right2, cur;
-
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function hud() {
-    elQ.textContent = (stage === 2 ? (i2 + 1) + " of " + R2_N : Math.min(i1 + 1, R1_N) + " of " + R1_N);
-    elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
-    elTB.className = "stat timer" + (secs <= 5 && tick ? " low" : "");
-  }
-  function say(text, cls) {
-    feed.textContent = text; feed.className = "feedback" + (cls ? " " + cls : "");
-    clearTimeout(feedTimer);
-    feedTimer = setTimeout(function () { feed.textContent = ""; feed.className = "feedback"; }, 3000);
-  }
-  function stopClock() { clearInterval(tick); tick = null; }
-  function startClock(n, onOut) {
-    stopClock(); secs = n; hud();
-    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
-  }
-  function bonus(pts) { score += pts; streak += 1; if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; } return ""; }
-  function buttons(list, onTap) {
-    choices.innerHTML = "";
-    list.forEach(function (t) {
-      var b = document.createElement("button"); b.type = "button"; b.className = "gbtn";
-      var a = art(t); if (a) { b.appendChild(a); }
-      var sp = document.createElement("span"); sp.textContent = t; b.appendChild(sp);
-      b.addEventListener("click", function () { onTap(t, b); });
-      choices.appendChild(b);
-    });
-  }
-  function markRight(answer) { var bs = choices.querySelectorAll(".gbtn"); for (var i = 0; i < bs.length; i++) { if (bs[i].textContent === answer) { bs[i].classList.add("right"); } } }
-
-  // ---- round 1 ----
-  function buildRound1() {
-    var items = [];
-    FIBERS.forEach(function (f) { items.push({f: f, text: f.n, kind: "name"}); f.clues.forEach(function (c) { items.push({f: f, text: c, kind: "clue"}); }); });
-    shuffle(items);
-    // every fiber at least once, then fill to ten
-    var picked = [], seen = {};
-    items.forEach(function (it) { if (!seen[it.f.n]) { seen[it.f.n] = true; picked.push(it); } });
-    items.forEach(function (it) { if (picked.length < R1_N && picked.indexOf(it) === -1) { picked.push(it); } });
-    return shuffle(picked.slice(0, R1_N));
-  }
-  function ask1() {
-    cur = r1[i1]; locked = false;
-    document.getElementById("fdLab").textContent = "Round 1, " + (i1 + 1) + " of " + R1_N + ": " + (cur.kind === "name" ? "the fiber" : "the clue");
-    document.getElementById("fdText").textContent = cur.text;
-    document.getElementById("fdSymbol").hidden = true;
-    buttons(["Natural", "Manufactured"], answerFamily);
-    live.textContent = cur.text + ". Natural or manufactured?";
-    startClock(SECS, function () { answerFamily(null, null); });
-  }
-  function answerFamily(t, b) {
-    if (locked) { return; } locked = true; stopClock();
-    var want = cur.f.nat ? "Natural" : "Manufactured", ok = t === want;
-    markRight(want);
-    if (ok) { say("Yes, " + want.toLowerCase() + ", from " + cur.f.src + "." + bonus(5), "good"); }
-    else { streak = 0; if (b) { b.classList.add("wrong"); } say((t ? "No. " : "Time. ") + "It is " + want.toLowerCase() + ", from " + cur.f.src + ".", "bad"); }
-    hud();
-    setTimeout(function () {
-      locked = false;
-      document.getElementById("fdLab").textContent = "Round 1, " + (i1 + 1) + " of " + R1_N + ": which fiber?";
-      buttons(FIBERS.map(function (f) { return f.n; }), answerFiber);
-      live.textContent = "Which fiber?";
-      startClock(SECS, function () { answerFiber(null, null); });
-    }, 1200);
-  }
-  function answerFiber(t, b) {
-    if (locked) { return; } locked = true; stopClock();
-    var ok = t === cur.f.n;
-    markRight(cur.f.n);
-    if (ok) { right1 += 1; say("Yes. " + cur.f.n + ". " + cur.f.clues[0] + bonus(10), "good"); }
-    else { streak = 0; if (b) { b.classList.add("wrong"); } say((t ? "No. " : "Time. ") + "It is " + cur.f.n + ". " + cur.f.clues[0], "bad"); missed.push(cur.text + " (" + cur.f.n + ", " + (cur.f.nat ? "natural" : "manufactured") + ")"); }
-    hud();
-    setTimeout(function () { i1 += 1; if (i1 >= R1_N) { startRound2(); } else { ask1(); } }, 2200);
-  }
-
-  // ---- round 2 ----
-  function startRound2() {
-    stage = 2; i2 = 0; r2 = shuffle(SYMBOLS.slice()).slice(0, R2_N);
-    ask2();
-  }
-  function ask2() {
-    cur = r2[i2]; locked = false;
-    document.getElementById("fdLab").textContent = "Round 2, " + (i2 + 1) + " of " + R2_N + ": what does the symbol mean?";
-    document.getElementById("fdText").textContent = "";
-    var sym = document.getElementById("fdSymbol"); sym.hidden = false; sym.innerHTML = "<svg " + S + ">" + cur.svg + "</svg>";
-    var wrong = shuffle(SYMBOLS.filter(function (s) { return s.a !== cur.a; })).slice(0, 3).map(function (s) { return s.a; });
-    buttons(shuffle(wrong.concat([cur.a])), answer2);
-    live.textContent = "A care symbol. What does it mean?";
-    startClock(SECS, function () { answer2(null, null); });
-  }
-  function answer2(t, b) {
-    if (locked) { return; } locked = true; stopClock();
-    var ok = t === cur.a;
-    markRight(cur.a);
-    if (ok) { right2 += 1; say("Yes. " + cur.a + ". " + cur.fam + bonus(10), "good"); }
-    else { streak = 0; if (b) { b.classList.add("wrong"); } say((t ? "No. " : "Time. ") + cur.a + ". " + cur.fam, "bad"); missed.push("Symbol: " + cur.a + ". " + cur.fam); }
-    hud();
-    setTimeout(function () { i2 += 1; if (i2 >= R2_N) { finish(); } else { ask2(); } }, 2200);
-  }
-  function finish() {
-    playP.hidden = true; endP.hidden = false;
-    document.getElementById("fdFinal").textContent = score + " points";
-    if (window.LSA && LSA.report) { LSA.report({game: "fiber-detective", lesson: "5.3", score: score, max: 0, rounds: 2}); }
-    document.getElementById("fdSummary").textContent = "Fibers: " + right1 + " of " + R1_N + ". Care symbols: " + right2 + " of " + R2_N + ". The fiber decides the care, and the care decides how long the garment lasts.";
-    var ul = document.getElementById("fdMissed"); ul.innerHTML = "";
-    document.getElementById("fdMissWrap").hidden = !missed.length;
-    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
-    endP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function begin() {
-    score = 0; streak = 0; missed = []; right1 = 0; right2 = 0; stage = 1; i1 = 0; i2 = 0;
-    r1 = buildRound1();
-    startP.hidden = true; endP.hidden = true; playP.hidden = false;
-    hud(); ask1();
-    playP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  document.getElementById("fdGo").addEventListener("click", begin);
-  document.getElementById("fdAgain").addEventListener("click", begin);
-  stage = 1; i1 = 0; i2 = 0; score = 0; streak = 0; secs = SECS; hud();
+  var root = document.getElementById("FiberDetective");
+  var node = document.getElementById("FiberDetective-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
 }());
 </script>
 

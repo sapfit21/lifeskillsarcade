@@ -40,236 +40,152 @@
 </header>
 <main id="main" class="plain">
 
-<!-- Pitch Perfect. Reviews Lessons 7.6 to 7.9 (the business, the customer, the price, the pitch) and 7.1 (the three-part bullet). Built 2026-09-15.
-     Everything on this page is static: no sound, no storage, no network. Every business is made up. -->
-<div class="game" id="pitchPerfect">
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="PitchPerfect">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
 <div class="teacher-note">
 <strong>Teacher note</strong>
-<p>This game reviews <a href="../lesson-07-06.html">Lesson 7.6, What a Business Is</a>, <a href="../lesson-07-08.html">Lesson 7.8, Know Your Customer and Price It</a>, and <a href="../lesson-07-09.html">Lesson 7.9, The Elevator Pitch</a>, plus the three-part bullet from <a href="../lesson-07-01.html">Lesson 7.1</a>. Round 1: a problem card and a customer card; the player builds a short pitch from five columns (problem, customer, product, price, ask), and each column is scored against the Rubric 07 lines: the problem names who has it, the customer is specific, the product solves that problem, the price fits what the customer can spend and comes with a number, the ask names something specific with a number that fits the product. Round 2 is fast: tap the resume bullet that has all three parts (the work, the explanation, the output). Use it as the do now before Lesson 7.10. Nothing is saved when the page closes.</p>
+<p>Reviews <a href="../lesson-07-06.html">Lesson 7.6</a>, <a href="../lesson-07-08.html">Lesson 7.8</a>, <a href="../lesson-07-09.html">Lesson 7.9</a>, <a href="../lesson-07-01.html">Lesson 7.1</a>. This game reviews Lesson 7.6, What a Business Is, Lesson 7.8, Know Your Customer and Price It, and Lesson 7.9, The Elevator Pitch, plus the three-part bullet from Lesson 7.1. Round 1: a problem card and a customer card; the player builds a short pitch from five columns (problem, customer, product, price, ask), and each column is scored against the Rubric 07 lines: the problem names who has it, the customer is specific, the product solves that problem, the price fits what the customer can spend and comes with a number, the ask names something specific with a number that fits the product. Round 2 is fast: tap the resume bullet that has all three parts (the work, the explanation, the output). Use it as the do now before Lesson 7.10. Nothing is saved when the page closes.</p>
 </div>
 
+<!-- 2. Title and lede. The second word takes the accent style. -->
 <div class="game-head"><img class="title-art" src="art/pitch-perfect-title.webp" alt=""><h1 class="game-title">Pitch <span class="alt2">Perfect</span></h1></div>
 <p class="game-lede">A problem and a customer. Build the pitch one column at a time, and make every piece fit the piece before it. Then the fast round: which resume bullet has all three parts?</p>
 
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
 <div class="hud" aria-hidden="true">
-  <div class="stat"><span class="lab">Round</span><span class="val" id="pfRound">1 of 2</span></div>
-  <div class="stat timer" id="pfTimerBox"><span class="lab">Seconds</span><span class="val" id="pfTimer">20</span></div>
-  <div class="stat"><span class="lab">Streak</span><span class="val" id="pfStreak">0</span></div>
-  <div class="stat score"><span class="lab">Score</span><span class="val" id="pfScore">0</span></div>
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
 </div>
-<div class="sr-live" aria-live="polite" id="pfLive"></div>
 
-<div class="panel" id="pfStart">
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
   <h2>How to play</h2>
-  <p>Round 1: five columns, 20 seconds each, 10 points for the line that fits. Get all five and the pitch meets the rubric: 10 more. Round 2: six sets of resume bullets, 8 seconds each, 10 points for the bullet with the work, the explanation, and the output. Three in a row adds 5.</p>
-  <p><button class="gbtn go" id="pfGo" type="button">Start</button></p>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>The strong bullet says what you did, how and for whom, and what came out of it, with a number.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
 </div>
 
-<div class="pf-play" id="pfPlay" hidden>
-  <div class="pf-cards">
-    <div class="pf-card"><span class="sr-tasklab">Problem card</span><span class="pf-cardtext" id="pfProblem"></span></div>
-    <div class="pf-card"><span class="sr-tasklab">Customer card</span><span class="pf-cardtext" id="pfCustomer"></span></div>
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
   </div>
-  <div class="gr-situation"><span class="sr-tasklab" id="pfLab">Column 1 of 5: the problem</span><span class="gr-text" id="pfText"></span></div>
-  <div class="feedback" id="pfFeed"></div>
-  <div class="pf-options" id="pfOptions"></div>
-  <div class="pf-built" id="pfBuilt" hidden><span class="sr-tasklab">Your pitch so far</span><p id="pfBuiltText"></p></div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
 </div>
 
-<div class="pf-play" id="pfFast" hidden>
-  <div class="gr-situation"><span class="sr-tasklab" id="pfFLab">Round 2: which bullet has all three parts?</span><span class="gr-text">The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number).</span></div>
-  <div class="feedback" id="pfFFeed"></div>
-  <div class="pf-options" id="pfFOptions"></div>
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="pitch-lightbulb"><img class="piece" src="art/pitch-lightbulb.webp" alt="" loading="lazy"></span>
+<span data-key="pitch-customer"><img class="piece" src="art/pitch-customer.webp" alt="" loading="lazy"></span>
+<span data-key="pitch-price-tag"><img class="piece" src="art/pitch-price-tag.webp" alt="" loading="lazy"></span>
+<span data-key="pitch-handshake"><img class="piece" src="art/pitch-handshake.webp" alt="" loading="lazy"></span>
+<span data-key="pitch-microphone"><img class="piece" src="art/pitch-microphone.webp" alt="" loading="lazy"></span>
 </div>
 
-<div class="art-bank" id="pfArt" hidden>
-<span data-key="the problem"><img class="piece" src="art/pitch-lightbulb.webp" alt="" loading="lazy"></span>
-<span data-key="the customer"><img class="piece" src="art/pitch-customer.webp" alt="" loading="lazy"></span>
-<span data-key="the product"><img class="piece" src="art/pitch-price-tag.webp" alt="" loading="lazy"></span>
-<span data-key="the price"><img class="piece" src="art/pitch-handshake.webp" alt="" loading="lazy"></span>
-<span data-key="the ask"><img class="piece" src="art/pitch-microphone.webp" alt="" loading="lazy"></span>
-</div>
-<div class="panel end" id="pfEnd" hidden>
-  <h2>Pitch over</h2>
-  <p class="big" id="pfFinal"></p>
-  <p id="pfSummary"></p>
-  <div class="pf-built" id="pfFinalPitch"><span class="sr-tasklab">The pitch you built</span><p id="pfFinalText"></p></div>
-  <div id="pfMissWrap"><p><b>Look at these again:</b></p><ul class="miss-list" id="pfMissed"></ul></div>
-  <p><button class="gbtn go" id="pfAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
 
 <style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
 .sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
-.gr-situation{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;box-shadow:5px 5px 0 var(--outline)}
-.gr-text{display:block;font-size:1.15rem;font-weight:600;line-height:1.35;margin-top:.25rem}
-.pf-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem;margin:.4rem 0 .6rem}
-@media (max-width:520px){.pf-cards{grid-template-columns:1fr}}
-.pf-card{background:var(--brand-yellow);border:2.5px solid var(--outline);border-radius:12px;padding:.7rem .8rem;box-shadow:3px 3px 0 var(--outline)}
-.pf-cardtext{display:block;font-size:.98rem;line-height:1.4;font-weight:600;margin-top:.2rem}
-.pf-options{display:grid;gap:.5rem;margin:.6rem 0}
-.gr-text .piece{display:inline-block;width:2.8rem;height:2.8rem;object-fit:contain;vertical-align:middle;margin-right:.45rem}
-.pf-options .gbtn{display:block;width:100%;text-align:left;font-size:.98rem;line-height:1.35;padding:.75rem .9rem;font-weight:600}
-.pf-built{background:#fff;border:2.5px dashed var(--outline);border-radius:12px;padding:.7rem .9rem;margin:.6rem 0}
-.pf-built p{margin:.3rem 0 0;font-size:.98rem;line-height:1.45}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
 </style>
 
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="PitchPerfect-data">{"schema": "1.0", "slug": "pitch-perfect", "title": "Pitch Perfect", "unit": 7, "lessons": ["7.6", "7.8", "7.9", "7.1"], "handouts": ["Rubric 07"], "standards": [], "source_file": "hand built 2026-09-15, converted to engine data 2026-09-21", "mechanic_note": "choice: five columns (problem, customer, product, price, ask), each a step that deals one of the five made up businesses; the problem card and customer card ride on the item, tap the line that fits the rubric; then a choice: six sets of three resume bullets dealt from seven, tap the bullet with the work, the explanation and the output.", "lede": "A problem and a customer. Build the pitch one column at a time, and make every piece fit the piece before it. Then the fast round: which resume bullet has all three parts?", "teacher_note": "This game reviews Lesson 7.6, What a Business Is, Lesson 7.8, Know Your Customer and Price It, and Lesson 7.9, The Elevator Pitch, plus the three-part bullet from Lesson 7.1. Round 1: a problem card and a customer card; the player builds a short pitch from five columns (problem, customer, product, price, ask), and each column is scored against the Rubric 07 lines: the problem names who has it, the customer is specific, the product solves that problem, the price fits what the customer can spend and comes with a number, the ask names something specific with a number that fits the product. Round 2 is fast: tap the resume bullet that has all three parts (the work, the explanation, the output). Use it as the do now before Lesson 7.10. Nothing is saved when the page closes.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": false, "note": ""}, "art": {"title": {"file": "pitch-perfect-title.webp", "line": "A black microphone on a short stand with a lit yellow light bulb floating above it, three short black rays around the bulb."}, "scene": [], "cards": [{"file": "pitch-lightbulb.webp", "line": "A yellow light bulb with a gray base, lit, with three short black rays."}, {"file": "pitch-customer.webp", "line": "A plain flat figure from behind, sky blue shirt, no face, holding a shopping bag."}, {"file": "pitch-price-tag.webp", "line": "A red price tag on a string, blank, no numbers."}, {"file": "pitch-handshake.webp", "line": "Two plain flat hands shaking, one in a green sleeve and one in a red sleeve."}, {"file": "pitch-microphone.webp", "line": "A black microphone on a short stand."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: five columns, one step each; every step deals one of the five businesses, three lines to choose from", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.col1", "title": "Column 1 of 5: the problem", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 3}, "items": [{"id": "the-problem-1", "prompt": "Tap the line for the problem that fits the cards.", "prompt_extra": ["Problem card: Kids in the after-school program get hungry at 4 p.m., and the vending machine is all candy.", "Customer card: About 40 middle schoolers in the after-school program. They have $2 to $3 to spend. They see the poster by the sign-in table."], "picture": "pitch-lightbulb.webp", "answer": ["Forty kids in the after-school program are hungry at 4 p.m., and the only food is candy."], "choices": ["Forty kids in the after-school program are hungry at 4 p.m., and the only food is candy.", "We want to sell snacks.", "Snacks are cool and everybody likes them."], "feedback": "The problem names who has it. A want (\"we want to sell snacks\") is not a problem.", "tags": {"business": 1, "column": "the problem"}}, {"id": "the-problem-2", "prompt": "Tap the line for the problem that fits the cards.", "prompt_extra": ["Problem card: Backpack straps and hoodie pockets rip, and nobody at home has time to fix them.", "Customer card: Students and teachers in this building. They would pay $3 to $5 for a repair. They read the flyer in the main office."], "picture": "pitch-lightbulb.webp", "answer": ["Students in this building walk around with ripped straps and torn pockets because nobody at home has time to sew."], "choices": ["We like sewing.", "Clothes are expensive.", "Students in this building walk around with ripped straps and torn pockets because nobody at home has time to sew."], "feedback": "The problem names who has it.", "tags": {"business": 2, "column": "the problem"}}, {"id": "the-problem-3", "prompt": "Tap the line for the problem that fits the cards.", "prompt_extra": ["Problem card: Families at the school food pantry get dried beans and rice, but no recipe that uses them.", "Customer card: The 60 families who visit the pantry each month. They cannot spend more. They pick things up at the pantry table."], "picture": "pitch-lightbulb.webp", "answer": ["Sixty pantry families take home beans and rice every month and many do not have a recipe that uses them."], "choices": ["Cooking is fun.", "Sixty pantry families take home beans and rice every month and many do not have a recipe that uses them.", "We want to make recipe cards."], "feedback": "The problem names who has it.", "tags": {"business": 3, "column": "the problem"}}, {"id": "the-problem-4", "prompt": "Tap the line for the problem that fits the cards.", "prompt_extra": ["Problem card: New sixth graders cannot find their way around the building the first week and are late to class.", "Customer card: About 120 incoming sixth graders and their families. They will spend up to $5. They hear about it at orientation night."], "picture": "pitch-lightbulb.webp", "answer": ["About 120 new sixth graders get lost in this building the first week and show up late."], "choices": ["About 120 new sixth graders get lost in this building the first week and show up late.", "Maps are interesting.", "We want to sell something at orientation."], "feedback": "The problem names who has it.", "tags": {"business": 4, "column": "the problem"}}, {"id": "the-problem-5", "prompt": "Tap the line for the problem that fits the cards.", "prompt_extra": ["Problem card: Teachers who run clubs need a snack for 25 kids on a $10 budget, and they end up buying chips.", "Customer card: The 8 club advisors in this building, each with $10 a meeting for snacks. They get email from the main office."], "picture": "pitch-lightbulb.webp", "answer": ["Eight club advisors have $10 to feed 25 kids a meeting, and the only thing that fits is a bag of chips."], "choices": ["We want to run a food business.", "Chips are bad.", "Eight club advisors have $10 to feed 25 kids a meeting, and the only thing that fits is a bag of chips."], "feedback": "The problem names who has it.", "tags": {"business": 5, "column": "the problem"}}]}, {"kind": "choice", "label": "round1.col2", "title": "Column 2 of 5: the customer", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 3}, "items": [{"id": "the-customer-1", "prompt": "Tap the line for the customer that fits the cards.", "prompt_extra": ["Problem card: Kids in the after-school program get hungry at 4 p.m., and the vending machine is all candy.", "Customer card: About 40 middle schoolers in the after-school program. They have $2 to $3 to spend. They see the poster by the sign-in table."], "picture": "pitch-customer.webp", "answer": ["Middle schoolers in the after-school program, about 40 of them, with $2 to $3 to spend."], "choices": ["Everyone.", "Adults with money downtown.", "Middle schoolers in the after-school program, about 40 of them, with $2 to $3 to spend."], "feedback": "The customer is specific: who, how many, what they can spend.", "tags": {"business": 1, "column": "the customer"}}, {"id": "the-customer-2", "prompt": "Tap the line for the customer that fits the cards.", "prompt_extra": ["Problem card: Backpack straps and hoodie pockets rip, and nobody at home has time to fix them.", "Customer card: Students and teachers in this building. They would pay $3 to $5 for a repair. They read the flyer in the main office."], "picture": "pitch-customer.webp", "answer": ["Students and teachers in this building who would pay $3 to $5 to get something fixed while they wait."], "choices": ["Fashion designers.", "Students and teachers in this building who would pay $3 to $5 to get something fixed while they wait.", "Everybody in New York."], "feedback": "The customer is specific: who, what they can spend, where they hear about it.", "tags": {"business": 2, "column": "the customer"}}, {"id": "the-customer-3", "prompt": "Tap the line for the customer that fits the cards.", "prompt_extra": ["Problem card: Families at the school food pantry get dried beans and rice, but no recipe that uses them.", "Customer card: The 60 families who visit the pantry each month. They cannot spend more. They pick things up at the pantry table."], "picture": "pitch-customer.webp", "answer": ["The 60 families who use the school pantry each month, who cannot spend more than they already do."], "choices": ["The 60 families who use the school pantry each month, who cannot spend more than they already do.", "Restaurant owners.", "Anyone who eats."], "feedback": "The customer is specific, including what they can spend, which here is nothing extra.", "tags": {"business": 3, "column": "the customer"}}, {"id": "the-customer-4", "prompt": "Tap the line for the customer that fits the cards.", "prompt_extra": ["Problem card: New sixth graders cannot find their way around the building the first week and are late to class.", "Customer card: About 120 incoming sixth graders and their families. They will spend up to $5. They hear about it at orientation night."], "picture": "pitch-customer.webp", "answer": ["Incoming sixth graders and their families, about 120 of them, who will spend up to $5 at orientation night."], "choices": ["Eighth graders who already know the building.", "Everyone in town.", "Incoming sixth graders and their families, about 120 of them, who will spend up to $5 at orientation night."], "feedback": "The customer is specific: who, how many, what they can spend.", "tags": {"business": 4, "column": "the customer"}}, {"id": "the-customer-5", "prompt": "Tap the line for the customer that fits the cards.", "prompt_extra": ["Problem card: Teachers who run clubs need a snack for 25 kids on a $10 budget, and they end up buying chips.", "Customer card: The 8 club advisors in this building, each with $10 a meeting for snacks. They get email from the main office."], "picture": "pitch-customer.webp", "answer": ["The 8 club advisors in this building, each with a $10 snack budget per meeting."], "choices": ["Every teacher in the state.", "The 8 club advisors in this building, each with a $10 snack budget per meeting.", "Wedding planners."], "feedback": "The customer is specific: who, how many, what they can spend.", "tags": {"business": 5, "column": "the customer"}}]}, {"kind": "choice", "label": "round1.col3", "title": "Column 3 of 5: the product", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 3}, "items": [{"id": "the-product-1", "prompt": "Tap the line for the product that fits the cards.", "prompt_extra": ["Problem card: Kids in the after-school program get hungry at 4 p.m., and the vending machine is all candy.", "Customer card: About 40 middle schoolers in the after-school program. They have $2 to $3 to spend. They see the poster by the sign-in table."], "picture": "pitch-price-tag.webp", "answer": ["A $2 snack bag, air-popped popcorn and an apple pack, made in the FACS kitchen on Tuesdays. The only snack at 4 p.m. that is not candy."], "choices": ["A cookbook for parents.", "A $2 snack bag, air-popped popcorn and an apple pack, made in the FACS kitchen on Tuesdays. The only snack at 4 p.m. that is not candy.", "A $30 gourmet meal kit delivered to their house."], "feedback": "The product solves that problem for that customer, and says one thing that makes it different.", "tags": {"business": 1, "column": "the product"}}, {"id": "the-product-2", "prompt": "Tap the line for the product that fits the cards.", "prompt_extra": ["Problem card: Backpack straps and hoodie pockets rip, and nobody at home has time to fix them.", "Customer card: Students and teachers in this building. They would pay $3 to $5 for a repair. They read the flyer in the main office."], "picture": "pitch-price-tag.webp", "answer": ["A mending stand at lunch: a whipstitch or backstitch repair while you wait, done with the Unit 5 skills. Fixed before the bell."], "choices": ["A mending stand at lunch: a whipstitch or backstitch repair while you wait, done with the Unit 5 skills. Fixed before the bell.", "A line of designer hoodies for $60.", "A dog-walking service."], "feedback": "The product solves that problem with a skill from this course, and names what makes it different.", "tags": {"business": 2, "column": "the product"}}, {"id": "the-product-3", "prompt": "Tap the line for the product that fits the cards.", "prompt_extra": ["Problem card: Families at the school food pantry get dried beans and rice, but no recipe that uses them.", "Customer card: The 60 families who visit the pantry each month. They cannot spend more. They pick things up at the pantry table."], "picture": "pitch-price-tag.webp", "answer": ["A free one-page recipe card, in three languages, tucked into every pantry bag, with a recipe tested in the FACS lab."], "choices": ["A $25 cooking class on Saturdays.", "A meal-delivery app.", "A free one-page recipe card, in three languages, tucked into every pantry bag, with a recipe tested in the FACS lab."], "feedback": "The product solves that problem for that customer.", "tags": {"business": 3, "column": "the product"}}, {"id": "the-product-4", "prompt": "Tap the line for the product that fits the cards.", "prompt_extra": ["Problem card: New sixth graders cannot find their way around the building the first week and are late to class.", "Customer card: About 120 incoming sixth graders and their families. They will spend up to $5. They hear about it at orientation night."], "picture": "pitch-price-tag.webp", "answer": ["A pocket floor plan of the school drawn to scale, the way we did in Unit 4, with the fastest route between the two farthest rooms."], "choices": ["A newsletter for retired teachers.", "A pocket floor plan of the school drawn to scale, the way we did in Unit 4, with the fastest route between the two farthest rooms.", "A $200 GPS device."], "feedback": "The product solves that problem with a skill from this course.", "tags": {"business": 4, "column": "the product"}}, {"id": "the-product-5", "prompt": "Tap the line for the product that fits the cards.", "prompt_extra": ["Problem card: Teachers who run clubs need a snack for 25 kids on a $10 budget, and they end up buying chips.", "Customer card: The 8 club advisors in this building, each with $10 a meeting for snacks. They get email from the main office."], "picture": "pitch-price-tag.webp", "answer": ["A $10 club snack box for 25: fruit, cheese cubes, and crackers, costed from the store circular the way we did in Unit 6."], "choices": ["A $10 club snack box for 25: fruit, cheese cubes, and crackers, costed from the store circular the way we did in Unit 6.", "A catering company for weddings.", "Twenty-five candy bars for $10."], "feedback": "The product solves that problem for that budget with a skill from this course.", "tags": {"business": 5, "column": "the product"}}]}, {"kind": "choice", "label": "round1.col4", "title": "Column 4 of 5: the price", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 3}, "items": [{"id": "the-price-1", "prompt": "Tap the line for the price that fits the cards.", "prompt_extra": ["Problem card: Kids in the after-school program get hungry at 4 p.m., and the vending machine is all candy.", "Customer card: About 40 middle schoolers in the after-school program. They have $2 to $3 to spend. They see the poster by the sign-in table."], "picture": "pitch-handshake.webp", "answer": ["$2 a bag. Unit cost 80 cents. We stop losing money after 17 bags, which pays back the $20 of supplies."], "choices": ["$2 a bag. Unit cost 80 cents. We stop losing money after 17 bags, which pays back the $20 of supplies.", "$9 a bag.", "Free for now. We will figure out money later."], "feedback": "The price fits what the customer can spend, and the money sentence has real numbers: unit cost, price, break-even.", "tags": {"business": 1, "column": "the price"}}, {"id": "the-price-2", "prompt": "Tap the line for the price that fits the cards.", "prompt_extra": ["Problem card: Backpack straps and hoodie pockets rip, and nobody at home has time to fix them.", "Customer card: Students and teachers in this building. They would pay $3 to $5 for a repair. They read the flyer in the main office."], "picture": "pitch-handshake.webp", "answer": ["$4 a repair. Unit cost about 50 cents in thread and a patch. We stop losing money after 6 repairs, which pays back the $20 kit."], "choices": ["$45 a repair.", "Whatever people feel like paying.", "$4 a repair. Unit cost about 50 cents in thread and a patch. We stop losing money after 6 repairs, which pays back the $20 kit."], "feedback": "The price fits the $3 to $5 the customer said, with unit cost and break-even.", "tags": {"business": 2, "column": "the price"}}, {"id": "the-price-3", "prompt": "Tap the line for the price that fits the cards.", "prompt_extra": ["Problem card: Families at the school food pantry get dried beans and rice, but no recipe that uses them.", "Customer card: The 60 families who visit the pantry each month. They cannot spend more. They pick things up at the pantry table."], "picture": "pitch-handshake.webp", "answer": ["Free to families. Printing costs the school 10 cents a card, so 60 cards is $6 a month."], "choices": ["We do not need a price.", "Free to families. Printing costs the school 10 cents a card, so 60 cards is $6 a month.", "$3 a card."], "feedback": "The price fits the customer (free to them) and the money sentence still has real numbers.", "tags": {"business": 3, "column": "the price"}}, {"id": "the-price-4", "prompt": "Tap the line for the price that fits the cards.", "prompt_extra": ["Problem card: New sixth graders cannot find their way around the building the first week and are late to class.", "Customer card: About 120 incoming sixth graders and their families. They will spend up to $5. They hear about it at orientation night."], "picture": "pitch-handshake.webp", "answer": ["$3 a map. Unit cost 40 cents on card stock. We stop losing money after 8 maps, which pays back the $20 of card stock."], "choices": ["$3 a map. Unit cost 40 cents on card stock. We stop losing money after 8 maps, which pays back the $20 of card stock.", "$40 a map.", "No price yet."], "feedback": "The price fits the $5 the customer will spend, with unit cost and break-even.", "tags": {"business": 4, "column": "the price"}}, {"id": "the-price-5", "prompt": "Tap the line for the price that fits the cards.", "prompt_extra": ["Problem card: Teachers who run clubs need a snack for 25 kids on a $10 budget, and they end up buying chips.", "Customer card: The 8 club advisors in this building, each with $10 a meeting for snacks. They get email from the main office."], "picture": "pitch-handshake.webp", "answer": ["$10 a box. Unit cost $8.50 from the circular, margin $1.50. We stop losing money after 14 boxes, which pays back the $20 of containers."], "choices": ["$50 a box.", "We will decide later.", "$10 a box. Unit cost $8.50 from the circular, margin $1.50. We stop losing money after 14 boxes, which pays back the $20 of containers."], "feedback": "The price fits the customer's $10 and the money sentence has unit cost, margin, and break-even.", "tags": {"business": 5, "column": "the price"}}]}, {"kind": "choice", "label": "round1.col5", "title": "Column 5 of 5: the ask", "take": 1, "options": {"source": "per_item", "style": "choices", "count": 3}, "items": [{"id": "the-ask-1", "prompt": "Tap the line for the ask that fits the cards.", "prompt_extra": ["Problem card: Kids in the after-school program get hungry at 4 p.m., and the vending machine is all candy.", "Customer card: About 40 middle schoolers in the after-school program. They have $2 to $3 to spend. They see the poster by the sign-in table."], "picture": "pitch-microphone.webp", "answer": ["A table by the sign-in desk for four Tuesdays and $20 for the first batch of supplies."], "choices": ["Support us.", "$5,000 to open a store at the mall.", "A table by the sign-in desk for four Tuesdays and $20 for the first batch of supplies."], "feedback": "The ask names something specific with a number, and it fits the product.", "tags": {"business": 1, "column": "the ask"}}, {"id": "the-ask-2", "prompt": "Tap the line for the ask that fits the cards.", "prompt_extra": ["Problem card: Backpack straps and hoodie pockets rip, and nobody at home has time to fix them.", "Customer card: Students and teachers in this building. They would pay $3 to $5 for a repair. They read the flyer in the main office."], "picture": "pitch-microphone.webp", "answer": ["Permission to run the stand in the cafeteria two lunches a week, and $20 for the needle and thread kit."], "choices": ["So, yeah, what do you think?", "Permission to run the stand in the cafeteria two lunches a week, and $20 for the needle and thread kit.", "A million dollars."], "feedback": "The ask is specific, has a number, and fits a lunch stand.", "tags": {"business": 2, "column": "the ask"}}, {"id": "the-ask-3", "prompt": "Tap the line for the ask that fits the cards.", "prompt_extra": ["Problem card: Families at the school food pantry get dried beans and rice, but no recipe that uses them.", "Customer card: The 60 families who visit the pantry each month. They cannot spend more. They pick things up at the pantry table."], "picture": "pitch-microphone.webp", "answer": ["$6 a month for printing and a spot on the pantry table."], "choices": ["$6 a month for printing and a spot on the pantry table.", "Buy our company.", "Support us."], "feedback": "The ask is specific with a number and fits a printed card.", "tags": {"business": 3, "column": "the ask"}}, {"id": "the-ask-4", "prompt": "Tap the line for the ask that fits the cards.", "prompt_extra": ["Problem card: New sixth graders cannot find their way around the building the first week and are late to class.", "Customer card: About 120 incoming sixth graders and their families. They will spend up to $5. They hear about it at orientation night."], "picture": "pitch-microphone.webp", "answer": ["A table at orientation night and $20 for card stock."], "choices": ["A building of our own.", "So, yeah, what do you think?", "A table at orientation night and $20 for card stock."], "feedback": "The ask is specific with a number and fits a printed map.", "tags": {"business": 4, "column": "the ask"}}, {"id": "the-ask-5", "prompt": "Tap the line for the ask that fits the cards.", "prompt_extra": ["Problem card: Teachers who run clubs need a snack for 25 kids on a $10 budget, and they end up buying chips.", "Customer card: The 8 club advisors in this building, each with $10 a meeting for snacks. They get email from the main office."], "picture": "pitch-microphone.webp", "answer": ["One email to the 8 advisors from the main office and $20 for containers."], "choices": ["Support us.", "One email to the 8 advisors from the main office and $20 for containers.", "A company car."], "feedback": "The ask is specific with a number and fits a snack box.", "tags": {"business": 5, "column": "the ask"}}]}]}, {"n": 2, "note": "Round 2: six sets of three resume bullets dealt from seven", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.bullets", "title": "Round 2: which bullet has all three parts?", "take": 6, "options": {"source": "per_item", "style": "choices", "count": 3}, "items": [{"id": "bullet-1", "prompt": "Which bullet has all three parts?", "prompt_extra": ["The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number)."], "answer": ["Cooked a pasta dish for 30 people as Station Manager, running a written eight-block time plan, and served every plate within the 40-minute period."], "choices": ["Cooked a pasta dish for 30 people as Station Manager, running a written eight-block time plan, and served every plate within the 40-minute period.", "Helped in the kitchen.", "Cooked pasta for the class."], "feedback": "The work, the explanation, and the output with a number."}, {"id": "bullet-2", "prompt": "Which bullet has all three parts?", "prompt_extra": ["The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number)."], "answer": ["Sewed a drawstring bag on a sewing machine, threading the machine myself and finishing two seams and a channel, and the bag held a full load of books when tested."], "choices": ["Used a sewing machine.", "Made a bag in FACS.", "Sewed a drawstring bag on a sewing machine, threading the machine myself and finishing two seams and a channel, and the bag held a full load of books when tested."], "feedback": "The work, the explanation, and the output with a number."}, {"id": "bullet-3", "prompt": "Which bullet has all three parts?", "prompt_extra": ["The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number)."], "answer": ["Built a monthly budget for a $680 net income, saving 20 percent first and covering four fixed expenses, and ended the month $85 in the black."], "choices": ["Did a budget worksheet.", "Built a monthly budget for a $680 net income, saving 20 percent first and covering four fixed expenses, and ended the month $85 in the black.", "Learned about budgets."], "feedback": "The work, the explanation, and the output with a number."}, {"id": "bullet-4", "prompt": "Which bullet has all three parts?", "prompt_extra": ["The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number)."], "answer": ["Drew a bedroom floor plan to scale at 1/4 inch to the foot, placed five pieces of furniture, and fixed a walkway that was under 30 inches."], "choices": ["Drew a bedroom floor plan to scale at 1/4 inch to the foot, placed five pieces of furniture, and fixed a walkway that was under 30 inches.", "Drew a room.", "Worked on floor plans in class."], "feedback": "The work, the explanation, and the output with a number."}, {"id": "bullet-5", "prompt": "Which bullet has all three parts?", "prompt_extra": ["The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number)."], "answer": ["Planned four meals for a family of four on $40 using a store circular, priced every item to the unit, and came in at $38.60."], "choices": ["Went grocery shopping.", "Planned some meals.", "Planned four meals for a family of four on $40 using a store circular, priced every item to the unit, and came in at $38.60."], "feedback": "The work, the explanation, and the output with a number."}, {"id": "bullet-6", "prompt": "Which bullet has all three parts?", "prompt_extra": ["The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number)."], "answer": ["Led a team of three through the five-step decision model on a peer pressure scenario and performed a refusal skit that used all four steps."], "choices": ["Worked with a group.", "Led a team of three through the five-step decision model on a peer pressure scenario and performed a refusal skit that used all four steps.", "Did a skit."], "feedback": "The work, the explanation, and the output with a number."}, {"id": "bullet-7", "prompt": "Which bullet has all three parts?", "prompt_extra": ["The work, the explanation (how, with what, for whom, how many), and the output (what came out of it, with a number)."], "answer": ["Interviewed three customers with the same three questions, recorded their answers in their own words, and changed the product's price from $5 to $3 because of what they said."], "choices": ["Interviewed three customers with the same three questions, recorded their answers in their own words, and changed the product's price from $5 to $3 because of what they said.", "Talked to some people about the idea.", "Did customer research."], "feedback": "The work, the explanation, and the output with a number."}]}]}], "study": [], "rule_lines": ["The strong bullet says what you did, how and for whom, and what came out of it, with a number."], "reference": {}, "_unmapped": {}}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
 <script>
 (function () {
   "use strict";
-  // Five made-up businesses. Each column lists three lines; ok is the one that fits the rubric line named in why.
-  var CASES = [
-    {problem: "Kids in the after-school program get hungry at 4 p.m., and the vending machine is all candy.",
-     customer: "About 40 middle schoolers in the after-school program. They have $2 to $3 to spend. They see the poster by the sign-in table.",
-     cols: [
-       {name: "the problem", why: "The problem names who has it. A want (\"we want to sell snacks\") is not a problem.", ok: "Forty kids in the after-school program are hungry at 4 p.m., and the only food is candy.", no: ["We want to sell snacks.", "Snacks are cool and everybody likes them."]},
-       {name: "the customer", why: "The customer is specific: who, how many, what they can spend.", ok: "Middle schoolers in the after-school program, about 40 of them, with $2 to $3 to spend.", no: ["Everyone.", "Adults with money downtown."]},
-       {name: "the product", why: "The product solves that problem for that customer, and says one thing that makes it different.", ok: "A $2 snack bag, air-popped popcorn and an apple pack, made in the FACS kitchen on Tuesdays. The only snack at 4 p.m. that is not candy.", no: ["A $30 gourmet meal kit delivered to their house.", "A cookbook for parents."]},
-       {name: "the price", why: "The price fits what the customer can spend, and the money sentence has real numbers: unit cost, price, break-even.", ok: "$2 a bag. Unit cost 80 cents. We stop losing money after 17 bags, which pays back the $20 of supplies.", no: ["$9 a bag.", "Free for now. We will figure out money later."]},
-       {name: "the ask", why: "The ask names something specific with a number, and it fits the product.", ok: "A table by the sign-in desk for four Tuesdays and $20 for the first batch of supplies.", no: ["Support us.", "$5,000 to open a store at the mall."]}
-     ]},
-    {problem: "Backpack straps and hoodie pockets rip, and nobody at home has time to fix them.",
-     customer: "Students and teachers in this building. They would pay $3 to $5 for a repair. They read the flyer in the main office.",
-     cols: [
-       {name: "the problem", why: "The problem names who has it.", ok: "Students in this building walk around with ripped straps and torn pockets because nobody at home has time to sew.", no: ["We like sewing.", "Clothes are expensive."]},
-       {name: "the customer", why: "The customer is specific: who, what they can spend, where they hear about it.", ok: "Students and teachers in this building who would pay $3 to $5 to get something fixed while they wait.", no: ["Everybody in New York.", "Fashion designers."]},
-       {name: "the product", why: "The product solves that problem with a skill from this course, and names what makes it different.", ok: "A mending stand at lunch: a whipstitch or backstitch repair while you wait, done with the Unit 5 skills. Fixed before the bell.", no: ["A line of designer hoodies for $60.", "A dog-walking service."]},
-       {name: "the price", why: "The price fits the $3 to $5 the customer said, with unit cost and break-even.", ok: "$4 a repair. Unit cost about 50 cents in thread and a patch. We stop losing money after 6 repairs, which pays back the $20 kit.", no: ["$45 a repair.", "Whatever people feel like paying."]},
-       {name: "the ask", why: "The ask is specific, has a number, and fits a lunch stand.", ok: "Permission to run the stand in the cafeteria two lunches a week, and $20 for the needle and thread kit.", no: ["A million dollars.", "So, yeah, what do you think?"]}
-     ]},
-    {problem: "Families at the school food pantry get dried beans and rice, but no recipe that uses them.",
-     customer: "The 60 families who visit the pantry each month. They cannot spend more. They pick things up at the pantry table.",
-     cols: [
-       {name: "the problem", why: "The problem names who has it.", ok: "Sixty pantry families take home beans and rice every month and many do not have a recipe that uses them.", no: ["We want to make recipe cards.", "Cooking is fun."]},
-       {name: "the customer", why: "The customer is specific, including what they can spend, which here is nothing extra.", ok: "The 60 families who use the school pantry each month, who cannot spend more than they already do.", no: ["Restaurant owners.", "Anyone who eats."]},
-       {name: "the product", why: "The product solves that problem for that customer.", ok: "A free one-page recipe card, in three languages, tucked into every pantry bag, with a recipe tested in the FACS lab.", no: ["A $25 cooking class on Saturdays.", "A meal-delivery app."]},
-       {name: "the price", why: "The price fits the customer (free to them) and the money sentence still has real numbers.", ok: "Free to families. Printing costs the school 10 cents a card, so 60 cards is $6 a month.", no: ["$3 a card.", "We do not need a price."]},
-       {name: "the ask", why: "The ask is specific with a number and fits a printed card.", ok: "$6 a month for printing and a spot on the pantry table.", no: ["Buy our company.", "Support us."]}
-     ]},
-    {problem: "New sixth graders cannot find their way around the building the first week and are late to class.",
-     customer: "About 120 incoming sixth graders and their families. They will spend up to $5. They hear about it at orientation night.",
-     cols: [
-       {name: "the problem", why: "The problem names who has it.", ok: "About 120 new sixth graders get lost in this building the first week and show up late.", no: ["Maps are interesting.", "We want to sell something at orientation."]},
-       {name: "the customer", why: "The customer is specific: who, how many, what they can spend.", ok: "Incoming sixth graders and their families, about 120 of them, who will spend up to $5 at orientation night.", no: ["Eighth graders who already know the building.", "Everyone in town."]},
-       {name: "the product", why: "The product solves that problem with a skill from this course.", ok: "A pocket floor plan of the school drawn to scale, the way we did in Unit 4, with the fastest route between the two farthest rooms.", no: ["A $200 GPS device.", "A newsletter for retired teachers."]},
-       {name: "the price", why: "The price fits the $5 the customer will spend, with unit cost and break-even.", ok: "$3 a map. Unit cost 40 cents on card stock. We stop losing money after 8 maps, which pays back the $20 of card stock.", no: ["$40 a map.", "No price yet."]},
-       {name: "the ask", why: "The ask is specific with a number and fits a printed map.", ok: "A table at orientation night and $20 for card stock.", no: ["A building of our own.", "So, yeah, what do you think?"]}
-     ]},
-    {problem: "Teachers who run clubs need a snack for 25 kids on a $10 budget, and they end up buying chips.",
-     customer: "The 8 club advisors in this building, each with $10 a meeting for snacks. They get email from the main office.",
-     cols: [
-       {name: "the problem", why: "The problem names who has it.", ok: "Eight club advisors have $10 to feed 25 kids a meeting, and the only thing that fits is a bag of chips.", no: ["We want to run a food business.", "Chips are bad."]},
-       {name: "the customer", why: "The customer is specific: who, how many, what they can spend.", ok: "The 8 club advisors in this building, each with a $10 snack budget per meeting.", no: ["Wedding planners.", "Every teacher in the state."]},
-       {name: "the product", why: "The product solves that problem for that budget with a skill from this course.", ok: "A $10 club snack box for 25: fruit, cheese cubes, and crackers, costed from the store circular the way we did in Unit 6.", no: ["A catering company for weddings.", "Twenty-five candy bars for $10."]},
-       {name: "the price", why: "The price fits the customer's $10 and the money sentence has unit cost, margin, and break-even.", ok: "$10 a box. Unit cost $8.50 from the circular, margin $1.50. We stop losing money after 14 boxes, which pays back the $20 of containers.", no: ["$50 a box.", "We will decide later."]},
-       {name: "the ask", why: "The ask is specific with a number and fits a snack box.", ok: "One email to the 8 advisors from the main office and $20 for containers.", no: ["A company car.", "Support us."]}
-     ]}
-  ];
-  // Round 2: one bullet in each set has all three parts. The others are missing the explanation or the output.
-  var BULLETS = [
-    ["Cooked a pasta dish for 30 people as Station Manager, running a written eight-block time plan, and served every plate within the 40-minute period.", "Helped in the kitchen.", "Cooked pasta for the class."],
-    ["Sewed a drawstring bag on a sewing machine, threading the machine myself and finishing two seams and a channel, and the bag held a full load of books when tested.", "Used a sewing machine.", "Made a bag in FACS."],
-    ["Built a monthly budget for a $680 net income, saving 20 percent first and covering four fixed expenses, and ended the month $85 in the black.", "Learned about budgets.", "Did a budget worksheet."],
-    ["Drew a bedroom floor plan to scale at 1/4 inch to the foot, placed five pieces of furniture, and fixed a walkway that was under 30 inches.", "Drew a room.", "Worked on floor plans in class."],
-    ["Planned four meals for a family of four on $40 using a store circular, priced every item to the unit, and came in at $38.60.", "Went grocery shopping.", "Planned some meals."],
-    ["Led a team of three through the five-step decision model on a peer pressure scenario and performed a refusal skit that used all four steps.", "Did a skit.", "Worked with a group."],
-    ["Interviewed three customers with the same three questions, recorded their answers in their own words, and changed the product's price from $5 to $3 because of what they said.", "Talked to some people about the idea.", "Did customer research."]
-  ];
-  // column pictures: a hidden bank in the page holds one image per column (build_site.py fills it in, D52)
-  function art(key) { var im = document.querySelector('#pfArt [data-key="' + String(key).replace(/"/g, '') + '"] img'); return im ? im.cloneNode(true) : null; }
-  var COL_SECS = 20, FAST_SECS = 8, FAST_N = 6;
-
-  var startP = document.getElementById("pfStart"), playP = document.getElementById("pfPlay"), fastP = document.getElementById("pfFast"), endP = document.getElementById("pfEnd");
-  var elR = document.getElementById("pfRound"), elT = document.getElementById("pfTimer"), elTB = document.getElementById("pfTimerBox");
-  var elS = document.getElementById("pfStreak"), elSc = document.getElementById("pfScore"), live = document.getElementById("pfLive");
-  var feed = document.getElementById("pfFeed"), ffeed = document.getElementById("pfFFeed"), feedTimer;
-  var kase, ci, built, colsRight, score, streak, secs, tick, locked, missed, fast, fi, fastRight;
-
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function hud() { elR.textContent = (fastP.hidden ? "1" : "2") + " of 2"; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score; elTB.className = "stat timer" + (secs <= 5 && tick ? " low" : ""); }
-  function say(el, text, cls) { el.textContent = text; el.className = "feedback" + (cls ? " " + cls : ""); clearTimeout(feedTimer); feedTimer = setTimeout(function () { el.textContent = ""; el.className = "feedback"; }, 3400); }
-  function stopClock() { clearInterval(tick); tick = null; }
-  function startClock(n, onOut) { stopClock(); secs = n; hud(); tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000); }
-  function bonus() { score += 10; streak += 1; if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; } return ""; }
-  function options(el, list, onTap) {
-    el.innerHTML = "";
-    list.forEach(function (t) { var b = document.createElement("button"); b.type = "button"; b.className = "gbtn"; b.textContent = t; b.addEventListener("click", function () { onTap(t, b); }); el.appendChild(b); });
-  }
-  function markRight(el, answer) { var bs = el.querySelectorAll(".gbtn"); for (var i = 0; i < bs.length; i++) { if (bs[i].textContent === answer) { bs[i].classList.add("right"); } } }
-
-  // ---- round 1 ----
-  function askCol() {
-    var col = kase.cols[ci]; locked = false;
-    document.getElementById("pfLab").textContent = "Column " + (ci + 1) + " of 5: " + col.name;
-    var pt = document.getElementById("pfText"); pt.textContent = "Tap the line for " + col.name + " that fits the cards."; var pa = art(col.name); if (pa) { pt.insertBefore(pa, pt.firstChild); }
-    options(document.getElementById("pfOptions"), shuffle([col.ok].concat(col.no)), answerCol);
-    live.textContent = "Column " + (ci + 1) + ", " + col.name + ".";
-    startClock(COL_SECS, function () { answerCol(null, null); });
-  }
-  function answerCol(t, b) {
-    if (locked) { return; } locked = true; stopClock();
-    var col = kase.cols[ci], ok = t === col.ok, opt = document.getElementById("pfOptions");
-    markRight(opt, col.ok);
-    if (ok) { colsRight += 1; say(feed, "Yes. " + col.why + bonus(), "good"); }
-    else { streak = 0; if (b) { b.classList.add("wrong"); } say(feed, (t ? "No. " : "Time. ") + col.why, "bad"); missed.push("Column " + (ci + 1) + ", " + col.name + ": " + col.why); }
-    built.push(col.ok);
-    var bt = document.getElementById("pfBuilt"); bt.hidden = false; document.getElementById("pfBuiltText").textContent = built.join(" ");
-    hud();
-    setTimeout(function () {
-      ci += 1;
-      if (ci >= kase.cols.length) {
-        if (colsRight === 5) { score += 10; say(feed, "All five fit. That pitch meets the rubric. Bonus 10.", "good"); }
-        setTimeout(startFast, colsRight === 5 ? 1800 : 300);
-      } else { askCol(); }
-    }, 2400);
-  }
-
-  // ---- round 2 ----
-  function startFast() {
-    playP.hidden = true; fastP.hidden = false;
-    fast = shuffle(BULLETS.slice()).slice(0, FAST_N); fi = 0; fastRight = 0;
-    hud(); askFast();
-    fastP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function askFast() {
-    locked = false;
-    document.getElementById("pfFLab").textContent = "Round 2, " + (fi + 1) + " of " + FAST_N + ": which bullet has all three parts?";
-    options(document.getElementById("pfFOptions"), shuffle(fast[fi].slice()), answerFast);
-    live.textContent = "Set " + (fi + 1) + ". Which bullet has all three parts?";
-    startClock(FAST_SECS, function () { answerFast(null, null); });
-  }
-  function answerFast(t, b) {
-    if (locked) { return; } locked = true; stopClock();
-    var set = fast[fi], ok = t === set[0], opt = document.getElementById("pfFOptions");
-    markRight(opt, set[0]);
-    if (ok) { fastRight += 1; say(ffeed, "Yes. The work, the explanation, and the output with a number." + bonus(), "good"); }
-    else { streak = 0; if (b) { b.classList.add("wrong"); } say(ffeed, (t ? "No. " : "Time. ") + "The strong bullet says what you did, how and for whom, and what came out of it, with a number.", "bad"); missed.push("Three-part bullet: " + set[0]); }
-    hud();
-    setTimeout(function () { fi += 1; if (fi >= FAST_N) { finish(); } else { askFast(); } }, 1800);
-  }
-  function finish() {
-    fastP.hidden = true; endP.hidden = false;
-    document.getElementById("pfFinal").textContent = score + " points";
-    if (window.LSA && LSA.report) { LSA.report({game: "pitch-perfect", lesson: "7.9", score: score, max: 0, rounds: 2}); }
-    document.getElementById("pfSummary").textContent = "Pitch: " + colsRight + " of 5 columns fit" + (colsRight === 5 ? ", a Meets on the rubric." : ".") + " Bullets: " + fastRight + " of " + FAST_N + ".";
-    document.getElementById("pfFinalText").textContent = built.join(" ");
-    var ul = document.getElementById("pfMissed"); ul.innerHTML = "";
-    document.getElementById("pfMissWrap").hidden = !missed.length;
-    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
-    endP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function begin() {
-    kase = CASES[Math.floor(Math.random() * CASES.length)]; ci = 0; built = []; colsRight = 0; score = 0; streak = 0; missed = [];
-    document.getElementById("pfProblem").textContent = kase.problem;
-    document.getElementById("pfCustomer").textContent = kase.customer;
-    document.getElementById("pfBuilt").hidden = true;
-    startP.hidden = true; endP.hidden = true; fastP.hidden = true; playP.hidden = false;
-    hud(); askCol();
-    playP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  document.getElementById("pfGo").addEventListener("click", begin);
-  document.getElementById("pfAgain").addEventListener("click", begin);
-  score = 0; streak = 0; secs = COL_SECS; hud();
+  var root = document.getElementById("PitchPerfect");
+  var node = document.getElementById("PitchPerfect-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
 }());
 </script>
 
