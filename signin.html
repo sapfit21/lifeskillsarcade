@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in, Life Skills Arcade</title>
+<meta name="description" content="Family and Consumer Sciences, Grades 6 to 8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css?v=2026-09-21">
+
+</head>
+<body class="signin">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="syllabus.html">Syllabus</a></li>
+<li><a href="scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="index.html#units">Units</a></li>
+<li><a href="lessons.html">Lessons</a></li>
+<li><a href="materials.html">Materials</a></li>
+<li><a href="student-handouts.html">Students</a></li>
+<li><a href="games/index.html">Games</a></li>
+<li><a href="standards.html">Standards</a></li>
+<li><a href="grading.html">Grading</a></li>
+<li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<div class="page-head">
+<p class="kicker">Accounts</p>
+<h1>Sign in</h1>
+<p class="lede">Students use the username and PIN their teacher gave them. Teachers use the email and password they signed up with. Playing the games never needs a sign in; signing in saves your scores.</p>
+</div>
+<p class="auth-off" id="authOff" hidden>Sign in is not switched on for this copy of the site yet. Every game still works and your score stays on this device.</p>
+<div class="doors" id="doors">
+  <section class="door student" aria-labelledby="s-h">
+    <h2 id="s-h">Students</h2>
+    <p class="who">Your teacher gave you a username like <code>facs-6a-17</code> and a four digit PIN.</p>
+    <form id="studentForm" autocomplete="on">
+      <div class="field"><label for="s-user">Username</label><input id="s-user" class="user" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="facs-6a-17" required></div>
+      <div class="field"><label for="s-pin">PIN</label><input id="s-pin" class="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="current-password" required><p class="hint">Four numbers. Five wrong tries locks your username until your teacher resets it.</p></div>
+      <p class="form-msg" id="s-msg" role="status" aria-live="polite"></p>
+      <button class="go" type="submit" id="s-go">Sign in and play</button>
+    </form>
+    <p class="note">No username yet? Ask your teacher. You can still <a href="games/index.html">play every game</a> without one; your score just stays on this device.</p>
+  </section>
+  <section class="door teacher" aria-labelledby="t-h">
+    <div class="tabs" role="tablist" aria-label="Teacher door">
+      <button class="on" type="button" id="tab-in" role="tab" aria-selected="true">Teacher sign in</button>
+      <button type="button" id="tab-new" role="tab" aria-selected="false">Create a teacher account</button>
+    </div>
+    <h2 id="t-h">Teachers</h2>
+    <p class="who" id="t-who">Sign in to see your classes, the tests and the answer keys.</p>
+    <form id="teacherForm" autocomplete="on">
+      <div class="field" id="t-name-field" hidden><label for="t-name">Your name, as students will see it</label><input id="t-name" type="text" autocomplete="name" placeholder="Mr. Prevosto"></div>
+      <div class="field"><label for="t-email">Email</label><input id="t-email" type="email" autocomplete="email" placeholder="you@school.org" required></div>
+      <div class="field"><label for="t-pass">Password</label><input id="t-pass" type="password" autocomplete="current-password" minlength="8" required><p class="hint" id="t-pass-hint" hidden>At least eight characters.</p></div>
+      <label class="terms" hidden id="t-terms"><input type="checkbox" id="t-agree"> I have read the <a href="terms.html">terms</a>. I am responsible for my own school's approval before I add students.</label>
+      <p class="form-msg" id="t-msg" role="status" aria-live="polite"></p>
+      <div class="row"><button class="go quiet" type="submit" id="t-go">Sign in</button><a href="#" class="hint" id="t-forgot">Forgot your password?</a></div>
+    </form>
+    <form id="resetForm" hidden>
+      <h3>Choose a new password</h3>
+      <div class="field"><label for="r-pass">New password</label><input id="r-pass" type="password" autocomplete="new-password" minlength="8" required></div>
+      <p class="form-msg" id="r-msg" role="status" aria-live="polite"></p>
+      <button class="go quiet" type="submit">Save the new password</button>
+    </form>
+    <p class="small-rule">This site stores a teacher's email, class names, opaque student usernames and game scores. It never stores a student's name, email or photo. <a href="terms.html">Read the terms.</a></p>
+  </section>
+</div>
+<section class="after">
+  <h2>What changes after a teacher signs in</h2>
+  <p>The same site, with three things added:</p>
+  <ul>
+    <li>Every unit page shows its tests again, and every handout page shows its teacher key, as downloads and on the page.</li>
+    <li>A <b>Class</b> link joins the menu: your classes, each student's scores by game and lesson, the lessons a class is weak on, a print sheet of usernames and PINs, a PIN reset, and a list of locked out usernames.</li>
+    <li>Your name in the header with a Sign out link.</li>
+  </ul>
+</section>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="js/config.js?v=2026-09-21"></script>
+<script src="js/auth.js?v=2026-09-21" data-base=""></script>
+<script src="js/site.js"></script>
+<script src="js/signin.js?v=2026-09-21"></script>
+</body>
+</html>

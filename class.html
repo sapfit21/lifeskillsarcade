@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class, Life Skills Arcade</title>
+<meta name="description" content="Family and Consumer Sciences, Grades 6 to 8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css?v=2026-09-21">
+
+</head>
+<body class="class-page">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="syllabus.html">Syllabus</a></li>
+<li><a href="scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="index.html#units">Units</a></li>
+<li><a href="lessons.html">Lessons</a></li>
+<li><a href="materials.html">Materials</a></li>
+<li><a href="student-handouts.html">Students</a></li>
+<li><a href="games/index.html">Games</a></li>
+<li><a href="standards.html">Standards</a></li>
+<li><a href="grading.html">Grading</a></li>
+<li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain wide">
+
+<div class="page-head">
+<p class="kicker">Teacher</p>
+<h1>Class</h1>
+<p class="lede" id="classLede">Your classes, your students' scores, and the logins you hand out. No names live here: you keep the list of who is who.</p>
+</div>
+<div class="class-wrap" id="classWrap">
+  <p class="auth-off" id="needSignIn">Sign in as a teacher to see this page. <a href="signin.html">Sign in</a></p>
+
+  <section class="class-list" id="classList" hidden aria-labelledby="cl-h">
+    <div class="class-list-head">
+      <h2 id="cl-h">Your classes</h2>
+      <button class="go quiet small" type="button" id="newClassBtn">New class</button>
+    </div>
+    <form class="new-class" id="newClassForm" hidden>
+      <div class="field"><label for="nc-name">Class name</label><input id="nc-name" type="text" placeholder="Period 3, grade 6" maxlength="60" required><p class="hint">What you call it. Not a student's name.</p></div>
+      <div class="field short"><label for="nc-code">Short code</label><input id="nc-code" type="text" placeholder="6a" maxlength="8" pattern="[A-Za-z0-9]{1,8}" required><p class="hint">Letters and numbers only. Usernames come out as facs-6a-01, facs-6a-02 and so on.</p></div>
+      <div class="field short"><label for="nc-year">School year</label><input id="nc-year" type="text" placeholder="2026-27" maxlength="12"></div>
+      <p class="form-msg" id="nc-msg" role="status" aria-live="polite"></p>
+      <div class="row"><button class="go quiet" type="submit">Make the class</button><button class="go plain" type="button" id="nc-cancel">Cancel</button></div>
+    </form>
+    <ul class="class-cards" id="classCards"></ul>
+    <p class="note" id="noClasses" hidden>No classes yet. Make one, then add students to it.</p>
+  </section>
+
+  <section class="class-detail" id="classDetail" hidden aria-labelledby="cd-h">
+    <div class="class-detail-head">
+      <div><p class="kicker" id="cd-kicker"></p><h2 id="cd-h"></h2></div>
+      <div class="row tools">
+        <button class="go quiet small" type="button" id="addStudentsBtn">Add students</button>
+        <button class="go quiet small" type="button" id="printRosterBtn">Print roster</button>
+        <button class="go plain small" type="button" id="archiveBtn">Archive class</button>
+        <button class="go plain small" type="button" id="backBtn">All classes</button>
+      </div>
+    </div>
+    <p class="form-msg" id="cd-msg" role="status" aria-live="polite"></p>
+
+    <form class="add-students" id="addStudentsForm" hidden>
+      <div class="field short"><label for="as-count">How many logins</label><input id="as-count" type="number" min="1" max="60" value="25" required></div>
+      <p class="hint">Each login is a username and a four digit PIN. The PINs show once, on the next screen, for you to print. Write the students' names beside them on your copy; the names never come here.</p>
+      <div class="row"><button class="go quiet" type="submit">Make the logins</button><button class="go plain" type="button" id="as-cancel">Cancel</button></div>
+    </form>
+
+    <section class="new-logins" id="newLogins" hidden aria-labelledby="nl-h">
+      <h3 id="nl-h">New logins. Print this now; the PINs will not show again.</h3>
+      <div class="row"><button class="go quiet small" type="button" id="printSheetBtn">Print this sheet</button><button class="go plain small" type="button" id="closeSheetBtn">Done, hide it</button></div>
+      <div class="print-sheet" id="printSheet">
+        <p class="sheet-title"><span id="ps-class"></span>, logins made <span id="ps-date"></span>. Site: <span id="ps-site"></span></p>
+        <table class="sheet-table"><thead><tr><th>Student (write the name)</th><th>Username</th><th>PIN</th></tr></thead><tbody id="ps-rows"></tbody></table>
+      </div>
+    </section>
+
+    <div class="stats" id="stats"></div>
+
+    <h3>Roster</h3>
+    <p class="hint">Plays and averages count games played while signed in. A locked username unlocks when you give it a new PIN.</p>
+    <div class="table-wrap"><table class="roster" id="rosterTable"><thead><tr><th>Username</th><th>Plays</th><th>Average</th><th>Last played</th><th>Status</th><th>Actions</th></tr></thead><tbody id="rosterRows"></tbody></table></div>
+    <div class="print-roster" id="rosterPrint"></div>
+
+    <h3>Lessons this class is weak on</h3>
+    <p class="hint">Every game is tied to a lesson. Lowest average first, counting every play by every student in the class. Three or more plays before a lesson is listed.</p>
+    <div class="table-wrap"><table class="weak" id="weakTable"><thead><tr><th>Lesson</th><th>Plays</th><th>Average</th><th>Games</th></tr></thead><tbody id="weakRows"></tbody></table></div>
+    <p class="note" id="noWeak" hidden>No signed in plays yet, so nothing to show.</p>
+
+    <h3>Scores by game</h3>
+    <div class="row"><label for="scoreWho" class="inline-label">Show</label><select id="scoreWho"><option value="">Everyone</option></select></div>
+    <div class="table-wrap"><table class="scores" id="scoresTable"><thead><tr><th>Username</th><th>Game</th><th>Lesson</th><th>Best</th><th>Plays</th><th>Last played</th></tr></thead><tbody id="scoreRows"></tbody></table></div>
+    <p class="note" id="noScores" hidden>No scores yet.</p>
+  </section>
+</div>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="js/config.js?v=2026-09-21"></script>
+<script src="js/auth.js?v=2026-09-21" data-base=""></script>
+<script src="js/site.js"></script>
+<script src="js/catalog.js?v=2026-09-21"></script>
+<script src="js/class.js?v=2026-09-21"></script>
+</body>
+</html>
