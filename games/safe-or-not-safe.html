@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safe or Not Safe, Life Skills Arcade</title>
+<meta name="description" content="A kitchen scene card appears. Tap Safe or Not Safe, and the feedback names the rule: Hands, Zone, or Cross. Then an emergency appears, and you tap the right first move from three.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="SafeOrNotSafe">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-01-02.html">Lesson 1.2</a>, <a href="../lesson-01-03.html">Lesson 1.3</a>. Reviews Lesson 1.2 (the Safe or Not Safe station sort) and Lesson 1.3 (the What Would You Do relay). Use it as the Day 2 warm up in Lesson 1.4 before the Kitchen Safety Exam, or as the ten-minute review before a retake. Round 1 draws 12 of the 16 cards, so a second play shows different cards; the four cards teams argue most (7, 11, 16, and 5) are always in the draw. The bins are Safe and Not Safe; a miss shows the rule and the fix from the key. Round 2 keeps the same six verbs as the cards (turn off, cover, cool, press, raise, tell) and never offers water, ice, butter, or carrying the pan as the right answer. Grade 6 setting: drop cards 7, 11, 14, and 16 from round 1 and stop round 2 at seven questions.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/safe-or-not-safe-title.webp" alt=""><h1 class="game-title">Safe <span class="alt2">or Not Safe</span></h1></div>
+<p class="game-lede">A kitchen scene card appears. Tap Safe or Not Safe, and the feedback names the rule: Hands, Zone, or Cross. Then an emergency appears, and you tap the right first move from three.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="safe-or-not-safe-hands"><img class="piece" src="art/safe-or-not-safe-hands.webp" alt="" loading="lazy"></span>
+<span data-key="safe-or-not-safe-thermometer"><img class="piece" src="art/safe-or-not-safe-thermometer.webp" alt="" loading="lazy"></span>
+<span data-key="safe-or-not-safe-cutting-board"><img class="piece" src="art/safe-or-not-safe-cutting-board.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The three rules: Hands, Zone, Cross</li><li>The danger zone is 40 F to 140 F; two hours in the zone and the food is thrown out</li><li>A grease fire gets a lid, not water</li><li>A burn gets cool running water for 10 minutes, no ice</li><li>A cut gets pressure and a raised hand; blood on food means the food goes in the trash</li><li>The Safety Data Sheets say what is in a cleaner and what to do if it gets on you</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="SafeOrNotSafe-data">{"schema": "1.0", "slug": "safe-or-not-safe", "title": "Safe or Not Safe", "unit": 1, "lessons": ["1.2", "1.3"], "handouts": ["Handout 01.02 - Safe or Not Safe Scenario Cards", "Handout 01.03 - What Would You Do Scenarios"], "standards": ["NYS N&W 1. Culinary Management b) Demonstrate safety and sanitation procedures when handling food and equipment", "CTE HSW 2. Disease Prevention b) Demonstrate the use of prevention measures such as hand washing, sanitation and waste disposal, proper food handling and storage, and environmental controls to reduce disease risk", "CTE HSW 4. Classroom and Workplace Safety g) Understand and follow preplanned procedures in the case of accident or emergency", "CTE HSW 4. Classroom and Workplace Safety f) Explain the purpose of Safety Data Sheets (SDS) for poisonous, toxic, or hazardous substances and know where to find them in the classroom or workplace", "National FCS 3.0: 14.4.1 Examine the conditions and habits that keep food safe to eat.", "National FCS 3.0: 14.4.5 Examine what causes foodborne illness, which foods are risky, and how to prevent it.", "National FCS 3.0: 1.2.7 Examine what keeps school, work, and community settings safe and healthy."], "source_file": "u1.json", "mechanic_note": "sort: a kitchen scenario card appears, tap the Safe bin or the Not Safe bin; feedback names the rule it follows or breaks (Hands, Zone, or Cross) and the fix; then a fast read: an emergency scenario, tap the right first move from three choices, one of which is a forbidden move", "teacher_note": "Reviews Lesson 1.2 (the Safe or Not Safe station sort) and Lesson 1.3 (the What Would You Do relay). Use it as the Day 2 warm up in Lesson 1.4 before the Kitchen Safety Exam, or as the ten-minute review before a retake. Round 1 draws 12 of the 16 cards, so a second play shows different cards; the four cards teams argue most (7, 11, 16, and 5) are always in the draw. The bins are Safe and Not Safe; a miss shows the rule and the fix from the key. Round 2 keeps the same six verbs as the cards (turn off, cover, cool, press, raise, tell) and never offers water, ice, butter, or carrying the pan as the right answer. Grade 6 setting: drop cards 7, 11, 14, and 16 from round 1 and stop round 2 at seven questions.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the rule and the fix in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "safe-or-not-safe-title.png", "line": "A light gray skillet on a black-outlined burner with a red flame peeking up and a sky blue pot lid sliding onto it from the side, in the sticker style."}, "scene": [], "cards": [], "buttons": [], "bins": [], "badges": [{"file": "safe-or-not-safe-hands.png", "line": "Two cream colored hands under a sky blue stream of water with white soap bubbles, black outline."}, {"file": "safe-or-not-safe-thermometer.png", "line": "A white food thermometer with a red column and a yellow band in the middle of the scale, black outline."}, {"file": "safe-or-not-safe-cutting-board.png", "line": "A red cutting board and a green cutting board side by side, black outline, no food on them."}]}, "rounds": [{"n": 1, "note": "Round 1: 12 of the 16 scenario cards, drawn fresh each play, 12 seconds each, two bins", "seconds_per_item": 12, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "0", "prompt": "A cook wipes up spilled raw egg with the dish towel. Then the cook uses the same towel to dry the clean plates.", "answer": ["Not Safe"], "feedback": "Raw egg on the towel moves to the clean plates. Fix: paper towel for the spill, then the cloth towel goes in the laundry; dry plates with a clean towel or let them air dry.", "tags": {"card": 1, "rule": "Cross"}}, {"id": "1", "prompt": "Before cracking eggs, a cook washes both hands with soap for 20 seconds, dries them with a paper towel, and uses the towel to turn off the faucet.", "answer": ["Safe"], "feedback": "All six steps and 20 seconds.", "tags": {"card": 2, "rule": "Hands"}}, {"id": "2", "prompt": "Leftover pasta with meat sauce sits on the counter from lunch at noon until dinner at 6 p.m. Then it goes in the fridge for tomorrow.", "answer": ["Not Safe"], "feedback": "Six hours in the danger zone. Fix: into the fridge within two hours of serving, in a shallow container. Once it has sat six hours it gets thrown out, not refrigerated.", "tags": {"card": 3, "rule": "Zone"}}, {"id": "3", "prompt": "A cook takes cooked chicken off the stove, lets it cool for 30 minutes, puts it in a shallow container with a lid, and puts it in the fridge.", "answer": ["Safe"], "feedback": "Cooled briefly and refrigerated within the two-hour window in a shallow container so it cools fast.", "tags": {"card": 4, "rule": "Zone"}}, {"id": "4", "prompt": "A cook cuts raw chicken on a cutting board, rinses the board under the faucet with water only, then slices tomatoes for a salad on the same board.", "answer": ["Not Safe"], "feedback": "Water alone does not remove the bacteria; the tomatoes are eaten raw. Fix: wash the board in hot soapy water and sanitize it, or use a second board for the tomatoes.", "tags": {"card": 5, "rule": "Cross"}}, {"id": "5", "prompt": "In the fridge, a package of raw ground beef sits in a container on the bottom shelf. The lettuce and the yogurt are on the shelves above it.", "answer": ["Safe"], "feedback": "Raw meat on the bottom shelf in a container cannot drip onto ready-to-eat food.", "tags": {"card": 6, "rule": "Cross"}}, {"id": "6", "prompt": "A turkey and cheese sandwich goes into a backpack at 7 a.m. with no ice pack. The student eats it at lunch at 12:30 p.m.", "answer": ["Not Safe"], "feedback": "Five and a half hours in the danger zone with no ice pack. Fix: an ice pack or an insulated bag, or a lunch that is safe at room temperature (peanut butter, hard cheese, fruit).", "tags": {"card": 7, "rule": "Zone"}}, {"id": "7", "prompt": "A cook sneezes, turns away from the food and into an elbow, then walks to the sink and washes hands for 20 seconds before going back to the food.", "answer": ["Safe"], "feedback": "Sneezed away from the food and washed before touching it again.", "tags": {"card": 8, "rule": "Hands"}}, {"id": "8", "prompt": "While mixing a salad, a cook scratches an itchy scalp and pushes hair out of the way, then keeps mixing the salad with the same hands.", "answer": ["Not Safe"], "feedback": "Hair and scalp carry bacteria and oil. Fix: hair tied back before cooking; wash hands 20 seconds after touching hair or face.", "tags": {"card": 9, "rule": "Hands"}}, {"id": "9", "prompt": "A kitchen uses two cutting boards: the red one for raw meat only, the green one for vegetables and bread. Both get washed in hot soapy water after use.", "answer": ["Safe"], "feedback": "Color coded boards and hot soapy water.", "tags": {"card": 10, "rule": "Cross"}}, {"id": "10", "prompt": "A pot of chili sits on the stove on low, bubbling gently, for two and a half hours while a family eats in shifts. The pot stays above 140 F the whole time.", "answer": ["Safe"], "feedback": "Held hot above 140 F, so it is out of the danger zone the whole time. The two-hour rule applies to food in the zone, not above it.", "tags": {"card": 11, "rule": "Zone"}}, {"id": "11", "prompt": "A cook comes back from the bathroom, rinses both hands under the faucet for five seconds with no soap, and goes back to slicing bread.", "answer": ["Not Safe"], "feedback": "Water only, five seconds, after the bathroom. Fix: soap, 20 seconds, dry with a paper towel.", "tags": {"card": 12, "rule": "Hands"}}, {"id": "12", "prompt": "A cook opens the fridge, checks the thermometer clipped to the shelf, and sees that it reads 38 F.", "answer": ["Safe"], "feedback": "38 F is below 40 F, so the fridge is out of the danger zone.", "tags": {"card": 13, "rule": "Zone"}}, {"id": "13", "prompt": "A frozen chicken is taken out of the freezer at 8 a.m. and left on the kitchen counter all day so it will be thawed for dinner at 6 p.m.", "answer": ["Not Safe"], "feedback": "The outside of the chicken thaws into the danger zone within an hour while the inside stays frozen; ten hours on the counter. Fix: thaw in the fridge (a day ahead), in cold water changed every 30 minutes, or in the microwave and cook right away.", "tags": {"card": 14, "rule": "Zone"}}, {"id": "14", "prompt": "A cook uses a sponge to wipe up raw chicken juice on the counter. Then the cook uses the same sponge to wipe the table where the family is about to eat.", "answer": ["Not Safe"], "feedback": "The sponge carries raw chicken juice to the eating surface. Fix: paper towel for raw juice, then sanitize the counter; sponges never go from raw meat to anything else.", "tags": {"card": 15, "rule": "Cross"}}, {"id": "15", "prompt": "A platter of cold cuts and cheese sits out on the table at a party. After one hour, the host wraps the leftovers and puts them in the fridge.", "answer": ["Safe"], "feedback": "One hour is inside the two-hour window; leftovers refrigerated.", "tags": {"card": 16, "rule": "Zone"}}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "safe", "label": "Safe"}, {"id": "not-safe", "label": "Not Safe"}], "word_bank": "Hands: wash 20 seconds with soap. Zone: bacteria grow between 40 F and 140 F; two hours in the zone and the food is thrown out. Cross: germs move from raw food to ready-to-eat food on hands, boards, tools, towels, and sponges."}, "take": 12}], "option_sets": [{"label": "bins_round1", "list": [{"id": "safe", "label": "Safe"}, {"id": "not-safe", "label": "Not Safe"}]}]}, {"n": 2, "note": "Round 2: 10 emergency questions, 10 seconds each, three choices", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "0", "prompt": "A teammate is heating oil in a pan. Flames come up out of the pan. The teammate grabs a cup of water from the sink. What do you do first?", "answer": ["Turn off the burner and slide the lid over the pan from the side"], "choices": ["Turn off the burner and slide the lid over the pan from the side", "Throw the cup of water on it", "Carry the pan to the sink"], "feedback": "Turn off the burner. Slide the lid on from the side, leave it there, or dump baking soda on a small one. Never water, never flour, never carry the pan. Then get out and tell the teacher."}, {"id": "1", "prompt": "A teammate takes a pan out of the oven with a bare hand on the metal handle and drops it on the counter. The teammate is holding their hand and crying. What do you do for the hand?", "answer": ["Run cool water over the hand for at least 10 minutes"], "choices": ["Run cool water over the hand for at least 10 minutes", "Put ice on it", "Put butter on it"], "feedback": "Cool running water for at least 10 minutes, no ice, no butter, no toothpaste; cover loosely; tell the teacher; the nurse decides what happens next."}, {"id": "2", "prompt": "Someone spilled a cup of water on the floor between the stove and the sink. Nobody wiped it. Your teammate is about to carry a pot of hot pasta across that spot. What do you do?", "answer": ["Say stop and wipe the floor with paper towels before anyone walks there"], "choices": ["Say stop and wipe the floor with paper towels before anyone walks there", "Let your teammate walk across it carefully", "Carry the hot pot across yourself"], "feedback": "Say stop. Wipe the floor with paper towels before anyone walks there. Keep people out of the path until it is dry. The teacher drains the pasta in this class."}, {"id": "3", "prompt": "A teammate is cutting a roll with a butter knife. The knife slips. There is a small cut on the finger and a little blood on the roll and the board. What do you do for the finger?", "answer": ["Press the cut with a clean paper towel and raise the hand above the heart"], "choices": ["Press the cut with a clean paper towel and raise the hand above the heart", "Rinse the roll and keep going", "Bandage it without telling anyone"], "feedback": "Press with a clean paper towel, raise the hand above the heart, tell the teacher. Blood on food means the food goes in the trash."}, {"id": "4", "prompt": "The only oven mitt at your station is wet from the sink. A teammate says it is fine and reaches for the oven door with it. What do you do?", "answer": ["Say stop, take the wet mitt out of use, and get a dry mitt from the teacher"], "choices": ["Say stop, take the wet mitt out of use, and get a dry mitt from the teacher", "Let them use the wet mitt quickly", "Hand them a towel instead"], "feedback": "Steam goes through a wet mitt in a second. Dry mitts only. In this class the teacher opens the oven door anyway."}, {"id": "5", "prompt": "The fire alarm goes off in the middle of a lab. Your burner is on and your team's food is half done. A teammate says let me just finish, it is probably a drill. What do you do?", "answer": ["Turn off the burner, leave the food, and line up at the door"], "choices": ["Turn off the burner, leave the food, and line up at the door", "Finish the lab, it is probably a drill", "Go back for the food after you line up"], "feedback": "Turn off the burner. Leave the food. Do not clean up. Line up at the door and follow the teacher on the exit route. Every alarm is real until an adult says otherwise."}, {"id": "6", "prompt": "There is a spray bottle at your station with no label. A teammate sprays the counter with it and a little got on their hands and it stings. Where do you look to find out what is in the bottle?", "answer": ["The Safety Data Sheet (SDS) binder"], "choices": ["The Safety Data Sheet (SDS) binder", "The dish towel", "The recipe card"], "feedback": "The Safety Data Sheet (SDS) binder says what is in a product, what it does to you, and what to do if it gets on skin or in eyes. Take the bottle out of use, wash hands with soap and water, and tell the teacher."}, {"id": "7", "prompt": "A burn. How long does the cool running water run?", "answer": ["At least 10 minutes"], "choices": ["At least 10 minutes", "2 minutes", "30 seconds"], "feedback": "Burns: cool running water for at least 10 minutes, no ice, no butter, no toothpaste; cover loosely; tell the teacher."}, {"id": "8", "prompt": "A teammate wants to throw a towel on a grease fire. What do you say?", "answer": ["A towel catches fire. A lid does not."], "choices": ["A towel catches fire. A lid does not.", "Good idea, a towel smothers it", "Use flour instead"], "feedback": "A towel catches fire. A lid does not. Say lid every time. Never water, never flour, never carry the pan."}, {"id": "9", "prompt": "A little blood got on the roll and the cutting board. What happens to the roll?", "answer": ["Blood on food means the food goes in the trash"], "choices": ["Blood on food means the food goes in the trash", "Rinse the roll and use it", "Cut off the spot and serve it"], "feedback": "The roll and the board are set aside; blood on food means the food is thrown out. The station gets a clean board."}], "options": {"source": "per_item", "style": "choices", "count": 3, "word_bank": "Hands: wash 20 seconds with soap. Zone: bacteria grow between 40 F and 140 F; two hours in the zone and the food is thrown out. Cross: germs move from raw food to ready-to-eat food on hands, boards, tools, towels, and sponges."}}], "option_sets": [{"label": "bins_round1", "list": [{"id": "safe", "label": "Safe"}, {"id": "not-safe", "label": "Not Safe"}]}]}], "study": ["The three rules: Hands, Zone, Cross", "The danger zone is 40 F to 140 F; two hours in the zone and the food is thrown out", "A grease fire gets a lid, not water", "A burn gets cool running water for 10 minutes, no ice", "A cut gets pressure and a raised hand; blood on food means the food goes in the trash", "The Safety Data Sheets say what is in a cleaner and what to do if it gets on you"], "rule_lines": [], "reference": {}, "_unmapped": {}, "lede": "A kitchen scene card appears. Tap Safe or Not Safe, and the feedback names the rule: Hands, Zone, or Cross. Then an emergency appears, and you tap the right first move from three."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("SafeOrNotSafe");
+  var node = document.getElementById("SafeOrNotSafe-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

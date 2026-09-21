@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cluster Match, Life Skills Arcade</title>
+<meta name="description" content="A job card appears. Tap its career cluster from four names. Then a clue or a job card appears, and you tap it into one of the six paths after high school.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="ClusterMatch">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-02-21.html">Lesson 2.21</a>, <a href="../lesson-02-22.html">Lesson 2.22</a>. Reviews Lesson 2.21 (Round 1: one job from each of the sixteen posters, matched to its cluster; the feedback line is the poster's 'what this cluster is' sentence) and Lesson 2.22 (Round 2: the six paths after high school from Part 1 of Handout 02.22 and the jobs the teacher key lists for each path). Use Round 1 as the do now of Lesson 2.22 before the research card, and both rounds as review for Unit 2 Test items 19 and 20; Round 1 also works in Unit 7 before the career plan. Settings: Round 1 draws three wrong choices from the other 15 clusters each time, so a replay reshuffles the distractors; grade 6 plays Round 1 with the eight FACS-related clusters plus four others and Round 2 with the six clue cards only.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/cluster-match-title.webp" alt=""><h1 class="game-title">Cluster <span class="alt2">Match</span></h1></div>
+<p class="game-lede">A job card appears. Tap its career cluster from four names. Then a clue or a job card appears, and you tap it into one of the six paths after high school.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>More school is not automatically better or worse. It is a trade of years and money for the job you want.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="cluster-match-veterinarian"><img class="piece" src="art/cluster-match-veterinarian.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-electrician"><img class="piece" src="art/cluster-match-electrician.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-graphic-designer"><img class="piece" src="art/cluster-match-graphic-designer.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-store-manager"><img class="piece" src="art/cluster-match-store-manager.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-preschool-teacher"><img class="piece" src="art/cluster-match-preschool-teacher.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-bank-teller"><img class="piece" src="art/cluster-match-bank-teller.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-postal-worker"><img class="piece" src="art/cluster-match-postal-worker.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-registered-nurse"><img class="piece" src="art/cluster-match-registered-nurse.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-chef"><img class="piece" src="art/cluster-match-chef.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-child-care-director"><img class="piece" src="art/cluster-match-child-care-director.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-software-developer"><img class="piece" src="art/cluster-match-software-developer.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-firefighter"><img class="piece" src="art/cluster-match-firefighter.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-machinist"><img class="piece" src="art/cluster-match-machinist.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-social-media-manager"><img class="piece" src="art/cluster-match-social-media-manager.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-lab-technician"><img class="piece" src="art/cluster-match-lab-technician.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-truck-driver"><img class="piece" src="art/cluster-match-truck-driver.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-retail-sales-associate"><img class="piece" src="art/cluster-match-retail-sales-associate.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-plumber"><img class="piece" src="art/cluster-match-plumber.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-home-health-aide"><img class="piece" src="art/cluster-match-home-health-aide.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-medical-assistant"><img class="piece" src="art/cluster-match-medical-assistant.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-dental-hygienist"><img class="piece" src="art/cluster-match-dental-hygienist.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-paralegal"><img class="piece" src="art/cluster-match-paralegal.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-teacher"><img class="piece" src="art/cluster-match-teacher.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-accountant"><img class="piece" src="art/cluster-match-accountant.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-social-worker"><img class="piece" src="art/cluster-match-social-worker.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-hard-hat"><img class="piece" src="art/cluster-match-hard-hat.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-tool-belt"><img class="piece" src="art/cluster-match-tool-belt.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-certificate"><img class="piece" src="art/cluster-match-certificate.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-two-year-calendar"><img class="piece" src="art/cluster-match-two-year-calendar.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-four-year-calendar"><img class="piece" src="art/cluster-match-four-year-calendar.webp" alt="" loading="lazy"></span>
+<span data-key="cluster-match-uniform"><img class="piece" src="art/cluster-match-uniform.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Handout 02.21 Part A: the sixteen posters, three jobs each</li><li>The eight FACS-related clusters are 1, 3, 4, 5, 8, 9, 10, and 14</li><li>Handout 02.22 Part 1: six paths after high school, how long, who pays</li><li>The do now: nurse, a two-year or four-year degree plus a license; electrician, an apprenticeship; teacher, a four-year degree plus a state certificate</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="ClusterMatch-data">{"schema": "1.0", "slug": "cluster-match", "title": "Cluster Match", "unit": 2, "lessons": ["2.21", "2.22"], "handouts": ["Handout 02.21 - Career Cluster Walk Posters and Match Sheet", "Handout 02.22 - Career Research Card and Pathways"], "standards": ["NYS IGLR 5. Career Pathways a) Explore various careers within the 16 national career clusters", "NYS IGLR 3. Employability d) Explore and implement strategies for career readiness", "CTE CCO 2. Career Clusters c) Examine the 16 national career clusters and their use in guiding initial career planning", "CTE CCO 2. Career Clusters d) Identify clusters for further investigation based on personal interests", "CTE CCO 4. Career Plans a) Examine potential career choices to determine knowledge, skills, and abilities associated with each", "CTE CCO 4. Career Plans b) Assess personal characteristics such as interests, abilities, and aptitudes in relation to characteristics associated with careers of interest", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students identify their own abilities and interests as possible guides to career choice.", "CDOS Standard 1 Career Development: Students will be knowledgeable about the world of work, explore career options, and relate personal skills, aptitudes, and abilities to future career decisions.", "National FCS 3.0: 1.2.1 Examine possible careers to find what each one requires and offers in knowledge, skills, attitudes, and openings.", "National FCS 3.0: 1.1.6 Build a life plan that lays out how to gain what a person must know and be able to do to reach personal, family, and career goals."], "source_file": "u2.json", "mechanic_note": "match, then sort: Round 1, a job card appears and you tap its cluster from four cluster names (the right one and three others drawn from the 16); Round 2, a clue or a job card appears and you tap it into one of the six paths after high school (six bins, each with its picture from the slide)", "teacher_note": "Reviews Lesson 2.21 (Round 1: one job from each of the sixteen posters, matched to its cluster; the feedback line is the poster's 'what this cluster is' sentence) and Lesson 2.22 (Round 2: the six paths after high school from Part 1 of Handout 02.22 and the jobs the teacher key lists for each path). Use Round 1 as the do now of Lesson 2.22 before the research card, and both rounds as review for Unit 2 Test items 19 and 20; Round 1 also works in Unit 7 before the career plan. Settings: Round 1 draws three wrong choices from the other 15 clusters each time, so a replay reshuffles the distractors; grade 6 plays Round 1 with the eight FACS-related clusters plus four others and Round 2 with the six clue cards only.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "cluster-match-title.png", "line": "A wooden signpost with four blank arrow boards pointing different ways, in sky blue, green, yellow, and red, black outline, sticker style."}, "scene": [], "cards": [{"file": "cluster-match-veterinarian.png", "line": "A light gray stethoscope curled around a black paw print."}, {"file": "cluster-match-electrician.png", "line": "A coil of red wire with a pair of light gray pliers resting on it."}, {"file": "cluster-match-graphic-designer.png", "line": "A drawing tablet with a stylus and a small palette of red, yellow, green, and sky blue paint dots."}, {"file": "cluster-match-store-manager.png", "line": "A ring of yellow keys beside a cream clipboard and a small light gray cash register."}, {"file": "cluster-match-preschool-teacher.png", "line": "Three stacked toy blocks in red, yellow, and sky blue, each showing a plain shape: a star, a circle, a triangle."}, {"file": "cluster-match-bank-teller.png", "line": "A stack of green bills and yellow coins behind a small white teller window frame."}, {"file": "cluster-match-postal-worker.png", "line": "A sky blue mailbag with white envelopes sticking out of the top."}, {"file": "cluster-match-registered-nurse.png", "line": "A light gray stethoscope and a cream clipboard with a red cross on it."}, {"file": "cluster-match-chef.png", "line": "A white chef's hat beside a light gray frying pan with a red handle."}, {"file": "cluster-match-child-care-director.png", "line": "A baby bottle and a stacking-rings toy in red, yellow, green, and sky blue."}, {"file": "cluster-match-software-developer.png", "line": "A black laptop with a sky blue screen showing rows of light gray code bars."}, {"file": "cluster-match-firefighter.png", "line": "A red fire helmet with a yellow shield on the front, no writing."}, {"file": "cluster-match-machinist.png", "line": "A light gray metal gear beside a black caliper."}, {"file": "cluster-match-social-media-manager.png", "line": "A black phone with a sky blue screen showing a red heart and a white speech bubble."}, {"file": "cluster-match-lab-technician.png", "line": "A glass beaker of green liquid beside a rack of three test tubes in red, yellow, and sky blue."}, {"file": "cluster-match-truck-driver.png", "line": "A red truck cab pulling a light gray trailer, black wheels."}, {"file": "cluster-match-retail-sales-associate.png", "line": "A green shopping bag with a yellow price tag hanging from the handle, no writing on the tag."}, {"file": "cluster-match-plumber.png", "line": "A light gray pipe wrench beside a sky blue pipe elbow."}, {"file": "cluster-match-home-health-aide.png", "line": "A cream house with a red heart on the front door."}, {"file": "cluster-match-medical-assistant.png", "line": "A sky blue blood pressure cuff with a light gray gauge and a thermometer beside it."}, {"file": "cluster-match-dental-hygienist.png", "line": "A white tooth beside a sky blue toothbrush with white bristles."}, {"file": "cluster-match-paralegal.png", "line": "A stack of cream folders beside a light gray balance scale."}, {"file": "cluster-match-teacher.png", "line": "A green chalkboard in a cream frame with a yellow apple on its tray."}, {"file": "cluster-match-accountant.png", "line": "A light gray calculator with a green display resting on a cream ledger sheet with gray lines."}, {"file": "cluster-match-social-worker.png", "line": "A red heart held between two open hands, one sky blue sleeve and one green sleeve, no faces."}], "buttons": [{"file": "cluster-match-hard-hat.png", "line": "A yellow hard hat with a black outline."}, {"file": "cluster-match-tool-belt.png", "line": "A cream tool belt with a hammer and a light gray wrench in the loops."}, {"file": "cluster-match-certificate.png", "line": "A cream certificate sheet with a black border, gray lines, and a red ribbon rosette, no writing."}, {"file": "cluster-match-two-year-calendar.png", "line": "Two wall calendars fanned side by side, sky blue headers and empty light gray grids, no numbers."}, {"file": "cluster-match-four-year-calendar.png", "line": "A stack of four wall calendars with red headers and empty light gray grids, no numbers."}, {"file": "cluster-match-uniform.png", "line": "A green military uniform jacket with yellow buttons hanging on a light gray hanger."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 16 jobs, one per cluster, four choices, 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "veterinarian", "prompt": "Veterinarian (cares for animals; a doctor's degree)", "picture": "cluster-match-veterinarian.png", "answer": ["1, Agriculture, Food and Natural Resources"], "feedback": "Veterinarian: cluster 1, Agriculture, Food and Natural Resources. What this cluster is: growing, raising, catching, and processing food and plants; caring for animals; managing land, water, and forests. Not Health Science. The cluster is about the work setting and the knowledge, not the white coat. A FACS-related cluster.", "choices": ["1, Agriculture, Food and Natural Resources", "8, Health Science", "10, Human Services", "15, Science, Technology, Engineering and Mathematics"], "options": {"count": 4, "style": "choices"}}, {"id": "electrician", "prompt": "Electrician (wires buildings; apprenticeship)", "picture": "cluster-match-electrician.png", "answer": ["2, Architecture and Construction"], "feedback": "Electrician: cluster 2, Architecture and Construction. What this cluster is: designing, building, fixing, and maintaining buildings, roads, and bridges.", "choices": ["2, Architecture and Construction", "13, Manufacturing", "15, Science, Technology, Engineering and Mathematics", "16, Transportation, Distribution and Logistics"], "options": {"count": 4, "style": "choices"}}, {"id": "graphic-designer", "prompt": "Graphic designer (designs logos, menus, packages; a two-year or four-year degree)", "picture": "cluster-match-graphic-designer.png", "answer": ["3, Arts, A/V Technology and Communications"], "feedback": "Graphic designer: cluster 3, Arts, A/V Technology and Communications. What this cluster is: creating, designing, performing, writing, filming, and publishing. A FACS-related cluster.", "choices": ["3, Arts, A/V Technology and Communications", "14, Marketing", "11, Information Technology", "4, Business Management and Administration"], "options": {"count": 4, "style": "choices"}}, {"id": "restaurant-or-store-manager", "prompt": "Restaurant or store manager (runs the place and the staff; on-the-job training or a two-year degree)", "picture": "cluster-match-store-manager.png", "answer": ["4, Business Management and Administration"], "feedback": "Restaurant or store manager: cluster 4, Business Management and Administration. What this cluster is: planning, organizing, and running a business or an office so it works. A FACS-related cluster.", "choices": ["4, Business Management and Administration", "9, Hospitality and Tourism", "14, Marketing", "6, Finance"], "options": {"count": 4, "style": "choices"}}, {"id": "preschool-teacher", "prompt": "Preschool teacher (a two-year degree or a certificate)", "picture": "cluster-match-preschool-teacher.png", "answer": ["5, Education and Training"], "feedback": "Preschool teacher: cluster 5, Education and Training. What this cluster is: teaching, coaching, and helping people of every age learn. A FACS-related cluster.", "choices": ["5, Education and Training", "10, Human Services", "8, Health Science", "7, Government and Public Administration"], "options": {"count": 4, "style": "choices"}}, {"id": "bank-teller", "prompt": "Bank teller (handles deposits and questions; on-the-job training)", "picture": "cluster-match-bank-teller.png", "answer": ["6, Finance"], "feedback": "Bank teller: cluster 6, Finance. What this cluster is: managing money for people and businesses: banking, insurance, investing, and taxes.", "choices": ["6, Finance", "4, Business Management and Administration", "7, Government and Public Administration", "14, Marketing"], "options": {"count": 4, "style": "choices"}}, {"id": "postal-worker", "prompt": "Postal worker (sorts and delivers mail; on-the-job training)", "picture": "cluster-match-postal-worker.png", "answer": ["7, Government and Public Administration"], "feedback": "Postal worker: cluster 7, Government and Public Administration. What this cluster is: running towns, states, and the country: planning, records, elections, and services.", "choices": ["7, Government and Public Administration", "16, Transportation, Distribution and Logistics", "12, Law, Public Safety, Corrections and Security", "4, Business Management and Administration"], "options": {"count": 4, "style": "choices"}}, {"id": "registered-nurse", "prompt": "Registered nurse (a two-year or four-year degree plus a license)", "picture": "cluster-match-registered-nurse.png", "answer": ["8, Health Science"], "feedback": "Registered nurse: cluster 8, Health Science. What this cluster is: caring for people's health: treating, testing, and preventing illness. A FACS-related cluster.", "choices": ["8, Health Science", "10, Human Services", "5, Education and Training", "1, Agriculture, Food and Natural Resources"], "options": {"count": 4, "style": "choices"}}, {"id": "chef", "prompt": "Chef (runs a kitchen; a certificate, culinary school, or years of on-the-job training)", "picture": "cluster-match-chef.png", "answer": ["9, Hospitality and Tourism"], "feedback": "Chef: cluster 9, Hospitality and Tourism. What this cluster is: restaurants, hotels, travel, events, and recreation: taking care of guests. A FACS-related cluster.", "choices": ["9, Hospitality and Tourism", "1, Agriculture, Food and Natural Resources", "4, Business Management and Administration", "13, Manufacturing"], "options": {"count": 4, "style": "choices"}}, {"id": "child-care-director", "prompt": "Child care director (runs a day care or preschool center; a two-year or four-year degree)", "picture": "cluster-match-child-care-director.png", "answer": ["10, Human Services"], "feedback": "Child care director: cluster 10, Human Services. What this cluster is: helping people and families with their needs: counseling, child care, elder care, community programs. A FACS-related cluster.", "choices": ["10, Human Services", "5, Education and Training", "8, Health Science", "4, Business Management and Administration"], "options": {"count": 4, "style": "choices"}}, {"id": "software-developer", "prompt": "Software developer (builds apps and programs; a four-year degree, or a certificate plus a strong portfolio)", "picture": "cluster-match-software-developer.png", "answer": ["11, Information Technology"], "feedback": "Software developer: cluster 11, Information Technology. What this cluster is: computers, networks, apps, and keeping data safe.", "choices": ["11, Information Technology", "15, Science, Technology, Engineering and Mathematics", "3, Arts, A/V Technology and Communications", "4, Business Management and Administration"], "options": {"count": 4, "style": "choices"}}, {"id": "firefighter", "prompt": "Firefighter (a certificate and an academy; some need a two-year degree)", "picture": "cluster-match-firefighter.png", "answer": ["12, Law, Public Safety, Corrections and Security"], "feedback": "Firefighter: cluster 12, Law, Public Safety, Corrections and Security. What this cluster is: keeping people safe and the law working: police, fire, courts, and security.", "choices": ["12, Law, Public Safety, Corrections and Security", "8, Health Science", "7, Government and Public Administration", "16, Transportation, Distribution and Logistics"], "options": {"count": 4, "style": "choices"}}, {"id": "machinist", "prompt": "Machinist (cuts and shapes metal parts; apprenticeship or a certificate)", "picture": "cluster-match-machinist.png", "answer": ["13, Manufacturing"], "feedback": "Machinist: cluster 13, Manufacturing. What this cluster is: making things in factories and shops, from cars to cereal, and checking that they are made right.", "choices": ["13, Manufacturing", "2, Architecture and Construction", "15, Science, Technology, Engineering and Mathematics", "16, Transportation, Distribution and Logistics"], "options": {"count": 4, "style": "choices"}}, {"id": "social-media-manager", "prompt": "Social media manager (runs a brand's accounts; a four-year degree or a strong portfolio)", "picture": "cluster-match-social-media-manager.png", "answer": ["14, Marketing"], "feedback": "Social media manager: cluster 14, Marketing. What this cluster is: getting people to know about and buy products and services: ads, brands, sales, and social media. A FACS-related cluster.", "choices": ["14, Marketing", "3, Arts, A/V Technology and Communications", "11, Information Technology", "4, Business Management and Administration"], "options": {"count": 4, "style": "choices"}}, {"id": "lab-technician", "prompt": "Lab technician (runs tests in a lab; a two-year degree or a certificate)", "picture": "cluster-match-lab-technician.png", "answer": ["15, Science, Technology, Engineering and Mathematics"], "feedback": "Lab technician: cluster 15, Science, Technology, Engineering and Mathematics. What this cluster is: researching, testing, designing, and calculating: the science and engineering behind everything else.", "choices": ["15, Science, Technology, Engineering and Mathematics", "8, Health Science", "1, Agriculture, Food and Natural Resources", "13, Manufacturing"], "options": {"count": 4, "style": "choices"}}, {"id": "truck-driver", "prompt": "Truck driver (a commercial driver's license; a few weeks of training)", "picture": "cluster-match-truck-driver.png", "answer": ["16, Transportation, Distribution and Logistics"], "feedback": "Truck driver: cluster 16, Transportation, Distribution and Logistics. What this cluster is: moving people and things by road, rail, air, and sea, and running the warehouses in between.", "choices": ["16, Transportation, Distribution and Logistics", "13, Manufacturing", "1, Agriculture, Food and Natural Resources", "7, Government and Public Administration"], "options": {"count": 4, "style": "choices"}}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}, {"n": 2, "note": "Round 2: 6 path clues and 11 jobs into six bins, 6 seconds each", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "days-to-months-the-employer-pays-you-while-you-learn", "prompt": "Days to months. The employer pays you while you learn.", "answer": ["A job with on-the-job training"], "feedback": "A job with on-the-job training: days to months; the employer pays you while you learn."}, {"id": "3-to-5-years-you-are-paid-to-learn-little-or-no-tuition", "prompt": "3 to 5 years. You are paid to learn; little or no tuition.", "answer": ["Apprenticeship"], "feedback": "Apprenticeship: 3 to 5 years; you are paid to learn; little or no tuition."}, {"id": "weeks-to-about-a-year-usually-the-cheapest-school", "prompt": "Weeks to about a year. Usually the cheapest school.", "answer": ["Certificate program"], "feedback": "Certificate program: weeks to about a year; usually the cheapest school."}, {"id": "2-years-community-college-costs-less-than-a-four-year-school", "prompt": "2 years. Community college costs less than a four-year school.", "answer": ["Two-year degree (associate)"], "feedback": "Two-year degree (associate): 2 years; community college costs less than a four-year school."}, {"id": "4-years-the-most-expensive-path-often-with-loans", "prompt": "4 years. The most expensive path, often with loans.", "answer": ["Four-year degree (bachelor's)"], "feedback": "Four-year degree (bachelor's): 4 years; the most expensive path, often with loans."}, {"id": "4-to-8-years-of-service-paid-training-and-a-job-college-help-after", "prompt": "4 to 8 years of service. Paid training and a job; college help after.", "answer": ["Military"], "feedback": "Military: 4 to 8 years of service; the military pays you and trains you; college help after."}, {"id": "bank-teller", "prompt": "Bank teller", "picture": "cluster-match-bank-teller.png", "answer": ["A job with on-the-job training"], "feedback": "Bank teller: on-the-job training."}, {"id": "retail-sales-associate", "prompt": "Retail sales associate", "picture": "cluster-match-retail-sales-associate.png", "answer": ["A job with on-the-job training"], "feedback": "Retail sales associate: on-the-job training."}, {"id": "electrician", "prompt": "Electrician", "picture": "cluster-match-electrician.png", "answer": ["Apprenticeship"], "feedback": "Electrician: an apprenticeship (usually four to five years, paid). This is the path that can start earning money the summer after graduation with no student loans."}, {"id": "plumber", "prompt": "Plumber", "picture": "cluster-match-plumber.png", "answer": ["Apprenticeship"], "feedback": "Plumber: apprenticeship."}, {"id": "home-health-aide", "prompt": "Home health aide", "picture": "cluster-match-home-health-aide.png", "answer": ["Certificate program"], "feedback": "Home health aide: a certificate."}, {"id": "medical-assistant", "prompt": "Medical assistant", "picture": "cluster-match-medical-assistant.png", "answer": ["Certificate program"], "feedback": "Medical assistant: a certificate."}, {"id": "dental-hygienist", "prompt": "Dental hygienist", "picture": "cluster-match-dental-hygienist.png", "answer": ["Two-year degree (associate)"], "feedback": "Dental hygienist: a two-year degree (associate) plus a state license."}, {"id": "paralegal", "prompt": "Paralegal", "picture": "cluster-match-paralegal.png", "answer": ["Two-year degree (associate)"], "feedback": "Paralegal: a two-year degree."}, {"id": "teacher", "prompt": "Teacher", "picture": "cluster-match-teacher.png", "answer": ["Four-year degree (bachelor's)"], "feedback": "Teacher: a four-year degree plus a state certificate."}, {"id": "accountant", "prompt": "Accountant", "picture": "cluster-match-accountant.png", "answer": ["Four-year degree (bachelor's)"], "feedback": "Accountant: a four-year degree."}, {"id": "social-worker", "prompt": "Social worker", "picture": "cluster-match-social-worker.png", "answer": ["Four-year degree (bachelor's)"], "feedback": "Social worker: a four-year degree."}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "a-job-with-on-the-job-training", "label": "A job with on-the-job training", "picture": "cluster-match-hard-hat.png"}, {"id": "apprenticeship", "label": "Apprenticeship", "picture": "cluster-match-tool-belt.png"}, {"id": "certificate-program", "label": "Certificate program", "picture": "cluster-match-certificate.png"}, {"id": "two-year-degree-associate", "label": "Two-year degree (associate)", "picture": "cluster-match-two-year-calendar.png"}, {"id": "four-year-degree-bachelor-s", "label": "Four-year degree (bachelor's)", "picture": "cluster-match-four-year-calendar.png"}, {"id": "military", "label": "Military", "picture": "cluster-match-uniform.png"}]}}], "option_sets": [{"label": "round2.bins", "list": [{"id": "a-job-with-on-the-job-training", "label": "A job with on-the-job training", "picture": "cluster-match-hard-hat.png"}, {"id": "apprenticeship", "label": "Apprenticeship", "picture": "cluster-match-tool-belt.png"}, {"id": "certificate-program", "label": "Certificate program", "picture": "cluster-match-certificate.png"}, {"id": "two-year-degree-associate", "label": "Two-year degree (associate)", "picture": "cluster-match-two-year-calendar.png"}, {"id": "four-year-degree-bachelor-s", "label": "Four-year degree (bachelor's)", "picture": "cluster-match-four-year-calendar.png"}, {"id": "military", "label": "Military", "picture": "cluster-match-uniform.png"}]}]}], "study": ["Handout 02.21 Part A: the sixteen posters, three jobs each", "The eight FACS-related clusters are 1, 3, 4, 5, 8, 9, 10, and 14", "Handout 02.22 Part 1: six paths after high school, how long, who pays", "The do now: nurse, a two-year or four-year degree plus a license; electrician, an apprenticeship; teacher, a four-year degree plus a state certificate"], "rule_lines": ["More school is not automatically better or worse. It is a trade of years and money for the job you want."], "reference": {"round1.clusters": [{"number": 1, "name": "Agriculture, Food and Natural Resources", "what_it_is": "growing, raising, catching, and processing food and plants; caring for animals; managing land, water, and forests", "facs_related": true}, {"number": 2, "name": "Architecture and Construction", "what_it_is": "designing, building, fixing, and maintaining buildings, roads, and bridges", "facs_related": false}, {"number": 3, "name": "Arts, A/V Technology and Communications", "what_it_is": "creating, designing, performing, writing, filming, and publishing", "facs_related": true}, {"number": 4, "name": "Business Management and Administration", "what_it_is": "planning, organizing, and running a business or an office so it works", "facs_related": true}, {"number": 5, "name": "Education and Training", "what_it_is": "teaching, coaching, and helping people of every age learn", "facs_related": true}, {"number": 6, "name": "Finance", "what_it_is": "managing money for people and businesses: banking, insurance, investing, and taxes", "facs_related": false}, {"number": 7, "name": "Government and Public Administration", "what_it_is": "running towns, states, and the country: planning, records, elections, and services", "facs_related": false}, {"number": 8, "name": "Health Science", "what_it_is": "caring for people's health: treating, testing, and preventing illness", "facs_related": true}, {"number": 9, "name": "Hospitality and Tourism", "what_it_is": "restaurants, hotels, travel, events, and recreation: taking care of guests", "facs_related": true}, {"number": 10, "name": "Human Services", "what_it_is": "helping people and families with their needs: counseling, child care, elder care, community programs", "facs_related": true}, {"number": 11, "name": "Information Technology", "what_it_is": "computers, networks, apps, and keeping data safe", "facs_related": false}, {"number": 12, "name": "Law, Public Safety, Corrections and Security", "what_it_is": "keeping people safe and the law working: police, fire, courts, and security", "facs_related": false}, {"number": 13, "name": "Manufacturing", "what_it_is": "making things in factories and shops, from cars to cereal, and checking that they are made right", "facs_related": false}, {"number": 14, "name": "Marketing", "what_it_is": "getting people to know about and buy products and services: ads, brands, sales, and social media", "facs_related": true}, {"number": 15, "name": "Science, Technology, Engineering and Mathematics", "what_it_is": "researching, testing, designing, and calculating: the science and engineering behind everything else", "facs_related": false}, {"number": 16, "name": "Transportation, Distribution and Logistics", "what_it_is": "moving people and things by road, rail, air, and sea, and running the warehouses in between", "facs_related": false}]}, "_unmapped": {}, "repaired": true, "lede": "A job card appears. Tap its career cluster from four names. Then a clue or a job card appears, and you tap it into one of the six paths after high school."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("ClusterMatch");
+  var node = document.getElementById("ClusterMatch-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

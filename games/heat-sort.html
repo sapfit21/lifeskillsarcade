@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heat Sort, Life Skills Arcade</title>
+<meta name="description" content="A cooking method card appears. Tap the DRY HEAT bin or the MOIST HEAT bin. Then a food picture appears, and you tap the best method for it from four. Some foods take more than one.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="HeatSort">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-06-06.html">Lesson 6.6</a>. Reviews Lesson 6.6, the two families of heat and the food-to-method match from Handout 06.06 Parts 1 and 3. Use it as the do now of Lesson 6.7 or in the sixty-second review before the Cooking Methods Check in Lesson 6.11, since Check items 1 to 6 come from this match. Round 1 is the nine methods plus grill and fry as a stretch; a grade 6 class can play it with the stretch cards off. Round 2 accepts every answer the teacher key accepts, so the egg and the apple take more than one method, which is the argument the lesson wants. The one miss to watch for is sauté in the moist bin; the feedback line says fat is not water.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/heat-sort-title.webp" alt=""><h1 class="game-title">Heat <span class="alt2">Sort</span></h1></div>
+<p class="game-lede">A cooking method card appears. Tap the DRY HEAT bin or the MOIST HEAT bin. Then a food picture appears, and you tap the best method for it from four. Some foods take more than one.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="heat-sort-bake"><img class="piece" src="art/heat-sort-bake.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-roast"><img class="piece" src="art/heat-sort-roast.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-broil"><img class="piece" src="art/heat-sort-broil.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-toast"><img class="piece" src="art/heat-sort-toast.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-saute"><img class="piece" src="art/heat-sort-saute.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-boil"><img class="piece" src="art/heat-sort-boil.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-simmer"><img class="piece" src="art/heat-sort-simmer.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-steam"><img class="piece" src="art/heat-sort-steam.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-poach"><img class="piece" src="art/heat-sort-poach.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-grill"><img class="piece" src="art/heat-sort-grill.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-fry"><img class="piece" src="art/heat-sort-fry.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-chicken"><img class="piece" src="art/heat-sort-chicken.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-potato"><img class="piece" src="art/heat-sort-potato.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-broccoli"><img class="piece" src="art/heat-sort-broccoli.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-rice"><img class="piece" src="art/heat-sort-rice.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-egg"><img class="piece" src="art/heat-sort-egg.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-bread"><img class="piece" src="art/heat-sort-bread.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-apple"><img class="piece" src="art/heat-sort-apple.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-pasta"><img class="piece" src="art/heat-sort-pasta.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-bin-dry"><img class="piece" src="art/heat-sort-bin-dry.webp" alt="" loading="lazy"></span>
+<span data-key="heat-sort-bin-moist"><img class="piece" src="art/heat-sort-bin-moist.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Dry heat drives water off the surface so the surface can brown. Moist heat surrounds the food with water or steam so the surface stays wet and cannot brown.</li><li>Sauté is a dry method. Fat is not water.</li><li>We do not fry in this room, and the reason is oil temperature, not fun.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="HeatSort-data">{"schema": "1.0", "slug": "heat-sort", "title": "Heat Sort", "unit": 6, "lessons": ["6.6"], "handouts": ["Handout 06.06 - Method Match and Demonstration Record"], "standards": ["NYS FSP 1. Basic Culinary Skills a) Apply basic culinary and management skills to the preparation of nutritious food", "NYS FSP 1. Basic Culinary Skills b) Identify common kitchen tools, equipment, and the uses for each", "NYS FSP 2. Food Preparation d) Demonstrate the skills and techniques common to food preparation of the region", "CTE HSW 4. Classroom and Workplace Safety c) Apply safety practices when using tools, machines, and equipment", "National FCS 3.0: 8.5.2 Cook with professional skill across a range of methods, from roasting and grilling to braising, poaching, steaming, and baking, on professional equipment.", "National FCS 3.0: 8.5.14 Cook in ways that raise nutritional value, cut calories and fat, and use herbs and spices for flavor."], "source_file": "u6.json", "mechanic_note": "sort: a method card appears, tap the DRY HEAT bin or the MOIST HEAT bin; then a match: a food picture appears, tap the best method from four choices (some foods accept more than one)", "teacher_note": "Reviews Lesson 6.6, the two families of heat and the food-to-method match from Handout 06.06 Parts 1 and 3. Use it as the do now of Lesson 6.7 or in the sixty-second review before the Cooking Methods Check in Lesson 6.11, since Check items 1 to 6 come from this match. Round 1 is the nine methods plus grill and fry as a stretch; a grade 6 class can play it with the stretch cards off. Round 2 accepts every answer the teacher key accepts, so the egg and the apple take more than one method, which is the argument the lesson wants. The one miss to watch for is saut\u00e9 in the moist bin; the feedback line says fat is not water.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right bin or method with the handout's one-line reason; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "heat-sort-title.png", "line": "A light gray pot on a red burner with white steam rising, black outline, sticker style."}, "scene": [], "cards": [{"file": "heat-sort-bake.png", "line": "A cream baking dish with a golden yellow casserole inside, sitting on an oven rack, black outline."}, {"file": "heat-sort-roast.png", "line": "A light gray sheet pan with browned yellow and red roasted vegetables, black outline."}, {"file": "heat-sort-broil.png", "line": "A red glowing heating coil above a cream dish with a browned top, black outline."}, {"file": "heat-sort-toast.png", "line": "A cream toaster with two golden brown slices of toast popping up, black outline."}, {"file": "heat-sort-saute.png", "line": "A black skillet with a yellow pat of butter and green vegetables tossed in the air, black outline."}, {"file": "heat-sort-boil.png", "line": "A light gray pot of sky blue water with big white bubbles breaking the surface, black outline."}, {"file": "heat-sort-simmer.png", "line": "A light gray pot of red sauce with a few small bubbles at the edge and a wooden spoon, black outline."}, {"file": "heat-sort-steam.png", "line": "A light gray pot with a steamer basket of green broccoli above sky blue water and a lid, black outline."}, {"file": "heat-sort-poach.png", "line": "A shallow cream pan of still sky blue water with a white egg floating in it and a slotted spoon, black outline."}, {"file": "heat-sort-grill.png", "line": "A black grill grate with red flames below and dark grill lines on a yellow food, black outline."}, {"file": "heat-sort-fry.png", "line": "A light gray deep pot of yellow oil with a wire basket, a red warning glow, black outline."}, {"file": "heat-sort-chicken.png", "line": "A raw cream colored chicken breast on a white plate, black outline."}, {"file": "heat-sort-potato.png", "line": "One whole brown-yellow russet potato, black outline."}, {"file": "heat-sort-broccoli.png", "line": "One head of green broccoli with a light stem, black outline."}, {"file": "heat-sort-rice.png", "line": "A small cream bowl heaped with white rice grains, black outline."}, {"file": "heat-sort-egg.png", "line": "One white egg in its shell, black outline."}, {"file": "heat-sort-bread.png", "line": "One cream slice of sandwich bread with a yellow crust, black outline."}, {"file": "heat-sort-apple.png", "line": "Four cream apple slices with red skin on a white plate, black outline."}, {"file": "heat-sort-pasta.png", "line": "A sky blue box of dry spaghetti with yellow strands showing through a window, no text, black outline."}], "buttons": [{"file": "heat-sort-bin-dry.png", "line": "A cream oven with its door closed and a yellow glow inside the window, black outline."}, {"file": "heat-sort-bin-moist.png", "line": "A light gray pot of sky blue water with big white bubbles and steam, black outline."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 11 method cards (9 methods plus grill and fry as the stretch), 6 seconds each, two bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "bake", "prompt": "Bake", "answer": ["dry"], "feedback": "Surrounded by hot dry air in an oven, usually for batters, doughs, and casseroles.", "tags": {"tool": "Oven, sheet pan or baking dish"}}, {"id": "roast", "prompt": "Roast", "answer": ["dry"], "feedback": "The same hot dry air, usually at a higher temperature, for meat and vegetables, so the outside browns.", "tags": {"tool": "Oven, sheet pan or roasting pan"}}, {"id": "broil", "prompt": "Broil", "answer": ["dry"], "feedback": "Heat from above only, very close and very hot, for a minute or two.", "tags": {"tool": "Oven broiler, broiler pan"}}, {"id": "toast", "prompt": "Toast", "answer": ["dry"], "feedback": "Dry heat on the surface of bread or nuts or seeds until brown.", "tags": {"tool": "Toaster, toaster oven, or a dry skillet"}}, {"id": "saute", "prompt": "Saut\u00e9", "answer": ["dry"], "feedback": "A small amount of fat in a hot pan, food moved constantly, done fast. Saut\u00e9 is a dry method. Fat is not water, and fat gets hotter than water can, which is exactly why food browns in it.", "tags": {"tool": "Skillet, spatula or tongs, burner"}}, {"id": "boil", "prompt": "Boil", "answer": ["moist"], "feedback": "Fully covered in water at a rolling boil, 212 degrees, big bubbles breaking the surface.", "tags": {"tool": "Pot, burner, colander"}}, {"id": "simmer", "prompt": "Simmer", "answer": ["moist"], "feedback": "Same water, lower heat, small bubbles at the edge, for long cooking without breaking food apart.", "tags": {"tool": "Pot, burner, wooden spoon"}}, {"id": "steam", "prompt": "Steam", "answer": ["moist"], "feedback": "Food sits above boiling water and is cooked by the steam, never touching the water.", "tags": {"tool": "Pot with a steamer basket and a lid"}}, {"id": "poach", "prompt": "Poach", "answer": ["moist"], "feedback": "Cooked gently in liquid below a simmer, barely moving, for delicate food like eggs and fish.", "tags": {"tool": "Shallow pan, slotted spoon"}}, {"id": "grill", "prompt": "Grill (stretch)", "answer": ["dry"], "feedback": "Grill is dry heat (radiant heat and hot metal, no water, and it browns hard). We skip it: there is no grill in the room and an open flame indoors is not allowed.", "tags": {"tool": "Not in this room"}}, {"id": "fry", "prompt": "Fry (stretch)", "answer": ["dry"], "feedback": "Fry is dry heat, which surprises students. Oil is not water, and food fried in oil browns, which is the giveaway. We do not fry in this room: a pot of oil at 350 degrees or hotter is the single worst burn risk in a kitchen.", "tags": {"tool": "Not in this room"}}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "dry", "label": "DRY HEAT", "sub": "DRY HEAT: no water touching the food. The surface dries out, so it can brown."}, {"id": "moist", "label": "MOIST HEAT", "sub": "MOIST HEAT: water or steam surrounds the food. The surface stays wet, so it cannot brown."}]}}], "option_sets": [{"label": "bins", "list": [{"id": "dry", "label": "DRY HEAT", "sub": "DRY HEAT: no water touching the food. The surface dries out, so it can brown."}, {"id": "moist", "label": "MOIST HEAT", "sub": "MOIST HEAT: water or steam surrounds the food. The surface stays wet, so it cannot brown."}]}]}, {"n": 2, "note": "Round 2: 8 foods, 8 seconds each, four method choices per food", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "chicken", "prompt": "A chicken breast", "answer": ["Bake", "Roast", "Saut\u00e9"], "choices": ["Bake", "Roast", "Steam", "Toast"], "feedback": "Dry heat browns the outside while the inside cooks through; it needs to reach a safe internal temperature."}, {"id": "potato", "prompt": "A potato you want crisp", "answer": ["Bake", "Roast", "Broil"], "choices": ["Boil", "Roast", "Poach", "Steam"], "feedback": "Dry heat drives off surface water so the outside can brown and crisp."}, {"id": "broccoli", "prompt": "Broccoli", "answer": ["Steam", "Saut\u00e9", "Roast"], "choices": ["Steam", "Toast", "Poach", "Roast"], "feedback": "Steam cooks it fast without leaving it sitting in water, so it stays firm and green and keeps more vitamins. Roasting browns it, which some students prefer, and that is a good answer."}, {"id": "rice", "prompt": "Rice", "answer": ["Simmer", "Boil"], "choices": ["Simmer", "Broil", "Toast", "Saut\u00e9"], "feedback": "Rice has to absorb water to soften. Only water surrounding it does that."}, {"id": "egg", "prompt": "An egg", "answer": ["Boil", "Poach", "Saut\u00e9"], "choices": ["Boil", "Poach", "Roast", "Toast"], "feedback": "This is the intentionally arguable one. Boil, poach, or saut\u00e9 (scrambled) are all correct with a reason."}, {"id": "bread", "prompt": "A slice of bread", "answer": ["Toast", "Broil"], "choices": ["Toast", "Boil", "Steam", "Poach"], "feedback": "Dry heat, no water, so the surface browns and gets crunchy."}, {"id": "apple", "prompt": "Apple slices", "answer": ["Bake", "Saut\u00e9", "Simmer"], "choices": ["Bake", "Broil", "Poach", "Saut\u00e9"], "feedback": "The second intentionally arguable one. Baking or saut\u00e9ing browns the sugar; simmering breaks it down into sauce."}, {"id": "pasta", "prompt": "A pound of dry pasta", "answer": ["Boil"], "choices": ["Boil", "Steam", "Bake", "Saut\u00e9"], "feedback": "Pasta must absorb water to soften, and it needs a lot of moving water so it does not stick."}], "options": {"source": "per_item", "style": "choices", "count": 4}}], "option_sets": [{"label": "bins", "list": [{"id": "dry", "label": "DRY HEAT", "sub": "DRY HEAT: no water touching the food. The surface dries out, so it can brown."}, {"id": "moist", "label": "MOIST HEAT", "sub": "MOIST HEAT: water or steam surrounds the food. The surface stays wet, so it cannot brown."}]}]}], "study": ["Dry heat drives water off the surface so the surface can brown. Moist heat surrounds the food with water or steam so the surface stays wet and cannot brown.", "Saut\u00e9 is a dry method. Fat is not water.", "We do not fry in this room, and the reason is oil temperature, not fun."], "rule_lines": [], "reference": {}, "_unmapped": {}, "lede": "A cooking method card appears. Tap the DRY HEAT bin or the MOIST HEAT bin. Then a food picture appears, and you tap the best method for it from four. Some foods take more than one."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("HeatSort");
+  var node = document.getElementById("HeatSort-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

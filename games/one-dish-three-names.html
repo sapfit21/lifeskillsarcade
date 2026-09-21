@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One Dish, Three Names, Life Skills Arcade</title>
+<meta name="description" content="A dish picture appears. Tap its form: FILLED DOUGH, RICE AND BEANS PLATE, or FLATBREAD. Then a sentence appears, and you tap which of the five factors it belongs to.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="OneDishThreeNames">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-06-10.html">Lesson 6.10</a>. Reviews Lesson 6.10, the three forms and the five factors from Handout 06.10 Parts 1 and 2 and the teacher key. Play it as the Day 2 do now after the research cards are done, or before the Unit 6 test, since the comparison is assessed on the Cooking Methods Check item 12 and again on the test. The class agreement on food talk is printed on the start panel and should be read before the first round; no dish is ranked and no dish is called anything but its name. Round 1 feedback gives the region and the why-here line, which is the box students skip. Round 2 is the five factors, which is the assessed piece; a grade 6 class can play round 1 alone.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/one-dish-three-names-title.webp" alt=""><h1 class="game-title">One <span class="alt2">Dish, Three Names</span></h1></div>
+<p class="game-lede">A dish picture appears. Tap its form: FILLED DOUGH, RICE AND BEANS PLATE, or FLATBREAD. Then a sentence appears, and you tap which of the five factors it belongs to.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Curious, not disgusted.</li><li>Ask, do not assume.</li><li>No ranking.</li><li>Nobody has to be the expert on their own background.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="one-dish-three-names-empanada"><img class="piece" src="art/one-dish-three-names-empanada.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-pierogi"><img class="piece" src="art/one-dish-three-names-pierogi.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-samosa"><img class="piece" src="art/one-dish-three-names-samosa.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-jiaozi"><img class="piece" src="art/one-dish-three-names-jiaozi.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-ravioli"><img class="piece" src="art/one-dish-three-names-ravioli.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-rice-and-peas"><img class="piece" src="art/one-dish-three-names-rice-and-peas.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-gallo-pinto"><img class="piece" src="art/one-dish-three-names-gallo-pinto.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-red-beans-and-rice"><img class="piece" src="art/one-dish-three-names-red-beans-and-rice.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-hoppin-john"><img class="piece" src="art/one-dish-three-names-hoppin-john.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-pita"><img class="piece" src="art/one-dish-three-names-pita.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-roti"><img class="piece" src="art/one-dish-three-names-roti.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-tortilla"><img class="piece" src="art/one-dish-three-names-tortilla.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-injera"><img class="piece" src="art/one-dish-three-names-injera.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-lavash"><img class="piece" src="art/one-dish-three-names-lavash.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-bin-filled"><img class="piece" src="art/one-dish-three-names-bin-filled.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-bin-rice-beans"><img class="piece" src="art/one-dish-three-names-bin-rice-beans.webp" alt="" loading="lazy"></span>
+<span data-key="one-dish-three-names-bin-flatbread"><img class="piece" src="art/one-dish-three-names-bin-flatbread.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>People all over the world solved the same food problems with what grew near them. Difference in food is history, not ranking.</li><li>&quot;Because it is their tradition&quot; does not answer the why-here question. What grew there, who moved there, or what got traded there?</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="OneDishThreeNames-data">{"schema": "1.0", "slug": "one-dish-three-names", "title": "One Dish, Three Names", "unit": 6, "lessons": ["6.10"], "handouts": ["Handout 06.10 - Dish Research Card and Comparison"], "standards": ["NYS FSP 2. Food Preparation a) Identify specific foods from the region being studied", "NYS FSP 2. Food Preparation b) Explore factors affecting regional food choices", "NYS N&W 1. Culinary Management i) Practice food sharing behaviors that show consideration for other cultures and promote social acceptance", "CTE CIR 6. Conflict Prevention and Management d) Explore how similarities and differences among people affect conflict prevention and management", "National FCS 3.0: 14.1.2 Look into how psychology, culture, and social pressure shape food choices and nutrition habits.", "National FCS 3.0: 14.1.4 Examine how events and conditions, local to global, change what people eat."], "source_file": "u6.json", "mechanic_note": "sort: a dish picture appears, tap its form, FILLED DOUGH, RICE AND BEANS PLATE, or FLATBREAD; then a match: a sentence from the five factors appears, tap the factor it belongs to from five choices", "teacher_note": "Reviews Lesson 6.10, the three forms and the five factors from Handout 06.10 Parts 1 and 2 and the teacher key. Play it as the Day 2 do now after the research cards are done, or before the Unit 6 test, since the comparison is assessed on the Cooking Methods Check item 12 and again on the test. The class agreement on food talk is printed on the start panel and should be read before the first round; no dish is ranked and no dish is called anything but its name. Round 1 feedback gives the region and the why-here line, which is the box students skip. Round 2 is the five factors, which is the assessed piece; a grade 6 class can play round 1 alone.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right form or factor with the dish's region and its why-here line from the teacher key; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "one-dish-three-names-title.png", "line": "One golden half-moon empanada with a crimped edge on a white plate, black outline."}, "scene": [], "cards": [{"file": "one-dish-three-names-empanada.png", "line": "A golden baked half-moon empanada with a crimped edge, black outline."}, {"file": "one-dish-three-names-pierogi.png", "line": "Three pale cream boiled pierogi half-moons with a pinched edge on a white plate, black outline."}, {"file": "one-dish-three-names-samosa.png", "line": "Two golden fried triangle samosas on a white plate, black outline."}, {"file": "one-dish-three-names-jiaozi.png", "line": "Four pale cream pleated dumplings in a round bamboo-colored steamer, black outline."}, {"file": "one-dish-three-names-ravioli.png", "line": "Three square cream ravioli with crimped edges and red sauce on a white plate, black outline."}, {"file": "one-dish-three-names-rice-and-peas.png", "line": "A white bowl of cream rice with red kidney beans and a green thyme sprig, black outline."}, {"file": "one-dish-three-names-gallo-pinto.png", "line": "A white plate of rice speckled with black beans and green cilantro, black outline."}, {"file": "one-dish-three-names-red-beans-and-rice.png", "line": "A white bowl of red beans over white rice with a slice of sausage, black outline."}, {"file": "one-dish-three-names-hoppin-john.png", "line": "A white bowl of white rice with cream black-eyed peas that have black dots, black outline."}, {"file": "one-dish-three-names-pita.png", "line": "One round cream pita cut to show its pocket, black outline."}, {"file": "one-dish-three-names-roti.png", "line": "One thin round light brown roti with dark toasted spots, black outline."}, {"file": "one-dish-three-names-tortilla.png", "line": "A small stack of round yellow corn tortillas, black outline."}, {"file": "one-dish-three-names-injera.png", "line": "One large round light gray-brown injera with a spongy surface of tiny holes, rolled at one edge, black outline."}, {"file": "one-dish-three-names-lavash.png", "line": "A very thin cream sheet of lavash with light brown blisters, folded once, black outline."}], "buttons": [{"file": "one-dish-three-names-bin-filled.png", "line": "A cream half-moon dumpling with a crimped edge, black outline."}, {"file": "one-dish-three-names-bin-rice-beans.png", "line": "A white plate of white rice with red beans on one side, black outline."}, {"file": "one-dish-three-names-bin-flatbread.png", "line": "One round cream flatbread with light brown spots, black outline."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 14 dishes, 6 seconds each, three bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "empanada", "prompt": "Empanada", "region": "Latin America and Spain", "answer": ["filled"], "feedback": "Spanish wheat pastry carried to the Americas, filled with whatever was local; a sealed hand pie travels to a field, which matters for farm and mine work."}, {"id": "pierogi", "prompt": "Pierogi", "region": "Poland and neighboring countries", "answer": ["filled"], "feedback": "Cool climate crops: potatoes, cabbage, mushrooms, and dairy. Boiling needs only water and a pot, not an oven, which most homes did not have."}, {"id": "samosa", "prompt": "Samosa", "region": "South Asia, and earlier Central Asia and the Middle East", "answer": ["filled"], "feedback": "Traveled along trade routes from Central Asia; filled with local potatoes and local spices; a fried hand pie keeps and travels."}, {"id": "jiaozi", "prompt": "Jiaozi", "region": "China", "answer": ["filled"], "feedback": "Northern wheat region; boiled and steamed dumplings need no oven, and they are the New Year dish because their shape resembles old money."}, {"id": "ravioli", "prompt": "Ravioli", "region": "Italy", "answer": ["filled"], "feedback": "Durum and soft wheat region; a filled pasta stretches a small amount of expensive filling across a cheap starch."}, {"id": "rice-and-peas", "prompt": "Rice and peas", "region": "Jamaica", "answer": ["rice-beans"], "feedback": "Rice and beans together make a complete protein and both store well; coconut and allspice are local; the pairing came with West African cooking."}, {"id": "gallo-pinto", "prompt": "Gallo pinto", "region": "Costa Rica and Nicaragua", "answer": ["rice-beans"], "feedback": "Same complete protein logic; black beans and rice are the two cheapest staples grown and traded locally, and yesterday's beans become today's breakfast."}, {"id": "red-beans-and-rice", "prompt": "Red beans and rice", "region": "Louisiana, United States", "answer": ["rice-beans"], "feedback": "West African and Caribbean cooking carried by migration into a Gulf pantry; traditionally cooked Mondays because it simmers unattended on wash day."}, {"id": "hoppin-john", "prompt": "Hoppin' john", "region": "the Carolinas", "answer": ["rice-beans"], "feedback": "Black-eyed peas came from West Africa; rice cultivation in the Low Country was built on West African knowledge and labor."}, {"id": "pita", "prompt": "Pita", "region": "Eastern Mediterranean", "answer": ["flatbread"], "feedback": "Wheat region; high-heat baking makes the steam pocket that gives pita its pocket."}, {"id": "roti", "prompt": "Roti or chapati", "region": "South Asia", "answer": ["flatbread"], "feedback": "Wheat in the north of the region; a griddle needs no oven and very little fuel, which matters where fuel is expensive."}, {"id": "tortilla", "prompt": "Tortilla", "region": "Mexico and Central America", "answer": ["flatbread"], "feedback": "Corn is the region's staple; the lime treatment makes the corn's niacin available, which is a real nutritional reason."}, {"id": "injera", "prompt": "Injera", "region": "Ethiopia and Eritrea", "answer": ["flatbread"], "feedback": "Teff grows in the highlands where wheat struggles; fermentation adds flavor and keeps the batter usable, and the bread doubles as the plate and the utensil."}, {"id": "lavash", "prompt": "Lavash", "region": "Armenia and Turkey", "answer": ["flatbread"], "feedback": "Wheat region; a very thin bread bakes in a minute on almost no fuel and stores dry for weeks."}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "filled", "label": "FILLED DOUGH", "sub": "Filled dough: dough sealed around filling and cooked, which makes a portable, self-contained meal that does not need a plate."}, {"id": "rice-beans", "label": "RICE AND BEANS PLATE", "sub": "Rice and beans: a grain with a legume, which together make a complete protein, both store dry for months, and both are cheap."}, {"id": "flatbread", "label": "FLATBREAD", "sub": "Flatbread: flour, water, and salt cooked fast on high heat with little or no leavening, which means little fuel and no oven needed."}]}}], "option_sets": [{"label": "bins", "list": [{"id": "filled", "label": "FILLED DOUGH", "sub": "Filled dough: dough sealed around filling and cooked, which makes a portable, self-contained meal that does not need a plate."}, {"id": "rice-beans", "label": "RICE AND BEANS PLATE", "sub": "Rice and beans: a grain with a legume, which together make a complete protein, both store dry for months, and both are cheap."}, {"id": "flatbread", "label": "FLATBREAD", "sub": "Flatbread: flour, water, and salt cooked fast on high heat with little or no leavening, which means little fuel and no oven needed."}]}]}, {"n": 2, "note": "Round 2: 10 factor sentences, 8 seconds each, five choices", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "f-rice", "prompt": "Rice needs standing water and heat, so rice cultures sit in monsoon and river regions.", "answer": ["climate"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Climate: heat, cold, rainfall, and growing season decide what can be grown and how food has to be preserved."}, {"id": "f-cold", "prompt": "Cold northern regions preserve with salt, smoke, and fermentation.", "answer": ["climate"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Climate: heat, cold, rainfall, and growing season decide what can be grown and how food has to be preserved."}, {"id": "f-staple", "prompt": "Whatever grows well nearby becomes the staple, and the staple shapes every meal.", "answer": ["crops"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Crops: whatever grows well nearby becomes the staple, and the staple shapes every meal."}, {"id": "f-corn", "prompt": "Corn in Mesoamerica, wheat in the Fertile Crescent and Europe, rice in Asia, potatoes in the Andes, teff in Ethiopia, cassava in West Africa.", "answer": ["crops"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Crops: whatever grows well nearby becomes the staple, and the staple shapes every meal."}, {"id": "f-chili", "prompt": "Chilies came from the Americas to Asia and Africa after 1500.", "answer": ["trade"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Trade: ingredients moved along routes and rewrote whole cuisines, often recently."}, {"id": "f-tomato", "prompt": "Tomatoes came from the Americas to Italy. Black pepper moved from India to Europe. Sugar moved everywhere.", "answer": ["trade"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Trade: ingredients moved along routes and rewrote whole cuisines, often recently."}, {"id": "f-louisiana", "prompt": "Red beans and rice in Louisiana carries West African and Caribbean cooking into a Gulf Coast pantry.", "answer": ["migration"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Migration: people carry recipes and adapt them to what the new place sells."}, {"id": "f-pizza", "prompt": "People carry recipes and adapt them to what the new place sells. Pizza in New York is not pizza in Naples.", "answer": ["migration"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Migration: people carry recipes and adapt them to what the new place sells."}, {"id": "f-halal", "prompt": "Halal and kosher rules on meat and slaughter; Lent and Ramadan fasting; feast breads across many faiths.", "answer": ["religion"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Religion: permitted and forbidden foods, fasting days, and feast dishes shape the everyday menu."}, {"id": "f-teff", "prompt": "Teff grows in the highlands where wheat struggles, so injera is made from teff.", "answer": ["crops"], "choices": ["climate", "crops", "trade", "migration", "religion"], "feedback": "Crops: whatever grows well nearby becomes the staple, and the staple shapes every meal."}], "options": {"source": "per_item", "style": "choices", "count": 5}}], "option_sets": [{"label": "bins", "list": [{"id": "filled", "label": "FILLED DOUGH", "sub": "Filled dough: dough sealed around filling and cooked, which makes a portable, self-contained meal that does not need a plate."}, {"id": "rice-beans", "label": "RICE AND BEANS PLATE", "sub": "Rice and beans: a grain with a legume, which together make a complete protein, both store dry for months, and both are cheap."}, {"id": "flatbread", "label": "FLATBREAD", "sub": "Flatbread: flour, water, and salt cooked fast on high heat with little or no leavening, which means little fuel and no oven needed."}]}]}], "study": ["People all over the world solved the same food problems with what grew near them. Difference in food is history, not ranking.", "\"Because it is their tradition\" does not answer the why-here question. What grew there, who moved there, or what got traded there?"], "rule_lines": ["Curious, not disgusted.", "Ask, do not assume.", "No ranking.", "Nobody has to be the expert on their own background."], "reference": {"factors": [{"id": "climate", "label": "CLIMATE", "text": "Climate: heat, cold, rainfall, and growing season decide what can be grown and how food has to be preserved."}, {"id": "crops", "label": "CROPS", "text": "Crops: whatever grows well nearby becomes the staple, and the staple shapes every meal."}, {"id": "trade", "label": "TRADE", "text": "Trade: ingredients moved along routes and rewrote whole cuisines, often recently."}, {"id": "migration", "label": "MIGRATION", "text": "Migration: people carry recipes and adapt them to what the new place sells."}, {"id": "religion", "label": "RELIGION", "text": "Religion: permitted and forbidden foods, fasting days, and feast dishes shape the everyday menu."}]}, "_unmapped": {}, "lede": "A dish picture appears. Tap its form: FILLED DOUGH, RICE AND BEANS PLATE, or FLATBREAD. Then a sentence appears, and you tap which of the five factors it belongs to."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("OneDishThreeNames");
+  var node = document.getElementById("OneDishThreeNames-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

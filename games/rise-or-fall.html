@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rise or Fall, Life Skills Arcade</title>
+<meta name="description" content="An ingredient or a measurement card appears. Tap INDEPENDENT VARIABLE, DEPENDENT VARIABLE, or CONSTANT. Then a batch or a fizz cup appears, and you tap what usually happens.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="RiseOrFall">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-06-07.html">Lesson 6.7</a>. Reviews Lesson 6.7, the quick bread experiment: the variable and constants table from Day 1 Step 3 and the results from Day 2, with the four fizz cups and the acid rule. Play it between Day 1 and Day 2 as the Day 2 do now, or before the Cooking Methods Check, since Check items 9 and 10 are the leavening rule and the experiment's variable. Round 1 is the sort the science teacher would recognize; a student who puts the leavening in the constant bin gets the redirect line. Round 2 is the results, so play it after Day 2 or the game gives the ending away. The Batch E item is the grade 8 stretch and can be turned off for grade 6.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/rise-or-fall-title.webp" alt=""><h1 class="game-title">Rise <span class="alt2">or Fall</span></h1></div>
+<p class="game-lede">An ingredient or a measurement card appears. Tap INDEPENDENT VARIABLE, DEPENDENT VARIABLE, or CONSTANT. Then a batch or a fizz cup appears, and you tap what usually happens.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="rise-or-fall-leavening"><img class="piece" src="art/rise-or-fall-leavening.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-height"><img class="piece" src="art/rise-or-fall-height.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-crumb"><img class="piece" src="art/rise-or-fall-crumb.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-taste"><img class="piece" src="art/rise-or-fall-taste.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-flour"><img class="piece" src="art/rise-or-fall-flour.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-sugar"><img class="piece" src="art/rise-or-fall-sugar.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-salt"><img class="piece" src="art/rise-or-fall-salt.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-milk"><img class="piece" src="art/rise-or-fall-milk.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-oil"><img class="piece" src="art/rise-or-fall-oil.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-egg"><img class="piece" src="art/rise-or-fall-egg.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-oven-temp"><img class="piece" src="art/rise-or-fall-oven-temp.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-bake-time"><img class="piece" src="art/rise-or-fall-bake-time.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-batter"><img class="piece" src="art/rise-or-fall-batter.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-stirring"><img class="piece" src="art/rise-or-fall-stirring.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-batch-a"><img class="piece" src="art/rise-or-fall-batch-a.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-batch-b"><img class="piece" src="art/rise-or-fall-batch-b.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-batch-c"><img class="piece" src="art/rise-or-fall-batch-c.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-batch-d"><img class="piece" src="art/rise-or-fall-batch-d.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-cup-1"><img class="piece" src="art/rise-or-fall-cup-1.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-cup-2"><img class="piece" src="art/rise-or-fall-cup-2.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-cup-3"><img class="piece" src="art/rise-or-fall-cup-3.webp" alt="" loading="lazy"></span>
+<span data-key="rise-or-fall-cup-4"><img class="piece" src="art/rise-or-fall-cup-4.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Baking powder and baking soda both make carbon dioxide gas when they get wet and hot. The gas makes bubbles inside the batter. The bubbles get trapped and push the batter up. The heat of the oven sets the batter around the bubbles, so the bread stays risen after it cools.</li><li>Baking soda needs an acid, and baking powder does not, because baking powder already has its own acid mixed in with it.</li><li>Four bowls, one difference, no cheating.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="RiseOrFall-data">{"schema": "1.0", "slug": "rise-or-fall", "title": "Rise or Fall", "unit": 6, "lessons": ["6.7"], "handouts": ["Handout 06.07 - Quick Bread Lab Sheet"], "standards": ["NYS FSP 1. Basic Culinary Skills e) Prepare a simple recipe", "CTE PSI 1. Problem Solving a) Describe the scientific method of inquiry as it relates to real-world problem solving", "CTE PSI 1. Problem Solving e) Demonstrate personal development of problem-solving skills through practice of these skills in a variety of classroom applications", "CDOS Standard 3a Universal Foundation Skills: Thinking Skills", "National FCS 3.0: 8.5.10 Prepare breads, baked goods, and desserts safely and with professional technique.", "National FCS 3.0: 9.5.6 Run sensory evaluations of food products."], "source_file": "u6.json", "mechanic_note": "sort: an ingredient or measurement card appears, tap INDEPENDENT VARIABLE, DEPENDENT VARIABLE, or CONSTANT; then a match: a batch or a fizz cup appears, tap what usually happens from the choices", "teacher_note": "Reviews Lesson 6.7, the quick bread experiment: the variable and constants table from Day 1 Step 3 and the results from Day 2, with the four fizz cups and the acid rule. Play it between Day 1 and Day 2 as the Day 2 do now, or before the Cooking Methods Check, since Check items 9 and 10 are the leavening rule and the experiment's variable. Round 1 is the sort the science teacher would recognize; a student who puts the leavening in the constant bin gets the redirect line. Round 2 is the results, so play it after Day 2 or the game gives the ending away. The Batch E item is the grade 8 stretch and can be turned off for grade 6.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right bin or result with the teacher key's one-line reason; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "rise-or-fall-title.png", "line": "One tall golden yellow muffin with a domed top in a white paper liner, black outline."}, "scene": [], "cards": [{"file": "rise-or-fall-leavening.png", "line": "A light gray measuring spoon heaped with white powder, black outline."}, {"file": "rise-or-fall-height.png", "line": "A yellow ruler standing beside a golden muffin in a white liner, no numbers, black outline."}, {"file": "rise-or-fall-crumb.png", "line": "A golden muffin split open showing a cream inside with small holes, black outline."}, {"file": "rise-or-fall-taste.png", "line": "A cream fork holding a bite of golden muffin, black outline."}, {"file": "rise-or-fall-flour.png", "line": "A cream bag of flour with a white spill beside a dry measuring cup, no text, black outline."}, {"file": "rise-or-fall-sugar.png", "line": "A light gray measuring spoon of white sugar crystals, black outline."}, {"file": "rise-or-fall-salt.png", "line": "A small white salt shaker with a light gray cap, black outline."}, {"file": "rise-or-fall-milk.png", "line": "A clear liquid measuring cup half full of white milk, black outline."}, {"file": "rise-or-fall-oil.png", "line": "A clear bottle of yellow vegetable oil with a red cap, no text, black outline."}, {"file": "rise-or-fall-egg.png", "line": "One white egg in its shell beside a small cream cup, black outline."}, {"file": "rise-or-fall-oven-temp.png", "line": "A cream oven with a red dial turned toward the right, no numbers, black outline."}, {"file": "rise-or-fall-bake-time.png", "line": "A round white kitchen timer with a red hand, no numbers, black outline."}, {"file": "rise-or-fall-batter.png", "line": "A white paper muffin liner filled a quarter full with cream batter, black outline."}, {"file": "rise-or-fall-stirring.png", "line": "A light gray bowl of cream batter with a wooden spoon, black outline."}, {"file": "rise-or-fall-batch-a.png", "line": "One golden muffin with a normal domed top in a white liner, black outline."}, {"file": "rise-or-fall-batch-b.png", "line": "One flat pale cream muffin, half height, in a white liner, black outline."}, {"file": "rise-or-fall-batch-c.png", "line": "One very tall golden muffin with a sunken center in a white liner, black outline."}, {"file": "rise-or-fall-batch-d.png", "line": "One low muffin with a slightly yellow-green tint in a white liner, black outline."}, {"file": "rise-or-fall-cup-1.png", "line": "A clear cup of sky blue water with a few tiny white bubbles, black outline."}, {"file": "rise-or-fall-cup-2.png", "line": "A clear cup overflowing with white foam onto a light gray tray, black outline."}, {"file": "rise-or-fall-cup-3.png", "line": "A clear cup of sky blue water with a thick layer of white foam at the top, black outline."}, {"file": "rise-or-fall-cup-4.png", "line": "A clear cup with white foam rising to the rim, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 14 cards, 6 seconds each, three bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "leavening", "prompt": "The leavening (baking powder, baking soda, both, or none)", "answer": ["independent"], "feedback": "The independent variable is the one thing we change on purpose: the leavening."}, {"id": "height", "prompt": "How high it rises", "answer": ["dependent"], "feedback": "The dependent variable is what we measure to see the result: how high it rises, plus crumb and taste."}, {"id": "crumb", "prompt": "The crumb (none, few, or many holes)", "answer": ["dependent"], "feedback": "Crumb is one of the three things we measure, so it is a dependent variable."}, {"id": "taste", "prompt": "The taste", "answer": ["dependent"], "feedback": "Taste is one of the three things we measure, so it is a dependent variable."}, {"id": "flour", "prompt": "Flour", "answer": ["constant"], "feedback": "Flour is a constant. Every batch gets 1 cup of all purpose flour."}, {"id": "sugar", "prompt": "Sugar", "answer": ["constant"], "feedback": "Sugar is a constant. Every batch gets 2 Tbsp."}, {"id": "salt", "prompt": "Salt", "answer": ["constant"], "feedback": "Salt is a constant. Every batch gets 1/4 tsp."}, {"id": "milk", "prompt": "Milk", "answer": ["constant"], "feedback": "Milk is a constant. Every batch gets 1/2 cup."}, {"id": "oil", "prompt": "Vegetable oil", "answer": ["constant"], "feedback": "Oil is a constant. Every batch gets 2 Tbsp."}, {"id": "egg", "prompt": "Egg", "answer": ["constant"], "feedback": "Egg is a constant. Every batch gets 1 egg, pre-cracked by the teacher."}, {"id": "oven-temp", "prompt": "Oven temperature", "answer": ["constant"], "feedback": "Oven temperature is a constant: 400 degrees, same oven, same shelf."}, {"id": "bake-time", "prompt": "Bake time", "answer": ["constant"], "feedback": "Bake time is a constant: about 12 to 14 minutes, every batch in at once."}, {"id": "batter", "prompt": "Batter per liner", "answer": ["constant"], "feedback": "Batter per liner is a constant: 1/4 cup of each batch into each liner. Every batch gets the same amount of batter in the liner."}, {"id": "stirring", "prompt": "The amount of stirring", "answer": ["constant"], "feedback": "Stirring is a constant: about 15 strokes and stop, lumps are fine. Overmixed batter is tough and it confounds the test."}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "independent", "label": "INDEPENDENT VARIABLE", "sub": "Independent variable (the one thing we change on purpose)"}, {"id": "dependent", "label": "DEPENDENT VARIABLE", "sub": "Dependent variable (what we measure to see the result)"}, {"id": "constant", "label": "CONSTANT", "sub": "Constants (everything we keep exactly the same)"}]}}], "option_sets": [{"label": "bins", "list": [{"id": "independent", "label": "INDEPENDENT VARIABLE", "sub": "Independent variable (the one thing we change on purpose)"}, {"id": "dependent", "label": "DEPENDENT VARIABLE", "sub": "Dependent variable (what we measure to see the result)"}, {"id": "constant", "label": "CONSTANT", "sub": "Constants (everything we keep exactly the same)"}]}]}, {"n": 2, "note": "Round 2: 12 items (four batches, four fizz cups, four rule questions), 10 seconds each", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "batch-a", "prompt": "Batch A (control): 1 tsp baking powder. What usually happens?", "answer": ["Normal rise, even crumb, tastes right"], "choices": ["Normal rise, even crumb, tastes right", "Barely rises, dense, heavy, gummy", "Rises fastest and highest, then often sinks in the middle", "Rises a little, and tastes soapy, metallic, or bitter"], "feedback": "The benchmark. About 1 1/2 to 2 inches tall with a domed top. The control is the ruler."}, {"id": "batch-b", "prompt": "Batch B: no leavening at all. What usually happens?", "answer": ["Barely rises, dense, heavy, gummy"], "choices": ["Normal rise, even crumb, tastes right", "Barely rises, dense, heavy, gummy", "Rises fastest and highest, then often sinks in the middle", "Rises a little, and tastes soapy, metallic, or bitter"], "feedback": "Comes out flat and pale, about half the height of A. Edible but tough."}, {"id": "batch-c", "prompt": "Batch C: 2 tsp baking powder. What usually happens?", "answer": ["Rises fastest and highest, then often sinks in the middle"], "choices": ["Normal rise, even crumb, tastes right", "Barely rises, dense, heavy, gummy", "Rises fastest and highest, then often sinks in the middle", "Rises a little, and tastes soapy, metallic, or bitter"], "feedback": "The best data in the experiment. Too much gas builds a structure that cannot hold itself up."}, {"id": "batch-d", "prompt": "Batch D: 1 tsp baking soda, no acid. What usually happens?", "answer": ["Rises a little, and tastes soapy, metallic, or bitter"], "choices": ["Normal rise, even crumb, tastes right", "Barely rises, dense, heavy, gummy", "Rises fastest and highest, then often sinks in the middle", "Rises a little, and tastes soapy, metallic, or bitter"], "feedback": "The unreacted baking soda is what students taste. That is exactly the evidence."}, {"id": "cup-1", "prompt": "Cup 1: baking soda + water. Fizz?", "answer": ["a little"], "choices": ["none", "a little", "a lot"], "feedback": "Water alone triggers almost nothing. A faint fizz at most."}, {"id": "cup-2", "prompt": "Cup 2: baking soda + vinegar. Fizz?", "answer": ["a lot"], "choices": ["none", "a little", "a lot"], "feedback": "Vinegar is the acid. This is the overflow cup."}, {"id": "cup-3", "prompt": "Cup 3: baking powder + water. Fizz?", "answer": ["a lot"], "choices": ["none", "a little", "a lot"], "feedback": "Baking powder already contains a dry acid, so water is enough."}, {"id": "cup-4", "prompt": "Cup 4: baking powder + vinegar. Fizz?", "answer": ["a lot"], "choices": ["none", "a little", "a lot"], "feedback": "It reacts, but not dramatically more than with water, because it did not need the extra acid."}, {"id": "needs-acid", "prompt": "Which one needs an acid to work?", "answer": ["baking soda"], "choices": ["baking powder", "baking soda"], "feedback": "Baking soda needs an acid, and baking powder does not, because baking powder already has its own acid mixed in with it."}, {"id": "why-a", "prompt": "Why do we need Batch A at all, if we already know a normal muffin rises?", "answer": ["Without a normal batch baked in the same oven on the same day, there is nothing to compare the other three to"], "choices": ["Without a normal batch baked in the same oven on the same day, there is nothing to compare the other three to", "So there is one batch that tastes good", "Because the recipe on the box says so"], "feedback": "The control is the ruler."}, {"id": "batch-e", "prompt": "Grade 8 stretch. Batch E: baking soda plus 1 tsp vinegar. It behaves more like which batch?", "answer": ["Batch A"], "choices": ["Batch A", "Batch D"], "feedback": "It rises well, because the vinegar gave the baking soda the acid it needed. That proves the missing ingredient in Batch D was the acid and not the soda."}, {"id": "acid-source", "prompt": "Which of these is an acid a real recipe uses to set off baking soda?", "answer": ["buttermilk"], "choices": ["buttermilk", "flour", "salt", "oil"], "feedback": "Acid sources in real recipes: buttermilk, yogurt, sour cream, vinegar, lemon juice, brown sugar, molasses, honey, cocoa, applesauce, cream of tartar."}], "options": {"source": "per_item", "style": "choices", "count": 4}}], "option_sets": [{"label": "bins", "list": [{"id": "independent", "label": "INDEPENDENT VARIABLE", "sub": "Independent variable (the one thing we change on purpose)"}, {"id": "dependent", "label": "DEPENDENT VARIABLE", "sub": "Dependent variable (what we measure to see the result)"}, {"id": "constant", "label": "CONSTANT", "sub": "Constants (everything we keep exactly the same)"}]}]}], "study": ["Baking powder and baking soda both make carbon dioxide gas when they get wet and hot. The gas makes bubbles inside the batter. The bubbles get trapped and push the batter up. The heat of the oven sets the batter around the bubbles, so the bread stays risen after it cools.", "Baking soda needs an acid, and baking powder does not, because baking powder already has its own acid mixed in with it.", "Four bowls, one difference, no cheating."], "rule_lines": [], "reference": {}, "_unmapped": {}, "lede": "An ingredient or a measurement card appears. Tap INDEPENDENT VARIABLE, DEPENDENT VARIABLE, or CONSTANT. Then a batch or a fizz cup appears, and you tap what usually happens."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("RiseOrFall");
+  var node = document.getElementById("RiseOrFall-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

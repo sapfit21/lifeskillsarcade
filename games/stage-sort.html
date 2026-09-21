@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stage Sort, Life Skills Arcade</title>
+<meta name="description" content="A sort card appears as text. Tap its stage from seven buttons, each with a picture cue and age range. Then a milestone from the Ages and Stages chart appears, and you tap the age row it belongs in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="StageSort">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-03-01.html">Lesson 3.1</a>, <a href="../lesson-03-02.html">Lesson 3.2</a>. Stage Sort reviews Lesson 3.1 (the seven stages and the 21 sort cards) and Lesson 3.2 (the Ages and Stages chart). Use it as the warm-up before Lifespan Lightning on Lesson 3.4 Day 2, or as the retake review for the Lifespan Stages Quiz items 1 to 7 and 12. The card text is the handout's own picture-described-in-words, so a student who played the table sort will recognize every card. the streak bonus is 5 on every third correct in a row. Say &quot;about&quot; out loud when you introduce it: the feedback gives the ranges as the chart does, and the two boundary milestones (first words, pretend play) are deliberately not in the pool.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/stage-sort-title.webp" alt=""><h1 class="game-title">Stage <span class="alt2">Sort</span></h1></div>
+<p class="game-lede">A sort card appears as text. Tap its stage from seven buttons, each with a picture cue and age range. Then a milestone from the Ages and Stages chart appears, and you tap the age row it belongs in.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Every stage changes all four at once. The ranges are approximate; people are not on a schedule. The four aspects: P (physical, the body), E (emotional, the feelings), S (social, the people), I (intellectual, the thinking).</li><li>Every age on this page is &quot;about.&quot; Children are not on a schedule, and a pediatrician, not a babysitter, decides if a child is behind.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="stage-sort-crib"><img class="piece" src="art/stage-sort-crib.webp" alt="" loading="lazy"></span>
+<span data-key="stage-sort-tricycle"><img class="piece" src="art/stage-sort-tricycle.webp" alt="" loading="lazy"></span>
+<span data-key="stage-sort-backpack"><img class="piece" src="art/stage-sort-backpack.webp" alt="" loading="lazy"></span>
+<span data-key="stage-sort-phone"><img class="piece" src="art/stage-sort-phone.webp" alt="" loading="lazy"></span>
+<span data-key="stage-sort-work-badge"><img class="piece" src="art/stage-sort-work-badge.webp" alt="" loading="lazy"></span>
+<span data-key="stage-sort-house-key"><img class="piece" src="art/stage-sort-house-key.webp" alt="" loading="lazy"></span>
+<span data-key="stage-sort-cane"><img class="piece" src="art/stage-sort-cane.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The seven stages in order with an age range (Handout 03.01 Part 1)</li><li>The four aspects: physical, emotional, social, intellectual</li><li>The Ages and Stages chart, six rows by four columns (Handout 03.02 Part 2)</li><li>Object permanence: knowing that objects and people keep existing even when you cannot see, hear, or touch them; about 8 months</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="StageSort-data">{"schema": "1.0", "slug": "stage-sort", "title": "Stage Sort", "unit": 3, "lessons": ["3.1", "3.2"], "handouts": ["Handout 03.01 - Lifespan Timeline Sort Cards", "Handout 03.02 - Ages and Stages Chart and Demo Sheet"], "standards": ["NYS HDR 1. Human Growth and Development Across the Lifespan a) Identify the stages of human growth and development across the lifespan", "NYS HDR 1. Human Growth and Development Across the Lifespan b) Identify the relationships among and characteristics of the physical, emotional, social, and intellectual aspects of human growth and development", "CTE HSW 5. Social-Emotional Learning a) Discuss how personal habits, environment, and heredity affect social-emotional health", "CTE CCO 5. Community Needs Assessment a) List and describe the typical needs of community members at each stage in the lifespan", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.", "CDOS Standard 3a Universal Foundation Skills: Thinking Skills", "CDOS Standard 3a Universal Foundation Skills: Managing Information", "National FCS 3.0: 12.1.1 Examine physical, emotional, social, moral, and cognitive development.", "National FCS 3.0: 12.1.2 Examine how the physical, emotional, social, moral, and cognitive sides of development affect one another."], "source_file": "u3.json", "mechanic_note": "match: a sort card (a picture described in words) appears as text; tap its stage from the seven stage buttons, each a picture cue with the age range under it. Round 2 is a sort: a milestone from the Ages and Stages chart appears; tap the age row it belongs in (six bins)", "teacher_note": "Stage Sort reviews Lesson 3.1 (the seven stages and the 21 sort cards) and Lesson 3.2 (the Ages and Stages chart). Use it as the warm-up before Lifespan Lightning on Lesson 3.4 Day 2, or as the retake review for the Lifespan Stages Quiz items 1 to 7 and 12. The card text is the handout's own picture-described-in-words, so a student who played the table sort will recognize every card. the streak bonus is 5 on every third correct in a row. Say \"about\" out loud when you introduce it: the feedback gives the ranges as the chart does, and the two boundary milestones (first words, pretend play) are deliberately not in the pool.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "stage-sort-title.png", "line": "A white hard-boiled egg on a small light gray tray with a cream cloth napkin lifted halfway off it."}, "scene": [], "cards": [], "buttons": [{"file": "stage-sort-crib.png", "line": "A small white baby crib with slatted sides and a sky blue mattress, empty."}, {"file": "stage-sort-tricycle.png", "line": "A red tricycle with white tires and a yellow seat, side view."}, {"file": "stage-sort-backpack.png", "line": "A green school backpack with two straps and a yellow zipper pull, standing upright."}, {"file": "stage-sort-phone.png", "line": "A black outlined smartphone with a sky blue screen and no text on it."}, {"file": "stage-sort-work-badge.png", "line": "A white ID badge on a red lanyard with a blank sky blue photo box and light gray lines."}, {"file": "stage-sort-house-key.png", "line": "A yellow house key on a small red key ring."}, {"file": "stage-sort-cane.png", "line": "A wooden walking cane in cream with a curved handle and a black rubber tip."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 14 sort cards drawn from a pool of 18 (two per stage), 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "card-1", "prompt": "A baby on its back on a blanket, reaching for a soft toy hanging above, mouth open, legs kicking.", "answer": ["Infancy"], "feedback": "Infancy, birth to about 1. Strongest aspect: P (reaching, kicking)."}, {"id": "card-2", "prompt": "A baby held against an adult's shoulder, eyes closed, one tiny hand gripping the adult's collar.", "answer": ["Infancy"], "feedback": "Infancy, birth to about 1. Strongest aspect: E (comfort, attachment)."}, {"id": "card-3", "prompt": "A baby sitting up on the floor with a blanket over a toy in front of it, staring at the blanket and starting to pull it.", "answer": ["Infancy"], "feedback": "Infancy, birth to about 1. Strongest aspect: I (object permanence, searching)."}, {"id": "card-4", "prompt": "A small child on a tricycle on a sidewalk, tongue out in concentration, an adult walking a step behind.", "answer": ["Early childhood"], "feedback": "Early childhood, about 1 to 5. Strongest aspect: P (pedaling, balance)."}, {"id": "card-5", "prompt": "A small child at a low table holding a block up to one ear like a phone and talking to it.", "answer": ["Early childhood"], "feedback": "Early childhood, about 1 to 5. Strongest aspect: I (pretend play, symbols)."}, {"id": "card-6", "prompt": "Two small children in a sandbox, side by side, each digging their own hole, not looking at each other.", "answer": ["Early childhood"], "feedback": "Early childhood, about 1 to 5. Strongest aspect: S (parallel play, side by side)."}, {"id": "card-7", "prompt": "A child at a kitchen table with a workbook open, counting on fingers, a pencil with the eraser chewed.", "answer": ["Middle childhood"], "feedback": "Middle childhood, about 6 to 11. Strongest aspect: I (school skills, counting)."}, {"id": "card-9", "prompt": "Four children on a playground in a circle, arguing about the rules of a game, one pointing at another.", "answer": ["Middle childhood"], "feedback": "Middle childhood, about 6 to 11. Strongest aspect: S (rules, friends, fairness)."}, {"id": "card-10", "prompt": "A teenager asleep face down on a bed at 2 in the afternoon, sneakers still on, a phone lit up on the pillow.", "answer": ["Adolescence"], "feedback": "Adolescence, about 12 to 18. Strongest aspect: P (sleep shift, growth). Accept E with a reason."}, {"id": "card-11", "prompt": "A teenager in a mirror trying on a third shirt, two others on the floor, a clock showing they are late.", "answer": ["Adolescence"], "feedback": "Adolescence, about 12 to 18. Strongest aspect: E (self-image). Accept S with a reason."}, {"id": "card-12", "prompt": "A group of teenagers at a lunch table leaning in over one phone, all laughing, one at the end looking at their own phone.", "answer": ["Adolescence"], "feedback": "Adolescence, about 12 to 18. Strongest aspect: S (peers; the one alone at the end is the discussion point)."}, {"id": "card-13", "prompt": "A young adult in a work uniform holding car keys in one hand and a stack of mail in the other; a bill and a coffee mug on the counter; a photo of a small child on the fridge.", "answer": ["Young adulthood"], "feedback": "Young adulthood, about 19 to 39. Strongest aspect: S (family, work). Accept E for tired but smiling with a reason. A close call on purpose: the small child in the photo tips it young."}, {"id": "card-14", "prompt": "Two young adults carrying a couch up the stairs of an apartment building, one laughing, one sweating.", "answer": ["Young adulthood"], "feedback": "Young adulthood, about 19 to 39. Strongest aspect: S (friends, independence)."}, {"id": "card-16", "prompt": "A middle-aged adult coaching a youth soccer team, whistle around the neck, clipboard in hand, reading glasses pushed up on their head.", "answer": ["Middle adulthood"], "feedback": "Middle adulthood, about 40 to 64. Strongest aspect: S (giving back, mentoring)."}, {"id": "card-17", "prompt": "A middle-aged adult on the phone in a kitchen with a calendar on the wall covered in writing: a parent's doctor visit, a child's game, a work trip.", "answer": ["Middle adulthood"], "feedback": "Middle adulthood, about 40 to 64. Strongest aspect: E (caring for two generations). Accept S with a reason."}, {"id": "card-18", "prompt": "A middle-aged adult at a table with a teenager, both looking at a college brochure, the adult's hand on the teenager's shoulder.", "answer": ["Middle adulthood"], "feedback": "Middle adulthood, about 40 to 64. Strongest aspect: S (guiding a teen). Accept E with a reason."}, {"id": "card-19", "prompt": "An older adult in a garden on their knees with a trowel, a cane resting against the fence, a hat against the sun.", "answer": ["Older adulthood"], "feedback": "Older adulthood, 65 and up. Strongest aspect: P (still active, with support)."}, {"id": "card-21", "prompt": "An older adult reading a large-print book in a chair by a window with a pill organizer and a cup of tea on the side table.", "answer": ["Older adulthood"], "feedback": "Older adulthood, 65 and up. Strongest aspect: P (health care routine). Accept I with a reason."}], "options": {"source": "fixed", "style": "bins", "count": 7, "list": [{"id": "infancy", "label": "Infancy", "sub": "a crib"}, {"id": "early-childhood", "label": "Early childhood", "sub": "a tricycle"}, {"id": "middle-childhood", "label": "Middle childhood", "sub": "a backpack"}, {"id": "adolescence", "label": "Adolescence", "sub": "a phone"}, {"id": "young-adulthood", "label": "Young adulthood", "sub": "a work badge"}, {"id": "middle-adulthood", "label": "Middle adulthood", "sub": "a house key"}, {"id": "older-adulthood", "label": "Older adulthood", "sub": "a cane"}]}, "take": 14}], "option_sets": [{"label": "round1_bins", "list": [{"id": "infancy", "label": "Infancy", "sub": "a crib"}, {"id": "early-childhood", "label": "Early childhood", "sub": "a tricycle"}, {"id": "middle-childhood", "label": "Middle childhood", "sub": "a backpack"}, {"id": "adolescence", "label": "Adolescence", "sub": "a phone"}, {"id": "young-adulthood", "label": "Young adulthood", "sub": "a work badge"}, {"id": "middle-adulthood", "label": "Middle adulthood", "sub": "a house key"}, {"id": "older-adulthood", "label": "Older adulthood", "sub": "a cane"}]}]}, {"n": 2, "note": "Round 2: 12 milestones drawn from a pool of 20 (two per age row), 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "lifts-head-briefly-when-on-tummy", "prompt": "Lifts head briefly when on tummy; grips a finger", "answer": ["Birth to 3 months"], "feedback": "Birth to 3 months, the Physical column: Lifts head briefly when on tummy; grips a finger"}, {"id": "starts-to-smile-at-people", "prompt": "Starts to smile at people", "answer": ["Birth to 3 months"], "feedback": "Birth to 3 months, the Social column: Starts to smile at people"}, {"id": "rolls-over", "prompt": "Rolls over (about 4 to 6 months)", "answer": ["3 to 6 months"], "feedback": "3 to 6 months, the Physical column: Rolls over (about 4 to 6 months)"}, {"id": "laughs", "prompt": "Laughs; shows excitement", "answer": ["3 to 6 months"], "feedback": "3 to 6 months, the Emotional column: Laughs; shows excitement"}, {"id": "reaches-for-a-toy-and-brings-it-to-the-mouth", "prompt": "Reaches for a toy and brings it to the mouth", "answer": ["3 to 6 months"], "feedback": "3 to 6 months, the Intellectual column: Reaches for a toy and brings it to the mouth"}, {"id": "sits-without-help", "prompt": "Sits without help (about 6 months); crawls; pulls up to stand", "answer": ["6 to 12 months"], "feedback": "6 to 12 months, the Physical column: Sits without help (about 6 months); crawls; pulls up to stand"}, {"id": "searches-for-a-hidden-toy", "prompt": "Searches for a hidden toy (object permanence, about 8 months); knows own name", "answer": ["6 to 12 months"], "feedback": "6 to 12 months, the Intellectual column: Searches for a hidden toy (object permanence, about 8 months); knows own name"}, {"id": "cries-when-a-parent-leaves", "prompt": "Cries when a parent leaves (separation anxiety)", "answer": ["6 to 12 months"], "feedback": "6 to 12 months, the Emotional column: Cries when a parent leaves (separation anxiety)"}, {"id": "stranger-wariness", "prompt": "Stranger wariness (about 8 to 12 months) with people they do not know", "answer": ["6 to 12 months"], "feedback": "6 to 12 months, the Social column: Stranger wariness (about 8 to 12 months) with people they do not know"}, {"id": "walks", "prompt": "Walks (about 12 to 15 months); climbs onto low furniture", "answer": ["1 to 2 years"], "feedback": "1 to 2 years, the Physical column: Walks (about 12 to 15 months); climbs onto low furniture"}, {"id": "points-to-ask-for-things", "prompt": "Points to ask for things; follows a one-step direction", "answer": ["1 to 2 years"], "feedback": "1 to 2 years, the Intellectual column: Points to ask for things; follows a one-step direction"}, {"id": "has-big-feelings-and-no-words-for-them-yet", "prompt": "Has big feelings and no words for them yet; tantrums are common", "answer": ["1 to 2 years"], "feedback": "1 to 2 years, the Emotional column: Has big feelings and no words for them yet; tantrums are common"}, {"id": "runs", "prompt": "Runs; kicks a ball; starts to use a spoon", "answer": ["2 to 3 years"], "feedback": "2 to 3 years, the Physical column: Runs; kicks a ball; starts to use a spoon"}, {"id": "two-word-sentences", "prompt": "Two-word sentences (\"more juice\") (about 2 years)", "answer": ["2 to 3 years"], "feedback": "2 to 3 years, the Intellectual column: Two-word sentences (\"more juice\") (about 2 years)"}, {"id": "says-mine", "prompt": "Says \"mine\"; shows more independence; still needs comfort", "answer": ["2 to 3 years"], "feedback": "2 to 3 years, the Emotional column: Says \"mine\"; shows more independence; still needs comfort"}, {"id": "parallel-play", "prompt": "Parallel play (about 2 years) (plays beside other children, not yet with them)", "answer": ["2 to 3 years"], "feedback": "2 to 3 years, the Social column: Parallel play (about 2 years) (plays beside other children, not yet with them)"}, {"id": "hops-on-one-foot", "prompt": "Hops on one foot; uses child scissors; draws a person with parts", "answer": ["3 to 5 years"], "feedback": "3 to 5 years, the Physical column: Hops on one foot; uses child scissors; draws a person with parts"}, {"id": "takes-turns", "prompt": "Takes turns; plays with other children; has a best friend", "answer": ["3 to 5 years"], "feedback": "3 to 5 years, the Social column: Takes turns; plays with other children; has a best friend"}, {"id": "starts-to-name-feelings", "prompt": "Starts to name feelings; can wait a short time", "answer": ["3 to 5 years"], "feedback": "3 to 5 years, the Emotional column: Starts to name feelings; can wait a short time"}, {"id": "counts-to-10", "prompt": "Counts to 10", "answer": ["3 to 5 years"], "feedback": "3 to 5 years, the Intellectual column: Counts to 10"}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "birth-to-3-months", "label": "Birth to 3 months"}, {"id": "3-to-6-months", "label": "3 to 6 months"}, {"id": "6-to-12-months", "label": "6 to 12 months"}, {"id": "1-to-2-years", "label": "1 to 2 years"}, {"id": "2-to-3-years", "label": "2 to 3 years"}, {"id": "3-to-5-years", "label": "3 to 5 years"}]}, "take": 12}], "option_sets": [{"label": "round2_bins", "list": [{"id": "birth-to-3-months", "label": "Birth to 3 months"}, {"id": "3-to-6-months", "label": "3 to 6 months"}, {"id": "6-to-12-months", "label": "6 to 12 months"}, {"id": "1-to-2-years", "label": "1 to 2 years"}, {"id": "2-to-3-years", "label": "2 to 3 years"}, {"id": "3-to-5-years", "label": "3 to 5 years"}]}]}], "study": ["The seven stages in order with an age range (Handout 03.01 Part 1)", "The four aspects: physical, emotional, social, intellectual", "The Ages and Stages chart, six rows by four columns (Handout 03.02 Part 2)", "Object permanence: knowing that objects and people keep existing even when you cannot see, hear, or touch them; about 8 months"], "rule_lines": ["Every stage changes all four at once. The ranges are approximate; people are not on a schedule. The four aspects: P (physical, the body), E (emotional, the feelings), S (social, the people), I (intellectual, the thinking).", "Every age on this page is \"about.\" Children are not on a schedule, and a pediatrician, not a babysitter, decides if a child is behind."], "reference": {"round1_left_out": "Cards 8, 15, and 20 are close calls on purpose in the handout and are not in the pool. Card 13 stays because it is the quiz's picture item; its feedback names the close call.", "round2_left_out": "First real words (about 12 months) and pretend play (about 2 to 3 years, grows through 5) sit on a row boundary in the handout and are left out so no answer is contested."}, "_unmapped": {}, "lede": "A sort card appears as text. Tap its stage from seven buttons, each with a picture cue and age range. Then a milestone from the Ages and Stages chart appears, and you tap the age row it belongs in."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("StageSort");
+  var node = document.getElementById("StageSort-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

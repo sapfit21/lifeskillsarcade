@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trait Spotter, Life Skills Arcade</title>
+<meta name="description" content="A sign someone could see or hear appears. Tap the trait it shows: Composure, Communication, Problem solving, or Adaptability. Then tap each line into Evidence or Not evidence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="TraitSpotter">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-07-03.html">Lesson 7.3</a>, <a href="../lesson-07-05.html">Lesson 7.5</a>. Reviews the reveal in Lesson 7.3 (the four things an employer is watching during an unexpected question, and one observable sign of each) and the evidence rule that runs through the Lesson 7.3 self-score sheet, the Lesson 7.5 feedback sheet, and the Lesson 7.8 recording rule. Use it the day after ACT FAST, before the mock interviews, so observers walk into Lesson 7.5 already knowing what a sign looks like and why good job does not count. Round 1 is four bins with the tally-sheet wording; round 2 is two bins. Grade 6 can play round 1 only.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/trait-spotter-title.webp" alt=""><h1 class="game-title">Trait <span class="alt2">Spotter</span></h1></div>
+<p class="game-lede">A sign someone could see or hear appears. Tap the trait it shows: Composure, Communication, Problem solving, or Adaptability. Then tap each line into Evidence or Not evidence.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="TraitSpotter-data">{"schema": "1.0", "slug": "trait-spotter", "title": "Trait Spotter", "unit": 7, "lessons": ["7.3", "7.5"], "handouts": ["Handout 07.03 - ACT FAST Scenario Cards and Self-Score", "Handout 07.05 - Interview Question Cards and Feedback Sheet"], "standards": ["NYS IGLR 3. Employability a) Explore employability skills", "NYS IGLR 3. Employability c) Demonstrate effective communication skills", "CTE CCO 3. Employability Skills c) List and describe employability skills and ways they benefit individuals in community and work situations", "CTE CIR 1. Communication f) Demonstrate personal development of communication skills through practice of these skills in a variety of classroom applications", "CTE CIR 2. Listening c) Show understanding of active listening and feedback techniques", "National FCS 3.0: 1.2.8 Show the work habits, ethics, and professional conduct employers expect.", "National FCS 3.0: 13.3.2 Show the spoken and unspoken behaviors and attitudes that make communication work.", "National FCS 3.0: 13.3.3 Show how to listen well and give useful feedback."], "source_file": "u7.json", "mechanic_note": "sort: a sign somebody could see or hear appears; tap the trait it shows into one of four bins (Composure, Communication, Problem solving, Adaptability). Round 2 is a second sort: tap each line into Evidence (something you could see, hear, or point to) or Not evidence (a feeling, a label, or nothing at all)", "teacher_note": "Reviews the reveal in Lesson 7.3 (the four things an employer is watching during an unexpected question, and one observable sign of each) and the evidence rule that runs through the Lesson 7.3 self-score sheet, the Lesson 7.5 feedback sheet, and the Lesson 7.8 recording rule. Use it the day after ACT FAST, before the mock interviews, so observers walk into Lesson 7.5 already knowing what a sign looks like and why good job does not count. Round 1 is four bins with the tally-sheet wording; round 2 is two bins. Grade 6 can play round 1 only.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right bin in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "trait-spotter-title.png", "line": "A round white kitchen timer with a black outline, a red pointer on the dial, and sky blue tick marks around the edge."}, "scene": [], "cards": [], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 15 signs, 8 seconds each, four bins", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "calm-to-think", "prompt": "Staying calm enough to think and talk.", "answer": ["Composure"]}, {"id": "being-understood", "prompt": "Being understood.", "answer": ["Communication"]}, {"id": "decision-and-reason", "prompt": "Making a decision and giving a reason.", "answer": ["Problem solving"]}, {"id": "changing-with-question", "prompt": "Changing when the question changes, instead of starting over.", "answer": ["Adaptability"]}, {"id": "started-clean", "prompt": "Started within the 10 seconds, or paused and then started clean.", "answer": ["Composure"]}, {"id": "voice-level", "prompt": "Voice stayed at a level anyone could hear.", "answer": ["Composure"]}, {"id": "no-apology", "prompt": "Did not apologize for themselves.", "answer": ["Composure"]}, {"id": "breathe-start-stall", "prompt": "Did you breathe? Did you start, or did you stall?", "answer": ["Composure"]}, {"id": "paused-four-seconds", "prompt": "Somebody paused for four seconds and then started clean.", "answer": ["Composure"]}, {"id": "you-understood", "prompt": "You understood them.", "answer": ["Communication"]}, {"id": "two-sentences", "prompt": "They finished at least two sentences.", "answer": ["Communication"]}, {"id": "looked-up-once", "prompt": "They looked up at least once.", "answer": ["Communication"]}, {"id": "decision-not-confusion", "prompt": "They made a decision and said a reason for it, instead of narrating being confused.", "answer": ["Problem solving"]}, {"id": "answered-new-question", "prompt": "When interrupted with a follow-up, they answered the new question instead of restarting the old answer.", "answer": ["Adaptability"]}, {"id": "random-question", "prompt": "Handled the random question without restarting.", "answer": ["Adaptability"]}], "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "composure", "label": "Composure"}, {"id": "communication", "label": "Communication"}, {"id": "problem-solving", "label": "Problem solving"}, {"id": "adaptability", "label": "Adaptability"}]}}], "option_sets": [{"label": "round1.bins", "list": [{"id": "composure", "label": "Composure"}, {"id": "communication", "label": "Communication"}, {"id": "problem-solving", "label": "Problem solving"}, {"id": "adaptability", "label": "Adaptability"}]}]}, {"n": 2, "note": "Round 2: 13 lines, 6 seconds each, two bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "i-was-nervous", "prompt": "I was nervous.", "answer": ["Not evidence: a feeling, a label, or nothing at all"]}, {"id": "voice-shook", "prompt": "My voice shook for the first five seconds and then it stopped.", "answer": ["Evidence: something you could see, hear, or point to"]}, {"id": "good-job", "prompt": "Good job.", "answer": ["Not evidence: a feeling, a label, or nothing at all"]}, {"id": "he-liked-it", "prompt": "He liked it.", "answer": ["Not evidence: a feeling, a label, or nothing at all"]}, {"id": "two-dollars-not-three", "prompt": "He said \"I would pay two dollars but not three, and only if it fits in my bag.\"", "answer": ["Evidence: something you could see, hear, or point to"]}, {"id": "it-was-good", "prompt": "It was good.", "answer": ["Not evidence: a feeling, a label, or nothing at all"]}, {"id": "served-minute-30", "prompt": "We served at minute 30, one minute late, and nothing was cold.", "answer": ["Evidence: something you could see, hear, or point to"]}, {"id": "hard-worker", "prompt": "I am a hard worker.", "answer": ["Not evidence: a feeling, a label, or nothing at all"]}, {"id": "seven-labs", "prompt": "Completed all seven kitchen labs with no missed station check and no safety stop.", "answer": ["Evidence: something you could see, hear, or point to"]}, {"id": "because-fun", "prompt": "Because it was fun.", "answer": ["Not evidence: a feeling, a label, or nothing at all"]}, {"id": "written-plan-time-limit", "prompt": "Because it shows I can follow a written plan under a time limit.", "answer": ["Evidence: something you could see, hear, or point to"]}, {"id": "looked-up", "prompt": "They looked up at least once.", "answer": ["Evidence: something you could see, hear, or point to"]}, {"id": "yes-and-nothing", "prompt": "\"Yes\" and nothing else.", "answer": ["Not evidence: a feeling, a label, or nothing at all"]}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "evidence-something-you-could-see-hear-or-point-to", "label": "Evidence: something you could see, hear, or point to"}, {"id": "not-evidence-a-feeling-a-label-or-nothing-at-all", "label": "Not evidence: a feeling, a label, or nothing at all"}]}}], "option_sets": [{"label": "round2.bins", "list": [{"id": "evidence-something-you-could-see-hear-or-point-to", "label": "Evidence: something you could see, hear, or point to"}, {"id": "not-evidence-a-feeling-a-label-or-nothing-at-all", "label": "Not evidence: a feeling, a label, or nothing at all"}]}]}], "study": [], "rule_lines": [], "reference": {"round1.bin_feedback": {"Composure": "Composure: staying calm enough to think and talk.", "Communication": "Communication: being understood.", "Problem solving": "Problem solving: making a decision and giving a reason.", "Adaptability": "Adaptability: changing when the question changes, instead of starting over."}, "round2.bin_feedback": {"Evidence: something you could see, hear, or point to": "Evidence has to be something somebody could have seen or heard, not a feeling.", "Not evidence: a feeling, a label, or nothing at all": "\"I was nervous\" is a feeling. \"Good job\" does not count. What could somebody have seen or heard?"}}, "_unmapped": {}, "lede": "A sign someone could see or hear appears. Tap the trait it shows: Composure, Communication, Problem solving, or Adaptability. Then tap each line into Evidence or Not evidence."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("TraitSpotter");
+  var node = document.getElementById("TraitSpotter-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

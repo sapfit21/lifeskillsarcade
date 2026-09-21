@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan Reader, Life Skills Arcade</title>
+<meta name="description" content="A floor plan symbol appears. Tap its name from four choices. Then a scale conversion or a plan-reading question appears, and you tap the answer from four choices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="PlanReader">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-04-10.html">Lesson 4.10</a>, <a href="../lesson-04-12.html">Lesson 4.12</a>. Reviews Lesson 4.10 Day 1: the eleven floor plan symbols, the scale rule at 1/4 inch = 1 foot, reading a plan, and the four zones, with the project-scale conversions from Lesson 4.12 and the two scale cards from Handout 04.17 added. Use it as the Day 2 do now check before the Design Vocabulary Check (items 10 and 11 are the conversions), or as the Lesson 4.17 do now, since scale done backward is the category most classes miss. About three minutes. Furniture placement and the path rule are left to Room Designer.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/plan-reader-title.webp" alt=""><h1 class="game-title">Plan <span class="alt2">Reader</span></h1></div>
+<p class="game-lede">A floor plan symbol appears. Tap its name from four choices. Then a scale conversion or a plan-reading question appears, and you tap the answer from four choices.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="plan-reader-wall"><img class="piece" src="art/plan-reader-wall.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-door"><img class="piece" src="art/plan-reader-door.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-window"><img class="piece" src="art/plan-reader-window.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-closet"><img class="piece" src="art/plan-reader-closet.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-stairs"><img class="piece" src="art/plan-reader-stairs.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-sink"><img class="piece" src="art/plan-reader-sink.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-toilet"><img class="piece" src="art/plan-reader-toilet.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-tub"><img class="piece" src="art/plan-reader-tub.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-stove"><img class="piece" src="art/plan-reader-stove.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-refrigerator"><img class="piece" src="art/plan-reader-refrigerator.webp" alt="" loading="lazy"></span>
+<span data-key="plan-reader-outlet"><img class="piece" src="art/plan-reader-outlet.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The scale for Lesson 4.10 is 1/4 inch = 1 foot: one square = one foot. The project scale in Lesson 4.12 is 1/2 inch = 1 foot: two squares per foot.</li><li>Four rules for every plan: write the scale in the bottom corner; write whose room it is at the top; use a ruler for every wall; pencil only.</li><li>Furniture placement, the door swing rule, and the 36-inch path are in Room Designer.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="PlanReader-data">{"schema": "1.0", "slug": "plan-reader", "title": "Plan Reader", "unit": 4, "lessons": ["4.10", "4.12"], "handouts": ["Handout 04.10 - Floor Plan Symbols Graph Paper Guide and Furniture Cut-Outs", "Handout 04.12 - Scale Plan Guide Traffic Flow Rules and Peer Review Checklist", "Handout 04.17 - Unit 4 Review Game Cards"], "standards": ["NYS EDM 2. Environment and Interior Design b) Create a floor plan designed to meet the needs of individuals, families, or communities", "CTE PSI 2. Design Process (Proactive) b) Demonstrate personal development of design skills through practice of these skills in a variety of classroom applications", "National FCS 3.0: 11.4.3 Draw an interior space to scale using architectural symbols.", "National FCS 3.0: 11.4.2 Judge floor plans for efficiency and safety: zones, traffic patterns, storage, and the electrical, plumbing, ventilation, and heating systems."], "source_file": "u4.json", "mechanic_note": "match then fast read: Round 1, a floor plan symbol picture appears, tap its name from four choices; Round 2, a scale conversion or a plan-reading question appears, tap the answer from four choices against a short clock", "teacher_note": "Reviews Lesson 4.10 Day 1: the eleven floor plan symbols, the scale rule at 1/4 inch = 1 foot, reading a plan, and the four zones, with the project-scale conversions from Lesson 4.12 and the two scale cards from Handout 04.17 added. Use it as the Day 2 do now check before the Design Vocabulary Check (items 10 and 11 are the conversions), or as the Lesson 4.17 do now, since scale done backward is the category most classes miss. About three minutes. Furniture placement and the path rule are left to Room Designer.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "plan-reader-title.png", "line": "A floor plan door symbol: a thick black wall line with a gap, a straight black door line standing open, and a quarter-circle swing arc in sky blue, on white."}, "scene": [], "cards": [{"file": "plan-reader-wall.png", "line": "A floor plan wall symbol: two parallel black lines close together with the space between them filled in black, on white."}, {"file": "plan-reader-door.png", "line": "A floor plan door symbol: a black wall with a gap, a straight door line standing open, and a thin quarter-circle arc back to the wall, on white."}, {"file": "plan-reader-window.png", "line": "A floor plan window symbol: a black wall with a gap and three thin sky blue lines drawn across the gap parallel to the wall, on white."}, {"file": "plan-reader-closet.png", "line": "A floor plan closet symbol: a small black-outlined rectangle drawn off a wall, open to the room, with a straight line across the opening for a sliding door, on white."}, {"file": "plan-reader-stairs.png", "line": "A floor plan stairs symbol: a long black-outlined rectangle filled with short parallel lines like a ladder and a long arrow through the middle, no letters (the game overlays the word UP as text), on white."}, {"file": "plan-reader-sink.png", "line": "A floor plan sink symbol: a black-outlined rectangle with a small circle in the middle for the drain, filled light gray, on white."}, {"file": "plan-reader-toilet.png", "line": "A floor plan toilet symbol: a small black-outlined rectangle against a wall line with an oval sticking out from it into the room, filled white, on white."}, {"file": "plan-reader-tub.png", "line": "A floor plan tub symbol: a long black-outlined rectangle against a wall line, one end rounded, with a small circle at the square end for the drain, filled sky blue, on white."}, {"file": "plan-reader-stove.png", "line": "A floor plan stove symbol: a black-outlined square with four small circles inside for the burners, filled light gray, on white."}, {"file": "plan-reader-refrigerator.png", "line": "A floor plan refrigerator symbol: a black-outlined rectangle against a wall line, filled white and left blank inside (the game overlays the letters REF as text), on white."}, {"file": "plan-reader-outlet.png", "line": "A floor plan outlet symbol: a short black line drawn on the inside of a thick wall line with two small black dots beside it, on white."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 11 symbols, 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_1_items", "items": [{"id": "wall", "prompt": "Wall", "picture": "plan-reader-wall.png", "answer": ["Wall"], "feedback": "Two parallel lines close together, filled in dark. Thin lines for an inside wall, a little thicker for an outside wall."}, {"id": "door", "prompt": "Door", "picture": "plan-reader-door.png", "answer": ["Door"], "feedback": "Leave a gap in the wall the width of the door. Draw a straight line for the door panel standing open, and a quarter-circle arc from the end of that line back to the wall. The arc is the swing."}, {"id": "window", "prompt": "Window", "picture": "plan-reader-window.png", "answer": ["Window"], "feedback": "Leave a gap in the wall, then draw two or three thin lines across the gap, parallel to the wall."}, {"id": "closet", "prompt": "Closet", "picture": "plan-reader-closet.png", "answer": ["Closet"], "feedback": "A small rectangle drawn off the room, open to the room. A straight line across the opening for a sliding or bifold door, a dashed line for a curtain."}, {"id": "stairs", "prompt": "Stairs", "picture": "plan-reader-stairs.png", "answer": ["Stairs"], "feedback": "A run of short parallel lines like a ladder, inside a long rectangle, with an arrow through the middle and the word UP (or DN for down)."}, {"id": "sink", "prompt": "Sink", "picture": "plan-reader-sink.png", "answer": ["Sink"], "feedback": "A rectangle with a small circle in the middle for the drain. A kitchen sink is a rectangle with two circles."}, {"id": "toilet", "prompt": "Toilet", "picture": "plan-reader-toilet.png", "answer": ["Toilet"], "feedback": "A small rectangle against the wall for the tank, with an oval sticking out from it into the room."}, {"id": "tub", "prompt": "Tub", "picture": "plan-reader-tub.png", "answer": ["Tub"], "feedback": "A long rectangle against the wall, one end rounded, with a small circle at the square end for the drain."}, {"id": "stove", "prompt": "Stove (range)", "picture": "plan-reader-stove.png", "answer": ["Stove (range)"], "feedback": "A square with four small circles in it for the burners."}, {"id": "refrigerator", "prompt": "Refrigerator", "picture": "plan-reader-refrigerator.png", "answer": ["Refrigerator"], "feedback": "A square or a rectangle with the letters REF written inside it."}, {"id": "outlet", "prompt": "Outlet", "picture": "plan-reader-outlet.png", "answer": ["Outlet"], "feedback": "A short line drawn on the wall with two small dots beside it. Draw it on the inside of the wall line."}], "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}}]}, {"n": 2, "note": "Round 2: 20 reads, 9 seconds each", "seconds_per_item": 9, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_2_items", "items": [{"id": "one-square-equals", "prompt": "At 1/4 inch = 1 foot, one square on the graph paper is one", "answer": ["foot"], "choices": ["foot", "inch", "yard", "half foot"], "feedback": "One square = one foot. That is the whole rule."}, {"id": "12-foot-wall-in-squares", "prompt": "A 12-foot wall is how many squares at 1/4 inch = 1 foot?", "answer": ["12"], "choices": ["12", "3", "24", "48"], "feedback": "12 feet x 1 square per foot = 12 squares"}, {"id": "12-squares-in-inches", "prompt": "12 squares is how many inches of line on the paper?", "answer": ["3"], "choices": ["3", "12", "6", "1.5"], "feedback": "12 squares x 1/4 inch = 12/4 = 3 inches of line on the paper"}, {"id": "36-inches-in-feet", "prompt": "A path has to be 36 inches wide. That is how many feet?", "answer": ["3"], "choices": ["3", "2.5", "4", "36"], "feedback": "36 inches divided by 12 inches per foot = 3 feet"}, {"id": "36-inches-in-squares-quarter-scale", "prompt": "At 1/4 inch = 1 foot, 36 inches is how many squares?", "answer": ["3"], "choices": ["3", "6", "36", "9"], "feedback": "3 feet x 1 square per foot = 3 squares"}, {"id": "10-foot-wall-in-squares", "prompt": "A 10-foot wall is how many squares at 1/4 inch = 1 foot?", "answer": ["10"], "choices": ["10", "5", "20", "2.5"], "feedback": "A 10-foot wall is 10 squares, which is 2.5 inches on the paper"}, {"id": "10-foot-wall-in-inches", "prompt": "A 10-foot wall at 1/4 inch = 1 foot is how many inches on the paper?", "answer": ["2.5"], "choices": ["2.5", "10", "5", "4"], "feedback": "A 10-foot wall is 10 squares, which is 2.5 inches on the paper"}, {"id": "30-inches-in-squares", "prompt": "30 inches is how many squares at 1/4 inch = 1 foot?", "answer": ["2.5 (one of them is a half square)"], "choices": ["2.5 (one of them is a half square)", "3", "30", "5"], "feedback": "30 inches is 2.5 feet, which is 2.5 squares. The second one is the one students miss."}, {"id": "3-inches-on-the-plan", "prompt": "At 1/4 inch = 1 foot, a wall drawn 3 inches long is how many feet?", "answer": ["12"], "choices": ["12", "3", "6", "24"], "feedback": "12 feet"}, {"id": "14-foot-wall-project-scale", "prompt": "At 1/2 inch = 1 foot, a 14-foot wall is how many inches on the plan?", "answer": ["7"], "choices": ["7", "14", "3.5", "28"], "feedback": "7 inches"}, {"id": "one-square-project-scale", "prompt": "At 1/2 inch = 1 foot, one square is how many inches in the room?", "answer": ["6"], "choices": ["6", "12", "3", "24"], "feedback": "At 1/2 inch = 1 foot, 1 square = 6 inches"}, {"id": "36-inches-project-scale", "prompt": "At 1/2 inch = 1 foot, a 36-inch path is how many squares?", "answer": ["6"], "choices": ["6", "3", "36", "12"], "feedback": "36 inches = 6 squares; 30 inches = 5 squares; 60 inches = 10 squares"}, {"id": "36-inches-of-path-in-plan-inches", "prompt": "At 1/2 inch = 1 foot, 36 inches of path is how many inches on the plan?", "answer": ["1.5"], "choices": ["1.5", "3", "36", "6"], "feedback": "1.5 inches"}, {"id": "bathroom-without-a-label", "prompt": "How do you know which room is the bathroom without reading a label?", "answer": ["the toilet and tub symbols"], "choices": ["the toilet and tub symbols", "it is the smallest room", "it has one window", "the door swings out"], "feedback": "The bathroom is known by the toilet and tub symbols"}, {"id": "kitchen-without-a-label", "prompt": "How do you know which room is the kitchen?", "answer": ["the stove, the sink, and REF"], "choices": ["the stove, the sink, and REF", "it is the biggest room", "it has two doors", "it has an outlet"], "feedback": "The kitchen by the stove, the sink, and REF"}, {"id": "door-swing-direction", "prompt": "Which way does a bedroom door swing?", "answer": ["into the room"], "choices": ["into the room", "into the hall", "either way", "it slides"], "feedback": "Interior bedroom doors swing into the room. Front doors usually swing in as well."}, {"id": "sleep-zone", "prompt": "The sleep zone (a bed) usually goes", "answer": ["away from the door where it is quiet"], "choices": ["away from the door where it is quiet", "near the window for the light", "on a wall nobody walks along", "in the middle of the floor"], "feedback": "Sleep is a bed and it goes away from the door where it is quiet"}, {"id": "work-zone", "prompt": "The work zone (a desk) usually goes", "answer": ["near the window for the light"], "choices": ["near the window for the light", "away from the door where it is quiet", "on a wall nobody walks along", "in the closet"], "feedback": "Work is a desk and it goes near the window for the light"}, {"id": "store-zone", "prompt": "The store zone (a closet and a dresser) usually goes", "answer": ["on a wall nobody walks along"], "choices": ["on a wall nobody walks along", "near the window for the light", "in the door swing", "in the middle of the floor"], "feedback": "Store is a closet and a dresser and it goes on a wall nobody walks along"}, {"id": "move-zone", "prompt": "The move zone is", "answer": ["the paths, and it has to be left empty"], "choices": ["the paths, and it has to be left empty", "the bed", "the desk", "the closet"], "feedback": "Move is the paths, and it is the zone students forget they have to leave empty"}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}], "study": ["The scale for Lesson 4.10 is 1/4 inch = 1 foot: one square = one foot. The project scale in Lesson 4.12 is 1/2 inch = 1 foot: two squares per foot.", "Four rules for every plan: write the scale in the bottom corner; write whose room it is at the top; use a ruler for every wall; pencil only.", "Furniture placement, the door swing rule, and the 36-inch path are in Room Designer."], "rule_lines": [], "reference": {}, "_unmapped": {}, "lede": "A floor plan symbol appears. Tap its name from four choices. Then a scale conversion or a plan-reading question appears, and you tap the answer from four choices."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("PlanReader");
+  var node = document.getElementById("PlanReader-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

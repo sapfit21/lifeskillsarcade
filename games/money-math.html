@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money Math, Life Skills Arcade</title>
+<meta name="description" content="A card shows one money problem and four answers. Tap the right one. First simple interest, the minimum payment trap, and compound growth. Then percent return and the two diversification sums.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="MoneyMath">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-02-11.html">Lesson 2.11</a>, <a href="../lesson-02-12.html">Lesson 2.12</a>, <a href="../lesson-02-18.html">Lesson 2.18</a>, <a href="../lesson-02-16.html">Lesson 2.16</a>. Reviews the math in Lessons 2.11 and 2.12 (Round 1: every number is from Handout 02.11 Parts B, C, and D and Handout 02.12 Parts B, C, and D) and the percent return formula from Lesson 2.18, with the two diversification sums from the Lesson 2.16 do now (Round 2: from Handout 02.18 Part A and Part C and Handout 02.16). Use Round 1 as review the day before the Money Basics Quiz (item 11 is interest math) and Round 2 as the do now of Lesson 2.19 Day 2, when every student needs a correct percent return for the Investor Report. a student who wants to compute can play with the clock off. Grade 6 plays the one-year rows only in Round 1 and the round-number items in Round 2. The clock is set for a read and recognize pace, not a compute pace.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/money-math-title.webp" alt=""><h1 class="game-title">Money <span class="alt2">Math</span></h1></div>
+<p class="game-lede">A card shows one money problem and four answers. Tap the right one. First simple interest, the minimum payment trap, and compound growth. Then percent return and the two diversification sums.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>I = P x r x t (interest = amount borrowed x rate as a decimal x years). Rates as decimals: 5 percent = 0.05. 15 percent = 0.15. 24 percent = 0.24.</li><li>Percent return = (ending value minus starting value) divided by starting value, times 100. A loss gets a minus sign. A gain gets a plus sign.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Handout 02.11 Part B and Part D: simple interest on $500 and the minimum payment trap</li><li>Handout 02.12 Part B and Part D: simple versus compound, and the two savers</li><li>Handout 02.18: the formula, and the trick question in Part A number 7</li><li>Handout 02.16: the do now, 12,500 versus 22,500</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="MoneyMath-data">{"schema": "1.0", "slug": "money-math", "title": "Money Math", "unit": 2, "lessons": ["2.11", "2.12", "2.18", "2.16"], "handouts": ["Handout 02.11 - Interest Math Practice", "Handout 02.12 - Compound Growth Table", "Handout 02.18 - Return Math", "Handout 02.16 - Three Portfolios and a Shock"], "standards": ["NYS IGLR 4. Financial Readiness f) Compare and contrast different types of credit and loans", "NYS IGLR 4. Financial Readiness e) Determine ways for saving money", "CTE FCL 5. Payment Options and Credit c) Examine factors that affect the choice to use credit, the costs and benefits of using credit, and the personal and legal responsibilities of using credit", "CTE FCL 2. Saving, Investing, and Sharing a) Describe the purpose of saving money as it applies to their future goals", "CTE FCL 2. Saving, Investing, and Sharing c) Explore different savings and investment tools and methods", "CTE FCL 2. Saving, Investing, and Sharing f) Apply decision-making skills to saving, investing, and donating decisions", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students understand the resources available to them, make informed decisions about the use of those resources, and know some ways to expand resources.", "CDOS Standard 3a Universal Foundation Skills: Basic Skills", "CDOS Standard 3a Universal Foundation Skills: Thinking Skills", "National FCS 3.0: 3.3.3 Examine how using credit affects money plans in the short run and the long run.", "National FCS 3.0: 2.6.1 Judge why personal and family financial planning matters.", "National FCS 3.0: 3.3.4 Compare different ways to save and invest."], "source_file": "u2.json", "mechanic_note": "fast read: a card shows one money problem from the handouts and four answers; tap the right one before the clock runs out. Round 1 is borrowing and saving (simple interest, the minimum payment trap, compound growth). Round 2 is percent return and the two diversification sums.", "teacher_note": "Reviews the math in Lessons 2.11 and 2.12 (Round 1: every number is from Handout 02.11 Parts B, C, and D and Handout 02.12 Parts B, C, and D) and the percent return formula from Lesson 2.18, with the two diversification sums from the Lesson 2.16 do now (Round 2: from Handout 02.18 Part A and Part C and Handout 02.16). Use Round 1 as review the day before the Money Basics Quiz (item 11 is interest math) and Round 2 as the do now of Lesson 2.19 Day 2, when every student needs a correct percent return for the Investor Report. a student who wants to compute can play with the clock off. Grade 6 plays the one-year rows only in Round 1 and the round-number items in Round 2. The clock is set for a read and recognize pace, not a compute pace.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "money-math-title.png", "line": "A light gray pocket calculator with a green display and yellow buttons, black outline, sticker style."}, "scene": [], "cards": [], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 12 problems, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "500-at-5-percent-for-one-year-interest", "prompt": "$500 at 5 percent for one year. Interest?", "answer": ["$25"], "choices": ["$25", "$50", "$75", "$525"], "feedback": "$500 x 0.05 x 1 = $25. Total owed: $525."}, {"id": "500-at-15-percent-for-one-year-interest", "prompt": "$500 at 15 percent for one year. Interest?", "answer": ["$75"], "choices": ["$15", "$75", "$150", "$575"], "feedback": "$500 x 0.15 x 1 = $75. Total owed: $575."}, {"id": "500-at-24-percent-for-one-year-interest", "prompt": "$500 at 24 percent for one year. Interest?", "answer": ["$120"], "choices": ["$24", "$120", "$240", "$12,000"], "feedback": "$500 x 0.24 x 1 = $120. If you got $12,000, you forgot the decimal: 24 percent is 0.24."}, {"id": "500-at-24-percent-for-three-years-total-owed", "prompt": "$500 at 24 percent for three years. Total owed?", "answer": ["$860"], "choices": ["$620", "$740", "$860", "$1,220"], "feedback": "$500 x 0.24 x 3 = $360 interest. $500 + $360 = $860."}, {"id": "500-at-15-percent-for-three-years-total-owed", "prompt": "$500 at 15 percent for three years. Total owed?", "answer": ["$725"], "choices": ["$575", "$650", "$725", "$800"], "feedback": "$500 x 0.15 x 3 = $225 interest. $500 + $225 = $725."}, {"id": "ines-borrows-1-200-on-a-store-card-at-15-percent-and-pays-nothing-for-two-years-interest", "prompt": "Ines borrows $1,200 on a store card at 15 percent and pays nothing for two years. Interest?", "answer": ["$360"], "choices": ["$180", "$360", "$1,560", "$2,400"], "feedback": "$1,200 x 0.15 x 2 = $360. Total owed: $1,560."}, {"id": "leo-puts-a-500-phone-on-a-credit-card-at-24-percent-apr-and-pays-25-a-month-the-minimum-total-paid-for-the-phone", "prompt": "Leo puts a $500 phone on a credit card at 24 percent APR and pays $25 a month, the minimum. Total paid for the phone?", "answer": ["$644.94"], "choices": ["$500", "$563.50", "$644.94", "$860.00"], "feedback": "$25 a month: 26 months, $144.94 in interest, $644.94 total."}, {"id": "same-500-phone-50-a-month-months-to-pay-off", "prompt": "Same $500 phone, $50 a month. Months to pay off?", "answer": ["12"], "choices": ["6", "10", "12", "26"], "feedback": "$50 a month: 12 months and $63.50 in interest, $563.50 total."}, {"id": "1-000-at-5-percent-compound-interest-balance-at-the-end-of-year-2", "prompt": "$1,000 at 5 percent compound interest. Balance at the end of year 2?", "answer": ["$1,102.50"], "choices": ["$1,050.00", "$1,100.00", "$1,102.50", "$1,157.63"], "feedback": "Year 1, $1,050; year 2, 5 percent of $1,050 is $52.50, so $1,102.50. Compound interest pays on the principal and on the interest already earned."}, {"id": "20-a-week-in-a-jar-for-one-year-how-much", "prompt": "$20 a week in a jar for one year. How much?", "answer": ["$1,040"], "choices": ["$520", "$1,040", "$1,092", "$2,080"], "feedback": "$20 a week x 52 weeks = $1,040 a year."}, {"id": "20-a-week-for-30-years-at-5-percent-about-how-much", "prompt": "$20 a week for 30 years at 5 percent. About how much?", "answer": ["$72,551"], "choices": ["$31,200", "$41,351", "$52,000", "$72,551"], "feedback": "The jar: $31,200. The account at 5 percent: $72,551.18. The bank paid you $41,351.18 for waiting."}, {"id": "nia-puts-1-000-in-at-15-and-never-adds-to-it-cole-puts-2-000-in-at-35-at-5-percent-who-has-more-at-65", "prompt": "Nia puts $1,000 in at 15 and never adds to it. Cole puts $2,000 in at 35. At 5 percent, who has more at 65?", "answer": ["Nia, about $11,467"], "choices": ["Nia, about $11,467", "Cole, about $8,644", "They tie", "Cole, about $11,467"], "feedback": "Nia ended with more. Cole put in more. The years mattered more than the amount."}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}, {"n": 2, "note": "Round 2: 12 problems, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "start-aq25-000-end-aq27-500-percent-return", "prompt": "Start AQ25,000, end AQ27,500. Percent return?", "answer": ["plus 10 percent"], "choices": ["plus 2.5 percent", "plus 9.1 percent", "plus 10 percent", "minus 10 percent"], "feedback": "27,500 minus 25,000 = 2,500; 2,500 divided by 25,000 = 0.10; plus 10 percent."}, {"id": "start-aq25-000-end-aq22-000-percent-return", "prompt": "Start AQ25,000, end AQ22,000. Percent return?", "answer": ["minus 12 percent"], "choices": ["minus 3 percent", "minus 12 percent", "minus 13.6 percent", "plus 12 percent"], "feedback": "22,000 minus 25,000 = minus 3,000; divided by 25,000 = minus 0.12; minus 12 percent."}, {"id": "one-unit-of-iron-vault-start-aq100-00-end-aq85-00-percent-return", "prompt": "One unit of Iron Vault: start AQ100.00, end AQ85.00. Percent return?", "answer": ["minus 15 percent"], "choices": ["minus 15 percent", "minus 17.6 percent", "plus 15 percent", "minus 1.5 percent"], "feedback": "85 minus 100 = minus 15; divided by 100 = minus 0.15; minus 15 percent."}, {"id": "one-unit-of-sparkstone-aq48-50-on-day-1-aq57-80-on-day-5-percent-return", "prompt": "One unit of Sparkstone: AQ48.50 on Day 1, AQ57.80 on Day 5. Percent return?", "answer": ["plus 19.2 percent"], "choices": ["plus 9.3 percent", "plus 16.1 percent", "plus 19.2 percent", "plus 93 percent"], "feedback": "57.80 minus 48.50 = 9.30; divided by 48.50 = 0.1918; plus 19.2 percent."}, {"id": "start-aq100-end-aq120-percent-return", "prompt": "Start AQ100, end AQ120. Percent return?", "answer": ["plus 20 percent"], "choices": ["plus 2 percent", "plus 12 percent", "plus 16.7 percent", "plus 20 percent"], "feedback": "120 minus 100 = 20; divided by 100 = 0.20; plus 20 percent."}, {"id": "sparkstone-was-aq57-80-at-the-peak-and-aq31-20-at-the-bottom-the-drop-as-a-percent-of-the-peak", "prompt": "Sparkstone was AQ57.80 at the peak and AQ31.20 at the bottom. The drop, as a percent of the peak?", "answer": ["minus 46.0 percent"], "choices": ["minus 26.6 percent", "minus 46.0 percent", "minus 54.0 percent", "minus 85.3 percent"], "feedback": "(31.20 minus 57.80) divided by 57.80, times 100 = minus 46.0 percent. The drop is measured from the peak, a big number."}, {"id": "the-climb-back-from-aq31-20-to-aq57-80-as-a-percent-of-the-bottom", "prompt": "The climb back from AQ31.20 to AQ57.80, as a percent of the bottom?", "answer": ["plus 85.3 percent"], "choices": ["plus 26.6 percent", "plus 46.0 percent", "plus 85.3 percent", "plus 100 percent"], "feedback": "26.60 divided by 31.20 = plus 85.3 percent. A venture that falls 46 percent has to rise 85 percent to get back. This is why a loss hurts more than the same-sized gain helps."}, {"id": "the-risky-portfolio-aq25-000-at-the-start-aq16-350-at-the-bottom-percent-return", "prompt": "The risky portfolio: AQ25,000 at the start, AQ16,350 at the bottom. Percent return?", "answer": ["minus 34.6 percent"], "choices": ["minus 34.6 percent", "minus 52.9 percent", "minus 65.4 percent", "plus 34.6 percent"], "feedback": "16,350 minus 25,000 = minus 8,650; divided by 25,000 = minus 0.346; minus 34.6 percent."}, {"id": "a-venture-fell-from-40-to-30-is-that-a-10-percent-drop-or-a-25-percent-drop", "prompt": "A venture fell from 40 to 30. Is that a 10 percent drop or a 25 percent drop?", "answer": ["25 percent"], "choices": ["10 percent", "25 percent", "33 percent", "75 percent"], "feedback": "The drop is 10; 10 divided by the starting value 40 is 0.25, so 25 percent."}, {"id": "what-is-always-on-the-bottom-of-the-fraction", "prompt": "What is always on the bottom of the fraction?", "answer": ["the starting value"], "choices": ["the ending value", "the starting value", "the gain", "the loss"], "feedback": "The bottom of the fraction is always the starting value. If you divide by the ending value, you get the wrong answer every time."}, {"id": "all-aq25-000-in-one-venture-it-drops-50-percent-your-fortune-now", "prompt": "All AQ25,000 in one venture. It drops 50 percent. Your fortune now?", "answer": ["AQ12,500"], "choices": ["AQ0", "AQ12,500", "AQ22,500", "AQ25,000"], "feedback": "12,500. All your eggs were in one basket."}, {"id": "aq25-000-split-evenly-across-five-ventures-and-only-one-of-them-drops-50-percent-your-fortune-now", "prompt": "AQ25,000 split evenly across five ventures, and only one of them drops 50 percent. Your fortune now?", "answer": ["AQ22,500"], "choices": ["AQ12,500", "AQ20,000", "AQ22,500", "AQ24,500"], "feedback": "22,500. Same eggs. Different morning. That is diversification."}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}], "study": ["Handout 02.11 Part B and Part D: simple interest on $500 and the minimum payment trap", "Handout 02.12 Part B and Part D: simple versus compound, and the two savers", "Handout 02.18: the formula, and the trick question in Part A number 7", "Handout 02.16: the do now, 12,500 versus 22,500"], "rule_lines": ["I = P x r x t (interest = amount borrowed x rate as a decimal x years). Rates as decimals: 5 percent = 0.05. 15 percent = 0.15. 24 percent = 0.24.", "Percent return = (ending value minus starting value) divided by starting value, times 100. A loss gets a minus sign. A gain gets a plus sign."], "reference": {}, "_unmapped": {}, "lede": "A card shows one money problem and four answers. Tap the right one. First simple interest, the minimum payment trap, and compound growth. Then percent return and the two diversification sums."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("MoneyMath");
+  var node = document.getElementById("MoneyMath-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

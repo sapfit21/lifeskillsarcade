@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conflict Ladder, Life Skills Arcade</title>
+<meta name="description" content="The five steps for managing a conflict appear shuffled. Tap them into order, then the three repair steps. Then a scenario appears, and you tap the rung of the ladder it is on.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="ConflictLadder">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-03-11.html">Lesson 3.11</a>. Conflict Ladder reviews Lesson 3.11: the escalation ladder, the five steps in order, the three repair steps, and which rung a scenario is on. Use it as the Day 2 do now (the lesson already asks for the five steps from memory) or as review for Unit 3 Test items 11 and 13, and before the Communication Performance Task in Lesson 3.13. Round 2 uses eight of the handout's scenario cards with the teacher key's rung, cause, and shared want in the feedback; scenario 8 (report only) and scenario 10 (keyed rung 2 to 3) are not in the game. The rung 5 bin carries the handout's line that it is not yours to handle alone, and the end panel lists the adults.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/conflict-ladder-title.webp" alt=""><h1 class="game-title">Conflict <span class="alt2">Ladder</span></h1></div>
+<p class="game-lede">The five steps for managing a conflict appear shuffled. Tap them into order, then the three repair steps. Then a scenario appears, and you tap the rung of the ladder it is on.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Prevention is stepping off at rung 1: ask instead of grab; say it before it grows.</li><li>Everything above rung 4 is not yours to handle alone. Telling is not tattling. Tattling is trying to get someone in trouble. Telling is trying to get someone safe.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="conflict-ladder-cool-down"><img class="piece" src="art/conflict-ladder-cool-down.webp" alt="" loading="lazy"></span>
+<span data-key="conflict-ladder-i-message"><img class="piece" src="art/conflict-ladder-i-message.webp" alt="" loading="lazy"></span>
+<span data-key="conflict-ladder-listen"><img class="piece" src="art/conflict-ladder-listen.webp" alt="" loading="lazy"></span>
+<span data-key="conflict-ladder-shared-want"><img class="piece" src="art/conflict-ladder-shared-want.webp" alt="" loading="lazy"></span>
+<span data-key="conflict-ladder-one-step"><img class="piece" src="art/conflict-ladder-one-step.webp" alt="" loading="lazy"></span>
+<span data-key="conflict-ladder-apologize"><img class="piece" src="art/conflict-ladder-apologize.webp" alt="" loading="lazy"></span>
+<span data-key="conflict-ladder-make-it-right"><img class="piece" src="art/conflict-ladder-make-it-right.webp" alt="" loading="lazy"></span>
+<span data-key="conflict-ladder-move-on"><img class="piece" src="art/conflict-ladder-move-on.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The escalation ladder, rung 1 to rung 5 (Handout 03.11 Part 1)</li><li>The five steps: cool down, I-message, listen, find the shared want, agree on one step (Part 2)</li><li>The three repair steps: apologize, make it right, move on (Part 5)</li><li>Rung 5 is not yours to handle alone: a parent or guardian, the teacher, the counselor, the dean, any teacher (Part 6)</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="ConflictLadder-data">{"schema": "1.0", "slug": "conflict-ladder", "title": "Conflict Ladder", "unit": 3, "lessons": ["3.11"], "handouts": ["Handout 03.11 - Conflict Scenarios Coach Checklist and Repair Steps"], "standards": ["NYS HDR 4. Human Relationships a) Identify characteristics of healthy human relationships", "NYS HDR 4. Human Relationships c) Discuss strategies for strengthening human relationships", "CTE CIR 6. Conflict Prevention and Management b) List and describe factors that contribute to healthy and unhealthy relationships", "CTE CIR 6. Conflict Prevention and Management c) Research conflict prevention and management techniques", "CTE CIR 6. Conflict Prevention and Management d) Explore how similarities and differences among people affect conflict prevention and management", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.", "CDOS Standard 3a Universal Foundation Skills: Interpersonal Skills", "National FCS 3.0: 13.4.4 Show nonviolent ways to deal with conflict.", "National FCS 3.0: 13.4.3 Use decision making and problem solving to reduce and manage conflict."], "source_file": "u3.json", "mechanic_note": "order: the five steps for managing a conflict appear shuffled; tap them into order; then the three repair steps, shuffled, into order. Round 2 is a sort: a scenario card or a rung description appears; tap the rung it is on (five bins, rung 1 to rung 5, drawn as a ladder)", "teacher_note": "Conflict Ladder reviews Lesson 3.11: the escalation ladder, the five steps in order, the three repair steps, and which rung a scenario is on. Use it as the Day 2 do now (the lesson already asks for the five steps from memory) or as review for Unit 3 Test items 11 and 13, and before the Communication Performance Task in Lesson 3.13. Round 2 uses eight of the handout's scenario cards with the teacher key's rung, cause, and shared want in the feedback; scenario 8 (report only) and scenario 10 (keyed rung 2 to 3) are not in the game. The rung 5 bin carries the handout's line that it is not yours to handle alone, and the end panel lists the adults.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per card placed in the right slot, 5 bonus on every third in a row, a card placed wrong slides to its slot and the feedback names the step; in Round 2, 10 per correct rung, a miss shows the rung, the cause, and the shared want from the teacher key; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "conflict-ladder-title.png", "line": "A wooden ladder with five rungs, the bottom rung green, the middle rungs yellow, and the top rung red, leaning slightly."}, "scene": [], "cards": [{"file": "conflict-ladder-cool-down.png", "line": "A thermometer with a red column low in the tube and a small sky blue down arrow beside it."}, {"file": "conflict-ladder-i-message.png", "line": "A single white speech bubble with a black outline, empty."}, {"file": "conflict-ladder-listen.png", "line": "A single ear drawn as a black outline on cream, no face around it."}, {"file": "conflict-ladder-shared-want.png", "line": "Two sky blue arrows from left and right pointing at one green circle in the middle."}, {"file": "conflict-ladder-one-step.png", "line": "A single green footprint on a cream background."}, {"file": "conflict-ladder-apologize.png", "line": "A small white flag on a short black pole."}, {"file": "conflict-ladder-make-it-right.png", "line": "A white phone charger with its black cord neatly coiled and a green check mark beside it."}, {"file": "conflict-ladder-move-on.png", "line": "A cream calendar page with a red header and a green check mark on one square, no numbers."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: two sequences, 5 cards then 3 cards, 30 seconds each sequence", "seconds_per_item": 30, "engines": ["order"], "steps": [{"kind": "order", "label": "round1.sequence_a", "prompt": null, "feedback": null, "cards": [{"id": "cool-down", "prompt": "Cool down", "answer": ["cool down"], "rank": 1, "feedback": "Step 1: Cool down. Walk, breathe, count, wait until your voice is normal.", "feedback_extra": ["Walk, breathe, count, wait until your voice is normal"]}, {"id": "i-message", "prompt": "I-message", "answer": ["i-message"], "rank": 2, "feedback": "Step 2: I-message. I feel ___ when ___ because ___, and I need ___.", "feedback_extra": ["I feel ___ when ___ because ___, and I need ___"]}, {"id": "listen", "prompt": "Listen", "answer": ["listen"], "rank": 3, "feedback": "Step 3: Listen. Eyes, body, restate, ask.", "feedback_extra": ["Eyes, body, restate, ask"]}, {"id": "find-the-shared-want", "prompt": "Find the shared want", "answer": ["find the shared want"], "rank": 4, "feedback": "Step 4: Find the shared want. What do we both want? (to stay friends, to finish, to keep the peace).", "feedback_extra": ["What do we both want? (to stay friends, to finish, to keep the peace)"]}, {"id": "agree-on-one-step", "prompt": "Agree on one step", "answer": ["agree on one step"], "rank": 5, "feedback": "Step 5: Agree on one step. One thing each person will do, small enough to do today.", "feedback_extra": ["One thing each person will do, small enough to do today"]}]}, {"kind": "order", "label": "round1.sequence_b", "prompt": null, "feedback": null, "cards": [{"id": "apologize", "prompt": "Apologize", "answer": ["apologize"], "rank": 1, "feedback": "Repair step 1: Apologize. It sounds like \"I am sorry I yelled. That was not fair to you.\" It does NOT sound like \"Sorry you feel that way.\"", "feedback_extra": ["\"I am sorry I yelled. That was not fair to you.\"", "\"Sorry you feel that way.\""]}, {"id": "make-it-right", "prompt": "Make it right", "answer": ["make it right"], "rank": 2, "feedback": "Repair step 2: Make it right. It sounds like Return it. Redo it. Fix it. \"I will bring your charger back charged.\" It does NOT sound like \"It is fine now, right?\"", "feedback_extra": ["Return it. Redo it. Fix it. \"I will bring your charger back charged.\"", "\"It is fine now, right?\""]}, {"id": "move-on", "prompt": "Move on", "answer": ["move on"], "rank": 3, "feedback": "Repair step 3: Move on. It sounds like Do not bring it up next week. It does NOT sound like \"Remember when you ...\"", "feedback_extra": ["Do not bring it up next week.", "\"Remember when you ...\""]}]}]}, {"n": 2, "note": "Round 2: 5 rung descriptions then 8 scenario cards, 9 seconds each", "seconds_per_item": 9, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "rung-1-descriptor", "prompt": "A small comment, a bump, an eye roll", "answer": ["rung 1"], "feedback": "Rung 1, a bump: A small comment, a bump, an eye roll"}, {"id": "rung-2-descriptor", "prompt": "A sharp answer, a look, a door", "answer": ["rung 2"], "feedback": "Rung 2, words: A sharp answer, a look, a door"}, {"id": "rung-3-descriptor", "prompt": "Raised voices, \"you always,\" \"you never\"", "answer": ["rung 3"], "feedback": "Rung 3, loud: Raised voices, \"you always,\" \"you never\""}, {"id": "rung-4-descriptor", "prompt": "Insults, threats, texting others about it", "answer": ["rung 4"], "feedback": "Rung 4, ugly: Insults, threats, texting others about it"}, {"id": "rung-5-descriptor", "prompt": "Anything physical, a threat, a weapon, anything that scares you. NOT yours to handle alone.", "answer": ["rung 5"], "feedback": "Rung 5, unsafe: Anything physical, a threat, a weapon, anything that scares you. NOT yours to handle alone."}, {"id": "scenario-1-the-charger", "prompt": "Two cousins share a room. One keeps taking the other's charger without asking, and the phone is dead by lunch every day. Today it happened again, and the second cousin yelled \"you always do this.\"", "answer": ["rung 3"], "feedback": "Rung 3. Cause: things. Shared want: \"we both want to have a charged phone and stop fighting about it.\" First step: cool down.", "tags": {"cause": "things"}}, {"id": "scenario-2-the-seat", "prompt": "On the bus, one student has sat in the same seat all year. Today a new student is in it and will not move. The first student is standing in the aisle saying \"that is my seat\" louder each time.", "answer": ["rung 3"], "feedback": "Rung 3. Cause: things. Shared want: \"we both want a seat and a calm bus ride.\" First step: cool down.", "tags": {"cause": "things"}}, {"id": "scenario-3-the-last-slice", "prompt": "Two siblings, one slice of pizza. One says \"I called it.\" The other says \"you had two already.\" A parent is in the other room.", "answer": ["rung 2"], "feedback": "Rung 2. Cause: things or fairness. Shared want: \"we both want it to be fair.\" First step: cool down.", "tags": {"cause": "things or fairness"}}, {"id": "scenario-4-the-group-project", "prompt": "Four students, one project, due Friday. One student has done nothing and keeps saying \"I will do it tonight.\" The other three are talking about doing it without that person.", "answer": ["rung 2"], "feedback": "Rung 2. Cause: fairness. Shared want: \"we all want the project done and a good grade.\" First step: cool down.", "tags": {"cause": "fairness"}}, {"id": "scenario-5-the-joke", "prompt": "At lunch, a friend made a joke about another friend's shoes. Everyone laughed. The friend with the shoes went quiet and has not talked to the joker all afternoon.", "answer": ["rung 2"], "feedback": "Rung 2. Cause: words. Shared want: \"we both want to stay friends.\" First step: cool down.", "tags": {"cause": "words"}}, {"id": "scenario-6-the-game", "prompt": "Two teammates. One always wants to be the one who takes the last shot. The other is tired of passing and said so in front of the team.", "answer": ["rung 3"], "feedback": "Rung 3. Cause: turns. Shared want: \"we both want to win.\" First step: cool down.", "tags": {"cause": "turns"}}, {"id": "scenario-7-the-rule", "prompt": "A student wants to go to a friend's house Saturday. A parent said no without a reason. The student slammed a door. Now nobody is talking.", "answer": ["rung 3"], "feedback": "Rung 3. Cause: fairness. Shared want: \"we both want the weekend to go okay and to trust each other.\" First step: cool down.", "tags": {"cause": "fairness"}}, {"id": "scenario-9-the-group-chat", "prompt": "A chat of six friends. Two of them started making fun of a seventh person who is not in the chat. One friend in the chat screenshotted it and sent it to the seventh person. Now everyone is angry at everyone.", "answer": ["rung 4"], "feedback": "Rung 4. Cause: words. Shared want: \"we all want the chat to be a place we can trust.\" First step: cool down, and the higher the rung, the longer the cool down.", "tags": {"cause": "words"}}], "options": {"source": "fixed", "style": "bins", "count": 5, "list": [{"id": "rung 1", "label": "Rung 1", "sub": "a bump"}, {"id": "rung 2", "label": "Rung 2", "sub": "words"}, {"id": "rung 3", "label": "Rung 3", "sub": "loud"}, {"id": "rung 4", "label": "Rung 4", "sub": "ugly"}, {"id": "rung 5", "label": "Rung 5", "sub": "unsafe"}]}}], "option_sets": [{"label": "round2_bins", "list": [{"id": "rung 1", "label": "Rung 1", "sub": "a bump"}, {"id": "rung 2", "label": "Rung 2", "sub": "words"}, {"id": "rung 3", "label": "Rung 3", "sub": "loud"}, {"id": "rung 4", "label": "Rung 4", "sub": "ugly"}, {"id": "rung 5", "label": "Rung 5", "sub": "unsafe"}]}]}], "study": ["The escalation ladder, rung 1 to rung 5 (Handout 03.11 Part 1)", "The five steps: cool down, I-message, listen, find the shared want, agree on one step (Part 2)", "The three repair steps: apologize, make it right, move on (Part 5)", "Rung 5 is not yours to handle alone: a parent or guardian, the teacher, the counselor, the dean, any teacher (Part 6)"], "rule_lines": ["Prevention is stepping off at rung 1: ask instead of grab; say it before it grows.", "Everything above rung 4 is not yours to handle alone. Telling is not tattling. Tattling is trying to get someone in trouble. Telling is trying to get someone safe."], "reference": {"conflict_definition": "Conflict is two or more people wanting different things at the same time.", "four_causes": [{"name": "Things", "example": "a charger, a seat, food"}, {"name": "Turns", "example": "who goes first, who decides"}, {"name": "Words", "example": "a joke that landed wrong, a rumor"}, {"name": "Fairness", "example": "a chore, a group project"}], "round2_left_out": "Scenario 8 is report only in the handout and is never played. Scenario 10 is keyed rung 2 to 3 and is left out so no answer is contested."}, "_unmapped": {}, "repaired": true, "lede": "The five steps for managing a conflict appear shuffled. Tap them into order, then the three repair steps. Then a scenario appears, and you tap the rung of the ladder it is on."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("ConflictLadder");
+  var node = document.getElementById("ConflictLadder-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

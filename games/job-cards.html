@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Cards, Life Skills Arcade</title>
+<meta name="description" content="A card shows what a person does all day, with a picture. Tap the career from four names. Then a career card appears, and you tap it into one of three bins by the usual way in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="JobCards">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-05-19.html">Lesson 5.19</a>. Reviews Lesson 5.19 Day 1: the thirteen career cards from Handout 05.19 and the pathway sort. Round 1 reads the first line of each card and asks for the name, which is Objective 1 (match ten or more careers to what the person does). Round 2 is the pathway sort with the teacher key's placements; the key accepts more than one column for tailor, merchandiser, and quality inspector, so the feedback on those three says the most common way in and names the other route rather than calling the student wrong. It does not sort pitch lines or build a resume bullet; that is Pitch Perfect in Unit 7. Use it as the Day 2 do now in place of one game card if the Day 1 exit cards had a large needs-more pile, or send it home the night before the test. The card pictures follow the handout's own picture lines with no faces, so the tailor card shows the tape measure and the chalked jacket, not the person. Wage and outlook numbers are deliberately not in the game, for the reason the handout gives: they go out of date fast.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/job-cards-title.webp" alt=""><h1 class="game-title">Job <span class="alt2">Cards</span></h1></div>
+<p class="game-lede">A card shows what a person does all day, with a picture. Tap the career from four names. Then a career card appears, and you tap it into one of three bins by the usual way in.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Bins follow the teacher key for the pathway sort. The key accepts a career in more than one column if the student can defend it, and names tailor, merchandiser, and quality inspector as having more than one honest route in; the feedback line on those three says so.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="job-cards-tailor"><img class="piece" src="art/job-cards-tailor.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-alterations-specialist"><img class="piece" src="art/job-cards-alterations-specialist.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-fashion-designer"><img class="piece" src="art/job-cards-fashion-designer.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-technical-designer"><img class="piece" src="art/job-cards-technical-designer.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-textile-scientist"><img class="piece" src="art/job-cards-textile-scientist.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-merchandiser"><img class="piece" src="art/job-cards-merchandiser.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-buyer"><img class="piece" src="art/job-cards-buyer.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-costume-designer"><img class="piece" src="art/job-cards-costume-designer.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-upholsterer"><img class="piece" src="art/job-cards-upholsterer.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-dry-cleaner"><img class="piece" src="art/job-cards-dry-cleaner.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-sewing-machine-technician"><img class="piece" src="art/job-cards-sewing-machine-technician.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-sustainability-analyst"><img class="piece" src="art/job-cards-sustainability-analyst.webp" alt="" loading="lazy"></span>
+<span data-key="job-cards-quality-inspector"><img class="piece" src="art/job-cards-quality-inspector.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The two that are commonly run as a small business: alterations specialist and upholsterer (tailor and dry cleaner also accepted with a reason).</li><li>The one that most needs a science background: textile scientist.</li><li>The ladder from here: practice at home; a summer or after-school job at a dry cleaner, a fabric store, a resale shop, or a costume shop; a high school CTE program in apparel, fashion, or design; then an apprenticeship, a certificate, or a degree.</li><li>Handout 05.19 pages 1 and 2, the thirteen career cards</li><li>The pathway sort teacher key: five on the job, two certificate or two-year, six four-year</li><li>The five-repair portfolio: five photographed repairs or made items, each with one line saying what was wrong and what you did</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="JobCards-data">{"schema": "1.0", "slug": "job-cards", "title": "Job Cards", "unit": 5, "lessons": ["5.19"], "handouts": ["Handout 05.19 - Textiles and Apparel Careers Cards"], "standards": ["NYS module line: NYS ATPD 5. Career Pathways a) Identify career paths in the textiles and apparel field", "NYS module line: NYS ATPD 5. Career Pathways b) Investigate a career in clothing or textiles and identify the pathways used to reach that career", "CTE theme line: CTE CCO 2. Career Clusters a) Identify and use career resources to obtain information about careers and employment trends", "CTE theme line: CTE CCO 4. Career Plans a) Examine potential career choices to determine knowledge, skills, and abilities associated with each", "CTE theme line: CTE SUS 4. Careers Related to Sustainability b) Analyze career paths within the natural resources, environmental management, and energy conservation fields", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students identify their own abilities and interests as possible guides to career choice.", "CDOS Standard 1: Students will be knowledgeable about the world of work, explore career options, and relate personal skills, aptitudes, and abilities to future career decisions.", "National FCS 3.0: 16.1.1 Explain what people in textiles, fashion, and apparel careers do.", "National FCS 3.0: 16.1.3 Sum up the education and training that textile, fashion, and apparel career paths require."], "source_file": "u5.json", "mechanic_note": "fast read: what the person does all day appears on a card with its picture, tap the career from four names against a short clock; then a sort, a career card appears and you tap it into one of three bins by the usual way in", "teacher_note": "Reviews Lesson 5.19 Day 1: the thirteen career cards from Handout 05.19 and the pathway sort. Round 1 reads the first line of each card and asks for the name, which is Objective 1 (match ten or more careers to what the person does). Round 2 is the pathway sort with the teacher key's placements; the key accepts more than one column for tailor, merchandiser, and quality inspector, so the feedback on those three says the most common way in and names the other route rather than calling the student wrong. It does not sort pitch lines or build a resume bullet; that is Pitch Perfect in Unit 7. Use it as the Day 2 do now in place of one game card if the Day 1 exit cards had a large needs-more pile, or send it home the night before the test. The card pictures follow the handout's own picture lines with no faces, so the tailor card shows the tape measure and the chalked jacket, not the person. Wage and outlook numbers are deliberately not in the game, for the reason the handout gives: they go out of date fast.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss names the career or reads the card's usual way in; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "job-cards-title.png", "line": "A yellow tape measure coiled loosely with one end trailing off, black inch marks showing."}, "scene": [], "cards": [{"file": "job-cards-tailor.png", "line": "A yellow tape measure draped over a work table beside a light gray jacket with white chalk marks on the shoulder."}, {"file": "job-cards-alterations-specialist.png", "line": "A clothing rack of garments with pinned hems, each with a small cream paper ticket clipped to the hanger."}, {"file": "job-cards-fashion-designer.png", "line": "A sketchbook open to a black-outlined drawing of a red coat, with three small fabric swatches in green, sky blue, and cream pinned to the page."}, {"file": "job-cards-technical-designer.png", "line": "A cream spec sheet covered in measurement lines and arrows, next to a sample sky blue dress on a light gray dress form with no head."}, {"file": "job-cards-textile-scientist.png", "line": "A lab bench with a light gray machine pulling a strip of red fabric between two clamps, and a rack of small dyed swatches in sky blue, green, and yellow."}, {"file": "job-cards-merchandiser.png", "line": "A store floor plan drawn on cream paper with tables and racks marked in black outline, and a red sale sign shape beside it."}, {"file": "job-cards-buyer.png", "line": "A cream wall calendar with several days circled in red, next to three small fabric samples in green, sky blue, and yellow."}, {"file": "job-cards-costume-designer.png", "line": "A rolling clothing rack backstage with red, green, and yellow costumes on hangers, a small cream tag taped to each hanger, and a red stage curtain behind."}, {"file": "job-cards-upholsterer.png", "line": "An armchair stripped to its wooden frame with new cream foam on the seat and a roll of green fabric leaning beside it."}, {"file": "job-cards-dry-cleaner.png", "line": "A conveyor rail of bagged garments in clear cream plastic and a light gray pressing machine with white steam rising."}, {"file": "job-cards-sewing-machine-technician.png", "line": "A light gray industrial sewing machine with its side cover off showing gears inside, and a set of small wrenches laid out on the table."}, {"file": "job-cards-sustainability-analyst.png", "line": "A cream spreadsheet page with rows of bars in sky blue and green next to a small framed picture of a gray fabric mill building with a smokestack."}, {"file": "job-cards-quality-inspector.png", "line": "A sky blue garment flat on a light gray table with a yellow ruler on the seam and a red rubber stamp beside it."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 13 career descriptions, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_1_fast_read", "items": [{"id": "tailor", "prompt": "Makes and alters garments to fit one specific body. Measures, marks, cuts, and stitches.", "answer": ["Tailor"]}, {"id": "alterations-specialist", "prompt": "Hems pants, takes in seams, replaces zippers and buttons, and fixes what customers bring in, all day.", "answer": ["Alterations specialist"]}, {"id": "fashion-designer", "prompt": "Decides what a garment will be. Sketches it, picks the fabric, chooses the details, and specifies what it should look like on a body.", "answer": ["Fashion designer"]}, {"id": "technical-designer", "prompt": "Turns the designer's sketch into the exact measurements, seam types, and step-by-step instructions a factory can build from.", "answer": ["Technical designer"]}, {"id": "textile-scientist", "prompt": "Tests fiber and fabric for strength, shrinkage, colorfastness, water resistance, and flammability.", "answer": ["Textile scientist"]}, {"id": "merchandiser", "prompt": "Decides what the store shows, where it sits on the floor, and at what price.", "answer": ["Merchandiser"]}, {"id": "buyer", "prompt": "Decides what the store will buy, how much of it, and when, months before customers see it.", "answer": ["Buyer"]}, {"id": "costume-designer", "prompt": "Designs and builds clothing for a play, a film, a dance company, or a school production.", "answer": ["Costume designer"]}, {"id": "upholsterer", "prompt": "Rebuilds furniture: strips the old fabric, replaces springs, webbing, and foam, and covers it in new fabric.", "answer": ["Upholsterer"]}, {"id": "dry-cleaner-and-garment-care-specialist", "prompt": "Cleans, presses, spot-treats, and repairs clothing. Reads every care symbol on every label and decides how a garment can be cleaned without ruining it.", "answer": ["Dry cleaner and garment care specialist"]}, {"id": "sewing-machine-technician", "prompt": "Services and repairs sewing machines, home and industrial: timing, tension, feed, motors, and needles.", "answer": ["Sewing machine technician"]}, {"id": "sustainability-analyst", "prompt": "Measures a company's material, water, energy, and waste impact, checks its suppliers, and writes the report that says what it actually did.", "answer": ["Sustainability analyst"]}, {"id": "quality-inspector", "prompt": "Checks finished garments against a written spec: measurements, seam type, stitches per inch, thread ends, labels, and closures. Pulls seams. Rejects what fails and writes down why.", "answer": ["Quality inspector"]}], "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}}]}, {"n": 2, "note": "Round 2: 13 career cards, 6 seconds each, three bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_2_sort.items", "items": [{"id": "tailor", "prompt": "Tailor", "answer": ["Train on the job or apprenticeship"], "feedback": "Learn on the job or through an apprenticeship, sometimes a certificate program. Many tailors are self-employed."}, {"id": "alterations-specialist", "prompt": "Alterations specialist", "answer": ["Train on the job or apprenticeship"], "feedback": "Train on the job. This is the most common paid job in this unit and the one with the steadiest local work."}, {"id": "fashion-designer", "prompt": "Fashion designer", "answer": ["Four-year degree"], "feedback": "A four-year degree in fashion design is the common route, plus a portfolio. The route is long and the field is competitive."}, {"id": "technical-designer", "prompt": "Technical designer", "answer": ["Four-year degree"], "feedback": "A four-year degree in apparel design, product development, or fashion technology."}, {"id": "textile-scientist", "prompt": "Textile scientist", "answer": ["Four-year degree"], "feedback": "A four-year degree, usually with chemistry or materials science. Some jobs want a graduate degree."}, {"id": "merchandiser", "prompt": "Merchandiser", "answer": ["Certificate or two-year degree"], "feedback": "A two-year or four-year degree in merchandising, marketing, or business, often starting as a store associate."}, {"id": "buyer", "prompt": "Buyer", "answer": ["Four-year degree"], "feedback": "A four-year degree in merchandising or business, usually after time as an assistant buyer."}, {"id": "costume-designer", "prompt": "Costume designer", "answer": ["Four-year degree"], "feedback": "A four-year degree in costume design or theater is common; many people start by working in a costume shop or on a school or community production."}, {"id": "upholsterer", "prompt": "Upholsterer", "answer": ["Train on the job or apprenticeship"], "feedback": "Learn on the job or through an apprenticeship. This is often a small business run out of a shop or a garage."}, {"id": "dry-cleaner-and-garment-care-specialist", "prompt": "Dry cleaner and garment care specialist", "answer": ["Train on the job or apprenticeship"], "feedback": "Train on the job. Many dry cleaners are family businesses, and many employ an alterations specialist on site."}, {"id": "sewing-machine-technician", "prompt": "Sewing machine technician", "answer": ["Train on the job or apprenticeship"], "feedback": "Train on the job or through an apprenticeship, sometimes a manufacturer's certification. Mechanical skill matters more than a degree."}, {"id": "sustainability-analyst", "prompt": "Sustainability analyst", "answer": ["Four-year degree"], "feedback": "A four-year degree in environmental science, supply chain, or business, often with a certificate in sustainability reporting. This job did not exist thirty years ago."}, {"id": "quality-inspector", "prompt": "Quality inspector", "answer": ["Certificate or two-year degree"], "feedback": "Train on the job; a certificate or two-year degree helps. You already did this job in Lesson 5.13."}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "train-on-the-job-or-apprenticeship", "label": "Train on the job or apprenticeship"}, {"id": "certificate-or-two-year-degree", "label": "Certificate or two-year degree"}, {"id": "four-year-degree", "label": "Four-year degree"}]}}], "option_sets": [{"label": "round_2_sort.bins", "list": [{"id": "train-on-the-job-or-apprenticeship", "label": "Train on the job or apprenticeship"}, {"id": "certificate-or-two-year-degree", "label": "Certificate or two-year degree"}, {"id": "four-year-degree", "label": "Four-year degree"}]}]}], "study": ["The two that are commonly run as a small business: alterations specialist and upholsterer (tailor and dry cleaner also accepted with a reason).", "The one that most needs a science background: textile scientist.", "The ladder from here: practice at home; a summer or after-school job at a dry cleaner, a fabric store, a resale shop, or a costume shop; a high school CTE program in apparel, fashion, or design; then an apprenticeship, a certificate, or a degree.", "Handout 05.19 pages 1 and 2, the thirteen career cards", "The pathway sort teacher key: five on the job, two certificate or two-year, six four-year", "The five-repair portfolio: five photographed repairs or made items, each with one line saying what was wrong and what you did"], "rule_lines": ["Bins follow the teacher key for the pathway sort. The key accepts a career in more than one column if the student can defend it, and names tailor, merchandiser, and quality inspector as having more than one honest route in; the feedback line on those three says so."], "reference": {}, "_unmapped": {}, "lede": "A card shows what a person does all day, with a picture. Tap the career from four names. Then a career card appears, and you tap it into one of three bins by the usual way in."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("JobCards");
+  var node = document.getElementById("JobCards-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

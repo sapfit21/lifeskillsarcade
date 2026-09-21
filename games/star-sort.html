@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STAR Sort, Life Skills Arcade</title>
+<meta name="description" content="The Feed the Class STAR story appears cut into four shuffled pieces. Tap them into order, then sort lines into Situation, Task, Action, or Result. Then sort a tell-me-about-yourself answer into its three parts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="StarSort">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-07-04.html">Lesson 7.4</a>. Reviews Lesson 7.4: the four STAR parts using the modeled Feed the Class story, and the three-part tell-me-about-yourself frame with the four things the bad answer did. It is not the resume bullet, which Pitch Perfect already covers; this is the spoken interview answer. Use it as the do now of Lesson 7.5 so every candidate hears the Result named one more time before sitting in the chair, or as a homework link the night before. Grade 6 plays round 2 only, which matches the grade 6 support in the lesson (the three-part answer only).</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/star-sort-title.webp" alt=""><h1 class="game-title">STAR <span class="alt2">Sort</span></h1></div>
+<p class="game-lede">The Feed the Class STAR story appears cut into four shuffled pieces. Tap them into order, then sort lines into Situation, Task, Action, or Result. Then sort a tell-me-about-yourself answer into its three parts.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="StarSort-data">{"schema": "1.0", "slug": "star-sort", "title": "STAR Sort", "unit": 7, "lessons": ["7.4"], "handouts": ["Handout 07.04 - Three-Part Answer and STAR Planner"], "standards": ["NYS IGLR 3. Employability c) Demonstrate effective communication skills", "NYS IGLR 3. Employability a) Explore employability skills", "NYS IGLR 3. Employability d) Explore and implement strategies for career readiness", "CTE CCO 3. Employability Skills a) Identify personal characteristics such as abilities, interests, and values and examine how they might impact career choices", "CTE CIR 3. Workplace Communication a) List the similarities and differences between personal and workplace communication and the uses of technology in each", "National FCS 3.0: 13.3.2 Show the spoken and unspoken behaviors and attitudes that make communication work.", "National FCS 3.0: 1.2.2 Show the skills used to find a job and to keep one."], "source_file": "u7.json", "mechanic_note": "order, then sort: the teacher's modeled STAR story is cut into four shuffled pieces; tap them into the right order. Then each question, sentence starter, or box label appears and you tap it into its bin (Situation, Task, Action, Result). Round 2 is a second sort: lines of a tell-me-about-yourself answer go into Who you are, What you are good at, Why you fit this job, or Leave it out", "teacher_note": "Reviews Lesson 7.4: the four STAR parts using the modeled Feed the Class story, and the three-part tell-me-about-yourself frame with the four things the bad answer did. It is not the resume bullet, which Pitch Perfect already covers; this is the spoken interview answer. Use it as the do now of Lesson 7.5 so every candidate hears the Result named one more time before sitting in the chair, or as a homework link the night before. Grade 6 plays round 2 only, which matches the grade 6 support in the lesson (the three-part answer only).", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 20 for the four-piece order placed with no miss, 5 bonus on every third in a row, a miss shows the right bin in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "star-sort-title.png", "line": "A single yellow five-point star with a black outline, flat and centered."}, "scene": [], "cards": [], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: one four-piece order, then 13 cards, 7 seconds each, four bins", "seconds_per_item": 7, "engines": ["choice", "order"], "steps": [{"kind": "order", "label": "round1.order", "prompt": null, "feedback": null, "cards": [{"id": "story-situation", "prompt": "In our Feed the Class cook day", "answer": ["Situation"], "rank": 1}, {"id": "story-task", "prompt": "my station had to get a pasta dish plated for 30 people by minute 29", "answer": ["Task"], "rank": 2}, {"id": "story-action", "prompt": "The water was not boiling at minute 12, so I moved the sauce step ahead of the pasta step and asked the Prep Cook to start the plates early", "answer": ["Action"], "rank": 3}, {"id": "story-result", "prompt": "We served at minute 30, one minute late, and nothing was cold", "answer": ["Result"], "rank": 4}]}, {"kind": "choice", "label": "round1.items", "items": [{"id": "q-where", "prompt": "Where were you and what was going on?", "answer": ["Situation"]}, {"id": "q-job", "prompt": "What was your job? What had to get done?", "answer": ["Task"]}, {"id": "q-you-did", "prompt": "What did you personally do?", "answer": ["Action"]}, {"id": "q-happened", "prompt": "What happened because of what you did?", "answer": ["Result"]}, {"id": "starter-situation", "prompt": "The situation was ___.", "answer": ["Situation"]}, {"id": "starter-job", "prompt": "My job was to ___.", "answer": ["Task"]}, {"id": "starter-did", "prompt": "So what I did was ___.", "answer": ["Action"]}, {"id": "starter-result", "prompt": "The result was ___.", "answer": ["Result"]}, {"id": "box-where-when", "prompt": "Where, when, what was going on.", "answer": ["Situation"]}, {"id": "box-had-to-get-done", "prompt": "What had to get done, and what your job was.", "answer": ["Task"]}, {"id": "box-step-by-step", "prompt": "What you personally did, step by step.", "answer": ["Action"]}, {"id": "box-number-time", "prompt": "What happened, with a number, a time, or something somebody said.", "answer": ["Result"]}, {"id": "everybody-skips", "prompt": "The part everybody skips.", "answer": ["Result"]}], "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "situation", "label": "Situation"}, {"id": "task", "label": "Task"}, {"id": "action", "label": "Action"}, {"id": "result", "label": "Result"}]}}], "option_sets": [{"label": "round1.bins", "list": [{"id": "situation", "label": "Situation"}, {"id": "task", "label": "Task"}, {"id": "action", "label": "Action"}, {"id": "result", "label": "Result"}]}]}, {"n": 2, "note": "Round 2: 13 cards, 6 seconds each, four bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "name-grade-now", "prompt": "Your name, your grade, what you do right now.", "answer": ["Who you are"]}, {"id": "skills-prove", "prompt": "One or two skills, and where you can prove them.", "answer": ["What you are good at"]}, {"id": "connection-this-job", "prompt": "The connection between your skill and this specific job.", "answer": ["Why you fit this job"]}, {"id": "my-name-is", "prompt": "My name is ___ and I am in grade ___.", "answer": ["Who you are"]}, {"id": "right-now-i", "prompt": "Right now I ___.", "answer": ["Who you are"]}, {"id": "i-am-good-at", "prompt": "I am good at ___.", "answer": ["What you are good at"]}, {"id": "showed-that-when", "prompt": "I showed that when I ___.", "answer": ["What you are good at"]}, {"id": "good-at-this-job-because", "prompt": "I would be good at this job because ___.", "answer": ["Why you fit this job"]}, {"id": "where-you-were-born", "prompt": "Where you were born.", "answer": ["Leave it out"]}, {"id": "ending-on-hobby", "prompt": "Ending on a hobby.", "answer": ["Leave it out"]}, {"id": "list-of-adjectives", "prompt": "A list of adjectives.", "answer": ["Leave it out"]}, {"id": "jobs-in-general", "prompt": "Something about jobs in general, not about this job.", "answer": ["Leave it out"]}, {"id": "feel-not-prove", "prompt": "Something you feel, not something you can prove.", "answer": ["Leave it out"]}], "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "who-you-are", "label": "Who you are"}, {"id": "what-you-are-good-at", "label": "What you are good at"}, {"id": "why-you-fit-this-job", "label": "Why you fit this job"}, {"id": "leave-it-out", "label": "Leave it out"}]}}], "option_sets": [{"label": "round2.bins", "list": [{"id": "who-you-are", "label": "Who you are"}, {"id": "what-you-are-good-at", "label": "What you are good at"}, {"id": "why-you-fit-this-job", "label": "Why you fit this job"}, {"id": "leave-it-out", "label": "Leave it out"}]}]}], "study": [], "rule_lines": [], "reference": {"round1.bin_feedback": {"Situation": "Situation: where were you and what was going on?", "Task": "Task: what was your job? What had to get done?", "Action": "Action: what did you personally do?", "Result": "Result: what happened because of what you did? The part everybody skips is the Result. Do not skip it."}, "round2.bin_feedback": {"Who you are": "1. Who you are: your name, your grade, what you do right now.", "What you are good at": "2. What you are good at: one or two skills, and where you can prove them.", "Why you fit this job": "3. Why you fit this job: the connection between your skill and this specific job.", "Leave it out": "The first answer was too long, started in the wrong place (where you were born, a hobby), had no structure, and never said anything about the job."}}, "_unmapped": {}, "lede": "The Feed the Class STAR story appears cut into four shuffled pieces. Tap them into order, then sort lines into Situation, Task, Action, or Result. Then sort a tell-me-about-yourself answer into its three parts."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("StarSort");
+  var node = document.getElementById("StarSort-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

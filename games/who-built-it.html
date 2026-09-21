@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who Built It, Life Skills Arcade</title>
+<meta name="description" content="A step from the Okafor room project appears. Tap the career that does it from four choices. Then a career card appears, and you tap its path: college degree, apprenticeship or trade school, or license.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="WhoBuiltIt">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-04-16.html">Lesson 4.16</a>. Reviews Lesson 4.16: the thirteen careers on the Project Chain sheet and the path sort from the card sort. Use it as the Lesson 4.17 do now if most of a class chose the degree path only, or as the review for the careers items on the Unit 4 Test, or again in Unit 7 when the career cards come back. About two and a half minutes. Pay figures are not in the game; they move every year and belong on the cards.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/who-built-it-title.webp" alt=""><h1 class="game-title">Who <span class="alt2">Built It</span></h1></div>
+<p class="game-lede">A step from the Okafor room project appears. Tap the career that does it from four choices. Then a career card appears, and you tap its path: college degree, apprenticeship or trade school, or license.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="who-built-it-architect"><img class="piece" src="art/who-built-it-architect.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-interior-designer"><img class="piece" src="art/who-built-it-interior-designer.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-general-contractor"><img class="piece" src="art/who-built-it-general-contractor.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-electrician"><img class="piece" src="art/who-built-it-electrician.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-plumber"><img class="piece" src="art/who-built-it-plumber.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-hvac-technician"><img class="piece" src="art/who-built-it-hvac-technician.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-real-estate-agent"><img class="piece" src="art/who-built-it-real-estate-agent.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-property-manager"><img class="piece" src="art/who-built-it-property-manager.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-home-inspector"><img class="piece" src="art/who-built-it-home-inspector.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-energy-auditor"><img class="piece" src="art/who-built-it-energy-auditor.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-landscape-designer"><img class="piece" src="art/who-built-it-landscape-designer.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-furniture-maker"><img class="piece" src="art/who-built-it-furniture-maker.webp" alt="" loading="lazy"></span>
+<span data-key="who-built-it-sustainability-consultant"><img class="piece" src="art/who-built-it-sustainability-consultant.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Three paths: a college degree; an apprenticeship or trade school after high school CTE; a license earned after a course and experience.</li><li>An apprentice is paid from day one.</li><li>The contractor builds; the inspector checks the builder and works for the buyer or the town, not the builder.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="WhoBuiltIt-data">{"schema": "1.0", "slug": "who-built-it", "title": "Who Built It", "unit": 4, "lessons": ["4.16"], "handouts": ["Handout 04.16 - Housing and Design Careers Cards"], "standards": ["NYS EDM 4. Career Pathways a) Explain roles and functions of individuals engaged in environment, housing, and interior design careers", "NYS EDM 4. Career Pathways b) Investigate education and training requirements and opportunities for career paths in environment, housing, and interior design fields", "CTE CCO 2. Career Clusters a) Identify and use career resources to obtain information about careers and employment trends", "National FCS 3.0: 11.1.1 Explain what people in housing and interior design careers do.", "National FCS 3.0: 1.2.1 Examine possible careers to find what each one requires and offers in knowledge, skills, attitudes, and openings."], "source_file": "u4.json", "mechanic_note": "match then sort: Round 1, a step from the Okafor room project chain appears, tap the career that does it from four choices; Round 2, a career card appears, tap it into the path bin: college degree, apprenticeship or trade school, or license or certification after a course and experience", "teacher_note": "Reviews Lesson 4.16: the thirteen careers on the Project Chain sheet and the path sort from the card sort. Use it as the Lesson 4.17 do now if most of a class chose the degree path only, or as the review for the careers items on the Unit 4 Test, or again in Unit 7 when the career cards come back. About two and a half minutes. Pay figures are not in the game; they move every year and belong on the cards.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right career in the card's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "who-built-it-title.png", "line": "A yellow hard hat, front view, with a light gray brim and a black outline."}, "scene": [], "cards": [{"file": "who-built-it-architect.png", "line": "A drafting pen in black and light gray lying across a rolled sky blue plan, black outline."}, {"file": "who-built-it-interior-designer.png", "line": "A paint chip fan in red, yellow, green, and sky blue fanned open over a small white floor plan sheet, black outline."}, {"file": "who-built-it-general-contractor.png", "line": "A yellow hard hat sitting on a cream clipboard, black outline."}, {"file": "who-built-it-electrician.png", "line": "A coil of red wire next to a white light switch plate, black outline."}, {"file": "who-built-it-plumber.png", "line": "A light gray pipe wrench gripping a short light gray pipe with a sky blue drop of water, black outline."}, {"file": "who-built-it-hvac-technician.png", "line": "A round white thermostat with a sky blue dial ring, black outline."}, {"file": "who-built-it-real-estate-agent.png", "line": "A yellow house key with a small red house-shaped tag, black outline."}, {"file": "who-built-it-property-manager.png", "line": "A light gray building with many sky blue windows in rows, black outline."}, {"file": "who-built-it-home-inspector.png", "line": "A yellow flashlight with a beam of light shining onto a cream checklist with check marks, black outline."}, {"file": "who-built-it-energy-auditor.png", "line": "A small white house with a red roof and three red arrows pointing out from the walls to show heat leaking, black outline."}, {"file": "who-built-it-landscape-designer.png", "line": "A green tree beside a light gray curved path on a green lawn, black outline."}, {"file": "who-built-it-furniture-maker.png", "line": "A light gray hand saw with a cream handle leaning against a cream wooden chair, black outline."}, {"file": "who-built-it-sustainability-consultant.png", "line": "A single green leaf lying on a sky blue blueprint sheet with white lines, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 13 chain steps, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_1_items", "items": [{"id": "architect", "prompt": "Draws the wider door and the new bathroom and stamps the plan", "picture": "who-built-it-architect.png", "answer": ["Architect"], "feedback": "Architect: designs buildings and the spaces inside them, and signs the plans so the town will let them be built"}, {"id": "interior-designer", "prompt": "Plans the room's layout, furniture, color, and light for the family", "picture": "who-built-it-interior-designer.png", "answer": ["Interior designer"], "feedback": "Interior designer: did what you did in Project 04, for pay: the client brief, the scale plan, the budget, the furniture, the color, the pitch"}, {"id": "general-contractor", "prompt": "Runs the job, hires the trades, keeps the schedule and the budget", "picture": "who-built-it-general-contractor.png", "answer": ["General contractor"], "feedback": "General contractor: hired the electrician, the plumber, and the painter; ordered the door; made sure the job finished in three weeks"}, {"id": "electrician", "prompt": "Wires the outlet by the bed and moves the switch to 42 inches", "picture": "who-built-it-electrician.png", "answer": ["Electrician"], "feedback": "Electrician: ran the new outlet by the bed, moved the light switch to 42 inches so he can reach it, and wired the night lights on the path"}, {"id": "plumber", "prompt": "Moves the shower drain and installs the walk-in shower", "picture": "who-built-it-plumber.png", "answer": ["Plumber"], "feedback": "Plumber: moved the shower drain and installed the walk-in shower with a grab bar next door"}, {"id": "hvac-technician", "prompt": "Sizes the heat and air and vents the bathroom", "picture": "who-built-it-hvac-technician.png", "answer": ["HVAC technician"], "feedback": "HVAC technician: sized the new heat and air for the room and added a vent so the bathroom does not grow mold"}, {"id": "home-inspector", "prompt": "Checks the finished work against the code for the buyer or the town", "picture": "who-built-it-home-inspector.png", "answer": ["Home inspector"], "feedback": "Home inspector: checked that the new outlet was wired right, the door was framed right, and the shower drained right. Works for the buyer or the town, not the contractor."}, {"id": "energy-auditor", "prompt": "Tests where the house leaks heat and recommends the fixes", "picture": "who-built-it-energy-auditor.png", "answer": ["Energy auditor"], "feedback": "Energy auditor: ran a blower-door test, found the leak around the old window, and recommended the sealing and the LED bulbs"}, {"id": "sustainability-consultant", "prompt": "Picks the low-VOC paint and the LED plan and files the rebate", "picture": "who-built-it-sustainability-consultant.png", "answer": ["Sustainability consultant"], "feedback": "Sustainability consultant: picked the low-VOC paint, the LED lighting plan, and the insulation for the whole renovation, and filed the paperwork for the utility rebate"}, {"id": "landscape-designer", "prompt": "Designs the ramp and the clear path outside", "picture": "who-built-it-landscape-designer.png", "answer": ["Landscape designer"], "feedback": "Landscape designer: designed the ramp from the driveway to the door at the right slope, with a handrail, and moved the plantings so the walker has a clear path"}, {"id": "furniture-maker", "prompt": "Builds the bed at 22 inches high because no store sells one", "picture": "who-built-it-furniture-maker.png", "answer": ["Furniture maker"], "feedback": "Furniture maker: built the bed frame at 22 inches high with a solid side rail he can push up from, because no store sold one at that height"}, {"id": "real-estate-agent", "prompt": "Sold the family the house and will list it someday", "picture": "who-built-it-real-estate-agent.png", "answer": ["Real estate agent"], "feedback": "Real estate agent: sold the family this house two years ago, and will list it someday with accessible first-floor bedroom and bath as a selling point"}, {"id": "property-manager", "prompt": "Would approve the work if the family rented", "picture": "who-built-it-property-manager.png", "answer": ["Property manager"], "feedback": "Property manager: if the family rented, the property manager would approve the wider door and hire the contractor"}], "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}}]}, {"n": 2, "note": "Round 2: 13 career cards into 3 bins, 6 seconds each", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_2_items", "items": [{"id": "architect-path", "prompt": "Architect", "picture": "who-built-it-architect.png", "answer": ["College degree"], "feedback": "a five-year college degree in architecture, then about three years of paid work under a licensed architect, then a licensing exam"}, {"id": "interior-designer-path", "prompt": "Interior designer", "picture": "who-built-it-interior-designer.png", "answer": ["College degree"], "feedback": "usually a two- or four-year degree in interior design; in New York, a state certification exam (NCIDQ). College degree, mostly."}, {"id": "general-contractor-path", "prompt": "General contractor", "picture": "who-built-it-general-contractor.png", "answer": ["Apprenticeship or trade school after high school CTE", "College degree"], "feedback": "most start in a trade through a high school CTE program and an apprenticeship, then years on the job, then a contractor's license from the county. Some have a construction management degree."}, {"id": "electrician-path", "prompt": "Electrician", "picture": "who-built-it-electrician.png", "answer": ["Apprenticeship or trade school after high school CTE"], "feedback": "a high school CTE electrical program, then a four- to five-year paid apprenticeship, then a journeyman license. Paid from day one."}, {"id": "plumber-path", "prompt": "Plumber", "picture": "who-built-it-plumber.png", "answer": ["Apprenticeship or trade school after high school CTE"], "feedback": "high school CTE, then a four- to five-year paid apprenticeship, then a license"}, {"id": "hvac-path", "prompt": "HVAC technician", "picture": "who-built-it-hvac-technician.png", "answer": ["Apprenticeship or trade school after high school CTE"], "feedback": "a six-month to two-year trade school program or a high school CTE program, then a paid apprenticeship of two to five years, plus an EPA certification to handle refrigerants"}, {"id": "real-estate-agent-path", "prompt": "Real estate agent", "picture": "who-built-it-real-estate-agent.png", "answer": ["License or certification after a course and experience"], "feedback": "a 77-hour course in New York, a state exam, and a license; no degree required"}, {"id": "property-manager-path", "prompt": "Property manager", "picture": "who-built-it-property-manager.png", "answer": ["License or certification after a course and experience"], "feedback": "experience in rentals or an office, often a real estate license; some have a business degree"}, {"id": "home-inspector-path", "prompt": "Home inspector", "picture": "who-built-it-home-inspector.png", "answer": ["License or certification after a course and experience"], "feedback": "in New York, a 140-hour course plus 40 hours of supervised inspections, then a state exam and license; many are former contractors"}, {"id": "energy-auditor-path", "prompt": "Energy auditor", "picture": "who-built-it-energy-auditor.png", "answer": ["License or certification after a course and experience"], "feedback": "a certification course (BPI or RESNET, a few weeks) plus experience; some come from HVAC or construction"}, {"id": "landscape-designer-path", "prompt": "Landscape designer", "picture": "who-built-it-landscape-designer.png", "answer": ["College degree", "Apprenticeship or trade school after high school CTE"], "feedback": "a landscape architect has a college degree and a license (that is who stamps the ramp plan); a landscape designer may learn through a two-year program or on a crew"}, {"id": "furniture-maker-path", "prompt": "Furniture maker", "picture": "who-built-it-furniture-maker.png", "answer": ["Apprenticeship or trade school after high school CTE"], "feedback": "high school CTE woodworking, then a shop apprenticeship or a two-year program; many are self-employed"}, {"id": "sustainability-consultant-path", "prompt": "Sustainability consultant", "picture": "who-built-it-sustainability-consultant.png", "answer": ["College degree"], "feedback": "usually a college degree (environmental science, engineering, architecture, or business) plus a green building credential (LEED is the common one)"}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "college-degree", "label": "College degree"}, {"id": "apprenticeship-or-trade-school-after-high-school-cte", "label": "Apprenticeship or trade school after high school CTE"}, {"id": "license-or-certification-after-a-course-and-experience", "label": "License or certification after a course and experience"}]}}], "option_sets": [{"label": "round_2_bins", "list": [{"id": "college-degree", "label": "College degree"}, {"id": "apprenticeship-or-trade-school-after-high-school-cte", "label": "Apprenticeship or trade school after high school CTE"}, {"id": "license-or-certification-after-a-course-and-experience", "label": "License or certification after a course and experience"}]}]}], "study": ["Three paths: a college degree; an apprenticeship or trade school after high school CTE; a license earned after a course and experience.", "An apprentice is paid from day one.", "The contractor builds; the inspector checks the builder and works for the buyer or the town, not the builder."], "rule_lines": [], "reference": {}, "_unmapped": {}, "lede": "A step from the Okafor room project appears. Tap the career that does it from four choices. Then a career card appears, and you tap its path: college degree, apprenticeship or trade school, or license."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("WhoBuiltIt");
+  var node = document.getElementById("WhoBuiltIt-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

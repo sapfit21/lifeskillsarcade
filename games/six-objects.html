@@ -40,199 +40,150 @@
 </header>
 <main id="main" class="plain">
 
-<!-- Six Objects. Reviews Lesson 0.1, the year map: the tray of six objects and the six unit names. Built 2026-09-15 from plan/u0.json.
-     Everything on this page is static: no sound, no storage, no network. -->
-<div class="game" id="sixObjects">
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="SixObjects">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
 <div class="teacher-note">
 <strong>Teacher note</strong>
-<p>This game reviews <a href="../lesson-00-01.html">Lesson 0.1, What Is FACS and Who Is in This Room</a>. Round 1 is the tray of six objects from day 1, each matched to the unit it stands for. Round 2 sorts the things students do in each unit (the six activities from Step 1 and the home skills from the do now) into the same six bins. Use it as the do now on day 2 or day 3 of the year, and again on the first day of any new unit to reset the map. A miss shows the plain unit name with its NYS module name in parentheses, the same pairing as Handout 00.01. Nothing is saved when the page closes.</p>
+<p>Reviews <a href="../lesson-00-01.html">Lesson 0.1</a>. Reviews Lesson 0.1, the year map. Round 1 is the tray of six objects from day 1 matched to the six unit names; round 2 sorts the things students do in each unit (the six activities from Step 1 and the home skills from the do now) into the same six bins. Use it as the do now on day 2 or day 3 of the year, and again on the first day of any new unit to reset the map. the miss feedback gives the plain unit name and the NYS module name in parentheses, the same pairing as the handout key. The four home skills are sorted by what they obviously are (watch a little kid is Growing Up, Getting Along); the lesson lists them as examples without naming a unit for each, so if a student argues that fix something could be two units, they are right, which is why that one is left out.</p>
 </div>
 
+<!-- 2. Title and lede. The second word takes the accent style. -->
 <div class="game-head"><img class="title-art" src="art/six-objects-title.webp" alt=""><h1 class="game-title">Six <span class="alt2">Objects</span></h1></div>
-<p class="game-lede">Six objects, six units. Tap the unit each one stands for. Then a fast round: which unit does each thing you do belong to?</p>
+<p class="game-lede">The tray from day 1: six objects, six units. Tap the unit each one stands for, then sort the things you do this year into the same six bins.</p>
 
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
 <div class="hud" aria-hidden="true">
-  <div class="stat"><span class="lab">Round</span><span class="val" id="soRound">1 of 2</span></div>
-  <div class="stat timer" id="soTimerBox"><span class="lab">Seconds</span><span class="val" id="soTimer">8</span></div>
-  <div class="stat"><span class="lab">Streak</span><span class="val" id="soStreak">0</span></div>
-  <div class="stat score"><span class="lab">Score</span><span class="val" id="soScore">0</span></div>
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
 </div>
-<div class="sr-live" aria-live="polite" id="soLive"></div>
 
-<div class="panel" id="soStart">
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
   <h2>How to play</h2>
-  <p>Round 1: six objects, 8 seconds each. Round 2: twelve things you do, 6 seconds each. Every right tap is 10 points, and three in a row adds 5. A miss shows the right unit. Seconds left on a completed round bank as points.</p>
-  <p><button class="gbtn go" id="soGo" type="button">Start</button></p>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
 </div>
 
-<div class="sr-play" id="soPlay" hidden>
-  <div class="sr-task"><span class="sr-tasklab" id="soLab">Round 1: the tray</span><span class="sr-tasktext so-prompt" id="soText"></span></div>
-  <div class="feedback" id="soFeed"></div>
-  <div class="so-bins" id="soBins"></div>
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
 </div>
 
-<div class="art-bank" id="soArt" hidden>
-<span data-key="wooden spoon"><img class="piece" src="art/six-objects-wooden-spoon.webp" alt="" loading="lazy"></span>
-<span data-key="coin"><img class="piece" src="art/six-objects-coin.webp" alt="" loading="lazy"></span>
-<span data-key="baby sock"><img class="piece" src="art/six-objects-baby-sock.webp" alt="" loading="lazy"></span>
-<span data-key="paint chip"><img class="piece" src="art/six-objects-paint-chip.webp" alt="" loading="lazy"></span>
-<span data-key="needle and thread"><img class="piece" src="art/six-objects-needle-and-thread.webp" alt="" loading="lazy"></span>
-<span data-key="can of beans"><img class="piece" src="art/six-objects-can-of-beans.webp" alt="" loading="lazy"></span>
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="six-objects-wooden-spoon"><img class="piece" src="art/six-objects-wooden-spoon.webp" alt="" loading="lazy"></span>
+<span data-key="six-objects-coin"><img class="piece" src="art/six-objects-coin.webp" alt="" loading="lazy"></span>
+<span data-key="six-objects-baby-sock"><img class="piece" src="art/six-objects-baby-sock.webp" alt="" loading="lazy"></span>
+<span data-key="six-objects-paint-chip"><img class="piece" src="art/six-objects-paint-chip.webp" alt="" loading="lazy"></span>
+<span data-key="six-objects-needle-and-thread"><img class="piece" src="art/six-objects-needle-and-thread.webp" alt="" loading="lazy"></span>
+<span data-key="six-objects-can-of-beans"><img class="piece" src="art/six-objects-can-of-beans.webp" alt="" loading="lazy"></span>
 </div>
 
-<div class="panel end" id="soEnd" hidden>
-  <h2>The year map</h2>
-  <p class="big" id="soFinal"></p>
-  <p id="soSummary"></p>
-  <div id="soMissWrap"><p><b>The ones to study:</b></p><ul class="miss-list" id="soMissed"></ul></div>
-  <div class="so-study"><p><b>Worth knowing by heart:</b></p><ul>
-    <li>The six units in order: Kitchen Skills and Smart Eating; Me, My Goals, My Money; Growing Up, Getting Along; Spaces We Live In; Make It, Mend It, Wear It; From Farm to Table.</li>
-    <li>The first cooking lab is on day 16 of the year.</li>
-    <li>The three things you can count on: I will tell you the day before if anything hot or sharp is coming; the board tells you what to do before you sit, every day; when the lights blink and I count down, hands go empty and eyes come here.</li>
-  </ul></div>
-  <p><button class="gbtn go" id="soAgain" type="button">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The six units in order: Kitchen Skills and Smart Eating; Me, My Goals, My Money; Growing Up, Getting Along; Spaces We Live In; Make It, Mend It, Wear It; From Farm to Table.</li><li>The first cooking lab is on day 16 of the year.</li><li>The three things you can count on: I will tell you the day before if anything hot or sharp is coming; the board tells you what to do before you sit, every day; when the lights blink and I count down, hands go empty and eyes come here.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
 </div>
 </div>
 
 <style>
-.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;box-shadow:5px 5px 0 var(--outline)}
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
 .sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
 .sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
-.so-prompt .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
-.so-bins{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
-@media (min-width:700px){.so-bins{grid-template-columns:repeat(3,minmax(0,1fr))}}
-.so-bins .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal}
-.so-study ul{margin:.3rem 0 0 1.1rem;padding:0}
-.so-study li{margin:.25rem 0;line-height:1.4}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
 </style>
 
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="SixObjects-data">{"schema": "1.0", "slug": "six-objects", "title": "Six Objects", "unit": 0, "lessons": ["0.1"], "handouts": ["Handout 00.01 - Course Map and Hope Card"], "standards": ["CTE CCO 1. The Work World c) Compare the similarities and differences among home, school, community, and work environments", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others."], "source_file": "u0.json", "mechanic_note": "sort: an object picture appears, tap the unit it stands for (six bins, the six unit names); then a second round where a thing you do (in this room or at home) appears as text and you tap the unit it belongs to", "teacher_note": "Reviews Lesson 0.1, the year map. Round 1 is the tray of six objects from day 1 matched to the six unit names; round 2 sorts the things students do in each unit (the six activities from Step 1 and the home skills from the do now) into the same six bins. Use it as the do now on day 2 or day 3 of the year, and again on the first day of any new unit to reset the map. the miss feedback gives the plain unit name and the NYS module name in parentheses, the same pairing as the handout key. The four home skills are sorted by what they obviously are (watch a little kid is Growing Up, Getting Along); the lesson lists them as examples without naming a unit for each, so if a student argues that fix something could be two units, they are right, which is why that one is left out.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right unit with its NYS module name; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "six-objects-title.png", "line": "A cream wooden tray holding six small objects side by side: a wooden spoon, a yellow coin, a sky blue baby sock, a green paint chip, a needle with red thread, and a white can with a plain green label."}, "scene": [], "cards": [{"file": "six-objects-wooden-spoon.png", "line": "A plain wooden spoon in cream with a black outline, handle pointing down."}, {"file": "six-objects-coin.png", "line": "A round yellow coin with a plain face and a black outline."}, {"file": "six-objects-baby-sock.png", "line": "A tiny sky blue baby sock with a white cuff."}, {"file": "six-objects-paint-chip.png", "line": "A tall paper paint chip with four stacked squares of green from light to dark."}, {"file": "six-objects-needle-and-thread.png", "line": "A silver light gray sewing needle with a loop of red thread through its eye, resting on a cream card."}, {"file": "six-objects-can-of-beans.png", "line": "A white tin can with a plain green label band and a light gray lid, standing upright."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 6 objects, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "wooden-spoon", "prompt": "A wooden spoon", "answer": ["Kitchen Skills and Smart Eating"], "feedback": "The spoon is Kitchen Skills and Smart Eating (Nutrition and Wellness)."}, {"id": "coin", "prompt": "A coin", "answer": ["Me, My Goals, My Money"], "feedback": "The coin is Me, My Goals, My Money (Individual Growth and Life Readiness)."}, {"id": "baby-sock", "prompt": "A baby sock", "answer": ["Growing Up, Getting Along"], "feedback": "The sock is Growing Up, Getting Along (Human Development and Relationships)."}, {"id": "paint-chip", "prompt": "A paint chip or tape measure", "answer": ["Spaces We Live In"], "feedback": "The paint chip is Spaces We Live In (Environmental Design and Management)."}, {"id": "needle-and-thread", "prompt": "A needle and thread", "answer": ["Make It, Mend It, Wear It"], "feedback": "The needle is Make It, Mend It, Wear It (Apparel and Textile Production and Design)."}, {"id": "can-of-beans", "prompt": "A can of beans", "answer": ["From Farm to Table"], "feedback": "The can is From Farm to Table (Food Systems and Production)."}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "kitchen-skills-and-smart-eating", "label": "Kitchen Skills and Smart Eating", "sub": "Nutrition and Wellness"}, {"id": "me-my-goals-my-money", "label": "Me, My Goals, My Money", "sub": "Individual Growth and Life Readiness"}, {"id": "growing-up-getting-along", "label": "Growing Up, Getting Along", "sub": "Human Development and Relationships"}, {"id": "spaces-we-live-in", "label": "Spaces We Live In", "sub": "Environmental Design and Management"}, {"id": "make-it-mend-it-wear-it", "label": "Make It, Mend It, Wear It", "sub": "Apparel and Textile Production and Design"}, {"id": "from-farm-to-table", "label": "From Farm to Table", "sub": "Food Systems and Production"}]}}], "option_sets": [{"label": "bins", "list": [{"id": "kitchen-skills-and-smart-eating", "label": "Kitchen Skills and Smart Eating", "sub": "Nutrition and Wellness"}, {"id": "me-my-goals-my-money", "label": "Me, My Goals, My Money", "sub": "Individual Growth and Life Readiness"}, {"id": "growing-up-getting-along", "label": "Growing Up, Getting Along", "sub": "Human Development and Relationships"}, {"id": "spaces-we-live-in", "label": "Spaces We Live In", "sub": "Environmental Design and Management"}, {"id": "make-it-mend-it-wear-it", "label": "Make It, Mend It, Wear It", "sub": "Apparel and Textile Production and Design"}, {"id": "from-farm-to-table", "label": "From Farm to Table", "sub": "Food Systems and Production"}]}]}, {"n": 2, "note": "Round 2: 12 things you do, 6 seconds each", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "cook-a-real-lab", "prompt": "cook a real lab", "answer": ["Kitchen Skills and Smart Eating"], "tags": {"source": "Lesson 0.1 Step 1"}}, {"id": "run-a-stock-market-simulation", "prompt": "run a stock market simulation", "answer": ["Me, My Goals, My Money"], "tags": {"source": "Lesson 0.1 Step 1"}}, {"id": "plan-a-babysitting-kit", "prompt": "plan a babysitting kit", "answer": ["Growing Up, Getting Along"], "tags": {"source": "Lesson 0.1 Step 1"}}, {"id": "design-a-room", "prompt": "design a room", "answer": ["Spaces We Live In"], "tags": {"source": "Lesson 0.1 Step 1"}}, {"id": "sew-something-they-keep", "prompt": "sew something they keep", "answer": ["Make It, Mend It, Wear It"], "tags": {"source": "Lesson 0.1 Step 1"}}, {"id": "trace-a-food-from-the-farm-to-the-plate", "prompt": "trace a food from the farm to the plate", "answer": ["From Farm to Table"], "tags": {"source": "Lesson 0.1 Step 1"}}, {"id": "cook-one-thing", "prompt": "cook one thing", "answer": ["Kitchen Skills and Smart Eating"], "tags": {"source": "Lesson 0.1 do now"}}, {"id": "watch-a-little-kid", "prompt": "watch a little kid", "answer": ["Growing Up, Getting Along"], "tags": {"source": "Lesson 0.1 do now"}}, {"id": "find-a-deal", "prompt": "find a deal", "answer": ["Me, My Goals, My Money"], "tags": {"source": "Lesson 0.1 do now"}}, {"id": "sew-a-button", "prompt": "sew a button", "answer": ["Make It, Mend It, Wear It"], "tags": {"source": "Lesson 0.1 do now"}}, {"id": "hang-shelves", "prompt": "hang shelves", "answer": ["Spaces We Live In"], "tags": {"source": "Lesson 0.1 check for understanding"}}, {"id": "watch-my-cousin", "prompt": "watch my cousin", "answer": ["Growing Up, Getting Along"], "tags": {"source": "Lesson 0.1 check for understanding"}}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "kitchen-skills-and-smart-eating", "label": "Kitchen Skills and Smart Eating", "sub": "Nutrition and Wellness"}, {"id": "me-my-goals-my-money", "label": "Me, My Goals, My Money", "sub": "Individual Growth and Life Readiness"}, {"id": "growing-up-getting-along", "label": "Growing Up, Getting Along", "sub": "Human Development and Relationships"}, {"id": "spaces-we-live-in", "label": "Spaces We Live In", "sub": "Environmental Design and Management"}, {"id": "make-it-mend-it-wear-it", "label": "Make It, Mend It, Wear It", "sub": "Apparel and Textile Production and Design"}, {"id": "from-farm-to-table", "label": "From Farm to Table", "sub": "Food Systems and Production"}]}}], "option_sets": [{"label": "bins", "list": [{"id": "kitchen-skills-and-smart-eating", "label": "Kitchen Skills and Smart Eating", "sub": "Nutrition and Wellness"}, {"id": "me-my-goals-my-money", "label": "Me, My Goals, My Money", "sub": "Individual Growth and Life Readiness"}, {"id": "growing-up-getting-along", "label": "Growing Up, Getting Along", "sub": "Human Development and Relationships"}, {"id": "spaces-we-live-in", "label": "Spaces We Live In", "sub": "Environmental Design and Management"}, {"id": "make-it-mend-it-wear-it", "label": "Make It, Mend It, Wear It", "sub": "Apparel and Textile Production and Design"}, {"id": "from-farm-to-table", "label": "From Farm to Table", "sub": "Food Systems and Production"}]}]}], "study": ["The six units in order: Kitchen Skills and Smart Eating; Me, My Goals, My Money; Growing Up, Getting Along; Spaces We Live In; Make It, Mend It, Wear It; From Farm to Table.", "The first cooking lab is on day 16 of the year.", "The three things you can count on: I will tell you the day before if anything hot or sharp is coming; the board tells you what to do before you sit, every day; when the lights blink and I count down, hands go empty and eyes come here."], "rule_lines": [], "reference": {}, "_unmapped": {}, "lede": "The tray from day 1: six objects, six units. Tap the unit each one stands for, then sort the things you do this year into the same six bins."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
 <script>
 (function () {
   "use strict";
-  // The six units and their NYS module names, from Lesson 0.1 and Handout 00.01.
-  var BINS = [
-    {name: "Kitchen Skills and Smart Eating", nys: "Nutrition and Wellness"},
-    {name: "Me, My Goals, My Money", nys: "Individual Growth and Life Readiness"},
-    {name: "Growing Up, Getting Along", nys: "Human Development and Relationships"},
-    {name: "Spaces We Live In", nys: "Environmental Design and Management"},
-    {name: "Make It, Mend It, Wear It", nys: "Apparel and Textile Production and Design"},
-    {name: "From Farm to Table", nys: "Food Systems and Production"}
-  ];
-  // Round 1: the tray. Round 2: things you do, from Lesson 0.1 Step 1, the do now, and the check for understanding.
-  var ROUND1 = [
-    {key: "wooden spoon", text: "A wooden spoon", answer: 0},
-    {key: "coin", text: "A coin", answer: 1},
-    {key: "baby sock", text: "A baby sock", answer: 2},
-    {key: "paint chip", text: "A paint chip or tape measure", answer: 3},
-    {key: "needle and thread", text: "A needle and thread", answer: 4},
-    {key: "can of beans", text: "A can of beans", answer: 5}
-  ];
-  var ROUND2 = [
-    {text: "cook a real lab", answer: 0}, {text: "run a stock market simulation", answer: 1},
-    {text: "plan a babysitting kit", answer: 2}, {text: "design a room", answer: 3},
-    {text: "sew something they keep", answer: 4}, {text: "trace a food from the farm to the plate", answer: 5},
-    {text: "cook one thing", answer: 0}, {text: "watch a little kid", answer: 2},
-    {text: "find a deal", answer: 1}, {text: "sew a button", answer: 4},
-    {text: "hang shelves", answer: 3}, {text: "watch my cousin", answer: 2}
-  ];
-  var R1_SECS = 8, R2_SECS = 6;
-
-  // card pictures: a hidden bank in the page holds one image per object that has art (build_site.py fills it in, D52)
-  function art(key) { var im = document.querySelector('#soArt [data-key="' + key + '"] img'); return im ? im.cloneNode(true) : null; }
-
-  var startP = document.getElementById("soStart"), playP = document.getElementById("soPlay"), endP = document.getElementById("soEnd");
-  var elRound = document.getElementById("soRound"), elT = document.getElementById("soTimer"), elTB = document.getElementById("soTimerBox");
-  var elS = document.getElementById("soStreak"), elSc = document.getElementById("soScore"), live = document.getElementById("soLive");
-  var feed = document.getElementById("soFeed"), bins = document.getElementById("soBins"), txt = document.getElementById("soText"), lab = document.getElementById("soLab");
-
-  var score, streak, secs, tick, round, deck, qi, right1, right2, missed, locked, feedTimer, banked;
-
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function hud() {
-    elRound.textContent = round + " of 2"; elT.textContent = secs; elS.textContent = streak; elSc.textContent = score;
-    elTB.className = "stat timer" + (secs <= 2 && tick ? " low" : "");
-  }
-  function say(text, cls) {
-    feed.textContent = text; feed.className = "feedback" + (cls ? " " + cls : "");
-    clearTimeout(feedTimer);
-    feedTimer = setTimeout(function () { feed.textContent = ""; feed.className = "feedback"; }, 2600);
-  }
-  function stopClock() { clearInterval(tick); tick = null; }
-  function startClock(n, onOut) {
-    stopClock(); secs = n; hud();
-    tick = setInterval(function () { secs -= 1; if (secs <= 0) { secs = 0; hud(); stopClock(); onOut(); return; } hud(); }, 1000);
-  }
-  function scoreHit() { score += 10; streak += 1; if (streak % 3 === 0) { score += 5; return " Three in a row: bonus 5."; } return ""; }
-
-  function buildBins() {
-    bins.innerHTML = "";
-    BINS.forEach(function (b, i) {
-      var el = document.createElement("button"); el.type = "button"; el.className = "gbtn"; el.textContent = b.name; el.setAttribute("data-i", i);
-      el.addEventListener("click", function () { answer(i, el); });
-      bins.appendChild(el);
-    });
-  }
-  function startRound(r) {
-    round = r; qi = 0; locked = false;
-    deck = shuffle((r === 1 ? ROUND1 : ROUND2).slice());
-    lab.textContent = r === 1 ? "Round 1: the tray" : "Round 2: things you do";
-    playP.hidden = false; buildBins();
-    show();
-    playP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function show() {
-    var q = deck[qi];
-    lab.textContent = (round === 1 ? "Round 1: the tray, " : "Round 2: things you do, ") + (qi + 1) + " of " + deck.length;
-    txt.textContent = "";
-    var a = q.key ? art(q.key) : null; if (a) { txt.appendChild(a); }
-    txt.appendChild(document.createTextNode(round === 1 ? q.text + ". Which unit?" : "You " + q.text + ". Which unit?"));
-    live.textContent = (round === 1 ? q.text : "You " + q.text) + ". Which unit?";
-    locked = false;
-    startClock(round === 1 ? R1_SECS : R2_SECS, function () { answer(-1, null); });
-  }
-  function answer(i, btn) {
-    if (locked) { return; }
-    locked = true; stopClock();
-    var q = deck[qi], b = BINS[q.answer], ok = i === q.answer;
-    var bs = bins.querySelectorAll(".gbtn"); bs[q.answer].classList.add("right");
-    if (ok) {
-      if (round === 1) { right1 += 1; } else { right2 += 1; }
-      say("Yes. " + b.name + " (" + b.nys + ")." + scoreHit(), "good");
-    } else {
-      streak = 0; if (btn) { btn.classList.add("wrong"); }
-      say((i < 0 ? "Time. " : "No. ") + (round === 1 ? q.text : "You " + q.text) + " is " + b.name + " (" + b.nys + ").", "bad");
-      missed.push((round === 1 ? q.text : "You " + q.text) + ": " + b.name + " (" + b.nys + ")");
-    }
-    hud();
-    setTimeout(function () {
-      for (var k = 0; k < bs.length; k++) { bs[k].classList.remove("right", "wrong"); }
-      qi += 1;
-      if (qi < deck.length) { show(); return; }
-      // a completed round banks the seconds left on its last question
-      if (ok) { score += secs; banked += secs; }
-      if (round === 1) { startRound(2); } else { finish(); }
-    }, 1100);
-  }
-  function finish() {
-    stopClock();
-    playP.hidden = true; endP.hidden = false;
-    document.getElementById("soFinal").textContent = score + " points";
-    if (window.LSA && LSA.report) { LSA.report({game: "six-objects", lesson: "0.1", score: score, max: 0, rounds: 2}); }
-    document.getElementById("soSummary").textContent = "The tray: " + right1 + " of 6. Things you do: " + right2 + " of 12." +
-      (missed.length ? "" : " Every object and every job in its unit. You know the map.");
-    var ul = document.getElementById("soMissed"); ul.innerHTML = "";
-    document.getElementById("soMissWrap").hidden = !missed.length;
-    missed.forEach(function (m) { var li = document.createElement("li"); li.textContent = m; ul.appendChild(li); });
-    endP.scrollIntoView({behavior: "smooth", block: "start"});
-  }
-  function begin() {
-    score = 0; streak = 0; missed = []; right1 = 0; right2 = 0; banked = 0;
-    startP.hidden = true; endP.hidden = true;
-    startRound(1);
-  }
-  document.getElementById("soGo").addEventListener("click", begin);
-  document.getElementById("soAgain").addEventListener("click", begin);
-  secs = R1_SECS; score = 0; streak = 0; round = 1; hud();
+  var root = document.getElementById("SixObjects");
+  var node = document.getElementById("SixObjects-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
 }());
 </script>
 

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Measure Up, Life Skills Arcade</title>
+<meta name="description" content="An amount and an ingredient appear. Tap the right tool: dry measuring cups, liquid measuring cup, or measuring spoons. Then an equivalent, an abbreviation, or a doubled recipe line appears. Tap the answer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="MeasureUp">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-01-06.html">Lesson 1.6</a>, <a href="../lesson-01-07.html">Lesson 1.7</a>. Reviews Lesson 1.6 Day 1 (the three techniques and the equivalents table) and the scaling table from Lesson 1.7. Use it the day before the Silent Measurement Challenge, or as the review before the measuring station of the Tools and Measuring Performance Check in Lesson 1.8. Round 1 is the tool choice with the technique as feedback; round 2 is the equivalents chant and the doubling and halving practice as tap questions. Grade 6 setting: round 1 uses cups and whole spoons only (drop the 1/3 c, 1/2 tsp oil, and 1/4 tsp salt cards) and round 2 stops at doubling (drop the halving and times-4 questions). Grade 8 stretch is not in the game; the 1 1/2 Tbsp oil and 3/4 c from a 1/4 and a 1/2 cup items stay on the challenge cards.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/measure-up-title.webp" alt=""><h1 class="game-title">Measure <span class="alt2">Up</span></h1></div>
+<p class="game-lede">An amount and an ingredient appear. Tap the right tool: dry measuring cups, liquid measuring cup, or measuring spoons. Then an equivalent, an abbreviation, or a doubled recipe line appears. Tap the answer.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Use the right tool: dry cups for flour and sugar, the glass cup for water and oil, spoons for small amounts.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="measure-up-flour"><img class="piece" src="art/measure-up-flour.webp" alt="" loading="lazy"></span>
+<span data-key="measure-up-sugar"><img class="piece" src="art/measure-up-sugar.webp" alt="" loading="lazy"></span>
+<span data-key="measure-up-water"><img class="piece" src="art/measure-up-water.webp" alt="" loading="lazy"></span>
+<span data-key="measure-up-oil"><img class="piece" src="art/measure-up-oil.webp" alt="" loading="lazy"></span>
+<span data-key="measure-up-salt"><img class="piece" src="art/measure-up-salt.webp" alt="" loading="lazy"></span>
+<span data-key="measure-up-dry-measuring-cups"><img class="piece" src="art/measure-up-dry-measuring-cups.webp" alt="" loading="lazy"></span>
+<span data-key="measure-up-liquid-measuring-cup"><img class="piece" src="art/measure-up-liquid-measuring-cup.webp" alt="" loading="lazy"></span>
+<span data-key="measure-up-measuring-spoons"><img class="piece" src="art/measure-up-measuring-spoons.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Dry: spoon it in, do not pack, level off with a straight edge</li><li>Liquid: read the line at eye level</li><li>Small amounts: measuring spoons, level for dry, fill to the brim for liquid, over the bowl</li><li>3 tsp = 1 Tbsp; 16 Tbsp = 1 c; 8 fl oz = 1 c; 4 Tbsp = 1/4 c; 2 c = 1 pint; 16 oz = 1 lb</li><li>Doubling and halving the Lab 1 recipes</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="MeasureUp-data">{"schema": "1.0", "slug": "measure-up", "title": "Measure Up", "unit": 1, "lessons": ["1.6", "1.7"], "handouts": ["Handout 01.06 - Measuring Practice and Equivalents", "Handout 01.06 - Silent Measurement Challenge Cards", "Handout 01.07 - Recipe Reading Practice"], "standards": ["NYS N&W 1. Culinary Management c) Demonstrate accurate measuring of dry/solid, liquid, and small quantity ingredients", "NYS N&W 1. Culinary Management d) Prepare a simple recipe", "CTE PSI 1. Problem Solving e) Demonstrate personal development of problem-solving skills through practice of these skills in a variety of classroom applications", "National FCS 3.0: 8.5.3 Show portion control and correct scaling and measuring.", "National FCS 3.0: 14.3.3 Show the ability to select, store, prepare, and serve food that is nourishing and looks good on the plate."], "source_file": "u1.json", "mechanic_note": "sort: an amount and an ingredient appear on a card, tap the right tool bin (dry measuring cups, liquid measuring cup, or measuring spoons); feedback gives the technique; then a fast read: an equivalent, an abbreviation, or a doubled or halved recipe line, tap the answer from three", "teacher_note": "Reviews Lesson 1.6 Day 1 (the three techniques and the equivalents table) and the scaling table from Lesson 1.7. Use it the day before the Silent Measurement Challenge, or as the review before the measuring station of the Tools and Measuring Performance Check in Lesson 1.8. Round 1 is the tool choice with the technique as feedback; round 2 is the equivalents chant and the doubling and halving practice as tap questions. Grade 6 setting: round 1 uses cups and whole spoons only (drop the 1/3 c, 1/2 tsp oil, and 1/4 tsp salt cards) and round 2 stops at doubling (drop the halving and times-4 questions). Grade 8 stretch is not in the game; the 1 1/2 Tbsp oil and 3/4 c from a 1/4 and a 1/2 cup items stay on the challenge cards.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right tool and technique or the right number in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "measure-up-title.png", "line": "A clear glass liquid measuring cup with a red handle and red lines, half full of sky blue water, in the sticker style."}, "scene": [], "cards": [{"file": "measure-up-flour.png", "line": "A cream colored paper bag of flour, top folded, with a small pile of white flour beside it, black outline."}, {"file": "measure-up-sugar.png", "line": "A white bowl heaped with white sugar and a light gray scoop resting in it, black outline."}, {"file": "measure-up-water.png", "line": "A clear pitcher filled with sky blue water, black outline."}, {"file": "measure-up-oil.png", "line": "A small clear bottle of yellow vegetable oil with a red cap, black outline."}, {"file": "measure-up-salt.png", "line": "A wide-mouth light gray container of white salt with the lid off beside it, black outline."}], "buttons": [], "bins": [{"file": "measure-up-dry-measuring-cups.png", "line": "A nested set of four light gray dry measuring cups with short handles, black outline."}, {"file": "measure-up-liquid-measuring-cup.png", "line": "A clear glass liquid measuring cup with a pour spout, a red handle, and red measuring lines, black outline."}, {"file": "measure-up-measuring-spoons.png", "line": "A ring of four light gray measuring spoons of different sizes fanned out, black outline."}], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 12 of the 18 amount cards, drawn fresh each play, 8 seconds each, three bins", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "0", "prompt": "1/2 cup flour", "answer": ["dry measuring cups"], "feedback": "Spoon it in. Do not pack. Level off with a straight edge.", "tags": {"ingredient": "flour"}}, {"id": "1", "prompt": "1 tablespoon flour", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill the spoon and level it if dry. Do it over a bowl, not over the mix.", "tags": {"ingredient": "flour"}}, {"id": "2", "prompt": "1/4 cup sugar", "answer": ["dry measuring cups"], "feedback": "Spoon it in. Do not pack. Level off with a straight edge.", "tags": {"ingredient": "sugar"}}, {"id": "3", "prompt": "1 teaspoon sugar", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill the spoon and level it if dry. Do it over a bowl, not over the mix.", "tags": {"ingredient": "sugar"}}, {"id": "4", "prompt": "1 cup water", "answer": ["liquid measuring cup"], "feedback": "Pour it in on the counter. Read the line at eye level; the bottom of the curve is the meniscus.", "tags": {"ingredient": "water"}}, {"id": "5", "prompt": "2 tablespoons water", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill to the brim if liquid. Do it over a bowl, not over the mix.", "tags": {"ingredient": "water"}}, {"id": "6", "prompt": "2 tablespoons oil", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill to the brim if liquid. Do it over a bowl, not over the mix.", "tags": {"ingredient": "oil"}}, {"id": "7", "prompt": "1/2 teaspoon oil", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill to the brim if liquid. Do it over a bowl, not over the mix.", "tags": {"ingredient": "oil"}}, {"id": "8", "prompt": "1 teaspoon salt", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill the spoon and level it if dry. Do it over a bowl, not over the mix.", "tags": {"ingredient": "salt"}}, {"id": "9", "prompt": "1/4 teaspoon salt", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill the spoon and level it if dry. Do it over a bowl, not over the mix.", "tags": {"ingredient": "salt"}}, {"id": "10", "prompt": "1 cup flour", "answer": ["dry measuring cups"], "feedback": "Spoon it in. Do not pack. Level off with a straight edge.", "tags": {"ingredient": "flour"}}, {"id": "11", "prompt": "1/2 cup sugar", "answer": ["dry measuring cups"], "feedback": "Spoon it in. Do not pack. Level off with a straight edge.", "tags": {"ingredient": "sugar"}}, {"id": "12", "prompt": "3/4 cup water", "answer": ["liquid measuring cup"], "feedback": "Pour it in on the counter. Read the line at eye level; the bottom of the curve is the meniscus.", "tags": {"ingredient": "water"}}, {"id": "13", "prompt": "1/4 cup oil", "answer": ["liquid measuring cup"], "feedback": "Pour it in on the counter. Read the line at eye level; the bottom of the curve is the meniscus.", "tags": {"ingredient": "oil"}}, {"id": "14", "prompt": "1/3 cup sugar", "answer": ["dry measuring cups"], "feedback": "Spoon it in. Do not pack. Level off with a straight edge.", "tags": {"ingredient": "sugar"}}, {"id": "15", "prompt": "1/2 cup water", "answer": ["liquid measuring cup"], "feedback": "Pour it in on the counter. Read the line at eye level; the bottom of the curve is the meniscus.", "tags": {"ingredient": "water"}}, {"id": "16", "prompt": "1/4 cup flour", "answer": ["dry measuring cups"], "feedback": "Spoon it in. Do not pack. Level off with a straight edge.", "tags": {"ingredient": "flour"}}, {"id": "17", "prompt": "3 tablespoons oil", "answer": ["measuring spoons"], "feedback": "Measuring spoons. Fill to the brim if liquid. Do it over a bowl, not over the mix.", "tags": {"ingredient": "oil"}}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "dry-measuring-cups", "label": "dry measuring cups"}, {"id": "liquid-measuring-cup", "label": "liquid measuring cup"}, {"id": "measuring-spoons", "label": "measuring spoons"}]}, "take": 12}], "option_sets": [{"label": "bins_round1", "list": [{"id": "dry-measuring-cups", "label": "dry measuring cups"}, {"id": "liquid-measuring-cup", "label": "liquid measuring cup"}, {"id": "measuring-spoons", "label": "measuring spoons"}]}]}, {"n": 2, "note": "Round 2: 14 of the 20 questions, drawn fresh each play, 10 seconds each, three choices", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "0", "prompt": "3 tsp = 1 ___", "answer": ["Tbsp"], "choices": ["Tbsp", "c", "oz"], "feedback": "3 tsp = 1 Tbsp."}, {"id": "1", "prompt": "16 Tbsp = 1 ___", "answer": ["c"], "choices": ["c", "pint", "lb"], "feedback": "16 Tbsp = 1 c."}, {"id": "2", "prompt": "8 fl oz = 1 ___ (liquid)", "answer": ["c"], "choices": ["c", "Tbsp", "pint"], "feedback": "8 fl oz = 1 c (liquid)."}, {"id": "3", "prompt": "4 Tbsp = ___ c", "answer": ["1/4"], "choices": ["1/4", "1/2", "1/8"], "feedback": "4 Tbsp = 1/4 c."}, {"id": "4", "prompt": "2 c = 1 ___", "answer": ["pint"], "choices": ["pint", "lb", "quart"], "feedback": "2 c = 1 pint."}, {"id": "5", "prompt": "16 oz = 1 ___ (by weight)", "answer": ["lb"], "choices": ["lb", "c", "pint"], "feedback": "16 oz = 1 lb (by weight)."}, {"id": "6", "prompt": "Which is bigger, tsp or Tbsp?", "answer": ["Tbsp"], "choices": ["Tbsp", "tsp", "They are the same"], "feedback": "Tbsp is bigger. tsp is teaspoon; Tbsp is tablespoon; 3 tsp = 1 Tbsp."}, {"id": "7", "prompt": "A recipe needs 2 Tbsp of oil. You only have a teaspoon. How many teaspoons?", "answer": ["6 tsp"], "choices": ["6 tsp", "4 tsp", "8 tsp"], "feedback": "6 tsp. 3 tsp = 1 Tbsp, so 2 Tbsp is 6 tsp."}, {"id": "8", "prompt": "A recipe needs 1/2 c of milk. How many tablespoons is that?", "answer": ["8 Tbsp"], "choices": ["8 Tbsp", "4 Tbsp", "16 Tbsp"], "feedback": "8 Tbsp. 16 Tbsp = 1 c, so 1/2 c is 8 Tbsp."}, {"id": "9", "prompt": "Double it: the recipe says 1/4 tsp baking powder. Doubled = ___ tsp", "answer": ["1/2 tsp"], "choices": ["1/2 tsp", "1/8 tsp", "1 tsp"], "feedback": "1/2 tsp."}, {"id": "10", "prompt": "Halve it: the recipe says 3 Tbsp sugar. Halved = ___ Tbsp", "answer": ["1 1/2 Tbsp"], "choices": ["1 1/2 Tbsp", "1 Tbsp", "2 Tbsp"], "feedback": "1 1/2 Tbsp (one tablespoon plus one and a half teaspoons, or a tablespoon and a half-tablespoon if the set has one)."}, {"id": "11", "prompt": "A recipe for 4 people needs 1 1/2 c of rice. You are cooking for 8. How much rice?", "answer": ["3 c"], "choices": ["3 c", "2 c", "4 1/2 c"], "feedback": "3 c."}, {"id": "12", "prompt": "Mug cake, times 4 for the station: 3 Tbsp flour becomes ___", "answer": ["12 Tbsp = 3/4 c"], "choices": ["12 Tbsp = 3/4 c", "6 Tbsp = 1/2 c", "12 Tbsp = 1/2 c"], "feedback": "12 Tbsp = 3/4 c."}, {"id": "13", "prompt": "Mug cake, times 4: 2 Tbsp cocoa becomes ___", "answer": ["8 Tbsp = 1/2 c"], "choices": ["8 Tbsp = 1/2 c", "4 Tbsp = 1/4 c", "8 Tbsp = 1 c"], "feedback": "8 Tbsp = 1/2 c."}, {"id": "14", "prompt": "Mug cake, times 4: 1/4 tsp baking powder becomes ___", "answer": ["1 tsp"], "choices": ["1 tsp", "1/2 tsp", "2 tsp"], "feedback": "1 tsp."}, {"id": "15", "prompt": "Scrambled Egg Tacos, halved for 4 people: 8 eggs becomes ___", "answer": ["4 eggs"], "choices": ["4 eggs", "6 eggs", "2 eggs"], "feedback": "4 eggs."}, {"id": "16", "prompt": "Scrambled Egg Tacos, halved: 2 Tbsp butter becomes ___", "answer": ["1 Tbsp"], "choices": ["1 Tbsp", "1 tsp", "4 Tbsp"], "feedback": "1 Tbsp."}, {"id": "17", "prompt": "Scrambled Egg Tacos, halved: 1 c cheese becomes ___", "answer": ["1/2 c"], "choices": ["1/2 c", "1/4 c", "2 c"], "feedback": "1/2 c."}, {"id": "18", "prompt": "Halve 1/4 tsp. What spoon would you use?", "answer": ["1/8 tsp"], "choices": ["1/8 tsp", "1/2 tsp", "1 tsp"], "feedback": "1/4 tsp halved is 1/8 tsp."}, {"id": "19", "prompt": "What does c mean in a recipe?", "answer": ["cup"], "choices": ["cup", "can", "cocoa"], "feedback": "c is cup. tsp teaspoon, Tbsp tablespoon, oz ounce, lb pound."}], "options": {"source": "per_item", "style": "choices", "count": 3}, "take": 14}], "option_sets": [{"label": "bins_round1", "list": [{"id": "dry-measuring-cups", "label": "dry measuring cups"}, {"id": "liquid-measuring-cup", "label": "liquid measuring cup"}, {"id": "measuring-spoons", "label": "measuring spoons"}]}]}], "study": ["Dry: spoon it in, do not pack, level off with a straight edge", "Liquid: read the line at eye level", "Small amounts: measuring spoons, level for dry, fill to the brim for liquid, over the bowl", "3 tsp = 1 Tbsp; 16 Tbsp = 1 c; 8 fl oz = 1 c; 4 Tbsp = 1/4 c; 2 c = 1 pint; 16 oz = 1 lb", "Doubling and halving the Lab 1 recipes"], "rule_lines": ["Use the right tool: dry cups for flour and sugar, the glass cup for water and oil, spoons for small amounts."], "reference": {}, "_unmapped": {}, "lede": "An amount and an ingredient appear. Tap the right tool: dry measuring cups, liquid measuring cup, or measuring spoons. Then an equivalent, an abbreviation, or a doubled recipe line appears. Tap the answer."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("MeasureUp");
+  var node = document.getElementById("MeasureUp-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

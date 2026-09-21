@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Risk Ladder, Life Skills Arcade</title>
+<meta name="description" content="Tap the seven venture cards onto the ladder from safest at the bottom to riskiest at the top, then the seven rungs from jar to new company stock. Then a venture card appears, and you tap what it really is.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="RiskLadder">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-02-14.html">Lesson 2.14</a>, <a href="../lesson-02-19.html">Lesson 2.19</a>. Reviews Lesson 2.14 Day 1 (the Venture Risk Cards sort and the risk ladder from slide 4; Round 1) and Lesson 2.19 Day 1 (the reveal table and the rest of the map; Round 2). Do not use Round 2 before Lesson 2.19; the 'what it really is' column is the reveal, and the cards say nobody learns it until Day 9. Round 1 works any day of the Investor Challenge as a warm-up before the trading window. Round 2 is the review before the Unit 2 Test, and it also works in Unit 7 when the same instruments come back. Settings: grade 6 plays the five-card sort from the lesson (HNYP, SEAL, WLLW, MDOW, SPRK) in Round 1; the Willowbrook and Meadowgold rungs accept either order, as the teacher key does.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/risk-ladder-title.webp" alt=""><h1 class="game-title">Risk <span class="alt2">Ladder</span></h1></div>
+<p class="game-lede">Tap the seven venture cards onto the ladder from safest at the bottom to riskiest at the top, then the seven rungs from jar to new company stock. Then a venture card appears, and you tap what it really is.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Higher up the ladder, more it can grow, more it can fall.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="risk-ladder-sparkstone"><img class="piece" src="art/risk-ladder-sparkstone.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-cloudberry"><img class="piece" src="art/risk-ladder-cloudberry.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-iron-vault"><img class="piece" src="art/risk-ladder-iron-vault.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-crown-seal"><img class="piece" src="art/risk-ladder-crown-seal.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-willowbrook"><img class="piece" src="art/risk-ladder-willowbrook.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-honeypot"><img class="piece" src="art/risk-ladder-honeypot.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-meadowgold"><img class="piece" src="art/risk-ladder-meadowgold.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-jar"><img class="piece" src="art/risk-ladder-jar.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-bank"><img class="piece" src="art/risk-ladder-bank.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-government-bond"><img class="piece" src="art/risk-ladder-government-bond.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-company-bond"><img class="piece" src="art/risk-ladder-company-bond.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-real-estate"><img class="piece" src="art/risk-ladder-real-estate.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-big-company-stock"><img class="piece" src="art/risk-ladder-big-company-stock.webp" alt="" loading="lazy"></span>
+<span data-key="risk-ladder-new-company-stock"><img class="piece" src="art/risk-ladder-new-company-stock.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Handout 02.14 Venture Risk Cards: the seven cards and the risk word for each</li><li>The risk ladder on the Investor Journal cover</li><li>Handout 02.19 Investor Report Template Part 6: the reveal table and the word bank</li><li>Saving keeps your money safe. Investing puts it to work, and work can go wrong.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="RiskLadder-data">{"schema": "1.0", "slug": "risk-ladder", "title": "Risk Ladder", "unit": 2, "lessons": ["2.14", "2.19"], "handouts": ["Handout 02.14 - Venture Risk Cards", "Handout 02.14 - Investor Journal", "Handout 02.19 - Investor Report Template"], "standards": ["NYS IGLR 4. Financial Readiness e) Determine ways for saving money", "NYS IGLR 4. Financial Readiness b) Create and follow a budget", "NYS IGLR 2. Goal Setting d) Design, implement, and evaluate a plan to attain a desired goal", "CTE FCL 2. Saving, Investing, and Sharing b) Define \"investing\" and explain how saving and investing are related", "CTE FCL 3. Protecting and Insuring a) Identify various types of financial risk", "CTE FCL 2. Saving, Investing, and Sharing f) Apply decision-making skills to saving, investing, and donating decisions", "CTE CIR 1. Communication f) Demonstrate personal development of communication skills through practice of these skills in a variety of classroom applications", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students understand the resources available to them, make informed decisions about the use of those resources, and know some ways to expand resources.", "CDOS Standard 3a Universal Foundation Skills: Managing Information", "National FCS 3.0: 3.3.4 Compare different ways to save and invest.", "National FCS 3.0: 2.6.2 Use sound money management principles in personal and family finances."], "source_file": "u2.json", "mechanic_note": "order, then match: Round 1, tap the seven shuffled venture cards onto the ladder from safest (bottom) to riskiest (top), then do the same with the seven rungs of the risk ladder from the board (jar to new company stock); Round 2, a venture card appears and you tap what it really is from the word bank, then four quick cards for the rest of the map (AQ, Fortune Street, the dispatches, the crisis)", "teacher_note": "Reviews Lesson 2.14 Day 1 (the Venture Risk Cards sort and the risk ladder from slide 4; Round 1) and Lesson 2.19 Day 1 (the reveal table and the rest of the map; Round 2). Do not use Round 2 before Lesson 2.19; the 'what it really is' column is the reveal, and the cards say nobody learns it until Day 9. Round 1 works any day of the Investor Challenge as a warm-up before the trading window. Round 2 is the review before the Unit 2 Test, and it also works in Unit 7 when the same instruments come back. Settings: grade 6 plays the five-card sort from the lesson (HNYP, SEAL, WLLW, MDOW, SPRK) in Round 1; the Willowbrook and Meadowgold rungs accept either order, as the teacher key does.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round; in Round 1 each card on the right rung scores, and the Willowbrook and Meadowgold rungs accept either order for the points but the feedback names the key order"}, "art": {"title": {"file": "risk-ladder-title.png", "line": "A light gray step ladder with a yellow coin on the top rung and a red coin on the bottom rung, black outline, sticker style."}, "scene": [], "cards": [{"file": "risk-ladder-sparkstone.png", "line": "A mine shaft entrance cut into gray rock with a yellow lightning bolt above it, black outline, sticker style."}, {"file": "risk-ladder-cloudberry.png", "line": "A hot-air balloon with red and white stripes floating above white clouds on sky blue, black outline."}, {"file": "risk-ladder-iron-vault.png", "line": "A heavy light gray iron door with rivets and a black keyhole, black outline."}, {"file": "risk-ladder-crown-seal.png", "line": "A cream scroll with a red wax seal and a small yellow crown on the seal, black outline."}, {"file": "risk-ladder-willowbrook.png", "line": "A young green tree with a thin trunk and three red apples, black outline."}, {"file": "risk-ladder-honeypot.png", "line": "A yellow honey jar with a cream lid and a small yellow coin resting on top, black outline."}, {"file": "risk-ladder-meadowgold.png", "line": "A red farmhouse with green fields in front and a light gray rain cloud above, black outline."}, {"file": "risk-ladder-jar.png", "line": "A clear glass jar full of yellow coins with a cream lid, black outline."}, {"file": "risk-ladder-bank.png", "line": "A white bank building with four columns and a green door."}, {"file": "risk-ladder-government-bond.png", "line": "A red and white striped flag with a sky blue corner on a light gray pole."}, {"file": "risk-ladder-company-bond.png", "line": "A handshake between a sky blue sleeve and a light gray sleeve, black outline."}, {"file": "risk-ladder-real-estate.png", "line": "A row of three small buildings in cream, sky blue, and light gray on a green lawn."}, {"file": "risk-ladder-big-company-stock.png", "line": "A light gray factory with two smokestacks and a yellow roof."}, {"file": "risk-ladder-new-company-stock.png", "line": "A white rocket with red fins lifting off on a yellow flame."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: two ladders of seven cards, 40 seconds each", "seconds_per_item": 40, "engines": ["order"], "steps": [{"kind": "order", "label": "The seven ventures, safest to riskiest", "prompt": "Put the seven ventures on the ladder. Safest at the bottom.", "feedback": "From safest to riskiest: The Honeypot Coffer (no risk), Crown Seal Notes (low), The Iron Vault (low), Willowbrook Grove (medium, long-term), Meadowgold Acres (medium), Sparkstone Mines (high), Cloudberry Expeditions (high). Whether Sparkstone or Cloudberry is riskiest is a fair argument; Cloudberry is younger and less known.", "cards": [{"id": "0", "prompt": "The Honeypot Coffer (HNYP)", "picture": "risk-ladder-honeypot.png", "rank": 1, "tags": {"clue": "a strongbox that pays a small, guaranteed amount every window; has never lost a single AQ"}}, {"id": "1", "prompt": "Crown Seal Notes (SEAL)", "picture": "risk-ladder-crown-seal.png", "rank": 2, "tags": {"clue": "promises from the Crown itself; the Crown has never missed a payment"}}, {"id": "2", "prompt": "The Iron Vault (IRON)", "picture": "risk-ladder-iron-vault.png", "rank": 3, "tags": {"clue": "an old bank that pays a little extra on a schedule; the price barely moves"}}, {"id": "3", "prompt": "Willowbrook Grove (WLLW)", "picture": "risk-ladder-willowbrook.png", "rank": 4, "tags": {"clue": "an orchard; trees grow slowly; over many years the grove has always grown"}}, {"id": "4", "prompt": "Meadowgold Acres (MDOW)", "picture": "risk-ladder-meadowgold.png", "rank": 5, "tags": {"clue": "farmland and buildings; value moves up and down, more than an orchard and less than a mine"}}, {"id": "5", "prompt": "Sparkstone Mines (SPRK)", "picture": "risk-ladder-sparkstone.png", "rank": 6, "tags": {"clue": "prices swing wildly week to week; has doubled in a season and lost half its value in a week"}}, {"id": "6", "prompt": "Cloudberry Expeditions (CLDB)", "picture": "risk-ladder-cloudberry.png", "rank": 7, "tags": {"clue": "a brand new company; the youngest venture on the street and the hardest to predict"}}]}, {"kind": "order", "label": "The risk ladder from the board", "prompt": "Put the seven rungs of the risk ladder in order. Safest at the bottom.", "feedback": "The risk ladder: jar, savings account, government bond, company bond, real estate, big company stock, new company stock. Higher up the ladder, more it can grow, more it can fall.", "cards": [{"id": "0", "prompt": "jar", "picture": "risk-ladder-jar.png", "rank": 1}, {"id": "1", "prompt": "savings account", "picture": "risk-ladder-bank.png", "rank": 2}, {"id": "2", "prompt": "government bond", "picture": "risk-ladder-government-bond.png", "rank": 3}, {"id": "3", "prompt": "company bond", "picture": "risk-ladder-company-bond.png", "rank": 4}, {"id": "4", "prompt": "real estate", "picture": "risk-ladder-real-estate.png", "rank": 5}, {"id": "5", "prompt": "big company stock", "picture": "risk-ladder-big-company-stock.png", "rank": 6}, {"id": "6", "prompt": "new company stock", "picture": "risk-ladder-new-company-stock.png", "rank": 7}]}]}, {"n": 2, "note": "Round 2: 11 reveal cards, 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "sprk-sparkstone-mines", "prompt": "Sparkstone Mines (SPRK)", "picture": "risk-ladder-sparkstone.png", "answer": ["a big tech company's stock"], "choices_from": "word_bank", "feedback": "Sparkstone Mines is a big tech company's stock: large swings, big potential, big losses.", "tags": {"risk_level": "High"}}, {"id": "cldb-cloudberry-expeditions", "prompt": "Cloudberry Expeditions (CLDB)", "picture": "risk-ladder-cloudberry.png", "answer": ["a startup or IPO stock"], "choices_from": "word_bank", "feedback": "Cloudberry Expeditions is a startup or an IPO, a brand new company's stock; could soar or run out of money.", "tags": {"risk_level": "High"}}, {"id": "iron-the-iron-vault", "prompt": "The Iron Vault (IRON)", "picture": "risk-ladder-iron-vault.png", "answer": ["corporate bonds"], "choices_from": "word_bank", "feedback": "The Iron Vault is corporate bonds: lending money to a stable company for a little interest; boring and safe unless the company fails.", "tags": {"risk_level": "Low"}}, {"id": "seal-crown-seal-notes", "prompt": "Crown Seal Notes (SEAL)", "picture": "risk-ladder-crown-seal.png", "answer": ["U.S. Treasury bonds"], "choices_from": "word_bank", "feedback": "Crown Seal Notes are U.S. Treasury bonds: lending to the government, the safest thing there is; small interest.", "tags": {"risk_level": "Low"}}, {"id": "wllw-willowbrook-grove", "prompt": "Willowbrook Grove (WLLW)", "picture": "risk-ladder-willowbrook.png", "answer": ["a retirement account (IRA)"], "choices_from": "word_bank", "feedback": "Willowbrook Grove is a retirement account, an IRA: slow, boring, and the thing your future self thanks you for.", "tags": {"risk_level": "Medium (long-term)"}}, {"id": "hnyp-the-honeypot-coffer", "prompt": "The Honeypot Coffer (HNYP)", "picture": "risk-ladder-honeypot.png", "answer": ["a high-yield savings account"], "choices_from": "word_bank", "feedback": "The Honeypot Coffer is a high-yield savings account at a bank: guaranteed small growth, never loses, money available any time.", "tags": {"risk_level": "No risk"}}, {"id": "mdow-meadowgold-acres", "prompt": "Meadowgold Acres (MDOW)", "picture": "risk-ladder-meadowgold.png", "answer": ["a real estate investment trust (REIT)"], "choices_from": "word_bank", "feedback": "Meadowgold Acres is a real estate investment trust, a REIT: owning a slice of buildings and land; rent comes in, value moves with the economy and the weather.", "tags": {"risk_level": "Medium"}}, {"id": "aq", "prompt": "AQ stands for", "answer": ["dollars"], "choices": ["dollars", "points", "units", "gold"], "feedback": "AQ are dollars."}, {"id": "fortune-street", "prompt": "Fortune Street stands for", "answer": ["Wall Street"], "choices": ["Wall Street", "Main Street", "a bank", "the mall"], "feedback": "Fortune Street is Wall Street."}, {"id": "the-dispatches", "prompt": "The dispatches stand for", "answer": ["financial news"], "choices": ["financial news", "report cards", "advertisements", "text messages"], "feedback": "The dispatches are financial news."}, {"id": "the-crisis", "prompt": "The crisis stands for", "answer": ["a real market crash like 2008 or 2020"], "choices": ["a real market crash like 2008 or 2020", "a bank holiday", "a new tax", "a snow day"], "feedback": "The crisis was 2008 or 2020 with the names changed."}], "options": {"source": "mixed", "style": "choices", "count": 4, "fallback": "pool", "pool_from": "answers", "word_bank": ["a big tech company's stock", "a startup or IPO stock", "corporate bonds", "U.S. Treasury bonds", "a retirement account (IRA)", "a high-yield savings account", "a real estate investment trust (REIT)"]}}]}], "study": ["Handout 02.14 Venture Risk Cards: the seven cards and the risk word for each", "The risk ladder on the Investor Journal cover", "Handout 02.19 Investor Report Template Part 6: the reveal table and the word bank", "Saving keeps your money safe. Investing puts it to work, and work can go wrong."], "rule_lines": ["Higher up the ladder, more it can grow, more it can fall."], "reference": {}, "_unmapped": {}, "lede": "Tap the seven venture cards onto the ladder from safest at the bottom to riskiest at the top, then the seven rungs from jar to new company stock. Then a venture card appears, and you tap what it really is."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("RiskLadder");
+  var node = document.getElementById("RiskLadder-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

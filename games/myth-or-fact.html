@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Myth or Fact, Life Skills Arcade</title>
+<meta name="description" content="A statement about adolescence appears. Tap MYTH or FACT. Then an everyday item appears with its picture, and you tap H for mostly heredity, E for mostly environment, or B for both.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="MythOrFact">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-03-03.html">Lesson 3.3</a>, <a href="../lesson-03-04.html">Lesson 3.4</a>. Myth or Fact reviews Lesson 3.3 (the twelve myth or fact strips) and Lesson 3.4 Day 1 (the everyday heredity, environment, or both sort). Use it in the last five minutes of Lesson 3.4 Day 1 as the warm-up for the quiz, or as the retake review for quiz items 10 and 11. Every miss shows the handout's correction word for word, so the game reteaches the six myths the way the key does. Round 2 accepts the key's second answer on the four items the key marks accept, and the feedback says why both is usually the best answer. Nothing in either round asks about the player.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/myth-or-fact-title.webp" alt=""><h1 class="game-title">Myth <span class="alt2">or Fact</span></h1></div>
+<p class="game-lede">A statement about adolescence appears. Tap MYTH or FACT. Then an everyday item appears with its picture, and you tap H for mostly heredity, E for mostly environment, or B for both.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Same age is not the same stage. The range is wide. Late is not wrong.</li><li>The rule: almost everything about a person is both.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="myth-or-fact-eye"><img class="piece" src="art/myth-or-fact-eye.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-ruler"><img class="piece" src="art/myth-or-fact-ruler.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-speech-bubble"><img class="piece" src="art/myth-or-fact-speech-bubble.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-feather"><img class="piece" src="art/myth-or-fact-feather.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-note"><img class="piece" src="art/myth-or-fact-note.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-two-bubbles"><img class="piece" src="art/myth-or-fact-two-bubbles.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-pencil"><img class="piece" src="art/myth-or-fact-pencil.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-book"><img class="piece" src="art/myth-or-fact-book.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-peanut"><img class="piece" src="art/myth-or-fact-peanut.webp" alt="" loading="lazy"></span>
+<span data-key="myth-or-fact-game-piece"><img class="piece" src="art/myth-or-fact-game-piece.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Four things that change in adolescence: body, brain, feelings, independence (Handout 03.03 Part 1)</li><li>The twelve myth or fact statements and the six corrections (Handout 03.03 teacher key)</li><li>What is not just a phase and needs an adult: sadness that does not lift for weeks, not sleeping for days, hurting yourself or someone else, or a friend who says any of those</li><li>Heredity and environment, and why both is the best answer for most items (Handout 03.04 Part 1)</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="MythOrFact-data">{"schema": "1.0", "slug": "myth-or-fact", "title": "Myth or Fact", "unit": 3, "lessons": ["3.3", "3.4"], "handouts": ["Handout 03.03 - Adolescence Myth vs Fact Sort", "Handout 03.04 - My Influences Map"], "standards": ["NYS HDR 1. Human Growth and Development Across the Lifespan b) Identify the relationships among and characteristics of the physical, emotional, social, and intellectual aspects of human growth and development", "NYS HDR 3. Peer Influence and Stress Management d) Recognize that adolescents experience common problems", "NYS HDR 2. Self-Concept and Self-Image a) Define the term self-concept and identify factors which affect the formation of self-concept", "CTE HSW 5. Social-Emotional Learning a) Discuss how personal habits, environment, and heredity affect social-emotional health", "CTE HSW 5. Social-Emotional Learning c) Label, understand, and apply strategies for managing emotions; feeling and showing empathy for others; making responsible decisions; and handling challenging situations", "CTE CIR 4. Relationships b) Analyze the functions and expectations of various types of relationships and how they may change over time", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.", "CDOS Standard 3a Universal Foundation Skills: Personal Qualities", "CDOS Standard 3a Universal Foundation Skills: Thinking Skills", "National FCS 3.0: 12.1.1 Examine physical, emotional, social, moral, and cognitive development.", "National FCS 3.0: 12.1.3 Examine current research on human growth and development, brain research included.", "National FCS 3.0: 12.2.1 Examine how heredity and environment shape growth and development."], "source_file": "u3.json", "mechanic_note": "sort: a statement about adolescence appears; tap MYTH or FACT (two bins). Round 2 is a sort: an everyday item appears with its picture; tap H (mostly heredity), E (mostly environment), or B (both) (three bins)", "teacher_note": "Myth or Fact reviews Lesson 3.3 (the twelve myth or fact strips) and Lesson 3.4 Day 1 (the everyday heredity, environment, or both sort). Use it in the last five minutes of Lesson 3.4 Day 1 as the warm-up for the quiz, or as the retake review for quiz items 10 and 11. Every miss shows the handout's correction word for word, so the game reteaches the six myths the way the key does. Round 2 accepts the key's second answer on the four items the key marks accept, and the feedback says why both is usually the best answer. Nothing in either round asks about the player.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round; in Round 2 an item marked accept counts the second answer as correct and the feedback says why"}, "art": {"title": {"file": "myth-or-fact-title.png", "line": "A building under construction, the lower floors finished in light gray with sky blue windows and the top floor still open yellow framing, a red crane beside it."}, "scene": [], "cards": [{"file": "myth-or-fact-eye.png", "line": "A single eye drawn as a black outline with a sky blue iris and a white highlight, no face around it."}, {"file": "myth-or-fact-ruler.png", "line": "A yellow wooden ruler with black tick marks and no numbers."}, {"file": "myth-or-fact-speech-bubble.png", "line": "A white speech bubble with a black outline, empty."}, {"file": "myth-or-fact-feather.png", "line": "A single cream feather with a light gray shaft, curving slightly."}, {"file": "myth-or-fact-note.png", "line": "A black music note, an eighth note, with a sky blue shadow."}, {"file": "myth-or-fact-two-bubbles.png", "line": "Two empty speech bubbles, one small and light gray and one large and sky blue, facing each other."}, {"file": "myth-or-fact-pencil.png", "line": "A yellow pencil with a red eraser and a sharpened black tip."}, {"file": "myth-or-fact-book.png", "line": "A closed green book with cream pages and a yellow bookmark ribbon."}, {"file": "myth-or-fact-peanut.png", "line": "A cream peanut in its shell with a red circle around it and a red line through it."}, {"file": "myth-or-fact-game-piece.png", "line": "A red board game pawn standing on a white square, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 12 statements, 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "statement-1", "prompt": "Teenagers need less sleep than younger children.", "answer": ["MYTH"], "feedback": "Teenagers need about 8 to 10 hours; the clock shifts later, so it feels like less."}, {"id": "statement-2", "prompt": "The part of the brain that plans ahead and hits the brakes keeps building into the mid 20s.", "answer": ["FACT"], "feedback": "Fact. The prefrontal cortex, the planning and braking part, keeps building into the mid 20s."}, {"id": "statement-3", "prompt": "Mood swings in adolescence usually mean something is wrong with the person.", "answer": ["MYTH"], "feedback": "Feelings swing because the feeling parts of the brain run fast and the braking part is still building; that is chemistry, not character."}, {"id": "statement-4", "prompt": "Growth spurts often make people clumsy for a while because arms and legs grow first.", "answer": ["FACT"], "feedback": "Fact. Growth spurts, arms and legs first, clumsy for a while."}, {"id": "statement-5", "prompt": "If a 13-year-old wants more privacy, it means they no longer need their family.", "answer": ["MYTH"], "feedback": "Wanting privacy and needing family happen at the same time; both are normal."}, {"id": "statement-6", "prompt": "Risks feel bigger and more exciting in adolescence than they will later, and friends nearby make that stronger.", "answer": ["FACT"], "feedback": "Fact. The part that feels reward and excitement is running at full speed now, and friends nearby make that stronger."}, {"id": "statement-7", "prompt": "Everyone the same age should be at the same point in their growth.", "answer": ["MYTH"], "feedback": "Same age is not the same stage; the range is wide; late is not wrong."}, {"id": "statement-8", "prompt": "Teenagers get sleepy later at night because the body's clock shifts, not because they are lazy.", "answer": ["FACT"], "feedback": "Fact. The sleep clock shifts later; the body wants to fall asleep later and wake later."}, {"id": "statement-9", "prompt": "Taking risks is always bad.", "answer": ["MYTH"], "feedback": "Some risks are useful (trying out, talking to someone new); some are dangerous; the skill is telling them apart."}, {"id": "statement-10", "prompt": "Wanting to decide things for yourself and still needing your family at the same time is normal.", "answer": ["FACT"], "feedback": "Fact. Both at once is normal."}, {"id": "statement-11", "prompt": "Because the brain is not finished, teenagers cannot be expected to control their actions.", "answer": ["MYTH"], "feedback": "The brakes are still being installed, which is why you practice using them now, not why you skip them."}, {"id": "statement-12", "prompt": "Feeling sad for a day or two after something bad happens is normal; feeling sad for weeks with no lift is a reason to tell an adult.", "answer": ["FACT"], "feedback": "Fact. Sadness that does not lift for weeks is not just a phase; tell the counselor, the nurse, any teacher, the office, or an adult at home."}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "myth", "label": "MYTH"}, {"id": "fact", "label": "FACT"}]}}], "option_sets": [{"label": "round1_bins", "list": [{"id": "myth", "label": "MYTH"}, {"id": "fact", "label": "FACT"}]}]}, {"n": 2, "note": "Round 2: 10 everyday items, 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "eye-color", "prompt": "Eye color", "answer": ["H"], "feedback": "H: eye color is inherited."}, {"id": "height", "prompt": "Height", "answer": ["B"], "feedback": "B: the range is inherited; food and sleep decide where in the range."}, {"id": "your-accent", "prompt": "Your accent", "answer": ["E"], "feedback": "E: you learn the accent around you."}, {"id": "being-ticklish", "prompt": "Being ticklish", "answer": ["B", "H"], "feedback": "B (accept H): there is an inherited part, and it also changes with who is tickling."}, {"id": "liking-a-certain-kind-of-music", "prompt": "Liking a certain kind of music", "answer": ["E", "B"], "feedback": "E (accept B): taste in music comes from what is around you."}, {"id": "being-shy-or-outgoing", "prompt": "Being shy or outgoing", "answer": ["B"], "feedback": "B: temperament has an inherited part; the people around you teach you what to do with it."}, {"id": "being-good-at-drawing", "prompt": "Being good at drawing", "answer": ["B", "E"], "feedback": "B (accept E): some inherited ability, mostly practice and chances."}, {"id": "your-first-language", "prompt": "Your first language", "answer": ["E"], "feedback": "E: born able to learn any language; got the one in the house."}, {"id": "a-food-allergy", "prompt": "A food allergy", "answer": ["B", "H"], "feedback": "B (accept H): allergies run in families and also depend on exposure."}, {"id": "how-you-handle-losing", "prompt": "How you handle losing", "answer": ["E", "B"], "feedback": "E (accept B): learned from the people around you, with a temperament piece."}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "mostly-heredity", "label": "mostly heredity", "sub": "Heredity means what you were born with.", "letter": "H"}, {"id": "mostly-environment", "label": "mostly environment", "sub": "Environment means everything around you.", "letter": "E"}, {"id": "both", "label": "both", "sub": "almost everything about a person is both", "letter": "B"}]}}], "option_sets": [{"label": "round2_bins", "list": [{"id": "mostly-heredity", "label": "mostly heredity", "sub": "Heredity means what you were born with.", "letter": "H"}, {"id": "mostly-environment", "label": "mostly environment", "sub": "Environment means everything around you.", "letter": "E"}, {"id": "both", "label": "both", "sub": "almost everything about a person is both", "letter": "B"}]}]}], "study": ["Four things that change in adolescence: body, brain, feelings, independence (Handout 03.03 Part 1)", "The twelve myth or fact statements and the six corrections (Handout 03.03 teacher key)", "What is not just a phase and needs an adult: sadness that does not lift for weeks, not sleeping for days, hurting yourself or someone else, or a friend who says any of those", "Heredity and environment, and why both is the best answer for most items (Handout 03.04 Part 1)"], "rule_lines": ["Same age is not the same stage. The range is wide. Late is not wrong.", "The rule: almost everything about a person is both."], "reference": {}, "_unmapped": {}, "lede": "A statement about adolescence appears. Tap MYTH or FACT. Then an everyday item appears with its picture, and you tap H for mostly heredity, E for mostly environment, or B for both."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("MythOrFact");
+  var node = document.getElementById("MythOrFact-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

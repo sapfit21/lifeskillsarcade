@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Shapes, Life Skills Arcade</title>
+<meta name="description" content="A made-up family scenario or a definition appears. Tap the family structure from eight pictures. Then tap the six life cycle stages into order around a loop, and match each job: care, teach, provide, belong.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="FamilyShapes">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-03-14.html">Lesson 3.14</a>. Family Shapes reviews Lesson 3.14: the structures chart, the twelve scenarios, the four jobs, and the life cycle loop. Use it the day after the lesson or as review for Unit 3 Test items 14, 15, and 20. Every family is fictional and the scenarios are the handout's own; no student's family is ever the example, and the end panel repeats the lesson's line that no one structure is better because every one does the four jobs. Two scenarios (Nadia, Jonah) accept the key's second structure.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/family-shapes-title.webp" alt=""><h1 class="game-title">Family <span class="alt2">Shapes</span></h1></div>
+<p class="game-lede">A made-up family scenario or a definition appears. Tap the family structure from eight pictures. Then tap the six life cycle stages into order around a loop, and match each job: care, teach, provide, belong.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>A family is defined by what it does, not by who is in it. Every one of these is a family because every one of them does the four jobs.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="family-shapes-nuclear"><img class="piece" src="art/family-shapes-nuclear.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-single-parent"><img class="piece" src="art/family-shapes-single-parent.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-blended"><img class="piece" src="art/family-shapes-blended.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-extended"><img class="piece" src="art/family-shapes-extended.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-adoptive"><img class="piece" src="art/family-shapes-adoptive.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-foster"><img class="piece" src="art/family-shapes-foster.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-grandparents"><img class="piece" src="art/family-shapes-grandparents.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-guardian"><img class="piece" src="art/family-shapes-guardian.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-care"><img class="piece" src="art/family-shapes-care.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-teach"><img class="piece" src="art/family-shapes-teach.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-provide"><img class="piece" src="art/family-shapes-provide.webp" alt="" loading="lazy"></span>
+<span data-key="family-shapes-belong"><img class="piece" src="art/family-shapes-belong.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The four jobs every family does: care, teach, provide, belong (Handout 03.14 Part 1)</li><li>The structures chart, nine rows (Part 2)</li><li>The family life cycle, a loop not a ladder, and the transitions (Part 5)</li><li>No one family structure is better than another because every one of them does the four jobs</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="FamilyShapes-data">{"schema": "1.0", "slug": "family-shapes", "title": "Family Shapes", "unit": 3, "lessons": ["3.14"], "handouts": ["Handout 03.14 - Family Structures and Life Cycle"], "standards": ["NYS HDR 5. Family Role in Society a) Evaluate the significance of family and its impact on the well-being of individuals and society", "NYS HDR 5. Family Role in Society b) Examine \"family\" as the basic unit of society", "NYS HDR 5. Family Role in Society c) Investigate family structures and transitions", "CTE CIR 4. Relationships a) Define the term \"relationship\"", "CTE CIR 4. Relationships b) Analyze the functions and expectations of various types of relationships and how they may change over time", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.", "CDOS Standard 3a Universal Foundation Skills: Thinking Skills", "National FCS 3.0: 6.1.1 Examine why the family is society's basic unit.", "National FCS 3.0: 6.1.6 Examine how change and life transitions affect people over the life course."], "source_file": "u3.json", "mechanic_note": "match: a fictional family scenario or a structure definition appears as text; tap the structure from eight picture buttons. Round 2 is an order: the six family life cycle stages appear shuffled, tap them into order around a loop; then a match: a job description appears, tap the job (care, teach, provide, belong)", "teacher_note": "Family Shapes reviews Lesson 3.14: the structures chart, the twelve scenarios, the four jobs, and the life cycle loop. Use it the day after the lesson or as review for Unit 3 Test items 14, 15, and 20. Every family is fictional and the scenarios are the handout's own; no student's family is ever the example, and the end panel repeats the lesson's line that no one structure is better because every one does the four jobs. Two scenarios (Nadia, Jonah) accept the key's second structure.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round; a scenario marked accept counts the second structure as correct and the feedback names both"}, "art": {"title": {"file": "family-shapes-title.png", "line": "A short wall of red bricks with cream mortar, one brick set apart on the ground in front of it."}, "scene": [], "cards": [], "buttons": [{"file": "family-shapes-nuclear.png", "line": "Two tall sky blue figure silhouettes and two small green figure silhouettes standing together, no faces."}, {"file": "family-shapes-single-parent.png", "line": "One tall sky blue figure silhouette and one small green figure silhouette standing together, no faces."}, {"file": "family-shapes-blended.png", "line": "Two tall figure silhouettes, one sky blue and one red, with three small figure silhouettes in green and yellow between them, no faces."}, {"file": "family-shapes-extended.png", "line": "Two tall sky blue figure silhouettes, one small green figure silhouette, and two light gray figure silhouettes with canes beside them, no faces."}, {"file": "family-shapes-adoptive.png", "line": "Two tall sky blue figure silhouettes with one small green figure silhouette between them and a red heart above, no faces."}, {"file": "family-shapes-foster.png", "line": "Two tall sky blue figure silhouettes and one small green figure silhouette under a yellow house outline, no faces."}, {"file": "family-shapes-grandparents.png", "line": "Two light gray figure silhouettes with canes and one small green figure silhouette holding a hand, no faces."}, {"file": "family-shapes-guardian.png", "line": "One tall red figure silhouette holding a yellow key beside one small green figure silhouette, no faces."}, {"file": "family-shapes-care.png", "line": "A white bowl of yellow soup with a spoon and a small sky blue blanket folded beside it."}, {"file": "family-shapes-teach.png", "line": "An open cream book with light gray lines on the pages and a green cover."}, {"file": "family-shapes-provide.png", "line": "A small white house with a red roof and a yellow coin beside it."}, {"file": "family-shapes-belong.png", "line": "Four figure silhouettes in sky blue, green, yellow, and red holding hands in a row, no faces."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 8 definitions then 11 scenarios, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "definition-nuclear", "prompt": "Two parents and their children", "answer": ["Nuclear"], "feedback": "Nuclear: Two parents and their children."}, {"id": "definition-single-parent", "prompt": "One parent and their children", "answer": ["Single parent"], "feedback": "Single parent: One parent and their children."}, {"id": "definition-blended", "prompt": "Two families joined; step-parents and step-siblings", "answer": ["Blended"], "feedback": "Blended: Two families joined; step-parents and step-siblings."}, {"id": "definition-extended", "prompt": "Grandparents, aunts, uncles, or cousins in the home or close by and part of daily life", "answer": ["Extended"], "feedback": "Extended: Grandparents, aunts, uncles, or cousins in the home or close by and part of daily life."}, {"id": "definition-adoptive", "prompt": "A child legally joined to a family that is not their birth family", "answer": ["Adoptive"], "feedback": "Adoptive: A child legally joined to a family that is not their birth family."}, {"id": "definition-foster", "prompt": "A family caring for a child placed with them for a time by the state", "answer": ["Foster"], "feedback": "Foster: A family caring for a child placed with them for a time by the state."}, {"id": "definition-grandparents-raising-grandchildren", "prompt": "Grandparents who are the daily caregivers", "answer": ["Grandparents raising grandchildren"], "feedback": "Grandparents raising grandchildren: Grandparents who are the daily caregivers."}, {"id": "definition-guardian", "prompt": "An adult who is legally responsible for a child but is not a parent", "answer": ["Guardian"], "feedback": "Guardian: An adult who is legally responsible for a child but is not a parent."}, {"id": "scenario-leo", "prompt": "Leo lives with his mom and dad and his little sister.", "answer": ["Nuclear"], "feedback": "Nuclear: Two parents and their children. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-amara", "prompt": "Amara lives with her dad. Her mom lives in another state and she visits in the summer.", "answer": ["Single parent"], "feedback": "Single parent: One parent and their children. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-theo", "prompt": "Theo's mom married a man with two daughters. Now all five live together.", "answer": ["Blended"], "feedback": "Blended: Two families joined; step-parents and step-siblings. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-nadia", "prompt": "Nadia lives with her grandmother and her grandmother's sister, who have raised her since she was two.", "answer": ["Grandparents raising grandchildren", "Extended or Guardian"], "feedback": "Grandparents raising grandchildren: Grandparents who are the daily caregivers. Accept Extended or Guardian with a reason. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-sam", "prompt": "Sam was adopted as a baby by two parents who could not have children.", "answer": ["Adoptive", "Nuclear"], "feedback": "Adoptive: A child legally joined to a family that is not their birth family. Accept Nuclear with a reason. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-omar", "prompt": "Omar lives with his parents, his grandfather, and his aunt in one apartment. His grandfather walks him to school.", "answer": ["Extended"], "feedback": "Extended: Grandparents, aunts, uncles, or cousins in the home or close by and part of daily life. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-ruby", "prompt": "Ruby has lived with the same foster family for a year while her mom gets help.", "answer": ["Foster"], "feedback": "Foster: A family caring for a child placed with them for a time by the state. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-kai", "prompt": "Kai lives with his older brother, who is 24 and is his legal guardian.", "answer": ["Guardian"], "feedback": "Guardian: An adult who is legally responsible for a child but is not a parent. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-mia", "prompt": "Mia lives with her mom, her stepdad, her brother, and her stepdad's two kids.", "answer": ["Blended"], "feedback": "Blended: Two families joined; step-parents and step-siblings. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-jonah", "prompt": "Jonah lives with his grandmother, who is his legal guardian, since he was two.", "answer": ["Grandparents raising grandchildren", "Guardian"], "feedback": "Grandparents raising grandchildren: Grandparents who are the daily caregivers. Accept Guardian with a reason. Every one of these is a family because every one of them does the four jobs."}, {"id": "scenario-priya", "prompt": "Priya lives with her mom, her dad, her aunt, and her grandfather, all in one apartment.", "answer": ["Extended"], "feedback": "Extended: Grandparents, aunts, uncles, or cousins in the home or close by and part of daily life. Every one of these is a family because every one of them does the four jobs."}], "options": {"source": "fixed", "style": "bins", "count": 8, "list": [{"id": "nuclear", "label": "Nuclear", "sub": "Two parents and their children"}, {"id": "single-parent", "label": "Single parent", "sub": "One parent and their children"}, {"id": "blended", "label": "Blended", "sub": "Two families joined; step-parents and step-siblings"}, {"id": "extended", "label": "Extended", "sub": "Grandparents, aunts, uncles, or cousins in the home or close by and part of daily life"}, {"id": "adoptive", "label": "Adoptive", "sub": "A child legally joined to a family that is not their birth family"}, {"id": "foster", "label": "Foster", "sub": "A family caring for a child placed with them for a time by the state"}, {"id": "grandparents-raising-grandchildren", "label": "Grandparents raising grandchildren", "sub": "Grandparents who are the daily caregivers"}, {"id": "guardian", "label": "Guardian", "sub": "An adult who is legally responsible for a child but is not a parent"}]}}], "option_sets": [{"label": "round1_buttons", "list": [{"id": "nuclear", "label": "Nuclear", "sub": "Two parents and their children"}, {"id": "single-parent", "label": "Single parent", "sub": "One parent and their children"}, {"id": "blended", "label": "Blended", "sub": "Two families joined; step-parents and step-siblings"}, {"id": "extended", "label": "Extended", "sub": "Grandparents, aunts, uncles, or cousins in the home or close by and part of daily life"}, {"id": "adoptive", "label": "Adoptive", "sub": "A child legally joined to a family that is not their birth family"}, {"id": "foster", "label": "Foster", "sub": "A family caring for a child placed with them for a time by the state"}, {"id": "grandparents-raising-grandchildren", "label": "Grandparents raising grandchildren", "sub": "Grandparents who are the daily caregivers"}, {"id": "guardian", "label": "Guardian", "sub": "An adult who is legally responsible for a child but is not a parent"}]}]}, {"n": 2, "note": "Round 2: 6 stages in order, 40 seconds; then 4 jobs, 6 seconds each", "seconds_per_item": 40, "engines": ["choice", "order"], "steps": [{"kind": "order", "label": "round2.sequence", "prompt": null, "feedback": null, "cards": [{"id": "forming", "prompt": "Forming", "answer": ["forming"], "rank": 1, "feedback": "1. Forming: Two people or one person decide to make a home.", "feedback_extra": ["Two people or one person decide to make a home"]}, {"id": "growing", "prompt": "Growing", "answer": ["growing"], "rank": 2, "feedback": "2. Growing: A child comes: by birth, adoption, or fostering.", "feedback_extra": ["A child comes: by birth, adoption, or fostering"]}, {"id": "school-years", "prompt": "School years", "answer": ["school years"], "rank": 3, "feedback": "3. School years: Children in school; the family runs on a schedule.", "feedback_extra": ["Children in school; the family runs on a schedule"]}, {"id": "teen-years", "prompt": "Teen years", "answer": ["teen years"], "rank": 4, "feedback": "4. Teen years: Children becoming independent; rules change.", "feedback_extra": ["Children becoming independent; rules change"]}, {"id": "launching", "prompt": "Launching", "answer": ["launching"], "rank": 5, "feedback": "5. Launching: A young adult leaves.", "feedback_extra": ["A young adult leaves"]}, {"id": "later-years", "prompt": "Later years", "answer": ["later years"], "rank": 6, "feedback": "6. Later years: A couple or a single adult again; often grandparents.", "feedback_extra": ["A couple or a single adult again; often grandparents"]}], "title": "The four jobs every family does"}, {"kind": "choice", "label": "round2.match.items", "items": [{"id": "care", "prompt": "Keeps you safe and fed", "answer": ["Care"], "feedback": "Care: Keeps you safe and fed. A family is defined by what it does, not by who is in it."}, {"id": "teach", "prompt": "Rules, language, how to treat people", "answer": ["Teach"], "feedback": "Teach: Rules, language, how to treat people. A family is defined by what it does, not by who is in it."}, {"id": "provide", "prompt": "A home, food, clothes, money", "answer": ["Provide"], "feedback": "Provide: A home, food, clothes, money. A family is defined by what it does, not by who is in it."}, {"id": "belong", "prompt": "You are theirs and they are yours", "answer": ["Belong"], "feedback": "Belong: You are theirs and they are yours. A family is defined by what it does, not by who is in it."}], "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "care", "label": "Care"}, {"id": "teach", "label": "Teach"}, {"id": "provide", "label": "Provide"}, {"id": "belong", "label": "Belong"}]}}], "option_sets": [{"label": "round2.match.buttons", "list": [{"id": "care", "label": "Care"}, {"id": "teach", "label": "Teach"}, {"id": "provide", "label": "Provide"}, {"id": "belong", "label": "Belong"}]}]}], "study": ["The four jobs every family does: care, teach, provide, belong (Handout 03.14 Part 1)", "The structures chart, nine rows (Part 2)", "The family life cycle, a loop not a ladder, and the transitions (Part 5)", "No one family structure is better than another because every one of them does the four jobs"], "rule_lines": ["A family is defined by what it does, not by who is in it. Every one of these is a family because every one of them does the four jobs."], "reference": {"round1_left_out": "Scenarios 9, 10, 11, and 12 are keyed to two structures or to \"others\" and are left out so no answer is contested. The Unit 3 Test's three match scenarios (Mia, Jonah, Priya) are in.", "transitions": "Transitions can happen at any stage: a move, a new sibling, a job change or a job lost, a divorce or a separation, a death, a new country. A transition changes the shape. It does not un-family the family."}, "_unmapped": {}, "lede": "A made-up family scenario or a definition appears. Tap the family structure from eight pictures. Then tap the six life cycle stages into order around a loop, and match each job: care, teach, provide, belong."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("FamilyShapes");
+  var node = document.getElementById("FamilyShapes-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

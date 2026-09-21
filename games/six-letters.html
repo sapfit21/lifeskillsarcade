@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Six Letters, Life Skills Arcade</title>
+<meta name="description" content="A statement appears. Tap it into Trait, Strength, or Interest. Then a career card appears, and you tap it into one of the six interest types, R, I, A, S, E, or C, each bin with its letter, word, and picture.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="SixLetters">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-02-02.html">Lesson 2.2</a>. Reviews Lesson 2.2, both days: the trait, strength, interest distinction from the Day 1 finger vote (Round 1 uses the twelve statements from the teacher key) and the six interest types from the Day 2 quiz (Round 2 uses careers from the Part 3 sample lists). Use it as the do now of Lesson 2.3 before the one-pager, or as a three-minute warm-up on Lesson 2.21 before the cluster walk, since the posters use the same six letters. Settings: 12 items per round; grade 6 can play Round 1 only; the bins in Round 2 show the letter, the word, and the icon from slide 3 so an ELL student can sort by picture.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/six-letters-title.webp" alt=""><h1 class="game-title">Six <span class="alt2">Letters</span></h1></div>
+<p class="game-lede">A statement appears. Tap it into Trait, Strength, or Interest. Then a career card appears, and you tap it into one of the six interest types, R, I, A, S, E, or C, each bin with its letter, word, and picture.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="six-letters-electrician"><img class="piece" src="art/six-letters-electrician.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-carpenter"><img class="piece" src="art/six-letters-carpenter.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-scientist"><img class="piece" src="art/six-letters-scientist.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-veterinarian"><img class="piece" src="art/six-letters-veterinarian.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-graphic-designer"><img class="piece" src="art/six-letters-graphic-designer.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-photographer"><img class="piece" src="art/six-letters-photographer.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-nurse"><img class="piece" src="art/six-letters-nurse.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-teacher"><img class="piece" src="art/six-letters-teacher.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-business-owner"><img class="piece" src="art/six-letters-business-owner.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-real-estate-agent"><img class="piece" src="art/six-letters-real-estate-agent.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-accountant"><img class="piece" src="art/six-letters-accountant.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-bank-teller"><img class="piece" src="art/six-letters-bank-teller.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-wrench"><img class="piece" src="art/six-letters-wrench.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-magnifying-glass"><img class="piece" src="art/six-letters-magnifying-glass.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-paintbrush"><img class="piece" src="art/six-letters-paintbrush.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-two-people"><img class="piece" src="art/six-letters-two-people.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-megaphone"><img class="piece" src="art/six-letters-megaphone.webp" alt="" loading="lazy"></span>
+<span data-key="six-letters-checklist"><img class="piece" src="art/six-letters-checklist.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The three words: trait, strength, interest (Handout 02.02 Strengths Inventory, page 1)</li><li>Part 3 of the Interest Quiz: the six types and where they work</li><li>A trait can turn into a strength: patient is a trait; sits with my little cousin until she gets the math is a strength</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="SixLetters-data">{"schema": "1.0", "slug": "six-letters", "title": "Six Letters", "unit": 2, "lessons": ["2.2"], "handouts": ["Handout 02.02 - Strengths Inventory and Notice Cards", "Handout 02.02 - Interest Quiz"], "standards": ["NYS IGLR 1. Personal Development b) Discover and evaluate personality traits and strengths", "NYS IGLR 1. Personal Development c) Predict areas of personal interests relating to the future", "CTE CCO 4. Career Plans b) Assess personal characteristics such as interests, abilities, and aptitudes in relation to characteristics associated with careers of interest", "CTE CCO 2. Career Clusters d) Identify clusters for further investigation based on personal interests", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students identify their own abilities and interests as possible guides to career choice.", "CDOS Standard 1: Career Development. Students will be knowledgeable about the world of work, explore career options, and relate personal skills, aptitudes, and abilities to future career decisions.", "National FCS 3.0: 1.2.1 Examine possible careers to find what each one requires and offers in knowledge, skills, attitudes, and openings.", "National FCS 3.0: 13.2.1 Examine how personal characteristics affect relationships."], "source_file": "u2.json", "mechanic_note": "sort: Round 1, a statement appears and you tap it into Trait, Strength, or Interest (three bins); Round 2, a career card appears and you tap it into one of the six interest-type bins R, I, A, S, E, C (six bins, each bin shows its letter, its word, and its picture)", "teacher_note": "Reviews Lesson 2.2, both days: the trait, strength, interest distinction from the Day 1 finger vote (Round 1 uses the twelve statements from the teacher key) and the six interest types from the Day 2 quiz (Round 2 uses careers from the Part 3 sample lists). Use it as the do now of Lesson 2.3 before the one-pager, or as a three-minute warm-up on Lesson 2.21 before the cluster walk, since the posters use the same six letters. Settings: 12 items per round; grade 6 can play Round 1 only; the bins in Round 2 show the letter, the word, and the icon from slide 3 so an ELL student can sort by picture.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "six-letters-title.png", "line": "A cream quiz sheet with a column of six empty check boxes and a red pencil lying across it, black outline, sticker style."}, "scene": [], "cards": [{"file": "six-letters-electrician.png", "line": "A coil of red wire with a pair of light gray pliers resting on it."}, {"file": "six-letters-carpenter.png", "line": "A hammer with a yellow handle lying beside a cream wooden plank."}, {"file": "six-letters-scientist.png", "line": "A glass beaker of green liquid with a test tube of sky blue liquid beside it."}, {"file": "six-letters-veterinarian.png", "line": "A light gray stethoscope curled around a black paw print."}, {"file": "six-letters-graphic-designer.png", "line": "A drawing tablet with a stylus and a small palette of red, yellow, green, and sky blue paint dots."}, {"file": "six-letters-photographer.png", "line": "A black camera with a sky blue lens and a yellow flash."}, {"file": "six-letters-nurse.png", "line": "A white nurse cap with a red cross and a thermometer beside it."}, {"file": "six-letters-teacher.png", "line": "A green chalkboard in a cream frame with a yellow apple on its tray."}, {"file": "six-letters-business-owner.png", "line": "A small shop front with a red and white striped awning and a yellow key in front of the door."}, {"file": "six-letters-real-estate-agent.png", "line": "A cream house with a red roof and a green yard sign on a post, no writing on the sign."}, {"file": "six-letters-accountant.png", "line": "A light gray calculator with a green display resting on a cream ledger sheet with gray lines."}, {"file": "six-letters-bank-teller.png", "line": "A stack of green bills and yellow coins behind a small white teller window frame."}], "buttons": [{"file": "six-letters-wrench.png", "line": "A light gray open-end wrench angled like a sticker, black outline."}, {"file": "six-letters-magnifying-glass.png", "line": "A magnifying glass with a sky blue lens and a black handle."}, {"file": "six-letters-paintbrush.png", "line": "A paintbrush with a yellow handle and a red drop of paint on the tip."}, {"file": "six-letters-two-people.png", "line": "Two simple rounded figure outlines standing side by side, one green and one sky blue, no faces."}, {"file": "six-letters-megaphone.png", "line": "A red megaphone with a black outline, pointing to the right."}, {"file": "six-letters-checklist.png", "line": "A cream clipboard with three green check marks down the left side and gray lines beside them."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 12 statements into three bins, 6 seconds each", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "i-am-usually-quiet-in-a-new-group", "prompt": "I am usually quiet in a new group", "answer": ["Trait"], "feedback": "Trait: how you usually are."}, {"id": "i-can-take-apart-a-bike-and-put-it-back-together", "prompt": "I can take apart a bike and put it back together", "answer": ["Strength"], "feedback": "Strength: something you do well."}, {"id": "i-want-to-learn-to-make-sushi", "prompt": "I want to learn to make sushi", "answer": ["Interest"], "feedback": "Interest: something you want to do more of."}, {"id": "i-am-stubborn", "prompt": "I am stubborn", "answer": ["Trait"], "feedback": "Trait: how you usually are."}, {"id": "i-remember-everyone-s-birthday", "prompt": "I remember everyone's birthday", "answer": ["Strength"], "feedback": "Strength: something you do well."}, {"id": "i-like-drawing-on-everything", "prompt": "I like drawing on everything", "answer": ["Interest"], "feedback": "Interest: something you want to do more of."}, {"id": "i-am-patient", "prompt": "I am patient", "answer": ["Trait"], "feedback": "Trait: how you usually are."}, {"id": "i-calmed-my-little-brother-down-when-he-got-lost-at-the-mall", "prompt": "I calmed my little brother down when he got lost at the mall", "answer": ["Strength"], "feedback": "Strength: something you do well."}, {"id": "i-want-to-run-my-own-business", "prompt": "I want to run my own business", "answer": ["Interest"], "feedback": "Interest: something you want to do more of."}, {"id": "i-talk-a-lot", "prompt": "I talk a lot", "answer": ["Trait"], "feedback": "Trait: how you usually are."}, {"id": "i-get-a-group-to-agree-on-a-plan", "prompt": "I get a group to agree on a plan", "answer": ["Strength"], "feedback": "Strength: something you do well."}, {"id": "i-like-taking-care-of-animals", "prompt": "I like taking care of animals", "answer": ["Interest"], "feedback": "Interest: something you want to do more of. The key also accepts Strength with a reason, if the student has done it well."}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "trait", "label": "Trait"}, {"id": "strength", "label": "Strength"}, {"id": "interest", "label": "Interest"}]}}], "option_sets": [{"label": "round1.bins", "list": [{"id": "trait", "label": "Trait"}, {"id": "strength", "label": "Strength"}, {"id": "interest", "label": "Interest"}]}]}, {"n": 2, "note": "Round 2: 12 careers into six letter bins, 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "electrician", "prompt": "Electrician", "picture": "six-letters-electrician.png", "answer": ["R"], "feedback": "Electrician: R, Realistic: You like to work with your hands, tools, machines, plants, or animals. You would rather do something than talk about it."}, {"id": "carpenter", "prompt": "Carpenter", "picture": "six-letters-carpenter.png", "answer": ["R"], "feedback": "Carpenter: R, Realistic: You like to work with your hands, tools, machines, plants, or animals. You would rather do something than talk about it."}, {"id": "scientist", "prompt": "Scientist", "picture": "six-letters-scientist.png", "answer": ["I"], "feedback": "Scientist: I, Investigative: You like to figure things out. You ask why, you like puzzles, science, and research."}, {"id": "veterinarian", "prompt": "Veterinarian", "picture": "six-letters-veterinarian.png", "answer": ["I"], "feedback": "Veterinarian: I, Investigative: You like to figure things out. You ask why, you like puzzles, science, and research."}, {"id": "graphic-designer", "prompt": "Graphic designer", "picture": "six-letters-graphic-designer.png", "answer": ["A"], "feedback": "Graphic designer: A, Artistic: You like to make new things and express yourself. You would rather create than follow directions exactly."}, {"id": "photographer", "prompt": "Photographer", "picture": "six-letters-photographer.png", "answer": ["A"], "feedback": "Photographer: A, Artistic: You like to make new things and express yourself. You would rather create than follow directions exactly."}, {"id": "nurse", "prompt": "Nurse", "picture": "six-letters-nurse.png", "answer": ["S"], "feedback": "Nurse: S, Social: You like to help, teach, and take care of people. People come to you when they are upset."}, {"id": "teacher", "prompt": "Teacher", "picture": "six-letters-teacher.png", "answer": ["S"], "feedback": "Teacher: S, Social: You like to help, teach, and take care of people. People come to you when they are upset."}, {"id": "business-owner", "prompt": "Business owner", "picture": "six-letters-business-owner.png", "answer": ["E"], "feedback": "Business owner: E, Enterprising: You like to lead, persuade, compete, and sell. You would like to run your own business someday."}, {"id": "real-estate-agent", "prompt": "Real estate agent", "picture": "six-letters-real-estate-agent.png", "answer": ["E"], "feedback": "Real estate agent: E, Enterprising: You like to lead, persuade, compete, and sell. You would like to run your own business someday."}, {"id": "accountant", "prompt": "Accountant", "picture": "six-letters-accountant.png", "answer": ["C"], "feedback": "Accountant: C, Conventional: You like order, clear directions, and knowing exactly what to do. You like a job where being careful matters."}, {"id": "bank-teller", "prompt": "Bank teller", "picture": "six-letters-bank-teller.png", "answer": ["C"], "feedback": "Bank teller: C, Conventional: You like order, clear directions, and knowing exactly what to do. You like a job where being careful matters."}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "realistic", "label": "Realistic", "picture": "six-letters-wrench.png", "letter": "R"}, {"id": "investigative", "label": "Investigative", "picture": "six-letters-magnifying-glass.png", "letter": "I"}, {"id": "artistic", "label": "Artistic", "picture": "six-letters-paintbrush.png", "letter": "A"}, {"id": "social", "label": "Social", "picture": "six-letters-two-people.png", "letter": "S"}, {"id": "enterprising", "label": "Enterprising", "picture": "six-letters-megaphone.png", "letter": "E"}, {"id": "conventional", "label": "Conventional", "picture": "six-letters-checklist.png", "letter": "C"}]}}], "option_sets": [{"label": "round2.bins", "list": [{"id": "realistic", "label": "Realistic", "picture": "six-letters-wrench.png", "letter": "R"}, {"id": "investigative", "label": "Investigative", "picture": "six-letters-magnifying-glass.png", "letter": "I"}, {"id": "artistic", "label": "Artistic", "picture": "six-letters-paintbrush.png", "letter": "A"}, {"id": "social", "label": "Social", "picture": "six-letters-two-people.png", "letter": "S"}, {"id": "enterprising", "label": "Enterprising", "picture": "six-letters-megaphone.png", "letter": "E"}, {"id": "conventional", "label": "Conventional", "picture": "six-letters-checklist.png", "letter": "C"}]}]}], "study": ["The three words: trait, strength, interest (Handout 02.02 Strengths Inventory, page 1)", "Part 3 of the Interest Quiz: the six types and where they work", "A trait can turn into a strength: patient is a trait; sits with my little cousin until she gets the math is a strength"], "rule_lines": [], "reference": {"round1.bin_definitions": {"Trait": "How you usually are (quiet, outgoing, patient, stubborn)", "Strength": "Something you do well (calms down a crying kid, fixes bikes, remembers everyone's birthday)", "Interest": "Something you want to do more of (drawing, basketball, cooking, taking things apart)"}}, "_unmapped": {}, "lede": "A statement appears. Tap it into Trait, Strength, or Interest. Then a career card appears, and you tap it into one of the six interest types, R, I, A, S, E, or C, each bin with its letter, word, and picture."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("SixLetters");
+  var node = document.getElementById("SixLetters-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

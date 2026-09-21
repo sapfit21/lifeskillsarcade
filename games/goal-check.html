@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goal Check, Life Skills Arcade</title>
+<meta name="description" content="A goal appears. Tap it into SMART, Stretch, or Vague. Then tap the five steps of the decision model into order, and build the school-team ladder from this week at the bottom to the goal at the top.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="GoalCheck">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-02-04.html">Lesson 2.4</a>, <a href="../lesson-02-05.html">Lesson 2.5</a>. Reviews Lesson 2.4 (the SMART, stretch, vague sort; every goal in Round 1 is from Handout 02.04 or the lesson's own examples) and Lesson 2.5 (the five-step decision model and the model ladder from the teacher key). Use it as the Day 2 do now of Lesson 2.5, which already asks students to write the five steps from memory, or on the day the Goal Plans come back for the look-back four weeks later. grade 6 can play Round 1 with 12 goals and skip the ladder sequence; the decision-model sequence is the same wording as the Unit 0 poster, so it also works as a Unit 0 review any time in the year. Grade 6 can play Round 1 with 12 goals and skip the ladder sequence.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/goal-check-title.webp" alt=""><h1 class="game-title">Goal <span class="alt2">Check</span></h1></div>
+<p class="game-lede">A goal appears. Tap it into SMART, Stretch, or Vague. Then tap the five steps of the decision model into order, and build the school-team ladder from this week at the bottom to the goal at the top.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="goal-check-question-mark"><img class="piece" src="art/goal-check-question-mark.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-list"><img class="piece" src="art/goal-check-list.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-scale"><img class="piece" src="art/goal-check-scale.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-check-mark"><img class="piece" src="art/goal-check-check-mark.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-mirror"><img class="piece" src="art/goal-check-mirror.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-whistle"><img class="piece" src="art/goal-check-whistle.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-basketball"><img class="piece" src="art/goal-check-basketball.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-running-shoe"><img class="piece" src="art/goal-check-running-shoe.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-play-clipboard"><img class="piece" src="art/goal-check-play-clipboard.webp" alt="" loading="lazy"></span>
+<span data-key="goal-check-trophy"><img class="piece" src="art/goal-check-trophy.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Handout 02.04 Part 1: the five letters and the question to ask for each</li><li>Part 2: sort the six (1 ST, 2 S, 3 V, 4 S, 5 ST, 6 V)</li><li>Handout 02.05 page 1: the rung test, and page 2: the five-step decision model from Unit 0</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="GoalCheck-data">{"schema": "1.0", "slug": "goal-check", "title": "Goal Check", "unit": 2, "lessons": ["2.4", "2.5"], "handouts": ["Handout 02.04 - SMART Goal Builder", "Handout 02.05 - Goal Ladder and Decision Grid"], "standards": ["NYS IGLR 2. Goal Setting a) Acknowledge the role of personal values and standards in goal setting", "NYS IGLR 2. Goal Setting b) Differentiate between SMART and Stretch goals", "NYS IGLR 2. Goal Setting c) Establish a goal for personal improvement", "NYS IGLR 2. Goal Setting d) Design, implement, and evaluate a plan to attain a desired goal", "CTE CCO 4. Career Plans d) Formulate a personal career plan that includes short-term and long-term goals needed to carry out the career plan", "CTE PSI 1. Problem Solving e) Demonstrate personal development of problem-solving skills through practice of these skills in a variety of classroom applications", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students understand the resources available to them, make informed decisions about the use of those resources, and know some ways to expand resources.", "CDOS Standard 3a Universal Foundation Skills: Thinking Skills", "National FCS 3.0: 2.1.1 Use time management, organization, and step-by-step process skills to rank tasks and reach goals.", "National FCS 3.0: 2.1.2 Examine how people and families choose among needs and wants."], "source_file": "u2.json", "mechanic_note": "sort, then order: Round 1, a goal appears and you tap it into SMART, Stretch, or Vague (three bins); Round 2, two shuffled sequences: tap the five steps of the decision model into order, then tap the five rungs of the school-team ladder into order from the bottom rung (this week) to the top rung (the goal)", "teacher_note": "Reviews Lesson 2.4 (the SMART, stretch, vague sort; every goal in Round 1 is from Handout 02.04 or the lesson's own examples) and Lesson 2.5 (the five-step decision model and the model ladder from the teacher key). Use it as the Day 2 do now of Lesson 2.5, which already asks students to write the five steps from memory, or on the day the Goal Plans come back for the look-back four weeks later. grade 6 can play Round 1 with 12 goals and skip the ladder sequence; the decision-model sequence is the same wording as the Unit 0 poster, so it also works as a Unit 0 review any time in the year. Grade 6 can play Round 1 with 12 goals and skip the ladder sequence.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round; in Round 2 each card placed in the right slot scores, and a wrong slot flashes the card back with the correct step named"}, "art": {"title": {"file": "goal-check-title.png", "line": "A red and white archery target with a yellow arrow stuck in the center, black outline, sticker style."}, "scene": [], "cards": [{"file": "goal-check-question-mark.png", "line": "A large sky blue question mark with a black outline."}, {"file": "goal-check-list.png", "line": "A cream notepad with three black bullet dots and gray lines beside them."}, {"file": "goal-check-scale.png", "line": "A light gray balance scale with two yellow pans, one slightly lower than the other."}, {"file": "goal-check-check-mark.png", "line": "A bold green check mark inside a white circle with a black outline."}, {"file": "goal-check-mirror.png", "line": "A round hand mirror with sky blue glass and a red handle."}, {"file": "goal-check-whistle.png", "line": "A red coach's whistle hanging on a black lanyard."}, {"file": "goal-check-basketball.png", "line": "A yellow basketball with black seams."}, {"file": "goal-check-running-shoe.png", "line": "A green running shoe with white laces and a light gray sole."}, {"file": "goal-check-play-clipboard.png", "line": "A cream clipboard showing a play diagram of small circles and dotted red arrows."}, {"file": "goal-check-trophy.png", "line": "A yellow trophy cup with two handles and a red ribbon tied on one handle."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 19 goals into three bins, 5 seconds each", "seconds_per_item": 5, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "i-will-raise-my-math-quiz-average-from-72-to-80-by-the-end-of-the-marking-period-by-doing-the-practice-set-every-night", "prompt": "I will raise my math quiz average from 72 to 80 by the end of the marking period by doing the practice set every night.", "answer": ["SMART"], "feedback": "SMART: the next step you can actually take, with a number and a date."}, {"id": "i-will-save-60-by-december-1-by-putting-5-a-week-from-my-allowance-in-the-jar", "prompt": "I will save $60 by December 1 by putting $5 a week from my allowance in the jar.", "answer": ["SMART"], "feedback": "SMART: the next step you can actually take, with a number and a date."}, {"id": "i-will-drink-water-instead-of-soda-at-lunch-every-school-day-for-four-weeks-starting-monday-and-keep-a-tally-on-my-folder", "prompt": "I will drink water instead of soda at lunch every school day for four weeks, starting Monday, and keep a tally on my folder.", "answer": ["SMART"], "feedback": "SMART: the next step you can actually take, with a number and a date."}, {"id": "i-will-finish-two-books-by-december-20-by-reading-20-minutes-every-night-before-bed", "prompt": "I will finish two books by December 20 by reading 20 minutes every night before bed.", "answer": ["SMART"], "feedback": "SMART: the next step you can actually take, with a number and a date."}, {"id": "i-will-make-7-out-of-10-free-throws-by-the-end-of-the-season-by-practicing-20-minutes-after-school-three-days-a-week", "prompt": "I will make 7 out of 10 free throws by the end of the season by practicing 20 minutes after school three days a week.", "answer": ["SMART"], "feedback": "SMART: the next step you can actually take, with a number and a date."}, {"id": "make-the-school-team-this-spring-by-going-to-every-open-gym", "prompt": "Make the school team this spring by going to every open gym.", "answer": ["SMART"], "feedback": "SMART: the next step you can actually take, with a number and a date."}, {"id": "save-15-a-week-toward-the-ticket-for-10-weeks", "prompt": "Save $15 a week toward the ticket for 10 weeks.", "answer": ["SMART"], "feedback": "SMART: the next step you can actually take, with a number and a date."}, {"id": "i-will-play-in-the-nba", "prompt": "I will play in the NBA.", "answer": ["Stretch"], "feedback": "Stretch: big, far away, and not fully in your control. The SMART goal under it: make the school team this spring by going to every open gym."}, {"id": "i-will-own-my-own-restaurant", "prompt": "I will own my own restaurant.", "answer": ["Stretch"], "feedback": "Stretch: big, far away, and not fully in your control. A stretch goal is not wrong; it just cannot be your only goal. Every stretch goal needs a SMART goal under it."}, {"id": "be-a-nurse", "prompt": "Be a nurse.", "answer": ["Stretch"], "feedback": "Stretch: big, far away, and not fully in your control. A stretch goal is not wrong; it just cannot be your only goal. Every stretch goal needs a SMART goal under it."}, {"id": "become-a-chef", "prompt": "Become a chef.", "answer": ["Stretch"], "feedback": "Stretch: big, far away, and not fully in your control. A stretch goal is not wrong; it just cannot be your only goal. Every stretch goal needs a SMART goal under it."}, {"id": "get-a-puppy", "prompt": "Get a puppy.", "answer": ["Stretch"], "feedback": "Stretch in disguise. Write the SMART goal under it: save $15 a week for 10 weeks."}, {"id": "i-want-to-be-healthier", "prompt": "I want to be healthier.", "answer": ["Vague"], "feedback": "Vague: a wish with no number and no date. Ask what number you would count."}, {"id": "i-will-try-harder-in-school", "prompt": "I will try harder in school.", "answer": ["Vague"], "feedback": "Vague. Some students say try harder is achievable. Ask what number they would count. There is none, so it is V."}, {"id": "i-want-to-get-better-at-math", "prompt": "I want to get better at math.", "answer": ["Vague"], "feedback": "Vague: a wish with no number and no date. Ask what number you would count."}, {"id": "i-want-to-save-money", "prompt": "I want to save money.", "answer": ["Vague"], "feedback": "Vague: a wish with no number and no date. Ask what number you would count."}, {"id": "i-want-to-read-more", "prompt": "I want to read more.", "answer": ["Vague"], "feedback": "Vague: a wish with no number and no date. Ask what number you would count."}, {"id": "i-want-to-be-a-better-basketball-player", "prompt": "I want to be a better basketball player.", "answer": ["Vague"], "feedback": "Vague: a wish with no number and no date. Ask what number you would count."}, {"id": "i-will-read-more-books-this-year", "prompt": "I will read more books this year.", "answer": ["Vague"], "feedback": "Still vague; send it back for a number and a date. A got it rewrite: I will finish two books by December 20 by reading 20 minutes every night before bed."}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "smart", "label": "SMART"}, {"id": "stretch", "label": "Stretch"}, {"id": "vague", "label": "Vague"}]}}], "option_sets": [{"label": "round1.bins", "list": [{"id": "smart", "label": "SMART"}, {"id": "stretch", "label": "Stretch"}, {"id": "vague", "label": "Vague"}]}]}, {"n": 2, "note": "Round 2: two sequences of five cards, 30 seconds each", "seconds_per_item": 30, "engines": ["order"], "steps": [{"kind": "order", "label": "The five-step decision model", "prompt": "Put the five steps of the decision model in order.", "feedback": "The five steps, in this order: name the choice, list options, weigh each against what matters, decide, look back. The look-back step is the one most people skip.", "cards": [{"id": "0", "prompt": "Name the choice", "picture": "goal-check-question-mark.png", "rank": 1}, {"id": "1", "prompt": "List options", "picture": "goal-check-list.png", "rank": 2}, {"id": "2", "prompt": "Weigh each against what matters", "picture": "goal-check-scale.png", "rank": 3}, {"id": "3", "prompt": "Decide", "picture": "goal-check-check-mark.png", "rank": 4}, {"id": "4", "prompt": "Look back", "picture": "goal-check-mirror.png", "rank": 5}]}, {"kind": "order", "label": "The goal ladder: make the school team in March", "prompt": "Build the ladder from the bottom rung (this week) to the top rung (the goal). Every rung is an action someone could watch you do.", "feedback": "The bottom rung is something you do this week, with a day on it. Rung test: could someone watch you do it? Ask the coach when open gym is passes. Get more serious does not.", "cards": [{"id": "0", "prompt": "Ask the coach when open gym is (Tuesday)", "picture": "goal-check-whistle.png", "rank": 1}, {"id": "1", "prompt": "Go to every open gym (November to February)", "picture": "goal-check-basketball.png", "rank": 2}, {"id": "2", "prompt": "Run one mile three times a week (starting Monday)", "picture": "goal-check-running-shoe.png", "rank": 3}, {"id": "3", "prompt": "Learn the two plays the coach posts (January)", "picture": "goal-check-play-clipboard.png", "rank": 4}, {"id": "4", "prompt": "Top rung: make the school basketball team at tryouts in March", "picture": "goal-check-trophy.png", "rank": 5}]}]}], "study": ["Handout 02.04 Part 1: the five letters and the question to ask for each", "Part 2: sort the six (1 ST, 2 S, 3 V, 4 S, 5 ST, 6 V)", "Handout 02.05 page 1: the rung test, and page 2: the five-step decision model from Unit 0"], "rule_lines": [], "reference": {"round1.bin_definitions": {"SMART": "Specific, Measurable, Achievable, Relevant, Time-bound: the next step you can actually take, with a number and a date", "Stretch": "The big thing the steps climb toward; far away, and not fully in your control", "Vague": "A wish with no number and no date"}}, "_unmapped": {}, "lede": "A goal appears. Tap it into SMART, Stretch, or Vague. Then tap the five steps of the decision model into order, and build the school-team ladder from this week at the bottom to the goal at the top."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("GoalCheck");
+  var node = document.getElementById("GoalCheck-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

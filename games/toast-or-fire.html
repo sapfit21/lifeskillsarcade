@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toast or Fire, Life Skills Arcade</title>
+<meta name="description" content="A kind of stress appears. Tap handle it, the kind you handle with a tool, or bring it, the kind you bring to an adult. Then the steps for a tool appear, and you tap the tool from six pictures.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="ToastOrFire">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-03-07.html">Lesson 3.7</a>, <a href="../lesson-03-08.html">Lesson 3.8</a>. Toast or Fire reviews Lesson 3.7 (handle it or bring it, the who-to-ask list) and Lesson 3.8 (the six stress tools and their steps). Use it at the start of Lesson 3.9 before the Stress Plan so the tool names and steps are fresh, or as review for Unit 3 Test item 7. Nothing personal is asked: the game never asks a player for a rating, a stressor, or a map; Round 1 sorts the handout's own general list and Round 2 matches steps to tools. One Round 1 card is the handout's line &quot;anything that makes you not want to be here&quot;; the feedback names the who-to-ask list, and if you would rather not have that card in a game, remove it and keep nine.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/toast-or-fire-title.webp" alt=""><h1 class="game-title">Toast <span class="alt2">or Fire</span></h1></div>
+<p class="game-lede">A kind of stress appears. Tap handle it, the kind you handle with a tool, or bring it, the kind you bring to an adult. Then the steps for a tool appear, and you tap the tool from six pictures.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>The alarm rule: the same alarm goes off for toast and for fire. Both times it is doing its job. Good stress is short, pointed at something you can do, sharpens you, then leaves. Bad stress is too long, pointed at something too big or out of your control, wears you down, does not leave on its own.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="toast-or-fire-box-breathing"><img class="piece" src="art/toast-or-fire-box-breathing.webp" alt="" loading="lazy"></span>
+<span data-key="toast-or-fire-walk"><img class="piece" src="art/toast-or-fire-walk.webp" alt="" loading="lazy"></span>
+<span data-key="toast-or-fire-brain-dump"><img class="piece" src="art/toast-or-fire-brain-dump.webp" alt="" loading="lazy"></span>
+<span data-key="toast-or-fire-music"><img class="piece" src="art/toast-or-fire-music.webp" alt="" loading="lazy"></span>
+<span data-key="toast-or-fire-talk"><img class="piece" src="art/toast-or-fire-talk.webp" alt="" loading="lazy"></span>
+<span data-key="toast-or-fire-sleep-and-food"><img class="piece" src="art/toast-or-fire-sleep-and-food.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Stress: the body's response to a demand or a threat (Handout 03.07 Part 1)</li><li>Good stress vs bad stress: how long, pointed at, what it does</li><li>Handle it or bring it, and the who-to-ask list (Handout 03.07 Part 4)</li><li>The six tools and their steps (Handout 03.08 page 1)</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="ToastOrFire-data">{"schema": "1.0", "slug": "toast-or-fire", "title": "Toast or Fire", "unit": 3, "lessons": ["3.7", "3.8"], "handouts": ["Handout 03.07 - Private Stress Map", "Handout 03.08 - Toolkit Test Sheet and Toolkit Card"], "standards": ["NYS HDR 3. Peer Influence and Stress Management d) Recognize that adolescents experience common problems", "NYS HDR 3. Peer Influence and Stress Management e) Identify the causes of stress and examine appropriate ways to manage stressors", "CTE HSW 6. Stress Management a) Define \"stress\" and identify situations that contribute to stress", "CTE HSW 6. Stress Management c) Recognize signs of stress and take steps to reduce its impact on overall wellness", "CTE HSW 6. Stress Management d) Research and practice techniques to manage stressful situations", "CTE HSW 6. Stress Management e) Assess the effectiveness of stress management techniques and determine steps to take to address stress if reduction is not achieved", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.", "CDOS Standard 3a Universal Foundation Skills: Personal Qualities", "National FCS 3.0: 13.1.6 Show ways to manage stress at home, at work, and in the community.", "National FCS 3.0: 14.1.1 Explain the physical, emotional, social, psychological, cultural, and spiritual sides of individual and family wellness."], "source_file": "u3.json", "mechanic_note": "sort: a kind of stress appears as text; tap \"handle it\" (the kind you handle yourself with a tool) or \"bring it\" (the kind you bring to an adult) (two bins). Round 2 is a match: the steps for a tool appear; tap the tool from the six tool pictures; then six fast reads about the tools with the same six buttons (one has four text choices)", "teacher_note": "Toast or Fire reviews Lesson 3.7 (handle it or bring it, the who-to-ask list) and Lesson 3.8 (the six stress tools and their steps). Use it at the start of Lesson 3.9 before the Stress Plan so the tool names and steps are fresh, or as review for Unit 3 Test item 7. Nothing personal is asked: the game never asks a player for a rating, a stressor, or a map; Round 1 sorts the handout's own general list and Round 2 matches steps to tools. One Round 1 card is the handout's line \"anything that makes you not want to be here\"; the feedback names the who-to-ask list, and if you would rather not have that card in a game, remove it and keep nine.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "toast-or-fire-title.png", "line": "A round white smoke alarm with a light gray grille and one small red light, seen from below."}, "scene": [], "cards": [], "buttons": [{"file": "toast-or-fire-box-breathing.png", "line": "A pair of sky blue lungs inside a black outlined square."}, {"file": "toast-or-fire-walk.png", "line": "A trail of four green footprints curving upward on a cream background."}, {"file": "toast-or-fire-brain-dump.png", "line": "A yellow pencil lying next to a pile of loose cream paper sheets."}, {"file": "toast-or-fire-music.png", "line": "A black music note, an eighth note, with a red shadow."}, {"file": "toast-or-fire-talk.png", "line": "Two speech bubbles facing each other, one sky blue and one green, both empty."}, {"file": "toast-or-fire-sleep-and-food.png", "line": "A small white bed with a sky blue blanket beside a white plate with a green vegetable and a yellow roll on it."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 10 kinds of stress, 7 seconds each", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "a-test", "prompt": "a test", "answer": ["handle it"], "feedback": "Handle it yourself with a tool: a test. The kind you handle yourself with a tool is short and pointed at something you can do."}, {"id": "a-game", "prompt": "a game", "answer": ["handle it"], "feedback": "Handle it yourself with a tool: a game. The kind you handle yourself with a tool is short and pointed at something you can do."}, {"id": "a-busy-week", "prompt": "a busy week", "answer": ["handle it"], "feedback": "Handle it yourself with a tool: a busy week. The kind you handle yourself with a tool is short and pointed at something you can do."}, {"id": "an-argument-that-will-blow-over", "prompt": "an argument that will blow over", "answer": ["handle it"], "feedback": "Handle it yourself with a tool: an argument that will blow over. The kind you handle yourself with a tool is short and pointed at something you can do."}, {"id": "a-sunday-night", "prompt": "a Sunday night", "answer": ["handle it"], "feedback": "Handle it yourself with a tool: a Sunday night. The kind you handle yourself with a tool is short and pointed at something you can do."}, {"id": "anything-that-lasts-for-weeks", "prompt": "anything that lasts for weeks", "answer": ["bring it"], "feedback": "Bring it to an adult: anything that lasts for weeks. The counselor, the nurse, any teacher, the main office, an adult at home, or a help line the school approves."}, {"id": "anything-about-safety", "prompt": "anything about safety", "answer": ["bring it"], "feedback": "Bring it to an adult: anything about safety. The counselor, the nurse, any teacher, the main office, an adult at home, or a help line the school approves."}, {"id": "anything-that-makes-you-not-want-to-be-here", "prompt": "anything that makes you not want to be here", "answer": ["bring it"], "feedback": "Bring it to an adult: anything that makes you not want to be here. The counselor, the nurse, any teacher, the main office, an adult at home, or a help line the school approves."}, {"id": "a-friend-who-says-any-of-those", "prompt": "a friend who says any of those", "answer": ["bring it"], "feedback": "Bring it to an adult: a friend who says any of those. The counselor, the nurse, any teacher, the main office, an adult at home, or a help line the school approves."}, {"id": "anything-you-are-not-sure-about", "prompt": "anything you are not sure about", "answer": ["bring it"], "feedback": "Bring it to an adult: anything you are not sure about. The counselor, the nurse, any teacher, the main office, an adult at home, or a help line the school approves."}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "handle-it", "label": "handle it", "sub": "The kind you handle yourself with a tool"}, {"id": "bring-it", "label": "bring it", "sub": "The kind you bring to an adult"}]}}], "option_sets": [{"label": "round1_bins", "list": [{"id": "handle-it", "label": "handle it", "sub": "The kind you handle yourself with a tool"}, {"id": "bring-it", "label": "bring it", "sub": "The kind you bring to an adult"}]}]}, {"n": 2, "note": "Round 2: 6 tool step cards then 6 fast reads, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "box-breathing", "prompt": "In for 4, hold 4, out 4, hold 4. Four rounds.", "answer": ["Box breathing"], "feedback": "Box breathing (lungs and a square): In for 4, hold 4, out 4, hold 4. Four rounds. Time: 90 sec.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "two-minute-walk", "prompt": "The loop. No phone. No talking.", "answer": ["Two-minute walk"], "feedback": "Two-minute walk (footprints): The loop. No phone. No talking. Time: 2 min.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "brain-dump", "prompt": "Write everything in your head onto scrap paper. No order. No sentences. Fold it. Keep it or shred it.", "answer": ["Brain dump"], "feedback": "Brain dump (a pencil and a pile): Write everything in your head onto scrap paper. No order. No sentences. Fold it. Keep it or shred it. Time: 2 min.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "music-or-movement-break", "prompt": "The track plays. Stand, stretch, move, or sit and listen.", "answer": ["Music or movement break"], "feedback": "Music or movement break (a note): The track plays. Stand, stretch, move, or sit and listen. Time: 90 sec.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "talk-to-someone", "prompt": "Partners. One talks for 45 seconds about anything. The other only listens, no advice. Switch.", "answer": ["Talk to someone"], "feedback": "Talk to someone (two faces): Partners. One talks for 45 seconds about anything. The other only listens, no advice. Switch. Time: 2 min.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "sleep-and-food-basics", "prompt": "Not a live test. Answer: Did I sleep in my window last night? Did I eat something real today? Rate how you think you would feel if both were yes.", "answer": ["Sleep and food basics"], "feedback": "Sleep and food basics (a bed and a plate): Not a live test. Answer: Did I sleep in my window last night? Did I eat something real today? Rate how you think you would feel if both were yes. Time: 2 min.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "counts", "prompt": "What are the four counts in box breathing?", "answer": ["4, 4, 4, 4"], "choices": ["4, 4, 4, 4", "4, 2, 4, 2", "3, 3, 3, 3", "5, 5, 5, 5"], "feedback": "Box breathing counts: 4 in, 4 hold, 4 out, 4 hold. Say \"gentle\" before the first round.", "options": {"count": 4, "style": "choices"}}, {"id": "needs-another-person", "prompt": "Which tool needs another person?", "answer": ["Talk to someone"], "feedback": "Talk to someone needs a partner. One talks for 45 seconds; the other only listens, no advice.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "not-a-live-test", "prompt": "Which tool is not a live test?", "answer": ["Sleep and food basics"], "feedback": "Sleep and food basics is not a live test. Sleep and food set the baseline every other tool starts from.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "fold-it", "prompt": "Which tool ends with folding a sheet and keeping it or shredding it?", "answer": ["Brain dump"], "feedback": "Brain dump. Nobody reads it, including the teacher.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "no-phone-no-talking", "prompt": "Which tool is the loop, no phone, no talking?", "answer": ["Two-minute walk"], "feedback": "The two-minute walk: the loop, no phone, no talking.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}, {"id": "the-track", "prompt": "Which tool starts when the track plays?", "answer": ["Music or movement break"], "feedback": "Music or movement break: the track plays; stand, stretch, move, or sit and listen.", "option_set": "round2_buttons", "options": {"count": 6, "style": "buttons"}}], "options": {"source": "mixed", "style": "choices", "count": 4, "fallback": "fixed", "list": [{"id": "box-breathing", "label": "Box breathing", "sub": "lungs and a square"}, {"id": "two-minute-walk", "label": "Two-minute walk", "sub": "footprints"}, {"id": "brain-dump", "label": "Brain dump", "sub": "a pencil and a pile"}, {"id": "music-or-movement-break", "label": "Music or movement break", "sub": "a note"}, {"id": "talk-to-someone", "label": "Talk to someone", "sub": "two faces"}, {"id": "sleep-and-food-basics", "label": "Sleep and food basics", "sub": "a bed and a plate"}]}}], "option_sets": [{"label": "round2_buttons", "list": [{"id": "box-breathing", "label": "Box breathing", "sub": "lungs and a square"}, {"id": "two-minute-walk", "label": "Two-minute walk", "sub": "footprints"}, {"id": "brain-dump", "label": "Brain dump", "sub": "a pencil and a pile"}, {"id": "music-or-movement-break", "label": "Music or movement break", "sub": "a note"}, {"id": "talk-to-someone", "label": "Talk to someone", "sub": "two faces"}, {"id": "sleep-and-food-basics", "label": "Sleep and food basics", "sub": "a bed and a plate"}]}]}], "study": ["Stress: the body's response to a demand or a threat (Handout 03.07 Part 1)", "Good stress vs bad stress: how long, pointed at, what it does", "Handle it or bring it, and the who-to-ask list (Handout 03.07 Part 4)", "The six tools and their steps (Handout 03.08 page 1)"], "rule_lines": ["The alarm rule: the same alarm goes off for toast and for fire. Both times it is doing its job. Good stress is short, pointed at something you can do, sharpens you, then leaves. Bad stress is too long, pointed at something too big or out of your control, wears you down, does not leave on its own."], "reference": {"who_to_ask": ["The school counselor", "The nurse", "Any teacher, including me", "The main office", "An adult at home", "A help line the school approves"]}, "_unmapped": {}, "repaired": true, "lede": "A kind of stress appears. Tap handle it, the kind you handle with a tool, or bring it, the kind you bring to an adult. Then the steps for a tool appear, and you tap the tool from six pictures."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("ToastOrFire");
+  var node = document.getElementById("ToastOrFire-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Career Ladder, Life Skills Arcade</title>
+<meta name="description" content="A career card appears. Tap the education bin it fits: none past high school, a certificate or two-year degree, or a four-year degree. Then a day-in-the-life line appears, and you tap the career.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="CareerLadder">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-01-22.html">Lesson 1.22</a>. Reviews the careers half of Lesson 1.22 (the ten career cards and Sort 1 by education). Use it right after the card sort as the three-minute check before the test is handed out, or as the Unit 2 Lesson 2.1 do now, where the self-check sheet comes back. Round 1 follows the key: line cook scores in A or B and restaurant manager scores in B or A, because the cards say both paths exist. Round 2 matches the day-in-the-life text to the career picture; the pay sort is not in the game because the pay ranges are to be refreshed before teaching. Grade 6 setting: use the six-card set (dishwasher, prep cook, line cook, baker, dietitian, health inspector) in both rounds. Grade 8 stretch (an eleventh card) stays on the handout.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/career-ladder-title.webp" alt=""><h1 class="game-title">Career <span class="alt2">Ladder</span></h1></div>
+<p class="game-lede">A career card appears. Tap the education bin it fits: none past high school, a certificate or two-year degree, or a four-year degree. Then a day-in-the-life line appears, and you tap the career.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Most of the ladder is climbable from the bottom; a dishwasher who shows up becomes a prep cook, a prep cook who learns becomes a line cook, and a line cook with a certificate can run a kitchen. The dietitian and the food scientist take a degree; the health inspector takes a degree and a state exam.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="career-ladder-dishwasher"><img class="piece" src="art/career-ladder-dishwasher.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-prep-cook"><img class="piece" src="art/career-ladder-prep-cook.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-line-cook"><img class="piece" src="art/career-ladder-line-cook.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-baker"><img class="piece" src="art/career-ladder-baker.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-restaurant-manager"><img class="piece" src="art/career-ladder-restaurant-manager.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-caterer-or-personal-chef"><img class="piece" src="art/career-ladder-caterer-or-personal-chef.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-school-food-service-director"><img class="piece" src="art/career-ladder-school-food-service-director.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-registered-dietitian"><img class="piece" src="art/career-ladder-registered-dietitian.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-food-scientist"><img class="piece" src="art/career-ladder-food-scientist.webp" alt="" loading="lazy"></span>
+<span data-key="career-ladder-health-inspector"><img class="piece" src="art/career-ladder-health-inspector.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The ten careers and the education each needs</li><li>Three groups: none past high school; a certificate, an apprenticeship, or a two-year degree; a four-year degree or more</li><li>A day in the life for each card</li><li>Pay ranges are on the cards and are to be refreshed before teaching; the game does not test them</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="CareerLadder-data">{"schema": "1.0", "slug": "career-ladder", "title": "Career Ladder", "unit": 1, "lessons": ["1.22"], "handouts": ["Handout 01.22 - Careers Card Sort"], "standards": ["NYS N&W 4. Career Pathways a) Investigate careers in nutrition, wellness, and culinary arts and identify the pathways to reach them", "NYS N&W 4. Career Pathways b) Assess personal knowledge, skills, and interest in careers in nutrition, wellness, and culinary arts and evaluate personal suitability for these careers", "CTE CCO 2. Career Clusters a) Identify and use career resources to obtain information about careers and employment trends", "CTE CCO 3. Employability Skills a) Identify personal characteristics such as abilities, interests, and values and examine how they might impact career choices", "National FCS 3.0: 1.2.1 Examine possible careers to find what each one requires and offers in knowledge, skills, attitudes, and openings.", "National FCS 3.0: 9.1.1 Explain what people in food science, food technology, dietetics, and nutrition careers do."], "source_file": "u1.json", "mechanic_note": "sort: a career card appears, tap the education bin it fits (A: none past high school; B: a certificate, an apprenticeship, or a two-year degree; C: a four-year degree or more); the key's second bin for line cook and restaurant manager scores too; then a match: a day in the life line appears, tap the career from four picture buttons", "teacher_note": "Reviews the careers half of Lesson 1.22 (the ten career cards and Sort 1 by education). Use it right after the card sort as the three-minute check before the test is handed out, or as the Unit 2 Lesson 2.1 do now, where the self-check sheet comes back. Round 1 follows the key: line cook scores in A or B and restaurant manager scores in B or A, because the cards say both paths exist. Round 2 matches the day-in-the-life text to the career picture; the pay sort is not in the game because the pay ranges are to be refreshed before teaching. Grade 6 setting: use the six-card set (dishwasher, prep cook, line cook, baker, dietitian, health inspector) in both rounds. Grade 8 stretch (an eleventh card) stays on the handout.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 for the key's second bin, 5 bonus on every third in a row, a miss shows the education line from the card; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "career-ladder-title.png", "line": "A tall white chef's hat with a light gray band standing beside a short cream colored ladder, in the sticker style."}, "scene": [], "cards": [{"file": "career-ladder-dishwasher.png", "line": "A light gray dish machine rack full of white plates with sky blue water drops and white soap bubbles, black outline."}, {"file": "career-ladder-prep-cook.png", "line": "A cream colored cutting board with a pile of green and red chopped vegetables and a light gray clipboard beside it, black outline."}, {"file": "career-ladder-line-cook.png", "line": "A light gray flat top grill with a skillet on it and a row of white order tickets clipped above, no text, black outline."}, {"file": "career-ladder-baker.png", "line": "A cream colored round loaf with light gray scoring next to a cream rolling pin and a white bowl of dough, black outline."}, {"file": "career-ladder-restaurant-manager.png", "line": "A light gray clipboard with a blank schedule grid and a set of keys on a red ring beside it, black outline."}, {"file": "career-ladder-caterer-or-personal-chef.png", "line": "A light gray chafing dish with the lid lifted and a cream colored serving tray beside it, black outline."}, {"file": "career-ladder-school-food-service-director.png", "line": "A cream colored cafeteria tray with five sections holding a green vegetable, a yellow grain, a red fruit, a cream protein, and a white milk carton, black outline."}, {"file": "career-ladder-registered-dietitian.png", "line": "A white plate divided into sections beside a light gray clipboard with a blank chart, black outline."}, {"file": "career-ladder-food-scientist.png", "line": "A clear lab beaker with sky blue liquid next to a light gray microscope and a red tomato, black outline."}, {"file": "career-ladder-health-inspector.png", "line": "A white refrigerator door open with a white thermometer showing a red column clipped to a shelf and a light gray clipboard beside it, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: all 10 career cards, shuffled each play, 8 seconds each, three bins", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "dishwasher", "prompt": "Dishwasher", "answer": ["A: None past high school"], "feedback": "Dishwasher: None past high school. Trained on the job in a day. Some start at 14 with working papers.", "tags": {"education": "None past high school. Trained on the job in a day. Some start at 14 with working papers."}}, {"id": "prep-cook", "prompt": "Prep cook", "answer": ["A: None past high school"], "feedback": "Prep cook: None past high school. Trained on the job.", "tags": {"education": "None past high school. Trained on the job."}}, {"id": "line-cook", "prompt": "Line cook", "answer": ["A: None past high school", "B: A certificate, an apprenticeship, or a two-year degree"], "feedback": "Line cook: High school. A culinary certificate helps but many learn on the line.", "tags": {"education": "High school. A culinary certificate helps but many learn on the line."}}, {"id": "baker", "prompt": "Baker", "answer": ["B: A certificate, an apprenticeship, or a two-year degree"], "feedback": "Baker: High school plus a certificate or an apprenticeship.", "tags": {"education": "High school plus a certificate or an apprenticeship."}}, {"id": "restaurant-manager", "prompt": "Restaurant manager", "answer": ["B: A certificate, an apprenticeship, or a two-year degree", "A: None past high school"], "feedback": "Restaurant manager: High school plus years of experience, or a two-year degree in hospitality.", "tags": {"education": "High school plus years of experience, or a two-year degree in hospitality."}}, {"id": "caterer-or-personal-chef", "prompt": "Caterer or personal chef", "answer": ["B: A certificate, an apprenticeship, or a two-year degree"], "feedback": "Caterer or personal chef: A certificate or a culinary degree plus business skills. A food handler's permit and a business license.", "tags": {"education": "A certificate or a culinary degree plus business skills. A food handler's permit and a business license."}}, {"id": "school-food-service-director", "prompt": "School food service director", "answer": ["C: A four-year degree or more"], "feedback": "School food service director: A four-year degree, often in nutrition or food service management.", "tags": {"education": "A four-year degree, often in nutrition or food service management."}}, {"id": "registered-dietitian", "prompt": "Registered dietitian", "answer": ["C: A four-year degree or more"], "feedback": "Registered dietitian: A graduate degree in nutrition, a supervised practice program, a national exam, and New York State certification.", "tags": {"education": "A graduate degree in nutrition, a supervised practice program, a national exam, and New York State certification."}}, {"id": "food-scientist", "prompt": "Food scientist", "answer": ["C: A four-year degree or more"], "feedback": "Food scientist: A four-year degree in food science or chemistry; many have a master's.", "tags": {"education": "A four-year degree in food science or chemistry; many have a master's."}}, {"id": "health-inspector", "prompt": "Health inspector", "answer": ["C: A four-year degree or more"], "feedback": "Health inspector: A four-year degree in a science plus a state exam.", "tags": {"education": "A four-year degree in a science plus a state exam."}}], "options": {"source": "fixed", "style": "bins", "count": 3, "list": [{"id": "a-none-past-high-school", "label": "A: None past high school"}, {"id": "b-a-certificate-an-apprenticeship-or-a-two-year-degree", "label": "B: A certificate, an apprenticeship, or a two-year degree"}, {"id": "c-a-four-year-degree-or-more", "label": "C: A four-year degree or more"}]}}], "option_sets": [{"label": "bins_round1", "list": [{"id": "a-none-past-high-school", "label": "A: None past high school"}, {"id": "b-a-certificate-an-apprenticeship-or-a-two-year-degree", "label": "B: A certificate, an apprenticeship, or a two-year degree"}, {"id": "c-a-four-year-degree-or-more", "label": "C: A four-year degree or more"}]}]}, {"n": 2, "note": "Round 2: 10 of the 13 day-in-the-life lines, drawn fresh each play, 12 seconds each, four career buttons", "seconds_per_item": 12, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "0", "prompt": "Runs the dish machine, scrubs pots, keeps the line stocked with clean pans, mops at close. On your feet, wet, fast. The kitchen stops if you stop.", "answer": ["Dishwasher"], "feedback": "Dishwasher. None past high school. Trained on the job in a day. Some start at 14 with working papers."}, {"id": "1", "prompt": "Arrives before the cooks. Washes, peels, chops, portions, and labels everything the line will need. Reads the prep list, checks dates, rotates the walk-in (FIFO).", "answer": ["Prep cook"], "feedback": "Prep cook. None past high school. Trained on the job."}, {"id": "2", "prompt": "Works one station (grill, saute, fry, salad) during service. Reads tickets, times every plate, keeps the station clean and stocked. Hot, loud, fast for four hours straight.", "answer": ["Line cook"], "feedback": "Line cook. High school. A culinary certificate helps but many learn on the line."}, {"id": "3", "prompt": "Starts at 3 or 4 in the morning. Measures by weight, mixes, proofs, bakes, and decorates. Same recipes every day, done exactly. Quiet kitchen, early finish.", "answer": ["Baker"], "feedback": "Baker. High school plus a certificate or an apprenticeship."}, {"id": "4", "prompt": "Schedules the staff, orders the food, checks the books, handles the customer who is unhappy, covers a station when someone calls out. Nights and weekends.", "answer": ["Restaurant manager"], "feedback": "Restaurant manager. High school plus years of experience, or a two-year degree in hospitality."}, {"id": "5", "prompt": "Plans menus with clients, shops, cooks in other people's kitchens or a rented one, prices every job to make a profit, does the books at night. No two days the same.", "answer": ["Caterer or personal chef"], "feedback": "Caterer or personal chef. A certificate or a culinary degree plus business skills. A food handler's permit and a business license."}, {"id": "6", "prompt": "Plans menus for hundreds of students that meet federal rules, manages the cafeteria staff and the budget, orders from vendors, handles allergies and special diets, reports to the district.", "answer": ["School food service director"], "feedback": "School food service director. A four-year degree, often in nutrition or food service management."}, {"id": "7", "prompt": "Meets with patients or clients in a hospital, a clinic, a school, or a sports team. Reads lab results, plans diets for medical conditions, teaches. More talking and reading than cooking.", "answer": ["Registered dietitian"], "feedback": "Registered dietitian. A graduate degree in nutrition, a supervised practice program, a national exam, and New York State certification."}, {"id": "8", "prompt": "Works in a lab or a factory. Tests why a product spoils, how to make it safer or last longer, what happens to a nutrient when it is cooked. Runs experiments, writes reports.", "answer": ["Food scientist"], "feedback": "Food scientist. A four-year degree in food science or chemistry; many have a master's."}, {"id": "9", "prompt": "Visits restaurants, school cafeterias, and stores without warning. Checks refrigerator temperatures, hand sinks, dates, and cross contamination. Writes the report that can close a kitchen.", "answer": ["Health inspector"], "feedback": "Health inspector. A four-year degree in a science plus a state exam."}, {"id": "10", "prompt": "Which job can some start at 14 with working papers?", "answer": ["Dishwasher"], "feedback": "Dishwasher: none past high school, trained on the job in a day; some start at 14 with working papers."}, {"id": "11", "prompt": "Which job takes a graduate degree, a supervised practice program, a national exam, and New York State certification?", "answer": ["Registered dietitian"], "feedback": "Registered dietitian."}, {"id": "12", "prompt": "Which job writes the report that can close a kitchen?", "answer": ["Health inspector"], "feedback": "Health inspector: visits restaurants, school cafeterias, and stores without warning."}], "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}, "take": 10, "title": "Whose day is this?"}], "option_sets": [{"label": "bins_round1", "list": [{"id": "a-none-past-high-school", "label": "A: None past high school"}, {"id": "b-a-certificate-an-apprenticeship-or-a-two-year-degree", "label": "B: A certificate, an apprenticeship, or a two-year degree"}, {"id": "c-a-four-year-degree-or-more", "label": "C: A four-year degree or more"}]}]}], "study": ["The ten careers and the education each needs", "Three groups: none past high school; a certificate, an apprenticeship, or a two-year degree; a four-year degree or more", "A day in the life for each card", "Pay ranges are on the cards and are to be refreshed before teaching; the game does not test them"], "rule_lines": ["Most of the ladder is climbable from the bottom; a dishwasher who shows up becomes a prep cook, a prep cook who learns becomes a line cook, and a line cook with a certificate can run a kitchen. The dietitian and the food scientist take a degree; the health inspector takes a degree and a state exam."], "reference": {}, "_unmapped": {}, "repaired": true, "lede": "A career card appears. Tap the education bin it fits: none past high school, a certificate or two-year degree, or a four-year degree. Then a day-in-the-life line appears, and you tap the career."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("CareerLadder");
+  var node = document.getElementById("CareerLadder-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

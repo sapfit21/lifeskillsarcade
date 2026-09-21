@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Problem Finder, Life Skills Arcade</title>
+<meta name="description" content="A business picture appears. Tap the problem it solves, then who has that problem. Then a too-big idea appears, and you tap the narrowed version a judge could hold and the unit whose skill the prototype uses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="ProblemFinder">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-07-06.html">Lesson 7.6</a>, <a href="../lesson-07-07.html">Lesson 7.7</a>, <a href="../lesson-07-10.html">Lesson 7.10</a>. Reviews the first half of Lesson 7.6 (the problem behind five real businesses, who has it, product versus service, who pays versus who uses) and the filter question 2 move from Lesson 7.7 and Lesson 7.10 (what are you physically handing a judge, and which unit's skill does the prototype use). Use round 1 as the do now of Lesson 7.7 so the brainstorm starts with problems, not products; use round 2 at the start of Lesson 7.10 Day 1 during the four-gate scan for any team that is still holding an idea instead of a project. Grade 6 plays round 1 only.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/problem-finder-title.webp" alt=""><h1 class="game-title">Problem <span class="alt2">Finder</span></h1></div>
+<p class="game-lede">A business picture appears. Tap the problem it solves, then who has that problem. Then a too-big idea appears, and you tap the narrowed version a judge could hold and the unit whose skill the prototype uses.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Customer means the person who pays. It is not always the person who uses it.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="problem-finder-barber"><img class="piece" src="art/problem-finder-barber.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-phone-repair"><img class="piece" src="art/problem-finder-phone-repair.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-school-bus"><img class="piece" src="art/problem-finder-school-bus.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-bakery"><img class="piece" src="art/problem-finder-bakery.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-lawn-mower"><img class="piece" src="art/problem-finder-lawn-mower.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-coffee"><img class="piece" src="art/problem-finder-coffee.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-sewn-sample"><img class="piece" src="art/problem-finder-sewn-sample.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-plated-dish"><img class="piece" src="art/problem-finder-plated-dish.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-floor-plan"><img class="piece" src="art/problem-finder-floor-plan.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-price-sheet"><img class="piece" src="art/problem-finder-price-sheet.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-kit-card"><img class="piece" src="art/problem-finder-kit-card.webp" alt="" loading="lazy"></span>
+<span data-key="problem-finder-two-screen-sketch"><img class="piece" src="art/problem-finder-two-screen-sketch.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="ProblemFinder-data">{"schema": "1.0", "slug": "problem-finder", "title": "Problem Finder", "unit": 7, "lessons": ["7.6", "7.7", "7.10"], "handouts": ["Handout 07.06 - Four Questions and Profit Example", "Handout 07.07 - Problem Scan and Idea Filter and Role Cards", "Handout 07.10 - Five-Panel Deck Template and Peer Review"], "standards": ["NYS IGLR 5. Career Pathways b) Examine the skills needed to become an entrepreneur", "CTE CCO 1. The Work World a) Describe reasons for working in paid and unpaid work environments", "CTE FCL 4. Buying Goods and Services a) Define the term \"consumer\" and describe the role of the consumer in the economy", "CTE PSI 2. Design Process (Proactive) a) a. Defining the problem being addressed", "CTE PSI 2. Design Process (Proactive) a) d. Brainstorming and examining possible solutions", "CTE PSI 2. Design Process (Proactive) a) f. Developing and constructing a prototype or model of the selected design", "National FCS 3.0: 3.1.2 Examine openings for jobs and for starting a business.", "National FCS 3.0: 2.5.2 Examine the parts individuals and families play in the economy."], "source_file": "u7.json", "mechanic_note": "match: a business picture appears; tap the problem it solves from four choices, then tap who has that problem; a few product-or-service cards mix in as two-button reads. Round 2 is a second match: a too-big idea appears and you tap the narrowed version a judge could hold; then a prototype route appears and you tap the unit whose skill it uses from six buttons", "teacher_note": "Reviews the first half of Lesson 7.6 (the problem behind five real businesses, who has it, product versus service, who pays versus who uses) and the filter question 2 move from Lesson 7.7 and Lesson 7.10 (what are you physically handing a judge, and which unit's skill does the prototype use). Use round 1 as the do now of Lesson 7.7 so the brainstorm starts with problems, not products; use round 2 at the start of Lesson 7.10 Day 1 during the four-gate scan for any team that is still holding an idea instead of a project. Grade 6 plays round 1 only.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "problem-finder-title.png", "line": "A red and white striped barber pole with a black outline and a sky blue cap on top."}, "scene": [], "cards": [{"file": "problem-finder-barber.png", "line": "A red barber chair with a pair of black-handled scissors and a black comb resting on the seat."}, {"file": "problem-finder-phone-repair.png", "line": "A black smartphone with a cracked light gray screen and a small yellow screwdriver beside it."}, {"file": "problem-finder-school-bus.png", "line": "A yellow school bus seen from the side, black outline, black wheels, sky blue windows."}, {"file": "problem-finder-bakery.png", "line": "A cream loaf of bread next to a white birthday cake with a single red candle."}, {"file": "problem-finder-lawn-mower.png", "line": "A red push lawn mower with black wheels on a strip of green grass."}, {"file": "problem-finder-coffee.png", "line": "A white takeout coffee cup with a black lid and a red sleeve, steam drawn as three cream curls."}, {"file": "problem-finder-sewn-sample.png", "line": "A sky blue drawstring fabric pouch with a white cord and a needle and thread beside it."}, {"file": "problem-finder-plated-dish.png", "line": "A white plate of red-sauced pasta next to a cream menu card with a black price line drawn as a bar."}, {"file": "problem-finder-floor-plan.png", "line": "A sheet of light gray graph paper with a black rectangle room outline and a sky blue bed and yellow desk drawn inside."}, {"file": "problem-finder-price-sheet.png", "line": "A white sheet of paper with a black-outlined table of rows and a green dollar sign in the corner."}, {"file": "problem-finder-kit-card.png", "line": "A small sky blue box with red, yellow, and green crayons and a white index card leaning on it."}, {"file": "problem-finder-two-screen-sketch.png", "line": "Two hand-drawn phone screen rectangles side by side on white paper, with sky blue and red button boxes drawn inside, no text."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 15 cards (6 problems, 5 who-has-it, 4 product or service), 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "barber-problem", "prompt": "A barber. What problem does it solve?", "prompt_extra": ["A barber shop"], "picture": "problem-finder-barber.png", "item_kind": "problem", "answer": ["You cannot cut your own hair"], "choices": ["You cannot cut your own hair", "No time, no oven, no skill", "Grass grows back every week", "A broken screen costs hundreds"], "feedback": "Your hair grows and you cannot cut the back of your own head.", "options": {"count": 4, "style": "choices"}}, {"id": "phone-repair-problem", "prompt": "A phone repair shop. What problem does it solve?", "prompt_extra": ["A phone repair counter"], "picture": "problem-finder-phone-repair.png", "item_kind": "problem", "answer": ["A broken screen costs hundreds"], "choices": ["A broken screen costs hundreds", "You cannot cut your own hair", "Tired at 7 a.m. with no time", "Too far to walk, adults at work"], "feedback": "Your screen broke and a new phone costs hundreds of dollars.", "options": {"count": 4, "style": "choices"}}, {"id": "school-bus-problem", "prompt": "A school bus company. What problem does it solve?", "prompt_extra": ["A school bus company"], "picture": "problem-finder-school-bus.png", "item_kind": "problem", "answer": ["Too far to walk, adults at work"], "choices": ["Too far to walk, adults at work", "Grass grows back every week", "A broken screen costs hundreds", "No time, no oven, no skill"], "feedback": "Children live too far from school to walk and their adults are at work at 7 a.m.", "options": {"count": 4, "style": "choices"}}, {"id": "bakery-problem", "prompt": "A bakery. What problem does it solve?", "prompt_extra": ["A bakery"], "picture": "problem-finder-bakery.png", "item_kind": "problem", "answer": ["No time, no oven, no skill"], "choices": ["No time, no oven, no skill", "Tired at 7 a.m. with no time", "You cannot cut your own hair", "Too far to walk, adults at work"], "feedback": "You want fresh bread or a birthday cake and you do not have the time, the oven, or the skill.", "options": {"count": 4, "style": "choices"}}, {"id": "lawn-problem", "prompt": "A lawn service. What problem does it solve?", "prompt_extra": ["A lawn mowing crew"], "picture": "problem-finder-lawn-mower.png", "item_kind": "problem", "answer": ["Grass grows back every week"], "choices": ["Grass grows back every week", "Too far to walk, adults at work", "No time, no oven, no skill", "A broken screen costs hundreds"], "feedback": "Grass grows every week and somebody has to cut it, and not everybody can or wants to.", "options": {"count": 4, "style": "choices"}}, {"id": "coffee-problem", "prompt": "Cross out the description. What is the problem?", "prompt_extra": ["Sells coffee"], "picture": "problem-finder-coffee.png", "item_kind": "problem", "answer": ["Tired at 7 a.m. with no time"], "choices": ["Tired at 7 a.m. with no time", "A broken screen costs hundreds", "Grass grows back every week", "You cannot cut your own hair"], "feedback": "You are tired at 7 a.m. and you do not have twelve minutes.", "options": {"count": 4, "style": "choices"}}, {"id": "barber-who", "prompt": "A barber. Who has that problem?", "prompt_extra": ["A barber shop"], "picture": "problem-finder-barber.png", "item_kind": "who", "answer": ["Anybody with hair"], "choices": ["Anybody with hair", "Anybody with a phone", "People with a celebration", "Homeowners and businesses"], "feedback": "Anybody with hair, especially people who have to look a certain way for work or school pictures.", "options": {"count": 4, "style": "choices"}}, {"id": "phone-repair-who", "prompt": "A phone repair shop. Who has that problem?", "prompt_extra": ["A phone repair counter"], "picture": "problem-finder-phone-repair.png", "item_kind": "who", "answer": ["Anybody with a phone"], "choices": ["Anybody with a phone", "Anybody with hair", "Families and the district", "Homeowners and businesses"], "feedback": "Anybody with a phone. People who dropped it and cannot afford to replace it.", "options": {"count": 4, "style": "choices"}}, {"id": "school-bus-who", "prompt": "A school bus company. Who has that problem?", "prompt_extra": ["A school bus company"], "picture": "problem-finder-school-bus.png", "item_kind": "who", "answer": ["Families and the district"], "choices": ["Families and the district", "People with a celebration", "Anybody with hair", "Anybody with a phone"], "feedback": "Families and the school district. The district pays; the student rides.", "options": {"count": 4, "style": "choices"}}, {"id": "bakery-who", "prompt": "A bakery. Who has that problem?", "prompt_extra": ["A bakery"], "picture": "problem-finder-bakery.png", "item_kind": "who", "answer": ["People with a celebration"], "choices": ["People with a celebration", "Homeowners and businesses", "Anybody with a phone", "Families and the district"], "feedback": "People with a celebration, people in a hurry, restaurants that resell it.", "options": {"count": 4, "style": "choices"}}, {"id": "lawn-who", "prompt": "A lawn service. Who has that problem?", "prompt_extra": ["A lawn mowing crew"], "picture": "problem-finder-lawn-mower.png", "item_kind": "who", "answer": ["Homeowners and businesses"], "choices": ["Homeowners and businesses", "Families and the district", "Anybody with hair", "People with a celebration"], "feedback": "Homeowners, older adults, businesses, people who work six days a week.", "options": {"count": 4, "style": "choices"}}, {"id": "tote-bag-product", "prompt": "A sewn tote bag", "item_kind": "product or service", "answer": ["Product"], "feedback": "A sewn tote bag is a product; sewing a repair for somebody else is a service.", "choices": ["Product", "Service"], "options": {"count": 2, "style": "choices"}}, {"id": "repair-service", "prompt": "Sewing a repair for somebody else", "item_kind": "product or service", "answer": ["Service"], "feedback": "A sewn tote bag is a product; sewing a repair for somebody else is a service.", "choices": ["Service", "Product"], "options": {"count": 2, "style": "choices"}}, {"id": "haircut-service", "prompt": "A haircut", "item_kind": "product or service", "answer": ["Service"], "feedback": "The thing you make is a product. The work you do is a service.", "choices": ["Service", "Product"], "options": {"count": 2, "style": "choices"}}, {"id": "hair-dryer-product", "prompt": "A hair dryer", "item_kind": "product or service", "answer": ["Product"], "feedback": "The thing you make is a product. The work you do is a service.", "choices": ["Product", "Service"], "options": {"count": 2, "style": "choices"}}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}, {"n": 2, "note": "Round 2: 13 cards (7 narrow-it matches, 6 prototype-to-unit matches), 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.narrow_it.items", "items": [{"id": "app", "prompt": "An app", "answer": ["Two drawn screens, all labeled"], "choices": ["Two drawn screens, all labeled", "One plated dish and a menu card", "One service card and a sample", "One activity kit card"], "feedback": "Not an app. Two hand-drawn screens with every button labeled."}, {"id": "restaurant", "prompt": "A restaurant", "answer": ["One plated dish and a menu card"], "choices": ["One plated dish and a menu card", "One sewn item with a price tag", "A scale plan, before and after", "Two drawn screens, all labeled"], "feedback": "Not a restaurant. One dish, plated, with a printed menu card and a price per serving."}, {"id": "clothing-brand", "prompt": "A clothing brand", "answer": ["One sewn item with a price tag"], "choices": ["One sewn item with a price tag", "Two drawn screens, all labeled", "One activity kit card", "One service card and a sample"], "feedback": "Not a brand. One hand-sewn item with a price tag and a care label."}, {"id": "tutoring", "prompt": "A tutoring business", "answer": ["One service card and a sample"], "choices": ["One service card and a sample", "A scale plan, before and after", "One plated dish and a menu card", "One sewn item with a price tag"], "feedback": "One printed service card: what you do, what it costs, when you are available, plus one worked sample."}, {"id": "organizing", "prompt": "An organizing service", "answer": ["A scale plan, before and after"], "choices": ["A scale plan, before and after", "One activity kit card", "One sewn item with a price tag", "Two drawn screens, all labeled"], "feedback": "One scale floor plan of a real 10 by 12 room, before and after."}, {"id": "babysitting", "prompt": "A babysitting service", "answer": ["One activity kit card"], "choices": ["One activity kit card", "One service card and a sample", "Two drawn screens, all labeled", "A scale plan, before and after"], "feedback": "One activity kit card: what is in the box, what age, what the child does."}, {"id": "real-customer", "prompt": "Not \"people who are hungry.\" Which one is a real customer?", "answer": ["A parent at 3:15 with 20 minutes and $6.00"], "choices": ["A parent at 3:15 with 20 minutes and $6.00", "Everybody", "Somebody who will pay for it", "People who are hungry"], "feedback": "Everybody is not a customer. Everybody is what you say when you have not asked anybody. A real profile names what the customer already does about the problem, because that is your competition: right now this parent buys a bag of chips at the deli."}], "options": {"source": "per_item", "style": "choices", "count": 4}, "title": "Too big. What are you physically handing a judge on Friday?"}, {"kind": "choice", "label": "round2.name_the_unit.items", "items": [{"id": "sewn-sample", "prompt": "A sewn sample or a mended item", "picture": "problem-finder-sewn-sample.png", "answer": ["Unit 5"]}, {"id": "plated-dish", "prompt": "A dish, plated, or a printed costed menu", "picture": "problem-finder-plated-dish.png", "answer": ["Units 1 and 6"]}, {"id": "floor-plan", "prompt": "A scale floor plan or room layout on graph paper", "picture": "problem-finder-floor-plan.png", "answer": ["Unit 4"]}, {"id": "price-sheet", "prompt": "A price sheet or budget, built like the investor reports", "picture": "problem-finder-price-sheet.png", "answer": ["Unit 2"]}, {"id": "kit-card", "prompt": "An activity kit card for a child", "picture": "problem-finder-kit-card.png", "answer": ["Unit 3"]}, {"id": "two-screen-sketch", "prompt": "A two-screen sketch of an app or web page, every button labeled", "picture": "problem-finder-two-screen-sketch.png", "answer": ["Unit 7"]}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "units-1-and-6", "label": "Units 1 and 6"}, {"id": "unit-2", "label": "Unit 2"}, {"id": "unit-3", "label": "Unit 3"}, {"id": "unit-4", "label": "Unit 4"}, {"id": "unit-5", "label": "Unit 5"}, {"id": "unit-7", "label": "Unit 7"}]}, "title": "The prototype has to use a skill from this year. Which unit?"}], "option_sets": [{"label": "round2.name_the_unit.buttons", "list": [{"id": "units-1-and-6", "label": "Units 1 and 6"}, {"id": "unit-2", "label": "Unit 2"}, {"id": "unit-3", "label": "Unit 3"}, {"id": "unit-4", "label": "Unit 4"}, {"id": "unit-5", "label": "Unit 5"}, {"id": "unit-7", "label": "Unit 7"}]}]}], "study": [], "rule_lines": ["Customer means the person who pays. It is not always the person who uses it."], "reference": {}, "_unmapped": {}, "repaired": true, "lede": "A business picture appears. Tap the problem it solves, then who has that problem. Then a too-big idea appears, and you tap the narrowed version a judge could hold and the unit whose skill the prototype uses."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("ProblemFinder");
+  var node = document.getElementById("ProblemFinder-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

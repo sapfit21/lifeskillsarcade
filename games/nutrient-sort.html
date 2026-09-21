@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nutrient Sort, Life Skills Arcade</title>
+<meta name="description" content="A food card appears. Tap its bin: Carbohydrates, Proteins, Fats, Vitamins, Minerals, or Water. Then a job line or a body need appears, and you tap the nutrient that does it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="NutrientSort">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-01-09.html">Lesson 1.9</a>. Reviews Lesson 1.9 (the Nutrient Sort and the six-column chart) with the lifespan table as round 2. Use it as the two-minute nutrient review at the start of Lesson 1.10 if the exit-card needs-more pile is over a third of the class, and again before the Label Reading Quiz, which has nutrient matching items. Round 1 follows the key: the main pile scores full and an also pile from the key scores half, so milk in Minerals is not a miss; the four cards marked accept-as-main (spinach, peanut butter, almonds, sweet potato) score full in either pile. Grade 6 setting: draw round 1 from the 20 cards without the small 8 and drop the lifespan lines from round 2. Grade 8 setting: all 30 cards in the draw.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/nutrient-sort-title.webp" alt=""><h1 class="game-title">Nutrient <span class="alt2">Sort</span></h1></div>
+<p class="game-lede">A food card appears. Tap its bin: Carbohydrates, Proteins, Fats, Vitamins, Minerals, or Water. Then a job line or a body need appears, and you tap the nutrient that does it.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Every card goes in a pile; if a card fits two piles, put it between them and write why.</li><li>Carbs for go, protein for grow, fat for stored go and brain, vitamins and minerals run the show, water carries it all.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="nutrient-sort-whole-wheat-bread"><img class="piece" src="art/nutrient-sort-whole-wheat-bread.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-grilled-chicken-breast"><img class="piece" src="art/nutrient-sort-grilled-chicken-breast.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-olive-oil"><img class="piece" src="art/nutrient-sort-olive-oil.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-orange"><img class="piece" src="art/nutrient-sort-orange.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-milk"><img class="piece" src="art/nutrient-sort-milk.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-water"><img class="piece" src="art/nutrient-sort-water.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-white-rice"><img class="piece" src="art/nutrient-sort-white-rice.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-black-beans"><img class="piece" src="art/nutrient-sort-black-beans.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-avocado"><img class="piece" src="art/nutrient-sort-avocado.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-broccoli"><img class="piece" src="art/nutrient-sort-broccoli.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-cheddar-cheese"><img class="piece" src="art/nutrient-sort-cheddar-cheese.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-watermelon"><img class="piece" src="art/nutrient-sort-watermelon.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-pasta"><img class="piece" src="art/nutrient-sort-pasta.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-eggs"><img class="piece" src="art/nutrient-sort-eggs.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-butter"><img class="piece" src="art/nutrient-sort-butter.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-carrots"><img class="piece" src="art/nutrient-sort-carrots.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-spinach"><img class="piece" src="art/nutrient-sort-spinach.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-cucumber"><img class="piece" src="art/nutrient-sort-cucumber.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-banana"><img class="piece" src="art/nutrient-sort-banana.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-peanut-butter"><img class="piece" src="art/nutrient-sort-peanut-butter.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-salmon"><img class="piece" src="art/nutrient-sort-salmon.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-strawberries"><img class="piece" src="art/nutrient-sort-strawberries.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-yogurt"><img class="piece" src="art/nutrient-sort-yogurt.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-almonds"><img class="piece" src="art/nutrient-sort-almonds.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-oatmeal"><img class="piece" src="art/nutrient-sort-oatmeal.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-tofu"><img class="piece" src="art/nutrient-sort-tofu.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-soup-broth"><img class="piece" src="art/nutrient-sort-soup-broth.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-sweet-potato"><img class="piece" src="art/nutrient-sort-sweet-potato.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-lentils"><img class="piece" src="art/nutrient-sort-lentils.webp" alt="" loading="lazy"></span>
+<span data-key="nutrient-sort-tortilla-chips"><img class="piece" src="art/nutrient-sort-tortilla-chips.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The six nutrients and one job each</li><li>Two foods that give each nutrient</li><li>Milk, cheese, and yogurt fit two piles: proteins and minerals (calcium)</li><li>Beans and lentils are a plant protein that is also a carb</li><li>Who needs what: fat for a toddler's brain, carbs and water for the athlete, protein and calcium for the grandparent</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="NutrientSort-data">{"schema": "1.0", "slug": "nutrient-sort", "title": "Nutrient Sort", "unit": 1, "lessons": ["1.9"], "handouts": ["Handout 01.09 - Nutrient Sort Cards"], "standards": ["NYS N&W 2. Nutrition Across the Lifespan a) Identify nutrient groups, common sources of nutrients, and nutrient requirements across the lifespan", "CTE HSW 1. Health Practices c) Identify personal health practices that promote overall good health", "CTE HSW 1. Health Practices b) Describe how personal health behaviors and practices impact an individual's body systems", "National FCS 3.0: 14.2.1 Judge how nutrition affects health, wellness, and performance.", "National FCS 3.0: 14.2.2 Examine how nutrition and wellness connect to individual and family health at every stage of life."], "source_file": "u1.json", "mechanic_note": "sort: a food card appears, tap one of six bins (Carbohydrates, Proteins, Fats, Vitamins, Minerals, Water); the main pile scores full, an also pile from the key scores too with feedback naming the main pile; then a match: a job line or a body need appears, tap the nutrient from the six", "teacher_note": "Reviews Lesson 1.9 (the Nutrient Sort and the six-column chart) with the lifespan table as round 2. Use it as the two-minute nutrient review at the start of Lesson 1.10 if the exit-card needs-more pile is over a third of the class, and again before the Label Reading Quiz, which has nutrient matching items. Round 1 follows the key: the main pile scores full and an also pile from the key scores half, so milk in Minerals is not a miss; the four cards marked accept-as-main (spinach, peanut butter, almonds, sweet potato) score full in either pile. Grade 6 setting: draw round 1 from the 20 cards without the small 8 and drop the lifespan lines from round 2. Grade 8 setting: all 30 cards in the draw.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct in the main pile, 5 for an also pile from the key, 5 bonus on every third in a row, a miss shows the main pile and the also piles in the key's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "nutrient-sort-title.png", "line": "A tall glass of white milk beside a sky blue and white milk carton, in the sticker style."}, "scene": [], "cards": [{"file": "nutrient-sort-whole-wheat-bread.png", "line": "A slice of cream colored bread with a darker crust in light gray and small yellow seeds on it, black outline."}, {"file": "nutrient-sort-grilled-chicken-breast.png", "line": "A plain cooked chicken breast in cream with light gray grill marks on a white plate, black outline."}, {"file": "nutrient-sort-olive-oil.png", "line": "A green glass bottle of olive oil with a pour spout and a yellow label with no text, black outline."}, {"file": "nutrient-sort-orange.png", "line": "A whole yellow orange with a green leaf and a peeled half beside it, black outline."}, {"file": "nutrient-sort-milk.png", "line": "A glass of white milk next to a sky blue and white carton, black outline."}, {"file": "nutrient-sort-water.png", "line": "A clear glass of sky blue water with two white ice cubes, black outline."}, {"file": "nutrient-sort-white-rice.png", "line": "A white bowl of cooked white rice, black outline."}, {"file": "nutrient-sort-black-beans.png", "line": "A white bowl of cooked black beans with white highlights, black outline."}, {"file": "nutrient-sort-avocado.png", "line": "A green avocado cut in half with a large light gray pit, black outline."}, {"file": "nutrient-sort-broccoli.png", "line": "Green broccoli florets on a white plate, black outline."}, {"file": "nutrient-sort-cheddar-cheese.png", "line": "A yellow block of cheddar cheese with two slices cut off, black outline."}, {"file": "nutrient-sort-watermelon.png", "line": "A red watermelon wedge with a green rind and black seeds, black outline."}, {"file": "nutrient-sort-pasta.png", "line": "A white bowl of cooked cream colored spaghetti with no sauce, black outline."}, {"file": "nutrient-sort-eggs.png", "line": "Two cream colored eggs, one cracked open showing a yellow yolk, black outline."}, {"file": "nutrient-sort-butter.png", "line": "A yellow stick of butter on a white dish, black outline."}, {"file": "nutrient-sort-carrots.png", "line": "Three yellow carrots with green tops, black outline."}, {"file": "nutrient-sort-spinach.png", "line": "A pile of dark green spinach leaves, black outline."}, {"file": "nutrient-sort-cucumber.png", "line": "A green cucumber with three pale green slices beside it, black outline."}, {"file": "nutrient-sort-banana.png", "line": "A yellow banana, half peeled, black outline."}, {"file": "nutrient-sort-peanut-butter.png", "line": "A clear jar of cream colored peanut butter with a spoon holding a scoop, black outline."}, {"file": "nutrient-sort-salmon.png", "line": "A cooked fish fillet in cream with red stripes on a white plate, black outline."}, {"file": "nutrient-sort-strawberries.png", "line": "Five red strawberries with green tops, black outline."}, {"file": "nutrient-sort-yogurt.png", "line": "A white cup of plain yogurt with a light gray spoon standing in it, black outline."}, {"file": "nutrient-sort-almonds.png", "line": "A small pile of cream colored almonds with light gray shading, black outline."}, {"file": "nutrient-sort-oatmeal.png", "line": "A white bowl of cooked cream colored oats, black outline."}, {"file": "nutrient-sort-tofu.png", "line": "A white block of tofu cut into cubes, black outline."}, {"file": "nutrient-sort-soup-broth.png", "line": "A white mug of clear yellow broth with light gray steam lines, black outline."}, {"file": "nutrient-sort-sweet-potato.png", "line": "A sweet potato with a red skin cut open to show a yellow inside, black outline."}, {"file": "nutrient-sort-lentils.png", "line": "A white bowl of cooked lentils in cream and light gray, black outline."}, {"file": "nutrient-sort-tortilla-chips.png", "line": "A white bowl of yellow triangle tortilla chips, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 20 of the 30 food cards, drawn fresh each play, 8 seconds each, six bins", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "whole-wheat-bread", "prompt": "Whole wheat bread", "picture_alt": "a brown slice with seeds on the crust", "answer": ["Carbohydrates", "Vitamins", "Minerals"], "feedback": "Whole wheat bread goes in Carbohydrates; it also fits Vitamins and Minerals. (whole grain, also fiber)", "tags": {"card": 1, "grade_8_only": false}}, {"id": "grilled-chicken-breast", "prompt": "Grilled chicken breast", "picture_alt": "a plain cooked chicken piece on a plate", "answer": ["Proteins", "Minerals"], "feedback": "Grilled chicken breast goes in Proteins; it also fits Minerals. (lean protein)", "tags": {"card": 2, "grade_8_only": false}}, {"id": "olive-oil", "prompt": "Olive oil", "picture_alt": "a green glass bottle with a pour spout", "answer": ["Fats"], "feedback": "Olive oil goes in Fats. (pure fat)", "tags": {"card": 3, "grade_8_only": false}}, {"id": "orange", "prompt": "Orange", "picture_alt": "a whole orange and a peeled half", "answer": ["Vitamins", "Carbohydrates", "Water"], "feedback": "Orange goes in Vitamins; it also fits Carbohydrates and Water. (vitamin C)", "tags": {"card": 4, "grade_8_only": false}}, {"id": "milk", "prompt": "Milk", "picture_alt": "a glass of white milk next to a carton", "answer": ["Proteins", "Minerals", "Fats", "Water"], "feedback": "Milk goes in Proteins; it also fits Minerals and Fats and Water. (the classic three-pile card)", "tags": {"card": 5, "grade_8_only": false}}, {"id": "water", "prompt": "Water", "picture_alt": "a clear glass of water with ice", "answer": ["Water"], "feedback": "Water goes in Water. (pure water)", "tags": {"card": 6, "grade_8_only": false}}, {"id": "white-rice", "prompt": "White rice", "picture_alt": "a bowl of cooked rice", "answer": ["Carbohydrates"], "feedback": "White rice goes in Carbohydrates.", "tags": {"card": 7, "grade_8_only": false}}, {"id": "black-beans", "prompt": "Black beans", "picture_alt": "a bowl of cooked dark beans", "answer": ["Proteins", "Carbohydrates", "Minerals"], "feedback": "Black beans goes in Proteins; it also fits Carbohydrates and Minerals. (a plant protein that is also a carb)", "tags": {"card": 8, "grade_8_only": false}}, {"id": "avocado", "prompt": "Avocado", "picture_alt": "a green fruit cut in half with the pit", "answer": ["Fats", "Vitamins"], "feedback": "Avocado goes in Fats; it also fits Vitamins. (a fruit that is mostly fat)", "tags": {"card": 9, "grade_8_only": true}}, {"id": "broccoli", "prompt": "Broccoli", "picture_alt": "green florets on a plate", "answer": ["Vitamins", "Minerals", "Water"], "feedback": "Broccoli goes in Vitamins; it also fits Minerals and Water. (vitamins C and K)", "tags": {"card": 10, "grade_8_only": false}}, {"id": "cheddar-cheese", "prompt": "Cheddar cheese", "picture_alt": "an orange block with two slices cut", "answer": ["Proteins", "Fats", "Minerals"], "feedback": "Cheddar cheese goes in Proteins; it also fits Fats and Minerals.", "tags": {"card": 11, "grade_8_only": false}}, {"id": "watermelon", "prompt": "Watermelon", "picture_alt": "a red wedge with seeds", "answer": ["Water", "Carbohydrates", "Vitamins"], "feedback": "Watermelon goes in Water; it also fits Carbohydrates and Vitamins. (about 92 percent water)", "tags": {"card": 12, "grade_8_only": true}}, {"id": "pasta", "prompt": "Pasta", "picture_alt": "a bowl of cooked spaghetti, no sauce", "answer": ["Carbohydrates"], "feedback": "Pasta goes in Carbohydrates.", "tags": {"card": 13, "grade_8_only": false}}, {"id": "eggs", "prompt": "Eggs", "picture_alt": "two eggs, one cracked open showing the yolk", "answer": ["Proteins", "Fats", "Vitamins"], "feedback": "Eggs goes in Proteins; it also fits Fats and Vitamins. (vitamin D in the yolk)", "tags": {"card": 14, "grade_8_only": false}}, {"id": "butter", "prompt": "Butter", "picture_alt": "a yellow stick on a dish", "answer": ["Fats"], "feedback": "Butter goes in Fats.", "tags": {"card": 15, "grade_8_only": false}}, {"id": "carrots", "prompt": "Carrots", "picture_alt": "three orange carrots with green tops", "answer": ["Vitamins", "Carbohydrates", "Water"], "feedback": "Carrots goes in Vitamins; it also fits Carbohydrates and Water. (vitamin A)", "tags": {"card": 16, "grade_8_only": false}}, {"id": "spinach", "prompt": "Spinach", "picture_alt": "a pile of dark green leaves", "answer": ["Minerals", "Vitamins", "Water"], "feedback": "Spinach goes in Minerals; it also fits Vitamins and Water. (accept Vitamins as main)", "tags": {"card": 17, "grade_8_only": false}}, {"id": "cucumber", "prompt": "Cucumber", "picture_alt": "a green cucumber with three slices", "answer": ["Water", "Vitamins"], "feedback": "Cucumber goes in Water; it also fits Vitamins. (about 95 percent water)", "tags": {"card": 18, "grade_8_only": true}}, {"id": "banana", "prompt": "Banana", "picture_alt": "a yellow banana, half peeled", "answer": ["Carbohydrates", "Minerals", "Vitamins"], "feedback": "Banana goes in Carbohydrates; it also fits Minerals and Vitamins. (potassium)", "tags": {"card": 19, "grade_8_only": false}}, {"id": "peanut-butter", "prompt": "Peanut butter", "picture_alt": "a jar with a spoon of peanut butter", "answer": ["Fats", "Proteins"], "feedback": "Peanut butter goes in Fats; it also fits Proteins. (accept Proteins as main)", "tags": {"card": 20, "grade_8_only": false}}, {"id": "salmon", "prompt": "Salmon", "picture_alt": "a pink cooked fish fillet", "answer": ["Proteins", "Fats", "Vitamins"], "feedback": "Salmon goes in Proteins; it also fits Fats and Vitamins. (omega 3, vitamin D)", "tags": {"card": 21, "grade_8_only": true}}, {"id": "strawberries", "prompt": "Strawberries", "picture_alt": "five red berries with green tops", "answer": ["Vitamins", "Carbohydrates", "Water"], "feedback": "Strawberries goes in Vitamins; it also fits Carbohydrates and Water. (vitamin C)", "tags": {"card": 22, "grade_8_only": false}}, {"id": "yogurt", "prompt": "Yogurt", "picture_alt": "a cup of plain white yogurt with a spoon", "answer": ["Proteins", "Minerals", "Carbohydrates"], "feedback": "Yogurt goes in Proteins; it also fits Minerals and Carbohydrates. (calcium)", "tags": {"card": 23, "grade_8_only": false}}, {"id": "almonds", "prompt": "Almonds", "picture_alt": "a small pile of brown nuts", "answer": ["Fats", "Proteins", "Minerals"], "feedback": "Almonds goes in Fats; it also fits Proteins and Minerals. (accept Proteins as main)", "tags": {"card": 24, "grade_8_only": true}}, {"id": "oatmeal", "prompt": "Oatmeal", "picture_alt": "a bowl of cooked oats", "answer": ["Carbohydrates", "Minerals"], "feedback": "Oatmeal goes in Carbohydrates; it also fits Minerals. (whole grain)", "tags": {"card": 25, "grade_8_only": false}}, {"id": "tofu", "prompt": "Tofu", "picture_alt": "a white block cut into cubes", "answer": ["Proteins", "Minerals"], "feedback": "Tofu goes in Proteins; it also fits Minerals. (plant protein)", "tags": {"card": 26, "grade_8_only": true}}, {"id": "soup-broth", "prompt": "Soup broth", "picture_alt": "a mug of clear steaming broth", "answer": ["Water", "Minerals"], "feedback": "Soup broth goes in Water; it also fits Minerals. (sodium)", "tags": {"card": 27, "grade_8_only": true}}, {"id": "sweet-potato", "prompt": "Sweet potato", "picture_alt": "an orange potato cut open", "answer": ["Carbohydrates", "Vitamins"], "feedback": "Sweet potato goes in Carbohydrates; it also fits Vitamins. (accept Vitamins as main)", "tags": {"card": 28, "grade_8_only": true}}, {"id": "lentils", "prompt": "Lentils", "picture_alt": "a bowl of cooked brown lentils", "answer": ["Proteins", "Carbohydrates", "Minerals"], "feedback": "Lentils goes in Proteins; it also fits Carbohydrates and Minerals. (iron, fiber)", "tags": {"card": 29, "grade_8_only": true}}, {"id": "tortilla-chips", "prompt": "Tortilla chips", "picture_alt": "a bowl of yellow triangle chips", "answer": ["Carbohydrates", "Fats", "Minerals"], "feedback": "Tortilla chips goes in Carbohydrates; it also fits Fats and Minerals. (processed; the salty card)", "tags": {"card": 30, "grade_8_only": true}}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "carbohydrates", "label": "Carbohydrates"}, {"id": "proteins", "label": "Proteins"}, {"id": "fats", "label": "Fats"}, {"id": "vitamins", "label": "Vitamins"}, {"id": "minerals", "label": "Minerals"}, {"id": "water", "label": "Water"}]}, "take": 20}], "option_sets": [{"label": "bins_round1", "list": [{"id": "carbohydrates", "label": "Carbohydrates"}, {"id": "proteins", "label": "Proteins"}, {"id": "fats", "label": "Fats"}, {"id": "vitamins", "label": "Vitamins"}, {"id": "minerals", "label": "Minerals"}, {"id": "water", "label": "Water"}]}]}, {"n": 2, "note": "Round 2: 12 of the 14 job and lifespan lines, drawn fresh each play, 10 seconds each, six nutrient buttons", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "0", "prompt": "The body's main quick energy source", "answer": ["Carbohydrates"], "feedback": "Carbohydrates: the body's main quick energy source. Carbs for go."}, {"id": "1", "prompt": "Build and repair muscle, skin, and other tissue; growth", "answer": ["Proteins"], "feedback": "Proteins: build and repair muscle, skin, and other tissue; growth. Protein for grow."}, {"id": "2", "prompt": "Stored energy; protect organs; keep the body warm; carry vitamins A, D, E, and K", "answer": ["Fats"], "feedback": "Fats: stored energy; protect organs; keep the body warm; carry vitamins A, D, E, and K; brain growth in young children."}, {"id": "3", "prompt": "Help the body run its processes (seeing, healing, fighting illness, using energy)", "answer": ["Vitamins"], "feedback": "Vitamins: help the body run its processes (seeing, healing, fighting illness, using energy)."}, {"id": "4", "prompt": "Build bones and teeth (calcium); carry oxygen in the blood (iron); balance fluids", "answer": ["Minerals"], "feedback": "Minerals: build bones and teeth (calcium); carry oxygen in the blood (iron); balance fluids (potassium, sodium)."}, {"id": "5", "prompt": "Carries nutrients and waste; controls body temperature; makes up more than half the body", "answer": ["Water"], "feedback": "Water: carries nutrients and waste; controls body temperature; makes up more than half the body. Water carries it all."}, {"id": "6", "prompt": "A two year old needs it for brain growth", "answer": ["Fats"], "feedback": "Fat for brain growth; the toddler needs more fat than you do."}, {"id": "7", "prompt": "A two year old needs it for bones and teeth that are still forming", "answer": ["Minerals"], "feedback": "Calcium for bones and teeth that are still forming; iron for blood as the body grows fast."}, {"id": "8", "prompt": "A 14 year old athlete needs it for energy at practice", "answer": ["Carbohydrates"], "feedback": "Carbs for energy at practice."}, {"id": "9", "prompt": "A 14 year old athlete needs it to replace sweat", "answer": ["Water"], "feedback": "Water to replace sweat."}, {"id": "10", "prompt": "A 78 year old needs it to keep muscle", "answer": ["Proteins"], "feedback": "Protein to keep muscle; fewer calories needed but the same or more of these."}, {"id": "11", "prompt": "A 78 year old needs calcium and vitamin D to slow bone loss. Calcium is a ___", "answer": ["Minerals"], "feedback": "Calcium is a mineral; vitamin D is a vitamin. Both slow bone loss."}, {"id": "12", "prompt": "Iron carries oxygen in the blood. Iron is a ___", "answer": ["Minerals"], "feedback": "Minerals: carry oxygen in the blood (iron)."}, {"id": "13", "prompt": "Vitamin C in an orange or strawberries is a ___", "answer": ["Vitamins"], "feedback": "Orange and strawberries go in Vitamins (vitamin C)."}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "carbohydrates", "label": "Carbohydrates"}, {"id": "proteins", "label": "Proteins"}, {"id": "fats", "label": "Fats"}, {"id": "vitamins", "label": "Vitamins"}, {"id": "minerals", "label": "Minerals"}, {"id": "water", "label": "Water"}]}, "take": 12}], "option_sets": [{"label": "bins_round1", "list": [{"id": "carbohydrates", "label": "Carbohydrates"}, {"id": "proteins", "label": "Proteins"}, {"id": "fats", "label": "Fats"}, {"id": "vitamins", "label": "Vitamins"}, {"id": "minerals", "label": "Minerals"}, {"id": "water", "label": "Water"}]}]}], "study": ["The six nutrients and one job each", "Two foods that give each nutrient", "Milk, cheese, and yogurt fit two piles: proteins and minerals (calcium)", "Beans and lentils are a plant protein that is also a carb", "Who needs what: fat for a toddler's brain, carbs and water for the athlete, protein and calcium for the grandparent"], "rule_lines": ["Every card goes in a pile; if a card fits two piles, put it between them and write why.", "Carbs for go, protein for grow, fat for stored go and brain, vitamins and minerals run the show, water carries it all."], "reference": {}, "_unmapped": {}, "repaired": true, "lede": "A food card appears. Tap its bin: Carbohydrates, Proteins, Fats, Vitamins, Minerals, or Water. Then a job line or a body need appears, and you tap the nutrient that does it."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("NutrientSort");
+  var node = document.getElementById("NutrientSort-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Worth the Wear, Life Skills Arcade</title>
+<meta name="description" content="A price and a number of wears appear. Tap the cost per wear from four choices. Then a finding from a garment inspection appears, and you tap it into A good one or A fail.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="WorthTheWear">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-05-13.html">Lesson 5.13</a>, <a href="../lesson-05-12.html">Lesson 5.12</a>. Reviews Lesson 5.13, with the four store checks from Lesson 5.12 folded into the inspection sort. Round 1 is every cost per wear problem that appears in the unit (the three worked problems, the two do nows from 5.14 and 5.19, the review bank card, the trade-off task, and the grade 8 stretch), always price divided by wears, with the unit written on every choice; the one distractor that is a named mistake, 3.33 wears per dollar, gets the lesson's own answer in the feedback. Round 2 is the good-or-fail column of Handout 05.13 Part 2 plus the label check from Handout 05.12. It does not touch pay stubs or need versus want, which Paycheck Puzzle covers, and it does not read a nutrition label. Use it as the Lesson 5.14 Day 2 opener if the 5.13 exit cards said cost per wear was shaky, since the Consumer Comparison Task requires the math, and again in the Unit 5 review before the test. Every dollar figure is the handout's own and the handout says to refresh prices before teaching, so refresh the game when you refresh the sheet.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/worth-the-wear-title.webp" alt=""><h1 class="game-title">Worth <span class="alt2">the Wear</span></h1></div>
+<p class="game-lede">A price and a number of wears appear. Tap the cost per wear from four choices. Then a finding from a garment inspection appears, and you tap it into A good one or A fail.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Cost per wear = price divided by the number of times worn. The answer is in dollars per wear.</li><li>three other dollar amounts from the same list, and once per round the named mistake, 3.33 wears per dollar, which the feedback calls a different rate and not the one a buyer compares</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="worth-the-wear-jeans"><img class="piece" src="art/worth-the-wear-jeans.webp" alt="" loading="lazy"></span>
+<span data-key="worth-the-wear-shirt"><img class="piece" src="art/worth-the-wear-shirt.webp" alt="" loading="lazy"></span>
+<span data-key="worth-the-wear-coat"><img class="piece" src="art/worth-the-wear-coat.webp" alt="" loading="lazy"></span>
+<span data-key="worth-the-wear-jacket"><img class="piece" src="art/worth-the-wear-jacket.webp" alt="" loading="lazy"></span>
+<span data-key="worth-the-wear-t-shirt"><img class="piece" src="art/worth-the-wear-t-shirt.webp" alt="" loading="lazy"></span>
+<span data-key="worth-the-wear-sweatshirt"><img class="piece" src="art/worth-the-wear-sweatshirt.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Which number goes on top: the price. Price divided by wears, and write the unit</li><li>The five factors: fiber, seam type, stitches per inch, reinforcement at stress points, buttons and closures</li><li>Count the stitches on the seam that holds the garment together, not the decorative topstitching</li><li>The four store checks from Lesson 5.12: seam strength, fabric weight, stitch density, the label</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="WorthTheWear-data">{"schema": "1.0", "slug": "worth-the-wear", "title": "Worth the Wear", "unit": 5, "lessons": ["5.13", "5.12"], "handouts": ["Handout 05.13 - Cost Per Wear Worksheet and Quality Inspection Checklist", "Handout 05.12 - Price and Spec Sheets and Buyer Cards"], "standards": ["NYS module line: NYS ATPD 4. Consumer Resources and Finance a) Compare and contrast the cost of constructing an apparel item versus purchasing one or repurposing one", "NYS module line: NYS ATPD 4. Consumer Resources and Finance b) Compare cost of similar apparel items when obtained from a variety of different types of vendors", "NYS module line: NYS ATPD 1. Selection d) Inventory personal wardrobe, noting condition and appropriateness of apparel items", "NYS module line: NYS ATPD 3. Maintenance a) Identify care procedures which may extend the wear of an apparel item", "CTE theme line: CTE FCL 4. Buying Goods and Services f) Apply a decision-making model to maximize consumer satisfaction when purchasing goods and services", "CTE theme line: CTE SUS 1. Resources f) Research the personal, environmental, and financial costs and benefits of sustainability-conscious decisions to individuals, families, schools, workplaces and communities", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students are able to budget their time and money.", "CDOS Standard 3a Universal Foundation Skills: Basic Skills", "National FCS 3.0: 16.2.7 Judge the construction quality and fit of textiles, fashion, and apparel.", "National FCS 3.0: 16.5.2 Examine what it costs to construct, manufacture, distribute, alter, repair, or recycle textiles, fashion, and apparel."], "source_file": "u5.json", "mechanic_note": "fast read: a price and a number of wears appear on a card, tap the cost per wear from four choices against a short clock; then a sort, a finding from a garment inspection appears and you tap it into A good one or A fail", "teacher_note": "Reviews Lesson 5.13, with the four store checks from Lesson 5.12 folded into the inspection sort. Round 1 is every cost per wear problem that appears in the unit (the three worked problems, the two do nows from 5.14 and 5.19, the review bank card, the trade-off task, and the grade 8 stretch), always price divided by wears, with the unit written on every choice; the one distractor that is a named mistake, 3.33 wears per dollar, gets the lesson's own answer in the feedback. Round 2 is the good-or-fail column of Handout 05.13 Part 2 plus the label check from Handout 05.12. It does not touch pay stubs or need versus want, which Paycheck Puzzle covers, and it does not read a nutrition label. Use it as the Lesson 5.14 Day 2 opener if the 5.13 exit cards said cost per wear was shaky, since the Consumer Comparison Task requires the math, and again in the Unit 5 review before the test. Every dollar figure is the handout's own and the handout says to refresh prices before teaching, so refresh the game when you refresh the sheet.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the division with the unit, dollars per wear, or names the right bin with the handout's reason; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "worth-the-wear-title.png", "line": "A yellow ruler lying across a seam on a piece of sky blue denim, with a cream price tag on a string beside it."}, "scene": [], "cards": [{"file": "worth-the-wear-jeans.png", "line": "A pair of sky blue jeans, folded once, with a cream price tag on a string."}, {"file": "worth-the-wear-shirt.png", "line": "A red button-front shirt on a cream hanger with a small price tag on the hanger."}, {"file": "worth-the-wear-coat.png", "line": "A green winter coat with a hood, on a cream hanger, with a small price tag."}, {"file": "worth-the-wear-jacket.png", "line": "A light gray zip-front jacket on a cream hanger with a small price tag."}, {"file": "worth-the-wear-t-shirt.png", "line": "A thin white T-shirt with a cracked yellow printed graphic on the chest and a small price tag."}, {"file": "worth-the-wear-sweatshirt.png", "line": "A heavy sky blue hooded sweatshirt with a drawstring, folded, with a small price tag."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 12 cost per wear cards, 10 seconds each", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_1_fast_read", "items": [{"id": "jeans", "prompt": "A pair of jeans costs $60. You wear them 200 times before they wear out.", "answer": ["$0.30 per wear"], "feedback": "$60 divided by 200 wears.", "choices": ["$0.30 per wear", "3.33 wears per dollar", "$0.40 per wear", "$3.00 per wear"], "options": {"count": 4, "style": "buttons"}, "feedback_extra": ["3.33 wears per dollar is 200 divided by 60. It is a real rate, but it is not the one a buyer compares. Cost per wear is dollars per wear."]}, {"id": "shirt", "prompt": "A shirt costs $15. You wore it 5 times and then stopped wearing it.", "answer": ["$3.00 per wear"], "feedback": "$15 divided by 5 wears. The cheapest thing to buy was the most expensive thing to own"}, {"id": "coat", "prompt": "A winter coat costs $90. You wear it for 3 winters, about 60 wears a winter, so 180 wears.", "answer": ["$0.50 per wear"], "feedback": "$90 divided by 180 wears. You have to estimate the wears, and the estimate is the argument"}, {"id": "jacket", "prompt": "A $36 jacket worn 90 times.", "answer": ["$0.40 per wear"], "feedback": "$36 divided by 90 wears"}, {"id": "jacket-2", "prompt": "A $48 jacket worn 120 times.", "answer": ["$0.40 per wear"], "feedback": "$48 divided by 120 wears"}, {"id": "shirt-2", "prompt": "A $20 shirt worn 4 times.", "answer": ["$5.00 per wear"], "feedback": "$20 divided by 4 wears"}, {"id": "coat-2", "prompt": "A $72 coat worn 180 times.", "answer": ["$0.40 per wear"], "feedback": "$72 divided by 180 wears"}, {"id": "t-shirt", "prompt": "The $8 t-shirt, if it survived 200 wears.", "answer": ["$0.04 per wear"], "feedback": "$8 divided by 200, but the thin t-shirt will not survive 200 wearings, which is the whole point"}, {"id": "sweatshirt", "prompt": "The $44 sweatshirt worn 200 times over two winters.", "answer": ["$0.22 per wear"], "feedback": "$44 divided by 200 wears"}, {"id": "t-shirt-2", "prompt": "The $8 t-shirt for one concert, worn once.", "answer": ["$8.00 per wear"], "feedback": "$8 divided by 1 wear. Or better, borrow or wear something you own"}, {"id": "sweatshirt-2", "prompt": "The $44 sweatshirt for one concert, worn once.", "answer": ["$44.00 per wear"], "feedback": "$44 divided by 1 wear. Cost per wear only answers the question once you know who is wearing it and how often"}, {"id": "t-shirt-3", "prompt": "The $8 t-shirt worn 10 times.", "answer": ["$0.80 per wear"], "feedback": "$8 divided by 10 wears"}], "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}}]}, {"n": 2, "note": "Round 2: 16 inspection findings, 6 seconds each, two bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_2_sort.items", "items": [{"id": "0", "prompt": "Double-needle seam on a seam that carries load", "answer": ["A good one"], "tags": {"factor": "Seam type"}}, {"id": "1", "prompt": "A flat felled seam, the raw edges folded and wrapped inside, then stitched through", "answer": ["A good one"], "tags": {"factor": "Seam type"}}, {"id": "2", "prompt": "10 to 12 stitches per inch", "answer": ["A good one"], "tags": {"factor": "Stitches per inch"}}, {"id": "3", "prompt": "Bar tacks at pocket corners and belt loops", "answer": ["A good one"], "tags": {"factor": "Reinforcement"}}, {"id": "4", "prompt": "A gusset under the arm, a doubled knee", "answer": ["A good one"], "tags": {"factor": "Reinforcement"}}, {"id": "5", "prompt": "Four to six passes of thread, a shank so the button sits above the fabric, a knot that holds", "answer": ["A good one"], "tags": {"factor": "Buttons and closures"}}, {"id": "6", "prompt": "A zipper that runs smoothly both ways", "answer": ["A good one"], "tags": {"factor": "Buttons and closures"}}, {"id": "7", "prompt": "Fiber content percentages printed on the label", "answer": ["A good one"], "tags": {"factor": "Fiber"}}, {"id": "8", "prompt": "Single-needle on a load-bearing seam", "answer": ["A fail"], "feedback": "One row of stitching. It is the first seam to open.", "tags": {"factor": "Seam type"}}, {"id": "9", "prompt": "A serged edge with no seam behind it", "answer": ["A fail"], "feedback": "That is a finish, not a seam. A serged edge alone does not hold two pieces together.", "tags": {"factor": "Seam type"}}, {"id": "10", "prompt": "8 or fewer stitches per inch", "answer": ["A fail"], "feedback": "8 is low. 10 to 12 holds.", "tags": {"factor": "Stitches per inch"}}, {"id": "11", "prompt": "Nothing at any stress point, especially where a strap or pocket joins", "answer": ["A fail"], "feedback": "Stress points are where the body pulls.", "tags": {"factor": "Reinforcement"}}, {"id": "12", "prompt": "A button held by two loose threads, no shank, a knot cut flush", "answer": ["A fail"], "tags": {"factor": "Buttons and closures"}}, {"id": "13", "prompt": "A zipper that catches or separates", "answer": ["A fail"], "tags": {"factor": "Buttons and closures"}}, {"id": "14", "prompt": "\"Cotton blend\" with no percentages", "answer": ["A fail"], "tags": {"factor": "Fiber"}}, {"id": "15", "prompt": "No label at all", "answer": ["A fail"], "tags": {"factor": "Fiber"}}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "a-good-one", "label": "A good one"}, {"id": "a-fail", "label": "A fail"}]}}], "option_sets": [{"label": "round_2_sort.bins", "list": [{"id": "a-good-one", "label": "A good one"}, {"id": "a-fail", "label": "A fail"}]}]}], "study": ["Which number goes on top: the price. Price divided by wears, and write the unit", "The five factors: fiber, seam type, stitches per inch, reinforcement at stress points, buttons and closures", "Count the stitches on the seam that holds the garment together, not the decorative topstitching", "The four store checks from Lesson 5.12: seam strength, fabric weight, stitch density, the label"], "rule_lines": ["Cost per wear = price divided by the number of times worn. The answer is in dollars per wear.", "three other dollar amounts from the same list, and once per round the named mistake, 3.33 wears per dollar, which the feedback calls a different rate and not the one a buyer compares"], "reference": {}, "_unmapped": {}, "repaired": true, "lede": "A price and a number of wears appear. Tap the cost per wear from four choices. Then a finding from a garment inspection appears, and you tap it into A good one or A fail."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("WorthTheWear");
+  var node = document.getElementById("WorthTheWear-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

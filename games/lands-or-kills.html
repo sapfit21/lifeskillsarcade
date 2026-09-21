@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lands or Kills, Life Skills Arcade</title>
+<meta name="description" content="A line about how a pitch was delivered appears. Tap Lands if it makes a pitch work or Kills if it ends it. Then sort lines into Hook, Not a hook, a Real ask, or Not an ask.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="LandsOrKills">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-07-09.html">Lesson 7.9</a>, <a href="../lesson-07-10.html">Lesson 7.10</a>, <a href="../lesson-07-11.html">Lesson 7.11</a>. Reviews the delivery side of Lesson 7.9 (the Lands and Kills list from the teacher key, the hook rule, the four real asks a school could say yes to, and the revision rule that protects the money and the ask), plus the delivery lines on the Lesson 7.10 peer review sheet and the Lesson 7.11 judge sheet. It does not review the six-part structure, which is Pitch Perfect. Use it between Lesson 7.9 and the Lesson 7.10 Day 2 peer review round, so reviewers walk in with the criteria already in their heads; the Lands and Kills wording here is the expected list from the key, and a class that wrote a different list should play with the teacher naming the overlap. Grade 6 plays round 1 only.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/lands-or-kills-title.webp" alt=""><h1 class="game-title">Lands <span class="alt2">or Kills</span></h1></div>
+<p class="game-lede">A line about how a pitch was delivered appears. Tap Lands if it makes a pitch work or Kills if it ends it. Then sort lines into Hook, Not a hook, a Real ask, or Not an ask.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="LandsOrKills-data">{"schema": "1.0", "slug": "lands-or-kills", "title": "Lands or Kills", "unit": 7, "lessons": ["7.9", "7.10", "7.11"], "handouts": ["Handout 07.09 - Pitch Anatomy and Draft Sheet", "Handout 07.10 - Five-Panel Deck Template and Peer Review", "Handout 07.11 - Judge Sheet and Audience Scoring Sheet"], "standards": ["NYS IGLR 3. Employability c) Demonstrate effective communication skills", "NYS IGLR 5. Career Pathways b) Examine the skills needed to become an entrepreneur", "CTE CIR 1. Communication f) Demonstrate personal development of communication skills through practice of these skills in a variety of classroom applications", "CTE CIR 3. Workplace Communication b) Describe ways effective communication promotes workplace efficiency", "CTE PSI 1. Problem Solving e) Demonstrate personal development of problem-solving skills through practice of these skills in a variety of classroom applications", "National FCS 3.0: 13.3.2 Show the spoken and unspoken behaviors and attitudes that make communication work.", "National FCS 3.0: 1.2.6 Show leadership in school, work, and community settings."], "source_file": "u7.json", "mechanic_note": "sort: a line about how a pitch was delivered appears; tap Lands (what makes a pitch work) or Kills (what ends it). Round 2 is a four-bin sort: each line is a Hook, Not a hook, a Real ask, or Not an ask, with two fast reads on the revision rule mixed in", "teacher_note": "Reviews the delivery side of Lesson 7.9 (the Lands and Kills list from the teacher key, the hook rule, the four real asks a school could say yes to, and the revision rule that protects the money and the ask), plus the delivery lines on the Lesson 7.10 peer review sheet and the Lesson 7.11 judge sheet. It does not review the six-part structure, which is Pitch Perfect. Use it between Lesson 7.9 and the Lesson 7.10 Day 2 peer review round, so reviewers walk in with the criteria already in their heads; the Lands and Kills wording here is the expected list from the key, and a class that wrote a different list should play with the teacher naming the overlap. Grade 6 plays round 1 only.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right bin in the class list's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "lands-or-kills-title.png", "line": "A white stopwatch with a black outline, a red hand pointing straight up, and a green button on top."}, "scene": [], "cards": [], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 20 lines, 5 seconds each, two bins", "seconds_per_item": 5, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "looked-at-us", "prompt": "Looked at us.", "answer": ["Lands"]}, {"id": "said-a-number", "prompt": "Said a number.", "answer": ["Lands"]}, {"id": "understood-five-seconds", "prompt": "I understood what it was in five seconds.", "answer": ["Lands"]}, {"id": "believed-it", "prompt": "Sounded like they believed it.", "answer": ["Lands"]}, {"id": "ended-on-time", "prompt": "Ended on time.", "answer": ["Lands"]}, {"id": "asked-something-real", "prompt": "Asked for something real.", "answer": ["Lands"]}, {"id": "all-three-spoke", "prompt": "All three spoke.", "answer": ["Lands"]}, {"id": "inside-60", "prompt": "They finished inside 60 seconds.", "answer": ["Lands"]}, {"id": "ask-was-specific", "prompt": "The ask was specific.", "answer": ["Lands"]}, {"id": "nobody-floor", "prompt": "Nobody looked at the floor.", "answer": ["Lands"]}, {"id": "answered-number-quote", "prompt": "Answered a judge question with a number or a real quote from a customer.", "answer": ["Lands"]}, {"id": "read-off-paper", "prompt": "Read the whole thing off the paper.", "answer": ["Kills"]}, {"id": "never-looked-up", "prompt": "Never looked up.", "answer": ["Kills"]}, {"id": "no-numbers", "prompt": "No numbers anywhere.", "answer": ["Kills"]}, {"id": "um-so-basically", "prompt": "Started with \"um so basically.\"", "answer": ["Kills"]}, {"id": "went-over", "prompt": "Went over and got cut off.", "answer": ["Kills"]}, {"id": "mumbled-price", "prompt": "Mumbled the price.", "answer": ["Kills"]}, {"id": "so-yeah", "prompt": "Ended with \"so yeah what do you think.\"", "answer": ["Kills"]}, {"id": "could-not-say", "prompt": "Could not say what it was.", "answer": ["Kills"]}, {"id": "i-dont-know", "prompt": "Answered a judge question with \"I don't know\" and nothing else.", "answer": ["Kills"]}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "lands", "label": "Lands"}, {"id": "kills", "label": "Kills"}]}}], "option_sets": [{"label": "round1.bins", "list": [{"id": "lands", "label": "Lands"}, {"id": "kills", "label": "Kills"}]}]}, {"n": 2, "note": "Round 2: 15 cards, 7 seconds each, four bins", "seconds_per_item": 7, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "have-you-ever", "prompt": "Have you ever ___?", "answer": ["Hook"]}, {"id": "out-of-people", "prompt": "___ out of ___ people in this school ___.", "answer": ["Hook"]}, {"id": "question-or-number", "prompt": "A question or a number.", "answer": ["Hook"]}, {"id": "a-greeting", "prompt": "A greeting.", "answer": ["Not a hook"]}, {"id": "so-basically", "prompt": "So, basically.", "answer": ["Not a hook"]}, {"id": "ask-supplies", "prompt": "We are asking for $20.00 of supplies from the FACS budget so we can make the first ten.", "answer": ["Real ask"]}, {"id": "ask-table", "prompt": "We are asking for a table at the spring event so we can sell forty.", "answer": ["Real ask"]}, {"id": "ask-permission", "prompt": "We are asking for permission to run this for one week in June.", "answer": ["Real ask"]}, {"id": "ask-preorders", "prompt": "We are asking for ten pre-orders so we know it is worth making.", "answer": ["Real ask"]}, {"id": "please-support", "prompt": "Please support us.", "answer": ["Not an ask"]}, {"id": "what-do-you-think", "prompt": "What do you think?", "answer": ["Not an ask"]}, {"id": "hope-you-like", "prompt": "We hope you like it.", "answer": ["Not an ask"]}, {"id": "so-yeah-think", "prompt": "So, yeah, what do you think.", "answer": ["Not an ask"]}], "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "hook", "label": "Hook"}, {"id": "not-a-hook", "label": "Not a hook"}, {"id": "real-ask", "label": "Real ask"}, {"id": "not-an-ask", "label": "Not an ask"}]}}, {"kind": "choice", "label": "round2.fast_reads", "items": [{"id": "over-60-cut", "prompt": "You are over 60 seconds. Which parts do you cut words from?", "answer": ["The hook and the solution"], "choices": ["The hook and the solution", "The money and the ask", "The problem and who it is for", "All six, a little each"], "feedback": "If you are over 60 seconds, you cut words from the HOOK and the SOLUTION."}, {"id": "never-cut", "prompt": "You are over 60 seconds. Which parts do you never cut?", "answer": ["The money and the ask"], "choices": ["The money and the ask", "The hook and the solution", "The problem and who it is for", "The ask only"], "feedback": "You do NOT cut the money and you do NOT cut the ask."}], "options": {"source": "per_item", "style": "choices", "count": 4}}], "option_sets": [{"label": "round2.bins", "list": [{"id": "hook", "label": "Hook"}, {"id": "not-a-hook", "label": "Not a hook"}, {"id": "real-ask", "label": "Real ask"}, {"id": "not-an-ask", "label": "Not an ask"}]}]}], "study": [], "rule_lines": [], "reference": {"round1.bin_feedback": {"Lands": "Lands: what makes a pitch work.", "Kills": "Kills: what ends it."}, "round2.bin_feedback": {"Hook": "Hook (10 seconds): a question or a number. Make somebody look up.", "Not a hook": "Not a greeting and not \"so, basically.\"", "Real ask": "The ask (5 seconds): what you want. Specific. With a number.", "Not an ask": "Not an ask: \"please support us,\" \"what do you think,\" \"we hope you like it.\""}}, "_unmapped": {}, "lede": "A line about how a pitch was delivered appears. Tap Lands if it makes a pitch work or Kills if it ends it. Then sort lines into Hook, Not a hook, a Real ask, or Not an ask."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("LandsOrKills");
+  var node = document.getElementById("LandsOrKills-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

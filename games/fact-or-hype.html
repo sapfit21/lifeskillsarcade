@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fact or Hype, Life Skills Arcade</title>
+<meta name="description" content="A dispatch appears. Tap the venture it moves, then Up, Down, or No change. Then a headline appears, and you tap Fact or Hype using three tests: who says it, is there a number, does it tell you to hurry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="FactOrHype">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-02-15.html">Lesson 2.15</a>. Reviews Lesson 2.15, both days: Round 1 is Part A of Handout 02.15 (the eight news cards) plus eight dispatches from the paper ledger script in Handout 02.19, all scored on the venture and the direction; Round 2 is Part B (the six headlines) plus the two Day 2 do now headlines, the hype dispatch from the Day 4 script, the rewritten fact from the key, and the lesson's social media example. Use Round 1 as the warm-up before any trading window from Lesson 2.16 on, and Round 2 the day before the Investor Report, since 'names the dispatch' and the three tests are the Meets descriptor on Rubric 02 criterion 2. grade 6 plays Round 1 with the eight Part A cards only and Round 2 with four headlines. Grade 6 plays Round 1 with the eight Part A cards only and Round 2 with four headlines.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/fact-or-hype-title.webp" alt=""><h1 class="game-title">Fact <span class="alt2">or Hype</span></h1></div>
+<p class="game-lede">A dispatch appears. Tap the venture it moves, then Up, Down, or No change. Then a headline appears, and you tap Fact or Hype using three tests: who says it, is there a number, does it tell you to hurry.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>More buyers than sellers: the price goes up. More sellers than buyers: the price goes down. News changes how many people want to buy or sell.</li><li>Who says it? A named source (the venture, the Crown, a reporter) passes. Insiders, everyone, or no source fails.</li><li>Is there a number? A percent, an amount, a date, or a count passes. No number fails.</li><li>Does it tell you to hurry? No rush words passes. Now, last chance, before it's too late, everyone is buying fails.</li><li>Two or three points: probably a fact. Zero or one: hype.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="fact-or-hype-sparkstone"><img class="piece" src="art/fact-or-hype-sparkstone.webp" alt="" loading="lazy"></span>
+<span data-key="fact-or-hype-cloudberry"><img class="piece" src="art/fact-or-hype-cloudberry.webp" alt="" loading="lazy"></span>
+<span data-key="fact-or-hype-iron-vault"><img class="piece" src="art/fact-or-hype-iron-vault.webp" alt="" loading="lazy"></span>
+<span data-key="fact-or-hype-crown-seal"><img class="piece" src="art/fact-or-hype-crown-seal.webp" alt="" loading="lazy"></span>
+<span data-key="fact-or-hype-willowbrook"><img class="piece" src="art/fact-or-hype-willowbrook.webp" alt="" loading="lazy"></span>
+<span data-key="fact-or-hype-honeypot"><img class="piece" src="art/fact-or-hype-honeypot.webp" alt="" loading="lazy"></span>
+<span data-key="fact-or-hype-meadowgold"><img class="piece" src="art/fact-or-hype-meadowgold.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Handout 02.15: the rule in two lines and the four dispatch families</li><li>Part A: match the news to the price change</li><li>Part B: the three tests, fact or hype</li><li>When a headline says buy now, who benefits if you do?</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="FactOrHype-data">{"schema": "1.0", "slug": "fact-or-hype", "title": "Fact or Hype", "unit": 2, "lessons": ["2.15"], "handouts": ["Handout 02.15 - News Card and Price Change", "Handout 02.19 - Paper Ledger"], "standards": ["NYS IGLR 4. Financial Readiness e) Determine ways for saving money", "CTE FCL 2. Saving, Investing, and Sharing c) Explore different savings and investment tools and methods", "CTE PSI 4. Research Applications in CTE b) b. Evaluating the source to determine if the author(s) or publisher can be considered an authoritative source for the desired content", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students understand the resources available to them, make informed decisions about the use of those resources, and know some ways to expand resources.", "CDOS Standard 3a Universal Foundation Skills: Managing Information", "National FCS 3.0: 3.3.4 Compare different ways to save and invest."], "source_file": "u2.json", "mechanic_note": "fast read, then sort: Round 1, a dispatch appears; tap the venture it moves from the seven picture buttons, then tap Up, Down, or No change; Round 2, a headline appears and you tap it into the Fact bin or the Hype bin (two bins), using the three tests: who says it, is there a number, does it tell you to hurry", "teacher_note": "Reviews Lesson 2.15, both days: Round 1 is Part A of Handout 02.15 (the eight news cards) plus eight dispatches from the paper ledger script in Handout 02.19, all scored on the venture and the direction; Round 2 is Part B (the six headlines) plus the two Day 2 do now headlines, the hype dispatch from the Day 4 script, the rewritten fact from the key, and the lesson's social media example. Use Round 1 as the warm-up before any trading window from Lesson 2.16 on, and Round 2 the day before the Investor Report, since 'names the dispatch' and the three tests are the Meets descriptor on Rubric 02 criterion 2. grade 6 plays Round 1 with the eight Part A cards only and Round 2 with four headlines. Grade 6 plays Round 1 with the eight Part A cards only and Round 2 with four headlines.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the lesson's own words; seconds left bank at the end of a completed round; in Round 1 the venture and the direction each score 5, so a card is worth 10 only when both are right"}, "art": {"title": {"file": "fact-or-hype-title.png", "line": "A folded cream newspaper with light gray headline bars and a big red arrow pointing up, black outline, sticker style."}, "scene": [], "cards": [], "buttons": [{"file": "fact-or-hype-sparkstone.png", "line": "A mine shaft entrance cut into gray rock with a yellow lightning bolt above it, black outline, sticker style."}, {"file": "fact-or-hype-cloudberry.png", "line": "A hot-air balloon with red and white stripes floating above white clouds on sky blue, black outline."}, {"file": "fact-or-hype-iron-vault.png", "line": "A heavy light gray iron door with rivets and a black keyhole, black outline."}, {"file": "fact-or-hype-crown-seal.png", "line": "A cream scroll with a red wax seal and a small yellow crown on the seal, black outline."}, {"file": "fact-or-hype-willowbrook.png", "line": "A young green tree with a thin trunk and three red apples, black outline."}, {"file": "fact-or-hype-honeypot.png", "line": "A yellow honey jar with a cream lid and a small yellow coin resting on top, black outline."}, {"file": "fact-or-hype-meadowgold.png", "line": "A red farmhouse with green fields in front and a light gray rain cloud above, black outline."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 16 dispatches, seven venture buttons plus Up, Down, No change, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1.items", "items": [{"id": "sparkstone-crews-strike-the-richest", "prompt": "Sparkstone crews strike the richest crystal seam in twenty years. Output expected to double by spring.", "answer": ["Sparkstone Mines: Up"], "answer_parts": {"venture": "Sparkstone Mines", "direction": "Up"}, "feedback": "A huge crystal seam was found, so more people wanted to buy Sparkstone, so the price went up (up 14 percent)."}, {"id": "a-week-of-hail-flattens", "prompt": "A week of hail flattens the wheat across the eastern farms. Meadowgold reports crop losses on a third of its acres.", "answer": ["Meadowgold Acres: Down"], "answer_parts": {"venture": "Meadowgold Acres", "direction": "Down"}, "feedback": "Hail destroyed crops, so more people wanted to sell Meadowgold, so the price went down (down 6 percent)."}, {"id": "the-crown-announces-it-will", "prompt": "The Crown announces it will pay Crown Seal Note holders one extra AQ per note this season as thanks for a strong treasury.", "answer": ["Crown Seal Notes: Up"], "answer_parts": {"venture": "Crown Seal Notes", "direction": "Up"}, "feedback": "The Crown promised an extra payment, so more people wanted to buy Crown Seal Notes, so the price went up (a little, up 1 percent; safe ventures move a little)."}, {"id": "cloudberry-s-third-expedition-returns-early", "prompt": "Cloudberry's third expedition returns early with nothing. The company has coin for one more voyage, at most.", "answer": ["Cloudberry Expeditions: Down"], "answer_parts": {"venture": "Cloudberry Expeditions", "direction": "Down"}, "feedback": "The expedition found nothing and the company is almost out of coin, so more people wanted to sell Cloudberry, so the price went down (a lot, down 22 percent)."}, {"id": "a-late-frost-hits-willowbrook", "prompt": "A late frost hits Willowbrook Grove. Growers say the trees survived but this season's harvest will be small.", "answer": ["Willowbrook Grove: Down"], "answer_parts": {"venture": "Willowbrook Grove", "direction": "Down"}, "feedback": "A frost shrank the harvest, so more people wanted to sell Willowbrook, so the price went down (a little, down 3 percent; the trees are fine and the grove is built for the long run)."}, {"id": "a-rumor-that-the-iron", "prompt": "A rumor that the Iron Vault lent too much to a failing shipyard spreads through the market. The Vault says all loans are sound.", "answer": ["The Iron Vault: Down"], "answer_parts": {"venture": "The Iron Vault", "direction": "Down"}, "feedback": "A rumor said the Vault lent badly, so some people wanted to sell the Iron Vault, so the price went down (a little, down 2 percent). A price is what people think today, not what is true."}, {"id": "the-crown-opens-a-new", "prompt": "The Crown opens a new trade road through the western farmlands. Land along the road, most of it Meadowgold's, is suddenly in demand.", "answer": ["Meadowgold Acres: Up"], "answer_parts": {"venture": "Meadowgold Acres", "direction": "Up"}, "feedback": "A new road made the land more valuable, so more people wanted to buy Meadowgold, so the price went up (up 8 percent)."}, {"id": "the-honeypot-coffer-announces-its", "prompt": "The Honeypot Coffer announces its rate for the season: the same small, steady amount as always.", "answer": ["The Honeypot Coffer: No change"], "answer_parts": {"venture": "The Honeypot Coffer", "direction": "No change"}, "feedback": "The Honeypot pays the same no matter what, so nobody changed their mind, so the price did not move. The Honeypot ignores the news."}, {"id": "a-shaft-floods-at-sparkstone-s", "prompt": "A shaft floods at Sparkstone's north mine. No one is hurt, but output will be down for a month while the pumps run.", "answer": ["Sparkstone Mines: Down"], "answer_parts": {"venture": "Sparkstone Mines", "direction": "Down"}, "feedback": "Output will be down for a month, so more people wanted to sell Sparkstone, so the price went down. Exploration news moves Sparkstone and Cloudberry."}, {"id": "cloudberry-s-second-expedition-sights-islands", "prompt": "Cloudberry's second expedition sights islands nobody has mapped.", "answer": ["Cloudberry Expeditions: Up"], "answer_parts": {"venture": "Cloudberry Expeditions", "direction": "Up"}, "feedback": "The expedition sighted new islands, so more people wanted to buy Cloudberry, so the price went up. Exploration news moves Sparkstone and Cloudberry."}, {"id": "a-week-of-rain-delays", "prompt": "A week of rain delays planting on Meadowgold's eastern farms.", "answer": ["Meadowgold Acres: Down"], "answer_parts": {"venture": "Meadowgold Acres", "direction": "Down"}, "feedback": "Rain delayed planting, so more people wanted to sell Meadowgold, so the price went down. Weather moves Meadowgold."}, {"id": "sparkstone-s-pumps-clear-the-flooded", "prompt": "Sparkstone's pumps clear the flooded shaft, and the crews strike a new seam of crystal on the way down.", "answer": ["Sparkstone Mines: Up"], "answer_parts": {"venture": "Sparkstone Mines", "direction": "Up"}, "feedback": "A new seam was struck, so more people wanted to buy Sparkstone, so the price went up."}, {"id": "cloudberry-s-islands-turn-out-to", "prompt": "Cloudberry's islands turn out to be bare rock; the expedition returns with nothing.", "answer": ["Cloudberry Expeditions: Down"], "answer_parts": {"venture": "Cloudberry Expeditions", "direction": "Down"}, "feedback": "The islands were bare rock, so more people wanted to sell Cloudberry, so the price went down."}, {"id": "meadowgold-signs-a-rent-deal", "prompt": "Meadowgold signs a rent deal with the Crown's granary for the next three seasons.", "answer": ["Meadowgold Acres: Up"], "answer_parts": {"venture": "Meadowgold Acres", "direction": "Up"}, "feedback": "A rent deal means more rent coming in, so more people wanted to buy Meadowgold, so the price went up."}, {"id": "a-dry-spell-worries-sparkstone-s", "prompt": "A dry spell worries Sparkstone's water supply and the price slips.", "answer": ["Sparkstone Mines: Down"], "answer_parts": {"venture": "Sparkstone Mines", "direction": "Down"}, "feedback": "A dry spell threatens the mine's water, so more people wanted to sell Sparkstone, so the price went down."}, {"id": "the-crown-s-treasury-reports-a", "prompt": "The Crown's treasury reports a strong year and Crown Seal Notes will pay their usual 2 percent.", "answer": ["Crown Seal Notes: No change"], "answer_parts": {"venture": "Crown Seal Notes", "direction": "No change"}, "feedback": "Nothing changed; the usual 2 percent. Royal decrees move Crown Seal and Iron Vault, but a usual payment is not news, so the price held (Crown Seal moved from 98.80 to 98.90 that day, less than any venture except one)."}], "options": {"source": "fixed", "style": "bins", "count": 7, "list": [{"id": "sparkstone-mines", "label": "Sparkstone Mines", "picture": "fact-or-hype-sparkstone.png"}, {"id": "cloudberry-expeditions", "label": "Cloudberry Expeditions", "picture": "fact-or-hype-cloudberry.png"}, {"id": "the-iron-vault", "label": "The Iron Vault", "picture": "fact-or-hype-iron-vault.png"}, {"id": "crown-seal-notes", "label": "Crown Seal Notes", "picture": "fact-or-hype-crown-seal.png"}, {"id": "willowbrook-grove", "label": "Willowbrook Grove", "picture": "fact-or-hype-willowbrook.png"}, {"id": "the-honeypot-coffer", "label": "The Honeypot Coffer", "picture": "fact-or-hype-honeypot.png"}, {"id": "meadowgold-acres", "label": "Meadowgold Acres", "picture": "fact-or-hype-meadowgold.png"}], "answer_key": "venture", "second_tap": {"style": "buttons", "count": 3, "list": "round1.direction_buttons", "answer_key": "direction", "prompt": "Which way does the price go?"}}}], "option_sets": [{"label": "round1.venture_buttons", "list": [{"id": "sparkstone-mines", "label": "Sparkstone Mines", "picture": "fact-or-hype-sparkstone.png"}, {"id": "cloudberry-expeditions", "label": "Cloudberry Expeditions", "picture": "fact-or-hype-cloudberry.png"}, {"id": "the-iron-vault", "label": "The Iron Vault", "picture": "fact-or-hype-iron-vault.png"}, {"id": "crown-seal-notes", "label": "Crown Seal Notes", "picture": "fact-or-hype-crown-seal.png"}, {"id": "willowbrook-grove", "label": "Willowbrook Grove", "picture": "fact-or-hype-willowbrook.png"}, {"id": "the-honeypot-coffer", "label": "The Honeypot Coffer", "picture": "fact-or-hype-honeypot.png"}, {"id": "meadowgold-acres", "label": "Meadowgold Acres", "picture": "fact-or-hype-meadowgold.png"}]}, {"label": "round1.direction_buttons", "list": [{"id": "up", "label": "Up"}, {"id": "down", "label": "Down"}, {"id": "no-change", "label": "No change"}]}], "extra_option_sets": [{"label": "round1.direction_buttons", "list": [{"id": "up", "label": "Up"}, {"id": "down", "label": "Down"}, {"id": "no-change", "label": "No change"}]}]}, {"n": 2, "note": "Round 2: 11 headlines into two bins, 6 seconds each", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2.items", "items": [{"id": "sparkstone-about-to-explode-insiders", "prompt": "Sparkstone about to EXPLODE. Insiders say get in NOW before everyone else does.", "answer": ["Hype"], "feedback": "Hype. No source, no number, and it says now. Zero of three tests. Ignore it."}, {"id": "cloudberry-expeditions-reports-its-fourth", "prompt": "Cloudberry Expeditions reports its fourth voyage will launch on the first day of spring with 40 percent less coin than the last one.", "answer": ["Fact"], "feedback": "Fact: a named source (the venture), a number (40 percent, a date), no hurry. Three of three. A careful investor holds or waits for more; 40 percent less coin is a warning sign."}, {"id": "meadowgold-is-a-sure-thing", "prompt": "Meadowgold is a sure thing. Land never goes down. Buy as much as you can.", "answer": ["Hype"], "feedback": "Hype: sure thing, never goes down, no source, no number, as much as you can. Zero of three. Ignore."}, {"id": "the-crown-s-treasury-office-confirms", "prompt": "The Crown's treasury office confirms Crown Seal Notes will pay the usual 2 percent this season.", "answer": ["Fact"], "feedback": "Fact: a named source (the Crown's treasury office), a number (2 percent), no hurry. Hold; nothing changed."}, {"id": "everyone-is-dumping-the-iron", "prompt": "Everyone is dumping the Iron Vault. Sell before it's too late.", "answer": ["Hype"], "feedback": "Hype. Everyone is not a source, there is no number, and it says before it's too late. Check the Vault's own statement. If you sold, whoever bought got your units at a low price."}, {"id": "willowbrook-grove-s-growers-council-reports", "prompt": "Willowbrook Grove's growers' council reports this year's harvest at 15 percent below last year after the frost; trees are healthy.", "answer": ["Fact"], "feedback": "Fact: a named source (the growers' council), a number (15 percent), no hurry. Hold; a small harvest with healthy trees is a one-season problem for a long-term venture."}, {"id": "cloudberry-reports-a-delayed-expedition", "prompt": "Cloudberry reports a delayed expedition; costs up 8 percent", "answer": ["Fact"], "feedback": "Fact: the venture says it, there is a number (8 percent), and nothing tells you to hurry."}, {"id": "cloudberry-about-to-explode-insiders", "prompt": "Cloudberry about to EXPLODE, insiders say get in NOW", "answer": ["Hype"], "feedback": "Hype: insiders, no number, and NOW. A headline that tells you to hurry is written by someone who wants your money to move today."}, {"id": "from-an-unnamed-source-sparkstone", "prompt": "From an unnamed source: Sparkstone will DOUBLE by next week. Get in NOW before everyone else does.", "answer": ["Hype"], "feedback": "Hype: an unnamed source, a promise with no real number, and get in NOW. Your teacher wrote that one."}, {"id": "sparkstone-s-mine-office-reports-a", "prompt": "Sparkstone's mine office reports a new seam that could raise output 30 percent by spring. Prices moved 6 percent today.", "answer": ["Fact"], "feedback": "Fact: a source (the mine office), numbers (30 percent, 6 percent, by spring), and no hurry. This is the hype headline rewritten as a fact."}, {"id": "a-social-media-post-this", "prompt": "A social media post: this stock is going to the moon.", "answer": ["Hype"], "feedback": "Hype: no number and no source. The real-world example from the lesson."}], "options": {"source": "fixed", "style": "bins", "count": 2, "list": [{"id": "fact", "label": "Fact"}, {"id": "hype", "label": "Hype"}]}}], "option_sets": [{"label": "round2.bins", "list": [{"id": "fact", "label": "Fact"}, {"id": "hype", "label": "Hype"}]}]}], "study": ["Handout 02.15: the rule in two lines and the four dispatch families", "Part A: match the news to the price change", "Part B: the three tests, fact or hype", "When a headline says buy now, who benefits if you do?"], "rule_lines": ["More buyers than sellers: the price goes up. More sellers than buyers: the price goes down. News changes how many people want to buy or sell.", "Who says it? A named source (the venture, the Crown, a reporter) passes. Insiders, everyone, or no source fails.", "Is there a number? A percent, an amount, a date, or a count passes. No number fails.", "Does it tell you to hurry? No rush words passes. Now, last chance, before it's too late, everyone is buying fails.", "Two or three points: probably a fact. Zero or one: hype."], "reference": {"dispatch_families": "Weather moves Meadowgold; exploration news moves Sparkstone and Cloudberry; royal decrees move Crown Seal and Iron Vault; the seasons move Willowbrook. The Honeypot ignores the news."}, "_unmapped": {}, "repaired": true, "lede": "A dispatch appears. Tap the venture it moves, then Up, Down, or No change. Then a headline appears, and you tap Fact or Hype using three tests: who says it, is there a number, does it tell you to hurry."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("FactOrHype");
+  var node = document.getElementById("FactOrHype-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

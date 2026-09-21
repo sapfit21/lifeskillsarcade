@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where Does It Go, Life Skills Arcade</title>
+<meta name="description" content="A food card appears. Tap the zone it lives in: Refrigerator, Freezer, Pantry, or Counter. Then a temperature, a date phrase, FIFO, or a leftover scenario appears, and you tap the answer from three.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="WhereDoesItGo">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-01-17.html">Lesson 1.17</a>. Reviews Lesson 1.17 (the Where Does It Go sort, the three date phrases, FIFO, and the two-hour rule). Use it the day before the Budget Meal Lab in Lesson 1.20, when leftovers are real, and again as the storage review before the Unit 1 test. Round 1 follows the key: raw ground beef scores in the freezer too, bread scores in the pantry or freezer, and potatoes score on the counter or in the pantry; the fridge is always a miss for potatoes. The two cards most teams get wrong, potatoes and the open salsa, are always in the draw. Grade 6 setting: round 1 uses eight cards (drop raw ground beef, potatoes, the open salsa, and the bag of flour) and round 2 drops the milk and the fridge thermometer questions.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/where-does-it-go-title.webp" alt=""><h1 class="game-title">Where <span class="alt2">Does It Go</span></h1></div>
+<p class="game-lede">A food card appears. Tap the zone it lives in: Refrigerator, Freezer, Pantry, or Counter. Then a temperature, a date phrase, FIFO, or a leftover scenario appears, and you tap the answer from three.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="where-does-it-go-raw-ground-beef"><img class="piece" src="art/where-does-it-go-raw-ground-beef.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-eggs"><img class="piece" src="art/where-does-it-go-eggs.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-bananas"><img class="piece" src="art/where-does-it-go-bananas.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-bread"><img class="piece" src="art/where-does-it-go-bread.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-canned-beans"><img class="piece" src="art/where-does-it-go-canned-beans.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-milk"><img class="piece" src="art/where-does-it-go-milk.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-frozen-peas"><img class="piece" src="art/where-does-it-go-frozen-peas.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-cooked-rice-leftovers"><img class="piece" src="art/where-does-it-go-cooked-rice-leftovers.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-potatoes"><img class="piece" src="art/where-does-it-go-potatoes.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-open-jar-of-salsa"><img class="piece" src="art/where-does-it-go-open-jar-of-salsa.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-bag-of-flour"><img class="piece" src="art/where-does-it-go-bag-of-flour.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-rotisserie-chicken"><img class="piece" src="art/where-does-it-go-rotisserie-chicken.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-refrigerator"><img class="piece" src="art/where-does-it-go-refrigerator.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-freezer"><img class="piece" src="art/where-does-it-go-freezer.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-pantry"><img class="piece" src="art/where-does-it-go-pantry.webp" alt="" loading="lazy"></span>
+<span data-key="where-does-it-go-counter"><img class="piece" src="art/where-does-it-go-counter.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The four zones and the two numbers: 40 F and 0 F</li><li>Raw meat on the bottom shelf; the door is the warmest spot</li><li>Best by is about quality, use by is the limit for perishables, sell by is for the store</li><li>FIFO: the new can goes behind the old can</li><li>The two-hour rule and leftovers within 3 to 4 days, labeled with the date</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="WhereDoesItGo-data">{"schema": "1.0", "slug": "where-does-it-go", "title": "Where Does It Go", "unit": 1, "lessons": ["1.17"], "handouts": ["Handout 01.17 - Where Does It Go Sort"], "standards": ["NYS N&W 1. Culinary Management f) Safely store food items", "CTE HSW 2. Disease Prevention b) Demonstrate the use of prevention measures such as hand washing, sanitation and waste disposal, proper food handling and storage, and environmental controls to reduce disease risk", "National FCS 3.0: 14.3.3 Show the ability to select, store, prepare, and serve food that is nourishing and looks good on the plate.", "National FCS 3.0: 8.2.6 Show correct purchasing, receiving, storage, and handling of raw and prepared foods."], "source_file": "u1.json", "mechanic_note": "sort: a food card appears, tap the zone it lives in (Refrigerator, Freezer, Pantry, Counter); the key's second zone for a card scores too; then a fast read: a temperature, a date phrase, FIFO, or a leftover scenario, tap the answer from three", "teacher_note": "Reviews Lesson 1.17 (the Where Does It Go sort, the three date phrases, FIFO, and the two-hour rule). Use it the day before the Budget Meal Lab in Lesson 1.20, when leftovers are real, and again as the storage review before the Unit 1 test. Round 1 follows the key: raw ground beef scores in the freezer too, bread scores in the pantry or freezer, and potatoes score on the counter or in the pantry; the fridge is always a miss for potatoes. The two cards most teams get wrong, potatoes and the open salsa, are always in the draw. Grade 6 setting: round 1 uses eight cards (drop raw ground beef, potatoes, the open salsa, and the bag of flour) and round 2 drops the milk and the fridge thermometer questions.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 for the key's second zone, 5 bonus on every third in a row, a miss shows the zone and the reason in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "where-does-it-go-title.png", "line": "A white refrigerator with the door open showing three light gray shelves and a sky blue interior glow, in the sticker style."}, "scene": [], "cards": [{"file": "where-does-it-go-raw-ground-beef.png", "line": "A white foam tray of red raw ground beef under clear wrap, black outline."}, {"file": "where-does-it-go-eggs.png", "line": "An open light gray egg carton with six cream colored eggs, black outline."}, {"file": "where-does-it-go-bananas.png", "line": "A bunch of three yellow bananas, black outline."}, {"file": "where-does-it-go-bread.png", "line": "A cream colored loaf of sliced bread in a clear bag with a red clip, black outline."}, {"file": "where-does-it-go-canned-beans.png", "line": "A light gray can with a black bean picture and a red band, no text, black outline."}, {"file": "where-does-it-go-milk.png", "line": "A white plastic milk jug with a sky blue cap, black outline."}, {"file": "where-does-it-go-frozen-peas.png", "line": "A sky blue frozen food bag with green peas pictured on it, black outline."}, {"file": "where-does-it-go-cooked-rice-leftovers.png", "line": "A clear food container with a sky blue lid holding white cooked rice, black outline."}, {"file": "where-does-it-go-potatoes.png", "line": "Three cream and light gray potatoes in a pile, black outline."}, {"file": "where-does-it-go-open-jar-of-salsa.png", "line": "A clear glass jar of red salsa with the yellow lid off and set beside it, black outline."}, {"file": "where-does-it-go-bag-of-flour.png", "line": "A cream colored paper bag of flour with the top folded, black outline."}, {"file": "where-does-it-go-rotisserie-chicken.png", "line": "A cooked whole chicken in cream and yellow inside a clear domed container with a black base, black outline."}], "buttons": [], "bins": [{"file": "where-does-it-go-refrigerator.png", "line": "A white refrigerator, door closed, with a light gray handle, black outline."}, {"file": "where-does-it-go-freezer.png", "line": "A white chest freezer with the lid open and sky blue frost inside, black outline."}, {"file": "where-does-it-go-pantry.png", "line": "A cream colored cupboard with two open doors and light gray shelves holding a few plain cans, black outline."}, {"file": "where-does-it-go-counter.png", "line": "A light gray kitchen counter top with a cream colored cabinet front below it, empty, black outline."}], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: all 12 food cards, shuffled each play, 8 seconds each, four bins", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "raw-ground-beef", "prompt": "raw ground beef", "answer": ["Refrigerator", "Freezer"], "feedback": "Refrigerator, use first, if cooking within 1 to 2 days; otherwise the freezer, 3 to 4 months for best quality. Raw meat goes on the bottom shelf because drips cannot land on ready-to-eat food.", "tags": {"use": "U"}}, {"id": "eggs", "prompt": "eggs", "answer": ["Refrigerator"], "feedback": "Refrigerator, use this week. Not the door; the door is the warmest spot, so only condiments go there.", "tags": {"use": "W"}}, {"id": "bananas", "prompt": "bananas", "answer": ["Counter"], "feedback": "Counter: only what does not spoil in a day or two (bananas, bread, potatoes, onions).", "tags": {"use": "U"}}, {"id": "bread", "prompt": "bread", "answer": ["Counter", "Pantry", "Freezer"], "feedback": "Counter, use this week; the pantry if used within a few days; the freezer if longer.", "tags": {"use": "W"}}, {"id": "canned-beans", "prompt": "canned beans", "answer": ["Pantry"], "feedback": "Pantry: cool, dry, dark, off the floor. Keeps for months. The new can goes behind the old can.", "tags": {"use": "M"}}, {"id": "milk", "prompt": "milk", "answer": ["Refrigerator"], "feedback": "Refrigerator, use this week. Not the door shelf.", "tags": {"use": "W"}}, {"id": "frozen-peas", "prompt": "frozen peas", "answer": ["Freezer"], "feedback": "Freezer at 0 F. Keeps for months.", "tags": {"use": "M"}}, {"id": "cooked-rice-leftovers", "prompt": "cooked rice leftovers", "answer": ["Refrigerator"], "feedback": "Refrigerator, use first: eat within 3 to 4 days, freeze if you will not, label with the date.", "tags": {"use": "U"}}, {"id": "potatoes", "prompt": "potatoes", "answer": ["Pantry", "Counter"], "feedback": "Pantry or counter, cool and dark, not the fridge.", "tags": {"use": "W"}}, {"id": "an-open-jar-of-salsa", "prompt": "an open jar of salsa", "answer": ["Refrigerator"], "feedback": "Fridge once opened, pantry when sealed.", "tags": {"use": "W"}}, {"id": "a-bag-of-flour", "prompt": "a bag of flour", "answer": ["Pantry"], "feedback": "Pantry: cool, dry, dark, off the floor. Keeps for months.", "tags": {"use": "M"}}, {"id": "a-rotisserie-chicken-bought-today", "prompt": "a rotisserie chicken bought today", "answer": ["Refrigerator"], "feedback": "Refrigerator, use first, within 3 to 4 days. Three hours on the counter is past the two-hour rule.", "tags": {"use": "U"}}], "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "refrigerator", "label": "Refrigerator"}, {"id": "freezer", "label": "Freezer"}, {"id": "pantry", "label": "Pantry"}, {"id": "counter", "label": "Counter"}]}}], "option_sets": [{"label": "bins_round1", "list": [{"id": "refrigerator", "label": "Refrigerator"}, {"id": "freezer", "label": "Freezer"}, {"id": "pantry", "label": "Pantry"}, {"id": "counter", "label": "Counter"}]}]}, {"n": 2, "note": "Round 2: 12 of the 15 questions, drawn fresh each play, 10 seconds each, three choices", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "0", "prompt": "The refrigerator is at or below ___ F", "answer": ["40 F"], "choices": ["40 F", "0 F", "140 F"], "feedback": "Refrigerator at 40 F or below; freezer at 0 F."}, {"id": "1", "prompt": "The freezer is at or below ___ F", "answer": ["0 F"], "choices": ["0 F", "40 F", "32 F"], "feedback": "Freezer at 0 F."}, {"id": "2", "prompt": "Inside the refrigerator, raw meat goes on the ___ shelf", "answer": ["bottom"], "choices": ["bottom", "top", "door"], "feedback": "Raw meat on the bottom shelf because drips cannot land on ready-to-eat food."}, {"id": "3", "prompt": "The door of the refrigerator is the ___ spot", "answer": ["warmest"], "choices": ["warmest", "coldest", "driest"], "feedback": "The door is the warmest spot, so only condiments go there; not milk, not eggs."}, {"id": "4", "prompt": "Best by is about ___", "answer": ["quality, not safety"], "choices": ["quality, not safety", "safety", "the store"], "feedback": "Best by is about quality, not safety. Exception: for raw meat, poultry, fish, and dairy, do not push past the date."}, {"id": "5", "prompt": "Sell by is a note for ___", "answer": ["the store"], "choices": ["the store", "the cook", "the nurse"], "feedback": "Sell by is a note for the store about how long to display it."}, {"id": "6", "prompt": "FIFO stands for ___", "answer": ["first in, first out"], "choices": ["first in, first out", "fresh in, frozen out", "food in, food out"], "feedback": "FIFO: first in, first out. The new can goes behind the old can, so the old one gets used first."}, {"id": "7", "prompt": "When you put a new can on the shelf, it goes ___ the old can", "answer": ["behind"], "choices": ["behind", "in front of", "on top of"], "feedback": "The new can goes behind the old can, so the old one comes out first."}, {"id": "8", "prompt": "The two-hour rule: cooked or perishable food goes into the refrigerator within ___ hours", "answer": ["2 hours (1 hour if the room is over 90 F)"], "choices": ["2 hours (1 hour if the room is over 90 F)", "4 hours", "30 minutes"], "feedback": "Within 2 hours; 1 hour if the room is over 90 F. After that, it goes in the trash."}, {"id": "9", "prompt": "Leftovers: eat within ___ days", "answer": ["3 to 4 days"], "choices": ["3 to 4 days", "7 days", "1 day"], "feedback": "Eat within 3 to 4 days. If you will not, freeze them. Label the container with the date."}, {"id": "10", "prompt": "Milk says sell by Tuesday. It is Wednesday and it smells fine. Safe or not?", "answer": ["Usually still safe"], "choices": ["Usually still safe", "Throw it out", "Boil it first"], "feedback": "Usually still safe; sell by is for the store, and milk keeps about a week past it if refrigerated; smell and look are the check."}, {"id": "11", "prompt": "Leftover pasta sat out from 6 pm to 10 pm. Fridge or trash?", "answer": ["Trash"], "choices": ["Trash", "Fridge", "Freezer"], "feedback": "Trash; four hours is past the two-hour rule."}, {"id": "12", "prompt": "The fridge thermometer reads 45 F. Is that OK?", "answer": ["No, it is above 40 F"], "choices": ["No, it is above 40 F", "Yes, close enough", "Yes, if the door is shut"], "feedback": "The refrigerator must be at or below 40 F. Check, adjust, recheck."}, {"id": "13", "prompt": "You leave the rotisserie chicken on the counter because you are eating it in three hours. OK?", "answer": ["No, three hours in the danger zone is past the two-hour rule"], "choices": ["No, three hours in the danger zone is past the two-hour rule", "Yes, it was cooked already", "Yes, if it is covered"], "feedback": "No; three hours in the danger zone is past the two-hour rule."}, {"id": "14", "prompt": "A family throws away $5.00 of food a week. Times 52, that is ___ a year", "answer": ["$260"], "choices": ["$260", "$520", "$52"], "feedback": "$5.00 times 52 = $260 a year. That is about 6 and a half dinners at $40."}], "options": {"source": "per_item", "style": "choices", "count": 3}, "take": 12}], "option_sets": [{"label": "bins_round1", "list": [{"id": "refrigerator", "label": "Refrigerator"}, {"id": "freezer", "label": "Freezer"}, {"id": "pantry", "label": "Pantry"}, {"id": "counter", "label": "Counter"}]}]}], "study": ["The four zones and the two numbers: 40 F and 0 F", "Raw meat on the bottom shelf; the door is the warmest spot", "Best by is about quality, use by is the limit for perishables, sell by is for the store", "FIFO: the new can goes behind the old can", "The two-hour rule and leftovers within 3 to 4 days, labeled with the date"], "rule_lines": [], "reference": {"zone_rules": "Refrigerator at 40 F or below; freezer at 0 F. Raw meat on the bottom shelf, ready-to-eat food above it, door shelves for condiments only. Pantry: cool, dry, dark, off the floor. Counter: only what does not spoil in a day or two."}, "_unmapped": {}, "lede": "A food card appears. Tap the zone it lives in: Refrigerator, Freezer, Pantry, or Counter. Then a temperature, a date phrase, FIFO, or a leftover scenario appears, and you tap the answer from three."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("WhereDoesItGo");
+  var node = document.getElementById("WhereDoesItGo-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

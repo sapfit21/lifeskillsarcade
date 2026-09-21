@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Room Tour, Life Skills Arcade</title>
+<meta name="description" content="A picture of the FACS room with ten tour stops. A rule appears, and you tap the stop it belongs to. Then a precise word appears, and you tap its family: position, size, count, or shape.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="RoomTour">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-00-02.html">Lesson 0.2</a>. Reviews Lesson 0.2, the room tour and the precise-words slide. Round 1 is the ten tour stops: the rule appears and the student taps the stop in the room picture, which is a generic FACS room, not your room; the map on Handout 00.02 is still the one students label. Round 2 sorts sixteen words from the precise-words slide into position, size, count, and shape. Use it during the do now of Lesson 0.5 for the needs more students who labeled fewer than six stops, and again the week before Lesson 1.4, the Kitchen Safety Exam, which assesses the zones and the reset cue. Hazard Hunt covers hazards; this game covers where things are and the rule at each, so the two do not overlap.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/room-tour-title.webp" alt=""><h1 class="game-title">Room <span class="alt2">Tour</span></h1></div>
+<p class="game-lede">A picture of the FACS room with ten tour stops. A rule appears, and you tap the stop it belongs to. Then a precise word appears, and you tap its family: position, size, count, or shape.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>&quot;[word]&quot; is a [family] word. Position: top, bottom, left, right, middle, corner, above, under, next to, inside, outside. Size: big, small, tall, short, as big as, half the size of. Count: one, two, three. Shape: circle, square, triangle, rectangle, oval, line, curve.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="room-tour-scene"><img class="piece" src="art/room-tour-scene.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The ten stops on the room map and the one rule at each (Handout 00.02, Part A).</li><li>The reset cue in three words: lights, countdown, hands empty.</li><li>The precise-words slide: position, size, count, shape.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="RoomTour-data">{"schema": "1.0", "slug": "room-tour", "title": "Room Tour", "unit": 0, "lessons": ["0.2"], "handouts": ["Handout 00.02 - Draw See Hear Picture Cards and Room Map"], "standards": ["CTE HSW 4. Classroom and Workplace Safety a) List and describe the purpose of safety rules specific to classroom and workplace settings", "NYS IGLR 3. Employability c) Demonstrate effective communication skills", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.", "National FCS 3.0: 13.3.2 Show the spoken and unspoken behaviors and attitudes that make communication work."], "source_file": "u0.json", "mechanic_note": "spot-the-thing: a picture of the FACS room with the ten tour stops drawn in; a rule appears and you tap the stop it belongs to; then a sort, a precise word appears and you tap its family (position, size, count, shape)", "teacher_note": "Reviews Lesson 0.2, the room tour and the precise-words slide. Round 1 is the ten tour stops: the rule appears and the student taps the stop in the room picture, which is a generic FACS room, not your room; the map on Handout 00.02 is still the one students label. Round 2 sorts sixteen words from the precise-words slide into position, size, count, and shape. Use it during the do now of Lesson 0.5 for the needs more students who labeled fewer than six stops, and again the week before Lesson 1.4, the Kitchen Safety Exam, which assesses the zones and the reset cue. Hazard Hunt covers hazards; this game covers where things are and the rule at each, so the two do not overlap.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss lights up the right stop and names it with its rule; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "room-tour-title.png", "line": "A red fire extinguisher with a black hose and a light gray nozzle, standing upright."}, "scene": [{"file": "room-tour-scene.png", "line": "A FACS classroom seen from above at a slight angle, 1536 by 1024, cream walls and light gray floor, with these ten things drawn in at named positions: a small white hand sink alone on the left wall; a kitchen station on the left with a light gray counter, a white stove, a sky blue sink, and a blank white card on the counter; a white first aid box with a red cross on the back wall; a red fire extinguisher on the back wall near the corner; two doors, one on the back wall and one on the right wall, each with a green sign above it; a tall cream supply closet with double doors on the right wall; two sewing tables with white sewing machines in the front right; a white binder with a yellow spine on a shelf by the sink; a black trash bin next to a sky blue recycling bin near the back door; a wooden teacher desk in the front left with a light gray tray on it. No text, no people.", "width": null, "height": null}], "cards": [], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 10 stops, 8 seconds each", "seconds_per_item": 8, "engines": ["scene"], "steps": [{"kind": "scene", "scene": {"file": "room-tour-scene.png", "width": 1536, "height": 1024, "alt": "A FACS classroom seen from above, with the ten tour stops drawn in."}, "mode": "tap_the_named", "targets": [{"id": "hand-sink", "prompt": "Hands only, never food or dishes.", "answer": ["hand sink"], "feedback": "Stop 1, the hand sink: hands only, never food or dishes.", "boxes": [[4, 310, 108, 158]]}, {"id": "kitchen-station-a", "prompt": "One team, one card each.", "answer": ["kitchen station A"], "feedback": "Stop 2, kitchen station A: one team, one card each. The card tells you what to do at every minute.", "boxes": [[115, 205, 355, 430]]}, {"id": "first-aid-kit", "prompt": "Tell an adult first.", "answer": ["first aid kit"], "feedback": "Stop 3, the first aid kit: tell an adult first.", "boxes": [[480, 64, 116, 148]]}, {"id": "fire-extinguisher", "prompt": "I use it, you leave.", "answer": ["fire extinguisher"], "feedback": "Stop 4, the fire extinguisher: I use it, you leave.", "boxes": [[978, 88, 78, 132]]}, {"id": "exit", "prompt": "Two ways out, and where we meet.", "answer": ["exit"], "feedback": "Stop 5, the exits: the two ways out and where we meet.", "boxes": [[618, 5, 172, 305], [1388, 45, 108, 485]]}, {"id": "supply-closet", "prompt": "Ask before you open.", "answer": ["supply closet"], "feedback": "Stop 6, the supply closet: ask before you open.", "boxes": [[1105, 22, 248, 348]]}, {"id": "sewing-stations", "prompt": "Needles counted out and in.", "answer": ["sewing stations"], "feedback": "Stop 7, the sewing stations: needles counted out and in.", "boxes": [[1130, 415, 265, 600]]}, {"id": "sds-binder", "prompt": "What is in every bottle and what to do if it spills.", "answer": ["SDS binder"], "feedback": "Stop 8, the Safety Data Sheet (SDS) binder: what is in every bottle and what to do if it spills.", "boxes": [[88, 76, 80, 126]]}, {"id": "trash-and-recycling", "prompt": "Sorted, and the bin is not a basketball hoop.", "answer": ["trash and recycling"], "feedback": "Stop 9, trash and recycling: sorted, and the bin is not a basketball hoop.", "boxes": [[800, 205, 172, 132]]}, {"id": "teacher-desk-and-turn-in-tray", "prompt": "Everything goes here, not on the desk.", "answer": ["teacher desk and turn-in tray"], "feedback": "Stop 10, the teacher desk and the turn-in tray: everything goes here, not on the desk.", "boxes": [[12, 640, 460, 325]]}], "decoys": [], "named_positions": ["hand sink", "kitchen station A", "first aid kit", "fire extinguisher", "exit", "supply closet", "sewing stations", "SDS binder", "trash and recycling", "teacher desk and turn-in tray"], "title": "Tap the stop this rule belongs to"}]}, {"n": 2, "note": "Round 2: 16 precise words, 5 seconds each", "seconds_per_item": 5, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "corner", "prompt": "corner", "answer": ["position"]}, {"id": "under", "prompt": "under", "answer": ["position"]}, {"id": "next-to", "prompt": "next to", "answer": ["position"]}, {"id": "inside", "prompt": "inside", "answer": ["position"]}, {"id": "outside", "prompt": "outside", "answer": ["position"]}, {"id": "above", "prompt": "above", "answer": ["position"]}, {"id": "middle", "prompt": "middle", "answer": ["position"]}, {"id": "as-big-as", "prompt": "as big as", "answer": ["size"]}, {"id": "half-the-size-of", "prompt": "half the size of", "answer": ["size"]}, {"id": "tall", "prompt": "tall", "answer": ["size"]}, {"id": "short", "prompt": "short", "answer": ["size"]}, {"id": "three", "prompt": "three", "answer": ["count"]}, {"id": "one", "prompt": "one", "answer": ["count"]}, {"id": "triangle", "prompt": "triangle", "answer": ["shape"]}, {"id": "oval", "prompt": "oval", "answer": ["shape"]}, {"id": "curve", "prompt": "curve", "answer": ["shape"]}], "options": {"source": "fixed", "style": "bins", "count": 4, "list": [{"id": "position", "label": "position"}, {"id": "size", "label": "size"}, {"id": "count", "label": "count"}, {"id": "shape", "label": "shape"}]}}], "option_sets": [{"label": "round2_bins", "list": [{"id": "position", "label": "position"}, {"id": "size", "label": "size"}, {"id": "count", "label": "count"}, {"id": "shape", "label": "shape"}]}]}], "study": ["The ten stops on the room map and the one rule at each (Handout 00.02, Part A).", "The reset cue in three words: lights, countdown, hands empty.", "The precise-words slide: position, size, count, shape."], "rule_lines": ["\"[word]\" is a [family] word. Position: top, bottom, left, right, middle, corner, above, under, next to, inside, outside. Size: big, small, tall, short, as big as, half the size of. Count: one, two, three. Shape: circle, square, triangle, rectangle, oval, line, curve."], "reference": {}, "_unmapped": {}, "repaired": true, "lede": "A picture of the FACS room with ten tour stops. A rule appears, and you tap the stop it belongs to. Then a precise word appears, and you tap its family: position, size, count, or shape."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("RoomTour");
+  var node = document.getElementById("RoomTour-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

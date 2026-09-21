@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Round Up, Life Skills Arcade</title>
+<meta name="description" content="A scaling line appears with the numbers already multiplied. Tap how many packages to buy. Then two prices appear, and you tap which is cheaper per ounce or what the swap saves. A calculator is on screen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="RoundUp">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-06-13.html">Lesson 6.13</a>, <a href="../lesson-06-15.html">Lesson 6.15</a>. Reviews Lesson 6.13 (the three-step rule, the conversion strip, and the yield check on Day 1; unit price and the three legal swaps on Day 2) and the unit price do now of Lesson 6.15. Every number is from the teacher key of Handout 06.13 and the circular excerpt, so the answers match the sheets students filled in, and every price should be refreshed if the circular changes. Play it as the Day 2 do now of Lesson 6.13 or before the Unit 6 test, which has two calculator items on scaling and unit price. The scaling round hands students the multiplied amount and asks only for the rounding, which is where the mistakes live; the trap item on ounces by weight is in both rounds' feedback. A grade 6 class plays round 1 with the choices and a calculator; the grade 8 stretch is to play without one. This is not Label Detective, which is the Nutrition Facts label; this is the store shelf. Calculators are allowed here, the same as in Lessons 6.13 and 6.15. The game does not need one: every card asks how many packages, and the choices are close enough to count up to.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/round-up-title.webp" alt=""><h1 class="game-title">Round <span class="alt2">Up</span></h1></div>
+<p class="game-lede">A scaling line appears with the numbers already multiplied. Tap how many packages to buy. Then two prices appear, and you tap which is cheaper per ounce or what the swap saves. A calculator is on screen.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Divide the number of portions you need by the number the recipe makes. That is your scale factor.</li><li>Multiply every ingredient by the scale factor.</li><li>Round up to the number of packages the store actually sells. Always up, never down.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The store does not sell three quarters of a box.</li><li>What does the whole package cost? That is what you pay. What does one ounce cost? That is how you choose.</li><li>The single most common error in two days is mixing ounces by weight with fluid ounces.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="RoundUp-data">{"schema": "1.0", "slug": "round-up", "title": "Round Up", "unit": 6, "lessons": ["6.13", "6.15"], "handouts": ["Handout 06.13 - Scaling Worksheet and Costing Sheet", "Handout 06.15 - Consolidated Shopping List and Approval Checklist"], "standards": ["NYS FSP 1. Basic Culinary Skills d) Demonstrate accurate measuring of dry/solid, liquid, and small quantity ingredients", "NYS FSP 5. Consumer Resources and Finance c) Apply consumer skills to selecting and purchasing of food items", "NYS FSP 5. Consumer Resources and Finance a) Demonstrate management of individual and family resources to select and purchase food", "CTE FCL 4. Buying Goods and Services f) Apply a decision-making model to maximize consumer satisfaction when purchasing goods and services", "CTE FCL 4. Buying Goods and Services g) Compare local, national, and global resources for obtaining goods and services", "CDOS Standard 3a Universal Foundation Skills: Basic Skills. Students listen to and read the ideas of others and analyze what they hear and read; acquire and use information from a variety of sources; and apply a combination of mathematical operations to solve problems in oral or written form.", "National FCS 3.0: 8.5.3 Show portion control and correct scaling and measuring.", "National FCS 3.0: 8.4.7 Use measurement, portion control, conversions, food costing, menu terms, and pricing when planning a menu."], "source_file": "u6.json", "mechanic_note": "fast read: a scaling line from the worksheet appears with the numbers already multiplied, tap how many packages to buy from four choices against a short clock; then a fast read of two prices, tap which is cheaper per ounce or what the swap saves. A calculator button is allowed on screen, as in the lesson", "teacher_note": "Reviews Lesson 6.13 (the three-step rule, the conversion strip, and the yield check on Day 1; unit price and the three legal swaps on Day 2) and the unit price do now of Lesson 6.15. Every number is from the teacher key of Handout 06.13 and the circular excerpt, so the answers match the sheets students filled in, and every price should be refreshed if the circular changes. Play it as the Day 2 do now of Lesson 6.13 or before the Unit 6 test, which has two calculator items on scaling and unit price. The scaling round hands students the multiplied amount and asks only for the rounding, which is where the mistakes live; the trap item on ounces by weight is in both rounds' feedback. A grade 6 class plays round 1 with the choices and a calculator; the grade 8 stretch is to play without one. This is not Label Detective, which is the Nutrition Facts label; this is the store shelf. Calculators are allowed here, the same as in Lessons 6.13 and 6.15. The game does not need one: every card asks how many packages, and the choices are close enough to count up to.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the worked line from the teacher key; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "round-up-title.png", "line": "A stack of four sky blue boxes of dry spaghetti with yellow strands showing through the windows, no text, black outline."}, "scene": [], "cards": [], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 17 scaling and rounding lines, 15 seconds each", "seconds_per_item": 15, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "scale-factor", "prompt": "A recipe makes 4 servings. We need 28 portions. What is the scale factor?", "answer": ["7"], "choices": ["4", "7", "24", "32"], "feedback": "28 \u00f7 4 = 7. The scale factor is 7. The question is \"how many times bigger,\" so the target goes on top."}, {"id": "spaghetti", "prompt": "8 oz dry spaghetti \u00d7 7 = 56 oz. The store sells 1 lb boxes. How many boxes?", "answer": ["4"], "choices": ["3", "3.5", "4", "7"], "feedback": "56 oz \u00f7 16 oz per pound = 3.5 lb. The store sells 1 lb boxes. 3.5 rounds up to 4 boxes."}, {"id": "marinara", "prompt": "1 1/2 cups marinara \u00d7 7 = 10 1/2 cups = 84 fl oz. The store sells 24 oz jars. How many jars?", "answer": ["4"], "choices": ["3", "4", "5", "10"], "feedback": "84 \u00f7 24 = 3.5, so 4 jars. Always round up, never down."}, {"id": "tortillas", "prompt": "4 flour tortillas \u00d7 7 = 28. The store sells 20 count packs. How many packs?", "answer": ["2"], "choices": ["1", "2", "3", "28"], "feedback": "28 \u00f7 20 = 1.4, so 2 packs."}, {"id": "mozzarella", "prompt": "3/4 cup shredded mozzarella \u00d7 7 = 5 1/4 cups. An 8 oz bag is about 2 cups. How many bags?", "answer": ["3"], "choices": ["2", "3", "5", "6"], "feedback": "5.25 \u00f7 2 = 2.625, so 3 bags."}, {"id": "pizza-sauce", "prompt": "1/2 cup pizza sauce \u00d7 7 = 3 1/2 cups = 28 fl oz. The store sells 14 oz jars. How many jars?", "answer": ["2"], "choices": ["1", "2", "3", "4"], "feedback": "28 \u00f7 14 = 2.0, so 2 jars, which is exactly enough with no margin. An exact answer is legal but has no room for a spill."}, {"id": "pepperoni", "prompt": "20 pepperoni slices \u00d7 7 = 140. An 8 oz pack holds about 150. How many packs?", "answer": ["1"], "choices": ["1", "2", "7", "20"], "feedback": "140 \u00f7 150 = 0.93, so 1 pack, which is tight."}, {"id": "refried", "prompt": "3/4 cup refried beans \u00d7 7 = 5 1/4 cups. A 16 oz can holds about 1 3/4 cups. How many cans?", "answer": ["3"], "choices": ["2", "3", "4", "5"], "feedback": "5.25 \u00f7 1.75 = 3.0, so 3 cans exactly."}, {"id": "bread", "prompt": "4 pieces of garlic bread \u00d7 7 = 28. A 14 oz loaf makes about 12 pieces. How many loaves?", "answer": ["3"], "choices": ["2", "3", "4", "12"], "feedback": "28 \u00f7 12 = 2.33, so 3 loaves."}, {"id": "butter", "prompt": "2 tbsp butter \u00d7 7 = 14 tbsp. 1 stick = 8 tbsp. How many sticks?", "answer": ["2"], "choices": ["1", "2", "4", "14"], "feedback": "14 tbsp = 1 3/4 sticks, so 2 sticks, which is 1 package of 4."}, {"id": "cookies", "prompt": "8 cookies \u00d7 7 = 56. A 14.3 oz pack holds about 36. How many packs?", "answer": ["2"], "choices": ["1", "2", "3", "7"], "feedback": "56 \u00f7 36 = 1.56, so 2 packs."}, {"id": "topping", "prompt": "3/4 cup whipped topping \u00d7 7 = 5 1/4 cups. One can gives about 2 cups. How many cans?", "answer": ["3"], "choices": ["2", "3", "5", "6"], "feedback": "5.25 \u00f7 2 = 2.625, so 3 cans."}, {"id": "carrots", "prompt": "1/4 lb baby carrots \u00d7 7 = 1 3/4 lb. The store sells 1 lb bags. How many bags?", "answer": ["2"], "choices": ["1", "2", "3", "7"], "feedback": "1 3/4 lb rounds up to 2 bags."}, {"id": "broth", "prompt": "A recipe wants 3 cups of broth. The store sells a 32 fluid ounce box. Is one box enough?", "answer": ["Yes, 24 fl oz needed, 1 cup left over"], "choices": ["Yes, 24 fl oz needed, 1 cup left over", "No, you need two boxes", "No, 3 cups is 48 fl oz"], "feedback": "3 cups \u00d7 8 = 24 fl oz. The box holds 32 fl oz. Yes, enough, with 1 cup left over."}, {"id": "cheese-cups", "prompt": "A recipe wants 2 1/2 cups of shredded cheese. The store sells 8 ounce bags. How many bags?", "answer": ["2"], "choices": ["1", "2", "3", "5"], "feedback": "2 1/2 cups \u00d7 4 oz per cup = 10 oz. 10 \u00f7 8 = 1.25 bags. Round up: 2 bags."}, {"id": "trap", "prompt": "8 ounces on a bag of shredded cheese is", "answer": ["a weight"], "choices": ["a weight", "a volume"], "feedback": "Eight ounces of shredded cheese is about 2 cups, not one cup, because shredded cheese is light and fluffy, so a cup of it weighs only about 4 ounces."}, {"id": "why-up", "prompt": "Why always round up, never down?", "answer": ["Running out at minute 30 is the one mistake you cannot fix"], "choices": ["Running out at minute 30 is the one mistake you cannot fix", "Bigger numbers look better on the sheet", "The store gives a discount for extra"], "feedback": "Buying one extra box costs $1.29. Not feeding six people costs the whole project. A plan that feeds 26 is not a cheaper plan, it is a failed plan."}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}, {"n": 2, "note": "Round 2: 13 unit price and swap items, 15 seconds each", "seconds_per_item": 15, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "u-mozz-same", "prompt": "Store-brand shredded mozzarella, 8 oz, $1.99. Name brand, 8 oz, $2.99. Which is cheaper per ounce?", "answer": ["The store brand"], "choices": ["The store brand", "The name brand", "They are the same"], "feedback": "$1.99 \u00f7 8 = about $0.25 per ounce. $2.99 \u00f7 8 = about $0.37 per ounce. The store brand is cheaper by 12.5 cents an ounce."}, {"id": "u-mozz-size", "prompt": "Shredded mozzarella, 8 oz store brand for $1.99, or 12 oz name brand for $3.49. Which is cheaper per ounce?", "answer": ["The 8 oz store brand"], "choices": ["The 8 oz store brand", "The 12 oz name brand", "They are the same"], "feedback": "Store brand: $1.99 \u00f7 8 = about $0.249 per ounce. Name brand: $3.49 \u00f7 12 = about $0.291 per ounce. The store brand."}, {"id": "u-jar", "prompt": "Two jars of the same sauce. One is 24 ounces for $2.79. One is 45 ounces for $4.99. Which is the better deal per ounce?", "answer": ["The 45 ounce jar"], "choices": ["The 24 ounce jar", "The 45 ounce jar", "They are the same"], "feedback": "24 oz for $2.79 = $0.116 per ounce; 45 oz for $4.99 = $0.111 per ounce. The bigger jar is cheaper per ounce by half a cent."}, {"id": "u-jar-buy", "prompt": "The bigger jar is cheaper per ounce. Should we buy it?", "answer": ["Only if we will use it"], "choices": ["Only if we will use it", "Yes, always buy the cheaper per ounce", "No, big jars are never worth it"], "feedback": "Two 24 oz jars give 48 oz and one 45 oz jar gives 45 oz, which is 3 oz short of the plan. A student who says \"buy the big one, it is cheaper per ounce\" has answered half the question."}, {"id": "u-butter", "prompt": "Salted butter, 1 lb. Store brand $3.99. Name brand $5.99. Which goes on the list?", "answer": ["The store brand, and it saves $2.00"], "choices": ["The store brand, and it saves $2.00", "The name brand, it is better butter", "Either, the price is the same per ounce"], "feedback": "Butter store brand $0.249 per ounce versus name brand $0.374 per ounce. Saves $2.00."}, {"id": "u-cookies", "prompt": "Chocolate sandwich cookies. Store brand 14.3 oz for $2.99. Name brand 19.1 oz for $6.59. Which is cheaper per ounce?", "answer": ["The store brand"], "choices": ["The store brand", "The name brand, it is bigger", "They are the same"], "feedback": "Cookies 14.3 oz store brand $0.209 per ounce versus 19.1 oz name brand $0.345 per ounce. Saves $3.60 per pack, $7.20 on 2."}, {"id": "u-spaghetti", "prompt": "Spaghetti, 1 lb. Name brand $2.19, store brand $1.29. What does the swap save on 4 boxes?", "answer": ["$3.60"], "choices": ["$0.90", "$3.60", "$5.16", "$8.76"], "feedback": "$0.90 per box, $3.60 on 4 boxes."}, {"id": "u-topping", "prompt": "Whipped topping, aerosol. Name brand $4.49, store brand $2.99. What does the swap save on 3 cans?", "answer": ["$4.50"], "choices": ["$1.50", "$3.00", "$4.50", "$8.97"], "feedback": "$1.50 per can, $4.50 on 3 cans."}, {"id": "u-min", "prompt": "A swap only goes on the list if it saves at least how much?", "answer": ["$0.25"], "choices": ["$0.25", "$1.00", "$2.50"], "feedback": "A swap only goes on the list if it saves at least twenty-five cents and does not break the allergy list or the station card."}, {"id": "u-legal", "prompt": "Which of these is NOT one of the three legal swaps?", "answer": ["Round down to save money"], "choices": ["Store brand for name brand", "A bigger package when the price per ounce drops and you will use it", "Cut a line that is not on the plate", "Round down to save money"], "feedback": "The three legal swaps: store brand for name brand; a bigger package when the price per ounce drops and you will use it; cut a line that is not on the plate. Rounding down is the second most common error: a plan that feeds 26 is not a cheaper plan, it is a failed plan."}, {"id": "u-per-person-a", "prompt": "Option A costs $18.31 for 28 portions. What is that per person?", "answer": ["$0.65"], "choices": ["$0.65", "$2.62", "$4.58", "$18.31"], "feedback": "$18.31 \u00f7 28 = about $0.65. A student who divides by 7 (the station size) instead of 28 has made the most common error in this lesson."}, {"id": "u-per-person-class", "prompt": "The class total is $77.50 for 28 people. What is the cost per person?", "answer": ["$2.77"], "choices": ["$0.65", "$2.77", "$19.38", "$77.50"], "feedback": "$77.50 \u00f7 28 = about $2.77 per person. Could a family eat for that?"}, {"id": "u-whole", "prompt": "The Unit 1 rule, still true: you pay for", "answer": ["the whole package, not the spoonful you use"], "choices": ["the whole package, not the spoonful you use", "only the amount the recipe uses", "the price per ounce times the recipe amount"], "feedback": "What does the whole package cost? That is what you pay. What does one ounce cost? That is how you choose."}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}], "study": ["The store does not sell three quarters of a box.", "What does the whole package cost? That is what you pay. What does one ounce cost? That is how you choose.", "The single most common error in two days is mixing ounces by weight with fluid ounces."], "rule_lines": ["Divide the number of portions you need by the number the recipe makes. That is your scale factor.", "Multiply every ingredient by the scale factor.", "Round up to the number of packages the store actually sells. Always up, never down."], "reference": {}, "_unmapped": {}, "repaired": true, "lede": "A scaling line appears with the numbers already multiplied. Tap how many packages to buy. Then two prices appear, and you tap which is cheaper per ounce or what the swap saves. A calculator is on screen."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("RoundUp");
+  var node = document.getElementById("RoundUp-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pattern Patrol, Life Skills Arcade</title>
+<meta name="description" content="A swatch picture appears. Tap its bin: stripe, plaid, floral, geometric, or solid. Then a combination or a surface appears, and you tap works or fights, or actual or visual.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="PatternPatrol">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-04-09.html">Lesson 4.9</a>. Reviews Lesson 4.9: the five pattern words, visual versus actual texture, pattern scale, and the six works-or-fights combinations from the Mood Board Planner. Use it as the two-minute review at the start of Lesson 4.10 Day 2 before the Design Vocabulary Check, which carries texture, pattern, and the layering rule. About three minutes. The end panel prints the three-part layering rule.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/pattern-patrol-title.webp" alt=""><h1 class="game-title">Pattern <span class="alt2">Patrol</span></h1></div>
+<p class="game-lede">A swatch picture appears. Tap its bin: stripe, plaid, floral, geometric, or solid. Then a combination or a surface appears, and you tap works or fights, or actual or visual.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="pattern-patrol-pinstripe"><img class="piece" src="art/pattern-patrol-pinstripe.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-wide-stripe"><img class="piece" src="art/pattern-patrol-wide-stripe.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-picnic-plaid"><img class="piece" src="art/pattern-patrol-picnic-plaid.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-green-plaid"><img class="piece" src="art/pattern-patrol-green-plaid.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-big-floral"><img class="piece" src="art/pattern-patrol-big-floral.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-small-floral"><img class="piece" src="art/pattern-patrol-small-floral.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-leaf-print"><img class="piece" src="art/pattern-patrol-leaf-print.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-triangles"><img class="piece" src="art/pattern-patrol-triangles.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-diamonds"><img class="piece" src="art/pattern-patrol-diamonds.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-circles"><img class="piece" src="art/pattern-patrol-circles.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-solid-gray"><img class="piece" src="art/pattern-patrol-solid-gray.webp" alt="" loading="lazy"></span>
+<span data-key="pattern-patrol-solid-cream"><img class="piece" src="art/pattern-patrol-solid-cream.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The layering rule, three parts: (1) vary the scale, so no two patterns are the same size; (2) repeat one color through every piece; (3) let one pattern lead and keep the others quiet.</li><li>Texture is how a surface feels, or how it looks like it would feel. Actual texture is what your hand finds. Visual texture is what your eye is told by a flat surface.</li><li>A room with three colors and no texture feels flat, plain, cold, or unfinished.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="PatternPatrol-data">{"schema": "1.0", "slug": "pattern-patrol", "title": "Pattern Patrol", "unit": 4, "lessons": ["4.9"], "handouts": ["Handout 04.09 - Mood Board Planner"], "standards": ["NYS EDM 2. Environment and Interior Design c) Incorporate the elements and principles of design into a design plan", "CTE PSI 2. Design Process (Proactive) b) Demonstrate personal development of design skills through practice of these skills in a variety of classroom applications", "National FCS 3.0: 11.2.1 Judge how the elements and principles of design are used in homes and in commercial and residential interiors.", "National FCS 3.0: 11.2.3 Examine how design elements and principles shape how a space looks and how it works.", "National FCS 3.0: 11.3.1 Examine product information for floor and wall coverings, textiles, window treatments, furniture, lighting, and kitchen and bath fixtures and equipment."], "source_file": "u4.json", "mechanic_note": "sort then fast read: Round 1, a swatch picture appears, tap it into one of five bins (stripe, plaid, floral, geometric, solid); Round 2, a combination or a surface appears, tap works or fights, or actual or visual, against a short clock", "teacher_note": "Reviews Lesson 4.9: the five pattern words, visual versus actual texture, pattern scale, and the six works-or-fights combinations from the Mood Board Planner. Use it as the two-minute review at the start of Lesson 4.10 Day 2 before the Design Vocabulary Check, which carries texture, pattern, and the layering rule. About three minutes. The end panel prints the three-part layering rule.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right answer in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "pattern-patrol-title.png", "line": "A square fabric swatch of red and sky blue picnic blanket plaid on white, one corner curled up, black outline."}, "scene": [], "cards": [{"file": "pattern-patrol-pinstripe.png", "line": "A square fabric swatch with very thin sky blue pinstripes on white, black outline."}, {"file": "pattern-patrol-wide-stripe.png", "line": "A square fabric swatch with wide red stripes on cream, black outline."}, {"file": "pattern-patrol-picnic-plaid.png", "line": "A square fabric swatch of red and white picnic blanket plaid, black outline."}, {"file": "pattern-patrol-green-plaid.png", "line": "A square fabric swatch of green and light gray plaid, black outline."}, {"file": "pattern-patrol-big-floral.png", "line": "A square fabric swatch with a few large red flowers and green leaves on cream, black outline."}, {"file": "pattern-patrol-small-floral.png", "line": "A square fabric swatch with many tiny yellow flowers on white, black outline."}, {"file": "pattern-patrol-leaf-print.png", "line": "A square fabric swatch with repeating green leaves on white, black outline."}, {"file": "pattern-patrol-triangles.png", "line": "A square fabric swatch with rows of repeating black-outlined triangles on yellow, black outline."}, {"file": "pattern-patrol-diamonds.png", "line": "A square rug swatch with repeating black and white diamonds, black outline."}, {"file": "pattern-patrol-circles.png", "line": "A square fabric swatch with repeating sky blue circles on white, black outline."}, {"file": "pattern-patrol-solid-gray.png", "line": "A square rug swatch in plain light gray with no pattern, black outline."}, {"file": "pattern-patrol-solid-cream.png", "line": "A square quilt swatch in plain cream with no pattern, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 12 swatches into 5 bins, 6 seconds each", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_1_items", "items": [{"id": "pinstripe", "prompt": "a pinstripe", "picture": "pattern-patrol-pinstripe.png", "answer": ["stripe"], "feedback": "stripe: lines that repeat, thin or wide. A pinstripe and a four-inch stripe are the same pattern at two different scales."}, {"id": "wide-stripe", "prompt": "a four-inch stripe", "picture": "pattern-patrol-wide-stripe.png", "answer": ["stripe"], "feedback": "stripe: lines that repeat, thin or wide"}, {"id": "picnic-plaid", "prompt": "a picnic blanket plaid", "picture": "pattern-patrol-picnic-plaid.png", "answer": ["plaid"], "feedback": "plaid: stripes crossing stripes, like a picnic blanket"}, {"id": "green-plaid", "prompt": "a green and gray plaid", "picture": "pattern-patrol-green-plaid.png", "answer": ["plaid"], "feedback": "plaid: stripes crossing stripes, like a picnic blanket"}, {"id": "big-floral", "prompt": "a large floral", "picture": "pattern-patrol-big-floral.png", "answer": ["floral"], "feedback": "floral: flowers or leaves that repeat"}, {"id": "small-floral", "prompt": "a small floral", "picture": "pattern-patrol-small-floral.png", "answer": ["floral"], "feedback": "floral: flowers or leaves that repeat"}, {"id": "leaf-print", "prompt": "a leaf print", "picture": "pattern-patrol-leaf-print.png", "answer": ["floral"], "feedback": "floral: flowers or leaves that repeat"}, {"id": "triangles", "prompt": "repeating triangles", "picture": "pattern-patrol-triangles.png", "answer": ["geometric"], "feedback": "geometric: shapes that repeat: triangles, circles, diamonds"}, {"id": "diamonds", "prompt": "black and white diamonds", "picture": "pattern-patrol-diamonds.png", "answer": ["geometric"], "feedback": "geometric: shapes that repeat: triangles, circles, diamonds"}, {"id": "circles", "prompt": "repeating circles", "picture": "pattern-patrol-circles.png", "answer": ["geometric"], "feedback": "geometric: shapes that repeat: triangles, circles, diamonds"}, {"id": "solid-gray", "prompt": "a solid gray rug", "picture": "pattern-patrol-solid-gray.png", "answer": ["solid"], "feedback": "solid: no pattern at all, one color, the piece that lets your eye rest"}, {"id": "solid-cream", "prompt": "a solid cream quilt", "picture": "pattern-patrol-solid-cream.png", "answer": ["solid"], "feedback": "solid: no pattern at all, one color, the piece that lets your eye rest"}], "options": {"source": "fixed", "style": "bins", "count": 5, "list": [{"id": "stripe", "label": "stripe"}, {"id": "plaid", "label": "plaid"}, {"id": "floral", "label": "floral"}, {"id": "geometric", "label": "geometric"}, {"id": "solid", "label": "solid"}]}}], "option_sets": [{"label": "round_1_bins", "list": [{"id": "stripe", "label": "stripe"}, {"id": "plaid", "label": "plaid"}, {"id": "floral", "label": "floral"}, {"id": "geometric", "label": "geometric"}, {"id": "solid", "label": "solid"}]}]}, {"n": 2, "note": "Round 2: 6 combinations and 6 surfaces plus 2 vocabulary reads, 10 seconds each", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round_2_items", "items": [{"id": "combination-1", "prompt": "A big plaid curtain, a small striped pillow, and a solid gray rug, all in the same blue and gray", "answer": ["Works"], "choices": ["Works", "Fights"], "feedback": "Works: the plaid is big and the stripe is small (scale varies), blue and gray repeat in every piece, the plaid leads and the stripe and the solid stay quiet"}, {"id": "combination-2", "prompt": "A large floral bedspread, a large floral curtain, and a large floral rug, in three different colors", "answer": ["Fights"], "choices": ["Works", "Fights"], "feedback": "Fights: three florals at the same size, all trying to lead, with no shared color. The fix is two solids and one floral, or the same floral in three scales and one color family"}, {"id": "combination-3", "prompt": "A smooth leather chair, a rough jute rug, and a soft knit blanket, all in cream", "answer": ["Works"], "choices": ["Works", "Fights"], "feedback": "Works: there is no pattern at all, which is allowed. Three textures at one color is a real designer's move"}, {"id": "combination-4", "prompt": "A shiny satin pillow on a shiny glass table under a shiny metal lamp", "answer": ["Fights"], "choices": ["Works", "Fights"], "feedback": "Fights: shine is a texture. Every surface shiny means no contrast, so nothing reads as special and the room looks hard"}, {"id": "combination-5", "prompt": "A thin-striped green wallpaper, a wide-striped green rug, and a solid white quilt", "answer": ["Works"], "choices": ["Works", "Fights"], "feedback": "Works, but it is close: the two stripes are the same pattern at two scales, green repeats, and the solid quilt is the rest"}, {"id": "combination-6", "prompt": "A black and white geometric rug, a red floral curtain, and an orange plaid chair", "answer": ["Fights"], "choices": ["Works", "Fights"], "feedback": "Fights: three patterns, three scales fighting, three unrelated colors, nothing quiet. All three parts missing"}, {"id": "wood-printed-on-tile", "prompt": "A photograph of wood printed on a floor tile", "answer": ["visual texture"], "choices": ["actual texture", "visual texture"], "feedback": "Visual texture: what your eye is told by a flat surface"}, {"id": "wallpaper-like-stone", "prompt": "A wallpaper printed to look like stone", "answer": ["visual texture"], "choices": ["actual texture", "visual texture"], "feedback": "Visual texture: what your eye is told by a flat surface"}, {"id": "magazine-page-of-carpet", "prompt": "A shiny magazine page of a carpet", "answer": ["visual texture"], "choices": ["actual texture", "visual texture"], "feedback": "Visual texture: what your eye is told by a flat surface"}, {"id": "knit-blanket", "prompt": "A knit blanket", "answer": ["actual texture"], "choices": ["actual texture", "visual texture"], "feedback": "Actual texture: what your hand finds"}, {"id": "brick-wall", "prompt": "A brick wall", "answer": ["actual texture"], "choices": ["actual texture", "visual texture"], "feedback": "Actual texture: what your hand finds"}, {"id": "rough-rug", "prompt": "A rough rug", "answer": ["actual texture"], "choices": ["actual texture", "visual texture"], "feedback": "Actual texture: what your hand finds"}, {"id": "pattern-scale", "prompt": "Pattern scale is", "answer": ["how big the repeat is, not what color it is"], "choices": ["how big the repeat is, not what color it is", "how many colors are in the pattern", "how shiny the fabric is", "how many patterns are in the room"], "feedback": "Pattern scale is how big the repeat is, not what color it is"}, {"id": "eye-rest", "prompt": "Which of the five pattern words is the one that gives your eye a rest?", "answer": ["solid"], "choices": ["solid", "stripe", "plaid", "floral"], "feedback": "solid: no pattern at all, one color, the piece that lets your eye rest"}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}], "study": ["The layering rule, three parts: (1) vary the scale, so no two patterns are the same size; (2) repeat one color through every piece; (3) let one pattern lead and keep the others quiet.", "Texture is how a surface feels, or how it looks like it would feel. Actual texture is what your hand finds. Visual texture is what your eye is told by a flat surface.", "A room with three colors and no texture feels flat, plain, cold, or unfinished."], "rule_lines": [], "reference": {"round_1_bin_definitions": {"stripe": "lines that repeat, thin or wide", "plaid": "stripes crossing stripes, like a picnic blanket", "floral": "flowers or leaves that repeat", "geometric": "shapes that repeat: triangles, circles, diamonds", "solid": "no pattern at all, one color, the piece that lets your eye rest"}}, "_unmapped": {}, "lede": "A swatch picture appears. Tap its bin: stripe, plaid, floral, geometric, or solid. Then a combination or a surface appears, and you tap works or fights, or actual or visual."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("PatternPatrol");
+  var node = document.getElementById("PatternPatrol-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

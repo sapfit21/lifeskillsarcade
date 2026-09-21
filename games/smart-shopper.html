@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Shopper, Life Skills Arcade</title>
+<meta name="description" content="A price and a quantity, or two options, appear. Tap the unit price or the better buy from three choices. Then a grocery item appears, and you tap the store section it lives in from six.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="SmartShopper">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-01-16.html">Lesson 1.16</a>, <a href="../lesson-01-15.html">Lesson 1.15</a>. Reviews Lesson 1.16 (unit price, the better buy, the bulk trap, and the sales tax rule) in round 1 and the store sections from Lesson 1.15 in round 2. Use it as the do now of Lesson 1.17, or the day before the project pricing in Lesson 1.18 so every Shopper has done the division once more. The prices are the September 2026 practice-sheet prices, not this week's circular; the game is about the math, and the teacher note on the end panel says to check the real shelf tag. Round 1 allows a calculator on the phone's other screen only if the teacher says so; Grade 6 setting: drop the pound-to-ounce questions (the chicken and the rice) and the tax questions from round 1. Grade 8 stretch (comparing two circulars, tax to the penny) stays on the handout. Round 1 allows a calculator on the phone's other screen only if the teacher says so; the choices are close on purpose.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/smart-shopper-title.webp" alt=""><h1 class="game-title">Smart <span class="alt2">Shopper</span></h1></div>
+<p class="game-lede">A price and a quantity, or two options, appear. Tap the unit price or the better buy from three choices. Then a grocery item appears, and you tap the store section it lives in from six.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Unit price = price divided by quantity. Write the dollar sign on every unit price answer. 1 pound (lb) = 16 ounces (oz).</li><li>Produce (fresh fruits and vegetables); Dairy (milk, cheese, yogurt, eggs, butter); Meat and deli (including pre-cooked chicken); Frozen; Dry goods (pasta, rice, cans, jars, spices, bread); Household (foil, plates, soap, cups).</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="smart-shopper-shredded-cheese"><img class="piece" src="art/smart-shopper-shredded-cheese.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-flour-tortillas"><img class="piece" src="art/smart-shopper-flour-tortillas.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-rotisserie-chicken"><img class="piece" src="art/smart-shopper-rotisserie-chicken.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-frozen-corn"><img class="piece" src="art/smart-shopper-frozen-corn.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-eggs"><img class="piece" src="art/smart-shopper-eggs.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-butter"><img class="piece" src="art/smart-shopper-butter.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-milk"><img class="piece" src="art/smart-shopper-milk.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-pasta"><img class="piece" src="art/smart-shopper-pasta.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-rice"><img class="piece" src="art/smart-shopper-rice.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-canned-black-beans"><img class="piece" src="art/smart-shopper-canned-black-beans.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-jar-of-salsa"><img class="piece" src="art/smart-shopper-jar-of-salsa.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-garlic-powder"><img class="piece" src="art/smart-shopper-garlic-powder.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-italian-bread"><img class="piece" src="art/smart-shopper-italian-bread.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-frozen-broccoli"><img class="piece" src="art/smart-shopper-frozen-broccoli.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-frozen-pepper-and-onion-blend"><img class="piece" src="art/smart-shopper-frozen-pepper-and-onion-blend.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-bananas"><img class="piece" src="art/smart-shopper-bananas.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-bagged-salad-greens"><img class="piece" src="art/smart-shopper-bagged-salad-greens.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-potatoes"><img class="piece" src="art/smart-shopper-potatoes.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-foil"><img class="piece" src="art/smart-shopper-foil.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-paper-plates"><img class="piece" src="art/smart-shopper-paper-plates.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-dish-soap"><img class="piece" src="art/smart-shopper-dish-soap.webp" alt="" loading="lazy"></span>
+<span data-key="smart-shopper-sour-cream"><img class="piece" src="art/smart-shopper-sour-cream.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>Unit price = price divided by quantity; dollar sign on every answer</li><li>Match the units before you compare: 1 lb = 16 oz</li><li>Store brand is usually 20 to 40 percent less; bulk wins per ounce only if you can use it and store it</li><li>Cheaper per unit is the wrong buy when it will spoil first, there is no room to store it, the family will not eat that much, a food rule rules it out, or you cannot afford the bigger total today</li><li>Most grocery food in New York is not taxed; foil, plates, cups, soap, candy, and soda are</li><li>The six store sections and what lives in each</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="SmartShopper-data">{"schema": "1.0", "slug": "smart-shopper", "title": "Smart Shopper", "unit": 1, "lessons": ["1.16", "1.15"], "handouts": ["Handout 01.16 - Unit Price Practice", "Handout 01.15 - Circular Scavenger Hunt and Shopping List Template"], "standards": ["NYS N&W 3. Consumer Resources and Finance a) Create and organize a shopping list", "NYS N&W 3. Consumer Resources and Finance b) Describe and demonstrate food purchasing strategies that maximize the benefits of the food budget", "NYS N&W 3. Consumer Resources and Finance c) Identify monetary influences on one's ability to select and purchase nutritious foods", "CTE FCL 4. Buying Goods and Services f) Apply a decision-making model to maximize consumer satisfaction when purchasing goods and services", "CTE FCL 4. Buying Goods and Services i) Demonstrate personal development of consumer skills through practice of these skills in a variety of classroom applications", "National FCS 3.0: 2.1.3 Examine the decisions behind providing food that is safe and nourishing for individuals and families.", "National FCS 3.0: 2.5.1 Examine how resources get used when individuals, families, and communities choose among needs and wants."], "source_file": "u1.json", "mechanic_note": "fast read: a price and a quantity, or two options, appear; tap the unit price or the better buy from three choices against a short clock; then a sort: a grocery item card appears, tap the store section it lives in (six bins)", "teacher_note": "Reviews Lesson 1.16 (unit price, the better buy, the bulk trap, and the sales tax rule) in round 1 and the store sections from Lesson 1.15 in round 2. Use it as the do now of Lesson 1.17, or the day before the project pricing in Lesson 1.18 so every Shopper has done the division once more. The prices are the September 2026 practice-sheet prices, not this week's circular; the game is about the math, and the teacher note on the end panel says to check the real shelf tag. Round 1 allows a calculator on the phone's other screen only if the teacher says so; Grade 6 setting: drop the pound-to-ounce questions (the chicken and the rice) and the tax questions from round 1. Grade 8 stretch (comparing two circulars, tax to the penny) stays on the handout. Round 1 allows a calculator on the phone's other screen only if the teacher says so; the choices are close on purpose.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the division or the section in the handout's words; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "smart-shopper-title.png", "line": "A white shelf tag with a big red price block and a small light gray unit price block below it, no text, clipped to a light gray shelf edge, in the sticker style."}, "scene": [], "cards": [{"file": "smart-shopper-shredded-cheese.png", "line": "A clear bag of yellow shredded cheese with a red top seal, black outline."}, {"file": "smart-shopper-flour-tortillas.png", "line": "A clear bag of stacked cream colored round tortillas, black outline."}, {"file": "smart-shopper-rotisserie-chicken.png", "line": "A cooked whole chicken in cream and yellow inside a clear domed container with a black base, black outline."}, {"file": "smart-shopper-frozen-corn.png", "line": "A sky blue frozen food bag with a yellow corn cob picture on it, black outline."}, {"file": "smart-shopper-eggs.png", "line": "An open light gray egg carton with six cream colored eggs, black outline."}, {"file": "smart-shopper-butter.png", "line": "A yellow stick of butter half wrapped in white paper, black outline."}, {"file": "smart-shopper-milk.png", "line": "A white plastic milk jug with a sky blue cap, black outline."}, {"file": "smart-shopper-pasta.png", "line": "A sky blue box of pasta with a clear window showing cream colored penne, black outline."}, {"file": "smart-shopper-rice.png", "line": "A cream colored bag of white rice with a green band and no text, black outline."}, {"file": "smart-shopper-canned-black-beans.png", "line": "A light gray can with a black bean picture and a red band, no text, black outline."}, {"file": "smart-shopper-jar-of-salsa.png", "line": "A clear glass jar of red salsa with a yellow lid, black outline."}, {"file": "smart-shopper-garlic-powder.png", "line": "A small light gray spice jar with a red shaker cap and a cream label with no text, black outline."}, {"file": "smart-shopper-italian-bread.png", "line": "A long cream colored loaf of bread with light gray slash marks in a white paper sleeve, black outline."}, {"file": "smart-shopper-frozen-broccoli.png", "line": "A sky blue frozen food bag with a green broccoli picture on it, black outline."}, {"file": "smart-shopper-frozen-pepper-and-onion-blend.png", "line": "A sky blue frozen food bag with red and green pepper strips and white onion pieces pictured on it, black outline."}, {"file": "smart-shopper-bananas.png", "line": "A bunch of three yellow bananas, black outline."}, {"file": "smart-shopper-bagged-salad-greens.png", "line": "A clear bag full of green salad leaves, black outline."}, {"file": "smart-shopper-potatoes.png", "line": "A cream colored mesh bag of light gray and cream potatoes, black outline."}, {"file": "smart-shopper-foil.png", "line": "A sky blue box of aluminum foil with a light gray sheet of foil pulled out, black outline."}, {"file": "smart-shopper-paper-plates.png", "line": "A stack of white paper plates in a clear wrapper, black outline."}, {"file": "smart-shopper-dish-soap.png", "line": "A clear bottle of green dish soap with a white pump cap, black outline."}, {"file": "smart-shopper-sour-cream.png", "line": "A white tub of sour cream with a sky blue lid, black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 14 of the 20 price questions, drawn fresh each play, 12 seconds each, three choices", "seconds_per_item": 12, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "0", "prompt": "Unit price = ?", "answer": ["price divided by quantity"], "choices": ["price divided by quantity", "quantity divided by price", "price times quantity"], "feedback": "Unit price = price divided by quantity. Write the dollar sign on every unit price answer."}, {"id": "1", "prompt": "Your unit price answer has no dollar sign. What went wrong?", "answer": ["You divided the wrong way"], "choices": ["You divided the wrong way", "You forgot to round", "Nothing, that is fine"], "feedback": "If there is no dollar sign, you divided the wrong way. The answer came out as ounces per dollar."}, {"id": "2", "prompt": "1 pound (lb) = ___ ounces (oz)", "answer": ["16"], "choices": ["16", "12", "8"], "feedback": "1 pound (lb) = 16 ounces (oz). The units have to match before you compare."}, {"id": "3", "prompt": "A 16 ounce box of pasta costs $1.29. A 12 ounce box of a different brand costs $1.49. Which is the better buy?", "answer": ["The 16 oz box at $1.29"], "choices": ["The 16 oz box at $1.29", "The 12 oz box at $1.49", "They are the same"], "feedback": "There is more in the box and it costs less: $0.081 per oz against $0.124 per oz."}, {"id": "4", "prompt": "Two jars of sauce: 24 oz at $2.29 and 45 oz at $3.79. Which jar wins per ounce?", "answer": ["The 45 oz jar"], "choices": ["The 45 oz jar", "The 24 oz jar", "They are the same"], "feedback": "$2.29 divided by 24 = $0.095 per oz; $3.79 divided by 45 = $0.084 per oz. The 45 oz jar wins per ounce."}, {"id": "5", "prompt": "Store-brand pasta, $1.29 for 16 oz. Unit price?", "answer": ["$0.081 per oz"], "choices": ["$0.081 per oz", "$0.124 per oz", "$0.129 per oz"], "feedback": "$1.29 divided by 16 = $0.081 per oz."}, {"id": "6", "prompt": "Marinara sauce, $2.29 for a 24 oz jar. Unit price?", "answer": ["$0.095 per oz"], "choices": ["$0.095 per oz", "$0.084 per oz", "$0.229 per oz"], "feedback": "$2.29 divided by 24 = $0.095 per oz."}, {"id": "7", "prompt": "Shredded cheese, $2.49 for an 8 oz bag. Unit price?", "answer": ["$0.311 per oz"], "choices": ["$0.311 per oz", "$0.250 per oz", "$0.031 per oz"], "feedback": "$2.49 divided by 8 = $0.311 per oz."}, {"id": "8", "prompt": "Frozen corn, $1.79 for a 12 oz bag. Unit price?", "answer": ["$0.149 per oz"], "choices": ["$0.149 per oz", "$0.179 per oz", "$0.112 per oz"], "feedback": "$1.79 divided by 12 = $0.149 per oz."}, {"id": "9", "prompt": "Deli half rotisserie chicken, $4.99 for 1 lb 4 oz. How many ounces is that?", "answer": ["20 oz"], "choices": ["20 oz", "14 oz", "24 oz"], "feedback": "1 lb 4 oz = 16 + 4 = 20 oz. $4.99 divided by 20 = $0.250 per oz."}, {"id": "10", "prompt": "Rice, $2.79 for a 2 lb bag. Unit price per ounce?", "answer": ["$0.087 per oz"], "choices": ["$0.087 per oz", "$1.395 per oz", "$0.174 per oz"], "feedback": "2 lb = 32 oz. $2.79 divided by 32 = $0.087 per oz."}, {"id": "11", "prompt": "Name-brand pasta, 12 oz box, $1.49, or store-brand pasta, 16 oz box, $1.29. Better buy per ounce?", "answer": ["Store brand"], "choices": ["Store brand", "Name brand", "Same"], "feedback": "$0.124 per oz against $0.081 per oz; store brand. Store brand is usually the same factory, different label, 20 to 40 percent less."}, {"id": "12", "prompt": "Shredded cheese, 8 oz bag at $2.49, or 2 lb bag at $7.99. Better buy per ounce?", "answer": ["The 2 lb bag"], "choices": ["The 2 lb bag", "The 8 oz bag", "Same"], "feedback": "$0.311 per oz against $0.250 per oz; the 2 lb bag. Then ask: can the family use 2 lb of cheese before it molds?"}, {"id": "13", "prompt": "A 10 lb bag of potatoes costs $5.99. A 3 lb bag costs $2.99. Cheaper per pound?", "answer": ["The 10 lb bag"], "choices": ["The 10 lb bag", "The 3 lb bag", "Same"], "feedback": "10 lb bag: $0.599 per lb. 3 lb bag: $0.997 per lb. Cheaper per pound: the 10 lb bag."}, {"id": "14", "prompt": "This family eats potatoes about twice a month, about 2 pounds each time, and keeps them in a warm kitchen cabinet. Which bag should they buy?", "answer": ["The 3 lb bag"], "choices": ["The 3 lb bag", "The 10 lb bag", "Both"], "feedback": "The big bag is cheaper per pound, but this family should buy the 3 lb bag: they use about 4 lb a month, the potatoes will sprout or rot in a warm cabinet before they use 10 lb, and the waste costs more than the savings."}, {"id": "15", "prompt": "The shelf tag says the store brand is $0.12 per oz and the name brand is $0.19 per oz. Which is cheaper per ounce?", "answer": ["Store brand"], "choices": ["Store brand", "Name brand", "Same"], "feedback": "The store already prints the unit price in small letters on the shelf tag. $0.12 is less than $0.19."}, {"id": "16", "prompt": "A roll of foil at the register in New York: taxed or not taxed?", "answer": ["Taxed"], "choices": ["Taxed", "Not taxed"], "feedback": "Non-food items (foil, paper plates, cups, soap) and candy, soda, and prepared hot food are taxed, about 8.625 percent on Long Island."}, {"id": "17", "prompt": "A bag of rice at the register in New York: taxed or not taxed?", "answer": ["Not taxed"], "choices": ["Not taxed", "Taxed"], "feedback": "In New York, most grocery food is not taxed."}, {"id": "18", "prompt": "A two-liter soda at the register: taxed or not taxed?", "answer": ["Taxed"], "choices": ["Taxed", "Not taxed"], "feedback": "Candy, soda, and prepared hot food are taxed."}, {"id": "19", "prompt": "A roll of foil costs $3.49. The tax at 8.625 percent is about ___", "answer": ["$0.30"], "choices": ["$0.30", "$0.86", "$0.03"], "feedback": "$3.49 times 0.08625 = $0.30 (rounded). Total $3.79."}], "options": {"source": "per_item", "style": "choices", "count": 3}, "take": 14}], "option_sets": [{"label": "bins_round2", "list": [{"id": "produce", "label": "Produce"}, {"id": "dairy", "label": "Dairy"}, {"id": "meat-and-deli", "label": "Meat and deli"}, {"id": "frozen", "label": "Frozen"}, {"id": "dry-goods", "label": "Dry goods"}, {"id": "household", "label": "Household"}]}]}, {"n": 2, "note": "Round 2: 16 of the 22 item cards, drawn fresh each play, 6 seconds each, six bins", "seconds_per_item": 6, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "0", "prompt": "Shredded cheese", "answer": ["Dairy"], "feedback": "Shredded cheese is in dairy (milk, cheese, yogurt, eggs, butter)."}, {"id": "1", "prompt": "Flour tortillas", "answer": ["Dry goods"], "feedback": "Tortillas are in dry goods or the bread aisle."}, {"id": "2", "prompt": "Pre-cooked rotisserie chicken", "answer": ["Meat and deli"], "feedback": "Pre-cooked chicken is in meat and deli."}, {"id": "3", "prompt": "Frozen corn", "answer": ["Frozen"], "feedback": "Frozen corn is in frozen."}, {"id": "4", "prompt": "Eggs", "answer": ["Dairy"], "feedback": "Dairy: milk, cheese, yogurt, eggs, butter."}, {"id": "5", "prompt": "Butter", "answer": ["Dairy"], "feedback": "Dairy: milk, cheese, yogurt, eggs, butter."}, {"id": "6", "prompt": "Milk", "answer": ["Dairy"], "feedback": "Dairy: milk, cheese, yogurt, eggs, butter."}, {"id": "7", "prompt": "Pasta", "answer": ["Dry goods"], "feedback": "Dry goods: pasta, rice, cans, jars, spices, bread."}, {"id": "8", "prompt": "Rice", "answer": ["Dry goods"], "feedback": "Dry goods: pasta, rice, cans, jars, spices, bread."}, {"id": "9", "prompt": "Canned black beans", "answer": ["Dry goods"], "feedback": "Dry goods: pasta, rice, cans, jars, spices, bread."}, {"id": "10", "prompt": "Jar of salsa", "answer": ["Dry goods"], "feedback": "Dry goods: pasta, rice, cans, jars, spices, bread."}, {"id": "11", "prompt": "Garlic powder", "answer": ["Dry goods"], "feedback": "Dry goods: pasta, rice, cans, jars, spices, bread."}, {"id": "12", "prompt": "Italian bread", "answer": ["Dry goods"], "feedback": "Dry goods: pasta, rice, cans, jars, spices, bread."}, {"id": "13", "prompt": "Frozen broccoli", "answer": ["Frozen"], "feedback": "Frozen broccoli is in frozen."}, {"id": "14", "prompt": "Frozen pepper and onion blend", "answer": ["Frozen"], "feedback": "The frozen pepper and onion blend is in frozen."}, {"id": "15", "prompt": "Bananas", "answer": ["Produce"], "feedback": "Produce: fresh fruits and vegetables."}, {"id": "16", "prompt": "Bagged salad greens", "answer": ["Produce"], "feedback": "Produce: fresh fruits and vegetables."}, {"id": "17", "prompt": "Potatoes", "answer": ["Produce"], "feedback": "Produce: fresh fruits and vegetables."}, {"id": "18", "prompt": "Foil", "answer": ["Household"], "feedback": "Household: foil, plates, soap, cups."}, {"id": "19", "prompt": "Paper plates", "answer": ["Household"], "feedback": "Household: foil, plates, soap, cups."}, {"id": "20", "prompt": "Dish soap", "answer": ["Household"], "feedback": "Household: foil, plates, soap, cups."}, {"id": "21", "prompt": "Sour cream", "answer": ["Dairy"], "feedback": "Sour cream is in dairy."}], "options": {"source": "fixed", "style": "bins", "count": 6, "list": [{"id": "produce", "label": "Produce"}, {"id": "dairy", "label": "Dairy"}, {"id": "meat-and-deli", "label": "Meat and deli"}, {"id": "frozen", "label": "Frozen"}, {"id": "dry-goods", "label": "Dry goods"}, {"id": "household", "label": "Household"}]}, "take": 16}], "option_sets": [{"label": "bins_round2", "list": [{"id": "produce", "label": "Produce"}, {"id": "dairy", "label": "Dairy"}, {"id": "meat-and-deli", "label": "Meat and deli"}, {"id": "frozen", "label": "Frozen"}, {"id": "dry-goods", "label": "Dry goods"}, {"id": "household", "label": "Household"}]}]}], "study": ["Unit price = price divided by quantity; dollar sign on every answer", "Match the units before you compare: 1 lb = 16 oz", "Store brand is usually 20 to 40 percent less; bulk wins per ounce only if you can use it and store it", "Cheaper per unit is the wrong buy when it will spoil first, there is no room to store it, the family will not eat that much, a food rule rules it out, or you cannot afford the bigger total today", "Most grocery food in New York is not taxed; foil, plates, cups, soap, candy, and soda are", "The six store sections and what lives in each"], "rule_lines": ["Unit price = price divided by quantity. Write the dollar sign on every unit price answer. 1 pound (lb) = 16 ounces (oz).", "Produce (fresh fruits and vegetables); Dairy (milk, cheese, yogurt, eggs, butter); Meat and deli (including pre-cooked chicken); Frozen; Dry goods (pasta, rice, cans, jars, spices, bread); Household (foil, plates, soap, cups)."], "reference": {}, "_unmapped": {}, "lede": "A price and a quantity, or two options, appear. Tap the unit price or the better buy from three choices. Then a grocery item appears, and you tap the store section it lives in from six."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("SmartShopper");
+  var node = document.getElementById("SmartShopper-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

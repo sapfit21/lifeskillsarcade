@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kitchen Fix, Life Skills Arcade</title>
+<meta name="description" content="A problem from the lab station card appears. Tap why it happened from four choices. Then a done-looks-like line appears, and you tap YES if that is what done looks like or NO if it is not yet.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="KitchenFix">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-06-08.html">Lesson 6.8</a>, <a href="../lesson-06-09.html">Lesson 6.9</a>. Reviews Lessons 6.8 and 6.9, the two labs, using the what-could-go-wrong and what-does-done-look-like tables printed on both station cards. It does not review the eight roles, which are Station Rush. Play it the day before each lab as a two-minute preview, or after the lab as the do now while the Lab Reflection gets finished, and again before the Feed the Class cook day in Lesson 6.16, where the same rules apply. Round 1 items are split pasta then quesadilla, so a class that has only done Lab 3 can stop after item 6 plus the two critical path questions. Round 2 is the fast one; the two misses that matter are small bubbles called a boil and a skillet left empty.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/kitchen-fix-title.webp" alt=""><h1 class="game-title">Kitchen <span class="alt2">Fix</span></h1></div>
+<p class="game-lede">A problem from the lab station card appears. Tap why it happened from four choices. Then a done-looks-like line appears, and you tap YES if that is what done looks like or NO if it is not yet.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="kitchen-fix-round-pasta"><img class="piece" src="art/kitchen-fix-round-pasta.webp" alt="" loading="lazy"></span>
+<span data-key="kitchen-fix-round-quesadilla"><img class="piece" src="art/kitchen-fix-round-quesadilla.webp" alt="" loading="lazy"></span>
+<span data-key="kitchen-fix-yes"><img class="piece" src="art/kitchen-fix-yes.webp" alt="" loading="lazy"></span>
+<span data-key="kitchen-fix-no"><img class="piece" src="art/kitchen-fix-no.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The pot is on the burner by minute 3 or the period does not work.</li><li>The teacher drains every pot and opens every oven door. Butter knives and kitchen shears are the only things that cut in this room.</li><li>A skillet should never sit empty.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="KitchenFix-data">{"schema": "1.0", "slug": "kitchen-fix", "title": "Kitchen Fix", "unit": 6, "lessons": ["6.8", "6.9"], "handouts": ["Handout 06.08 - Station Card Cheesy Pasta Marinara", "Handout 06.09 - Station Card Black Bean Quesadillas", "Handout 06.08 - Role Cards Lab 3"], "standards": ["NYS FSP 1. Basic Culinary Skills c) Demonstrate safety and sanitation procedures when handling food and tools", "NYS FSP 1. Basic Culinary Skills e) Prepare a simple recipe", "NYS FSP 5. Consumer Resources and Finance d) Apply time management, organizational, and process skills to prioritize tasks and achieve goals", "NYS FSP 2. Food Preparation e) Practice safety and sanitation practices and procedures in the preparation of food", "CTE HSW 4. Classroom and Workplace Safety c) Apply safety practices when using tools, machines, and equipment", "National FCS 3.0: 8.5.7 Prepare fruits, vegetables, starches, legumes, dairy, fats, and oils safely and with professional technique.", "National FCS 3.0: 14.4.2 Examine safety and sanitation practice."], "source_file": "u6.json", "mechanic_note": "match: a problem from the station card appears, tap why it happened from four choices; then a fast read: a done-looks-like line appears, tap YES if that is what done looks like or NO if it is not yet", "teacher_note": "Reviews Lessons 6.8 and 6.9, the two labs, using the what-could-go-wrong and what-does-done-look-like tables printed on both station cards. It does not review the eight roles, which are Station Rush. Play it the day before each lab as a two-minute preview, or after the lab as the do now while the Lab Reflection gets finished, and again before the Feed the Class cook day in Lesson 6.16, where the same rules apply. Round 1 items are split pasta then quesadilla, so a class that has only done Lab 3 can stop after item 6 plus the two critical path questions. Round 2 is the fast one; the two misses that matter are small bubbles called a boil and a skillet left empty.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct, 5 bonus on every third in a row, a miss shows the right cause with the station card's fix line; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "kitchen-fix-title.png", "line": "A black skillet with a folded golden quesadilla and a red spatula, black outline."}, "scene": [], "cards": [], "buttons": [{"file": "kitchen-fix-round-pasta.png", "line": "A light gray pot of yellow spaghetti in sky blue boiling water with a wooden spoon, black outline."}, {"file": "kitchen-fix-round-quesadilla.png", "line": "Two black skillets side by side, each with a folded golden quesadilla, black outline."}, {"file": "kitchen-fix-yes.png", "line": "A green circle with a white check mark inside, black outline."}, {"file": "kitchen-fix-no.png", "line": "A red circle with a white X inside, black outline."}], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 15 problems and questions, 10 seconds each, four choices", "seconds_per_item": 10, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round1", "items": [{"id": "pasta-clump", "prompt": "The pasta is stuck in a clump", "answer": ["It was not stirred right after it went in"], "choices": ["It was not stirred right after it went in", "The water had too much salt", "The pot was too big", "The sauce went in too early"], "feedback": "Stir the second it hits the water, then every 2 to 3 minutes. Next time, stir sooner."}, {"id": "pasta-mushy", "prompt": "The pasta is mushy", "answer": ["It cooked too long"], "choices": ["It cooked too long", "It was not stirred", "The water was not salted", "The burner was on LOW"], "feedback": "Set the timer for 1 minute less than the box and taste. You can always cook it longer; you cannot uncook mush."}, {"id": "sauce-burnt", "prompt": "The sauce tastes burnt", "answer": ["The burner was above LOW and the bottom scorched"], "choices": ["The burner was above LOW and the bottom scorched", "The jar was open too long", "The cheese went in the sauce", "It was stirred too often"], "feedback": "LOW only, and stir every 2 minutes. Once the bottom scorches, the whole pan tastes like it."}, {"id": "cheese-pasta", "prompt": "The cheese will not melt on the pasta", "answer": ["The pasta cooled before the cheese went on"], "choices": ["The pasta cooled before the cheese went on", "The cheese was measured wrong", "The sauce was too hot", "The plates were cold"], "feedback": "Cheese goes on the plate while the pasta is steaming, not after."}, {"id": "water-late", "prompt": "The water is not boiling at minute 12", "answer": ["The pot was too full, or it was not on HIGH, or it went on late"], "choices": ["The pot was too full, or it was not on HIGH, or it went on late", "The salt slowed it down", "The lid was on", "The pasta was added too soon"], "feedback": "Three quarters full, HIGH, on the burner by minute 3."}, {"id": "reached-pot", "prompt": "Somebody reached for the pot", "answer": ["Forgot the rule. The teacher drains. Every time"], "choices": ["Forgot the rule. The teacher drains. Every time", "That is the Head Cook's job", "The Helper Cook should carry it alone", "It is fine with two mitts"], "feedback": "Step back and say \"ready.\" Steam burns deeper than water."}, {"id": "tortilla-burning", "prompt": "The tortilla is burning before the cheese melts", "answer": ["The heat is too high"], "choices": ["The heat is too high", "The heat is too low", "Too much cheese", "The beans were wet"], "feedback": "Turn it down to medium-low. It should sizzle gently, not smoke."}, {"id": "cheese-quesadilla", "prompt": "The cheese will not melt in the quesadilla", "answer": ["The heat is too low"], "choices": ["The heat is too low", "The heat is too high", "The tortilla is too thin", "Not enough beans"], "feedback": "Turn it up slightly and give it an extra 30 seconds a side. Do not press harder."}, {"id": "beans-can", "prompt": "The beans taste like the can", "answer": ["They were not rinsed enough"], "choices": ["They were not rinsed enough", "They were cooked too long", "The salsa was too strong", "The wrong cheese"], "feedback": "Rinse until the water runs clear. Once it is in the quesadilla you cannot fix it."}, {"id": "falls-apart", "prompt": "The quesadilla falls apart when cut", "answer": ["Too much filling, or the cheese did not melt through"], "choices": ["Too much filling, or the cheese did not melt through", "It was cut with a butter knife", "The tortilla was folded", "It sat on the plate too long"], "feedback": "About 3 Tablespoons of beans and 1/4 cup of cheese. More is not better."}, {"id": "skillets-empty", "prompt": "Both skillets are empty at minute 18", "answer": ["Nobody fed the line"], "choices": ["Nobody fed the line", "The skillets were too hot", "The tortillas ran out", "The Station Manager was washing"], "feedback": "The Helper Cook puts the next tortilla in the second one comes off. Washing dishes is a job for whoever is not feeding the line."}, {"id": "cut-skillet", "prompt": "Somebody cut in the skillet", "answer": ["Forgot the rule. Cut on the plate, with a butter knife. Never in a pan"], "choices": ["Forgot the rule. Cut on the plate, with a butter knife. Never in a pan", "That is allowed if the burner is off", "Kitchen shears are fine in a pan", "The Plate Builder can do it"], "feedback": "A butter knife spreads. Kitchen shears cut. Nothing else cuts anything in this room, on any day."}, {"id": "stacks-fell", "prompt": "The graham stacks fell over", "answer": ["Too many berries on one layer"], "choices": ["Too many berries on one layer", "The whipped cream was cold", "The crackers were too big", "They were built too early"], "feedback": "Spread them out and press each cracker gently."}, {"id": "critical-path", "prompt": "Which single task decides whether the pasta station eats at minute 28 or at minute 36?", "answer": ["The water boiling and the pasta draining"], "choices": ["The water boiling and the pasta draining", "Measuring the cheese", "Setting the plates", "Opening the jar"], "feedback": "Water takes about eight minutes to come to a boil, pasta takes eight to ten more, and nothing else can finish until the pasta is drained. The pot is on the burner on HIGH by minute 3 or this period does not work."}, {"id": "throughput", "prompt": "The job today at the quesadilla station is", "answer": ["throughput: keep both skillets full so the line never stalls"], "choices": ["throughput: keep both skillets full so the line never stalls", "one long task that sets the clock", "cutting the wedges fast", "measuring the cheese twice"], "feedback": "A production line runs at the speed of its slowest station. To feed seven people in eighteen minutes, you do not work faster, you stop the skillet from ever sitting empty."}], "options": {"source": "per_item", "style": "choices", "count": 4}}]}, {"n": 2, "note": "Round 2: 14 done-or-not lines, 5 seconds each, yes or no", "seconds_per_item": 5, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "boil-yes", "prompt": "The water: big bubbles breaking the whole surface, steam rising, the pot loud", "answer": ["yes"], "feedback": "That is a rolling boil. Add all the pasta at once and stir immediately."}, {"id": "boil-no", "prompt": "The water: small bubbles on the bottom of the pot", "answer": ["no"], "feedback": "Small bubbles are not a boil. Wait for big bubbles breaking the surface."}, {"id": "pasta-yes", "prompt": "The pasta: a piece you bite is soft all the way through with the smallest firmness in the middle", "answer": ["yes"], "feedback": "Soft with a little bite. Not crunchy. Not mush."}, {"id": "pasta-no", "prompt": "The pasta: a piece you bite is crunchy in the middle", "answer": ["no"], "feedback": "Not yet. Call \"not yet\" and check again in a minute."}, {"id": "sauce-yes", "prompt": "The sauce: steam coming off it, warm all through, no bubbles popping", "answer": ["yes"], "feedback": "Warm, not bubbling. Not scorched on the bottom."}, {"id": "sauce-no", "prompt": "The sauce: bubbling hard on MEDIUM", "answer": ["no"], "feedback": "Keep it on LOW the whole time: warm, never bubbling. Sauce on anything above low will scorch on the bottom."}, {"id": "beans-yes", "prompt": "The beans: the rinse water runs clear, not gray. No foam left in the colander", "answer": ["yes"], "feedback": "Rinse under cold water until the water runs clear."}, {"id": "beans-no", "prompt": "The beans: the rinse water still runs gray", "answer": ["no"], "feedback": "Not yet. Unrinsed canned beans taste like the can."}, {"id": "side-yes", "prompt": "The first side: golden brown in patches, not dark brown and not pale. It lifts off the pan without sticking", "answer": ["yes"], "feedback": "That is golden brown. Flip carefully and cook 1 to 2 minutes more."}, {"id": "side-no", "prompt": "The first side: dark brown and smoking", "answer": ["no"], "feedback": "The heat is too high. It should sizzle gently, not smoke."}, {"id": "melt-yes", "prompt": "The cheese: melted all the way through, so the quesadilla holds together when you cut it", "answer": ["yes"], "feedback": "That is done. Slide it onto a plate and start the next one right away."}, {"id": "line-yes", "prompt": "The line: both skillets full the whole cook phase, all eight done by minute 26", "answer": ["yes"], "feedback": "That is the line running. Every minute a skillet sits empty is a minute added to the end."}, {"id": "line-no", "prompt": "The line: one skillet sat empty for three minutes while the dishes got washed", "answer": ["no"], "feedback": "The empty skillet is the whole lesson. Whose job was the next tortilla?"}, {"id": "plate-yes", "prompt": "The plate: even portion, sauce on top, cheese melting into it, served hot", "answer": ["yes"], "feedback": "That is the pasta plate done. Cheese goes on while the pasta is still hot so it melts."}], "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}}]}], "study": ["The pot is on the burner by minute 3 or the period does not work.", "The teacher drains every pot and opens every oven door. Butter knives and kitchen shears are the only things that cut in this room.", "A skillet should never sit empty."], "rule_lines": [], "reference": {}, "_unmapped": {}, "lede": "A problem from the lab station card appears. Tap why it happened from four choices. Then a done-looks-like line appears, and you tap YES if that is what done looks like or NO if it is not yet."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("KitchenFix");
+  var node = document.getElementById("KitchenFix-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>

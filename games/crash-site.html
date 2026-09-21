@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crash Site, Life Skills Arcade</title>
+<meta name="description" content="The ten survival items appear shuffled. Tap them into the expert ranking from 1 to 10, and each tap shows the reason. Then tap the five decision steps into order and match the rule of threes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-21">
+<link rel="stylesheet" href="games.css?v=2026-09-21"><script src="arcade.js?v=2026-09-21"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="CrashSite">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-00-03.html">Lesson 0.3</a>. Reviews Lesson 0.3, the plane crash simulation and the five-step decision model. Round 1 puts the ten items into the expert ranking, and every tap, right or wrong, shows the expert's reason from the handout key, because the reasons are the lesson. Round 2 is the five steps in order, then each step matched to its moment in the simulation, then the rule of threes. Use it the day after the simulation as a do now, and again before the Unit 2 Test (item 6 assesses the five steps) or before any project's five-steps planning box. Say before playing what the lesson says: a team that ranked two neighboring items the other way around with a real reason was not wrong; the game scores the key because a game needs one answer.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/crash-site-title.webp" alt=""><h1 class="game-title">Crash <span class="alt2">Site</span></h1></div>
+<p class="game-lede">The ten survival items appear shuffled. Tap them into the expert ranking from 1 to 10, and each tap shows the reason. Then tap the five decision steps into order and match the rule of threes.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>A small plane down on the shore of a big lake in the north woods in late October. Everyone walked away with scrapes and bruises. The pilot radioed a distress call and gave the plane's position, so searchers know the general area. The nearest town is forty miles away through thick forest with no road. It is about 35 degrees F in the daytime and drops below freezing at night. The lake water is not safe to drink without boiling. Ten things survived the crash. Rank them from 1 (most important for surviving until searchers find you) to 10.</li><li>This is how we decide in this room all year: a recipe, a budget, a design, a product. Five steps, same words.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="crash-site-waterproof-matches"><img class="piece" src="art/crash-site-waterproof-matches.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-wool-blankets"><img class="piece" src="art/crash-site-wool-blankets.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-orange-tarp"><img class="piece" src="art/crash-site-orange-tarp.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-cooking-pot"><img class="piece" src="art/crash-site-cooking-pot.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-whistle"><img class="piece" src="art/crash-site-whistle.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-flashlight"><img class="piece" src="art/crash-site-flashlight.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-first-aid-kit"><img class="piece" src="art/crash-site-first-aid-kit.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-folding-knife"><img class="piece" src="art/crash-site-folding-knife.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-granola-bars"><img class="piece" src="art/crash-site-granola-bars.webp" alt="" loading="lazy"></span>
+<span data-key="crash-site-road-map"><img class="piece" src="art/crash-site-road-map.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The expert ranking and the three ideas behind it: cold kills first; searchers know where you are, so being seen and heard matters more than moving; walking forty miles through forest in freezing weather is the choice that gets people killed.</li><li>The five steps: name the choice, list options, weigh each against what matters, decide, look back.</li><li>The rule of threes: about three hours without shelter in the cold, three days without water, three weeks without food.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="CrashSite-data">{"schema": "1.0", "slug": "crash-site", "title": "Crash Site", "unit": 0, "lessons": ["0.3"], "handouts": ["Handout 00.03 - Survival Ranking Sheet"], "standards": ["NYS IGLR 3. Employability b) Show understanding of interpersonal dynamics", "CTE PSI 1. Problem Solving e) Demonstrate personal development of problem-solving skills through practice of these skills in a variety of classroom applications", "NYS FACS Learning Standard 3 (Intermediate), Key Idea: Students will understand and be able to manage personal resources of talent, time, energy, and money and make effective decisions in order to balance their obligations to work, family, and self.; Performance Indicator: Students understand the resources available to them, make informed decisions about the use of those resources, and know some ways to expand resources.", "CDOS Standard 3a Universal Foundation Skills: Thinking Skills (Students evaluate facts, solve advanced problems, and make decisions by applying logic and reasoning skills.)"], "source_file": "u0.json", "mechanic_note": "order: the ten survival items appear shuffled as picture cards; tap them into the expert ranking from 1 to 10, and each tap shows the reason from the key; then a second round, tap the five decision steps into order, match each step to its moment in the simulation, and match the rule of threes", "teacher_note": "Reviews Lesson 0.3, the plane crash simulation and the five-step decision model. Round 1 puts the ten items into the expert ranking, and every tap, right or wrong, shows the expert's reason from the handout key, because the reasons are the lesson. Round 2 is the five steps in order, then each step matched to its moment in the simulation, then the rule of threes. Use it the day after the simulation as a do now, and again before the Unit 2 Test (item 6 assesses the five steps) or before any project's five-steps planning box. Say before playing what the lesson says: a team that ranked two neighboring items the other way around with a real reason was not wrong; the game scores the key because a game needs one answer.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per correct placement or match, 5 bonus on every third in a row, a miss shows the right item with the expert's reason; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "crash-site-title.png", "line": "A small white plane with a red stripe and a black outline sitting nose-up on a light gray lake shore with sky blue water behind it and green pine shapes at the edge."}, "scene": [], "cards": [{"file": "crash-site-waterproof-matches.png", "line": "A small cream matchbox with a red stripe, one match with a red tip lying in front of it."}, {"file": "crash-site-wool-blankets.png", "line": "A stack of three folded blankets, one red, one green, one light gray, with a black outline."}, {"file": "crash-site-orange-tarp.png", "line": "A large square tarp in red with a yellow underside showing where one corner is folded over."}, {"file": "crash-site-cooking-pot.png", "line": "A light gray metal cooking pot with two side handles and a lid with a black knob."}, {"file": "crash-site-whistle.png", "line": "A red whistle on a black cord loop."}, {"file": "crash-site-flashlight.png", "line": "A black flashlight with a light gray head and a yellow beam coming out of it."}, {"file": "crash-site-first-aid-kit.png", "line": "A white box with a handle and a red cross on the front."}, {"file": "crash-site-folding-knife.png", "line": "A closed folding knife with a green handle and the blade tucked away, no blade showing."}, {"file": "crash-site-granola-bars.png", "line": "A granola bar in a green wrapper with cream stripes, with a small cream bag behind it."}, {"file": "crash-site-road-map.png", "line": "A folded paper map in cream with sky blue and green shapes and red lines on it, no words."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 10 items into expert order, 75 seconds for the round", "seconds_per_item": 75, "engines": ["order"], "steps": [{"kind": "order", "label": "round1", "prompt": null, "feedback": null, "cards": [{"id": "waterproof-matches", "prompt": "A box of waterproof matches", "rank": 1, "feedback": "1, the waterproof matches. Fire is warmth at night, a smoke signal by day, and the way to boil lake water.", "tags": {"letter": "B"}}, {"id": "wool-blankets", "prompt": "Three wool blankets", "rank": 2, "feedback": "2, the three wool blankets. Direct warmth for four people at night. Wool keeps you warm even when it is damp.", "tags": {"letter": "E"}}, {"id": "orange-tarp", "prompt": "A large orange plastic tarp, 12 feet by 12 feet", "rank": 3, "feedback": "3, the orange tarp. Shelter from wind and rain, and spread on the shore it is the one thing a search plane can see from the air.", "tags": {"letter": "A"}}, {"id": "cooking-pot", "prompt": "A metal cooking pot with a lid", "rank": 4, "feedback": "4, the metal pot with a lid. The lake is your water, and you have to boil it to drink it safely. The pot is the only way.", "tags": {"letter": "C"}}, {"id": "whistle", "prompt": "A loud whistle", "rank": 5, "feedback": "5, the whistle. Three blasts is a call for help. It carries much farther than a voice and costs no energy.", "tags": {"letter": "F"}}, {"id": "flashlight", "prompt": "A flashlight with fresh batteries", "rank": 6, "feedback": "6, the flashlight. Signal to searchers at night (three flashes) and move safely around camp after dark. Batteries run out, so it is not first.", "tags": {"letter": "G"}}, {"id": "first-aid-kit", "prompt": "A first aid kit", "rank": 7, "feedback": "7, the first aid kit. Nobody is badly hurt. It keeps small cuts and blisters from becoming big problems, but it does not keep you warm or hydrated tonight.", "tags": {"letter": "D"}}, {"id": "folding-knife", "prompt": "A folding knife", "rank": 8, "feedback": "8, the folding knife. Useful for cutting cord, tarp, and kindling. Helpful, not lifesaving by itself.", "tags": {"letter": "I"}}, {"id": "granola-bars", "prompt": "A bag of 24 granola bars", "rank": 9, "feedback": "9, the granola bars. Food is the last thing you run out of. Hunger will not hurt you in the first three days and cold will.", "tags": {"letter": "H"}}, {"id": "road-map", "prompt": "A road map of the state", "rank": 10, "feedback": "10, the road map. The town is forty miles away and searchers already know where you are. The map tempts you to walk out. Stay with the plane.", "tags": {"letter": "J"}}]}]}, {"n": 2, "note": "Round 2: 5 steps in order, then 5 step-to-moment matches and 3 rule-of-threes matches, 6 seconds each", "seconds_per_item": 6, "engines": ["choice", "order"], "steps": [{"kind": "order", "label": "round2_order", "prompt": null, "feedback": null, "cards": [{"id": "name-the-choice", "prompt": "Name the choice", "rank": 1}, {"id": "list-options", "prompt": "List options", "rank": 2}, {"id": "weigh-each-against-what-matters", "prompt": "Weigh each against what matters", "rank": 3}, {"id": "decide", "prompt": "Decide", "rank": 4}, {"id": "look-back", "prompt": "Look back", "rank": 5}]}, {"kind": "choice", "label": "round2_match", "items": [{"id": "moment-1", "prompt": "What do we need to survive until rescue?", "answer": ["Name the choice"]}, {"id": "moment-2", "prompt": "The ten cards", "answer": ["List options"]}, {"id": "moment-3", "prompt": "Cold first, then water, then being seen, then food; searchers are coming", "answer": ["Weigh each against what matters"]}, {"id": "moment-4", "prompt": "The team ranking", "answer": ["Decide"]}, {"id": "moment-5", "prompt": "The score and the reasons, and the item we would still argue", "answer": ["Look back"]}], "options": {"source": "pool", "style": "buttons", "count": 4, "pool_from": "answers"}}]}], "study": ["The expert ranking and the three ideas behind it: cold kills first; searchers know where you are, so being seen and heard matters more than moving; walking forty miles through forest in freezing weather is the choice that gets people killed.", "The five steps: name the choice, list options, weigh each against what matters, decide, look back.", "The rule of threes: about three hours without shelter in the cold, three days without water, three weeks without food."], "rule_lines": ["A small plane down on the shore of a big lake in the north woods in late October. Everyone walked away with scrapes and bruises. The pilot radioed a distress call and gave the plane's position, so searchers know the general area. The nearest town is forty miles away through thick forest with no road. It is about 35 degrees F in the daytime and drops below freezing at night. The lake water is not safe to drink without boiling. Ten things survived the crash. Rank them from 1 (most important for surviving until searchers find you) to 10.", "This is how we decide in this room all year: a recipe, a budget, a design, a product. Five steps, same words."], "reference": {"round2_rule_of_threes": [{"name": "three hours", "text": "About three hours without", "answer": "shelter in the cold"}, {"name": "three days", "text": "Three days without", "answer": "water"}, {"name": "three weeks", "text": "Three weeks without", "answer": "food"}]}, "_unmapped": {}, "lede": "The ten survival items appear shuffled. Tap them into the expert ranking from 1 to 10, and each tap shows the reason. Then tap the five decision steps into order and match the rule of threes."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-21"></script>
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("CrashSite");
+  var node = document.getElementById("CrashSite-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-21. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>
