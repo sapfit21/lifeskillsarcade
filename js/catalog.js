@@ -316,6 +316,13 @@ window.LSA_CATALOG = {
    "title": "Safe or Not Safe",
    "unit": 1
   },
+  "safety-walk": {
+   "lessons": [
+    "3.17"
+   ],
+   "title": "Safety Walk",
+   "unit": 3
+  },
   "set-the-table": {
    "lessons": [
     "6.11"

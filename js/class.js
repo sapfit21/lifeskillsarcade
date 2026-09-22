@@ -318,7 +318,7 @@
   });
   function showSheet(rows, what) {
     $("ps-class").textContent = current.name;
-    $("ps-date").textContent = today() + " (" + what + ")";
+    $("ps-date").textContent = what + " " + today();
     $("ps-site").textContent = location.host + "/signin.html";
     var tb = $("ps-rows");
     clear(tb);

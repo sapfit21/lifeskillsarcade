@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safety Walk, Life Skills Arcade</title>
+<meta name="description" content="A cutaway of Eli&#x27;s home appears: living room, kitchen, bathroom, bedroom, back door, and yard. Tap every toddler hazard, and each tap names the fix. Then tap fits or does not fit for the tube test.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/style.css?v=2026-09-22">
+<link rel="stylesheet" href="games.css?v=2026-09-22"><script src="arcade.js?v=2026-09-22"></script>
+</head>
+<body class="student game">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <div class="acct" id="lsaAcct"><a class="acct-link signin" href="../signin.html">Sign in</a></div>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../syllabus.html">Syllabus</a></li>
+<li><a href="../scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="../index.html#units">Units</a></li>
+<li><a href="../lessons.html">Lessons</a></li>
+<li><a href="../materials.html">Materials</a></li>
+<li><a href="../student-handouts.html">Students</a></li>
+<li><a href="../games/index.html" class="active">Games</a></li>
+<li><a href="../standards.html">Standards</a></li>
+<li><a href="../grading.html">Grading</a></li>
+<li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<!-- SKELETON. The shared chrome for every engine built game.
+     This file is a template, not a page. The builder copies it, swaps every
+     {{SLOT}} below for the game's own text, and writes the result to
+     _tools/games/<slug>.html as an HTML fragment. build_site.py wraps the
+     fragment in the site shell and loads games.css and arcade.js for it.
+     Read _engine.README.md before you change anything here.
+     Everything on this page is static: no sound, no network, and nothing
+     stored except the one local score line LSA.report writes. -->
+<div class="game" id="SafetyWalk">
+
+<!-- 1. Teacher note. Prints. Never plays. -->
+<div class="teacher-note">
+<strong>Teacher note</strong>
+<p>Reviews <a href="../lesson-03-17.html">Lesson 3.17</a>. Safety Walk reviews Lesson 3.17: the safety walk through Eli's home, the tube test, and the four job scenarios. Use it the day after the lesson, before the Project 03 safety checklist in Lesson 3.18 Day 2, or as review for Unit 3 Test item 19. The scene is the handout's described home drawn as a cutaway, so a student who did the paper walk will know where to look; every tap gives the key's fix, and the end panel names the bathtub, the bucket, and the open gate first if they were missed, because those are the three the key says to check on every walk. The game does not dramatize rule 3; the seven rules are in the study list as the handout prints them. Hazard Hunt in Unit 1 is a different picture and a different list (kitchen hazards for a cook); this one is toddler hazards for a babysitter.</p>
+</div>
+
+<!-- 2. Title and lede. The second word takes the accent style. -->
+<div class="game-head"><img class="title-art" src="art/safety-walk-title.webp" alt=""><h1 class="game-title">Safety <span class="alt2">Walk</span></h1></div>
+<p class="game-lede">A cutaway of Eli's home appears: living room, kitchen, bathroom, bedroom, back door, and yard. Tap every toddler hazard, and each tap names the fix. Then tap fits or does not fit for the tube test.</p>
+
+<!-- 3. HUD. aria-hidden because the live region below carries it for a screen reader. -->
+<div class="hud" aria-hidden="true">
+  <div class="stat"><span class="lab">Round</span><span class="val" data-hud="round">1 of 2</span></div>
+  <div class="stat timer" data-hud-box="secs"><span class="lab">Seconds</span><span class="val" data-hud="secs">0</span></div>
+  <div class="stat"><span class="lab">Streak</span><span class="val" data-hud="streak">0</span></div>
+  <div class="stat score"><span class="lab">Score</span><span class="val" data-hud="score">0</span></div>
+</div>
+
+<!-- 4. One polite live region. The engine writes the prompt and every result here. -->
+<div class="sr-live" aria-live="polite" data-lsa="live"></div>
+
+<!-- 5. Start panel. scoring.note goes in word for word. -->
+<div class="panel" data-lsa="start">
+  <h2>How to play</h2>
+  <p data-lsa="scoringnote"></p>
+  <div data-lsa="ruleswrap" hidden><ul class="lsa-rules" data-lsa="rules"><li>Never leave a young child alone. Not for a minute, not to answer the door. Take them with you.</li><li>Safe sleep: a baby sleeps on their back, in a crib or bassinet, on a firm flat mattress, with nothing else in it. No blanket, no pillow, no stuffed animal, no bumper.</li><li>Never shake a baby. Ever. If a baby will not stop crying: put them down safely on their back in the empty crib, step out for two minutes, breathe, check them, then call the parent.</li><li>Small objects and choking foods stay out of reach. Anything that fits through a toilet paper tube can choke a child under 3. A child under 4 eats sitting down with an adult watching. No whole grapes, hot dogs, hard candy, nuts, popcorn, or chunks of raw carrot or apple.</li><li>Water and stairs: never look away. A child can drown in two inches of water. The bath is never left, not for a towel. Stairs get a gate or a hand.</li><li>In an emergency, call 911 first for anything you cannot handle. Know the address. Know the parent's number and a backup. Then call the parent.</li><li>Know when to say no to a job. Short jobs, a child old enough to talk, a parent you know and can reach, a house you have seen, daylight or early evening, no infants overnight.</li><li>The three the key says to check for on every walk are the bathtub, the bucket, and the open gate; the end panel names any of those three that were missed first. The throw blanket on the couch is a bonus catch in the key and is drawn in but not a target or a decoy.</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="go">Start</button></p>
+</div>
+
+<!-- 6. Play area. The task card, the feedback line, the options. Nothing else moves. -->
+<div class="lsa-play" data-lsa="play" hidden>
+  <div class="sr-task">
+    <span class="sr-tasklab" data-lsa="tasklab">Round 1</span>
+    <span class="sr-tasktext" data-lsa="prompt"></span>
+  </div>
+  <div class="lsa-scene" data-lsa="scene" hidden></div>
+  <div class="lsa-custom" data-lsa="custom" hidden></div>
+  <div class="feedback" data-lsa="feed"></div>
+  <div class="lsa-options" data-lsa="options"></div>
+  <ol class="sr-slots" data-lsa="slots" aria-label="The order so far" hidden></ol>
+  <div class="sr-cards" data-lsa="cards" hidden></div>
+</div>
+
+<!-- 7. Art bank. One span per key, keyed by the art file name with no extension.
+     build_site.py turns the img into a real picture only when the WebP exists,
+     so a game with no art still plays: the card renders as text. -->
+<div class="art-bank" data-lsa="art" hidden>
+<span data-key="safety-walk-large-block"><img class="piece" src="art/safety-walk-large-block.webp" alt="" loading="lazy"></span>
+<span data-key="safety-walk-tennis-ball"><img class="piece" src="art/safety-walk-tennis-ball.webp" alt="" loading="lazy"></span>
+<span data-key="safety-walk-bottle-cap"><img class="piece" src="art/safety-walk-bottle-cap.webp" alt="" loading="lazy"></span>
+<span data-key="safety-walk-bead"><img class="piece" src="art/safety-walk-bead.webp" alt="" loading="lazy"></span>
+<span data-key="safety-walk-coin"><img class="piece" src="art/safety-walk-coin.webp" alt="" loading="lazy"></span>
+<span data-key="safety-walk-marker-cap"><img class="piece" src="art/safety-walk-marker-cap.webp" alt="" loading="lazy"></span>
+<span data-key="safety-walk-scene"><img class="piece" src="art/safety-walk-scene.webp" alt="" loading="lazy"></span>
+</div>
+
+<!-- 8. End panel. -->
+<div class="panel end" data-lsa="end" hidden>
+  <h2>Done</h2>
+  <p class="big" data-lsa="final"></p>
+  <p data-lsa="summary"></p>
+  <div data-lsa="misswrap" hidden><p><b>The ones to study:</b></p><ul class="miss-list" data-lsa="missed"></ul></div>
+  <div class="lsa-study" data-lsa="studywrap" hidden><p><b>Worth knowing by heart:</b></p><ul data-lsa="study"><li>The seven rules and why each exists (Handout 03.17 Part 1)</li><li>The safety walk key: fourteen findings by room (Part 2)</li><li>The tube test: fits through = danger</li><li>The emergency card lines (Part 3) and the general rule for 12 to 14 year olds (rule 7)</li></ul></div>
+  <p><button class="gbtn go" type="button" data-lsa="again">Play again</button> <a class="gbtn alt" href="index.html">All games</a> <a class="gbtn alt lsa-board" href="../leaderboard.html" hidden>Class leaderboard</a></p>
+</div>
+</div>
+
+<style>
+/* The engine's own layout. Everything else comes from games.css. */
+.sr-task{background:#fff;border:2.5px solid var(--outline);border-radius:14px;padding:.9rem 1rem 1rem;margin:.4rem 0 .6rem;
+  box-shadow:5px 5px 0 var(--outline);min-height:5.5rem}
+.sr-tasklab{display:block;font:700 .7rem/1.2 var(--sans);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2)}
+.sr-tasktext{display:block;font-size:1.2rem;font-weight:600;line-height:1.35;margin-top:.25rem}
+.sr-tasktext .piece{display:block;width:7rem;height:7rem;object-fit:contain;margin:.2rem auto .4rem}
+.lsa-swatch{display:block;width:5rem;height:3rem;margin:.2rem auto .4rem;border:2.5px solid var(--outline);border-radius:10px}
+.lsa-sub{display:block;font-size:.82rem;font-weight:400;line-height:1.3;color:var(--ink-2);margin-top:.2rem}
+.lsa-options{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.lsa-options[hidden]{display:none}
+.lsa-options .gbtn{font-size:.95rem;line-height:1.25;padding:.7rem .6rem;min-height:3.6rem;white-space:normal;text-align:center}
+.lsa-options .gbtn.wide{grid-column:1 / -1;text-align:left}
+.lsa-options .gbtn .lsa-sub{color:var(--ink-2)}
+@media (min-width:700px){.lsa-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots{list-style:none;counter-reset:slot;margin:.6rem 0;padding:0;display:grid;gap:.4rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sr-slots[hidden]{display:none}
+@media (min-width:700px){.sr-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-slots li{counter-increment:slot;min-height:3rem;border:2.5px dashed var(--outline);border-radius:10px;padding:.5rem .6rem .5rem 2.3rem;
+  position:relative;background:var(--surface-2);font-size:.95rem;line-height:1.3;color:var(--ink-2)}
+.sr-slots li::before{content:counter(slot);position:absolute;left:.55rem;top:.45rem;font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sr-slots li.filled{border-style:solid;background:var(--brand-green);color:var(--ink);font-weight:600}
+.sr-slots li.shown{border-style:solid;background:#fff;color:var(--ink)}
+.sr-cards{display:grid;gap:.5rem;grid-template-columns:repeat(2,minmax(0,1fr));margin:.6rem 0}
+.sr-cards[hidden]{display:none}
+@media (min-width:700px){.sr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sr-card{font:600 1rem/1.3 var(--sans);text-align:left;padding:.7rem .8rem;border-radius:10px;border:2.5px solid var(--outline);
+  background:var(--brand-yellow);color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--outline);min-height:44px}
+.sr-card:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--outline)}
+.sr-card.wrong{background:var(--brand-red);color:#fff}
+.sr-card[hidden]{display:none}
+.sr-card.has-art{display:flex;align-items:center;gap:.55rem}
+.sr-card .piece{width:2.6rem;height:2.6rem;object-fit:contain;flex:none}
+.lsa-scene[hidden]{display:none}
+.lsa-scene-wrap{position:relative;width:100%;margin:.6rem 0;border:2.5px solid var(--outline);border-radius:12px;
+  overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--outline);cursor:pointer;touch-action:manipulation;user-select:none}
+.lsa-scene-img{display:block;width:100%;height:auto;-webkit-user-drag:none}
+.lsa-mark{position:absolute;box-sizing:border-box;border:3px solid var(--outline);border-radius:10px;pointer-events:none}
+.lsa-mark.right{border-color:#1d7a2a;background:rgba(127,212,76,.35)}
+.lsa-mark.wrong{border-color:#b3261e;background:rgba(255,90,77,.35)}
+.lsa-mark.shown{border-color:#b3261e;border-style:dashed;background:rgba(255,210,63,.3)}
+.lsa-scene-keys{display:flex;flex-wrap:wrap;gap:.3rem}
+.sr-only-btn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0}
+.sr-only-btn:focus{position:static;width:auto;height:auto;clip:auto;padding:.3rem .6rem}
+.lsa-custom[hidden]{display:none}
+.lsa-rules{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-rules li{margin:.25rem 0;line-height:1.4}
+.lsa-study ul{margin:.3rem 0 0 1.1rem;padding:0}
+.lsa-study li{margin:.25rem 0;line-height:1.4}
+</style>
+
+<!-- The data. One normalized game object, straight out of plan/normalized/. -->
+<script type="application/json" data-lsa="data" id="SafetyWalk-data">{"schema": "1.0", "slug": "safety-walk", "title": "Safety Walk", "unit": 3, "lessons": ["3.17"], "handouts": ["Handout 03.17 - Babysitter Safety Walk and Emergency Card"], "standards": ["NYS HDR 1. Human Growth and Development Across the Lifespan c) Demonstrate understanding of procedures required for the care of an infant or young child", "CTE HSW 3. Personal Safety c) Summarize common causes of intentional and unintentional injury and describe associated prevention strategies", "CTE HSW 3. Personal Safety e) Develop safety plans and practice emergency responses", "CTE HSW 4. Classroom and Workplace Safety g) Understand and follow preplanned procedures in the case of accident or emergency", "NYS FACS Learning Standard 2 (Intermediate), Performance Indicator: Students know the basics of managing a safe and healthy home.", "NYS FACS Learning Standard 2 (Intermediate), Performance Indicator: Students demonstrate the principles of safe and healthy childcare.", "NYS FACS Learning Standard 2 (Intermediate), Key Idea: Students will know the basic principles of home and community safety. They can demonstrate the skills necessary to maintain their homes and workplaces in a safe and comfortable condition. They can provide a safe and nurturing environment for themselves and others.", "CDOS Standard 3a Universal Foundation Skills: Personal Qualities", "National FCS 3.0: 15.2.1 Examine the nurturing habits that support a child's growth and development.", "National FCS 3.0: 15.2.4 Examine what abuse and neglect do to children and families, and how prevention works."], "source_file": "u3.json", "mechanic_note": "spot-the-thing: one baked cutaway picture of Eli's home (living room, kitchen, bathroom, bedroom, back door and yard); tap every hazard for a toddler before the clock runs out; each tap names the fix. Round 2 is a fast read: the tube test objects (tap \"fits through\" or \"does not fit\") and the four \"should you take this job\" scenarios (tap yes, yes with conditions, or no)", "teacher_note": "Safety Walk reviews Lesson 3.17: the safety walk through Eli's home, the tube test, and the four job scenarios. Use it the day after the lesson, before the Project 03 safety checklist in Lesson 3.18 Day 2, or as review for Unit 3 Test item 19. The scene is the handout's described home drawn as a cutaway, so a student who did the paper walk will know where to look; every tap gives the key's fix, and the end panel names the bathtub, the bucket, and the open gate first if they were missed, because those are the three the key says to check on every walk. The game does not dramatize rule 3; the seven rules are in the study list as the handout prints them. Hazard Hunt in Unit 1 is a different picture and a different list (kitchen hazards for a cook); this one is toddler hazards for a babysitter.", "scoring": {"per_correct": 10, "streak_bonus": 5, "streak_every": 3, "bank_seconds": true, "note": "10 per hazard found, 5 bonus on every third in a row, a tap on a safe decoy costs nothing and names why it is safe, a second tap on the same hazard does nothing; the round ends when the clock runs out or every hazard is found; the end panel lists the hazards not found by room; Round 2 is 10 per correct and a miss shows the rule that decides it; seconds left bank at the end of a completed round"}, "art": {"title": {"file": "safety-walk-title.png", "line": "A cream cardboard toilet paper tube standing upright with a yellow coin leaning against it."}, "scene": [{"file": "safety-walk-scene.png", "line": "A cutaway of a small house seen from the front with the wall removed, light gray frame lines: top left a living room, top middle a kitchen, top right a bathroom, bottom left a bedroom, bottom middle a back door with three steps, bottom right a yard with a fence and a gate; every object from the scene text drawn in flat sticker style in sky blue, red, green, yellow, white, cream, and light gray with black outlines, no people, no faces, no text.", "width": 1536, "height": 1024, "regions": [{"name": "living room", "box": [0, 80, 520, 400]}, {"name": "kitchen", "box": [520, 80, 540, 400]}, {"name": "bathroom", "box": [1060, 80, 476, 400]}, {"name": "bedroom", "box": [0, 520, 600, 420]}, {"name": "back door and yard", "box": [600, 520, 936, 420]}], "positions": [{"name": "bowl of hard candy", "room": "living room", "box": {"x": 150, "y": 330, "w": 70, "h": 50}, "kind": "target"}, {"name": "keys and remote", "room": "living room", "box": {"x": 230, "y": 335, "w": 80, "h": 40}, "kind": "target"}, {"name": "lamp cord across walkway", "room": "living room", "box": {"x": 330, "y": 380, "w": 150, "h": 40}, "kind": "target"}, {"name": "heavy vase on unstrapped bookshelf", "room": "living room", "box": {"x": 40, "y": 120, "w": 90, "h": 90}, "kind": "target"}, {"name": "uncovered outlets", "room": "living room", "box": {"x": 420, "y": 300, "w": 60, "h": 40}, "kind": "target"}, {"name": "small bouncy ball in toy basket", "room": "living room", "box": {"x": 200, "y": 400, "w": 40, "h": 40}, "kind": "target"}, {"name": "pot handle turned out", "room": "kitchen", "box": {"x": 620, "y": 250, "w": 90, "h": 60}, "kind": "target"}, {"name": "knives up in open dishwasher", "room": "kitchen", "box": {"x": 730, "y": 340, "w": 100, "h": 70}, "kind": "target"}, {"name": "cleaner and pods under sink", "room": "kitchen", "box": {"x": 850, "y": 360, "w": 90, "h": 70}, "kind": "target"}, {"name": "grapes at counter edge", "room": "kitchen", "box": {"x": 880, "y": 270, "w": 60, "h": 40}, "kind": "target"}, {"name": "plastic bag on floor", "room": "kitchen", "box": {"x": 640, "y": 420, "w": 70, "h": 50}, "kind": "target"}, {"name": "dog water bowl", "room": "kitchen", "box": {"x": 980, "y": 430, "w": 60, "h": 35}, "kind": "target"}, {"name": "water in bathtub", "room": "bathroom", "box": {"x": 1120, "y": 300, "w": 180, "h": 80}, "kind": "target"}, {"name": "medicine on counter", "room": "bathroom", "box": {"x": 1350, "y": 260, "w": 40, "h": 50}, "kind": "target"}, {"name": "hair dryer by sink", "room": "bathroom", "box": {"x": 1400, "y": 280, "w": 70, "h": 50}, "kind": "target"}, {"name": "toilet lid up", "room": "bathroom", "box": {"x": 1330, "y": 380, "w": 70, "h": 70}, "kind": "target"}, {"name": "blanket pillow and stuffed animals in crib", "room": "bedroom", "box": {"x": 160, "y": 640, "w": 200, "h": 110}, "kind": "target"}, {"name": "blind cord at crib height", "room": "bedroom", "box": {"x": 120, "y": 560, "w": 30, "h": 120}, "kind": "target"}, {"name": "lamp on dresser with sliding drawers", "room": "bedroom", "box": {"x": 420, "y": 600, "w": 120, "h": 150}, "kind": "target"}, {"name": "back door does not latch", "room": "back door and yard", "box": {"x": 700, "y": 600, "w": 90, "h": 180}, "kind": "target"}, {"name": "steps with no railing", "room": "back door and yard", "box": {"x": 800, "y": 720, "w": 120, "h": 80}, "kind": "target"}, {"name": "bucket of rainwater", "room": "back door and yard", "box": {"x": 1250, "y": 760, "w": 60, "h": 70}, "kind": "target"}, {"name": "gate to street open", "room": "back door and yard", "box": {"x": 1400, "y": 640, "w": 80, "h": 180}, "kind": "target"}, {"name": "large blocks", "room": "living room", "box": {"x": 160, "y": 400, "w": 50, "h": 40}, "kind": "decoy"}, {"name": "nightlight", "room": "bedroom", "box": {"x": 380, "y": 700, "w": 30, "h": 30}, "kind": "decoy"}, {"name": "small plastic slide", "room": "back door and yard", "box": {"x": 1000, "y": 740, "w": 140, "h": 90}, "kind": "decoy"}, {"name": "bath mat", "room": "bathroom", "box": {"x": 1150, "y": 420, "w": 120, "h": 30}, "kind": "decoy"}, {"name": "throw blanket on couch", "room": "living room", "box": {"x": 330, "y": 280, "w": 120, "h": 60}, "kind": "drawn only"}]}], "cards": [{"file": "safety-walk-large-block.png", "line": "A large red wooden toy block with a black outline."}, {"file": "safety-walk-tennis-ball.png", "line": "A yellow tennis ball with a white curved seam."}, {"file": "safety-walk-bottle-cap.png", "line": "A small sky blue plastic bottle cap, ridged, seen from the side."}, {"file": "safety-walk-bead.png", "line": "A single round green bead the size of a grape with a small hole through it."}, {"file": "safety-walk-coin.png", "line": "A single yellow coin with a black outline and no markings."}, {"file": "safety-walk-marker-cap.png", "line": "A red marker cap standing on end with a black outline."}], "buttons": [], "bins": [], "badges": []}, "rounds": [{"n": 1, "note": "Round 1: 23 hazards in the scene with 4 safe decoys, 90 seconds", "seconds_per_item": 90, "engines": ["scene"], "steps": [{"kind": "scene", "scene": {"file": "safety-walk-scene.png", "width": 1536, "height": 1024, "regions": [{"name": "living room", "box": [45, 110, 520, 375]}, {"name": "kitchen", "box": [575, 110, 425, 375]}, {"name": "bathroom", "box": [1010, 110, 470, 375]}, {"name": "bedroom", "box": [40, 500, 535, 310]}, {"name": "back door and yard", "box": [580, 500, 900, 400]}], "alt": "A cutaway of a small house: living room, kitchen, bathroom, bedroom, back door and yard, with the toddler hazards drawn in."}, "mode": "find_all", "targets": [{"id": "bowl-of-hard-candy", "prompt": "bowl of hard candy", "region": "living room", "answer": ["bowl of hard candy"], "boxes": [[150, 365, 80, 65]], "feedback": "A glass bowl of hard candy on the coffee table. Move it up high or out of the room."}, {"id": "keys-and-remote", "prompt": "keys and remote", "region": "living room", "answer": ["keys and remote"], "boxes": [[232, 385, 133, 50]], "feedback": "A set of keys and a TV remote (button battery) on the coffee table. Move them up high."}, {"id": "lamp-cord-across-walkway", "prompt": "lamp cord across walkway", "region": "living room", "answer": ["lamp cord across walkway"], "boxes": [[235, 345, 175, 35]], "feedback": "A floor lamp with the cord running across the walkway to the outlet. Move the lamp or tape the cord along the wall."}, {"id": "heavy-vase-on-unstrapped-bookshelf", "prompt": "heavy vase on unstrapped bookshelf", "region": "living room", "answer": ["heavy vase on unstrapped bookshelf"], "boxes": [[445, 145, 110, 125]], "feedback": "A heavy vase on the top shelf of a bookshelf with no wall strap. Move the vase down; do not let him climb."}, {"id": "uncovered-outlets", "prompt": "uncovered outlets", "region": "living room", "answer": ["uncovered outlets"], "boxes": [[385, 272, 58, 42]], "feedback": "Two uncovered outlets behind the couch. Cover them, or block them with the couch and keep Eli away."}, {"id": "small-bouncy-ball-in-toy-basket", "prompt": "small bouncy ball in toy basket", "region": "living room", "answer": ["small bouncy ball in toy basket"], "boxes": [[487, 385, 50, 55]], "feedback": "One small bouncy ball in the toy basket. It fits through the tube. Move it out of the room. The large blocks can stay."}, {"id": "pot-handle-turned-out", "prompt": "pot handle turned out", "region": "kitchen", "answer": ["pot handle turned out"], "boxes": [[630, 215, 105, 55]], "feedback": "A pot on the front burner, handle turned out. Turn the handle in. Keep Eli out of the kitchen while you cook."}, {"id": "knives-up-in-open-dishwasher", "prompt": "knives up in open dishwasher", "region": "kitchen", "answer": ["knives up in open dishwasher"], "boxes": [[700, 280, 105, 105]], "feedback": "Knives pointing up in the open dishwasher. Close and latch the dishwasher."}, {"id": "cleaner-and-pods-under-sink", "prompt": "cleaner and pods under sink", "region": "kitchen", "answer": ["cleaner and pods under sink"], "boxes": [[810, 280, 165, 105]], "feedback": "Spray cleaner and dishwasher pods under a sink with no latch. Move them up high. Poison Control goes on the emergency card: 1-800-222-1222."}, {"id": "grapes-at-counter-edge", "prompt": "grapes at counter edge", "region": "kitchen", "answer": ["grapes at counter edge"], "boxes": [[925, 215, 50, 60]], "feedback": "A bowl of grapes at the edge of the counter. Move it back. If Eli eats grapes, quarter them and sit with him."}, {"id": "plastic-bag-on-floor", "prompt": "plastic bag on floor", "region": "kitchen", "answer": ["plastic bag on floor"], "boxes": [[655, 415, 120, 60]], "feedback": "A plastic store bag on the floor. Throw it out or put it up high."}, {"id": "dog-water-bowl", "prompt": "dog water bowl", "region": "kitchen", "answer": ["dog water bowl"], "boxes": [[875, 405, 95, 65]], "feedback": "A dog's water bowl by the back door. Standing water a toddler can reach. Empty it or gate it off."}, {"id": "water-in-bathtub", "prompt": "water in bathtub", "region": "bathroom", "answer": ["water in bathtub"], "boxes": [[1005, 250, 180, 160]], "feedback": "Two inches of water still in the bathtub. Drain the tub. A child can drown in two inches of water."}, {"id": "medicine-on-counter", "prompt": "medicine on counter", "region": "bathroom", "answer": ["medicine on counter"], "boxes": [[1180, 200, 75, 50]], "feedback": "Children's medicine on the bathroom counter. Put it up high. Never give medicine unless the parent told you to and wrote it down."}, {"id": "hair-dryer-by-sink", "prompt": "hair dryer by sink", "region": "bathroom", "answer": ["hair dryer by sink"], "boxes": [[1315, 225, 90, 55]], "feedback": "A hair dryer plugged in next to the sink. Unplug it and put it away."}, {"id": "toilet-lid-up", "prompt": "toilet lid up", "region": "bathroom", "answer": ["toilet lid up"], "boxes": [[1330, 285, 130, 155]], "feedback": "The toilet lid up. Close the lid and keep the bathroom door shut."}, {"id": "blanket-pillow-and-stuffed-animals-in-crib", "prompt": "blanket pillow and stuffed animals in crib", "region": "bedroom", "answer": ["blanket pillow and stuffed animals in crib"], "boxes": [[90, 650, 160, 105]], "feedback": "A soft blanket, a pillow, and two stuffed animals in the crib. Take everything out of the crib. Back to sleep, empty crib."}, {"id": "blind-cord-at-crib-height", "prompt": "blind cord at crib height", "region": "bedroom", "answer": ["blind cord at crib height"], "boxes": [[330, 545, 45, 90]], "feedback": "A blind cord hanging down to crib height. Tie the cord up out of reach."}, {"id": "lamp-on-dresser-with-sliding-drawers", "prompt": "lamp on dresser with sliding drawers", "region": "bedroom", "answer": ["lamp on dresser with sliding drawers"], "boxes": [[395, 515, 165, 255]], "feedback": "A dresser with a lamp on top and drawers that slide out easily. Keep Eli out of the bedroom unless you are in it; do not let him climb it."}, {"id": "back-door-does-not-latch", "prompt": "back door does not latch", "region": "back door and yard", "answer": ["back door does not latch"], "boxes": [[700, 500, 140, 255]], "feedback": "A back door that does not latch. Lock or block the door. Stay between Eli and the door."}, {"id": "steps-with-no-railing", "prompt": "steps with no railing", "region": "back door and yard", "answer": ["steps with no railing"], "boxes": [[610, 757, 260, 140]], "feedback": "Three steps down to the yard with no railing. Hold his hand on every step."}, {"id": "bucket-of-rainwater", "prompt": "bucket of rainwater", "region": "back door and yard", "answer": ["bucket of rainwater"], "boxes": [[925, 715, 110, 110]], "feedback": "A bucket half full of rainwater by the fence. Dump the bucket. Two inches. Two seconds."}, {"id": "gate-to-street-open", "prompt": "gate to street open", "region": "back door and yard", "answer": ["gate to street open"], "boxes": [[1230, 525, 165, 210]], "feedback": "A gate to the street, open. Close and latch the gate."}], "decoys": [{"id": "large-blocks", "prompt": "large blocks", "region": "living room", "answer": ["large blocks"], "boxes": [[415, 385, 65, 50]], "feedback": "The large blocks are safe; they are too big for the tube. That is the point of the tube test."}, {"id": "nightlight", "prompt": "nightlight", "region": "bedroom", "answer": ["nightlight"], "boxes": [[320, 648, 45, 60]], "feedback": "The nightlight is fine, and worth saying why: you can see the crib without turning on the big light."}, {"id": "small-plastic-slide", "prompt": "small plastic slide", "region": "back door and yard", "answer": ["small plastic slide"], "boxes": [[1040, 615, 185, 170]], "feedback": "The small plastic slide is fine with you beside it."}, {"id": "bath-mat", "prompt": "bath mat", "region": "bathroom", "answer": ["bath mat"], "boxes": [[1187, 410, 140, 60]], "feedback": "The bath mat is a bonus catch in the key (a slip), not one of the fourteen findings; no points lost."}]}]}, {"n": 2, "note": "Round 2: 6 tube test objects then 4 job scenarios, 8 seconds each", "seconds_per_item": 8, "engines": ["choice"], "steps": [{"kind": "choice", "label": "round2", "items": [{"id": "large-block", "prompt": "The tube test: Large block", "answer": ["does not fit"], "feedback": "Large block: does not fit through the tube, so it is safe. That is the point of the tube test.", "option_set": "round2_tube_buttons", "options": {"count": 2, "style": "buttons"}}, {"id": "tennis-ball", "prompt": "The tube test: Tennis ball", "answer": ["does not fit"], "feedback": "Tennis ball: does not fit through the tube, so it is safe. That is the point of the tube test.", "option_set": "round2_tube_buttons", "options": {"count": 2, "style": "buttons"}}, {"id": "bottle-cap", "prompt": "The tube test: Bottle cap", "answer": ["fits through"], "feedback": "Bottle cap: fits through = danger. Anything that fits through a toilet paper tube can choke a child under 3.", "option_set": "round2_tube_buttons", "options": {"count": 2, "style": "buttons"}}, {"id": "bead-grape-size", "prompt": "The tube test: Bead (grape size)", "answer": ["fits through"], "feedback": "Bead (grape size): fits through = danger. Anything that fits through a toilet paper tube can choke a child under 3.", "option_set": "round2_tube_buttons", "options": {"count": 2, "style": "buttons"}}, {"id": "coin", "prompt": "The tube test: Coin", "answer": ["fits through"], "feedback": "Coin: fits through = danger. Anything that fits through a toilet paper tube can choke a child under 3.", "option_set": "round2_tube_buttons", "options": {"count": 2, "style": "buttons"}}, {"id": "marker-cap", "prompt": "The tube test: Marker cap", "answer": ["fits through"], "feedback": "Marker cap: fits through = danger. Anything that fits through a toilet paper tube can choke a child under 3.", "option_set": "round2_tube_buttons", "options": {"count": 2, "style": "buttons"}}, {"id": "job-a", "prompt": "Should you take this job? A neighbor's 6 year old for two hours on Saturday afternoon while the parent is next door.", "answer": ["yes"], "feedback": "Yes: short, a child who can talk, the parent next door.", "option_set": "round2_job_buttons", "options": {"count": 3, "style": "buttons"}}, {"id": "job-b", "prompt": "Should you take this job? A 4 month old baby overnight while the parents go out of town.", "answer": ["no"], "feedback": "No: an infant, overnight. Rule 7: no infants overnight.", "option_set": "round2_job_buttons", "options": {"count": 3, "style": "buttons"}}, {"id": "job-c", "prompt": "Should you take this job? A 3 year old and a 5 year old for four hours on a Friday evening; the parent is at a work event and reachable by phone; you have been to the house twice.", "answer": ["yes with conditions"], "feedback": "Yes with conditions: four hours is long for a first job; two children; the parent must be reachable and the house is known. A 14 year old could; a 12 year old should say the two-hour version or bring an adult's okay.", "option_set": "round2_job_buttons", "options": {"count": 3, "style": "buttons"}}, {"id": "job-d", "prompt": "Should you take this job? A friend's cousin, ages unknown, at a house you have never been to; the friend says \"just come, it is fine\"; no parent's number given.", "answer": ["no"], "feedback": "No: unknown ages, unknown house, no parent's number. Rule 6 and rule 7 both fail.", "option_set": "round2_job_buttons", "options": {"count": 3, "style": "buttons"}}], "options": {"source": "fixed", "style": "buttons", "count": 2, "list": [{"id": "fits through", "label": "Fits through"}, {"id": "does not fit", "label": "Does not fit"}]}}], "option_sets": [{"label": "round2_tube_buttons", "list": [{"id": "fits through", "label": "Fits through"}, {"id": "does not fit", "label": "Does not fit"}]}, {"label": "round2_job_buttons", "list": [{"id": "yes", "label": "Yes"}, {"id": "yes with conditions", "label": "Yes with conditions"}, {"id": "no", "label": "No"}]}]}], "study": ["The seven rules and why each exists (Handout 03.17 Part 1)", "The safety walk key: fourteen findings by room (Part 2)", "The tube test: fits through = danger", "The emergency card lines (Part 3) and the general rule for 12 to 14 year olds (rule 7)"], "rule_lines": ["Never leave a young child alone. Not for a minute, not to answer the door. Take them with you.", "Safe sleep: a baby sleeps on their back, in a crib or bassinet, on a firm flat mattress, with nothing else in it. No blanket, no pillow, no stuffed animal, no bumper.", "Never shake a baby. Ever. If a baby will not stop crying: put them down safely on their back in the empty crib, step out for two minutes, breathe, check them, then call the parent.", "Small objects and choking foods stay out of reach. Anything that fits through a toilet paper tube can choke a child under 3. A child under 4 eats sitting down with an adult watching. No whole grapes, hot dogs, hard candy, nuts, popcorn, or chunks of raw carrot or apple.", "Water and stairs: never look away. A child can drown in two inches of water. The bath is never left, not for a towel. Stairs get a gate or a hand.", "In an emergency, call 911 first for anything you cannot handle. Know the address. Know the parent's number and a backup. Then call the parent.", "Know when to say no to a job. Short jobs, a child old enough to talk, a parent you know and can reach, a house you have seen, daylight or early evening, no infants overnight.", "The three the key says to check for on every walk are the bathtub, the bucket, and the open gate; the end panel names any of those three that were missed first. The throw blanket on the couch is a bonus catch in the key and is drawn in but not a target or a decoy."], "reference": {"scene_text": {"living room": "A couch with a throw blanket. A coffee table with a glass bowl of hard candy, a TV remote, and a set of keys. A floor lamp with the cord running across the walkway to the outlet. A bookshelf with a heavy vase on the top shelf and no wall strap. Two uncovered outlets behind the couch. A basket of Eli's toys, including a set of large blocks and one small bouncy ball.", "kitchen": "A stove with a pot on the front burner, handle turned out. A dishwasher, open, with knives pointing up in the basket. Under the sink, a bottle of spray cleaner and a box of dishwasher pods, the cabinet with no latch. A bowl of grapes on the counter at the edge. A plastic bag from the store on the floor. A dog's water bowl by the back door.", "bathroom": "A bathtub with two inches of water still in it from the morning. A bottle of children's medicine on the counter, cap on. A hair dryer plugged in next to the sink. The toilet lid up. A bath mat.", "bedroom": "A crib with a soft blanket, a pillow, and two stuffed animals in it. A window with a blind cord hanging down to crib height. A dresser with a lamp on top and drawers that slide out easily. A nightlight.", "back door and yard": "A back door that does not latch. Three steps down to the yard with no railing. A bucket half full of rainwater by the fence. A small plastic slide. A gate to the street, open."}, "round1_must_find": ["water in bathtub", "bucket of rainwater", "gate to street open"], "emergency_card_lines": ["Address (street, apartment, town)", "Cross street", "Parent's name and cell", "Backup adult's name and number", "Child's name and age", "Allergies and medicines", "Where the first aid kit is", "Where the parents will be and when they are back", "Poison Control: 1-800-222-1222", "Emergency: 911"]}, "_unmapped": {}, "repaired": true, "lede": "A cutaway of Eli's home appears: living room, kitchen, bathroom, bedroom, back door, and yard. Tap every toddler hazard, and each tap names the fix. Then tap fits or does not fit for the tube test."}</script>
+
+<!-- The engine. One shared file, games/_engine.js, copied into the site by
+     build_site.py beside games.css and arcade.js (D67). A fix to the engine
+     reaches every game on the next build. -->
+<script src="_engine.js?v=2026-09-22"></script>
+
+
+<!-- The bootstrap. Reads the data block and starts the engine on this game. -->
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("SafetyWalk");
+  var node = document.getElementById("SafetyWalk-data");
+  var data = JSON.parse(node.textContent);
+  window.LSAGame = window.LSAEngine.start({
+    data: data,
+    root: root
+  });
+}());
+</script>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-22. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="../js/config.js?v=2026-09-22"></script>
+<script src="../js/auth.js?v=2026-09-22" data-base="../"></script>
+<script src="../js/site.js"></script>
+
+</body>
+</html>
