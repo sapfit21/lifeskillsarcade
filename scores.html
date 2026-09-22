@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My scores, Life Skills Arcade</title>
+<meta name="description" content="Family and Consumer Sciences, Grades 6 to 8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='14' fill='%23FFC533' stroke='%23111111' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial,sans-serif' font-size='23' font-weight='900' text-anchor='middle' fill='%23111111'%3ELSA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css?v=2026-09-22">
+
+</head>
+<body class="student scores-page">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-title"><span class="bw1">Life</span> <span class="bw2">Skills</span> <span class="bw3">Arcade</span></span>
+      <span class="brand-sub">Middle school Family and Consumer Sciences, grades 6 to 8</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <div class="acct" id="lsaAcct"><a class="acct-link signin" href="signin.html">Sign in</a></div>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="syllabus.html">Syllabus</a></li>
+<li><a href="scope-and-sequence.html">Scope and Sequence</a></li>
+<li><a href="index.html#units">Units</a></li>
+<li><a href="lessons.html">Lessons</a></li>
+<li><a href="materials.html">Materials</a></li>
+<li><a href="student-handouts.html">Students</a></li>
+<li><a href="games/index.html">Games</a></li>
+<li><a href="standards.html">Standards</a></li>
+<li><a href="grading.html">Grading</a></li>
+<li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="plain">
+
+<div class="page-head">
+<p class="kicker">Your arcade</p>
+<h1 id="scoresTitle">My scores</h1>
+<p class="lede" id="scoresLede">Your best run on every game, your place in your class, and your last few plays.</p>
+</div>
+<p class="auth-off" id="needSignIn" hidden>Sign in with the username your teacher gave you to see your scores. <a href="signin.html">Sign in</a></p>
+<p class="auth-off" id="teacherNote" hidden>You are signed in as a teacher. Your students' scores are on the <a href="class.html">Class page</a>, and every class has a <a href="leaderboard.html">leaderboard</a>.</p>
+
+<div id="scoresBody" hidden>
+  <section class="me-card" aria-labelledby="me-h">
+    <div class="me-avatar" id="meAvatar"></div>
+    <div class="me-text">
+      <h2 id="me-h" class="me-name"></h2>
+      <p class="me-sub" id="meSub"></p>
+      <button class="go quiet small" type="button" id="pickAvatarBtn">Pick your avatar</button>
+    </div>
+  </section>
+  <div class="avatar-grid" id="avatarGrid" hidden role="group" aria-label="Pick an avatar"></div>
+  <p class="form-msg" id="av-msg" role="status" aria-live="polite"></p>
+
+  <div class="stats" id="myStats"></div>
+
+  <h3>Best score on every game</h3>
+  <p class="hint">Only your best run counts. Play again and beat it and the board updates. Games you have not played yet are greyed.</p>
+  <div class="row filters-row">
+    <label for="myUnit" class="inline-label">Unit</label><select id="myUnit"><option value="">All units</option></select>
+  </div>
+  <div class="table-wrap"><table class="best" id="bestTable"><thead><tr><th>Game</th><th>Lesson</th><th>Best</th><th>Plays</th><th>Class rank</th><th></th></tr></thead><tbody id="bestRows"></tbody></table></div>
+
+  <h3>Last plays</h3>
+  <div class="table-wrap"><table class="recent" id="recentTable"><thead><tr><th>When</th><th>Game</th><th>Score</th></tr></thead><tbody id="recentRows"></tbody></table></div>
+  <p class="note" id="noPlays" hidden>No plays yet. <a href="games/index.html">Pick a game</a>; when you finish one while signed in, it lands here.</p>
+</div>
+
+</main>
+<footer class="site-foot">
+  <p>Family and Consumer Sciences, Grades 6 to 8. Site built 2026-09-22. This site holds no student data and no photographs of students.</p>
+</footer>
+<script src="js/config.js?v=2026-09-22"></script>
+<script src="js/auth.js?v=2026-09-22" data-base=""></script>
+<script src="js/site.js"></script>
+<script src="js/catalog.js?v=2026-09-22"></script>
+<script src="js/scores.js?v=2026-09-22"></script>
+</body>
+</html>

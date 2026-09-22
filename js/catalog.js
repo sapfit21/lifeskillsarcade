@@ -6,139 +6,161 @@ window.LSA_CATALOG = {
     "7.6",
     "7.8"
    ],
-   "title": "Break-Even"
+   "title": "Break-Even",
+   "unit": 7
   },
   "button-up": {
    "lessons": [
     "5.8"
    ],
-   "title": "Button Up"
+   "title": "Button Up",
+   "unit": 5
   },
   "career-ladder": {
    "lessons": [
     "1.22"
    ],
-   "title": "Career Ladder"
+   "title": "Career Ladder",
+   "unit": 1
   },
   "cluster-match": {
    "lessons": [
     "2.21",
     "2.22"
    ],
-   "title": "Cluster Match"
+   "title": "Cluster Match",
+   "unit": 2
   },
   "color-mixer": {
    "lessons": [
     "4.8"
    ],
-   "title": "Color Mixer"
+   "title": "Color Mixer",
+   "unit": 4
   },
   "conflict-ladder": {
    "lessons": [
     "3.11"
    ],
-   "title": "Conflict Ladder"
+   "title": "Conflict Ladder",
+   "unit": 3
   },
   "crash-site": {
    "lessons": [
     "0.3"
    ],
-   "title": "Crash Site"
+   "title": "Crash Site",
+   "unit": 0
   },
   "eight-jobs": {
    "lessons": [
     "3.16"
    ],
-   "title": "Eight Jobs"
+   "title": "Eight Jobs",
+   "unit": 3
   },
   "fact-or-hype": {
    "lessons": [
     "2.15"
    ],
-   "title": "Fact or Hype"
+   "title": "Fact or Hype",
+   "unit": 2
   },
   "family-shapes": {
    "lessons": [
     "3.14"
    ],
-   "title": "Family Shapes"
+   "title": "Family Shapes",
+   "unit": 3
   },
   "farm-to-fork": {
    "lessons": [
     "6.1",
     "6.2"
    ],
-   "title": "Farm to Fork"
+   "title": "Farm to Fork",
+   "unit": 6
   },
   "fiber-detective": {
    "lessons": [
     "5.3",
     "5.4"
    ],
-   "title": "Fiber Detective"
+   "title": "Fiber Detective",
+   "unit": 5
   },
   "fix-it-kit": {
    "lessons": [
     "4.3"
    ],
-   "title": "Fix It Kit"
+   "title": "Fix It Kit",
+   "unit": 4
   },
   "four-bins": {
    "lessons": [
     "4.5"
    ],
-   "title": "Four Bins"
+   "title": "Four Bins",
+   "unit": 4
   },
   "goal-check": {
    "lessons": [
     "2.4",
     "2.5"
    ],
-   "title": "Goal Check"
+   "title": "Goal Check",
+   "unit": 2
   },
   "green-flag-red-flag": {
    "lessons": [
     "3.12",
     "3.6"
    ],
-   "title": "Green Flag, Red Flag"
+   "title": "Green Flag, Red Flag",
+   "unit": 3
   },
   "hazard-hunt": {
    "lessons": [
     "1.1"
    ],
-   "title": "Hazard Hunt"
+   "title": "Hazard Hunt",
+   "unit": 1
   },
   "heat-sort": {
    "lessons": [
     "6.6"
    ],
-   "title": "Heat Sort"
+   "title": "Heat Sort",
+   "unit": 6
   },
   "home-match": {
    "lessons": [
     "4.1"
    ],
-   "title": "Home Match"
+   "title": "Home Match",
+   "unit": 4
   },
   "job-cards": {
    "lessons": [
     "5.19"
    ],
-   "title": "Job Cards"
+   "title": "Job Cards",
+   "unit": 5
   },
   "kitchen-fix": {
    "lessons": [
     "6.8",
     "6.9"
    ],
-   "title": "Kitchen Fix"
+   "title": "Kitchen Fix",
+   "unit": 6
   },
   "label-detective": {
    "lessons": [
     "1.11"
    ],
-   "title": "Label Detective"
+   "title": "Label Detective",
+   "unit": 1
   },
   "lands-or-kills": {
    "lessons": [
@@ -146,20 +168,23 @@ window.LSA_CATALOG = {
     "7.10",
     "7.11"
    ],
-   "title": "Lands or Kills"
+   "title": "Lands or Kills",
+   "unit": 7
   },
   "laundry-day": {
    "lessons": [
     "5.4"
    ],
-   "title": "Laundry Day"
+   "title": "Laundry Day",
+   "unit": 5
   },
   "measure-up": {
    "lessons": [
     "1.6",
     "1.7"
    ],
-   "title": "Measure Up"
+   "title": "Measure Up",
+   "unit": 1
   },
   "money-math": {
    "lessons": [
@@ -168,32 +193,37 @@ window.LSA_CATALOG = {
     "2.18",
     "2.16"
    ],
-   "title": "Money Math"
+   "title": "Money Math",
+   "unit": 2
   },
   "myth-or-fact": {
    "lessons": [
     "3.3",
     "3.4"
    ],
-   "title": "Myth or Fact"
+   "title": "Myth or Fact",
+   "unit": 3
   },
   "nutrient-sort": {
    "lessons": [
     "1.9"
    ],
-   "title": "Nutrient Sort"
+   "title": "Nutrient Sort",
+   "unit": 1
   },
   "one-dish-three-names": {
    "lessons": [
     "6.10"
    ],
-   "title": "One Dish, Three Names"
+   "title": "One Dish, Three Names",
+   "unit": 6
   },
   "pattern-patrol": {
    "lessons": [
     "4.9"
    ],
-   "title": "Pattern Patrol"
+   "title": "Pattern Patrol",
+   "unit": 4
   },
   "paycheck-puzzle": {
    "lessons": [
@@ -201,7 +231,8 @@ window.LSA_CATALOG = {
     "2.8",
     "2.9"
    ],
-   "title": "Paycheck Puzzle"
+   "title": "Paycheck Puzzle",
+   "unit": 2
   },
   "pitch-perfect": {
    "lessons": [
@@ -210,14 +241,16 @@ window.LSA_CATALOG = {
     "7.9",
     "7.1"
    ],
-   "title": "Pitch Perfect"
+   "title": "Pitch Perfect",
+   "unit": 7
   },
   "plan-reader": {
    "lessons": [
     "4.10",
     "4.12"
    ],
-   "title": "Plan Reader"
+   "title": "Plan Reader",
+   "unit": 4
   },
   "problem-finder": {
    "lessons": [
@@ -225,20 +258,23 @@ window.LSA_CATALOG = {
     "7.7",
     "7.10"
    ],
-   "title": "Problem Finder"
+   "title": "Problem Finder",
+   "unit": 7
   },
   "rise-or-fall": {
    "lessons": [
     "6.7"
    ],
-   "title": "Rise or Fall"
+   "title": "Rise or Fall",
+   "unit": 6
   },
   "risk-ladder": {
    "lessons": [
     "2.14",
     "2.19"
    ],
-   "title": "Risk Ladder"
+   "title": "Risk Ladder",
+   "unit": 2
   },
   "room-designer": {
    "lessons": [
@@ -246,72 +282,83 @@ window.LSA_CATALOG = {
     "4.6",
     "4.7"
    ],
-   "title": "Room Designer"
+   "title": "Room Designer",
+   "unit": 4
   },
   "room-tour": {
    "lessons": [
     "0.2"
    ],
-   "title": "Room Tour"
+   "title": "Room Tour",
+   "unit": 0
   },
   "round-up": {
    "lessons": [
     "6.13",
     "6.15"
    ],
-   "title": "Round Up"
+   "title": "Round Up",
+   "unit": 6
   },
   "rules-we-wrote": {
    "lessons": [
     "0.4",
     "0.5"
    ],
-   "title": "Rules We Wrote"
+   "title": "Rules We Wrote",
+   "unit": 0
   },
   "safe-or-not-safe": {
    "lessons": [
     "1.2",
     "1.3"
    ],
-   "title": "Safe or Not Safe"
+   "title": "Safe or Not Safe",
+   "unit": 1
   },
   "set-the-table": {
    "lessons": [
     "6.11"
    ],
-   "title": "Set the Table"
+   "title": "Set the Table",
+   "unit": 6
   },
   "six-letters": {
    "lessons": [
     "2.2"
    ],
-   "title": "Six Letters"
+   "title": "Six Letters",
+   "unit": 2
   },
   "six-objects": {
    "lessons": [
     "0.1"
    ],
-   "title": "Six Objects"
+   "title": "Six Objects",
+   "unit": 0
   },
   "smart-shopper": {
    "lessons": [
     "1.16",
     "1.15"
    ],
-   "title": "Smart Shopper"
+   "title": "Smart Shopper",
+   "unit": 1
   },
   "stage-sort": {
    "lessons": [
     "3.1",
     "3.2"
    ],
-   "title": "Stage Sort"
+   "title": "Stage Sort",
+   "unit": 3
   },
   "star-sort": {
    "lessons": [
     "7.4"
    ],
-   "title": "STAR Sort"
+   "title": "STAR Sort",
+   "unit": 7
   },
   "station-rush": {
    "lessons": [
@@ -319,92 +366,106 @@ window.LSA_CATALOG = {
     "1.2",
     "1.4"
    ],
-   "title": "Station Rush"
+   "title": "Station Rush",
+   "unit": 0
   },
   "stitch-match": {
    "lessons": [
     "5.6",
     "5.9"
    ],
-   "title": "Stitch Match"
+   "title": "Stitch Match",
+   "unit": 5
   },
   "toast-or-fire": {
    "lessons": [
     "3.7",
     "3.8"
    ],
-   "title": "Toast or Fire"
+   "title": "Toast or Fire",
+   "unit": 3
   },
   "tool-id": {
    "lessons": [
     "1.5"
    ],
-   "title": "Tool ID"
+   "title": "Tool ID",
+   "unit": 1
   },
   "tool-kit": {
    "lessons": [
     "5.5",
     "5.10"
    ],
-   "title": "Tool Kit"
+   "title": "Tool Kit",
+   "unit": 5
   },
   "trait-spotter": {
    "lessons": [
     "7.3",
     "7.5"
    ],
-   "title": "Trait Spotter"
+   "title": "Trait Spotter",
+   "unit": 7
   },
   "twenty-dollar-dinner": {
    "lessons": [
     "6.4"
    ],
-   "title": "Twenty Dollar Dinner"
+   "title": "Twenty Dollar Dinner",
+   "unit": 6
   },
   "waste-not": {
    "lessons": [
     "6.5",
     "6.3"
    ],
-   "title": "Waste Not"
+   "title": "Waste Not",
+   "unit": 6
   },
   "waste-watch": {
    "lessons": [
     "4.4"
    ],
-   "title": "Waste Watch"
+   "title": "Waste Watch",
+   "unit": 4
   },
   "ways-to-pay": {
    "lessons": [
     "2.10",
     "2.11"
    ],
-   "title": "Ways to Pay"
+   "title": "Ways to Pay",
+   "unit": 2
   },
   "where-clothes-go": {
    "lessons": [
     "5.14"
    ],
-   "title": "Where Clothes Go"
+   "title": "Where Clothes Go",
+   "unit": 5
   },
   "where-does-it-go": {
    "lessons": [
     "1.17"
    ],
-   "title": "Where Does It Go"
+   "title": "Where Does It Go",
+   "unit": 1
   },
   "who-built-it": {
    "lessons": [
     "4.16"
    ],
-   "title": "Who Built It"
+   "title": "Who Built It",
+   "unit": 4
   },
   "worth-the-wear": {
    "lessons": [
     "5.13",
     "5.12"
    ],
-   "title": "Worth the Wear"
+   "title": "Worth the Wear",
+   "unit": 5
   }
  },
  "lessons": {
@@ -944,5 +1005,15 @@ window.LSA_CATALOG = {
    "page": "lesson-07-09.html",
    "title": "The Elevator Pitch"
   }
+ },
+ "units": {
+  "0": "Launch: Welcome to the FACS Room",
+  "1": "Kitchen Skills and Smart Eating",
+  "2": "Me, My Goals, My Money",
+  "3": "Growing Up, Getting Along",
+  "4": "Spaces We Live In",
+  "5": "Make It, Mend It, Wear It",
+  "6": "From Farm to Table",
+  "7": "Launch: Career Readiness and FACS Shark Tank"
  }
 };

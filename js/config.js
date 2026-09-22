@@ -2,6 +2,6 @@
 window.LSA_CONFIG = {
   "supabaseUrl": "https://iwfuqusmzhckyffznbuw.supabase.co",
   "anonKey": "sb_publishable_W8p6BwIusDMWjTix7q4vbA_xI4b7wUv",
-  "postScores": false,
+  "postScores": true,
   "version": "2026-09-22"
 };

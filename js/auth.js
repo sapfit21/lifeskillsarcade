@@ -51,35 +51,63 @@
     });
   }
 
-  /*  the menu */
-  function navList() { var n = q("#siteNav ul"); return n; }
-  function addNav(text, href, extraClass, first) {
-    var ul = navList();
-    if (!ul) { return null; }
-    var li = el("li");
-    var a = el("a", extraClass || "", text);
-    if (href) { a.href = base + href; } else { a.href = "#"; }
-    li.appendChild(a);
-    if (first && ul.firstChild) { ul.insertBefore(li, ul.firstChild); } else { ul.appendChild(li); }
+  /*  the avatars: a fixed set, stored by key, never free text (D102) */
+  var AVATARS = {
+    apple: "\uD83C\uDF4E", carrot: "\uD83E\uDD55", pizza: "\uD83C\uDF55", cupcake: "\uD83E\uDDC1",
+    fox: "\uD83E\uDD8A", turtle: "\uD83D\uDC22", bee: "\uD83D\uDC1D", owl: "\uD83E\uDD89",
+    rocket: "\uD83D\uDE80", star: "\u2B50", target: "\uD83C\uDFAF", puzzle: "\uD83E\uDDE9",
+    guitar: "\uD83C\uDFB8", basketball: "\uD83C\uDFC0", rainbow: "\uD83C\uDF08", fire: "\uD83D\uDD25"
+  };
+  function avatarChar(key) { return AVATARS[key] || "\uD83C\uDFAE"; }
+
+  /*  the account bar, top right on every page (D102) */
+  function acctBox() {
+    var box = q("#lsaAcct");
+    if (!box) {
+      var head = q(".head-inner");
+      if (!head) { return null; }
+      box = el("div", "acct");
+      box.id = "lsaAcct";
+      head.appendChild(box);
+    }
+    return box;
+  }
+  function link(text, href, cls) {
+    var a = el("a", cls || "acct-link", text);
+    a.href = href ? base + href : "#";
     return a;
   }
   function drawNav() {
-    qa("#siteNav li.lsa-auth").forEach(function (li) { li.parentNode.removeChild(li); });
-    var ul = navList();
-    if (!ul) { return; }
-    function item(text, href, onClick) {
-      var a = addNav(text, href, "lsa-auth-link");
-      if (a) { a.parentNode.className = "lsa-auth"; if (onClick) { a.addEventListener("click", onClick); } }
-      return a;
-    }
+    var box = acctBox();
+    if (!box) { return; }
+    box.textContent = "";
     if (who && who.role === "teacher") {
-      item("Class", "class.html");
-      item("Sign out (" + (who.teacher.display_name || who.user.email || "teacher") + ")", null, signOut);
+      var name = who.teacher.display_name || who.user.email || "Teacher";
+      var who1 = el("span", "acct-who");
+      who1.appendChild(el("span", "acct-avatar", "\uD83C\uDF93"));
+      who1.appendChild(el("span", "acct-name", name));
+      box.appendChild(who1);
+      box.appendChild(link("Class", "class.html", "acct-link" + (page() === "class.html" ? " on" : "")));
+      box.appendChild(link("Leaderboard", "leaderboard.html", "acct-link" + (page() === "leaderboard.html" ? " on" : "")));
+      var out1 = link("Sign out", null, "acct-link quiet");
+      out1.addEventListener("click", signOut);
+      box.appendChild(out1);
     } else if (who && who.role === "student") {
-      item("Sign out (" + who.username + ")", null, signOut);
+      var who2 = el("a", "acct-who");
+      who2.href = base + "scores.html";
+      who2.appendChild(el("span", "acct-avatar", avatarChar(who.avatar)));
+      who2.appendChild(el("span", "acct-name", who.username));
+      box.appendChild(who2);
+      box.appendChild(link("Scores", "scores.html", "acct-link" + (page() === "scores.html" ? " on" : "")));
+      box.appendChild(link("Leaderboard", "leaderboard.html", "acct-link" + (page() === "leaderboard.html" ? " on" : "")));
+      var out2 = link("Sign out", null, "acct-link quiet");
+      out2.addEventListener("click", signOut);
+      box.appendChild(out2);
     } else {
-      item("Sign in", "signin.html");
+      box.appendChild(link("Sign in", "signin.html", "acct-link signin" + (page() === "signin.html" ? " on" : "")));
     }
+    document.documentElement.classList.toggle("lsa-signed-in", !!who);
+    qa(".lsa-board").forEach(function (a) { a.hidden = !who; });
   }
   function signOut(ev) {
     if (ev) { ev.preventDefault(); }
@@ -93,9 +121,10 @@
     var u = session.user;
     var meta = u.user_metadata || {};
     if (meta.kind === "student") {
-      return client.from("students").select("id, class_id, username").eq("auth_user_id", u.id).maybeSingle()
+      return client.from("students").select("id, class_id, username, avatar").eq("auth_user_id", u.id).maybeSingle()
         .then(function (r) {
-          who = r.data ? {role: "student", user: u, username: r.data.username, student_id: r.data.id, class_id: r.data.class_id}
+          who = r.data ? {role: "student", user: u, username: r.data.username, student_id: r.data.id,
+                          class_id: r.data.class_id, avatar: r.data.avatar}
                        : {role: "student", user: u, username: meta.username || "student"};
           return who;
         });
@@ -228,7 +257,8 @@
   function init() {
     if (!ready) { return; }
     var p = page();
-    var needsClient = hasSession() || p === "signin.html" || p === "class.html";
+    var needsClient = hasSession() || p === "signin.html" || p === "class.html"
+                      || p === "scores.html" || p === "leaderboard.html";
     if (!needsClient) { drawNav(); return; }
     withClient(function (err) {
       if (err) { drawNav(); return; }
@@ -252,6 +282,25 @@
     callFn: callFn,
     base: base,
     signOut: signOut,
+    avatars: AVATARS,
+    avatarChar: avatarChar,
+    /* a student picks one of the fixed avatars; the key is all that is stored */
+    setAvatar: function (key) {
+      if (!client || !who || !who.student_id || !AVATARS[key]) { return Promise.reject(new Error("no")); }
+      return client.from("students").update({avatar: key}).eq("id", who.student_id).then(function (r) {
+        if (r.error) { throw r.error; }
+        who.avatar = key;
+        drawNav();
+        return key;
+      });
+    },
+    /* the class board: best run per student per game, from the function */
+    board: function (classId, since) {
+      return client.rpc("class_board", {p_class: classId, p_since: since || null}).then(function (r) {
+        if (r.error) { throw r.error; }
+        return r.data || [];
+      });
+    },
     /* the student door: username and PIN to the edge function, then a real session */
     studentSignIn: function (username, pin) {
       return callFn("student-login", {username: username, pin: pin}).then(function (r) {
