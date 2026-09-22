@@ -206,6 +206,16 @@
       wrap.appendChild(fileButtons(stem, kind === "assessment" ? "" : "With key"));
       a.parentNode.replaceChild(wrap, a);
     });
+    /* the About page: teacher only, the body comes from the bucket (D109) */
+    qa(".about-gate[data-about]").forEach(function (box) {
+      fetchPrivateText(box.getAttribute("data-about")).then(function (html) {
+        box.innerHTML = html;
+        box.classList.add("loaded");
+      }).catch(function (e) {
+        var p = box.querySelector(".gated-note");
+        if (p) { p.textContent = "Could not load the page: " + e.message; }
+      });
+    });
     /* the handout page: the key section, on the page */
     qa(".gated-note[data-key]").forEach(function (note) {
       var keyPath = note.getAttribute("data-key");

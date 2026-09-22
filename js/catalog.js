@@ -606,7 +606,7 @@ window.LSA_CATALOG = {
   },
   "2.14": {
    "page": "lesson-02-14.html",
-   "title": "ClassroomStreet Launch Risk and Reward"
+   "title": "The Gilded Age Market Opens Risk and Reward"
   },
   "2.15": {
    "page": "lesson-02-15.html",
