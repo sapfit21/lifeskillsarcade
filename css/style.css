@@ -289,6 +289,9 @@ a.dl.gated{border-style:dashed;color:var(--ink-3)}
 .doc li{margin:.3rem 0}
 .doc li > ul,.doc li > ol{margin:.3rem 0}
 .doc hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
+.figure{margin:1.2rem 0;text-align:center}
+.figure img{max-width:100%;height:auto;border:0}
+.figure-missing{color:var(--brand-red,#D4472F);font-style:italic}
 code{font:.88em var(--mono);background:var(--surface-2);border:1px solid var(--line-2);
   border-radius:4px;padding:.08em .35em}
 pre{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);
@@ -554,7 +557,8 @@ table.lessons tbody td:first-child{padding-left:.55rem}
   thead th{background:#f2f2f2;border-bottom:1pt solid #000}
   tr{page-break-inside:avoid;break-inside:avoid}
   th,td{border:.5pt solid #999;padding:.22rem .3rem}
-  .lesson-sec,.slide,.std-group,.doc-fold{page-break-inside:avoid;break-inside:avoid}
+  .lesson-sec,.slide,.std-group,.doc-fold,.figure{page-break-inside:avoid;break-inside:avoid}
+  .figure img{max-width:6.5in;max-height:8in}
   .std-group li{page-break-inside:avoid;break-inside:avoid}
   .unit-card,.fact{border:.5pt solid #999;box-shadow:none;page-break-inside:avoid}
   .unit-grid{display:block}
