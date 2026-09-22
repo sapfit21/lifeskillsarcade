@@ -86,15 +86,26 @@ a:hover{text-decoration-thickness:2px}
 .brand{grid-area:brand;display:flex;flex-direction:column;align-items:center;text-align:center;
   text-decoration:none;color:var(--ink);line-height:1.2}
 /* the account bar: Sign in, or who is signed in and where they can go (D102) */
-.acct{grid-area:acct;justify-self:end;display:flex;align-items:center;gap:.3rem;flex-wrap:wrap;justify-content:flex-end;min-height:2rem;min-width:0}
-@media (min-width:901px){.acct{flex-wrap:nowrap}.acct-name{max-width:7.5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
-.acct-link{display:inline-block;font-size:.84rem;font-weight:600;padding:.38rem .7rem;border-radius:999px;
+.acct{grid-area:acct;justify-self:stretch;display:flex;align-items:center;gap:.2rem;flex-wrap:wrap;justify-content:flex-end;min-height:2rem;min-width:0}
+.acct-name{max-width:6.5rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* The header measures itself, not the window: a game page's body is 900px
+   wide, and there the signed in bar (avatar, name, three links) is wider
+   than its column and ran over the brand. Under the full 1220px header
+   (every game page, tablets, narrow windows) the bar takes its own centred
+   row under the brand, the same shape as the phone; the full width desktop
+   header keeps it top right. */
+.site-head{container-type:inline-size}
+@container (max-width:1219px){
+  .head-inner{grid-template-areas:"toggle brand ." "acct acct acct" "nav nav nav"}
+  .acct{justify-self:center;justify-content:center}
+}
+.acct-link{display:inline-block;font-size:.84rem;font-weight:600;padding:.36rem .5rem;border-radius:999px;
   border:1.5px solid var(--line);background:var(--surface);color:var(--ink-2);text-decoration:none;white-space:nowrap}
 .acct-link:hover{border-color:var(--accent-line);color:var(--accent)}
 .acct-link.on{background:var(--accent-soft);color:var(--accent);border-color:var(--accent-line)}
 .acct-link.signin{background:var(--brand-yellow,#E8A317);color:#1a1a1a;border:2px solid var(--outline)}
 .acct-link.quiet{border-color:transparent;background:transparent}
-.acct-who{display:inline-flex;align-items:center;gap:.35rem;font-weight:700;font-size:.9rem;color:var(--ink);
+.acct-who{display:inline-flex;align-items:center;gap:.3rem;font-weight:700;font-size:.9rem;color:var(--ink);
   text-decoration:none;padding:.25rem .6rem .25rem .3rem;border-radius:999px;border:2px solid var(--outline);background:var(--surface)}
 .acct-avatar{display:inline-flex;align-items:center;justify-content:center;width:1.7rem;height:1.7rem;border-radius:50%;
   background:var(--accent-soft);font-size:1.05rem;line-height:1}
