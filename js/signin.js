@@ -57,8 +57,9 @@
       }).catch(function (e) {
         busy(go, false, "Sign in and play");
         var msg = e.message || "That did not work.";
-        if (e.data && typeof e.data.attempts_left === "number" && e.data.attempts_left > 0) {
-          msg += " " + e.data.attempts_left + (e.data.attempts_left === 1 ? " try" : " tries") + " left.";
+        var left = e.data ? (typeof e.data.tries_left === "number" ? e.data.tries_left : e.data.attempts_left) : null;
+        if (typeof left === "number" && left > 0 && !(e.data && e.data.locked)) {
+          msg += " " + left + (left === 1 ? " try" : " tries") + " left.";
         }
         say("s-msg", msg, true);
       });

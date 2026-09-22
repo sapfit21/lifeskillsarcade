@@ -1,7 +1,7 @@
 /* the public backend settings; see _tools/site/config.json */
 window.LSA_CONFIG = {
-  "supabaseUrl": "",
-  "anonKey": "",
+  "supabaseUrl": "https://iwfuqusmzhckyffznbuw.supabase.co",
+  "anonKey": "sb_publishable_W8p6BwIusDMWjTix7q4vbA_xI4b7wUv",
   "postScores": false,
-  "version": "2026-09-21"
+  "version": "2026-09-22"
 };
