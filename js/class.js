@@ -21,7 +21,9 @@
     p.textContent = text || "";
     p.className = "form-msg" + (bad ? " bad" : "") + (text ? " show" : "");
   }
-  function pct(score, max) { return max > 0 ? Math.round(100 * score / max) : 0; }
+  /* a percent of the base points; speed and streak bonuses can push a
+     score past max, so the percent stops at 100 */
+  function pct(score, max) { return max > 0 ? Math.min(100, Math.round(100 * score / max)) : 0; }
   function dateOf(iso) {
     if (!iso) { return ""; }
     var d = new Date(iso);
